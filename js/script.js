@@ -20,6 +20,12 @@ $(document).ready(function() {
 				  return false;
 				});
 			  });
+			  
+		if ($(location).attr('href').indexOf("http://info.template-help.com")+1)
+		{
+			$('#copyright').text('Template-Help.com');
+		}			  
+
  		// slide-down-box-------------------------------  
       var idArray = [],
           click_scroll = false;
