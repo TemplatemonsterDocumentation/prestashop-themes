@@ -24,7 +24,11 @@ $(document).ready(function() {
 		if ($(location).attr('href').indexOf("http://info.template-help.com")+1)
 		{
 			$('#copyright').text('Template-Help.com');
-		}			  
+		}	
+
+		// current year
+			  var date = new Date();
+			  $("#date").html(date.getFullYear());
 
  		// slide-down-box-------------------------------  
       var idArray = [],
