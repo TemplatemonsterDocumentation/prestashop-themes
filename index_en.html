@@ -7,14 +7,14 @@
   <link rel="stylesheet" href="css/responsive.css" media="screen">
   <link rel="stylesheet" href="css/style.css" media="screen">
   <link rel="stylesheet" href="css/prettify.css"  media="screen">
-  <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/prestashop-themes/master/index_en.html"/> 
+  <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/prestashop-themes/master/index_en.html"/>
+  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css"> 
   <script src="js/jquery.js"></script>
   <script src="js/jquery.scrollTo.js"></script>
   <script src="js/prettify.js"></script>
   <script src="js/jquery-migrate-1.1.0.js"></script>
   <script src="js/bootstrap-affix.js"></script>
   <script src="js/script.js"></script>    
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css"> 
 
     <!--[if lt IE 8]>
   		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg"border="0"alt=""/></a></div>  
@@ -39,7 +39,7 @@
     <div class="languages pull-right">
      <div id="lang_icon"><b>En</b><i class="icon-angle-down"></i></div>
       <ul id="lang_list">
-        <li class="active"><a href="index.html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
+        <li class="active"><a href="index_en.html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
         <!--li><a href="index_fr.html"><span>Français </span><img src="img/flags/fr.jpg" height="14" width="22" alt="fr"></a></li-->
         <li><a href="index_es.html"><span>Español </span><img src="img/flags/es.png" height="14" width="22" alt="es"></a></li>
         <li><a href="index_de.html"><span>Deutsch </span><img src="img/flags/de.png" height="14" width="22" alt="de"></a></li>
@@ -111,7 +111,7 @@
                          <dd>
                            <ul class="list">          
                             	<li><a href="#changename">How to change store name</a></li>
-                                <li><a href="#header_links">How to edit header and footer links</a></li>
+                                <!--li><a href="#header_links">How to edit header and footer links</a></li-->
                                 <li><a href="#eddit_slider">How to edit slider</a></li>
                                 <!--li><a href="#edditbanner">How to edit banners</a></li-->
                            </ul> 
@@ -120,7 +120,7 @@
                   </li>
                   <li class="nav-item item3">
                     <dl class="slide-down">
-                       <dt><a href="#cookiepolicy" class="icon-exclamation-sign">Cookie Policy </a></dt>
+                       <dt><a href="#cookiepolicy" class="icon-exclamation-sign">Cookies Policy</a></dt>
                          <dd></dd>
                      </dl> 
                   </li>
@@ -205,23 +205,22 @@
     	<p>Check the PHP settings and directory permissions. In case of any errors, please contact your hosting provider for further assistance.</p>
 		<img class="presta_scr1" src="img/02-install.png" alt="" />
 		<p>If everything is correct,  click the 'Next' button.</p>
-    <h4>Step 4: System Configuration</h4>
+    <h4>Step 4: Shop configuration</h4>
+		<p>This step requires for you  to enter the store settings like: Shop name,  activity, country, timezone, upload your logo etc.</p>
+<p>All these settings can be changed later in your PrestaShop administration panel.</p>
+		<img class="presta_scr1" src="img/04-install.png" alt="" />
+	<h4>Step 5: System Configuration</h4>
 		<p>As you already have a MySQL database, please enter the database details into the appropriate fields below.</p>
 		<p>Otherwise, you can get the database details from your hosting control panel or by contacting hosting provider.</p>
 		<img class="presta_scr1" src="img/03-install.png" alt="" />
 		<p>When you are done, click <b>'Next'</b> button.</p>
-    <h4>Step 5: Shop configuration</h4>
-		<p>This step requires for you  to enter the store settings like: Shop name,  activity, country, timezone, upload your logo etc.</p>
-<p>All these settings can be changed later in your PrestaShop administration panel.</p>
-		<img class="presta_scr1" src="img/04-install.png" alt="" />
-
 	<h4>Step 6: Installation is complete</h4>
 		<p>This is the final step of the installation.</p>
 		<img class="presta_scr1" src="img/05-install.png" alt="" />
 	<h3></h3>
 	<div class="box-notification"><span>For security reasons you need to delete the <b>/install/</b> directory on your hosting server.</span></div>
 	<div class="box-info"><span>Starting with version 1.5.4, PrestaShop takes care of renaming the administration folder for you: it becomes the word "admin" followed by 4 random digits, i.e "admin8814". The renaming happens as soon as you reach the "admin" folder for the first time: PrestaShop renames it, then correctly accesses the renamed folder.<br /><br />Log in to the PrestaShop back-office by going to your newly-renamed "admin" folder, and start filling your catalog with your data.</span></div>
-	<p>In case of any difficulties you can check the <a target="_blank" href="http://doc.prestashop.com/display/PS15/Getting+Started">official PrestaShop installation manual</a> or the following tutorials <a href="/help/prestashop-how-to-install-prestashop-1-5-engine.html" target="_blank">How to install prestashop 1.5 engine</a>.</p>
+	<p>In case of any difficulties you can check the <a target="_blank" href="http://doc.prestashop.com/display/PS16/Getting+Started">official PrestaShop installation manual</a>.</p>
   </article>
 
 </section>
@@ -269,19 +268,16 @@
 			<li>Then go to the <b>/theme/</b> folder.</li>
 			<li>Upload <b>/img/</b>, <b>/modules/</b> and <b>/themes/</b> folders to the PrestaShop root directory.</li>
 			<li>When you are done, open the PrestaShop admin panel.</li>
-			<li>Select <b>Preferences > Themes</b> from the top menu.</li>
+			<li>Select <b>Preferences > Themes</b> from the main menu.</li>
 			<li>Select your template in the <b>Themes</b> section and click a <b>Save</b> button.</li>
 		</ol>
 		<p>Your new theme should be active now. Now you need to configure the modules.</p>
         <h4 id="template_installation_clear2">2. Installing and configuring modules</h4>
 		<p>Each template is provided with some specific module settings. To make the modules appear as on the template preview, you will need to configure them. All modules can be configured in the PrestaShop admin panel.</p>
-		<p><b>1. In your PrestaShop admin panel from the top menu select Modules > Modules.</b></p>
+		<p><b>1. In your PrestaShop admin panel from the main menu select Modules > Modules.</b></p>
 		<p>On the Modules page you can see the list of available PrestaShop modules. You may need to install some of them.</p>
 		<p>To install a module, locate it in the list and click the <b>'Install'</b> button:</p>
 		<img class="presta_scr2" src="img/06-modules.png" alt="" />
-        <p></p>
-		<p>If installation has been done correctly you'll see the following message:</p>
-		<img class="presta_scr2" src="img/07-modules.png" alt="" />
         <p></p>
 		<p>Using the module links you can activate modules (<b>Enable</b>|<b>Disable</b> links), reset settings to default (<b>Reset</b> link), delete module (<b>Delete</b> link) or configure them (<b>Configure</b> link).</p>
 		<img class="presta_scr2" src="img/08-modules.png" alt="" />
@@ -350,21 +346,21 @@
 		<p>In the <b>Shop name</b> field, type your store name and click the Save button to save your changes.</p>
 		<img class="presta_scr2" src="img/10-shop_name.png" alt="" />
     </article>
-    <article id="header_links">
+    <!--article id="header_links">
     	<h3 id="basic_tutorials2">2. How to edit header and footer links</h3>
 		<p>Please check a detailed tutorial on how to <a target="_blank" href="/help/prestashop-1-5-x-how-to-manage-footer-and-header-links.html">edit header links</a>.</p>
-    </article>
+    </article-->
     <article id="eddit_slider">
-    	<h3 id="basic_tutorials4">3. How to edit slider</h3>
-        <p>To edit the slider images, find the <b>minic slider</b> module on the <b>Modules</b> page of your PrestaShop store. It is located in the <b>Advertising and Marketing</b> modules section. Click the <b>Configure</b> button to edit the module. </p>
+    	<h3 id="basic_tutorials4">2. How to edit slider</h3>
+        <p>To edit the slider images, find the <b>Image slider for your homepage</b> module on the <b>Modules</b> page of your PrestaShop store. It is located in the <b>Front Office Features </b> modules section. Click the <b>Configure</b> button to edit the module. </p>
         <img class="presta_scr2" src="img/12-slider-1.png" alt="" />
-        <p>On  the module settings page you can change the slider options (such as width, height, speed, etc.) and edit slides (slide images, URLs, descriptions, etc.).</p>
+        <p>On  the module settings page you can change the slider options (such as width, speed, etc.) and edit slides (slide images, URLs, descriptions, etc.).</p>
         <img class="presta_scr2" src="img/12-slider-2.png" alt="" />
     </article>
 </section>
 <section class="block-templates" id="cookiepolicy">
-	<h2><i class="icon-exclamation-sign"></i> Cookie Policy</h2>
-	<p>Following the Cookie Law conditions you can add sufficient modules to your website. Module will display a warning message about the cookies used on your website. You can use the following ones:</p>
+	<h2><i class="icon-exclamation-sign"></i> Cookies Policy</h2>
+	<p>Following the Cookie Law conditions, you should add appropriate modules to your website that will display a warning message about the cookies used on your website. We can recommend the following ones:</p>
 	<ul>
 		<li><a target="_blank" href="http://addons.prestashop.com/en/front-office-features-prestashop-modules/8704-eu-cookie-law.html">Module EU Cookie Law</a></li>
 		<li><a target="_blank" href="http://addons.prestashop.com/en/administration-tools-prestashop-modules/10376-alert-for-eu-cookie-law.html">Module Alert for EU Cookie Law</a></li>
@@ -375,10 +371,10 @@
     <h4 id="useful_resources">Useful resources</h4>
     <ul>
         <li><a target="_blank" href="http://www.prestashop.com/">PrestaShop official site</a></li>
-        <li><a target="_blank" href="/help/ecommerce/prestashop/prestashop-tutorials/">PrestaShop tutorials</a></li>
+        <!--li><a target="_blank" href="/help/ecommerce/prestashop/prestashop-tutorials/">PrestaShop tutorials</a></li-->
         <li><a target="_blank" href="http://www.prestashop.com/en/downloads/">Downloads</a></li>
         <li><a target="_blank" href="http://addons.prestashop.com/en/">Addons: modules, themes, etc.</a></li>
-        <li><a target="_blank" href="http://doc.prestashop.com/display/PS15/English+documentation">English documentation</a></li>
+        <li><a target="_blank" href="http://doc.prestashop.com/display/PS16/English+documentation">English documentation</a></li>
         <li><a target="_blank" href="http://www.prestashop.com/forums/">Forum</a></li>
         <li><a target="_blank" href="http://www.prestashop.com/wiki/">Wiki</a></li>
     </ul>
