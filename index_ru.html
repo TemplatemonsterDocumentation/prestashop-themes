@@ -7,15 +7,13 @@
   <link rel="stylesheet" href="css/responsive.css" media="screen">
   <link rel="stylesheet" href="css/style.css" media="screen">
   <link rel="stylesheet" href="css/prettify.css"  media="screen">
-  <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/prestashop-themes/master/index_en.html"/>
-  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">  
+  <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/prestashop-themes/master/index_en.html"/> 
   <script src="js/jquery.js"></script>
   <script src="js/jquery.scrollTo.js"></script>
   <script src="js/prettify.js"></script>
   <script src="js/jquery-migrate-1.1.0.js"></script>
   <script src="js/bootstrap-affix.js"></script>
   <script src="js/script.js"></script>    
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css"> 
     <!--[if lt IE 8]>
   		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg"border="0"alt=""/></a></div>  
  	  <![endif]-->
@@ -39,7 +37,7 @@
     <div class="languages pull-right">
      <div id="lang_icon"><b>Ru</b><i class="icon-angle-down"></i></div>
       <ul id="lang_list">
-        <li><a href="index_en.html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
+        <li><a href="index.html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
         <!--li><a href="index_fr.html"><span>Français </span><img src="img/flags/fr.jpg" height="14" width="22" alt="fr"></a></li-->
         <li><a href="index_es.html"><span>Español </span><img src="img/flags/es.png" height="14" width="22" alt="es"></a></li>
         <li><a href="index_de.html"><span>Deutsch </span><img src="img/flags/de.png" height="14" width="22" alt="de"></a></li>
@@ -111,17 +109,11 @@
                          <dd>
                            <ul class="list">          
                             	<li><a href="#changename">Как изменить название магазина</a></li>
-                                <!--li><a href="#header_links">Как редактировать ссылки в хеддере и подвале</a></li-->
+                                <li><a href="#header_links">Как редактировать ссылки в хеддере и подвале</a></li>
                                 <li><a href="#eddit_slider">Как редактировать слайдер</a></li>
                                 <!--li><a href="#edditbanner">How to edit banners</a></li-->
                            </ul> 
                        </dd>
-                     </dl> 
-                  </li>
-				  <li class="nav-item item3">
-                    <dl class="slide-down">
-                       <dt><a href="#cookiepolicy" class="icon-exclamation-sign">Информация о Cookies</a></dt>
-                         <dd></dd>
                      </dl> 
                   </li>
                   <li class="nav-item item3">
@@ -205,22 +197,23 @@
     	<p>Проверьте настойки PHP и права в папках. В случае любых ошибок обратитесь за помощью к вашему хостеру.</p>
 		<img class="presta_scr1" src="img/02-install.png" alt="" />
 		<p>Если ошибок нет, нажмите кнопку 'Next'.</p>
-    <h4>Шаг 4: Настойка магазина</h4>
-		<p>На этом этапе вам потребуется настроить магазин. Укажите: Название магазина, валюту, временную зону, загрузите логотип и т.д.</p>
-		<p>Все эти данные можно будет потом отредактировать через панель управления PrestaShop.</p>
-		<img class="presta_scr1" src="img/04-install.png" alt="" />
-	<h4>Шаг 5: Настройка системы</h4>
+    <h4>Шаг 4: Настройка системы</h4>
 		<p>У вас уже есть база данных MySQL. Укажите данные для доступа к ней в соответствующих полях.</p>
 		<p>Вы можете получить необходимые данные через панель управления вашим хостингом или же обратившись к хостеру.</p>
 		<img class="presta_scr1" src="img/03-install.png" alt="" />
 		<p>После завершения нажмите кнопку 'Next'.</p>
+    <h4>Шаг 5: Настойка магазина</h4>
+		<p>На этом этапе вам потребуется настроить магазин. Укажите: Название магазина, валюту, временную зону, загрузите логотип и т.д.</p>
+<p>Все эти данные можно будет потом отредактировать через панель управления PrestaShop.</p>
+		<img class="presta_scr1" src="img/04-install.png" alt="" />
+
 	<h4>Шаг 6: Завершение установки</h4>
 		<p>Это завершающий этап установки.</p>
 		<img class="presta_scr1" src="img/05-install.png" alt="" />
 	<h3></h3>
 	<div class="box-notification"><span>Для обеспечения безопасности вам нужно удалить папку <b>/install/</b> с вашего сервера.</span></div>
 	<div class="box-info"><span>Начиная с версии 1.5.4, PrestaShop берет на себя смену названия папки содержащей панель управления: оно содержит слово "admin" с четырьмя случайными цифрами , к примеру "admin8814". Смена названия происходит в момент, когда вы входите в папку "admin" впервые: PrestaShop переименует ее, а потом перейдет в папку с новым именем.<br /><br />Войдите в панель управления PrestaShop перейдя в только что переименованную папку "admin" и можете приступать к наполнению магазина.</span></div>
-	<p>В случае любых сложностей вы можете обратиться к <a target="_blank" href="http://doc.prestashop.com/display/PS16/Getting+Started">оффициальной инструкции PrestaShop</a>.</p>
+	<p>В случае любых сложностей вы можете обратиться к <a target="_blank" href="http://doc.prestashop.com/display/PS15/Getting+Started">оффициальной инструкции PrestaShop</a> или материалу <a href="/help/ru/prestashop-how-to-install-prestashop-1-5-engine.html" target="_blank">как установить движок Prestashop 1.5 на сервер </a>.</p>
   </article>
 
 </section>
@@ -268,7 +261,7 @@
 			<li>Перейдите в папку <b>/theme/</b>.</li>
 			<li>Загрузите папки <b>/img/</b>, <b>/modules/</b> и <b>/themes/</b> в корневую папку PrestaShop.</li>
 			<li>После окончания загрузки зайдите в панель управления PrestaShop.</li>
-			<li>Выберите <b>Preferences > Themes</b> в главном меню.</li>
+			<li>Выберите <b>Preferences > Themes</b> в верхнем меню.</li>
 			<li>Выберите устанавливаемый шаблон в разделе <b>Themes</b> и нажмите кнопку <b>Save</b>.</li>
 		</ol>
 		<p>Новая тебя должна активироваться. Теперь вам потребуется настроить модули.</p>
@@ -349,35 +342,27 @@
 		<p>В поле <b>Shop name</b> укажите название вашего магазина и нажмите кнопку <b>Save</b> для сохранения изменений.</p>
 		<img class="presta_scr2" src="img/10-shop_name.png" alt="" />
     </article>
-    <!--article id="header_links">
+    <article id="header_links">
     	<h3 id="basic_tutorials2">2. Как редактировать ссылки в хеддере и подвале</h3>
 		<p>Посмотрите подробную инструкцию, <a target="_blank" href="/help/ru/prestashop-1-5-x-how-to-manage-footer-and-header-links.html">Как работать с ссылками в хедере и футере</a>.</p>
-    </article-->
+    </article>
     <article id="eddit_slider">
-    	<h3 id="basic_tutorials4">2. Как редактировать слайдер</h3>
-        <p>Для редактирования изображений слайдера найдите модуль <b>Image slider for your homepage</b> на странице <b>Modules</b> вашего магазина PrestaShop. Он находится в разделе модулей <b>Front Office Features </b>. Нажмите кнопку <b>Configure</b> для редактирования модуля. </p>
+    	<h3 id="basic_tutorials4">3. Как редактировать слайдер</h3>
+        <p>Для редактирования изображений слайдера найдите модуль <b>minic slider</b> на странице <b>Modules</b> вашего магазина PrestaShop. Он находится в разделе модулей <b>Advertising and Marketing</b>. Нажмите кнопку <b>Configure</b> для редактирования модуля. </p>
         <img class="presta_scr2" src="img/12-slider-1.png" alt="" />
-        <p>На странице настроек модуля вы можете изменить параметры (такие, как ширина, скорость и т.д.) и отредактировать слайды (изображения слайдов, URLы, описания и т.д.).</p>
+        <p>На странице настроек модуля вы можете изменить параметры (такие, как ширина, высота, скорость и т.д.) и отредактировать слайды (изображения слайдов, URLы, описания и т.д.).</p>
         <img class="presta_scr2" src="img/12-slider-2.png" alt="" />
     </article>
-</section>
-<section class="block-templates" id="cookiepolicy">
-	<h2><i class="icon-exclamation-sign"></i> Информация о Cookies</h2>
-	<p>По закону ЕС о Cookies Вы должны добавить на Ваш сайт модуль, который будет отображать предупреждение о cookies, используемых на сайте. Мы рекомендуем следующие модули:</p>
-	<ul>
-		<li><a target="_blank" href="http://addons.prestashop.com/en/front-office-features-prestashop-modules/8704-eu-cookie-law.html">Module EU Cookie Law</a></li>
-		<li><a target="_blank" href="http://addons.prestashop.com/en/administration-tools-prestashop-modules/10376-alert-for-eu-cookie-law.html">Module Alert for EU Cookie Law</a></li>
-	</ul>
 </section>
 <section class="block-templates" id="conclusion">
 	<h2><i class="icon-question-sign"></i> Выводы</h2>
     <h4 id="useful_resources">Полезные ссылки</h4>
     <ul>
         <li><a target="_blank" href="http://www.prestashop.com/ru/">Оффициальный сайт PrestaShop</a></li>
-        <!--li><a target="_blank" href="/help/ru/ecommerce/prestashop/prestashop-tutorials/">Инструкции PrestaShop</a></li-->
+        <li><a target="_blank" href="/help/ru/ecommerce/prestashop/prestashop-tutorials/">Инструкции PrestaShop</a></li>
         <li><a target="_blank" href="http://www.prestashop.com/ru/download">Скачать</a></li>
         <li><a target="_blank" href="http://addons.prestashop.com/en/">Addons: modules, themes, etc.</a></li>
-        <li><a target="_blank" href="http://doc.prestashop.com/display/PS16/English+documentation">Документация на английском</a></li>
+        <li><a target="_blank" href="http://doc.prestashop.com/display/PS15/English+documentation">Документация на английском</a></li>
         <li><a target="_blank" href="http://www.prestashop.com/forums/">Форум</a></li>
         <li><a target="_blank" href="http://www.prestashop.com/wiki/">Вики</a></li>
     </ul>
