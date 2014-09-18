@@ -105,9 +105,8 @@
                          <dd>
                            <ul class="list">          
                             	<li><a href="#themeinstaller">Import theme</a></li>
-                           		<li><a href="#without_products">Installing template without sample data</a></li>
-                            	<li><a href="#with_products">Template installation with sample data</a></li>
-                            	<li><a href="#overdata">Installing template over existing store</a></li>
+                           		<li><a href="#with_products_auto">Automatic installation with demo data (Sample data installer)</a></li>
+                            	<li><a href="#with_products_manual">Manual template installation with sample data</a></li>
                            </ul> 
                        </dd>
                      </dl> 
@@ -239,68 +238,83 @@
 			<span>Note: this method does not provide sample data installation.</span>
         </div>
         <h4 id="template_installation_themeinstallator1">1. Template preparation.</h4>
-		<p>Before you proceed, please make sure you have already downloaded the template and extracted the files from the template package. You can check detailed tutorials on how to extract files from the template package using <a target="_blank" href="/help/ru/unzipping-your-template.html">WinZip</a> and <a target="_blank" href="/help/ru/how-unzip-template-mac.html">StuffitExpander</a>.</p>
-		<p>When the files are extracted, you can proceed to uploading the template.</p>
-		<h4 id="template_installation_themeinstallator2">2. Installation.</h4>
-		<p>Login to your Prestashop admin panel and navigate to <b>Preferences -> Themes</b>. At the top of the page click the <b>Add new theme</b> button.</p>
+  		<p>Before you proceed, please make sure you have already downloaded the template and extracted the files from the template package. You can check detailed tutorials on how to extract files from the template package using <a target="_blank" href="/help/ru/unzipping-your-template.html">WinZip</a> and <a target="_blank" href="/help/ru/how-unzip-template-mac.html">StuffitExpander</a>.</p>
+  		<p>When the files are extracted, you can proceed to uploading the template.</p>
+  		<h4 id="template_installation_themeinstallator2">2. Installation.</h4>
+  		<p>Login to your Prestashop admin panel and navigate to <b>Preferences -> Themes</b>. At the top of the page click the <b>Add new theme</b> button.</p>
 
-		<img class="presta_scr2" src="img/05-install-2.png" alt="" />
-		<p></p>
-		<p>Click the <b>Add file</b> button in Import from your computer section. Navigate to previously unzipped template package and open <b>themeinstallator</b> folder:</p>
-		<p>Select your theme .zip file and click <b>Save</b></p>
-		<img class="presta_scr2" src="img/05-install-3.png" alt="" />
-		<p></p>
-		<p>The uploading process will be started. You will see the message that the theme has been successfully uploaded. Your new theme preview will appear in the list of installed themes.</p>
+  		<img class="presta_scr2" src="img/05-install-2.png" alt="" />
+  		<p></p>
+  		<p>Click the <b>Add file</b> button in Import from your computer section. Navigate to previously unzipped template package and open <b>themeinstallator</b> folder:</p>
+  		<p>Select your theme .zip file and click <b>Save</b></p>
+  		<img class="presta_scr2" src="img/05-install-3.png" alt="" />
+  		<p></p>
+  		<p>The uploading process will be started. You will see the message that the theme has been successfully uploaded. Your new theme preview will appear in the list of installed themes.</p>
 
-		<img class="presta_scr2" src="img/05-install-4.png" alt="" />
-		<p></p>
-		<p>In order to activate the theme, rollover cursor at the theme preview icon and click <b>Use this theme</b>.</p>
+  		<img class="presta_scr2" src="img/05-install-4.png" alt="" />
+  		<p></p>
+  		<p>In order to activate the theme, rollover cursor at the theme preview icon and click <b>Use this theme</b>.</p>
 
-		<img class="presta_scr2" src="img/05-install-5.png" alt="" />
-		<p></p>
-		<p>You should see the screen with the information of the modules used in the theme, the number of modules that are turned on and off. Click <b>Save</b> in order to continue.</p>
-	<p style="text-align:center;">
-	  <img class="presta_scr2" src="img/05-install-6.png" alt="" />
-	  </p>   
+  		<img class="presta_scr2" src="img/05-install-5.png" alt="" />
+  		<p></p>
+  		<p>You should see the screen with the information of the modules used in the theme, the number of modules that are turned on and off. Click <b>Save</b> in order to continue.</p>
+  	  <p style="text-align:center;">
+  	   <img class="presta_scr2" src="img/05-install-6.png" alt="" />
+  	  </p>   
       <p>After this you will see the pop-up with the message about successful theme activation: the theme has been installed successfully, images have been re-generated up to the defined in theme dimensions. To finish installation click <b>Finish</b> button.</p>
-      <img class="presta_scr2" src="img/05-install-6_1.png" alt="" />
-		<p></p> 
+      <p> 
+        <img class="presta_scr2" src="img/05-install-6_1.png" alt="" />
+  	  </p> 
     </article>
-    <article id="without_products">
-    	<h3>2. Installing template without sample data</h3>
-        <div class="box-info"><span>This installation method will suit you in case you are planing to change the store theme. This method will not harm your existing files or products database. </span></div>
-        <h4 id="template_installation_clear1">1. Uploading files and theme activation</h4>
-		<p>Before you proceed, please make sure you have already downloaded the template and extracted the files from the template package. You can check detailed tutorials on how to extract files from the template package using <a target="_blank" href="/help/unzipping-your-template.html">WinZip</a> and <a target="_blank" href="/help/how-unzip-template-mac.html">StuffitExpander</a>.</p>
-		<p>When the files are extracted, you can proceed to uploading the template.</p>
-        <p>You can check a detailed video tutorial on <a target="_blank" href="/help/how-upload-files-server-2.html">how to upload files to server using FTP manager</a> and <a target="_blank" href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html" >how to upload files to a server using cPanel (WebHost Manager, WHM)</a>.</p>
-		<ol>
-			<li>Open the template package.</li>
-			<li>Then go to the <b>/theme/</b> folder.</li>
-			<li>Upload <b>/img/</b>, <b>/modules/</b> and <b>/themes/</b> folders to the PrestaShop root directory.</li>
-			<li>When you are done, open the PrestaShop admin panel.</li>
-			<li>Select <b>Preferences > Themes</b> from the main menu.</li>
-			<li>Select your template in the <b>Themes</b> section and click the <b>Save</b> button.</li>
-		</ol>
-		<p>Your new theme should be active now. You need to configure the modules.</p>
-        <h4 id="template_installation_clear2">2. Installing and configuring modules</h4>
-		<p>Each template is provided with some specific module settings. To make the modules appear as on the template preview, you will need to configure them. All modules can be configured in the PrestaShop admin panel.</p>
-		<p><b>1. In your PrestaShop admin panel, select Modules > Modules from the main menu.</b></p>
-		<p>On the Modules page you can see the list of available PrestaShop modules. You may need to install some of them.</p>
-		<p>To install a module, locate it in the list and click the <b>'Install'</b> button:</p>
-		<img class="presta_scr2" src="img/06-modules.png" alt="" />
-        <p></p>
-		<p>Using the module links you can activate modules (<b>Enable</b>|<b>Disable</b> links), reset their settings to default (<b>Reset</b> link), delete a module (<b>Delete</b> link) or configure it (<b>Configure</b> link).</p>
-		<img class="presta_scr2" src="img/08-modules.png" alt="" />
-        <p></p>
-		<p><b>2. After activating all the necessary modules you need to assign them to correct positions.</b></p>
-		<p>In PrestaShop admin panel, select <b>Modules > Positions</b> from the top menu. To place a module in the required position, just drag it to the position section of the modules list.</p>
-		<img class="presta_scr2" src="img/09-modules.png" alt="" />
-		<p></p>
-
-		<div class="box-info" style="margin-bottom:0;"><span>In some cases, after changing image dimensions you may need to regenerate the images. This can be done through the <b>Regenerate thumbnails</b> section. </span></div>
+    <article id="with_products_auto">
+    	<h3>2. Automatic installation with demo data (Sample data installer)</h3>
+        <p>After installing <b>sample data</b>, you'll get your Prestashop store appear same as at the template live demo. It will contain all demo products, categories, modules and store settings.</p>
+        
+    <div class="box-error"><span>Please, do not use the sample data for your running website! This will replace all your store products and store settings.</span></div>
+    <p>In order to install sample data using the Sample data installer module please follow instruction from the step 1 <a href="#themeinstaller">(Theme import)</a> of this manual. Then in your store admin panel you'll see Sample data installer module.</p>
+        
+        <p>Using this module you can easily install store sample data in few easy steps. Please do the following:</p>
+        <ol>
+          <li>From the admin panel menu click "Install Demo Store" item.
+              </p>
+                <img class="presta_scr2" src="img/05-install-7.png" alt="" />
+              <p>
+            </li>
+            <li>Select and upload sample data files from <strong>'sample_data'</strong> directory of your template package. You can do this using the "Browse local files" button or dragging sample data files to the browser window.
+              <p>
+                <img class="presta_scr2" src="img/05-install-7_1.png" alt="" />
+              </p>
+            </li>
+            <li>Wait till files are uploaded:
+              <p>
+                <img class="presta_scr2" src="img/05-install-7_2.png" alt="" />
+              </p>
+            </li>
+            <li>Then click <strong>"Continue Install"</strong> button:
+              <p>
+                <img class="presta_scr2" src="img/05-install-7_3.png" alt="" />
+              </p>
+            </li>
+            <li>Then Sample data installer will automatically configure your store and other modules. This can take several minutes.
+              <p>
+                <img class="presta_scr2" src="img/05-install-7_4.png" alt="" />
+              </p>
+            </li>
+            <li>When sample data is installed successfully you need to perform last step - regenerate images. Click <strong>"Go To Regenerate Page"</strong> button.
+              <p>
+                <img class="presta_scr2" src="img/05-install-7_5.png" alt="" />
+              </p>
+            </li>
+            <li>To regenerate images click <strong>"Regenerate thumbnails"</strong> button 
+              <p>
+                <img class="presta_scr2" src="img/05-install-7_6.png" alt="" />
+              </p>
+            </li>
+        </ol>
+        Congratulations, your demo store is installed.
     </article>
-    <article id="with_products">
-    	<h3>3. Template installation with sample data</h3>
+    <article id="with_products_manual">
+    	<h3>3. Manual template installation with sample data</h3>
         <p>After installing the <b>Sample data,</b> you'll get your PrestaShop store to look like the template preview page. It will contain all sample products, store settings, modules settings, etc.</p>
         
 		<div class="box-error"><span>Please, do not use the sample data for your running website! This will replace all your store products and store settings.</span></div>
