@@ -105,10 +105,10 @@
                        <dt><a href="#theme_installation" class="icon-cog"> <i class="icon-sample"></i>Instalación de Plantilla PrestaShop </a></dt>
                          <dd>
                            <ul class="list">          
-                            	<li><a href="#themeinstaller">Instalar plantilla con la ayuda del módulo 'themeinstallator'</a></li>
-                           		<li><a href="#without_products">Instalar plantilla sin datos de muestra</a></li>
-                            	<li><a href="#with_products">Instalar plantilla con datos de muestra</a></li>
-                            	<li><a href="#overdata">Instalar plantilla en una tienda existente</a></li>
+                            	<li><a href="#themeinstaller">Importar plantilla</a></li>
+                           		<li><a href="#with_products_auto">Instalación automática de plantilla con datos de demostración (Instalador de datos de muestra) 
+</a></li>
+                            	<li><a href="#with_products_manual">Plantilla de instalación manual con datos de demostración</a></li>
                            </ul> 
                        </dd>
                      </dl> 
@@ -274,44 +274,53 @@
 	  <img class="presta_scr2" src="img/05-install-6.png" alt="" />
 	  </p>    
     </article>
-    <article id="without_products">
-    	<h3>2. Instalar plantilla sin datos de muestra</h3>
-        <div class="box-info"><span>Usted puede utilizar este método de instalación si quiere reemplazar el tema de la tienda. Este método no dañará los ficheros existentes o base de datos de productos. </span></div>
-        <h4 id="template_installation_clear1">1. Subir ficheros  y activar  tema</h4>
-		<p>Antes de comenzar, asegúrese de que Usted ya ha descargado su plantilla y extraído los ficheros del paquete de la plantilla. Usted puede consultar los tutoriales detallados sobre la extracción de ficheros por medio de <a target="_blank" href="/help/es/unzipping-your-template.html">WinZip</a> o <a target="_blank" href="/help/es/how-unzip-template-mac.html">StuffitExpander</a>.</p>
-		<p>Después de esto Usted puede subir ficheros al servidor.</p>
-        <p>Por favor, revise el tutorial detallado si necesita <a target="_blank" href="/help/es/how-upload-files-server-2.html">subir ficheros al servidor con la ayuda del gestor de ficheros FTP </a> o <a target="_blank" href="/help/es/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html" >subir ficheros al servidor por medio de cPanel (WebHost Manager, WHM)</a>.</p>
-		<ol>
-			<li>Abra el paquete de plantilla.</li>
-			<li>Encuentre la carpeta <b>/theme/</b>.</li>
-			<li>Suba las carpetas <b>/img/</b>, <b>/modules/</b> y <b>/themes/</b>al directorio raíz de PrestaShop.</li>
-			<li>Abra el panel de administración de  PrestaShop.</li>
-			<li>Elija <b>Preferences > Themes</b> (Preferencias -> Temas) en el menú superior.</li>
-			<li>Seleccione su plantilla en la sección <b>Themes</b> (Temas) y haga clic en el botón <b>Save</b> (Guardar).</li>
-		</ol>
-		<p>Su tema está activado. Ahora es necesario configurar los módulos.</p>
-        <h4 id="template_installation_clear2">2. Instalar y configurar módulos</h4>
-		<p>Cada plantilla tiene algunos ajustes específicos del módulo. Para que los módulos aparezcan como en la vista previa de la plantilla, Usted tendrá que configurarlos. Usted puede configurar todos los módulos en el panel de administración de PrestaShop.</p>
-		<p><b>1. En su panel de administración de PrestaShop en el menú superior elija Modules > Modules (Módulos).</b></p>
-		<p>En la página Modules (Módulos) Usted puede encontrar la lista de los módulos disponibles de PrestaShop. A veces es necesario instalar algunos de ellos.</p>
-		<p>Para instalar un módulo, encuéntrelo en la lista y haga clic en el botón <b>'Install'</b> (Instalar):</p>
-		<img class="presta_scr2" src="img/06-modules.png" alt="" />
-        <p></p>
-		<p>Si la instalación ha sido realizada correctamente, aparecerá el siguiente mensaje:</p>
-		<img class="presta_scr2" src="img/07-modules.png" alt="" />
-        <p></p>
-		<p>Con la ayuda de los enlaces de módulos se puede activar módulos (<b>Enable</b>|<b>Disable</b>(Activar y desactivar)), usar la configuración predeterminada (enlace <b>Reset</b>(Anular)), eliminar un módulo (enlace <b>Delete</b>(Eliminar)) o configurarlos (enlace<b>Configure</b>(Configuración)).</p>
-		<img class="presta_scr2" src="img/08-modules.png" alt="" />
-        <p></p>
-		<p><b>2. Después de activar todos los módulos que necesita, hay que asignarlos a posiciones correctas.</b></p>
-		<p>En el panel de PrestaShop, en el menú superior elija <b>Modules > Positions</b>(Módulos > Posiciones). Para colocar un módulo hay que arrastrar y soltarlo en la posición deseada en la lista de módulos.</p>
-		<img class="presta_scr2" src="img/09-modules.png" alt="" />
-		<p></p>
-
-		<div class="box-info" style="margin-bottom:0;"><span>En algunos casos, después de los cambios de las dimensiones de la imagen, es necesario regenerar las imágenes. Se puede hacerlo a través de la sección <b>Regenerate thumbnails</b>(Regenerar thumbnails). </span></div>
+    <article id="with_products_auto">
+      <h3>2. Automatic installation with demo data (Sample data installer)</h3>
+        <p>Después de la instalación de los datos de muestra, Usted obtendrá una tienda basada en PrestaShop que será idéntica a lo que puede ver en la demo. La tienda contendrá los ejemplos de productos, ajustes, módulos, etc.</p>
+    <p>Para instalar los datos de muestra de la plantilla con la ayuda del instalador de datos de muestra (Sample data installer), primero hay que realizar el paso 1 de este manual <a href="#themeinstaller">"Importar Tema"</a>. Después de seguir todas las instrucciones del paso 1, el módulo de Sample data installer será añadido automáticamente a su panel de administración. </p>
+        
+        <p>Con la ayuda de este módulo Usted puede instalar rápidamente y fácilmente los datos de muestra de la plantilla con un par de clics. Todo lo que tiene que hacer:</p>
+        <ol>
+          <li>Iniciar sesión en el módulo. Para hacerlo haga clic en el elemento del menú del color rojo "Install Demo Store" (Instalar Tienda Demo) 
+              </p>
+                <img class="presta_scr2" src="img/05-install-7.png" alt="" />
+              <p>
+            </li>
+            <li>Seleccionar y descarar los ficheros (se puede hacerlo con la ayuda del botón "Browse local files" (Examinar ficheros locales) o simplemente arrastrándolos a la ventana del navegador web). Los ficheros de los datos de muestra de la plantilla están disponibles en la carpeta sample_data
+              <p>
+                <img class="presta_scr2" src="img/05-install-7_1.png" alt="" />
+              </p>
+            </li>
+            <li>Espere hasta que los ficheros se carguen:
+              <p>
+                <img class="presta_scr2" src="img/05-install-7_2.png" alt="" />
+              </p>
+            </li>
+            <li>Depués de esto haga clic en <strong>"Continue Install" (Seguir Instalar)</strong> 
+              <p>
+                <img class="presta_scr2" src="img/05-install-7_3.png" alt="" />
+              </p>
+            </li>
+            <li>Ahora se inicia el procedimiento de instalación de dump con la configuración de la tienda, información de productos, categorías ... Hay que esperar 2 - 10 minutos. 
+              <p>
+                <img class="presta_scr2" src="img/05-install-7_4.png" alt="" />
+              </p>
+            </li>
+            <li>Si dump ha sido instalado correctamente, por favor, regenere las imágenes para el nuevo tema. Haga clic en <strong>"Go To Regenerate Page" (Regenerar Página)</strong>.
+              <p>
+                <img class="presta_scr2" src="img/05-install-7_5.png" alt="" />
+              </p>
+            </li>
+            <li>Para regenerar las imágenes, haga clic en <strong>"Regenerate thumbnails" (Regenerar miniaturas)</strong>
+              <p>
+                <img class="presta_scr2" src="img/05-install-7_6.png" alt="" />
+              </p>
+            </li>
+        </ol>
+        Después de realizar todos los pasos de este manual Usted obtendrá la versión completa de la plantilla con los datos de muestra.
     </article>
-    <article id="with_products">
-    	<h3>3. Instalar plantilla con datos de muestra</h3>
+    <article id="with_products_manual">
+    	<h3>3. Plantilla de instalación manual con datos de demostración</h3>
         <p>Después de instalar los <b>Datos de muestra,</b> u tienda PrestaShop se aparecerá como en la página de vista previa de la plantilla. Ella contendrá todos los productos, la configuración de la tienda, módulos de configuración, etc. de la muestra.</p>
         
 		<div class="box-error"><span>¡Por favor, no instale los datos de muestra en la tienda existente! Sus productos y su configuración de la tienda serán reemplaados.</span></div>
@@ -338,25 +347,6 @@
         <img class="presta_scr2" alt="" src="img/01-language-update.png" />
         <p>Si no desea agregar algunos idiomas, Usted puede eliminar o desactivarlos en el menú <b>'Localization > Languages'</b>(Localización> Idiomas ). </p>
         <img class="presta_scr2" alt="" src="img/02-language-update.png" />
-    </article>
-    <article id="overdata">
-    	<h3>4. Instalar plantilla en una tienda existente</h3>
-        <div class="box-info"><span>Usted puede usar este método de instalación si tiene un sitio web existente de PrestaShop y sólo desea instalar una nueva plantilla.</span></div>
-
-        <h4 id="template_installation_over1">1. Subir ficheros y activar tema</h4>
-            <ol>
-                <li>Abra el paquete de plantilla.</li>
-                <li>Abra la carpeta <b>/theme/</b>.</li>
-                <li>Suba las carpetas <b>/modules/</b> y <b>/themes/</b> al directorio raíz de PrestaShop.</li>
-                <li>Abra la carpeta <b>/img/</b> del paquete de plantilla y suba los ficheros  <b>logo.jpg</b>, <b>favicon.ico</b> a la carpeta <b>/img/</b> de su instalación de PrestaShop</li>
-                <li>En el panel de administración de PrestaShop abra <b>Preferences > Themes</b>(Preferencias > Temas), seleccione su plantilla en la sección <b>Themes</b>(Temas) y haga clic en el botón <b>Save</b>(Guardar).</li>
-            </ol>
-    		<p>Por favor, revise el tutorial detallado si necesita <a target="_blank" href="/help/es/how-upload-files-server-2.html">subir ficheros al servidor con la ayuda del gestor de ficheros FTP </a> o <a href="/help/es/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html" target="_blank">subir ficheros al servidor por medio de cPanel (WebHost Manager, WHM)</a>.</p>
-        <h4 id="template_installation_over2">2. Instalar módulos</h4>
-            <p>Abra el panel de administración de PrestaShop y configure los módulos de la manera descrita en la sección <b>Instalar plantilla sin datos de muestra -> Instalar módulos</b> de este manual de configuración.</p>
-            <div class="box-error"><span>No utilice los datos de muestra si Usted tiene un sitio web existente, ya que ellos sustituirán todos los productos de la tienda y la configuración de la tienda.</span></div>
-        <h4 id="template_installation_clear">3.Configurar imágenes</h4>
-        <div class="box-notification"><span>Abra el panel de administración de PrestaShop y configure los módulos de la manera descrita en la sección <b>Instalar plantilla sin datos de muestra -> Configurar imágenes</b> de este manual.</span></div>
     </article>
 </section>
 <section class="block-templates" id="basictutorials">
