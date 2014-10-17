@@ -142,7 +142,11 @@
                        </dd>
                      </dl> 
                   </li>
-
+                  <li class="nav-item item3">
+                    <dl class="slide-down">
+                       <dt><a href="#google" class="icon-cogs"><i class="icon-sample"></i>Loading data from Google servers</a> </dt>
+                     </dl> 
+                  </li>
                   <li class="nav-item item3">
                     <dl class="slide-down">
                        <dt><a href="#conclusion" class="icon-question-sign">Conclusion </a></dt>
@@ -401,6 +405,31 @@
     <article id="olark">
     	<h3>Olark Live Chat</h3>
         <p>To set up a live chat like the one on the Live Demo, you will need to register on the official Web site <a href="http://www.olark.com/?r=ad8fbsj2">Olark registration.</a> After you provide all the data required, you will get a code to add to  \themes\themeXXX\footer.tpl before &lt;/body&gt; tag. </p>
+    </article>
+</section>
+
+<section class="block-templates" id="google">
+  <h2><i class="icon-cogs"></i> Loading data from Google servers</h2>
+    <article >
+      <p>Some countries have issues connecting to Google servers. This can cause issues loading Google Fonts and Java Script libraries from Google CDN. To resolve these issues please do the following: </p>
+    <h3>Can't load Google Fonts: </h3>
+    <ol>
+    <li>Open \themes\theme****\header.tpl file</li>
+    <li>Locate the line: <br>
+    <pre>$doc->addStyleSheet('//fonts.googleapis.com/css?family=[---your_web_font_name_here---]');</pre></li>
+    <li>Replace it with the following: <br>
+    <pre>$doc->addStyleSheet('//fonts.useso.com/css?family=[---your_web_font_name_here---]');</pre></li>
+    </ol>
+
+    <h3>Can't load jQuery</h3>
+    <ol>
+     <li>Locate the line:
+     <pre>&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/[---your_jquery_version---]/jquery.min.js">&lt;/script></pre></li>
+     <li>Replace with the following:<br>
+     <pre>&lt;script src="//code.jquery.com/jquery-[---your_jquery_version---].min.js">&lt;/script></pre></li></li>
+    </ol>
+
+    <p>You can also use local copy of jQuery library. </p>
     </article>
 </section>
 
