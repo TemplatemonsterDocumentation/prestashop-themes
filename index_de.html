@@ -133,6 +133,11 @@
                   </li>
                   <li class="nav-item item3">
                     <dl class="slide-down">
+                       <dt><a href="#google" class="icon-cogs"><i class="icon-sample"></i>Laden von Daten aus den Google-Servern</a> </dt>
+                     </dl> 
+                  </li>
+                  <li class="nav-item item3">
+                    <dl class="slide-down">
                        <dt><a href="#conclusion" class="icon-question-sign">Fazit </a></dt>
                          <dd></dd>
                      </dl> 
@@ -370,6 +375,31 @@ Beispieldateien installieren</h4>
         <img class="presta_scr2" src="img/12-slider-2.png" alt="" />
     </article>
 </section>
+
+<section class="block-templates" id="google">
+  <h2><i class="icon-cogs"></i> Laden von Daten aus den Google-Servern</h2>
+    <article >
+      <p> Einige Länder blockieren Google-Server, deswegen können Google Schriften und Java Script Bibliotheken von Google CDN Storage nicht hochgeladen werden. Um dieses Problem zu lösen, müssen die folgenden Schritte ausgeführt werden: </p> 
+      <h3>Um Google Schriften hochzuladen: </h3> 
+      <ol> 
+      <li>Öffnen Sie die Datei <strong>\templates\themeXXXX\index.php</strong>.</li> 
+      <li>Finden Sie die Zeile: <br> 
+      <pre>$doc->addStyleSheet('//fonts.googleapis.com/css?family=[---your_web_font_name_here---]');</pre></li> 
+      <li>Ersetzen Sie sie durch den folgenden Code: <br> 
+      <pre>$doc->addStyleSheet('//fonts.useso.com/css?family=[---your_web_font_name_here---]');</pre></li> 
+      </ol> 
+      <h3>Um jQuery Bibliothek hochzuladen:</h3> 
+      <ol> 
+      <li>Öffnen Sie die Datei <strong>\themes\theme****\header.tpl </strong>.</li> 
+      <li>Finden Sie die Zeile: 
+      <pre>&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/[---your_jquery_version---]/jquery.min.js">&lt;/script></pre></li> 
+      <li>Ersetzen Sie sie durch den folgenden Code:<br> 
+      <pre>&lt;script src="//code.jquery.com/jquery-[---your_jquery_version---].min.js">&lt;/script></pre></li> 
+      </ol> 
+      <p>Sie können auch die lokale Version der jQuery Bibliothek nutzen.</p> 
+    </article>
+</section>
+
 <section class="block-templates" id="cookiepolicy">
 	<h2><i class="icon-exclamation-sign"></i> Cookies-Politik</h2>
 	<p>Nach der Cookie-Richtlinie müssen Sie entsprechende Modulen auf Ihre Website hinzufügen, die benachrichtigen, sobald Cookies verwendet werden. Wir empfehlen folgendes:</p>

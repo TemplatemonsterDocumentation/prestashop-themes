@@ -144,6 +144,11 @@
                   </li>
                   <li class="nav-item item3">
                     <dl class="slide-down">
+                       <dt><a href="#google" class="icon-cogs"><i class="icon-sample"></i>Carga de datos desde los servidores de Google</a> </dt>
+                     </dl> 
+                  </li>
+                  <li class="nav-item item3">
+                    <dl class="slide-down">
                        <dt><a href="#conclusion" class="icon-question-sign">Conclusión</a></dt>
                          <dd></dd>
                      </dl> 
@@ -386,6 +391,31 @@
 		<li><a target="_blank" href="http://addons.prestashop.com/en/administration-tools-prestashop-modules/10376-alert-for-eu-cookie-law.html">Module Alert for EU Cookie Law</a></li>
 	</ul>
 </section>
+
+<section class="block-templates" id="google">
+  <h2><i class="icon-cogs"></i> Carga de datos desde los servidores de Google</h2>
+    <article >
+      <p> Algunos de los países bloquean los servicios de Google que impide Fuentes de Google y las bibliotecas Java Script de carga desde Google CDN. Para resolver estos problemas, por favor, siga los pasos indicados a continuación: </ p>
+      <h3> Para cargar Google Fuentes: </ h3>
+      <ol>
+      <li> Abrir <strong> \themes\theme****\header.tpl </ strong> archivo. </ li>
+      <li> Busque la línea: <br>
+      <pre>$doc->addStyleSheet('//fonts.googleapis.com/css?family=[---your_web_font_name_here---]');</pre></li>
+      <li> Reemplazar con el siguiente: <br>
+      <pre> $ doc-> addStylesheet ('// fonts.useso.com/css?family = [--- your_web_font_name_here ---]'); </ pre> </ li>
+      </ ol>
+      <h3> Para cargar jQuery: </ h3>
+      <ol>
+      <li> Abrir <strong> \ templates \ themeXXXX \ index.php </ strong> archivo. </ li>
+      <li> Busque la línea:
+      <pre> & lt; guión src="//ajax.googleapis.com/ajax/libs/jquery/[---your_jquery_version---]/jquery.min.js">&lt;/script></pre></li>
+      <li> Reemplazar con el siguiente: <br>
+      <pre> & lt; script src = "// code.jquery.com/jquery - [--- your_jquery_version ---] min.js."> & lt; / script> </ pre> </ li>
+      </ ol>
+      <p> También puede utilizar la copia local de la biblioteca jQuery. </ p>
+    </article>
+</section>
+
 <section class="block-templates" id="conclusion">
 	<h2><i class="icon-question-sign"></i> Conclusión</h2>
     <h4 id="useful_resources">Recursos útiles</h4>

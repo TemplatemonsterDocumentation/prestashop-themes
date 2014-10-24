@@ -142,6 +142,11 @@
                   </li>
                   <li class="nav-item item3">
                     <dl class="slide-down">
+                       <dt><a href="#google" class="icon-cogs"><i class="icon-sample"></i>Заргузка данных с серверов Google</a> </dt>
+                     </dl> 
+                  </li>
+                  <li class="nav-item item3">
+                    <dl class="slide-down">
                        <dt><a href="#conclusion" class="icon-question-sign">Выводы </a></dt>
                          <dd></dd>
                      </dl> 
@@ -377,6 +382,30 @@
     <article id="olark">
     	<h3>Olark Live Chat</h3>
         <p>Для того, чтобы использовать чат, доступный на демо шаблона, нужно зарегистрироваться на официальном веб-сайте <a href="http://www.olark.com/?r=ad8fbsj2">Olark</a>. После предоставления всех необходимых данных, вы получите код, который нужно добавить в файл \themes\themeXXX\footer.tpl перед &lt;/body&gt; тегом. </p>
+    </article>
+</section>
+
+<section class="block-templates" id="google">
+  <h2><i class="icon-cogs"></i> Загрузка данных с серверов Google</h2>
+    <article >
+      <p> Некоторые страны блокируют сервера Google и из-за этого шрифты Google и библиотеки Java Script не грузятся из хранилища Google CDN. Для того чтобы решить эту проблему, необходимо выполнить следующие шаги: </p>
+      <h3>Чтобы загрузить шрифты Google: </h3>
+      <ol>
+      <li>Откройте файл <strong>\themes\theme****\header.tpl</strong>.</li>
+      <li>Найдите строку: <br>
+      <pre>$doc->addStyleSheet('//fonts.googleapis.com/css?family=[---your_web_font_name_here---]');</pre></li>
+      <li>Замените ее следующим кодом: <br>
+      <pre>$doc->addStyleSheet('//fonts.useso.com/css?family=[---your_web_font_name_here---]');</pre></li>
+      </ol>
+      <h3>Чтобы загрузить библиотеку jQuery:</h3>
+      <ol>
+      <li>Откройте файл <strong>\templates\themeXXXX\index.php</strong>.</li>
+      <li>Найдите строку:
+      <pre>&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/[---your_jquery_version---]/jquery.min.js">&lt;/script></pre></li>
+      <li>Замените ее следующим кодом:<br>
+      <pre>&lt;script src="//code.jquery.com/jquery-[---your_jquery_version---].min.js">&lt;/script></pre></li>
+      </ol>
+      <p>Вы также можете использовать локальную версию библиотеки jQuery.</p>
     </article>
 </section>
 
