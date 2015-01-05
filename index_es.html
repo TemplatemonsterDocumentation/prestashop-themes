@@ -1,455 +1,987 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PrestaShop Documentation</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/bootstrap.css" media="screen">
-  <link rel="stylesheet" href="css/responsive.css" media="screen">
-  <link rel="stylesheet" href="css/style.css" media="screen">
-  <link rel="stylesheet" href="css/prettify.css"  media="screen">
-  <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/prestashop-themes/master/index_en.html"/>
-  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css"> 
-  <script src="js/jquery.js"></script>
-  <script src="js/jquery.scrollTo.js"></script>
-  <script src="js/prettify.js"></script>
-  <script src="js/jquery-migrate-1.1.0.js"></script>
-  <script src="js/bootstrap-affix.js"></script>  
-  <script src="js/script.js"></script>    
+<title>Documentaci&oacute;n de PrestaShop</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/bootstrap.css" media="screen">
+<link rel="stylesheet" href="css/responsive.css" media="screen">
+<link rel="stylesheet" href="css/style.css" media="screen">
+<link rel="stylesheet" href="css/prettify.css"  media="screen">
+<link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/prestashop-themes/master/index_en.html"/>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.scrollTo.js"></script>
+<script src="js/prettify.js"></script>
+<script src="js/jquery-migrate-1.1.0.js"></script>
+<script src="js/bootstrap-affix.js"></script>
+<script src="js/script.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
 
-    <!--[if lt IE 8]>
+<!--[if lt IE 8]>
   		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg"border="0"alt=""/></a></div>  
  	  <![endif]-->
-    <!--[if lt IE 9]>
+<!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
     <![endif]-->
 </head>
 
-<body>  
+<body>
 
 <!-- header
 ================================================== -->
 <header class="header">
   <div class="container">
-  <div class="row">
-  <article class="span4"><a class="brand" href="/help/es/" target="_blank"></a></article>
- <article class="span6">
- <h1><img alt="" src="img/presta_logo.png"> &nbsp;documentación</h1>
-  </article> 
-  <article class="span2">
-    <div id="languages" class="select-menu pull-right">
-		<div id="lang_icon" class="select-menu_icon"><b>Es</b><i class="icon-angle-down"></i></div>
-		<ul id="lang_list" class="select-menu_list">
-			<li><a href="index_en.html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
-			<!--li><a href="index_fr.html"><span>Français </span><img src="img/flags/fr.jpg" height="14" width="22" alt="fr"></a></li-->
-			<li class="active"><a href="index_es.html"><span>Español </span><img src="img/flags/es.png" height="14" width="22" alt="es"></a></li>
-			<li><a href="index_de.html"><span>Deutsch </span><img src="img/flags/de.png" height="14" width="22" alt="de"></a></li>
-			<li><a href="index_ru.html"><span>Русский </span><img src="img/flags/ru.png" height="14" width="22" alt="ru"></a></li>
-		</ul>
+    <div class="row">
+      <article class="span4"><a class="brand" href="/help/" target="_blank"></a></article>
+      <article class="span6">
+        <h1><img alt="" src="img/presta_logo.png"> &nbsp;Documentaci&oacute;n</h1>
+      </article>
+      <article class="span2">
+        <div id="languages" class="select-menu pull-right">
+          <div class="select-menu_icon"><strong>Es</strong><i class="icon-angle-down"></i></div>
+          <ul class="select-menu_list">
+          </ul>
+        </div>
+        <div id="versions" class="select-menu pull-right">
+          <div class="select-menu_icon"><strong>v1-2</strong><i class="icon-angle-down"></i></div>
+          <ul class="select-menu_list">
+            <li class="active"><a href="/help/quick-start-guide/prestashop-themes/v1-2/index_en.html"><span>v1-2</span></a></li>
+            <li><a href="/help/quick-start-guide/prestashop-themes/v1-1/index_en.html"><span>v1-1</span></a></li>
+            <li><a href="/help/quick-start-guide/prestashop-themes/v1-0/index_en.html"> <span>v1-0</span></a></li>
+          </ul>
+        </div>
+      </article>
     </div>
-	<div id="versions" class="select-menu pull-right">
-		<div class="select-menu_icon"><b>v1-2</b><i class="icon-angle-down"></i></div>
-		<ul class="select-menu_list">
-			<li class="active"><a href="/help/quick-start-guide/prestashop-themes/v1-2/index_en.html"><span>v1-2</span></a></li>
-      <li><a href="/help/quick-start-guide/prestashop-themes/v1-1/index_en.html"><span>v1-1</span></a></li>
-			<li><a href="/help/quick-start-guide/prestashop-themes/v1-0/index_en.html"><span>v1-0</span></a></li>
-		</ul>
-	</div>
-  </article>  
-  </div>  	
   </div>
 </header>
-<div id="content"> 
-<div class="bg-content-top">
-<div class="container">
-
-<!-- Docs nav
-    ================================================== -->
-    <div class="row">
-      <div class="span3"> 
-
-        <div id="nav_container">
-          <a href="javascript:;" id="affect_all">
-            <span class="expand">
-              <i class="icon-angle-down"></i>
-            </span>            
-            <span class="close">
-              <i class="icon-angle-up"></i>
-            </span>
-          </a>
-            <div class="clearfix"></div>    
-                <ul class="nav nav-list bs-docs-sidenav"  id="nav">
-                 
-                  <li class="nav-item item1">
-                    <dl class="slide-down">
-                       <dt><a href="#preparations" class="icon-check">Preparaciones</a></dt>  
-                       <dd></dd>                       
-                     </dl> 
-                  </li>           
-                  <li class="nav-item item2">
-                    <dl class="slide-down">
-                       <dt><a href="#engine_installation" class="icon-cog"><i class="icon-sample"></i>Instalación del motor de PrestaShop </a></dt>
-                         <dd>
-                           <ul class="list">          
-                            <li><a href="#server_requirements">Requerimientos del servidor</a></li>
-                            <li><a href="#downloading">Descargar</a></li>
-                            <li><a href="#extracting_files">Extraer Ficheros</a></li>
-                            <li><a href="#upl_files">Subir ficheros del motor de PrestaShop</a></li>
-                            <li><a href="#ps_engine_install">Instalar el motor de PrestaShop</a></li>
-                            
-                           </ul> 
-                       </dd>
-                     </dl> 
-                  </li>
-                  <li class="nav-item item3">
-                    <dl class="slide-down">
-                       <dt><a href="#theme_installation" class="icon-cog"> <i class="icon-sample"></i>Instalación de Plantilla PrestaShop </a></dt>
-                         <dd>
-                           <ul class="list">          
-                            	<li><a href="#themeinstaller">Importar plantilla</a></li>
-                           		<li><a href="#with_products_auto">Instalación automática de plantilla con datos de demostración (Instalador de datos de muestra) 
-</a></li>
-                            	<li><a href="#with_products_manual">Plantilla de instalación manual con datos de demostración</a></li>
-                           </ul> 
-                       </dd>
-                     </dl> 
-                  </li> 
-                  <li class="nav-item item3">
-                    <dl class="slide-down">
-                       <dt><a href="#basictutorials" class="icon-cogs"><i class="icon-sample"></i>Tutoriales básicos </a> </dt>
-                         <dd>
-                           <ul class="list">          
-                            	<li><a href="#changename">Cambiar nombre de tienda</a></li>
-                                <!--li><a href="#header_links">Modificar enlaces de cabecera y de pie de página</a></li-->
-                                <li><a href="#eddit_slider">Editar slider</a></li>
-                                <!--li><a href="#edditbanner">How to edit banners</a></li-->
-                           </ul> 
-                       </dd>
-                     </dl> 
-                  </li>
-                  <li class="nav-item item3">
-                    <dl class="slide-down">
-                       <dt><a href="#extensions" class="icon-cogs"><i class="icon-sample"></i>Configurar extensiones </a> </dt>
-                         <dd>
-                           <ul class="list">          
-                            	<li><a href="#olark">Chat de Olark</a></li>
-                           </ul> 
-                       </dd>
-                     </dl> 
-                  </li>
-				  <li class="nav-item item3">
-                    <dl class="slide-down">
-                       <dt><a href="#cookiepolicy" class="icon-exclamation-sign">Política de Cookies</a></dt>
-                         <dd></dd>
-                     </dl> 
-                  </li>
-                  <li class="nav-item item3">
-                    <dl class="slide-down">
-                       <dt><a href="#google" class="icon-cogs"><i class="icon-sample"></i>Carga de datos desde los servidores de Google</a> </dt>
-                     </dl> 
-                  </li>
-                  <li class="nav-item item3">
-                    <dl class="slide-down">
-                       <dt><a href="#conclusion" class="icon-question-sign">Conclusión</a></dt>
-                         <dd></dd>
-                     </dl> 
-                  </li>
-                </ul>
-            </div>
-    </div> 
-
+<div id="content">
+  <div class="bg-content-top">
+    <div class="container"> 
       
-<div class="span9">
-
-<!-- box-content
-================================================== -->
-<div class="box-content">
-<!-- block-started
-================================================== -->
-<section class="block-templates" id="preparations">  
-  <h2><i class="icon-check"></i> Preparaciones</h2>
-  <p>El motor de comercio electrónico PrestaShop requiere una base de datos MySQL. Antes de instalar PrestaShop, por favor asegúrese de que ya ha creado una base de datos MySQL. Se puede hacerlo a través de su panel de control de hosting por medio de la herramienta phpMyAdmin.</p>
-	<p>Por favor, revise el tutorial detallado sobre <a target="_blank" href="/help/es/how-create-database.html">la creación de bases de datos MySQL</a>. Si Usted tiene algún problema, por favor póngase en contacto con su proveedor de hosting para obtener asistencia. </p>
-	<p>Durante la instalación de la base de datos MySQL, Usted tendrá que especificar: nombre de base de datos, nombre de usuario, contraseña y servidor de base de datos. Recuerde estos datos, ya que necesitará ellos para la instalación de PrestaShop. </p>
-</section>
-
-<section class="block-templates" id="engine_installation">  
-  <h2><i class="icon-cog"></i> Instalación del motor de PrestaShop</h2>
-
-  
-  <article id="server_requirements">
-  <h3>1. Requerimientos del servidor</h3>
-  <p>Por favor, asegúrese de que su servidor de hosting cumple con los requisitos de PrestaShop:</p>
-	<ol>
-		<li><b>Sistema:</b> Unix, Linux o Windows. Unix es recomendable.</li>
-		<li><b>Servidor web:</b> servidor Apache Web1.3 o versiones nuevas, servidor Microsoft's IIS Web 6.0 o versiones recientes, y nginx 1.0 o versiones nuevas.</li>
-		<li><b>PHP 5.2<b style="color:#ff0000">*</b></b> o una versión más reciente.</li>
-		<li><b>MySQL 5.0</b> o una versión más reciente.</li>
-		<li>1.Al menos 32 Mb de RAM en su servidor (64 Mb es ok).</li>
-	</ol>
-	<div class="box-info"><span> PrestaShop funciona con PHP 5.1 o superior, pero las versiones anteriores de 5.2 tienen errores que podrían causar problemas con algunas funciones (como fecha no válida de zona horaria).</span></div>
-	</article>
-    
-
-  <article id="downloading">
-    <h3>2. Descargar</h3>
-    <p>Para instalar PrestaShop es necesario descargar el paquete del motor de PrestaShop desde el sitio web oficial <a target="_blank" href="http://www.prestashop.com/en/downloads">www.prestashop.com/en/downloads</a></p>
-	<p>Inserte su nombre y e-mail en el cuadro de descarga y haga clic en el botón <b>'Download'</b> (Descargar). </p>
-	<div class="box-notification"><span>Por favor, asegúrese de que su versión del motor de PrestaShop cumple con los requisitos de la plantilla. Todas las versiones de PrestaShop están disponibles en <a class="spec_link" target="_blank" href="http://sourceforge.net/projects/prestashop/files/prestashop%20v1/">SourceForge</a></span>.</div>
-
-  </article>
-
-  
-  <article id="extracting_files">
-    <h3>3. Extraer Ficheros</h3>
-    <p>Si Usted ha descargado el paquete del motor de PrestaShop, tiene que extraer ficheros y carpetas del archivo.</p>
-<p>Se puede hacerlo con la ayuda de cualquier gestor de ficheros como <b>WinZip(PC)</b>, <b>StuffitExpander(MAC)</b> etc.</p>
-	<p>Por favor, revise los siguientes tutoriales con las instrucciones para extraer ficheros de archivos por medio de <a target="_blank" href="/help/es/extract-archived-files-windows-os.html">WinZip(PC)</a> y <a target="_blank" href="/help/es/extract-archived-files-mac-os.html">StuffitExpander(MAC)</a>.</p>
-	<div class="box-info"><span>Tenga en cuenta: si su panel de control de hosting tiene la opción <b>'Extract'</b>(Extraer) Usted puede utilizarla para extraer ficheros directamente en el servidor después de descarga del archivo .zip. </span></div>
-  </article>
-  <article id="upl_files">
-    <h3>4. Subir ficheros del motor de PrestaShop</h3>
-    <p>Si Usted ha extraído los ficheros de forma local en el ordenador, tendrá que subirlos a su servidor de hosting.</p>
-	<p>Use el Administrador/Gestor de ficheros del panel de control de hosting o aplicaciones FTP de terceros como FileZilla, TotalCommander, CureFTP etc.</p>
-	<p>Usted puede revisar el tutorial detallado antes de <a target="_blank" href="/help/es/how-upload-files-server-2.html">subir ficheros al servidor por medio de gestor de ficheros FTP </a> o <a target="_blank" href="/help/es/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html">subir ficheros al servidor con la ayuda del panel de control (WebHost Manager, WHM)</a>.</p>
-  </article>
-  <article id="ps_engine_install">
-    <h3>5. Instalar el motor de PrestaShop</h3>
-    	<p>Al realizar el paso anterior, se puede comenzar la instalación del motor de PrestaShop. Abra su navegador web y escriba la dirección ‘nombre de dominio/ruta de acceso al directorio de PrestaShop’ en la barra de direcciones y actualice la página web. Recibirá la pantalla de bienvenida. Por favor, siga las instrucciones para instalar PrestaShop.</p>
-<h4>Paso1: Asistente de Instalación (Elija su idioma)</h4>
-    	<p>Por favor, elija el idioma de instalación.</p>
-		<div class="box-info"><span>Nota: la opción de idioma de instalación no afectará su idioma de tienda. De manera predeterminada PrestaShop ofrece inglés. Usted puede instalar paquetes de localización adicionales para cambiar el idioma de tienda. </span></div>
-    	<img class="presta_scr1" src="img/01-install.png" alt="" />
-    	<p>Si Usted he terminado, haga clic en el botón <b>'Next'</b> (Seguir).</p>
-    <h4>Paso 2: Asistente de Instalación (Licencia)</h4>
-    	<p>Por favor, lea los detalles de licencia.</p>
-    	<img class="presta_scr1" src="img/01-install-1.png" alt="" />
-    	<p>Si Usted he terminado, haga clic en el botón <b>'Next'</b> (Seguir).</p>
-    <h4>Paso 3: Compatibilidad de Sistema</h4>
-    	<p>Verifique la configuración de PHP y permisos de directorio. Si Usted recibe cualquier error, por favor póngase en contacto con su proveedor de hosting para obtener asistencia.</p>
-		<img class="presta_scr1" src="img/02-install.png" alt="" />
-		<p>Si todo es correcto, haga clic en el botón <b>'Next'</b> (Seguir).</p>
-    <h4>Paso 4: Configuración de tienda</h4>
-		<p>Ahora Usted necesita especificar los detalles como: Nombre de la tienda, actividad, país, zona horaria, subir su logotipo, etc.</p>
-<p>Se puede modificar todos estos ajustes en su panel de administración de PrestaShop.</p>
-		<img class="presta_scr1" src="img/04-install.png" alt="" />
-	<h4>Paso 5: Configuración de Sistema</h4>
-		<p>Como Usted ya tiene una base de datos MySQL, por favor escriba los datos de base de datos en los campos que aparecen.</p>
-		<p>De lo contrario, Usted puede encontrar los datos de base de datos en el panel de control de hosting.</p>
-		<img class="presta_scr1" src="img/03-install.png" alt="" />
-		<p>Al terminar, haga clic en el botón <b>'Next'</b> (Seguir).</p>
-	<h4>Paso 6: Instalación completa</h4>
-		<p>Este es el paso final de la instalación.</p>
-		<img class="presta_scr1" src="img/05-install.png" alt="" />
-	<h3></h3>
-	<div class="box-notification"><span>Por razones de seguridad es necesario eliminar el directorio <b>/install/</b> en su servidor de hosting.</span></div>
-	<div class="box-info"><span>A partir de la versión 1.5.4, PrestaShop cambia el nombre de la carpeta de administración para Usted: utiliza el nombre "admin" con 4 dígitos al azar, es decir, "admin8814". El cambio de nombre ocurre tan pronto como abra la carpeta "admin" por primera vez: PrestaShop cambia el nombre, entonces accede correctamente la carpeta con el nombre cambiado.<br /><br />Inicie sesión en el back-office de PrestaShop, abra la carpeta "admin", y comience a llenar su catálogo con sus datos.</span></div>
-	<p>Si tiene cualquier dificultad consulte el <a target="_blank" href="http://doc.prestashop.com/display/PS16/Getting+Started">manual de instalación de PrestaShop</a>.</p>
-  </article>
-
-</section>
-<section class="block-templates" id="theme_installation">
-	<h2><i class="icon-cog"></i> Instalación de Plantilla PrestaShop</h2>
-    <article id="themeinstaller">
-    	<h3>1. Instalar plantilla con la ayuda del módulo 'themeinstallator'</h3>
-        <div class="box-info">
-			<span>Este método no incluye la instalación de datos de muestra.</span>
-        </div>
-        <h4 id="template_installation_themeinstallator1">1. Preparación de plantilla.</h4>
-		<p>Antes de comenzar, asegúrese de que Usted ya ha descargado su plantilla y extraído los ficheros del paquete de la plantilla. Usted puede consultar los tutoriales detallados sobre la extracción de ficheros por medio de <a target="_blank" href="/help/es/unzipping-your-template.html">WinZip</a> y <a target="_blank" href="/help/es/how-unzip-template-mac.html">StuffitExpander</a>.</p>
-		<p>Cuando se extraen los archivos, se puede proceder a subir la plantilla.</p>
-		<h4 id="template_installation_themeinstallator2">2. Instalación.</h4>
-		<p>Abra el panel de administración de PrestaShop, encuentre <b>Modules->Modules menu</b>(Módulos->Menú de módulos). En esta página, por favor, abra la sección <b>Administration</b>(Administración). quí podrá ver la lista de módulos disponibles. Encuentre uno llamado '<b>Import/export a theme</b> v1.4' y haga clic en <b>Configure</b>(Configurar).</p>
-
-		<img class="presta_scr2" src="img/05-install-2.png" alt="" />
-		<p></p>
-		<p>Haga clic en el botón<b>Browse</b>(Examinar)y abra la carpeta <b>"themeinstallator"</b> del paquete de su plantilla y encuentre el archivo de la plantilla:</p>
-		<p></p>
-		<img class="presta_scr2" src="img/05-install-3.png" alt="" />
-
-		<p>En la siguiente página encontrará la información acerca de la plantilla. Haga clic en <b>Next</b>(Seguir).</p>
-
-		<img class="presta_scr2" src="img/05-install-4.png" alt="" />
-
-		<p>Después de estos pasos, Usted recibirá una notificación que su plantilla ha sido instalada con éxito y un menú con los ajustes del módulo. Haga clic en <b>Next</b>(Seguir).</p>
-
-		<img class="presta_scr2" src="img/05-install-5.png" alt="" />
-
-		<p>El último paso le permite obtener la información acerca de las modificaciones realizadas por el módulo durante la instalación. Haga clic en <strong>Finish</strong>(Finalizar).</p>
-	<p style="text-align:center;">
-	  <img class="presta_scr2" src="img/05-install-6.png" alt="" />
-	  </p>    
-    </article>
-    <article id="with_products_auto">
-      <h3>2. Automatic installation with demo data (Sample data installer)</h3>
-        <p>Después de la instalación de los datos de muestra, Usted obtendrá una tienda basada en PrestaShop que será idéntica a lo que puede ver en la demo. La tienda contendrá los ejemplos de productos, ajustes, módulos, etc.</p>
-    <p>Para instalar los datos de muestra de la plantilla con la ayuda del instalador de datos de muestra (Sample data installer), primero hay que realizar el paso 1 de este manual <a href="#themeinstaller">"Importar Tema"</a>. Después de seguir todas las instrucciones del paso 1, el módulo de Sample data installer será añadido automáticamente a su panel de administración. </p>
-        
-        <p>Con la ayuda de este módulo Usted puede instalar rápidamente y fácilmente los datos de muestra de la plantilla con un par de clics. Todo lo que tiene que hacer:</p>
-        <ol>
-          <li>Iniciar sesión en el módulo. Para hacerlo haga clic en el elemento del menú del color rojo "Install Demo Store" (Instalar Tienda Demo) 
-              </p>
-                <img class="presta_scr2" src="img/05-install-7.png" alt="" />
-              <p>
-            </li>
-            <li>Seleccionar y descarar los ficheros (se puede hacerlo con la ayuda del botón "Browse local files" (Examinar ficheros locales) o simplemente arrastrándolos a la ventana del navegador web). Los ficheros de los datos de muestra de la plantilla están disponibles en la carpeta sample_data
-              <p>
-                <img class="presta_scr2" src="img/05-install-7_1.png" alt="" />
-              </p>
-            </li>
-            <li>Espere hasta que los ficheros se carguen:
-              <p>
-                <img class="presta_scr2" src="img/05-install-7_2.png" alt="" />
-              </p>
-            </li>
-            <li>Depués de esto haga clic en <strong>"Continue Install" (Seguir Instalar)</strong> 
-              <p>
-                <img class="presta_scr2" src="img/05-install-7_3.png" alt="" />
-              </p>
-            </li>
-            <li>Ahora se inicia el procedimiento de instalación de dump con la configuración de la tienda, información de productos, categorías ... Hay que esperar 2 - 10 minutos. 
-              <p>
-                <img class="presta_scr2" src="img/05-install-7_4.png" alt="" />
-              </p>
-            </li>
-            <li>Si dump ha sido instalado correctamente, por favor, regenere las imágenes para el nuevo tema. Haga clic en <strong>"Go To Regenerate Page" (Regenerar Página)</strong>.
-              <p>
-                <img class="presta_scr2" src="img/05-install-7_5.png" alt="" />
-              </p>
-            </li>
-            <li>Para regenerar las imágenes, haga clic en <strong>"Regenerate thumbnails" (Regenerar miniaturas)</strong>
-              <p>
-                <img class="presta_scr2" src="img/05-install-7_6.png" alt="" />
-              </p>
-            </li>
-        </ol>
-        Después de realizar todos los pasos de este manual Usted obtendrá la versión completa de la plantilla con los datos de muestra.
-    </article>
-    <article id="with_products_manual">
-    	<h3>3. Plantilla de instalación manual con datos de demostración</h3>
-        <p>Después de instalar los <b>Datos de muestra,</b> u tienda PrestaShop se aparecerá como en la página de vista previa de la plantilla. Ella contendrá todos los productos, la configuración de la tienda, módulos de configuración, etc. de la muestra.</p>
-        
-		<div class="box-error"><span>¡Por favor, no instale los datos de muestra en la tienda existente! Sus productos y su configuración de la tienda serán reemplaados.</span></div>
-
-		<h4 id="template_installation_sample1">1. Subir ficheros de plantilla</h4>
-		<p>Para subir una plantilla a su servidor,</p>
-		<ol>
-			<li>Abra el paquete de plantilla</li>
-			<li>Encuentre la carpeta <b>/theme/</b></li>
-			<li>Suba las carpetas <b>/img/</b>, <b>/modules/</b> y <b>/themes/</b> al directorio raíz de PrestaShop</li>
-		</ol>
-        <p>Por favor, revise el tutorial detallado si necesita <a target="_blank" href="/help/es/how-upload-files-server-2.html">subir ficheros al servidor con la ayuda del gestor de ficheros FTP</a> o <a href="/help/es/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html" target="_blank">subir ficheros al servidor por medio de cPanel (WebHost Manager, WHM)</a>.</p>
-        <h4 id="template_installation_sample2">2. Instalar datos de muestra</h4>
-		<p>Los datos de muestra están ofrecidos en el archivo .SQL. Se encuentra en la raíz del paquete de la plantilla y se llama <b>dump.sql</b></p>
-		<p>Se puede instalar el archivo dump.sql utilizando la herramienta phpMyAdmin o una herramienta de gestión de base de datos en el panel de control de hosting. Este tutorial detallado contiene instrucciones para <a target="_blank" href="/help/es/phpmyadmin-how-to-import-sample-data-dump-file-phpmyadmin.html">instalar ficheros SQL</a>.</p>
-		<div class="box-notification"><span>Antes de continuar, por favor, haga una copia de seguridad de su base de datos. Usted puede revisar el tutorial con las instrucciones para <a target="_blank" href="/help/es/phpmyadmin-how-to-backup-a-database.html">crear copias de seguridad de bases de datos</a>.</span></div>
-        <p></p>
-		<div class="box-notification"><span>Por favor, asegúrese de que su versión del motor de PrestaShop cumple con los requisitos de la plantilla. De lo contrario la base de datos será dañada.</span></div>
-		<p>Si Usted ha terminado la instalación del archivo dump.sql, tendrá que activar la plantilla.</p>
-		<p>En el panel de administración de PrestaShop abra <b>Preferences > Themes</b>(Preferencias> Temas), elija su plantilla en la sección de <b>Temas</b> y haga clic en <b>Save</b>(Guardar).</p>
-        <h4 id="template_installation_sample2">3. Agregar idiomas a tienda en línea.</h4>
-        <p>Después de la instalación de una plantilla en varios idiomas Usted tendrá que añadir todos los idiomas disponibles (inglés, francés, español, alemán y ruso) en la plataforma de tienda virtual. Se puede hacerlo de esta manera: </p>
-        <p>Abra <b>'Localization > Translations'</b>(Localización > Traducciones) en el panel de administración, encuentre <b>'Translation exchange'</b> (Intercambio de traducción), y agregue idiomas seleccionándolos en el menú desplegable y haciendo clic en el botón <b>'Add or update a language'</b>(Agregar o actualizar idioma). </p>
-        <img class="presta_scr2" alt="" src="img/01-language-update.png" />
-        <p>Si no desea agregar algunos idiomas, Usted puede eliminar o desactivarlos en el menú <b>'Localization > Languages'</b>(Localización> Idiomas ). </p>
-        <img class="presta_scr2" alt="" src="img/02-language-update.png" />
-    </article>
-</section>
-<section class="block-templates" id="basictutorials">
-	<h2><i class="icon-cogs"></i> Tutoriales básicos</h2>
-    <article id="changename">
-    	<h3>1. Cambiar nombre de tienda</h3>
-        <p>Para modificar el título de su tienda abra el panel de administración de PrestaShop y haga clic en <b>Preferences > Store Contacts</b>(Preferencias > Contactos de tienda), para encontrar la sección <b>Contact details</b>(Detalles de contacto).</p>
-		<p>En el campo <b>Shop name</b>(Nombre de tienda), escriba su nombre de tienda y haga clic en el botón Save (Guardar) para guardar los cambios.</p>
-		<img class="presta_scr2" src="img/10-shop_name.png" alt="" />
-    </article>
-    <!--article id="header_links">
-    	<h3 id="basic_tutorials2">2. Modificar enlaces de cabecera y de pie de página </h3>
-		<p>Por favor, revise el tutorial para <a target="_blank" href="/help/es/prestashop-1-5-x-how-to-manage-footer-and-header-links.html">modificar enlaces de cabecera</a>.</p>
-    </article-->
-    <article id="eddit_slider">
-    	<h3 id="basic_tutorials4">2. Editar slider</h3>
-        <p>Para editar imágenes de slider, encuentre el módulo de slider <b>Image slider for your homepage</b>en la página de Módulos de su tienda PrestaShop. Se encuentra en la sección de  módulos <b>Front Office Features </b>. Haga clic en el botón <b>Configure</b> (Configurar) para editar el módulo. </p>
-        <img class="presta_scr2" src="img/12-slider-1.png" alt="" />
-        <p>En la página de configuración del módulo Usted puede cambiar las opciones de slider (como ancho, velocidad, etc.) y editar imágenes (diapositivas, URL, descripción, etc.).</p>
-        <img class="presta_scr2" src="img/12-slider-2.png" alt="" />
-    </article>
-</section>
-
-<section class="block-templates" id="extensions">
-	<h2><i class="icon-cogs"></i>Configurar extensiones</h2>
-    <article id="olark">
-    	<h3>Chat de Olark</h3>
-        <p>Para configurar un chat en vivo como el de la demostración, tendrá que registrarse en el sitio web oficial <a href="http://www.olark.com/?r=ad8fbsj2">Olark registration.</a> Después de proporcionar todos los datos necesarios, usted recibirá un código para agregar a \themes\themeXXX\footer.tpl antes de la etiqueta &lt;/body&gt; tag. </p>
-    </article>
-</section>
-
-<section class="block-templates" id="cookiepolicy">
-	<h2><i class="icon-exclamation-sign"></i> Política de Cookies</h2>
-	<p>Según las Condiciones de Ley de Cookie, hay que agregar los módulos adecuados a su sitio web que mostrarán un mensaje de aviso sobre cookies utilizados en su sitio web. Recomendamos:</p>
-	<ul>
-		<li><a target="_blank" href="http://addons.prestashop.com/en/front-office-features-prestashop-modules/8704-eu-cookie-law.html">Module EU Cookie Law</a></li>
-		<li><a target="_blank" href="http://addons.prestashop.com/en/administration-tools-prestashop-modules/10376-alert-for-eu-cookie-law.html">Module Alert for EU Cookie Law</a></li>
-	</ul>
-</section>
-
-<section class="block-templates" id="google">
-  <h2><i class="icon-cogs"></i> Carga de datos desde los servidores de Google</h2>
-    <article >
-      <p> Algunos de los países bloquean los servicios de Google que impide Fuentes de Google y las bibliotecas Java Script de carga desde Google CDN. Para resolver estos problemas, por favor, siga los pasos indicados a continuación: </ p>
-      <h3> Para cargar Google Fuentes: </ h3>
-      <ol>
-      <li> Abrir <strong> \themes\theme****\header.tpl </ strong> archivo. </ li>
-      <li> Busque la línea: <br>
-      <pre>$doc->addStyleSheet('//fonts.googleapis.com/css?family=[---your_web_font_name_here---]');</pre></li>
-      <li> Reemplazar con el siguiente: <br>
-      <pre> $ doc-> addStylesheet ('// fonts.useso.com/css?family = [--- your_web_font_name_here ---]'); </ pre> </ li>
-      </ ol>
-      <h3> Para cargar jQuery: </ h3>
-      <ol>
-      <li> Abrir <strong> \ templates \ themeXXXX \ index.php </ strong> archivo. </ li>
-      <li> Busque la línea:
-      <pre> & lt; guión src="//ajax.googleapis.com/ajax/libs/jquery/[---your_jquery_version---]/jquery.min.js">&lt;/script></pre></li>
-      <li> Reemplazar con el siguiente: <br>
-      <pre> & lt; script src = "// code.jquery.com/jquery - [--- your_jquery_version ---] min.js."> & lt; / script> </ pre> </ li>
-      </ ol>
-      <p> También puede utilizar la copia local de la biblioteca jQuery. </ p>
-    </article>
-</section>
-
-<section class="block-templates" id="conclusion">
-	<h2><i class="icon-question-sign"></i> Conclusión</h2>
-    <h4 id="useful_resources">Recursos útiles</h4>
-    <ul>
-        <li><a target="_blank" href="http://www.prestashop.com/">Sitio oficial de PrestaShop</a></li>
-        <!--li><a target="_blank" href="/help/es/ecommerce/prestashop/prestashop-tutorials/">Tutoriales de PrestaShop</a></li-->
-        <li><a target="_blank" href="http://www.prestashop.com/en/downloads/">Descargas</a></li>
-        <li><a target="_blank" href="http://addons.prestashop.com/en/">Complementos: módulos temas, etc.</a></li>
-        <li><a target="_blank" href="http://doc.prestashop.com/display/PS16/English+documentation">Documentación en inglés</a></li>
-        <li><a target="_blank" href="http://www.prestashop.com/forums/">Foro</a></li>
-        <li><a target="_blank" href="http://www.prestashop.com/wiki/">Wiki</a></li>
-    </ul>
-</section>
-</div>
-</div>
-</div>
-
-  </div>
-  </div>
-  </div>
-   <!-- Footer
+      <!-- Docs nav
     ================================================== -->
-	<footer>
-		  <div class="container">        
-		   <div class="span12">
-			<span>PrestaShop Documentation</span><br />
-			&copy; <span id="date"></span> <span id="copyright">Template Monster</span>
-		   </div>
-		  </div>
-	</footer>
-    <div id="back-top">
-        <a href="#"><i class="icon-double-angle-up"></i></a>
+      <div class="row">
+        <div class="span3">
+          <div id="nav_container"> <a href="javascript:;" id="affect_all"> <span class="expand"> <i class="icon-angle-down"></i> </span> <span class="close"> <i class="icon-angle-up"></i> </span> </a>
+            <div class="clearfix"></div>
+            <ul class="nav nav-list bs-docs-sidenav"  id="nav">
+              <li class="nav-item item1">
+                <dl class="slide-down">
+                  <dt><a href="#preparations" class="icon-info-sign">Introducci&oacute;n</a></dt>
+                  <dd></dd>
+                </dl>
+              </li>
+              <li class="nav-item item2">
+                <dl class="slide-down">
+                  <dt> <a href="#engine_installation" class="icon-play">Primeros pasos</a> <i class="icon-sample"></i> </dt>
+                  <dd>
+                    <ul class="list">
+                      <li><a href="#preparation">Preparaci&oacute;n</a></li>
+                      <li><a href="#editing_software">Software de edici&oacute;n</a></li>
+		      <li><a href="#server_requirements">Requisitos del servidor</a></li>
+                      <li><a href="#local_server">Usando el servidor local</a></li>
+                      <li><a href="#downloading">Descargando</a></li>
+		      <li><a href="#extracting_files">Extracci&oacute;n de archivos</a></li>
+                      <li><a href="#upl_files">Carga de los archivos del motor de PrestaShop</a></li>
+                      <li><a href="#ps_engine_install">Instalaci&oacute;n del motor de PrestaShop</a></li>
+                    </ul>
+                  </dd>
+                </dl>
+              </li>
+			  <li class="nav-item item3">
+                <dl class="slide-down">
+		<dt><a href="#theme_installation" class="icon-check">Instalaci&oacute;n de la plantilla </a><i class="icon-sample"></i></dt>
+                  <dd>
+                    <ul class="list">
+		    <li><a href="#themeinstaller">Importaci&oacute;n del tema</a></li>
+                      <li><a href="#with_products_auto">Instalaci&oacute;n autom&aacute;tica con los datos de demostraci&oacute;n (instalador de datos de muestra)</a></li>
+                      <li><a href="#with_products_manual">Instalaci&oacute;n manual de la plantilla con los datos de muestra</a></li>
+                      <li><a href="#overdata">Instalaci&oacute;n de la plantilla sobre una tienda existente</a></li>
+                    </ul>
+                  </dd>
+                </dl>
+              </li>
+              <li class="nav-item item4">
+                <dl class="slide-down">
+		<dt><a href="#basictutorials" class="icon-cog">Tutoriales b&aacute;sicos</a><i class="icon-sample"></i></dt>
+                  <dd>
+                    <ul class="list">
+		    <li><a href="#changename">C&oacute;mo cambiar el nombre de la tienda</a></li>
+                      <li><a href="#eddit_slider">C&oacute;mo modificar el control deslizante</a></li>
+                    </ul>
+                  </dd>
+                </dl>
+              </li>
+              <li class="nav-item item5">
+                <dl class="slide-down">
+                  <dt><a href="#extensions" class="icon-magnet">M&oacute;dulos personalizados y extensiones </a><i class="icon-sample"></i></dt>
+                  <dd>
+                    <ul class="list">
+                      <li><a href="#smart_blog">Blog Inteligente</a>
+                        <ul class="list">
+                          <li><a href="#smart_blog_">Blog Inteligente</a></li>
+                          <li><a href="#smart_blog_feed">Fuentes RSS del Blog Inteligente</a></li>
+                          <li><a href="#smart_blog_archive">Archivo del Blog Inteligente</a></li>
+                          <li><a href="#smart_blog_categories">Categor&iacute;as del Blog Inteligente</a></li>
+                          <li><a href="#smart_blog_home">&Uacute;ltimas Noticias del Blog Inteligente</a></li>
+                          <li><a href="#smart_blog_comments">&Uacute;ltimos Comentarios del Blog Inteligente</a></li>
+                          <li><a href="#smart_blog_add_this">M&oacute;dulo AddThis del Blog Inteligente</a></li>
+                          <li><a href="#smart_blog_popular">Mensajes Populares del Blog Inteligente</a></li>
+                          <li><a href="#smart_blog_recent">&Uacute;ltimos Mensajes del Blog Inteligente</a></li>
+                          <li><a href="#smart_blog_related">Articulos relacionados del Blog Inteligente</a></li>
+                          <li><a href="#smart_blog_search">Busqueda del Blog Inteligente</a></li>
+                          <li><a href="#smart_blog_tag">Etiquetas del Blog Inteligente</a></li>
+                        </ul>
+                      </li>
+		      		  <li><a href="#tmmediaparallax">M&oacute;dulo Media parallax</a></li>
+                      <li><a href="#tmvideobackground">M&oacute;dulo de Video en segundo plano</a></li>
+                      <li><a href="#tmhtmlcontent">Contenido TM HTML</a></li>
+                      <li><a href="#tmcategoriesbadges">TM Categories Badges</a></li>
+                      <li><a href="#tmgooglemap">TM Google Map</a></li>
+                      <li><a href="#tmmanufacturersblock">TM Manufacturers Block</a></li>
+                      <li><a href="#tmproductsslider">TM Products Slider</a></li>
+                      <li><a href="#tmproductvideos">TM Product Videos</a></li>
+                      <li><a href="#tmsocialfeeds">TM Social Feeds</a></li>
+		      		  <li><a href="#olark">Chat en Vivo de Olark</a></li>
+                    </ul>
+                  </dd>
+                </dl>
+              </li>
+              <li class="nav-item item6">
+                <dl class="slide-down">
+		<dt><a href="#cookiepolicy" class="icon-exclamation-sign">Pol&iacute;tica de cookies</a></dt>
+                  <dd></dd>
+                </dl>
+              </li>
+              <li class="nav-item item7">
+                <dl class="slide-down">
+		<dt><a href="#conclusion" class="icon-question-sign">Ap&eacute;ndice</a></dt>
+                  <dd></dd>
+                </dl>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="span9"> 
+          
+          <!-- box-content
+================================================== -->
+          <div class="box-content"> 
+            <!-- block-started
+================================================== -->
+            <section class="block-templates" id="preparations">
+              <h2 class="item1"><i class="icon-info-sign"></i> Introducci&oacute;n</h2>
+              <h4>&iquest;Qu&eacute; es el comercio electr&oacute;nico PrestaShop?</h4>
+              <p>PrestaShop es una soluci&oacute;n de comercio electr&oacute;nico gratuita para el kernel b&aacute;sico y de c&oacute;digo abierto. Es compatible con servicios de pago como Google Checkout, PayPal o pagos mediante el uso de APIs.</p>
+              <p>PrestaShop est&aacute; disponible bajo licencia de software abierto y fue lanzado oficialmente en agosto de 2007 para PYMES (peque&ntilde;as y medianes empresas peque&ntilde;as. El software que est&aacute; basado en el motor de plantillas Smarty es utilizado por miles de tiendas en todo el mundo.</p>
+			      <h4>&iquest;Qu&eacute; es la plantilla de PrestaShop?</h4>
+              <p>La plantilla de PrestaShop es un tema para la soluci&oacute;n de comercio electr&oacute;nico PrestaShop. Le ofrece una gran variedad de posibilidades de personalizaci&oacute;n y le permite crear una tienda en l&iacute;nea que cumpla plenamente sus necesidades.</p>
+	      <h4>Estructura de archivos</h4>
+              <p>El paquete de la plantilla que ha descargado tiene varias carpetas. Veamos lo que cada una contiene:</p>
+              <ul class="files_structure">
+                <li class="folder"><i class="icon-folder-close"></i> <strong>screenshots</strong><small class="muted"> - contiene capturas de pantalla de la plantilla. No es para producci&oacute;n</small></li>
+                <li class="folder"><i class="icon-archive"></i> <strong>sources.zip</strong><small class="muted"> - contiene los archivos de c&oacute;digo fuente de la plantilla</small>
+                  <ul>
+                    <li class="folder"><i class="icon-folder-close"></i> <strong>sources</strong>
+                    <ul>
+                      <li><i class="icon-folder-close"></i> <strong>psd</strong><small class="muted"> - archivos de c&oacute;digo fuente de Adobe Photoshop para la plantilla (.psd)</small></li>
+                    </ul>
+					</li>
+                  </ul>
+                </li>
+                <li class="folder"><i class="icon-folder-close"></i> <strong>theme</strong><small class="muted"> - contiene los archivos del tema de PrestaShop</small>
+                  <ul>
+                    <li class="folder"><i class="icon-folder-close"></i> manual_install<small class="muted"> - contiene los archivos para la instalaci&oacute;n manual</small>
+                      <ul>
+	      <li class="folder"><i class="icon-folder-close"></i> img<small class="muted"> - im&aacute;genes para la instalaci&oacute;n manual</small></li>
+                            <li class="folder"><i class="icon-folder-close"></i> modules<small class="muted"> - m&oacute;dulos para la la instalaci&oacute;n manual</small></li>
+                            <li class="folder"><i class="icon-folder-close"></i> themes<small class="muted"> - archivos del tema para la la instalaci&oacute;n manual</small></li>
+                            <li class="file"><i class="icon-file"></i> dump.sql<small class="muted"> - archivo de datos de muestra para la instalaci&oacute;n manual</small></li>
+                      </ul>
+                    </li>
+                    <li class="folder"><i class="icon-folder-close"></i> sample_data<small class="muted"> - Contiene los archivos usados para la instalaci&oacute;n de datos de muestra con el m&oacute;dulo sampledatainstall</small></li>
+                    <li class="folder"><i class="icon-folder-close"></i> themeinstallator<small class="muted"> - contiene un archivo para la instalaci&oacute;n autom&aacute;tica del tema</small>
+                      <ul>
+                        <li class="file"><i class="icon-file"></i> theme####.zip<small class="muted"> - archivo de tema. Contiene todos los archivos del tema. Se instala utilizando el m&eacute;todo de instalaci&oacute;n est&aacute;ndar de PrestaShop</small></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="file"><i class="icon-file"></i> fonts_info.txt<small class="muted"> - contiene enlaces para descargar las fuentes utilizadas en la plantilla</small></li>
+                <li class="file"><i class="icon-file"></i> info.txt<small class="muted"> - contiene instrucciones sobre la extracci&oacute;n de los archivos de c&oacute;digo fuente</small></li>
+              </ul>
+            </section>
+			<section class="block-templates" id="engine_installation">
+              <h2 class="item3"><i class="icon-play"></i> Primeros pasos</h2>
+              <article id="preparation">
+                <h4>Preparaci&oacute;n</h4>
+                <p>Antes de seguir con la configuraci&oacute;n de su comercio electr&oacute;nico de PrestaShop, por favor aseg&uacute;rese de que est&aacute; totalmente preparado. Por favor, realice los siguientes pasos de preparaci&oacute;n:</p>
+              </article>
+              <article id="editing_software">
+                <h4>Software de edici&oacute;n</h4>
+                <p>Para sentirse c&oacute;modo trabajando con su plantilla de PrestaShop, le recomendamos que descargue todas las aplicaciones necesarias. Puede ver la lista de software necesario en la p&aacute;gina de vista previa de plantilla.
+                  Los requisitos pueden variar dependiendo de la plantilla, por norma general usted necesita:</p>
+                <ol>
+                  <li>En primer lugar, usted necesita las aplicaciones adecuadas para extraer el archivo sources_#########.zip que est&aacute; protegido por contrase&ntilde;a. Puede utilizar WinZip 9+ (Windows) y Stuffit Expander 10+ (Mac).</li>
+                  <li>Usted tambi&eacute;n podr&iacute;a necesitar la aplicaci&oacute;n Adobe Photoshop. Se utiliza para editar los archivos de c&oacute;digo fuente .PSD, es necesaria si desea editar los gr&aacute;ficos e im&aacute;genes de la plantilla.</li>
+                  <li>Para editar los archivos de c&oacute;digo fuente de la plantilla, necesitas alg&uacute;n editor de c&oacute;digo como Adobe Dreamweaver, Notepad++, Sublime Text, etc.</li>
+                  <li>Para cargar archivos en el servidor de alojamiento, es posible que necesite un Gestor FTP como Total Commander, FileZilla, CuteFTP, etc.</li>
+                </ol>
+              </article>
+              <article id="server_requirements">
+                <h4>Requisitos del servidor</h4>
+                <p>Por favor, aseg&uacute;rese de que su servidor de alojamiento cumple con los requisitos de PrestaShop:</p>
+                <ol>
+		<li><strong>Sistema:</strong> Unix, Linux o Windows. Se recomienda Unix.</li>
+		<li><strong>Servidor web:</strong> Apache 1.3 o superior, IIS 6.0 de Microsoft o superior, y nginx 1.0 o superior.</li>
+                  <li><strong>PHP 5.2<strong style="color:#ff0000">*</strong></strong> o superior.</li>
+                  <li><strong>MySQL 5.0</strong> o superior.</li>
+                  <li>Al menos 32 Mb de memoria RAM en el servidor (64 Mb es mejor, en realidad, cuanto m&aacute;s mejor).</li>
+                </ol>
+                <div class="box-info"><span> PrestaShop funcionar&aacute; con PHP 5.1 o superior, pero las versiones anteriores a la 5.2 tienen errores que podr&iacute;an hacer que algunas caracter&iacute;sitcas no funcionen correctamente (como la validaci&oacute;n de fechas).</span></div>
+              </article>
+              <article id="local_server">
+                <h4>Usando el servidor local</h4>
+                <p>Puede ejecutar PrestaShop localmente en su ordenador con el servidor local. Para crear un servidor de alojamiento local, por favor, utilice las aplicaciones de localhost, como WAMP, AppServ, XAMP, etc. Cualquiera de ellas se puede instalar f&aacute;cilmente  y se utilizan para ejecutar PrestaShop.</p>
+                <p>Por favor, consulte los tutoriales a continuaci&oacute;n sobre c&oacute;mo configurar un entorno de desarrollo local:</p>
+                <ul class="list-2">
+                  <li><i class="icon-play-circle "></i> <a target="_blank" href="/help/how-to-install-appserv-web-development-environment.html">C&oacute;mo instalar el entorno de desarrollo web AppServ</a></li>
+                  <li><i class="icon-play-circle "></i> <a target="_blank" href="/help/how-to-install-wamp-web-development-environment.html">C&oacute;mo instalar el entorno de desarrollo web WAMP</a></li>
+                  <li><i class="icon-play-circle "></i> <a target="_blank" href="/help/how-to-install-xamp-web-development-environment.html">C&oacute;mo instalar el entorno de desarrollo web XAMP</a></li>
+                </ul>
+              </article>
+              <article id="downloading">
+                <h4>Descargando</h4>
+		<p>Para instalar PrestaShop necesita descargar el paquete del motor de PrestaShop desde el sitio web oficial en <a target="_blank" href="http://www.prestashop.com/en/downloads">www.prestashop.com/en/downloads</a></p>
+		<p>S&oacute;lo tiene que insertar su nombre y correo electr&oacute;nico en el cuadro de descarga y hacer clic en el bot&oacute;n <strong>'Descargar'</strong>. </p>
+                <div class="box-notification"><span>Por favor, aseg&uacute;rese de que su versi&oacute;n del motor de PrestaShop coincide con los requisitos de la plantilla. Todas las versiones de PrestaShop est&aacute;n disponibles en <a class="spec_link" target="_blank" href="http://sourceforge.net/projects/prestashop/files/prestashop%20v1/">SourceForge</a>.</span></div>
+              </article>
+              <article id="extracting_files">
+                <h4>Extracci&oacute;n de archivos</h4>
+                <p>Una vez que el paquete del motor PrestaShop es descargado, tendr&aacute; que extraer sus archivos y carpetas.</p>
+                <p>Esto se puede hacer con cualquier gestor de archivos como <strong>WinZip(PC)</strong>, <strong>StuffitExpander(MAC)</strong>, etc.</p>
+                <p>Por favor, consulte los siguientes tutoriales sobre c&oacute;mo extraer el contenido de los archivos comprimidos con <a target="_blank" href="/help/extract-archived-files-windows-os.html">WinZip(PC)</a> y <a target="_blank" href="/help/extract-archived-files-mac-os.html">StuffitExpander(MAC)</a>.</p>
+		<div class="box-info"><span>Tenga en cuenta: si su panel de control de hosting tiene la opci&oacute;n de <strong>'Extraer'</strong> archivos, usted puede utilizarla para extraer los archivos directamente en el servidor despu&eacute;s de que se ha cargado el archivo .zip. </span></div>
+              </article>
+              <article id="upl_files">
+                <h4>Carga de los archivos del motor de PrestaShop</h4>
+                <p>Si ha extra&iacute;do los archivos de forma local en el equipo, tendr&aacute; que subirlos a su servidor de alojamiento.</p>
+                <p>Esto se puede hacer mediante el panel de control del hosting o utilzando un Gestor de FTP de terceros como FileZilla, TotalCommander, CuteFTP, etc.</p>
+                <p>Puede echar un vistazo al video tutorial detallado sobre <a target="_blank" href="/help/how-upload-files-server-2.html">c&oacute;mo subir archivos al servidor mediante un gestor de FTP</a> and <a target="_blank" href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html">c&oacute;mo subir archivos a un servidor utilizando cPanel (WebHost Manager, WHM)</a>.</p>
+              </article>
+              <article id="ps_engine_install">
+                <h4>Instalaci&oacute;n del motor de PrestaShop</h4>
+                <p>Cuando haya terminado de cargar los archivos, puede iniciar la instalaci&oacute;n del motor de PrestaShop. Abra su navegador Web y escriba el 'nombre del dominio/ruta a la carpeta de PrestaShop' en la barra de direcciones, a continuaci&oacute;n, vuelva a cargar la p&aacute;gina. Deber&iacute;a ver la pantalla de bienvenida. Por favor, siga las siguientes instrucciones para instalar PrestaShop.</p>
+                <h5>Paso 1: Asistente de Instalaci&oacute;n (Elija el idioma)</h5>
+                <p></p>
+                <p>Por favor seleccione el idioma de instalaci&oacute;n</p>
+                <div class="box-info"><span>Tenga en cuenta: La opci&oacute;n de instalaci&oacute;n de idioma no cambiar&aacute; el idioma de su tienda. Por defecto PrestaShop se ofrece en Ingl&eacute;s. Puede instalar los paquetes de traducci&oacute;n adicionales para cambiar el idioma de la tienda. </span></div>
+                <p> <img class="presta_scr1" src="img/01-install.png" alt="" /> </p>
+                <p>Cuando haya terminado, haga clic en el bot&oacute;n <strong>'Siguiente'</strong>.</p>
+                <h5>Paso 2: Asistente de Instalaci&oacute;n (acuerdos de licencia)</h5>
+                <p></p>
+                <p>Por favor, consulte el contrato de licencia.</p>
+                <p><img class="presta_scr1" src="img/01-install-1.png" alt="" /></p>
+                <p>Cuando haya terminado, haga clic en el bot&oacute;n <strong>'Siguiente'</strong>.</p>
+                <h5>Paso 3: Compatibilidad del Sistema</h5>
+                <p></p>
+                <p>Compruebe la configuraci&oacute;n de PHP y los permisos del directorio. En caso de cualquier error, por favor p&oacute;ngase en contacto con su proveedor de hosting para obtener m&aacute;s ayuda.</p>
+                <p><img class="presta_scr1" src="img/02-install.png" alt="" /></p>
+                <p>Si todo es correcto, haga clic en el bot&oacute;n <strong>'Siguiente'</strong>.</p>
+		<h5>Paso 4: Configuraci&oacute;n de la tienda</h5>
+                <p></p>
+                <p>Este paso requiere que introduzca los ajustes de la tienda como el nombre de Tienda, la actividad, el pa&iacute;s, la zona horaria, etc.</p>
+                <p>Todos estos ajustes se pueden cambiar m&aacute;s adelante en el panel de administraci&oacute;n de PrestaShop.</p>
+                <p><img class="presta_scr1" src="img/04-install.png" alt="" /></p>
+                <h5>Paso 5: Configuraci&oacute;n del Sistema</h5>
+                <p></p>
+                <p>Si ya tiene una base de datos de MySQL, por favor indique los detalles de de la base de datos en los campos correspondientes.</p>
+                <p>Si no los sabe usted puede conseguir los detalles de la base de datos desde el panel de control de hosting o poni&eacute;ndose en contacto con su proveedor de hosting.</p>
+                <p><img class="presta_scr1" src="img/03-install.png" alt="" /></p>
+                <p>Cuando haya terminado, haga clic en el bot&oacute;n <strong>'Siguiente'</strong>.</p>
+                <h5>Paso 6: La instalaci&oacute;n est&aacute; completa</h5>
+                <p>Este es el paso final de la instalaci&oacute;n.</p>
+                <p><img class="presta_scr1" src="img/05-install.png" alt="" /></p>
+                <div class="box-notification"><span>Por razones de seguridad es necesario eliminar la carpeta <strong>/install/</strong> del servidor de alojamiento.</span></div>
+                <div class="box-info"><span>Desde la versi&oacute;n 1.5.4, PrestaShop se encarga de cambiar el nombre de la carpeta de administraci&oacute;n por ti: usa la palabra "admin" y a&ntilde;ade 4 d&iacute;gitos al azar, es decir, por ejemplo "admin8814." El cambio de nombre se produce cuando llega a la carpeta "admin" por primera vez: PrestaShop cambiar&aacute; el nombre y luego acceder&aacute; a la carpeta renombrada.<br />
+                  <br />
+                  Inicie sesi&oacute;n en el panel de administraci&oacute;n de PrestaShop para ir a la carpeta "admin" reci&eacute;n renombrada y empiece a llenar el cat&aacute;logo con sus datos.</span></div>
+                <p>Si se encuentra con alg&uacute;n problema, por favor compruebe el <a target="_blank" href="http://doc.prestashop.com/display/PS16/Getting+Started">manual de instalaci&oacute;n oficial de PrestaShop</a>.</p>
+              </article>
+            </section>
+            <section class="block-templates" id="theme_installation">
+              <h2 class="item2"><i class="icon-check"></i> Instalaci&oacute;n de la plantilla</h2>
+              <article id="themeinstaller">
+                <h3>1. Importaci&oacute;n del tema</h3>
+                <div class="box-info"> <span>Nota: este m&eacute;todo no ofrece la instalaci&oacute;n de los datos de muestra.</span> </div>
+                <h4 id="template_installation_themeinstallator1">1. Preparaci&oacute;n de la plantilla.</h4>
+                <p>Antes de continuar, por favor aseg&uacute;rese de que usted ha descargado la plantilla y ha extra&iacute;do los archivos. Puedes consultar tutoriales detallados sobre c&oacute;mo extraer archivos del paquete de la plantilla mediante <a target="_blank" href="/help/unzipping-your-template.html">WinZip</a> and <a target="_blank" href="/help/how-unzip-template-mac.html">StuffitExpander</a>.</p>
+                <p>Cuando haya extra&iacute;do los archivos puede proceder a subir la plantilla.</p>
+                <h4 id="template_installation_themeinstallator2">2. Instalaci&oacute;n.</h4>
+                <p>Acceda a su panel de administraci&oacute;n de PrestaShop y vaya a <strong>Preferencias -> Temas</strong>. En la parte superior de la p&aacute;gina haga clic en el bot&oacute;n <strong>A&ntilde;adir un nuevo tema</strong>.</p>
+                <img class="presta_scr2" src="img/05-install-2.png" alt="" />
+                <p></p>
+		<p>Haga clic en el bot&oacute;n <strong>A&ntilde;adir archivo</strong> en Importar desde el apartado de su ordenador. Vaya al paquete de la plantilla que ya ha descomprimido y abra la carpeta <strong>themeinstallator</strong>.</p>
+                <p>Seleccione el archivo .zip del tema y haga clic en <strong>Guardar</strong>.</p>
+                <img class="presta_scr2" src="img/05-install-3.png" alt="" />
+                <p></p>
+                <p>Se iniciar&aacute; el proceso de carga. Ver&aacute; el mensaje de que el tema se ha subido correctamente. Una vista previa del nuevo tema aparecer&aacute; en la lista de temas instalados.</p>
+                <img class="presta_scr2" src="img/05-install-4.png" alt="" />
+                <p></p>
+                <p>Para activar el tema, pase el cursor sobre el icono de la vista previa del tema y haga clic en <strong>Usar este tema</strong>.</p>
+                <img class="presta_scr2" src="img/05-install-5.png" alt="" />
+                <p></p>
+                <p>Deber&iacute;a ver la pantalla con la informaci&oacute;n de los m&oacute;dulos utilizados por el tema, el n&uacute;mero de m&oacute;dulos que est&aacute;n activados y desactivados. Haga clic en <strong>Guardar</strong> para continuar.</p>
+                <p style="text-align:center;"> <img class="presta_scr2" src="img/05-install-6.png" alt="" /> </p>
+                <p>Despu&eacute;s de esto, ver&aacute; la ventana emergente con el mensaje sobre la activaci&oacute;n exitosa del tema: el tema se ha instalado correctamente, las im&aacute;genes se han ajustado a las dimensiones del tema. Para terminar la instalaci&oacute;n haga clic en el bot&oacute;n <strong>Finalizar</strong> .</p>
+                <p> <img class="presta_scr2" src="img/05-install-6_1.png" alt="" /> </p>
+              </article>
+              <article id="with_products_auto">
+                <h3>2. Instalaci&oacute;n autom&aacute;tica con los datos de demostraci&oacute;n (instalador de datos de muestra)</h3>
+                <p>Despu&eacute;s de instalar los <strong>datos de demostraci&oacute;n</strong>, tendr&aacute;s tu tienda de PrestaShop justo igual que en la plantilla de demostraci&oacute;n en l&iacute;nea. Contendr&aacute; todos los productos de demostraci&oacute;n, categor&iacute;as, m&oacute;dulos y configuraci&oacute;n de la tienda.</p>
+		<div class="box-error"><span>Por favor, no use los de datos de muestra para su sitio web en funcionamiento! Esto reemplazar&aacute; todos sus productos y ajustes de la tienda.</span></div>
+                <p>Para instalar los datos de muestra utilizando el instalador de los datos de demostraci&oacute;n, por favor, siga las instrucciones del paso 1 <a href="#themeinstaller">(Importaci&oacute;n del tema)</a> de este manual. Luego, en el panel de administraci&oacute;n de la tienda ver&aacute;s el m&oacute;dulo para instalar los datos de demostraci&oacute;n.</p>
+                <p>Usando este m&oacute;dulo puede instalar f&aacute;cilmente los datos de muestra de la tienda en unos pocos y sencillos pasos. Por favor, haga lo siguiente:</p>
+                <ol>
+                  <li>
+		  <p>En el men&uacute; del panel de administraci&oacute;n haga clic en la opci&oacute;n <strong>"Instalar Tienda de Demostraci&oacute;n"</strong>.</p>
+                    <p> <img class="presta_scr2" src="img/05-install-7.png" alt="" /> </p>
+                  </li>
+                  <li>
+		  <p>Seleccione y cargue los archivos de datos de ejemplo desde la carpeta <strong>'sample_data'</strong> que se encuentra en el paquete de la plantilla. Puede hacerlo utilizando el bot&oacute;n <strong>"Examinar archivos locales"</strong> o arrastrando los archivos de datos de muestra a la ventana del navegador.</p>
+                    <p> <img class="presta_scr2" src="img/05-install-7_1.png" alt="" /> </p>
+                  </li>
+                  <li>
+                    <p>Espere hasta que los archivos se carguen.</p>
+                    <p> <img class="presta_scr2" src="img/05-install-7_2.png" alt="" /> </p>
+                  </li>
+                  <li>
+                    <p>Luego haga clic en el bot&oacute;n <strong>"Continuar Instalaci&oacute;n"</strong>.</p>
+                    <p> <img class="presta_scr2" src="img/05-install-7_3.png" alt="" /> </p>
+                  </li>
+                  <li>
+                    <p>Then Sample data installer will automatically configure your store and other modules. This can take several minutes.</p>
+                    <p> <img class="presta_scr2" src="img/05-install-7_4.png" alt="" /> </p>
+                  </li>
+                  <li>
+                    <p>Cuando los datos de la demostraci&oacute;n se hayan instalado correctamente, es necesario realizar el &uacute;ltimo paso - regenerar las im&aacute;genes. Haga clic en el bot&oacute;n <strong>"Ir a la p&aacute;gina Regenerar"</strong>.</p>
+                    <p> <img class="presta_scr2" src="img/05-install-7_5.png" alt="" /> </p>
+                  </li>
+                  <li>
+                    <p>Para volver a generar las im&aacute;genes haga clic en el bot&oacute;n <strong>"Regenerar miniaturas"</strong>.</p>
+                    <p> <img class="presta_scr2" src="img/05-install-7_6.png" alt="" /> </p>
+                  </li>
+                </ol>
+                Enhorabuena, se ha instalado su tienda de demostraci&oacute;n. </article>
+              <article id="with_products_manual">
+	      <h3>3. Instalaci&oacute;n manual de la plantilla con los datos de muestra</h3>
+                <p>Despu&eacute;s de instalar los <strong>datos de demostraci&oacute;n</strong>, tendr&aacute;s tu tienda de PrestaShop justo igual que en la plantilla de demostraci&oacute;n en l&iacute;nea. Contendr&aacute; todos los productos de demostraci&oacute;n, categor&iacute;as, m&oacute;dulos y configuraci&oacute;n de la tienda.</p>
+		<div class="box-error"><span>Por favor, no use los de datos de muestra para su sitio web en funcionamiento! Esto reemplazar&aacute; todos sus productos y ajustes de la tienda.</span></div>
+                <h4 id="template_installation_sample1">1. Cargar los archivos de la plantilla</h4>
+                <p>Para cargar la plantilla a su servidor:</p>
+                <ol>
+                  <li>Abra el paquete de la plantilla.</li>
+                  <li>A continuaci&oacute;n, vaya a la carpeta <strong>/theme/manual_install/</strong>.</li>
+		  <li>Cargue las carpetas <strong>/img/</strong>, <strong>/modules/</strong> y <strong>/themes/</strong> al directorio ra&iacute;z de PrestaShop.</li>
+                </ol>
+                <p>Puede revisar el video tutorial detallado sobre <a target="_blank" href="/help/how-upload-files-server-2.html">c&oacute;mo subir archivos al servidor mediante el gestor de FTP</a> and <a href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html" target="_blank">c&oacute;mo subir archivos a un servidor utilizando cPanel (WebHost Manager, WHM)</a>.</p>
+                <h4 id="template_installation_sample2">2. Instalar los datos de ejemplo</h4>
+		<p>Los datos de muestra se proporcionan como un archivo .SQL. Se encuentra en la carpeta <strong>theme/manual_install/</strong> del paquete de la plantilla y se llama <strong>dump.sql</strong>.</p>
+		<p>El archivo dump.sql puede ser instalado utilizando la herramienta phpMyAdmin o alguna otra herramienta de gesti&oacute;n de base de datos en su panel de control de hosting. Este tutorial detallado sobre <a target="_blank" href="/help/phpmyadmin-how-to-import-sample-data-dump-file-phpmyadmin.html">c&oacute;mo instalar archivos de SQL</a> puede ayudarle.</p>
+		<div class="box-notification"><span>Antes de continuar, por favor haga una copia de seguridad de su base de datos. Puede revisar el video tutorial detallado sobre <a target="_blank" href="/help/phpmyadmin-how-to-backup-a-database.html">c&oacute;mo hacer copia de una base de datos</a>.</span></div>
+                <p></p>
+                <div class="box-notification"><span>Por favor, aseg&uacute;rese de que su versi&oacute;n del motor de PrestaShop coincide con los requisitos de la plantilla. De lo contrario, la base de datos se da&ntilde;ar&aacute;.</span></div>
+                <p>Cuando haya terminado con la instalaci&oacute;n del archivo dump.sql, tendr&aacute; que activar la plantilla.</p>
+		<p>Desde el panel de administraci&oacute;n de PrestaShop, vaya a <strong>Preferencias > Temas</strong>, seleccione la plantilla en la secci&oacute;n <strong>Temas</strong> y haga clic en <strong>Guardar</strong>.</p>
+                <h4 id="template_installation_sample3">3. A&ntilde;adiendo idiomas a la tienda. </h4>
+                <p>Despu&eacute;s de que la plantilla en varios idiomas haya sido instalada, usted ser&aacute; capaz de a&ntilde;adir todos los idiomas disponibles en ella (ingl&eacute;s, franc&eacute;s, espa&ntilde;ol, alem&aacute;n, ruso). Puede hacerlo de esta manera: </p>
+		<p>Vaya a <strong>'Localizaci&oacute;n > Traducciones'</strong> en el panel de administraci&oacute;n, encuentre <strong>'A&Ntilde;ADIR/ACTUALIZAR IDIOMA'</strong> y agregue idiomas seleccion&aacute;ndolos en el men&uacute; desplegable <small>(1)</small> y haga clic en el bot&oacute;n <strong>'A&ntilde;adir o actualizar un idioma'</strong>  <small>(2)</small>.</p>
+                <p><img class="presta_scr2" alt="" src="img/01-language-update.png" /></p>
+		<p>Si no quiere tener algunos idiomas, puede eliminarlos <small>(2)</small> o desactivarlos <small>(1)</small> en el men&uacute; <strong>'Localizaci&oacute;n > Idiomas'</strong>. </p>
+                <img class="presta_scr2" alt="" src="img/02-language-update.png" /> </article>
+              <article id="overdata">
+                <h3>4. Instalaci&oacute;n de la plantilla sobre una tienda existente</h3>
+                <div class="box-info"><span>Usted puede usar este m&eacute;todo de instalaci&oacute;n si ya tiene un sitio web funcionando con PrestaShop y s&oacute;lo quiere instalar una nueva plantilla.</span></div>
+                <h4 id="template_installation_over1">1. Cargar los archivos de plantilla y la activar el tema</h4>
+                <ol>
+                  <li>Abra el paquete de la plantilla.</li>
+                  <li>Luego, vaya a la carpeta <strong>/theme/manual_install/</strong>.</li>
+                  <li>Cargue las carpetas <strong>/modules/</strong> y <strong>/themes/</strong> al directorio ra&iacute;z de PrestaShop.
+                  <p>Puede comprobar el video tutorial detallado sobre <a target="_blank" href="/help/how-upload-files-server-2.html">c&oacute;mo subir archivos al servidor mediante el gestor de FTP</a> and <a href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html" target="_blank">c&oacute;mo subir archivos a un servidor utilizando cPanel (WebHost Manager, WHM)</a>.</p></li>
+                  <li>
+		  <p>En su panel de administraci&oacute;n de PrestaShop vaya a <strong>Preferencias > Temas</strong>, seleccione el tema que ha instalado (tambi&eacute;n puede utilizar el tema que est&aacute; habilitado, esto no causar&aacute; ning&uacute;n problema para su tema actual). Haga clic en el bot&oacute;n <strong>Configuraci&oacute;n avanzada</strong> .</p>
+                    <p><img class="presta_scr2" alt="" src="img/theme_add.png" /></p>
+                  </li>
+                  <li>
+		  <p>En la pantalla mostrada seleccione el directorio con el nuevo nombre del tema y haga clic en el bot&oacute;n <strong>Guardar</strong>.</p>
+                    <p><img class="presta_scr2" alt="" src="img/theme-select.png" /></p>
+                  </li>
+                </ol>
+		<h4 id="template_installation_over2">2. Instalaci&oacute;n de m&oacute;dulos</h4>
+                <p>Cada plantilla est&aacute; provista con algunos ajustes espec&iacute;ficos para los m&oacute;dulos. Para hacer que los m&oacute;dulos aparezcan igual que en la demostraci&oacute;n, deber&aacute; configurarlos. Todos los m&oacute;dulos se pueden configurar en el panel de administraci&oacute;n de PrestaShop.</p>
+        		<p>1. En su panel de administraci&oacute;n de PrestaShop, seleccione <strong>M&oacute;dulos > M&oacute;dulos</strong> en el men&uacute; principal.</p>
+        		<p>En la p&aacute;gina de m&oacute;dulos se puede ver la lista de m&oacute;dulos disponibles de PrestaShop. Puede que tenga que instalar algunos de ellos.</p>
+			<p>Para instalar un m&oacute;dulo, b&uacute;squelo en la lista y haga clic en el bot&oacute;n <strong>'Instalar'</strong>.</p>
+        		<img class="presta_scr2" src="img/06-modules.png" alt="" />
+        		<p></p>
+			<p>Utilizando los enlaces del m&oacute;dulo pueden activarlos o desactivarlos (enlaces <strong>Activar</strong>|<strong>Desactivar</strong>), restablecer sus ajustes por defecto (enlace <strong>Restablecer</strong>), eliminar un m&oacute;dulo (enlace <strong>Eliminar</strong>) o configurarlo (enlace <strong>Configurar</strong>).</p>
+        		<img class="presta_scr2" src="img/08-modules.png" alt="" />
+        		<p></p>
+                <p>2. Despu&eacute;s de <strong>activar</strong> los m&oacute;dulos necesarios, tiene que <strong>asignarlos para corregir posiciones.</strong></p>
+<p>En el panel de administraci&oacute;n de PrestaShop, seleccione <strong>M&oacute;dulos > Posiciones</strong> en el men&uacute; superior. Para poner un m&oacute;dulo en la posici&oacute;n requerida, simplemente arrastre a la secci&oacute;n de posici&oacute;n de la lista de m&oacute;dulos.</p>
+<img class="presta_scr2" src="img/09-modules.png" alt="" />
+<p></p>
+                <h4 id="template_installation_clear">3. Configuraci&oacute;n de las im&aacute;genes</h4>
+		<p>En PrestaShop puede utilizar tama&ntilde;os de imagen predefinidas para las im&aacute;genes de productos, categor&iacute;as, fabricantes, etc.</p>
+		<p>Por ejemplo, las dimensiones de las im&aacute;genes de <strong>'home'</strong> se utilizan generalmente para las im&aacute;genes del producto en los listados por categor&iacute;a, <strong>'large'</strong> para la imagen principal del producto en la p&aacute;gina de informaci&oacute;n del producto.</p>
+		<p>Para configurar las dimensiones de imagen de los productos, abrir su panel de administraci&oacute;n de PrestaShop, vaya a <strong>Preferencias > Im&aacute;genes</strong> y establezca las dimensiones de imagen como se describe en <strong>P&aacute;gina de configuraci&oacute;n</strong> en la plantilla de demostraci&oacute;n.</p>
+              </article>
+            </section>
+            <section class="block-templates" id="basictutorials">
+	    <h2 class="item4"><i class="icon-cog"></i> Tutoriales b&aacute;sicos</h2>
+              <article id="changename">
+                <h4>1. C&oacute;mo cambiar el nombre de la tienda</h4>
+		<p>Para cambiar el t&iacute;tulo de su tienda, abra el panel de administraci&oacute;n de PrestaShop y vaya a <strong>Preferencias > Contactos de la tienda</strong>, y a la secci&oacute;n <strong>Datos de contacto</strong> .</p>
+		<p>En el ampo <strong>Nombre de la tienda</strong>, escriba su nombre de la tienda y haga clic en el bot&oacute;n <strong>Guardar</strong> para guardar los cambios.</p>
+                <p><img class="presta_scr2" src="img/10-shop_name.png" alt="" /></p>
+              </article>
+              <!--article id="header_links">
+    	<h3 id="basic_tutorials2">2. How to edit header and footer links</h3>
+		<p>Please check a detailed tutorial on how to <a target="_blank" href="/help/prestashop-1-5-x-how-to-manage-footer-and-header-links.html">edit header links</a>.</p>
+    </article-->
+              <article id="eddit_slider">
+                <h4 id="basic_tutorials4">2. Como editar el control deslizante</h4>
+		<p>Para editar las im&aacute;genes del control deslizante, encuentre el m&oacute;dulo <strong>Control deslizante para su p&aacute;gina de inicio</strong> en la p&aacute;gina <strong>M&oacute;dulos</strong> de su tienda de PrestaShop. Se encuentra ubicado en la secci&oacute;n <strong>Caracter&iacute;sticas de Front Office </strong> del m&oacute;dulo. Haga clic en el bot&oacute;n <strong>Configurar</strong> para editar el m&oacute;dulo. </p>
+                <img class="presta_scr2" src="img/12-slider-1.png" alt="" />
+                <p>En la p&aacute;gina de ajustes del m&oacute;dulo puede cambiar las opciones del control deslizante (como el ancho, la velocidad, etc.) y editar las diapositivas (im&aacute;genes, URLs, descripciones, etc.).</p>
+                <img class="presta_scr2" src="img/12-slider-2.png" alt="" /> </article>
+            </section>
+            <section class="block-templates" id="extensions">
+              <h2 class="item5"><i class="icon-magnet"></i> M&oacute;dulos personalizados y extensiones</h2>
+              <article id="smart_blog">
+                <h4>Blog Inteligente</h4>
+		<p><strong>Blog Inteligente -</strong> un conjunto de m&oacute;dulos que permite la creaci&oacute;n de blogs en su tienda. Se compone de los siguientes m&oacute;dulos: <a href="#smart_blog_"><i><strong>Blog Inteligente</strong></i></a>, <a href="#smart_blog_feed"><i><strong>Fuentes RSS del Blog Inteligente</strong></i></a>, <a href="#smart_blog_archive"><i><strong>Archivo del Blog Inteligente</strong></i></a>, <a href="#smart_blog_categories"><i><strong>Categor&iacute;as del Blog Inteligente</strong></i></a>, <a href="#smart_blog_home"><i><strong>&Uacute;ltimas Noticias del Blog Inteligente</strong></i></a>, <a href="#smart_blog_comments"><i><strong>&Uacute;ltimos Comentarios del Blog Inteligente</strong></i></a>, <a href="#smart_blog_add_this"><i><strong>M&oacute;dulo AddThis del Blog Inteligente</strong></i></a>, <a href="#smart_blog_popular"><i><strong>Mensajes Populares del Blog Inteligente</strong></i></a>, <a href="#smart_blog_recent"><i><strong>&Uacute;ltimos Mensajes del Blog Inteligente</strong></i></a>, <a href="#smart_blog_related"><i><strong>Articulos relacionados del Blog Inteligente</strong></i></a>, <a href="#smart_blog_search"><i><strong>Busqueda del Blog Inteligente</strong></i></a>, <a href="#smart_blog_tag"><i><strong>Etiquetas del Blog Inteligente</strong></i></a>. Tiene sus anclas donde los m&oacute;dulos del blog pueden mostrarse en el sitio, tambi&eacute;n pueden aparecer en las anclas est&aacute;ndar (s&oacute;lo en columnas).</p>
+                <div id="smart_blog_">
+                  <h5>Blog Inteligente</h5>
+		  <p>Este es el m&oacute;dulo principal, contiene muchos ajustes para la funcionalidad del blog. Despu&eacute;s de su instalaci&oacute;n aparecer&aacute; la pesta&ntilde;a Blog en el men&uacute; principal del panel de administraci&oacute;n donde podr&aacute; a&ntilde;adir/eliminar/editar los mensajes/categor&iacute;as o seleccionar el tipo de im&aacute;genes y sus dimensiones utilizado en los puestos (los tipos y dimensiones de las im&aacute;genes de los mensajes son diferentes a las im&aacute;genes de los productos de la tienda). Para agregar la configuraci&oacute;n frontend del m&oacute;dulo, por favor vaya a <strong>Blog Inteligente (M&oacute;dulos->Caracter&iacute;sticas de Front Office->Blog Inteligente)</strong> y a&ntilde;ada todos los par&aacute;metros.</p>
+                  <p><img class="presta_scr2" src="img/smart_blog.png" alt="" /></p>
+                  <p><strong>Descripci&oacute;n de los par&aacute;metros:</strong></p>
+                  <ol>
+                    <li><strong>Meta Title -</strong> el t&iacute;tulo de su blog que se mostrar&aacute; en todas sus p&aacute;ginas.</li>
+                    <li><strong>Meta Keyword -</strong> palabras clave que ser&aacute;n utilizadas por los motores de b&uacute;squeda para una mejor optimizaci&oacute;n SEO.</li>
+                    <li><strong>Meta Description -</strong> descripci&oacute;n de tu blog utilizada por los motores de b&uacute;squeda para una mejor optimizaci&oacute;n SEO.</li>
+                    <li><strong>URL principal del Blog -</strong> la URL de tu Blog.</li>
+                    <li><strong>Usar .html con Urls amigables -</strong> activar/desactivar a&ntilde;adir .html a las p&aacute;ginas del blog utilizando URLs amigables. </li>
+		    <li><strong>N&uacute;mero de mensajes por p&aacute;gina -</strong> n&uacute;mero de mensajes que se muestran por p&aacute;gina (p&aacute;ginas de categor&iacute;as/archivos, etc.).</li>
+                    <li><strong>Aceptar comentarios autom&aacute;ticamente -</strong> activar/desactivar los comentarios de otros usuarios aceptados autom&aacute;ticamente, si est&aacute; activado, los comentarios estar&aacute;n disponibles sin un administrador de moderaci&oacute;n.</li>
+                    <li><strong>Activar Captcha -</strong> activar/desactivar Captcha debajo del formulario Dejar comentario en las p&aacute;ginas de productos.</li>
+                    <li><strong>Activar comentarios -</strong> activar/desactivar dejar comentarios por parte de los usuarios.</li>
+                    <li><strong>Mostrar nombre de autor -</strong> activar/desactivar mostrar autor de mensajes en las p&aacute;ginas del blog y p&aacute;ginas  individuales</li>
+		    <li><strong>Mostrar p&aacute;ginas vistas -</strong> activar/desactivar el n&uacute;mero de veces que los usuarios vieron el mensaje. Se mostrar&aacute; debajo del mensaje en las p&aacute;ginas del blog y p&aacute;ginas individuales.</li>
+                    <li><strong>Estilo del nombre de autor -</strong> cambiar el formato del nombre del autor.</li>
+		    <li><strong>Imagen del AVATAR: -</strong> a&ntilde;adir la imagen del avatar est&aacute;ndar para todos los usuarios.</li>
+                    <li><strong>Mostrar sin imagen -</strong> activar/desactivar la imagen. Sin imagen se activa si no hay ninguna imagen para el mensaje/categor&iacute;a, etc.</li>
+                    <li><strong>Mostrar Categor&iacute;a -</strong> activar/desactivar la imagen de la categor&iacute;a y la descripci&oacute;n en las p&aacute;ginas de categor&iacute;as del blog.</li>
+		    <li><strong>Configuraci&oacute;n de columnas de la p&aacute;gina del blog -</strong> configura la visualizaci&oacute;n de los m&oacute;dulos de blog relacionados. A menudo necesita ajustes adicionales por lo que se recomienda instalarlos de la misma manera que los m&oacute;dulos est&aacute;ndar de PrestaShop.</li>
+		    <li><strong>CSS personalizado -</strong> puede a&ntilde;adir estilos adicionales en este campo. Tenga cuidado con las clases que ya se utilizan en el tema, ya que pueden producirse algunos conflictos.</li>
+                    <li><strong>Elimnar el antiguo Thumblr -</strong> se utiliza para regenerar las im&aacute;genes del blog en caso de que hayan sido cambiadas o se hayan a&ntilde;adido nuevos tipos de imagen. Para regenerarlas, seleccione <strong>Si</strong> y haga click en <strong>Regenerar</strong>.</li>
+                  </ol>
+		  <div class="box-notification"> <span> <strong>SOLO DESPU&Eacute;S DE ESTO</strong> otros m&oacute;dulos de blogs relacionados se pueden instalar. El proceso de eliminaci&oacute;n es el contrario <strong>EN PRIMER LUGAR, ES NECESARIO ELIMINAR TODOS LOS M&Oacute;DULOS RELACIONADOS</strong> y s&oacute;lo a continuaci&oacute;n, elimine el m&oacute;dulo del Blog inteligente. </span> </div>
+                </div>
+                <div id="smart_blog_feed">
+                  <h5>Fuentes RSS del Blog Inteligente</h5>
+                  <p>Es el m&oacute;dulo que genera el nuevo feed de tu blog.</p>
+                  <p><img class="presta_scr2" src="img/feed.png" alt="" /></p>
+                  <p><strong>Tiene varias opciones de configuraci&oacute;n en el panel de administraci&oacute;n:</strong></p>
+                  <ol>
+                    <li><strong>Per&iacute;odo de actualizaci&oacute;n -</strong> permite visualizar mensajes en un per&iacute;odo de tiempo espec&iacute;fico (horas/d&iacute;as/semanas/meses/a&ntilde;os). </li>
+                    <li><strong>Frecuencia de actualizaci&oacute;n -</strong> permite configurar la frecuencia de actualizaci&oacute;n (1 semana, 2 horas, etc.). </li>
+                  </ol>
+                  <p>En la parte superior hay una direcci&oacute;n donde se generan las noticias. Consiste en la URL del sitio web + /modules/smartblogfeed/rss.php.</p>
+                </div>
+                <div id="smart_blog_archive">
+                  <h5>Archivo del Blog Inteligente</h5>
+                  <p>Este bloque aparece en la columna de la izquierda/derecha y se usa para ordenar los mensajes por per&iacute;odo de tiempo (meses) .</p>
+                  <p><strong>No tiene ning&uacute;n ajuste adicional.</strong></p>
+                </div>
+                <div id="smart_blog_categories">
+		<h5>Categor&iacute;as del Blog Inteligente</h5>
+                  <p>Este bloque aparece en la columna de la izquierda/derecha y se usa para ordenar los mensajes por categor&iacute;a.</p>
+                  <p><strong>No tiene ning&uacute;n ajuste adicional.</strong></p>
+                </div>
+                <div id="smart_blog_home">
+                  <h5>&Uacute;ltimas Noticias del Blog Inteligente</h5>
+                  <p>Este bloque aparece s&oacute;lo en <strong>homepagecontent</strong> y se utiliza para mostrar todos los mensajes en la p&aacute;gina principal.</p>
+                  <p><img class="presta_scr2" src="img/home.png" alt="" /></p>
+                  <p><strong>Ajustes:</strong></p>
+                  <ol>
+                    <li><strong>N&uacute;mero de mensajes que se mostrar&aacute;n en &Uacute;ltimas Noticias -</strong> n&uacute;mero de mensajes que se mostrar&aacute;n en la p&aacute;gina principal.</li>
+                  </ol>
+                </div>
+                <div id="smart_blog_comments">
+		<h5>&Uacute;ltimos Comentarios del Blog Inteligente</h5>
+                  <p>Este bloque aparece en la columna de la izquierda/derecha y se utiliza para mostrar los &uacute;ltimos comentarios a&ntilde;adidos en los mensajes de blog.</p>
+                  <p><img class="presta_scr2" src="img/comments.png" alt="" /></p>
+                  <p><strong>Ajustes:</strong></p>
+                  <ol>
+                    <li><strong>N&uacute;mero de comentarios a mostrar -</strong> n&uacute;mero de comentarios que se muestran en el bloque.</li>
+                  </ol>
+                </div>
+                <div id="smart_blog_add_this">
+                  <h5>M&oacute;dulo AddThis del Blog Inteligente</h5>
+                  <p>Este bloque aparece en la p&aacute;gina simple y permite compartir este mensaje en las redes sociales.</p>
+                  <p><strong>No tiene ning&uacute;n ajuste adicional.</strong></p>
+                </div>
+                <div id="smart_blog_popular">
+                  <h5>Mensajes Populares del Blog Inteligente</h5>
+                  <p>Este bloque aparece en la columna de la izquierda/derecha y se utiliza para mostrar los mensajes m&aacute;s populares.</p>
+                  <p><img class="presta_scr2" src="img/popular.png" alt="" /></p>
+                  <p><strong>Ajustes:</strong></p>
+                  <ol>
+		  <li><strong>N&uacute;mero de mensajes populares a mostrar -</strong> n&uacute;mero de mensajes populares que se muestran en el bloque.</li>
+                  </ol>
+                </div>
+                <div id="smart_blog_recent">
+                  <h5>&Uacute;ltimos Mensajes del Blog Inteligente</h5>
+		  <p>Este bloque aparece en la columna de la izquierda/derecha y se utiliza para mostrar los &uacute;ltimos mensajes.</p>
+                  <p><img class="presta_scr2" src="img/recent.png" alt="" /></p>
+                  <p><strong>Ajustes:</strong></p>
+                  <ol>
+		  <li><strong>N&uacute;mero de mensajes recientes a mostrar -</strong> n&uacute;mero de mensajes recientes a mostrar en el bloque.</li>
+                  </ol>
+                </div>
+                <div id="smart_blog_related">
+                  <h5>Articulos relacionados del Blog Inteligente</h5>
+                  <p>Este bloque aparece en la p&aacute;gina de entrada y se utiliza para mostrar los mensajes relacionados.</p>
+                  <p><img class="presta_scr2" src="img/related.png" alt="" /></p>
+                  <p><strong>Ajustes:</strong></p>
+                  <ol>
+		  <li><strong>N&uacute;mero de mensajes relacionados a mostrar -</strong> n&uacute;mero de mensajes relacionados a mostrar en el bloque.</li>
+                  </ol>
+                </div>
+                <div id="smart_blog_search">
+                  <h5>Busqueda del Blog Inteligente</h5>
+		  <p>Este bloque aparece en la columna de la izquierda/derecha y se utiliza para buscar a trav&eacute;s del blog.</p>
+                  <p><strong>No tiene ning&uacute;n ajuste adicional.</strong></p>
+                </div>
+                <div id="smart_blog_tag">
+                  <h5>Etiquetas del Blog Inteligente</h5>
+                  <p>Este bloque aparece en la columna de la izquierda/derecha y se utiliza para mostrar las etiquetas utilizadas en el blog.</p>
+                  <p><img class="presta_scr2" src="img/tags.png" alt="" /></p>
+                  <p><strong>Ajustes:</strong></p>
+                  <ol>
+                    <li><strong>N&uacute;mero de etiquetas a mostrar -</strong> n&uacute;mero de etiquetas a mostrar en el bloque.</li>
+                  </ol>
+                </div>
+              </article>
+	      <article id="tmmediaparallax">	      
+                <h4>M&oacute;dulo Media parallax</h4>
+                <h5>&iquest;Qu&eacute; es el efecto de parallax?</h5>
+                <p>El scroll parallax es una t&eacute;cnica de desplazamiento especial en los gr&aacute;ficos por ordenador, en el que las im&aacute;genes del fondo se mueven m&aacute;s lentas que las im&aacute;genes en primer plano, creando una ilusi&oacute;n de profundidad en un videojuego en 2D y a&ntilde;adiendo la inmersi&oacute;n. Los dise&ntilde;adores web comenzaron a incorporar scroll parallax en 2011, usando HTML5 y CSS3. Las p&aacute;ginas web con fondos parallax se est&aacute;n convirtiendo en una estrategia cada vez m&aacute;s popular, los defensores de esta t&eacute;cnica dicen que es una forma sencilla de mostar fluidez en la web. Adem&aacute;s, dicen utilizar los fondos parallax como herramienta para mejorar la experiencia del usuario. Scroll parallax permite la creaci&oacute;n de experiencias de usuario din&aacute;micas e interactivas y tienen el potencial de mejorar el atractivo visual.</p>
+                <p>Este m&oacute;dulo permite a&ntilde;adir efectos parallax a su sitio web sin conocimientos previos. Es posible a&ntilde;adir im&aacute;genes y v&iacute;deo de fondo.</p>
+                <p><img class="presta_scr2" src="img/paralax.png" alt="" /></p>
+                <p><strong>Ajustes:</strong> (solo para Google Chrome)</p>
+                <ol>
+                  <li><strong>Activar desplazamiento suave para el navegador Google Chrome -</strong> activar el efecto adicional.</li>
+                  <li><strong>Tiempo de desplazamiento suave -</strong> el tiempo del efecto de de desplazamiento suave.</li>
+                  <li><strong>Distancia del desplazamiento suave -</strong> distancia del efecto de desplazamiento suave.</li>
+                </ol>
+		<p><strong>A&ntilde;adir el m&oacute;dulo media parallax</strong></p>
+                <ol>
+                  <li>Es necesario a&ntilde;adir el id o class en el contenido de su p&aacute;gina HTML. Tambi&eacute;n puede utilizar una etiqueta &uacute;nica, este elemento no debe repetirse.</li>
+                  <li>Crear la imagen del tama&ntilde;o necesario (es conveniente crear la imagen mayor que el bloque donde se va a a&ntilde;adir el efecto). En caso de que quiera a&ntilde;adir el v&iacute;deo, tendr&aacute; que prepararlo en 3 formatos: .mp4,.webm y .ogv, y tambi&eacute;n a&ntilde;adir la imagen de vista previa del mismo tama&ntilde;o (.png, .jpg y .gif)</li>
+                  <li>
+		  <p>Haga clic en el bot&oacute;n <strong>A&ntilde;adir contenedor</strong> en el <strong>Agregar nuevo bloque</strong>.</p>
+                    <p><img class="presta_scr2" src="img/paralax-1.png" alt="" /></p>
+                  </li>
+                  <li>
+                    <p>A&ntilde;ada todos los ajustes necesarios en la pantalla mostrada.</p>
+                    <p><img class="presta_scr2" src="img/paralax-2.png" alt="" /></p>
+                    <p><strong>Ajustes:</strong></p>
+                    <ol>
+                      <li><strong>Selector -</strong> elemento en el que se a&ntilde;ade el efecto (id o etiqueta &uacute;nica).</li>
+		      <li><strong>Tipo de parallax -</strong> tipo de efecto que se utilizar&aacute; (imagen o video).</li>
+                      <li><strong>Archivos multimedia -</strong> cargar todos los archivos necesarios.</li>
+		      <li>Haga clic en el bot&oacute;n <strong>Guardar</strong>.</li>
+                    </ol>
+                  </li>
+                </ol>
+		<p><strong>Personalizar el m&oacute;dulo media parallax</strong></p>
+                <ol>
+                  <li>
+                    <p>En la lista de bloques parallax busque el bloque deseado y cambie la configuraci&oacute;n.</p>
+                    <p><img class="presta_scr2" src="img/paralax-3.png" alt="" /></p>
+                  </li>
+                </ol>
+		<p><strong>Eliminar el m&oacute;dulo media parallax</strong></p>
+                <ol>
+                  <li>
+		  <p>En la lista de bloques parallax busque el bloque deseado y haga clic en el bot&oacute;n <strong>Eliminar</strong>.</p>
+                    <p><img class="presta_scr2" src="img/paralax-4.png" alt="" /></p>
+                  </li>
+                </ol>
+              </article>
+              <article id="tmvideobackground">
+                <h4>M&oacute;dulo de Video en segundo plano</h4>
+                <p>Este m&oacute;dulo permite a&ntilde;adir v&iacute;deo de fondo a cualquier bloque en su p&aacute;gina HTML (debe ser el id o etiqueta &uacute;nica).</p>
+                <p>Para a&ntilde;adir v&iacute;deo de fondo, puede seguir los siguientes pasos:</p>
+                <ol>
+		<li>Cargar los archivos de v&iacute;deo y im&aacute;genes de vista previa a la carpeta modules/tmvideobackground/video (o cualquier otra carpeta en el servidor) mediante FTP. El video debe ser subido en 3 formatos: .mp4, .ogv, .webm, todos los archivos tienen que tener los mismos nombres (ocean.mp4, ocean.ogv, ocean.webm). Las im&aacute;genes de vista previa deben estar en 3 formatos tambi&eacute;n: .jpg, .gif, .png y tener los mismos nombres (ocean.jpg, ocean.gif, ocean.png).</li>
+                  <li> En su panel de administraci&oacute;n abra <strong>M&oacute;dulo de Video en segundo plano (Modules->Front Office Features->Video background module)</strong> y realice los ajustes necesarios.
+                    <p><img class="presta_scr2" src="img/video.png" alt="" /></p>
+                    <p><strong>Ajustes:</strong></p>
+                    <ol>
+                      <li><strong>Selector de video -</strong> elemento de p&aacute;gina HTML donde se agregar&aacute; el v&iacute;deo de fondo (id o etiqueta &uacute;nica (cuerpo, cabecera, pie de p&aacute;gina, etc.).</li>
+				      <li><strong>Ruta del video -</strong> ruta de los archivos de v&iacute;deo (la ruta debe tener una / al final), los archivos pueden estar ubicados en cualquier carpeta del servidor, pero le recomendamos que los cargue a la carpeta <strong> modules/tmvideobackground/video/</strong>.</li>
+                      <li><strong>Archivos de video -</strong> nombres de los archivos de v&iacute;deo. S&oacute;lo el nombre debe a&ntilde;adirse (no hay necesidad de escribir el formato. Por ejemplo, "ocean").</li>
+		      <li>Haga clic en el bot&oacute;n <strong>Guardar</strong>.</li>
+                    </ol>
+                  </li>
+                </ol>
+                <div class="box-info"> <span>Para visualizar el video, no debe haber ning&uacute;n otro video adicional para el elemento.</span> </div>
+              </article>
+              <article id="tmhtmlcontent">
+                <h4>Contenido TM HTML</h4>
+		<p>Este m&oacute;dulo permite visualizar cualquier contenido (im&aacute;genes, HTML, enlaces, etc.) en las siguientes posiciones: displayNav, home, top, topColumn, izquierda y derecha (displayLeftColumn/displayRightColumn), pie de p&aacute;gina. Se utiliza para ampliar las oportunidades de dise&ntilde;o y a&ntilde;adir bloques anuncio/informaci&oacute;n a la tienda. Es un m&oacute;dulo multilenguaje y tambi&eacute;n funciona con multiples tiendas.</p>
+                <p>Para a&ntilde;adir el contenido, debe seguir los siguientes pasos:</p>
+                <ol>
+                  <li>
+                    <p>Vaya a <strong>Modules->Front Office Features->TM HTML Content</strong> (si no est&aacute; instalado, inst&aacute;lelo).</p>
+                    <p><img class="presta_scr2" src="img/htmlcontent.png" alt="" /></p>
+                    <ol>
+		    <li>Haga clic en el bot&oacute;n <strong>A&ntilde;adir nuevo</strong>.</li>
+                      <li>La lista de idiomas disponibles. Puede ver los elementos disponibles para todos los idiomas al cambiar las pesta&ntilde;as de idioma.</li>
+                      <li>La lista de elementos a&ntilde;adidos para la posici&oacute;n e idiomas espec&iacute;fico.</li>
+                    </ol>
+                  </li>
+                  <li>
+		  <p>A&ntilde;adir el elemento. Haga clic en el bot&oacute;n <strong>A&ntilde;adir elemento</strong> y complete los ajustes necesarios (ninguno de los campos es obligatorio).</p>
+                    <p><img class="presta_scr2" src="img/htmlcontent-1.png" alt="" /></p>
+                    <ol>
+                      <li><strong>Idioma -</strong> seleccionar el idioma deseado en la lista desplegable.</li>
+                      <li><strong>T&iacute;tulo -</strong> t&iacute;tulo del elemento.</li>
+		      <li><strong>Usar t&iacute;tulo delante -</strong> visualizar el t&iacute;tulo del elemento en el frontend (el t&iacute;tulo se mostrar&aacute; delante del elemento).</li>
+                      <li><strong>Ancla -</strong> posici&oacute;n en la que se a&ntilde;ade el elemento.</li>
+                      <li><strong>Imagen -</strong> cargar la imagen desde su ordenador.</li>
+                      <li><strong>Ancho de imagen -</strong> ancho de la imagen que se muestra en el frontend.</li>
+                      <li><strong>Alto de imagen -</strong> alto de la imagen que se muestra en el frontend.</li>
+                      <li><strong>URL -</strong> a&ntilde;adir enlace (el bloque entero ser&aacute; envuelto en el enlace).</li>
+                      <li><strong>Destino en blanco -</strong> abrir el enlace en una nueva pesta&ntilde;a.</li>
+		      <li><strong>HTML -</strong> C&oacute;digo HTML (excepto el enlace si lo ha a&ntilde;adido en el campo URL) o el texto.</li>
+                      <li><strong>Guardar -</strong> haga clic para guardar el elemento.</li>
+                    </ol>
+                    <div class="box-info"> <span>Todos los elementos de un idioma a&ntilde;adido a la misma posici&oacute;n se mostrar&aacute;n en una lista en el backend y frontend.</span> </div>
+                  </li>
+                  <li>
+                    <p>Editar y eliminar un elemento</p>
+                    <p>Cuando se a&ntilde;ade el elemento, se muestra en la lista correspondiente.</p>
+                    <p><img class="presta_scr2" src="img/htmlcontent-2.png" alt="" /></p>
+                    <ol>
+		    <li>El idioma donde se han a&ntilde;adido los elementos.</li>
+                      <li>Posici&oacute;n donde se han a&ntilde;adido los elementos.</li>
+                      <li>El bot&oacute;n de edici&oacute;n con la lista desplegable.</li>
+                      <li>Bot&oacute;n eliminar.</li>
+                    </ol>
+					<p>&nbsp;</p>
+                    <p><strong>Editar</strong></p>
+                    <ol>
+                      <li>
+                        <p>Haga clic en el bot&oacute;n <strong>Editar</strong> para modificar el elemento.</p>
+                        <p>Cambiar todos los campos requeridos en la pantalla mostrada.</p>
+                        <p><img class="presta_scr2" src="img/htmlcontent-3.png" alt="" /></p>
+                        <ol>
+                          <li><strong>Activar -</strong> mostrar el elemento en el frontend.</li>
+                          <li><strong>T&iacute;tulo de la imagen -</strong> t&iacute;tulo del elemento.</li>
+                          <li><strong>Usar t&iacute;tulo delante -</strong> mostrar el t&iacute;tulo en el frontend.</li>
+			  <li><strong>Ancla a la que la imagen debe estar unido -</strong> posici&oacute;n del elemento.</li>
+			  <li><strong>Cargar su imagen -</strong> imagen del elemento.</li>
+                          <li><strong>Ancho de imagen -</strong> ancho de la imagen que se muestra en el frontend.</li>
+                          <li><strong>Alto de imagen -</strong> alto de la imagen que se muestra en el frontend.</li>
+                          <li><strong>Enlace del destino -</strong> asignar enlace al elemento.</li>
+			  <li><strong>Abrir enlace en una nueva pesta&ntilde;a/p&aacute;gina -</strong> Abrir enlace en una nueva pesta&ntilde;a.</li>
+			  <li><strong>C&oacute;digo HTML opcional -</strong> editar c&oacute;digo HTML.</li>
+			  <li><strong>Guardar -</strong> guardar los cambios.</li>
+                        </ol>
+                      </li>
+                    </ol>
+                  </li>
+                  <li>
+                    <p>Cambiar el orden de los elementos en la lista</p>
+                    <p><img class="presta_scr2" src="img/htmlcontent-4-1.png" alt="" /></p>
+                    <p>Para cambiar el orden de los elementos, s&oacute;lo debe arrastrar el elemento a la posici&oacute;n que usted necesita.</p>
+                    <p><img class="presta_scr2" src="img/htmlcontent-4-2.png" alt="" /></p>
+                    <p><img class="presta_scr2" src="img/htmlcontent-4-3.png" alt="" /></p>
+                  </li>
+                </ol>
+              </article>
+              <article id="tmcategoriesbadges">
+                <h4>TM Categories Badges</h4>
+                <p>This module allows to add badges to the sidebar categories of the default Prestashop Categories module ("Blockcategories"). The badges can be added to the category of any level and in any language. The text field of the label is mandatory and should be filled in all languages. If this field is left blank in any language, then it will automatically take the text of the default language.</p>
+                <h5></h5>
+                <p>The module is installed and deleted like any other Prestashop module.</p>
+                <h5>Module Configuration</h5>
+                <p>After installation you can change its settings on the module configuration page.</p>
+                <p><img class="presta_scr2" src="img/tmcategoriesbadges-1.png" alt="" /></p>
+                <p>You can add badges to any category after selecting it from the drop down list. Attention! You can add only one badge for each category. Then, you can add text that will show up in the badge and select the style from the drop-down list (the styles may differ in different templates).</p>
+                <p>You can see the list of existing badges below. Here you can edit or delete badges with the help of corresponding buttons.</p>
+                <p>The module is multilanguage and supports the multi-stores. You can add badges for group of stores or all stores at once. They will show up in the list as separate elements.</p>
+              </article>
+              <article id="tmgooglemap">
+                <h4>TM Google Map</h4>
+                <p>This module allows to add Google map with your stores location and short description about them on your front page. The map will show up the addresses of all stores related to your online shop. You can edit your stores details under Preferences->Store Contacts tab.</p>
+                <h5>Installation and Deleting</h5>
+                <p>The module is installed and deleted like any other Prestashop module.</p>
+                <h5>Module configuration</h5>
+                <p>After installation you can change its settings on the module configuration page.</p>
+                <p><img class="presta_scr2" src="img/tmgooglemap-1.png" alt="" /></p>
+                <p>You can configure the style and elements of your map.</p>
+                <p>Select the map style from the first list (all styles are taken from <a target="_blank" href="https://snazzymaps.com/">Snazzymaps</a>). You can also add the style from this website. Find instructions on adding them at the end of this instruction.</p>
+                <p>Select the view type from the second list (satellite view or street view).</p>
+                <p>You can also select the zoom ratio for your map from 1 to 17.</p>
+                <p>Zoom option if scrolling on the map area.</p>
+                <p>You can disable the map control and ability to view the streets.</p>
+                <p>The module supports the multi-stores. You can change the map styles for each store.</p>
+                <h5>Adding custom styles</h5>
+                <p>You can add any custom style from <a target="_blank" href="https://snazzymaps.com/">Snazzymaps</a> to your module. To do this, you should select the style from the website, copy JavaScript Style Array to .js file and save it in the module folder /js/styles/(for the file name use the style name replacing the spaces with underscores and removing all special characters. For example: for Subtle Grayscale style - subtle_grayscale.js file, for Apple Maps-esque style  - apple_maps-esque.js file). Then, navigate to your module configuration page and select the required style from the styles drop-down list.</p>
+              </article>
+              <article id="tmmanufacturersblock">
+                <h4>TM Manufacturers Block</h4>
+                <p>This module shows up manufacturers available in your store. The list of manufacturers may consist of the image and title. The list can also show up as a carousel.</p>
+                <h5>Installing and Deleting </h5>
+                <p>The module is installed and deleted like any other Prestashop module.</p>
+                <h5>Module configuration</h5>
+                <p>After installation you can change its settings on the module configuration page.</p>
+                <p><img class="presta_scr2" src="img/tmmanufacturersblock-1.png" alt="" /></p>
+                <ol>
+                	<li><strong>Display name</strong> - show the manufacturer's name.</li>
+                    <li><strong>Display image</strong> - show the image of the manufacturer.</li>
+                    <li><strong>Number of elements to display</strong> - select the number of elements displayed in the module.</li>
+                    <li><strong>Image Type</strong> - select the image type (you can select the image from the images related to the manufacturer).</li>
+                    <li><strong>Use carousel</strong> - show up the list as a carousel.</li>
+                    <li>* <strong>Visible items</strong> - number of visible manufacturers.</li>
+                    <li>* <strong>Items scroll</strong> - number of manufacturers shown in one carousel scroll.</li>
+                    <li>* <strong>Slide Width</strong> - the width of the element in the carousel.</li>
+                    <li>* <strong>Slide Margin</strong> - the margin of the element in the carousel.</li>
+                    <li>* <strong>Auto scroll</strong> - automatic scrolling.</li>
+                    <li>* <strong>Carousel speed </strong> - speed of the carousel.</li>
+                    <li>* <strong>Pause</strong> - pause between scrolls(if "Auto scroll" is enabled).</li>
+                    <li>* <strong>Random</strong> - carousel start from the random element.</li>
+                    <li>* <strong>Carousel loop</strong> - carousel returns back to the beginning when all elements have been scrolled.</li>
+                    <li>* <strong>Hide control on end</strong> - hide next/previous buttons.</li>
+                    <li>* <strong>Pager</strong> - show pagination.</li>
+                    <li>* <strong>Control</strong> - show next/previous buttons.</li>
+                    <li>* <strong>Auto control</strong> - show play/pause buttons.</li>
+                    <li>* <strong>Auto hover</strong> - pausing when hovering over carousel elements.</li>
+                </ol>
+                <p><strong><small>* - settings are available only if carousel is enabled. </small></strong></p>
+                <p>The module supports multi-stores.</p>
+              </article>
+              <article id="tmproductsslider">
+                <h4>TM Products Slider</h4>
+                <p>The module shows up store products in the slider.</p>
+                <h5>Installation and deleting</h5>
+                <p>The module is installed and deleted like any other Prestashop module.</p>
+                <p>After installation you can change its settings on the module configuration page.</p>
+                <p><img class="presta_scr2" src="img/tmproductsslider-1.png" alt="" /></p>
+                <p>You can set the order of products in your slider using drag-and-drop method. You can also enable/disable product display in the slider.</p>
+                <p>You can set the width of slider, sliding effect, slider speed, pause, auto scroll, pause when hovering over carousel elements, slider control, next/previous buttons, play/pause buttons.</p>
+                <p>After module installation you will see the new tab in your product configuration page (Catalog-> Product-> select any product - TM Products Slider).</p>
+                <p><img class="presta_scr2" src="img/tmproductsslider-2.png" alt="" /></p>
+                <p>Here you can set whether the product will show up in the slider or not. After making the changes, click Save/Save and Stay button to save them.</p>
+                <p>The module supports multi-stores. You can change settings for each store, group of stores or all stores at a time.</p>
+              </article>
+              <article id="tmproductvideos">
+                <h4>TM Product Videos</h4>
+                <p>This module allows to add unlimited number of videos to any product in any language and store.</p>
+                <h5>Installation and deleting</h5>
+                <p>The module is installed and deleted like any other Prestashop module. It has no configuration page and supports multi-stores.</p>
+                <p>After module installation you will see the new tab in your product configuration page (Catalog-> Product-> select any product - TM Product Videos).</p>
+                <p><img class="presta_scr2" src="img/tmproductvideos-1.png" alt="" /></p>
+                <p>To add a video to any product, you should fill in the required fields (the link field is mandatory). The module is multilanguage, so you will have to fill in the fields for all languages this video is related to. If the Link field is not filled for any language, then the video will not be added for this language. The module is supposed to show up videos from Youtube and Vimeo, so you need to add links only from these resources. After making the changes, click Save/Save and Stay button to save them.</p>
+                <h6>Examples of links</h6>
+                <p>To display video properly, the links should have the following format:</p>
+                <ul>
+                	<li><p><strong>Youtube</strong> - <code>https://www.youtube.com/v/K6VcTyaym90</code></p></li>
+                    <li><strong>Vimeo</strong> - <code>http://player.vimeo.com/video/66140585</code></li>
+                </ul>
+                <p>If the product has video related to this language, you will see the list of videos below.</p>
+                <p>To save, delete or edit the list, there is no need to click Save/Save and Stay button. Use the buttons located in the video blocks. To change the order of videos, use drag-and-drop method to change their position. To enable/disable the video, use the button next to video. To edit the videos, fill in the fields with required data and click Update button.</p>
+                <p>To remove the video from the list, click Remove video button.</p>
+                <p>While switching languages, only the list of videos related to the language will show up.</p>
+                <p><img class="presta_scr2" src="img/tmproductvideos-2.png" alt="" /></p>
+                <p>To view the video in zoomed format, click Zoom button under the video you want.</p>
+              </article>
+              <article id="tmsocialfeeds">
+                <h4>TM Social Feeds</h4>
+                <p>This module loads the social networks feeds on your website. It enables the site visitors to be aware of the latest news and posts shared on the social networks.</p>
+                <h5>Installation and Deleting</h5>
+                <p>The module is installed and deleted like any other Prestashop module.</p>
+                <h5>Module configuration</h5>
+                <p>After installation you can change its settings on the module configuration page.</p>
+                <p><img class="presta_scr2" src="img/tmsocialfeeds-1.png" alt="" /></p>
+                <p>In the upper form you should add global settings for each social network. Different social networks have different settings.</p>
+                <h5>Twitter</h5>
+                <p>It is enough to add a Widget ID which can be taken from your Twitter account.</p>
+                <h5>Facebook</h5>
+                <p>Paste the full path to the Facebook page which feeds will be loaded. The page should be public.</p>
+                <h5>Pinterest</h5>
+                <p>For Pinterest paste the full path to the page which feeds will be loaded.</p>
+                <h5>Instagram</h5>
+                <p>Client ID - a unique ID assigned during widget registration on Instagram.</p>
+                <p>User Name - username used to link the owner's page.</p>
+                <p>Selection type: you can set whether the images are loaded from specific user or by tag.</p>
+                <p>Tag by which images are loaded.</p>
+                <p>Id of the user whose images will be loaded.</p>
+                <p>Instagram access token - access token of the user whom the page belongs.</p>
+                
+                <p>In the second part of the module configuration page you can add the required module to the position you want. There are 4 positions. You can add the block settings for each position. The only global setting is the data of social networks which feeds will be loaded.</p>
+                <p>Each social network has its own settings.</p>
+                <h5>Twitter</h5>
+                <p><img class="presta_scr2" src="img/tmsocialfeeds-2.png" alt="" /></p>
+                <ol>
+                	<li><strong>Add block to position</strong> - display block in specific position.</li>
+                    <li><strong>Select theme</strong> - color scheme of the block for this position.</li>
+                    <li><strong>Sort order</strong> - sort order (order number of the block in this position).</li>
+                    <li><strong>Widget width</strong> - block width in this position.</li>
+                    <li><strong>Widget height</strong> - block height in this position.</li>
+                    <li><strong>Widget feeds limit</strong> - number of feeds in the block.</li>
+                    <li><strong>Enable header</strong> - show block title.</li>
+                    <li><strong>Enable footer</strong> - show footer of the block.</li>
+                    <li><strong>Enable border</strong> - show border of the block.</li>
+                    <li><strong>Show replies</strong> - display replies to the posts.</li>
+                    <li><strong>Show scroll</strong> - show block scroll.</li>
+                    <li><strong>Show background</strong> - add block background or leave it transparent.</li>
+                </ol>
+                <h5>Facebook</h5>
+                <p><img class="presta_scr2" src="img/tmsocialfeeds-3.png" alt="" /></p>
+                <ol>
+                	<li><strong>Add block to position</strong> - display block in specific position.</li>
+                    <li><strong>Select theme</strong> - color scheme of the block for this position.</li>
+                    <li><strong>Sort order</strong> - sort order (order number of the block in this position).</li>
+                    <li><strong>Widget width</strong> - block width in this position.</li>
+                    <li><strong>Widget height</strong> - block height in this position.</li>
+                    <li><strong>Enable header</strong> - show block title.</li>
+                    <li><strong>Enable border</strong> - show footer of the block.</li>
+                    <li><strong>Show faces</strong> - show photos of users who liked the page.</li>
+                    <li><strong>Show posts</strong> - show posts from the page.</li>
+                </ol>
+                <h5>Pinterest</h5>
+                <p><img class="presta_scr2" src="img/tmsocialfeeds-4.png" alt="" /></p>
+                <ol>
+				    <li><strong>Add block to position</strong> - display block in specific position.</li>
+                    <li><strong>Sort order</strong> - sort order (order number of the block in this position).</li>
+                    <li><strong>Widget width</strong> - block width in this position.</li>
+                    <li><strong>Widget height</strong> - block height in this position.</li>
+                	<li><strong>Widget column width</strong> - width of the block column</li>
+                </ol>
+                <h5>Instagram</h5>
+                <p><img class="presta_scr2" src="img/tmsocialfeeds-5.png" alt="" /></p>
+                <ol>
+                	<li><strong>Add block to position</strong> - display block in specific position.</li>
+                    <li><strong>Sort order</strong> - sort order (order number of the block in this position).</li>
+                    <li><strong>Widget feeds limit</strong> - number of feeds displayed in the block.</li>
+                </ol>
+                <p>The module supports multi-stores.</p>
+                
+              </article>
+              <article id="olark">
+                <h4>Chat en Vivo de Olark</h4>
+		<p>Para configurar un chat en vivo como el de la p&aacute;gina de demostraci&oacute;n, tendr&aacute; que registrarse en el sitio web oficial <a href="http://www.olark.com/?r=ad8fbsj2">Olark registration.</a> Despu&eacute;s de rellenar todos los datos necesarios recibir&aacute; un c&oacute;digo que podr&aacute; a&ntilde;adir a <strong>\themes\themeXXX\footer.tpl</strong> antes de la etiqueta <strong>&lt;/body&gt;</strong>.</p>
+              </article>
+            </section>
+            <section class="block-templates" id="cookiepolicy">
+	    <h2 class="item6"><i class="icon-exclamation-sign"></i> Pol&iacute;tica de cookies</h2>
+              <p>Las cookies son peque&ntilde;os archivos de texto que los sitios web colocan en los ordenadores de los visitantes. Por lo general son utilizados para identificar a un visitante concreto y proporcionarle una mejor experiencia. Las cookies son una parte fundamental de muchas funciones del sitio web.</p>
+              <p>Por ejemplo, las cookies permiten a las tiendas en l&iacute;nea recordar los elementos que tiene en su carrito de la compra. Tambi&eacute;n se utilizan para mantenerle conectado a un sitio web, o para mostrar estad&iacute;sticas de uso e informaci&oacute;n valiososa para los  propietarios/administradores de los sitios web.</p>
+              <p>Si accede un sitio web, con total seguridad est&aacute; utilizando cookies. Su funci&oacute;n m&aacute;s probable es controlar el n&uacute;mero de visitantes y sus comportamientos mediante herramientas como Google Analytics. Tambi&eacute;n se pueden utilizar para mostrar anuncios personalizados a los visitantes, o - si tiene una tienda en l&iacute;nea - para mejorar las piezas clave de su sistema de compras en l&iacute;nea.</p>
+              <p>26 de mayo 2012 - El ICO lanz&oacute; un cambio en la solicitud, el "consentimiento impl&iacute;cito" no est&aacute; permitido, debe dejar claro donde se encuentra su pol&iacute;tica de privacidad/cookie.</p>
+              <p>Para su comodidad, hemos a&ntilde;adido un m&oacute;dulo de Pol&iacute;tica de cookies a nuestro tema.</p>
+              <p>Su configuraci&oacute;n es muy f&aacute;cil.</p>
+              <ol>
+                <li>Busque la carpeta manual_install que se encuentra en el paquete de la plantilla (si realiz&oacute; la instalaci&oacute;n manual con los datos de demostraci&oacute;n, el m&oacute;dulo se a&ntilde;adir&aacute; autom&aacute;ticamente).</li>
+                <li>
+		<p>Busque en la lista de m&oacute;dulos en el panel de administraci&oacute;n (m&oacute;dulo de Pol&iacute;tica de cookies) y haga clic en el bot&oacute;n <strong>Instalar</strong>.</p>
+                  <p><img class="presta_scr2" src="img/cookies.png" alt="" /></p>
+                </li>
+                <li>
+		<p>Despu&eacute;s de la instalaci&oacute;n (ignore este paso si usted fue dirigido autom&aacute;ticamente a la p&aacute;gina de configuraci&oacute;n del m&oacute;dulo), haga clic en el bot&oacute;n <strong>Configurar</strong>.</p>
+                  <p><img class="presta_scr2" src="img/cookies_conf.png" alt="" /></p>
+                </li>
+                <li>
+                  <p>A&ntilde;adir todos los ajustes necesarios y haga clic en el bot&oacute;n <strong>Guardar</strong>.</p>
+                  <p><img class="presta_scr2" src="img/cookies_set.png" alt="" /></p>
+                  Ajustes:
+                  <ul>
+                    <li> - Mostrar en la parte superior de la p&aacute;gina (por defecto). Si desmarca esta opci&oacute;n, el m&oacute;dulo se mostrar&aacute; en la parte inferior de la p&aacute;gina.</li>
+                    <li> - Enlace a la pol&iacute;tica de cookies.</li>
+                    <li> - Enlace a la p&aacute;gina donde el usuario es redirigido en caso de no aceptar la pol&iacute;tica de cookies.</li>
+                  </ul>
+                </li>
+              </ol>
+              <p>Tambi&eacute;n, podemos recomendar los siguientes:</p>
+              <ul>
+                <li><a target="_blank" href="http://addons.prestashop.com/en/front-office-features-prestashop-modules/8704-eu-cookie-law.html">M&oacute;dulo de pol&iacute;tica de cookies de la UE</a></li>
+                <li><a target="_blank" href="http://addons.prestashop.com/en/administration-tools-prestashop-modules/10376-alert-for-eu-cookie-law.html">M&oacute;dulo de alerta de la pol&iacute;tica de cookies de la UE</a></li>
+              </ul>
+            </section>
+            <section class="block-templates" id="conclusion">
+              <h2 class="item7"><i class="icon-question-sign"></i> Addendum <small>where to get help, support and additional information</small></h2>
+              <p>Hemos hecho todo lo posible para que esta documentaci&oacute;n sea lo m&aacute;s clara posible. Sin embargo, si usted tiene alguna dificultad con la plantilla de PrestaShop o alguna sugerencia para mejorar la plantilla o la documentaci&oacute;n, no dude en ponerse en contacto con nuestro equipo de asistencia mediante:</p>
+              <h4>Ayuda y Soporte</h4>
+              <ul class="list">
+                <li><a href="http://chat.template-help.com/" target="_blank">Chat en vivo</a></li>
+                <li><a href="http://support.template-help.com/index.php?/Tickets/Submit" target="_blank">Sistema de ayuda</a></li>
+              </ul>
+              <h4 id="useful_resources">Recursos &uacute;tiles</h4>
+              <ul>
+                <li><a target="_blank" href="http://www.prestashop.com/">Sitio oficial de PrestaShop</a></li>
+                <li><a target="_blank" href="http://www.prestashop.com/en/downloads/">Descargas</a></li>
+                <li><a target="_blank" href="http://addons.prestashop.com/en/">Complementos: m&oacute;dulos, temas, etc.</a></li>
+                <li><a target="_blank" href="http://doc.prestashop.com/display/PS16/English+documentation">Documentaci&oacute;n en Ingl&eacute;s</a></li>
+                <li><a target="_blank" href="http://www.prestashop.com/forums/">Foro</a></li>
+                <li><a target="_blank" href="http://www.prestashop.com/wiki/">Wiki</a></li>
+				<li><a target="_blank" href="/help/ecommerce/prestashop/prestashop-tutorials/">Manuales de PrestaShop</a></li>
+              </ul>
+              <h4>Carga de datos desde los servidores de Google</h4>
+              <article >
+                <p>Algunos pa&iacute;ses tienen problemas de conexi&oacute;n a los servidores de Google. Esto puede provocar problemas al cargar las fuentes de Google y las bibliotecas de Java Script desde el CDN de Google. Para solucionar estos problemas por favor haga lo siguiente: </p>
+                <h3>No se pueden cargar las fuentes de Google: </h3>
+                <ol>
+                  <li><p>Abra el archivo <strong>\themes\theme****\header.tpl</strong>.</p></li>
+                  <li><p>Vaya a la linea: </p>
+                    <pre>&lt;link rel="stylesheet" href="http{if Tools::usingSecureMode()}s{/if}://fonts.googleapis.com/css?family=[---your_web_font_name_here---]" type="text/css" media="all" /&gt; </pre>
+                  </li>
+                  <li><p>Sustit&uacute;yula por: </p>
+                    <pre>&lt;link rel="stylesheet" href="http://fonts.useso.com/css?family=[---your_web_font_name_here---]" type="text/css" media="all" /&gt;</pre>
+                  </li>
+                </ol>
+              </article>
+            </section>
+          </div>
+        </div>
       </div>
-<!-- <script src="js/bootstrap-scrollspy.js"></script>  -->
+    </div>
+  </div>
+</div>
+<!-- Footer
+    ================================================== -->
+<footer>
+  <div class="container">
+    <div class="span12"> <span>Documentaci&oacute;n de PrestaShop</span><br />
+      &copy; <span id="date"></span> <span id="copyright">Template Monster</span> </div>
+  </div>
+</footer>
+<div id="back-top"> <a href="#"><i class="icon-double-angle-up"></i></a> </div>
+<div class="modal_bg"></div>
+<div class="modal">
+  <div class="modal-header"> <span class="modal_remove pull-right"><i class="icon-remove"></i></span>
+    <h3>Cambiar idioma</h3>
+  </div>
+  <div class="modal-body">
+    <ul id="modal_languages" class="nav nav-list bs-docs-sidenav">
+    </ul>
+  </div>
+</div>
+<!-- <script src="js/bootstrap-scrollspy.js"></script>  --> 
 
 <script type="text/javascript"> 
   var _gaq = _gaq || []; 
@@ -462,7 +994,5 @@
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
   })(); 
 </script>
-    
-</body> 
-
+</body>
 </html>
