@@ -756,6 +756,14 @@ h2.item11 i {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffa800', endColorstr='#fff8970f', GradientType=0);
 }
+.box-notification a {
+  text-decoration: underline;
+  color: #fff;
+}
+.box-notification a:hover{
+  text-decoration: none;
+
+}
 .box-notification:before {
   background: url(../img/icon-3.png) no-repeat 0 0;
 }
@@ -895,4 +903,5 @@ footer {
   position: relative;
   top: 2px;
 }
+
 /************/
