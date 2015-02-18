@@ -141,6 +141,9 @@
                       <li><a href="#tmproductsslider">TM Products Slider</a></li>
                       <li><a href="#tmproductvideos">TM Product Videos</a></li>
                       <li><a href="#tmsocialfeeds">TM Social Feeds</a></li>
+                      <li><a href="#tmheaderaccount">TM Header Account</a></li>
+                      <li><a href="#tmhomecarousel">TM Homepage Products Carousel</a></li>
+                      <li><a href="#tmproductlistgallery">TM Product List Gallery</a></li>
                       <li><a href="#olark">Olark Live Chat</a></li>
                     </ul>
                   </dd>
@@ -882,12 +885,55 @@
                 <p>The module supports multi-stores.</p>
                 
               </article>
+              <article id="tmheaderaccount">
+                <h4>TM Header Account</h4>
+                <p>Questo modulo permette di inserire il modulo per il login e alcuni elementi disponibili dell'account utente sull'intestazione del sito. Permette di accedere al proprio account restando sulla pagina attiva. Il modulo opera come blocco a discesa.</p>
+                <h5>Installazione e disintallazione</h5>
+                <p>Il modulo va installato ed eliminato come tutti gli altri moduli PrestaShop.</p>
+                <h5>Configurazione Modulo</h5>
+                <p>Il modulo non ha impostazioni aggiuntive.</p>
+              </article>
+              <article id="tmhomecarousel">
+                <h4>TM Homepage Products Carousel</h4>
+                <p>Questo modulo permette di aggiungere un carosello alle schede della pagina principale.</p>
+                <h5>Installazione e disinstallazione</h5>
+                <p>Il modulo va installato ed eliminato come tutti gli altri moduli PrestaShop.</p>
+                <h5>Configurazione Modulo</h5>
+                <p>Una volta installato il modulo, è possibile configurarne le impostazioni sulla pagina di configurazione.</p>
+                <p><img class="presta_scr2" src="img/tmhomecarousel-1.png" alt="" /></p>
+                <ol>
+                	<li><strong>Use carousel</strong> - per abilitare/disabilitare il carosello</li>
+                    <li><strong>Number of elements to display</strong> - numero di elementi da visualizzare</li>
+                    <li><strong>Items scroll</strong> - il numero di elementi da scorrere</li>
+                    <li><strong>Item Width</strong> - ampiezza di un elemento della lista carosello</li>
+                    <li><strong>Item Margin</strong> - margine tra gli elementi della lista carosello</li>
+                    <li><strong>Carousel speed </strong> - durata della transizione tra gli elementi</li>
+                    <li><strong>Pause</strong> - la quantità di tempo tra una transizione automatica e l'altra (se l'opzione "Auto scroll" è abilitata)</li>
+                    <li><strong>Auto scroll</strong> - abilita la funzione autoscorrimento del carosello </li>
+                    <li><strong>Random</strong> - avvia il carosello a partire da un elemento a caso</li>
+                    <li><strong>Carousel loop</strong> - per far tornare il carosello  all'inizio una volta scorsi tutti gli elementi</li>
+                    <li><strong>Hide control on end</strong> - per nascondere i pulsanti di navigazione (next/previous) sull'ultima slide</li>
+                    <li><strong>Pager</strong> - mostra impaginazione</li>
+                    <li><strong>Control</strong> - mostra pulsanti next/previous </li>
+                    <li><strong>Auto control</strong> - mostra pulsanti play/pause</li>
+                    <li><strong>Auto hover</strong> - per mettere il carosello in pausa quando il mouse viene puntato su un elemento del carosello</li>
+                </ol>
+              </article>
+              <article id="tmproductlistgallery">
+                <h4>TM Product List Gallery</h4>
+                <p>Questo modulo permette di visualizzare una galleria con tutte le immagini dei prodotti disponibili sulla lista prodotti.</p>
+                <h5>Installazione ed eliminazione</h5>
+                <p>Il modulo va installato ed eliminato come tutti gli altri moduli PrestaShop.</p>
+                <h5>Configurazione Modulo</h5>
+                <p>Il modulo non ha impostazioni aggiuntive.</p>
+                <h5>Azioni aggiuntive</h5>
+                <p>Per abilitare le funzionalità del modulo si deve aggiungere la seguente riga di codice:</p>
+                <p><code>{hook h='displayProductListGallery' product=$product}</code></p>
+                <p>sul file <strong>product-list.tpl</strong> nella cartella principale del  tema dopo il tag di chiusura <code>&lt;/a&gt;</code> con classe <code>.product_img_link</code>.</p>
+              </article>
               <article id="olark">
                 <h4>Olark Live Chat</h4>
-                 <div class="box-notification">
-                  <span>I clienti che hanno acquistato il modello vengono forniti con 6 mesi di utilizzo Olark chattare gratis. Per registrare pacchetto bronzo sei mesi gratuita si dovrebbe seguire <a target="_blank" href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default">Olark link di registrazione</a>
-                  </span>
-                </div>
+                <p>Per impostare una chat dal vivo come quella della Demo, dovrai iscriverti al sito web ufficiale di <a href="http://www.olark.com/?r=ad8fbsj2">Olark.</a> Dopo aver aggiunto tutti i dati richiesti, otterrai un codice da aggiungere a <strong>\themes\themeXXX\footer.tpl</strong> prima di <strong>&lt;/body&gt;</strong> tag.</p>
               </article>
             </section>
             <section class="block-templates" id="cookiepolicy">

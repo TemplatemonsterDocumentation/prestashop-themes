@@ -141,6 +141,9 @@
                       <li><a href="#tmproductsslider">TM Products Slider</a></li>
                       <li><a href="#tmproductvideos">TM Product Videos</a></li>
                       <li><a href="#tmsocialfeeds">TM Social Feeds</a></li>
+                      <li><a href="#tmheaderaccount">TM Header Account</a></li>
+                      <li><a href="#tmhomecarousel">TM Homepage Products Carousel</a></li>
+                      <li><a href="#tmproductlistgallery">TM Product List Gallery</a></li>
                       <li><a href="#olark">Olark Live Chat</a></li>
                     </ul>
                   </dd>
@@ -906,6 +909,52 @@
                 <p>The module supports multi-stores.</p>
                 
               </article>
+              <article id="tmheaderaccount">
+                <h4>TM Conta no Cabeçalho (Header Account)</h4>
+                <p>Esse módulo mostra o formulário de login e alguns elementos da conta de usuário no cabeçalho do site. Permite entrar em sua conta dentro da página atual. Esse módulo serve como um bloco drop-down.</p>
+                <h5>Instalação e Remoção</h5>
+                <p>O módulo pode ser instalado e apagado como qualquer outro módulo do PrestaShop</p>
+                <h5>Configuração do módulo</h5>
+                <p>O módulo não tem outras configurações.</p>
+              </article>
+              <article id="tmhomecarousel">
+                <h4>TM Homepage Products Carousel</h4>
+                <p>Esse módulo adiciona um slider/carrossel à página principal.</p>
+                <h5>Instalação e Remoção</h5>
+                <p>O módulo pode ser instalado e apagado como qualquer outro módulo do PrestaShop</p>
+                <h5>Configuração de Módulo</h5>
+                <p>Configure acessando a página de configurações do módulo.</p>
+                <p><img class="presta_scr2" src="img/tmhomecarousel-1.png" alt="" /></p>
+                <ol>
+                	<li><strong>Use carousel</strong> - enable/disable carousel</li>
+                    <li><strong>Number of elements to display</strong> - quantidade de itens para mostrar</li>
+                    <li><strong>Items scroll</strong> - quantidade de itens que entram em cena</li>
+                    <li><strong>Item Width</strong> - largura de um item na lista de slides</li>
+                    <li><strong>Item Margin</strong> - margem entre os itens</li>
+                    <li><strong>Carousel speed </strong> - duração da animação de transição</li>
+                    <li><strong>Pause</strong> - quantidade de tempo em que um slider fica parado (no caso do "Auto scroll" estar habilitado)</li>
+                    <li><strong>Auto scroll</strong> - os slides ficam passando automáticamente</li>
+                    <li><strong>Random</strong> - inicia o slider num item aleatório</li>
+                    <li><strong>Carousel loop</strong> - o slider volta para o primeiro item quando estiver no fim da lista de slides</li>
+                    <li><strong>Hide control on end</strong> - esconde a navegação (botões de próximo/anterior) no último slide.</li>
+                    <li><strong>Pager</strong> - mostra paginação</li>
+                    <li><strong>Control</strong> - mostra botões de próximo/anterior</li>
+                    <li><strong>Auto control</strong> - mostra botões de tocar/parar</li>
+                    <li><strong>Auto hover</strong> - para o slider/carrossel quando o mouse passar em cima dos itens</li>
+                </ol>
+              </article>
+              <article id="tmproductlistgallery">
+                <h4>TM Galeria Lista de Produtos (Product List Gallery)</h4>
+                <p>O módulo mostra uma galeria de todas as imagens de produtos na página de listagem de produtos.</p>
+                <h5>Instalação e Remoção</h5>
+                <p>O módulo pode ser instalado e apagado como qualquer outro módulo do PrestaShop</p>
+                <h5>Configuração do módulo</h5>
+                <p>O módulo não tem outras configurações.</p>
+                <h5>Ações adicionais</h5>
+                <p>Para habilitar a funcionalidade do módulo, inclua a seguinte linha de código:</p>
+                <p><code>{hook h='displayProductListGallery' product=$product}</code></p>
+                <p>ao arquivo <strong>product-list.tpl</strong> no diretório raíz do seu tema, após fechar a tag <code>&lt;/a&gt;</code> com a classe <code>.product_img_link</code>.</p>
+              </article>
               <p>Sua configuração é muito simples.</p>
               <ol>
                 <li>Encontre-o na pasta manual_install dentro do pacote do tema (se você realizou a Instalação manual com dados de amostra, então o módulo será adicionado automaticamente).</li>
@@ -929,48 +978,6 @@
                 </li>
               </ol>
               <p>Recomendamos os seguintes:</p>
-              <ul>
-                <li><a target="_blank" href="http://addons.prestashop.com/en/front-office-features-prestashop-modules/8704-eu-cookie-law.html">Module EU Cookie Law</a></li>
-                <li><a target="_blank" href="http://addons.prestashop.com/en/administration-tools-prestashop-modules/10376-alert-for-eu-cookie-law.html">Module Alert for EU Cookie Law</a></li>
-              </ul>
-              <article id="olark">
-                <h4>Olark Live Chat</h4>
-                <div class="box-notification">
-                  <span>Os clientes que compraram o modelo são fornecidos com seis meses Olark conversar uso gratuito. Para registrar pacote bronze seis meses grátis você deve seguir <a target="_blank" href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default">Olark link de inscrição</a>
-                  </span>
-                </div>
-              </article>
-            </section>
-            <section class="block-templates" id="cookiepolicy">
-              <h2 class="item6"><i class="icon-exclamation-sign"></i> Política de Cookies</h2>
-              <p>Cookies are small text files which websites place on visitors’ computers. They’re typically used to identify that particular visitor and provide them with a better experience. Cookies are a crucial part of many website functions which we take for granted.</p>
-              <p>For instance, it’s usually cookies which allow online shops to remember what items you have in your shopping trolley. They’re also used to keep you logged in to a website, or to provide valuable usage statistics and information to website owners.</p>
-              <p>If you run a website, it almost certainly uses cookies. Their most likely function is to monitor visitor numbers and behaviours through tools like Google Analytics. They may also be used to display relevant adverts to visitors, or – if you sell online – to power key parts of your online shopping system.</p>
-              <p>26th May 2012 - The ICO released a change to the enforcement, "implied consent" is now allowed as long as you make it clear where your privacy/cookie policy is.</p>
-              <p>For your convenience, we have added a Cookieslaw module to our theme.</p>
-              <p>Its configuration is very easy.</p>
-              <ol>
-                <li>Find it in manual_install folder located in the template package (if you performed Manual template installation with sample data, then the module will be added automatically).</li>
-                <li>
-                  <p>Then find it in the list of modules in your admin panel (Cookieslaw module among the "Front Office Features" modules) and click <strong>Install</strong> button.</p>
-                  <p><img class="presta_scr2" src="img/cookies.png" alt="" /></p>
-                </li>
-                <li>
-                  <p>After installation (ignore this step if you were automatically directed to the module configuration page) click <strong>Configure</strong> button.</p>
-                  <p><img class="presta_scr2" src="img/cookies_conf.png" alt="" /></p>
-                </li>
-                <li>
-                  <p>Add all the required settings and click <strong>Save</strong> button.</p>
-                  <p><img class="presta_scr2" src="img/cookies_set.png" alt="" /></p>
-                  Settings:
-                  <ul>
-                    <li> - Display at the top of the page(by default). If you untick this option, the module will show up at the bottom of the page.</li>
-                    <li> - Cookies Policy link.</li>
-                    <li> - Link to the page where the user is redirected in case he does not accept the Cookies Policy.</li>
-                  </ul>
-                </li>
-              </ol>
-              <p>Also, we can recommend the following ones:</p>
               <ul>
                 <li><a target="_blank" href="http://addons.prestashop.com/en/front-office-features-prestashop-modules/8704-eu-cookie-law.html">Module EU Cookie Law</a></li>
                 <li><a target="_blank" href="http://addons.prestashop.com/en/administration-tools-prestashop-modules/10376-alert-for-eu-cookie-law.html">Module Alert for EU Cookie Law</a></li>

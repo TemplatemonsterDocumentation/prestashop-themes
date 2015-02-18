@@ -141,6 +141,9 @@
                       <li><a href="#tmproductsslider">TM Products Slider</a></li>
                       <li><a href="#tmproductvideos">TM Product Videos</a></li>
                       <li><a href="#tmsocialfeeds">TM Social Feeds</a></li>
+                      <li><a href="#tmheaderaccount">TM Header Account</a></li>
+                      <li><a href="#tmhomecarousel">TM Homepage Products Carousel</a></li>
+                      <li><a href="#tmproductlistgallery">TM Product List Gallery</a></li>
                       <li><a href="#olark">Olark czat na żywo</a></li>
                     </ul>
                   </dd>
@@ -882,12 +885,55 @@
                 <p>The module supports multi-stores.</p>
                 
               </article>
+              <article id="tmheaderaccount">
+                <h4>TM Header Account</h4>
+                <p>Ten moduł wyświetla formularz logowania i niektóre dostępne elementy konta użytkownika w nagłówku strony. Pozwala na zalogowanie się na Twoim koncie, zostając na aktywnej stronie. Moduł służy jako rozwijany blok.</p>
+                <h5>Instalacja oraz Usuwanie</h5>
+                <p>Moduł może być instalowany i usuwany jak każdy inny moduł Prestashop.</p>
+                <h5>Konfiguracja Modułu</h5>
+                <p>Moduł nie posiada żadnych dodatkowych ustawień.</p>
+              </article>
+              <article id="tmhomecarousel">
+                <h4>TM Homepage Products Carousel</h4>
+                <p>Moduł dodaje karuzelę do zakładek głównej strony.</p>
+                <h5>Instalacja oraz Usuwanie</h5>
+                <p>Moduł może być instalowany i usuwany jak każdy inny moduł Prestashop.</p>
+                <h5>Konfiguracja Modułu</h5>
+                <p>Ustawienia zainstalowanego modułu można skonfigurować na stronie konfiguracji modułu.</p>
+                <p><img class="presta_scr2" src="img/tmhomecarousel-1.png" alt="" /></p>
+                <ol>
+                	<li><strong>Use carousel</strong> - włączanie / wyłączanie karuzeli</li>
+                    <li><strong>Number of elements to display</strong> - liczba elementów do wyświetlenia</li>
+                    <li><strong>Items scroll</strong> - liczba elementów do przewijania</li>
+                    <li><strong>Item Width</strong> - szerokość elementu z listy karuzeli</li>
+                    <li><strong>Item Margin</strong> - margines między elementami z listy karuzeli</li>
+                    <li><strong>Carousel speed </strong> - czas trwania przejścia elementu</li>
+                    <li><strong>Pause</strong> - ilość czasu pomiędzy każdym auto-przejściem (jeśli opcja "Auto Scroll" jest włączona)</li>
+                    <li><strong>Auto scroll</strong> - włączanie auto-przewijania karuzeli</li>
+                    <li><strong>Random</strong> - uruchamianie karuzeli z losowej pozycji</li>
+                    <li><strong>Carousel loop</strong> - karuzela wraca do początku, gdy wszystkie elementy zostały przewinięte.</li>
+                    <li><strong>Hide control on end</strong> - ukrywanie przycisków nawigacji (następny / poprzedni) na ostatnim slajdzie</li>
+                    <li><strong>Pager</strong> - pokazuje paginację</li>
+                    <li><strong>Control</strong> - pokazuje przyciski next/previous</li>
+                    <li><strong>Auto control</strong> - pokazuje przyciski play/pause</li>
+                    <li><strong>Auto hover</strong> - wstrzymanie karuzeli, kiedy wskaźnik myszy znajdzie się nad elementami karuzeli</li>
+                </ol>
+              </article>
+              <article id="tmproductlistgallery">
+                <h4>TM Product List Gallery</h4>
+                <p>Moduł wyświetla galerię wszystkich dostępnych zdjęć produktów na stronach list produktów.</p>
+                <h5>Instalacja oraz Usuwanie</h5>
+                <p>Moduł może być instalowany i usuwany jak każdy inny moduł Prestashop.</p>
+                <h5>Konfiguracja Modułu</h5>
+                <p>Moduł nie posiada żadnych dodatkowych ustawień.</p>
+                <h5>Dodatkowe działania</h5>
+                <p>Aby włączyć funkcję modułu, należy dodać następujący wiersz kodu:</p>
+                <p><code>{hook h='displayProductListGallery' product=$product}</code></p>
+                <p>do pliku <strong>product-list.tpl</strong>, znajdującego się w folderze głównym motywu po zamykającym tagu <code>&lt;/a&gt;</code> z klasą <code>.product_img_link</code>.</p>
+              </article>
               <article id="olark">
                 <h4>Olark Czat na żywo</h4>
-                <div class="box-notification">
-                  <span>Klienci, którzy kupili ten szablon są wyposażone w 6 miesięcy Olark czata za darmo. Aby zarejestrować 6 miesięcy darmowe brązowy pakiet należy postępować <a target="_blank" href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default">Olark Link Rejestracja</a>
-                  </span>
-                </div>
+                <p>Aby ustawić czat na żywo, jak ten na Live Demo, musisz zarejestrować się na oficjalnej stronie internetowej <a href="http://www.olark.com/?r=ad8fbsj2">Olark registration.</a> Po dostarczeniu wszystkich wymaganych danych, otrzymasz kod, aby dodać tag <strong>\themes\themeXXX\footer.tpl</strong> przed <strong>&lt;/body&gt;</strong>.</p>
               </article>
             </section>
             <section class="block-templates" id="cookiepolicy">

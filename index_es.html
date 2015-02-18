@@ -141,6 +141,9 @@
                       <li><a href="#tmproductsslider">TM Products Slider</a></li>
                       <li><a href="#tmproductvideos">TM Product Videos</a></li>
                       <li><a href="#tmsocialfeeds">TM Social Feeds</a></li>
+                      <li><a href="#tmheaderaccount">TM Cabecera de la Cuenta</a></li>
+                      <li><a href="#tmhomecarousel">TM Carrusel de Productos</a></li>
+                      <li><a href="#tmproductlistgallery">TM Galer&iacute;a de la Lista de Productos</a></li>
 		      		  <li><a href="#olark">Chat en Vivo de Olark</a></li>
                     </ul>
                   </dd>
@@ -883,12 +886,55 @@
                 <p>The module supports multi-stores.</p>
                 
               </article>
+              <article id="tmheaderaccount">
+                <h4>TM Cabecera de la Cuenta</h4>
+                <p>Este m&oacute;dulo muestra el formulario de acceso y algunos elementos de la cuenta de usuario en la cabecera del sitio web. Le permite acceder a su cuenta permaneciendo en la p&aacute;gina activa. El m&oacute;dulo es un control desplegable.</p>
+		<h5>Instalaci&oacute;n y Eliminaci&oacute;n</h5>
+                <p>El m&oacute;dulo puede ser instalado y eliminado como cualquier otro m&oacute;dulo de PrestaShop.</p>
+		<h5>Configuraci&oacute;n del M&oacute;dulo</h5>
+                <p>El m&oacute;dulo no tiene ninguna configuraci&oacute;n adicional.</p>
+              </article>
+              <article id="tmhomecarousel">
+                <h4>TM Carrusel de Productos</h4>
+                <p>El m&oacute;dulo a&ntilde;ade un carrusel a la p&aacute;gina principal.</p>
+                <h5>Instalaci&oacute;n y Eliminaci&oacute;n</h5>
+                <p>El m&oacute;dulo puede ser instalado y eliminado como cualquier otro m&oacute;dulo de PrestaShop.</p>
+                <h5>Configuraci&oacute;n del M&oacute;dulo</h5>
+                <p>Los ajustes del m&oacute;dulo instalado pueden configurarse en la p&aacute;gina de configuraci&oacute;n del m&oacute;dulo.</p>
+                <p><img class="presta_scr2" src="img/tmhomecarousel-1.png" alt="" /></p>
+                <ol>
+                	<li><strong>Usar carrusel</strong> - activar/desactivar carrusel</li>
+                    <li><strong>N&uacute;mero de elementos a mostrar</strong> - el n&uacute;mero de elementos a mostrar</li>
+		    <li><strong>Elementos a desplazar</strong> - el n&uacute;mero de elementos a desplazar</li>
+		    <li><strong>Ancho del Elemento</strong> - el ancho de un elemento del carrusel</li>
+                    <li><strong>Margen entre Elementos</strong> - margen entre los elementos del carrusel</li>
+		    <li><strong>Velocidad del Carrusel</strong> - duraci&oacute;n de la transici&oacute;n entre elementos</li>
+		    <li><strong>Pausa</strong> - el tiempo de transici&oacute;n entre dos elementos del carrusel (solo si "Desplazamiento Autom&aacute;tico" est&aacute; activado)</li>
+		    <li><strong>Desplazamiento Autom&aacute;tico</strong> - activar desplazamiento autom&aacute;tico del carrusel</li>
+                    <li><strong>Aleatorio</strong> - iniciar el carrusel en un elemento aleatorio</li>
+		    <li><strong>Carousel en Bucle</strong> - el carrusel vuelve al primer elemento cuando desp&uacute;es de mostrar el &uacute;ltimo</li>
+		    <li><strong>Ocultar Controles al final</strong> - ocultar los controles de navegac&iacute;&oacute;n (anterior/siguiente) en el &uacute;ltimo elemento</li>
+		    <li><strong>P&aacute;ginas</strong> - mostrar enlace a p&aacute;ginas adicionales</li>
+		    <li><strong>Controles</strong> - mostrar los botones anterior/siguiente</li>
+		    <li><strong>Controles Autom&aacute;ticos</strong> - mostrar los botones reproducir/pausa</li>
+                    <li><strong>Pausa Autom&aacute;tica</strong> - pausar el carrusel cuando se pasa el rat&oacute;n por encima</li>
+                </ol>
+              </article>
+              <article id="tmproductlistgallery">
+                <h4>TM Galer&iacute;a de la Lista de Productos</h4>
+                <p>El m&oacute;dulo muestra una galer&iacute;a de todas las im&aacute;genes de los productos disponibles en las p&aacute;ginas de la lista de productos.</p>
+                <h5>Instalaci&oacute;n y Eliminaci&oacute;n</h5>
+                <p>El m&oacute;dulo puede ser instalado y eliminado como cualquier otro m&oacute;dulo de PrestaShop.</p>
+                <h5>Configuraci&oacute;n del M&oacute;dulo</h5>
+                <p>El m&oacute;dulo no tiene ninguna configuraci&oacute;n adicional.</p>
+                <h5>Acciones Adicional</h5>
+                <p>Para habilitar la funcionalidad del m&oacute;dulo debe a&ntilde;adir la siguiente l&iacute;nea del c&oacute;digo:</p>
+                <p><code>{hook h='displayProductListGallery' product=$product}</code></p>
+		<p>a el archivo <strong>product-list.tpl</strong> que se encuentra en la carpeta ra&iacute;z del tema despu&eacute;s de cerrar la etiqueta <code>&lt;/a&gt;</code> con la clase <code>.product_img_link</code>.</p>
+              </article>
               <article id="olark">
                 <h4>Chat en Vivo de Olark</h4>
-		<div class="box-notification">
-                  <span>Los clientes que han comprado la plantilla se proporcionan con 6 meses de uso Olark chatear gratis. Para registrar el paquete de bronce 6 meses gratis usted debe seguir <a target="_blank" href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default">Enlace de registro Olark</a>
-                  </span>
-                </div>
+		<p>Para configurar un chat en vivo como el de la p&aacute;gina de demostraci&oacute;n, tendr&aacute; que registrarse en el sitio web oficial <a href="http://www.olark.com/?r=ad8fbsj2">Olark registration.</a> Despu&eacute;s de rellenar todos los datos necesarios recibir&aacute; un c&oacute;digo que podr&aacute; a&ntilde;adir a <strong>\themes\themeXXX\footer.tpl</strong> antes de la etiqueta <strong>&lt;/body&gt;</strong>.</p>
               </article>
             </section>
             <section class="block-templates" id="cookiepolicy">

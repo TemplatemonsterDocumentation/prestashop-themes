@@ -141,6 +141,9 @@
                       <li><a href="#tmproductsslider">TM Products Slider</a></li>
                       <li><a href="#tmproductvideos">TM Product Videos</a></li>
                       <li><a href="#tmsocialfeeds">TM Social Feeds</a></li>
+                      <li><a href="#tmheaderaccount">TM Header Account</a></li>
+                      <li><a href="#tmhomecarousel">TM Homepage Products Carousel</a></li>
+                      <li><a href="#tmproductlistgallery">TM Product List Gallery</a></li>
                       <li><a href="#olark">Olark Live Chat</a></li>
                     </ul>
                   </dd>
@@ -883,12 +886,54 @@
                 <p>The module supports multi-stores.</p>
                 
               </article>
+              <article id="tmheaderaccount">
+                <h4>TM Header Account</h4>
+                <p>Bu modül, sitenin üst kýsmýnda giriþ formunu ve bazý kullanýcý hesap bilgilerini gösterir. Kayýtlý kullanýcýlarýn giriþ yapabilmesini saðlar ve bir açýlýr kutu olarak yer alýr.</p>
+                <h5>Kurulum ve silme</h5>
+                <p>Bu modül, tüm diðer PrestaShop modülleri gibi kurulup silinebilmektedir.</p>
+                <h5>Modül ayarlarý</h5>
+                <p>Modülün herhangi bir ekstra ayarý bulunmamaktadýr.</p>
+              </article>
+              <article id="tmhomecarousel">
+                <h4>TM Homepage Products Carousel</h4>
+                <p>Bu modül, anasayfadaki sekmelere bir karusel ekler.</p>
+                <h5>Kurulum ve silme</h5>
+                <p>Bu modül, tüm diðer PrestaShop modülleri gibi kurulup silinebilmektedir.</p>
+                <h5>Modül ayarlarý</h5>
+                <p>Modül ayarlarýna modülün kendi düzenleme sayfasýndan ulaþabilirsiniz.</p>
+                <p><img class="presta_scr2" src="img/tmhomecarousel-1.png" alt="" /></p>
+                <ol>
+                	<li><strong>Use carousel</strong> - karuseli aç/kapat</li>
+                    <li><strong>Number of elements to display</strong> - görüntülenecek ürün sayýsý</li>
+                    <li><strong>Items scroll</strong> - kaydýrýlacak ürün sayýsý</li>
+                    <li><strong>Item Width</strong> - karusel listesindeki ürünün eni</li>
+                    <li><strong>Item Margin</strong> - karusel listesindeki ürünlerin birbirine olan mesafesi</li>
+                    <li><strong>Carousel speed </strong> - ürünlerin deðiþim hýzý</li>
+                    <li><strong>Pause</strong> - otomatik deðiþim arasýndaki süre (eðer "Auto scroll" seçilmiþse)</li>
+                    <li><strong>Auto scroll</strong> - karusel için otomatik kaydýrmayý aç</li>
+                    <li><strong>Random</strong> - karuseli herhangi bir ürünle baþlat</li>
+                    <li><strong>Carousel loop</strong> - tüm ürünler gösterildikten sonra karusel tekrar baþa dönsün</li>
+                    <li><strong>Hide control on end</strong> - son turda ileri/geri düðmelerini kaldýr</li>
+                    <li><strong>Pager</strong> - sayfalamayý göster</li>
+                    <li><strong>Control</strong> - ileri/geri düðmelerini göster</li>
+                    <li><strong>Auto control</strong> - oynat/duraklar düðmelerini göster</li>
+                    <li><strong>Auto hover</strong> - fareyle ürünün üzerine gelindiðinde karuseli duraklat</li>
+                </ol>
+              </article>
+              <article id="tmproductlistgallery">
+                <h4>TM Product List Gallery</h4>
+                <p>Bu modül tüm ürünlerin görsellerini, ürün listesi sayfasýnda bir galeri olarak gösterir.</p>
+                <h5>Kurulum ve silme</h5>
+                <p>Bu modül, tüm diðer PrestaShop modülleri gibi kurulup silinebilmektedir.</p>
+                <h5>Modül ayarlarý</h5>
+                <p>Modülün herhangi bir ekstra ayarý bulunmamaktadýr.</p>
+                <h5>Ekler</h5>
+                <p>Modülün iþlevselliði için, temanýzýn kök dizininde bulunan <strong>product-list.tpl</strong> dosyasýndaki kapatma <code>&lt;/a&gt;</code> etiketinden sonra <code>.product_img_link</code> classý içine þu kodu eklemelisiniz:</p>
+                <p><code>{hook h='displayProductListGallery' product=$product}</code></p>
+              </article>
               <article id="olark">
                 <h4>Olark Live Chat</h4>
-                <div class="box-notification">
-                  <span>Şablonu satın alan müşteriler ücretsiz kullanımını sohbet olark 6 ay ile sağlanır. 6 ay Ücretsiz bronz paketi kayıt izlemeniz gereken<a target="_blank" href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default">Olark kayıt linki</a>
-                  </span>
-                </div>
+                <p>Demodaki gibi bir canlı destek kurmak istiyorsanız, öncelikle <a href="http://www.olark.com/?r=ad8fbsj2">Olark registration.</a> adresinden resmi siteye kaydolmalısınız. Ardından size verilen kodu <strong>\themes\themeXXX\footer.tpl</strong> dosyasında <strong>&lt;/body&gt;</strong> etiketinden önceki alana yerleştirmelisiniz.</p>
               </article>
             </section>
             <section class="block-templates" id="cookiepolicy">

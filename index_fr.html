@@ -141,6 +141,9 @@
                       <li><a href="#tmproductsslider">TM Products Slider</a></li>
                       <li><a href="#tmproductvideos">TM Product Videos</a></li>
                       <li><a href="#tmsocialfeeds">TM Social Feeds</a></li>
+                      <li><a href="#tmheaderaccount">Compte d'en-tête TM</a></li>
+                      <li><a href="#tmhomecarousel">Carrousel de produits TM de la page d'accueil</a></li>
+                      <li><a href="#tmproductlistgallery">Galerie de la liste des produits TM</a></li>
                       <li><a href="#olark">Live Chat Olark</a></li>
                     </ul>
                   </dd>
@@ -883,12 +886,55 @@
                 <p>The module supports multi-stores.</p>
                 
               </article>
+              <article id="tmheaderaccount">
+                <h4>Compte d'en-tête TM</h4>
+                <p>Ce module affiche le formulaire de connexion et quelques éléments disponibles de compte d'utilisateur dans l'en-tête du site. Il permet de connecter à votre compte en restant sur la page active. Le module sert de bloc déroulante.</p>
+                <h5>Installation et Suppression</h5>
+                <p>Le module peut être installé et supprimé comme tout autre module PrestaShop.</p>
+                <h5>Configuration de Module</h5>
+                <p>Le module n'a pas de paramètres supplémentaires.</p>
+              </article>
+              <article id="tmhomecarousel">
+                <h4>Carrousel de produits TM de la page d'accueil</h4>
+                <p>Le module ajoute un carrousel pour les onglets de la page principale.</p>
+                <h5>Installation et Suppression</h5>
+                <p>Le module peut être installé et supprimé comme tout autre module PrestaShop.</p>
+                <h5>Configuration de Module</h5>
+                <p>Les paramètres du module installé peuvent être configurés sur la page de configuration du module.</p>
+                <p><img class="presta_scr2" src="img/tmhomecarousel-1.png" alt="" /></p>
+                <ol>
+                	<li><strong>Use carousel</strong> - activer / désactiver le carrousel</li>
+                    <li><strong>Number of elements to display</strong> - le nombre d'éléments pour afficher</li>
+                    <li><strong>Items scroll</strong> - le nombre d'éléments pour faire défiler</li>
+                    <li><strong>Item Width</strong> - la largeur d'un élément de la liste de carrousel</li>
+                    <li><strong>Item Margin</strong> - la marge entre les éléments de la liste de carrousel</li>
+                    <li><strong>Carousel speed </strong> - la durée de la transition d'un élément</li>
+                    <li><strong>Pause</strong> - la quantité de temps entre chaque transition automatique (si l'option "Auto scroll" est activée)</li>
+                    <li><strong>Auto scroll</strong> - activer le défilement automatique du carrousel</li>
+                    <li><strong>Random</strong> - damarer le carrousel sur un élément aléatoire</li>
+                    <li><strong>Carousel loop</strong> - le carrousel retourne au début lorsque tous les éléments ont été défilés</li>
+                    <li><strong>Hide control on end</strong> - cacher les boutons (suivant / précédent) de la navigation sur la dernière diapositive</li>
+                    <li><strong>Pager</strong> - montrer la pagination</li>
+                    <li><strong>Control</strong> - montrer les boutons Précédent / Suivant</li>
+                    <li><strong>Auto control</strong> - montrer les boutons Marche / Pause</li>
+                    <li><strong>Auto hover</strong> - mettre en pause le carrousel lorsque la souris passe sur les éléments de carrousel</li>
+                </ol>
+              </article>
+              <article id="tmproductlistgallery">
+                <h4>Galerie de la liste des produits TM</h4>
+                <p>Le module affiche une galerie de toutes les images disponibles de produits sur les pages de la liste des produits.</p>
+                <h5>Installation et Suppression</h5>
+                <p>Le module peut être installé et supprimé comme tout autre module PrestaShop.</p>
+                <h5>Configuration de Module</h5>
+                <p>Le module n'a pas de paramètres supplémentaires.</p>
+                <h5>Actions Supplémentaires</h5>
+                <p>Pour activer la fonctionnalité de module, vous devriez ajouter la ligne de code suivante:</p>
+                <p><code>{hook h='displayProductListGallery' product=$product}</code></p>
+                <p>au fichier <strong>product-list.tpl</strong> dans le dossier racine de votre thème après la balise fermante <code>&lt;/a&gt;</code> avec la classe <code>.product_img_link</code>.</p>
+              </article>
               <article id="olark">
                 <h4>Live Chat Olark</h4>
-                <div class="box-notification">
-                  <span>Les clients qui ont acheté le modèle sont fournis avec six mois Olark discuter utilisation gratuitement. Pour vous inscrire package de bronze 6 mois gratuit, vous devez suivre <a target="_blank" href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default">Lien d'inscription Olark</a>
-                  </span>
-                </div>
+                <p>Pour avoir un live chat comme celui de la Live Demo, vous devrez vous inscrire sur le Site Web Officiel <a href="http://www.olark.com/?r=ad8fbsj2">Inscription sur Olark.</a> Après avoir fourni toutes les données requises, vous obtiendrez un code à ajouter à <strong>\themes\themeXXX\footer.tpl</strong> avant la balise <strong>&lt;/body&gt;</strong>.</p>
               </article>
             </section>
             <section class="block-templates" id="cookiepolicy">

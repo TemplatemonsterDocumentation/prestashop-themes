@@ -141,6 +141,9 @@
                       <li><a href="#tmproductsslider">TM Products Slider</a></li>
                       <li><a href="#tmproductvideos">TM Product Videos</a></li>
                       <li><a href="#tmsocialfeeds">TM Social Feeds</a></li>
+                      <li><a href="#tmheaderaccount">TM Header Account</a></li>
+                      <li><a href="#tmhomecarousel">TM Homepage Products Carousel</a></li>
+                      <li><a href="#tmproductlistgallery">TM Product List Gallery</a></li>
                       <li><a href="#olark">Olark Live Chat</a></li>
                     </ul>
                   </dd>
@@ -885,12 +888,55 @@
                 <p>Модуль поддерживает режим мульти-магазина.</p>
                 
               </article>
+              <article id="tmheaderaccount">
+                <h4>TM Header Account</h4>
+                <p>Данный модуль предназначен для вывода формы входа или списка доступных элементов личного кабинета пользователя в шапке сайта. Данный модуль позволяет осуществить вход без перезагрузки страницы. Реализован модуль в виде выпадающего блока.</p>
+                <h5>Установка и удаление модуля</h5>
+                <p>Модуль устанавливается и удаляется как любой другой модуль PrestaShop.</p>
+                <h5>Настройки модуля</h5>
+                <p>Модуль не имеет дополнительных настроек</p>
+              </article>
+              <article id="tmhomecarousel">
+                <h4>TM Homepage Products Carousel</h4>
+                <p>Данный модуль добавляет карусель в табы на главной странице.</p>
+                <h5>Установка и удаление модуля</h5>
+                <p>Модуль устанавливается и удаляется как любой другой модуль PrestaShop.</p>
+                <h5>Настройки модуля</h5>
+                <p>После установки модуля вы можете настраивать его на странице конфигурации модуля.</p>
+                <p><img class="presta_scr2" src="img/tmhomecarousel-1.png" alt="" /></p>
+                <ol>
+                	<li><strong>Use carousel</strong> (Использовать карусель) - включить/выключить карусель</li>
+                    <li><strong>Number of elements to display</strong> (Количество отображаемых элементов) - количество отображаемых элементов</li>
+                    <li><strong>Items scroll</strong> (Количество прокручиваемых элементов) - количество прокручиваемых элементов за один ход карусели</li>
+                    <li><strong>Item Width</strong> (Ширина элементов) - ширина элемента списка в карусели</li>
+                    <li><strong>Item Margin</strong> (Отступ между элементами) - отступ элемента списка в карусели</li>
+                    <li><strong>Carousel speed </strong> (Скорость карусели) - скорость перехода элементов</li>
+                    <li><strong>Pause</strong> (Пауза) - пауза между переходами (если "Auto scroll" разрешен)</li>
+                    <li><strong>Auto scroll</strong> (Автопролистывание) - автоматический ход карусели</li>
+                    <li><strong>Random</strong> (Случайный порядок) - старт карусели со случайного элемента</li>
+                    <li><strong>Carousel loop</strong> (Зацикливание карусели) - карусель возвращается на начало, если закончились элементы списка</li>
+                    <li><strong>Hide control on end</strong> (Скрыть элементы управления при отсутствии необходимости в них) - скрыть кнопки управление (следующий/предыдущий)</li>
+                    <li><strong>Pager</strong> (Пагинация) - отображать управление с помощью пагинации</li>
+                    <li><strong>Control</strong> (Элементы управления) - отображать кнопки (следующий/предыдущий)</li>
+                    <li><strong>Auto control</strong> (Элементы управления) - отображать кнопки (проигрывать/пауза)</li>
+                    <li><strong>Auto hover</strong> (Пауза при наведении курсора) - пауза карусели при наведении на элемент списка</li>
+                </ol>
+              </article>
+              <article id="tmproductlistgallery">
+                <h4>TM Product List Gallery</h4>
+                <p>Данный модуль отображает все доступные картинки продукта в виде галереи на страницах листинга продуктов.</p>
+                <h5>Установка и удаление модуля</h5>
+                <p>Модуль устанавливается и удаляется как любой другой модуль PrestaShop.</p>
+                <h5>Настройки модуля</h5>
+                <p>Модуль не имеет дополнительных настроек</p>
+                <h5>Дополнительные действия</h5>
+                <p>Для работы модуля необходимо добавить строку:</p>
+                <p><code>{hook h='displayProductListGallery' product=$product}</code></p>
+                <p>в файл <strong>product-list.tpl</strong> в корне вашей темы. После закрывающего тега <code>&lt;/a&gt;</code> с класcом <code>.product_img_link</code></p>
+              </article>
               <article id="olark">
                 <h4>Olark Live Chat</h4>
-                <div class="box-notification">
-                  <span>Клиенты, которые купили шаблон, получают возможность 6 месяцев пользоваться  сервисом Olark бесплатно. Для регистрации 6-месячного бесплатного Бронзового пакета вы должны пройти по <a target="_blank" href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default">Регистрационной ссылке Olark</a>
-                  </span>
-                </div>
+                <p>Для настройки онлайн чата, как на демо, необходимо пройти регистрацию на официальном сайте  <a href="http://www.olark.com/?r=ad8fbsj2">Olark.</a> После заполнения всех данных, вы получите код, который нужно будет добавить в файл <strong>\themes\themeXXX\footer.tpl</strong> перед тегом <strong>&lt;/body&gt;</strong>.</p>
               </article>
             </section>
             <section class="block-templates" id="cookiepolicy">

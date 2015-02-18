@@ -141,6 +141,9 @@
                       <li><a href="#tmproductsslider">TM Products Slider</a></li>
                       <li><a href="#tmproductvideos">TM Product Videos</a></li>
                       <li><a href="#tmsocialfeeds">TM Social Feeds</a></li>
+                      <li><a href="#tmheaderaccount">TM Header Account</a></li>
+                      <li><a href="#tmhomecarousel">TM Homepage Products Carousel</a></li>
+                      <li><a href="#tmproductlistgallery">TM Product List Gallery</a></li>
                       <li><a href="#olark">Olark Live Chat</a></li>
                     </ul>
                   </dd>
@@ -885,12 +888,55 @@
                 <p>The module supports multi-stores.</p>
                 
               </article>
+              <article id="tmheaderaccount">
+                <h4>TM Header Account</h4>
+                <p>Das jeweilige Modul wurde dazu entwickelt, um das Login-Formular und die Liste von verfügbaren Elementen des Accounts im  Webseitenkopf anzuzeigen. Dieses Modul ermöglicht auch dem Benutzer sich einzuloggen, ohne die Seite zu aktualisieren. Dieses Modul wurde als DropDownBlock entwickelt.</p>
+                <h5>Installation und Entfernung des Moduls</h5>
+                <p>Dieses Modul wird wie ein anderes PrestaShop Modul installiert und entfernt.</p>
+                <h5>Moduleinstellungen</h5>
+                <p>Dieses Modul hat keine zusätzlichen Einstellungen</p>
+              </article>
+              <article id="tmhomecarousel">
+                <h4>TM Homepage Products Carousel</h4>
+                <p>Das jeweilige Modul fügt das Karussell zu Tabs auf der Hauptseite hinzu.</p>
+                <h5>Installation und Entfernung des Moduls</h5>
+                <p>Dieses Modul wird wie ein anderes PrestaShop Modul installiert und entfernt.</p>
+                <h5>Moduleinstellungen</h5>
+                <p>Nachdem Sie dieses Modul installiert haben, könenn Sie es auf der Konfigurationsseite des Moduls einstellen.</p>
+                <p><img class="presta_scr2" src="img/tmhomecarousel-1.png" alt="" /></p>
+                <ol>
+                	<li><strong>Use carousel</strong> (Karussell verwenden) - das Karussell aktivieren/deaktivieren</li>
+                    <li><strong>Number of elements to display</strong> (Die Anzahl von angezeigten Elementen) - die Anzahl von angezeigten Elementen</li>
+                    <li><strong>Items scroll</strong> (Die Anzahl von Bildlaufelementen) - die Anzahl von Bildlaufelementen in einem Schritt des Karussells</li>
+                    <li><strong>Item Width</strong> (Breite von Elementen) - die Breite des Elements in der Liste im Karussell</li>
+                    <li><strong>Item Margin</strong> (Abstand zwischen den Elementen) - Abstand des Elementes in der Liste im Karussell</li>
+                    <li><strong>Carousel speed </strong> (Geschwindigkeit des Karussells) - die Übergangsgeschwindigkei von Elementen</li>
+                    <li><strong>Pause</strong> (Pause) - die Pause zwischen den Übergängen (wenn "Auto scroll" erlaubt wurde)</li>
+                    <li><strong>Auto scroll</strong> (Automatischer Bildlauf) - automatischer Bildlauf des Karussells</li>
+                    <li><strong>Random</strong> (zufällige Reihenfolge) - das Karussell wird mit dem zufälligen Element begonnen</li>
+                    <li><strong>Carousel loop</strong> (Karussell Loop) - das Karussell kehrt zum Anfang, wenn es keine Elemente in der Liste gibtа</li>
+                    <li><strong>Hide control on end</strong> (Steuerelemente ausblenden, wenn sie nicht nötig sind) - Steuerelemente ausblenden (Vor/Zurück)</li>
+                    <li><strong>Pager</strong> (Paginierung) - die Steuerung mit Hilfe von der Paginierung anzeigen</li>
+                    <li><strong>Control</strong> (Steuerelemente) - Buttons (Vor/Zurück) anzeigen</li>
+                    <li><strong>Auto control</strong> (Steuerelemente) - Buttons (Wiedergabe/Pause) anzeigen</li>
+                    <li><strong>Auto hover</strong> (Pause, sobald der Cursor darüber ist) - die Pause im Karussell, sobald der Cursor über einem von den Elementen ist</li>
+                </ol>
+              </article>
+              <article id="tmproductlistgallery">
+                <h4>TM Product List Gallery</h4>
+                <p>Das jeweilige Modul zeigt alle verfügbaren Produktbilder als Karussell auf den Produktlistenseiten.</p>
+                <h5>Installation und Entfernung des Moduls</h5>
+                <p>Dieses Modul wird wie ein anderes PrestaShop Modul installiert und entfernt.</p>
+                <h5>Moduleinstellungen</h5>
+                <p>Dieses Modul hat keine zusätzlichen Einstellungen</p>
+                <h5>Zusätzliche Einstellungen</h5>
+                <p>Damit dieses Modul funktionieren kann, sollen Sie die folgende Zeile:</p>
+                <p><code>{hook h='displayProductListGallery' product=$product}</code></p>
+                <p>zur Datei <strong>product-list.tpl</strong> im Stamm Ihres Themas hinzufügen. Nach dem schließenden Tag <code>&lt;/a&gt;</code> mit der Klasse <code>.product_img_link</code></p>
+              </article>
               <article id="olark">
                 <h4>Olark Live Chat</h4>
-                <div class="box-notification">
-                  <span>Kunden, die das Template gekauft werden mit 6 Monaten vorgesehen Olark Nutzung kostenlos zu chatten. So registrieren Sie 6 Monate Kostenlose Bronze-Paket die Sie beachten sollten <a target="_blank" href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default">Olark Registrierungslink</a>
-                  </span>
-                </div>
+                <p>Um solchen Online-Chat einzustellen, wie auf Live Demo, sollen Sie sich auf der offiziellen Webseite  <a href="http://www.olark.com/?r=ad8fbsj2">Olark anmelden.</a> Nachdem Sie alle Daten eingegeben haben, erhalten Sie den Code, den Sie zur Datei <strong>\themes\themeXXX\footer.tpl</strong> vor dem Tag <strong>&lt;/body&gt;</strong>hinzufügen müssen.</p>
               </article>
             </section>
             <section class="block-templates" id="cookiepolicy">
