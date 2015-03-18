@@ -72,8 +72,8 @@
               </li>
               <li class="nav-item item2">
                 <dl class="slide-down">
-                  <dt> <a href="#engine_installation" class="icon-play">Başlangıç</a> <i class="icon-sample"></i> </dt>
-                  <dd>
+                  <dt> <a href="#engine_installation" class="icon-play">Başlangıç</a> <i class="icon-sample first-level"></i> </dt>
+                  <dd class="first-level">
                     <ul class="list">
                       <li><a href="#preparation">Hazırlık</a></li>
                       <li><a href="#editing_software">Yazılım düzenlemesi</a></li>
@@ -89,8 +89,8 @@
               </li>
 			  <li class="nav-item item3">
                 <dl class="slide-down">
-                  <dt><a href="#theme_installation" class="icon-check">Şablon kurulumu </a><i class="icon-sample"></i></dt>
-                  <dd>
+                  <dt><a href="#theme_installation" class="icon-check">Şablon kurulumu </a><i class="icon-sample first-level"></i></dt>
+                  <dd class="first-level">
                     <ul class="list">
                       <li><a href="#themeinstaller">Tema aktarımı</a></li>
                       <li><a href="#with_products_auto">Demo veriyle otomatik kurulum (Örnek veri kurucusu)</a></li>
@@ -102,8 +102,8 @@
               </li>
               <li class="nav-item item4">
                 <dl class="slide-down">
-                  <dt><a href="#basictutorials" class="icon-cog">Temel rehber</a><i class="icon-sample"></i></dt>
-                  <dd>
+                  <dt><a href="#basictutorials" class="icon-cog">Temel rehber</a><i class="icon-sample first-level"></i></dt>
+                  <dd class="first-level">
                     <ul class="list">
                       <li><a href="#changename">Mağaza adının değiştiri</a></li>
                       <li><a href="#eddit_slider">Hareketli manşet (slider) düzenlemesi</a></li>
@@ -113,24 +113,29 @@
               </li>
               <li class="nav-item item5">
                 <dl class="slide-down">
-                  <dt><a href="#extensions" class="icon-magnet">Temel modül ve uzantılar </a><i class="icon-sample"></i></dt>
-                  <dd>
+                  <dt><a href="#extensions" class="icon-magnet">Temel modül ve uzantılar </a><i class="icon-sample first-level"></i></dt>
+                  <dd class="first-level">
                     <ul class="list">
-                      <li><a href="#smart_blog">Smart Blog</a>
-                        <ul class="list">
-                          <li><a href="#smart_blog_">Smart Blog</a></li>
-                          <li><a href="#smart_blog_feed">RSS Smart Blog Feed</a></li>
-                          <li><a href="#smart_blog_archive">Smart Blog Arşivi</a></li>
-                          <li><a href="#smart_blog_categories">Smart Blog Kategorileri</a></li>
-                          <li><a href="#smart_blog_home">SmartBlog Güncel Anasayfa</a></li>
-                          <li><a href="#smart_blog_comments">Smart Blog Güncel Yorumlar</a></li>
-                          <li><a href="#smart_blog_add_this">Smart Blog AddThis Modülü</a></li>
-                          <li><a href="#smart_blog_popular">Smart Blog Popüler Yazılar</a></li>
-                          <li><a href="#smart_blog_recent">Smart Blog Son Yazılar</a></li>
-                          <li><a href="#smart_blog_related">Smart Blog İlgili Yazılar</a></li>
-                          <li><a href="#smart_blog_search">Smart Blog Arama</a></li>
-                          <li><a href="#smart_blog_tag">Smart Blog Etiketler</a></li>
-                        </ul>
+                      <li class="second-level">
+                          <dl class="slide-down second-level">
+                            <dt><a href="#smart_blog">Smart Blog</a><i class="icon-sample second-level"></i></dt>
+                            <dd class="second-level">
+                            	<ul class="list">
+                                  <li><a href="#smart_blog_">Smart Blog</a></li>
+                                  <li><a href="#smart_blog_feed">RSS Smart Blog Feed</a></li>
+                                  <li><a href="#smart_blog_archive">Smart Blog Arşivi</a></li>
+                                  <li><a href="#smart_blog_categories">Smart Blog Kategorileri</a></li>
+                                  <li><a href="#smart_blog_home">SmartBlog Güncel Anasayfa</a></li>
+                                  <li><a href="#smart_blog_comments">Smart Blog Güncel Yorumlar</a></li>
+                                  <li><a href="#smart_blog_add_this">Smart Blog AddThis Modülü</a></li>
+                                  <li><a href="#smart_blog_popular">Smart Blog Popüler Yazılar</a></li>
+                                  <li><a href="#smart_blog_recent">Smart Blog Son Yazılar</a></li>
+                                  <li><a href="#smart_blog_related">Smart Blog İlgili Yazılar</a></li>
+                                  <li><a href="#smart_blog_search">Smart Blog Arama</a></li>
+                                  <li><a href="#smart_blog_tag">Smart Blog Etiketler</a></li>
+                                </ul>
+                            </dd>
+                          </dl>
                       </li>
                       <li><a href="#tmmediaparallax">Media parallax modülü</a></li>
                       <li><a href="#tmvideobackground">Video arkaplan modülü</a></li>
@@ -144,7 +149,6 @@
                       <li><a href="#tmheaderaccount">TM Header Account</a></li>
                       <li><a href="#tmhomecarousel">TM Homepage Products Carousel</a></li>
                       <li><a href="#tmproductlistgallery">TM Product List Gallery</a></li>
-                      <li><a href="#olark">Olark Live Chat</a></li>
                     </ul>
                   </dd>
                 </dl>
@@ -930,10 +934,6 @@
                 <h5>Ekler</h5>
                 <p>Modülün iþlevselliði için, temanýzýn kök dizininde bulunan <strong>product-list.tpl</strong> dosyasýndaki kapatma <code>&lt;/a&gt;</code> etiketinden sonra <code>.product_img_link</code> classý içine þu kodu eklemelisiniz:</p>
                 <p><code>{hook h='displayProductListGallery' product=$product}</code></p>
-              </article>
-              <article id="olark">
-                <h4>Olark Live Chat</h4>
-                <p>Demodaki gibi bir canlı destek kurmak istiyorsanız, öncelikle <a href="http://www.olark.com/?r=ad8fbsj2">Olark registration.</a> adresinden resmi siteye kaydolmalısınız. Ardından size verilen kodu <strong>\themes\themeXXX\footer.tpl</strong> dosyasında <strong>&lt;/body&gt;</strong> etiketinden önceki alana yerleştirmelisiniz.</p>
               </article>
             </section>
             <section class="block-templates" id="cookiepolicy">

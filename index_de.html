@@ -72,8 +72,8 @@
               </li>
               <li class="nav-item item2">
                 <dl class="slide-down">
-                  <dt> <a href="#engine_installation" class="icon-play">Arbeitsbeginn</a> <i class="icon-sample"></i> </dt>
-                  <dd>
+                  <dt> <a href="#engine_installation" class="icon-play">Arbeitsbeginn</a> <i class="icon-sample first-level"></i></dt>
+                  <dd class="first-level">
                     <ul class="list">
                       <li><a href="#preparation">Vorbereitung</a></li>
                       <li><a href="#editing_software">Software für die Bearbeitung</a></li>
@@ -89,8 +89,8 @@
               </li>
 			  <li class="nav-item item3">
                 <dl class="slide-down">
-                  <dt><a href="#theme_installation" class="icon-check">Installation der Vorlage </a><i class="icon-sample"></i></dt>
-                  <dd>
+                  <dt><a href="#theme_installation" class="icon-check">Installation der Vorlage </a><i class="icon-sample first-level"></i></dt>
+                  <dd class="first-level">
                     <ul class="list">
                       <li><a href="#themeinstaller">Import des Themas</a></li>
                       <li><a href="#with_products_auto">Automatische Installation mit den Demodaten (Sample data installer Modul)</a></li>
@@ -102,8 +102,8 @@
               </li>
               <li class="nav-item item4">
                 <dl class="slide-down">
-                  <dt><a href="#basictutorials" class="icon-cog">Haupttutorials</a><i class="icon-sample"></i></dt>
-                  <dd>
+                  <dt><a href="#basictutorials" class="icon-cog">Haupttutorials</a><i class="icon-sample first-level"></i></dt>
+                  <dd class="first-level">
                     <ul class="list">
                       <li><a href="#changename">Wie ändert man den Shopnamen </a></li>
                       <li><a href="#eddit_slider">Wie bearbeitet man den Slider</a></li>
@@ -113,24 +113,29 @@
               </li>
               <li class="nav-item item5">
                 <dl class="slide-down">
-                  <dt><a href="#extensions" class="icon-magnet">Benutzerdefinierte Module und Erweiterungen </a><i class="icon-sample"></i></dt>
-                  <dd>
+                  <dt><a href="#extensions" class="icon-magnet">Benutzerdefinierte Module und Erweiterungen </a><i class="icon-sample first-level"></i></dt>
+                  <dd class="first-level">
                     <ul class="list">
-                      <li><a href="#smart_blog">Smart Blog Modul</a>
-                        <ul class="list">
-                          <li><a href="#smart_blog_">Smart Blog</a></li>
-                          <li><a href="#smart_blog_feed">RSS-Feed Smart-Blog</a></li>
-                          <li><a href="#smart_blog_archive">Smart Blog Archiv </a></li>
-                          <li><a href="#smart_blog_categories">Smart Blog Kategorien </a></li>
-                          <li><a href="#smart_blog_home">Neues auf der Startseite</a></li>
-                          <li><a href="#smart_blog_comments">Smart Blog Neueste Kommentare</a></li>
-                          <li><a href="#smart_blog_add_this">Modul für soziale Netzwerke  Smart Blog  </a></li>
-                          <li><a href="#smart_blog_popular">Beliebte Beiträge Smart Blog</a></li>
-                          <li><a href="#smart_blog_recent">Neueste Beiträge Smart Blog</a></li>
-                          <li><a href="#smart_blog_related">Ähnliche Beiträge Smart Blog</a></li>
-                          <li><a href="#smart_blog_search">Suche Smart Blog</a></li>
-                          <li><a href="#smart_blog_tag">Tags Smart Blog</a></li>
-                        </ul>
+                      <li class="second-level">
+                      	  <dl class="slide-down second-level">
+                          	<dt><a href="#smart_blog">Smart Blog Modul</a><i class="icon-sample second-level"></i></dt>
+                            <dd class="second-level">
+                             	<ul class="list">
+                                  <li><a href="#smart_blog_">Smart Blog</a></li>
+                                  <li><a href="#smart_blog_feed">RSS-Feed Smart-Blog</a></li>
+                                  <li><a href="#smart_blog_archive">Smart Blog Archiv </a></li>
+                                  <li><a href="#smart_blog_categories">Smart Blog Kategorien </a></li>
+                                  <li><a href="#smart_blog_home">Neues auf der Startseite</a></li>
+                                  <li><a href="#smart_blog_comments">Smart Blog Neueste Kommentare</a></li>
+                                  <li><a href="#smart_blog_add_this">Modul für soziale Netzwerke  Smart Blog  </a></li>
+                                  <li><a href="#smart_blog_popular">Beliebte Beiträge Smart Blog</a></li>
+                                  <li><a href="#smart_blog_recent">Neueste Beiträge Smart Blog</a></li>
+                                  <li><a href="#smart_blog_related">Ähnliche Beiträge Smart Blog</a></li>
+                                  <li><a href="#smart_blog_search">Suche Smart Blog</a></li>
+                                  <li><a href="#smart_blog_tag">Tags Smart Blog</a></li>
+                                </ul>
+                            </dd>
+                          </dl>
                       </li>
                       <li><a href="#tmmediaparallax">Modul Media parallax </a></li>
                       <li><a href="#tmvideobackground">Modul Video background (Videohintergrund) </a></li>
@@ -144,7 +149,6 @@
                       <li><a href="#tmheaderaccount">TM Header Account</a></li>
                       <li><a href="#tmhomecarousel">TM Homepage Products Carousel</a></li>
                       <li><a href="#tmproductlistgallery">TM Product List Gallery</a></li>
-                      <li><a href="#olark">Olark Live Chat</a></li>
                     </ul>
                   </dd>
                 </dl>
@@ -933,10 +937,6 @@
                 <p>Damit dieses Modul funktionieren kann, sollen Sie die folgende Zeile:</p>
                 <p><code>{hook h='displayProductListGallery' product=$product}</code></p>
                 <p>zur Datei <strong>product-list.tpl</strong> im Stamm Ihres Themas hinzufügen. Nach dem schließenden Tag <code>&lt;/a&gt;</code> mit der Klasse <code>.product_img_link</code></p>
-              </article>
-              <article id="olark">
-                <h4>Olark Live Chat</h4>
-                <p>Um solchen Online-Chat einzustellen, wie auf Live Demo, sollen Sie sich auf der offiziellen Webseite  <a href="http://www.olark.com/?r=ad8fbsj2">Olark anmelden.</a> Nachdem Sie alle Daten eingegeben haben, erhalten Sie den Code, den Sie zur Datei <strong>\themes\themeXXX\footer.tpl</strong> vor dem Tag <strong>&lt;/body&gt;</strong>hinzufügen müssen.</p>
               </article>
             </section>
             <section class="block-templates" id="cookiepolicy">
