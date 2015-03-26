@@ -149,6 +149,9 @@
                       <li><a href="#tmheaderaccount">TM Cabecera de la Cuenta</a></li>
                       <li><a href="#tmhomecarousel">TM Carrusel de Productos</a></li>
                       <li><a href="#tmproductlistgallery">TM Galer&iacute;a de la Lista de Productos</a></li>
+                      <li><a href="#tmretadetproducts">TM Productos Relacionados</a></li>
+                      <li><a href="#tmsociallogin">TM Inicio de Sesi&oacute;n de Redes Sociales</a></li>
+                      <li><a href="#tmolarkchat">TM Chat de Olark</a></li>
                     </ul>
                   </dd>
                 </dl>
@@ -935,6 +938,67 @@
                 <p>Para habilitar la funcionalidad del m&oacute;dulo debe a&ntilde;adir la siguiente l&iacute;nea del c&oacute;digo:</p>
                 <p><code>{hook h='displayProductListGallery' product=$product}</code></p>
 		<p>a el archivo <strong>product-list.tpl</strong> que se encuentra en la carpeta ra&iacute;z del tema despu&eacute;s de cerrar la etiqueta <code>&lt;/a&gt;</code> con la clase <code>.product_img_link</code>.</p>
+              </article>
+              <article id="tmretadetproducts">
+                <h4>TM Productos Relacionados</h4>
+                <p>El m&oacute;dulo fue dise&ntilde;ado para a&ntilde;adir y mostrar los productos relacionados en la p&aacute;gina del producto.</p>
+                <h5>M&oacute;dulo de instalaci&oacute;n/desinstalaci&oacute;n</h5>
+                <p>Este m&oacute;dulo se puede instalar/desinstalar como cualquier otro m&oacute;dulo de PrestaShop.</p>
+		<h5>Configuraci&oacute;n del m&oacute;dulo</h5>
+                <p>Despu&eacute;s de que se haya instalado el m&oacute;dulo puede configurarlo en la p&aacute;gina de configuraci&oacute;n del m&oacute;dulo.</p>
+                <p><img class="presta_scr2" src="img/tmrelatedproducts-1.png" alt="" /></p>
+                <ul>
+		<li>1. Mostrar el precio del producto.</li>
+                    <li>2. Cantidad de productos a mostrar.</li>
+                </ul>
+                <p>Puede a&ntilde;adir o eliminar productos relacionados al producto principal en la configuraci&oacute;n del producto <strong>Catalog->Products</strong>.</p>
+                <ul>
+                	<li>1. Vaya a <strong>TM Productos Relacionados</strong>
+                    	<p><img class="presta_scr2" src="img/tmrelatedproducts-2.png" alt="" /></p>
+                    </li>
+                    <li>2. En el campo de b&uacute;squeda de productos empice introduciendo el t&iacute;tulo del producto, y lo elija entre las variantes que se ofrecen;</li>
+                    <li>3. Para eliminar el producto de la lista clic en la X antes de que el producto;</li>
+		    <li>4. Una vez que haya completado la configuraci&oacute;n haga clic en el bot&oacute;n <strong>Guardar y Permancer</strong> o <strong>Guardar</strong>.</li>
+                </ul>
+              </article>
+              <article id="tmsociallogin">
+	      <h4>TM Inicio de Sesi&oacute;n de Redes Sociales</h4>
+                <p>Este m&oacute;dulo le permite registrarse e iniciar sesi&oacute;n con su cuenta de redes sociales como Facebook o Google.</p>
+                <h5>Module install/uninstall</h5>
+                <p>Este m&oacute;dulo se puede instalar/desinstalar como cualquier otro m&oacute;dulo de PrestaShop.</p>
+		<h5>Configuraci&oacute;n del m&oacute;dulo</h5>
+                <p>Despu&eacute;s de que se haya instalado el m&oacute;dulo puede configurarlo en la p&aacute;gina de configuraci&oacute;n del m&oacute;dulo.</p>
+                <p>Para obtener los datos necesarios de configuraci&oacute;n del m&oacute;dulo necesita crear la aplicaci&oacute;n correspondiente en el recurso necesario.</p>
+                <p>Puede conseguir informaci&oacute;n m&aacute;s detallada siguiendo los enlaces: <a href="https://developers.google.com/console/help/" target="_blank">Google App</a> y <a href="https://developers.facebook.com/apps/" target="_blank">Facebook App</a>.</p>
+                <p><img class="presta_scr2" src="img/tmsociallogin-1.png" alt="" /></p>
+                <p>No es necesario el uso de ambas variantes de inicio de sesi&oacute;n (Google, Facebook) al mismo tiempo, puede utilizar s&oacute;lo uno de ellos.</p>
+		<h5>Campos de Facebook</h5>
+                <ul>
+		<li>1. ID de su aplicaci&oacute;n.</li>
+                    <li>2. Clave secreta de su aplicaci&oacute;n.</li>
+                </ul>
+		<h5>Campos de Google</h5>
+                <ul>
+                	<li>1. ID de su aplicaci&oacute;n.</li>
+                    <li>2. Clave secreta de su aplicaci&oacute;n.</li>
+                    <li>3. Redirigir a la ruta de acceso despu&eacute;s de registrarse en <strong>(URL de su tienda+index.php?fc=module&module=tmsociallogin&controller=googlelogin)</strong>.
+						<div class="box-notification">
+                            <span>
+                                La ruta de redirecci&oacute;n debe coincidir con la que ha indicado durante la creaci&oacute;n de la aplicaci&oacute;n de Google.
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+              </article>
+              <article id="tmolarkchat">
+                <h4>TM Chat de Olark</h4>
+                <p>M&oacute;dulo para mostrar el Chat de Olark en su tienda.</p>
+                <h5>M&oacute;dulo de instalaci&oacute;n/desinstalaci&oacute;n</h5>
+                <p>Este m&oacute;dulo se puede instalar/desinstalar como cualquier otro m&oacute;dulo de PrestaShop.</p>
+		<h5>Configuraci&oacute;n del m&oacute;dulo</h5>
+                <p>Despu&eacute;s de que se haya instalado el m&oacute;dulo puede configurarlo en la p&aacute;gina de configuraci&oacute;n del m&oacute;dulo.</p>
+                <p><img class="presta_scr2" src="img/tmolarkchat-1.png" alt="" /></p>
+		<p>Para configurar el Chat de Olark como el de la plantilla online, debe registrarse en la <a href="http://www.olark.com/" target="_blank" title="Olark Registration">p&aacute;gina web oficial</a> y obtener el ID para su sitio web. Introduzca el ID en el campo "Olark site ID" y ajuste el m&oacute;dulo en "Live Demo". Ahora guarde la configuraci&oacute;n haciendo clic en el bot&oacute;n <strong>Guardar</strong>.</p>
               </article>
             </section>
             <section class="block-templates" id="cookiepolicy">

@@ -149,6 +149,9 @@
                       <li><a href="#tmheaderaccount">TM Header Account</a></li>
                       <li><a href="#tmhomecarousel">TM Homepage Products Carousel</a></li>
                       <li><a href="#tmproductlistgallery">TM Product List Gallery</a></li>
+                      <li><a href="#tmretadetproducts">TM Related Products</a></li>
+                      <li><a href="#tmsociallogin">TM Social Login</a></li>
+                      <li><a href="#tmolarkchat">TM Olark Chat</a></li>
                     </ul>
                   </dd>
                 </dl>
@@ -937,6 +940,67 @@
                 <p>Damit dieses Modul funktionieren kann, sollen Sie die folgende Zeile:</p>
                 <p><code>{hook h='displayProductListGallery' product=$product}</code></p>
                 <p>zur Datei <strong>product-list.tpl</strong> im Stamm Ihres Themas hinzufügen. Nach dem schließenden Tag <code>&lt;/a&gt;</code> mit der Klasse <code>.product_img_link</code></p>
+              </article>
+              <article id="tmretadetproducts">
+                <h4>TM Related Products</h4>
+                <p>Das jeweilige Modul ermöglicht verwandte Produkte auf der Produktinformationsseite hinzuzufügen und anzuzeigen.</p>
+                <h5>Installierung und Entfernung des Moduls</h5>
+                <p>Dieses Modul wird wie ein anderes PrestaShop Modul installiert und entfernt.</p>
+                <h5>Moduleinstellungen</h5>
+                <p>Nachdem Sie das Modul installiert haben, können Sie es auf der Modulkonfigurationsseite einstellen.</p>
+                <p><img class="presta_scr2" src="img/tmrelatedproducts-1.png" alt="" /></p>
+                <ul>
+                	<li>1. Den Produktpreis anzeigen.</li>
+                    <li>2. Die Anzahl von angezeigten Produkten.</li>
+                </ul>
+                <p>Die verwandten Produkte können zum Hauptprodukt in Produkteinstellungen <strong>Catalog->Products</strong> hinzufügen oder entfernen.</p>
+                <ul>
+                	<li>1. Öffnen Sie den Tab <strong>TM Related Products</strong>
+                    	<p><img class="presta_scr2" src="img/tmrelatedproducts-2.png" alt="" /></p>
+                    </li>
+                    <li>2. Im Suchfeld fangen Sie an, den Namen des notwendigen Produktes einzugeben und wählen Sie es aus den vorgeschlagenen Varianten aus;</li>
+                    <li>3. Um das Produkt von der Liste zu entfernen, drücken Sie auf das Kreuz neben dem notwendigen Produkt;</li>
+                    <li>4. Nachdem Sie die Änderungen vorgenommen haben, drücken Sie entweder <strong>Save and Stay</strong> oder <strong>Save</strong> um sie zu speichern</li>
+                </ul>
+              </article>
+              <article id="tmsociallogin">
+                <h4>TM Social Login</h4>
+                <p>Das jeweilige Modul ermöglicht mit Hilfe von Daten, die von Kundenseiten in sozialen Netzwerken wie Facebook und Google, erhalten wurden, sich zu registrieren oder anzumelden.</p>
+                <h5>Installierung und Entfernung des Moduls</h5>
+                <p>Dieses Modul wird wie ein anderes PrestaShop Modul installiert und entfernt.</p>
+                <h5>Moduleinstellungen</h5>
+                <p>Nachdem Sie das Modul installiert haben, können Sie es auf der Modulkonfigurationsseite einstellen.</p>
+                <p>Um die notwendigen Daten zur Moduleinstellung zu erhalten, müssen Sie entsprechende Anwendung (Application) auf der bestimmten Webressource erstellen.</p>
+                <p>Um mehr ausführliche Information zu erhalten, folgen Sie den folgenden Links <a href="https://developers.google.com/console/help/" target="_blank">Google App</a> und <a href="https://developers.facebook.com/apps/" target="_blank">Facebook App</a>.</p>
+                <p><img class="presta_scr2" src="img/tmsociallogin-1.png" alt="" /></p>
+                <p>Sie müssen nicht unbedingt die beiden Autorisierungsvarianten (Google und Facebook) gleichzeitig nutzen, sondern nur eine.</p>
+                <h5>Facebook Felder</h5>
+                <ul>
+                	<li>1. ID Ihrer Anwendung.</li>
+                    <li>2. Der private Schlüssel Ihrer Anwendung.</li>
+                </ul>
+                <h5>Google Felder</h5>
+                <ul>
+                	<li>1. ID Ihrer Anwendung.</li>
+                    <li>2. Der private Schlüssel Ihrer Anwendung.</li>
+                    <li>3. Leitungspfad nach dem Login <strong>(your shop URL+index.php?fc=module&module=tmsociallogin&controller=googlelogin)</strong>.
+						<div class="box-notification">
+                            <span>
+                                Der Leitungspfad muss unbedingt mit demjenigen, den Sie beim Erstellen Google App angegeben haben, gleich sein.
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+              </article>
+              <article id="tmolarkchat">
+                <h4>TM Olark Chat</h4>
+                <p>Dieses Modul ermöglicht den Olark Chat auf dem Front-End Ihres Online-Shops anzuzeigen.</p>
+                <h5>Installierung und Entfernung des Moduls</h5>
+                <p>Dieses Modul wird wie ein anderes PrestaShop Modul installiert und entfernt.</p>
+                <h5>Moduleinstellungen</h5>
+                <p>Nachdem Sie das Modul installiert haben, können Sie es auf der Modulkonfigurationsseite einstellen.</p>
+                <p><img class="presta_scr2" src="img/tmolarkchat-1.png" alt="" /></p>
+                <p>Um den Olark Chat, der schon in der Demoversion ist, einzustellen, sollen Sie sich auf offiziellen Webseite <a href="http://www.olark.com/" target="_blank" title="Регистрация Olark">der registrieren</a> und die ID Ihrer Webseite erhalten. Geben Sie Ihre ID ins Feld "Olark site ID" ein und öffnen Sie das Modul "Live mode". Danach speichern Sie die Einstellungen, indem Sie auf den Button <strong>Save</strong> drücken.</p>
               </article>
             </section>
             <section class="block-templates" id="cookiepolicy">

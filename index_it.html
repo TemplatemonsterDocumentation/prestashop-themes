@@ -149,6 +149,9 @@
                       <li><a href="#tmheaderaccount">TM Header Account</a></li>
                       <li><a href="#tmhomecarousel">TM Homepage Products Carousel</a></li>
                       <li><a href="#tmproductlistgallery">TM Product List Gallery</a></li>
+                      <li><a href="#tmretadetproducts">TM Related Products</a></li>
+                      <li><a href="#tmsociallogin">TM Social Login</a></li>
+                      <li><a href="#tmolarkchat">TM Olark Chat</a></li>
                     </ul>
                   </dd>
                 </dl>
@@ -934,6 +937,67 @@
                 <p>Per abilitare le funzionalità del modulo si deve aggiungere la seguente riga di codice:</p>
                 <p><code>{hook h='displayProductListGallery' product=$product}</code></p>
                 <p>sul file <strong>product-list.tpl</strong> nella cartella principale del  tema dopo il tag di chiusura <code>&lt;/a&gt;</code> con classe <code>.product_img_link</code>.</p>
+              </article>
+              <article id="tmretadetproducts">
+                <h4>TM Related Products</h4>
+                <p>Questo modulo è stato realizzato per aggiungere e visualizzare prodotti simili in una pagina prodotto.</p>
+                <h5>Installazione/disinstallazione del modulo</h5>
+                <p>Questo modulo va installato o disinstallato come tutti gli altri moduli PrestaShop.</p>
+                <h5>Impostazioni modulo</h5>
+                <p>Dopo che il modulo è stato installato, sarà possibile configurarlo nella apposita pagina di configurazione del modulo.</p>
+                <p><img class="presta_scr2" src="img/tmrelatedproducts-1.png" alt="" /></p>
+                <ul>
+                	<li>1. Mostra prezzo prodotto.</li>
+                    <li>2. Quantità di prodotti da visualizzare.</li>
+                </ul>
+                <p>Per aggiungere o rimuovere i prodotti simili al prodotto principale, vai sulle impostazioni prodotto in <strong>Catalog->Products</strong>.</p>
+                <ul>
+                	<li>1. Vai su <strong>TM Related Products</strong>
+                    	<p><img class="presta_scr2" src="img/tmrelatedproducts-2.png" alt="" /></p>
+                    </li>
+                    <li>2. Nel campo di ricerca prodotti, inserisci il titolo del prodotto e scegli tra le variabili possibili;</li>
+                    <li>3. Per rimuovere il prodotto dalla lista, clicca la X prima del prodotto;</li>
+                    <li>4. Una volta fatte tutte le configurazioni, clicca sul pulsante <strong>Save and Stay</strong> o sul pulsante <strong>Save</strong></li>
+                </ul>
+              </article>
+              <article id="tmsociallogin">
+                <h4>TM Social Login</h4>
+                <p>Questo modulo ti consente di far registrare e accedere i tuoi clienti attraverso le loro pagine social, come Facebook e Google.</p>
+                <h5>Installazione/disinstallazione del modulo</h5>
+                <p>Questo modulo va installato o disinstallato come tutti gli altri moduli PrestaShop</p>
+                <h5>Impostazioni modulo</h5>
+                <p>Dopo che il modulo è stato installato, sarà possibile configurarlo nella apposita pagina di configurazione del modulo.</p>
+                <p>Per ottenere i dati richiesti per la configurazione del modulo, devi creare un'applicazione corrispondente sulla risorsa necessaria.</p>
+                <p>Puoi trovare altri dettagli seguendo questi link: <a href="https://developers.google.com/console/help/" target="_blank">Google App</a> e <a href="https://developers.facebook.com/apps/" target="_blank">Facebook App</a>.</p>
+                <p><img class="presta_scr2" src="img/tmsociallogin-1.png" alt="" /></p>
+                <p>Non è necessario usare entrambe le possibilità per accedere simultaneamente (Google e Facebook); puoi usarne anche solo una.</p>
+                <h5>Campi Facebook</h5>
+                <ul>
+                	<li>1. ID della tua App.</li>
+                    <li>2. Codice segreto della tua App.</li>
+                </ul>
+                <h5>Campi Google</h5>
+                <ul>
+                	<li>1. ID della tua App.</li>
+                    <li>2. Codice segreto della tua App.</li>
+                    <li>3. Reindirizza il percorso dopo l'accesso <strong>(URL del tuo negozio URL+index.php?fc=module&module=tmsociallogin&controller=googlelogin)</strong>.
+						<div class="box-notification">
+                            <span>
+                                Il percorso di reindirizzamento deve coincidere con quello che hai indicato durante la creazione della app Google.
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+              </article>
+              <article id="tmolarkchat">
+                <h4>TM Olark Chat</h4>
+                <p>Un modulo per inserire una Olark Chat nel front-end del tuo negozio.</p>
+                <h5>Installazione/disinstallazione del modulo</h5>
+                <p>Questo modulo va installato o disinstallato come tutti gli altri moduli PrestaShop.</p>
+                <h5>Impostazioni modulo</h5>
+                <p>Dopo che il modulo è stato installato, sarà possibile configurarlo nella apposita pagina di configurazione del modulo.</p>
+                <p><img class="presta_scr2" src="img/tmolarkchat-1.png" alt="" /></p>
+                <p>Per configurare Olark Chat, che puoi vedere nella demo live del template, devi prima di tutto registrarti sul <a href="http://www.olark.com/" target="_blank" title="Olark Registration">sito ufficiale</a> e ottenere un identificativo (ID) per il tuo sito web. Inserisci il tuo ID nel campo "Olark site ID" e imposta il modulo in modalità "Live mode". Poi salva le nuove impostazioni cliccando sul pulsante <strong>Save</strong>.</p>
               </article>
             </section>
             <section class="block-templates" id="cookiepolicy">

@@ -149,6 +149,9 @@
                       <li><a href="#tmheaderaccount">TM Header Account</a></li>
                       <li><a href="#tmhomecarousel">TM Homepage Products Carousel</a></li>
                       <li><a href="#tmproductlistgallery">TM Product List Gallery</a></li>
+                      <li><a href="#tmretadetproducts">TM Related Products</a></li>
+                      <li><a href="#tmsociallogin">TM Social Login</a></li>
+                      <li><a href="#tmolarkchat">TM Olark Chat</a></li>
                     </ul>
                   </dd>
                 </dl>
@@ -934,6 +937,67 @@
                 <h5>Ekler</h5>
                 <p>Modülün iþlevselliði için, temanýzýn kök dizininde bulunan <strong>product-list.tpl</strong> dosyasýndaki kapatma <code>&lt;/a&gt;</code> etiketinden sonra <code>.product_img_link</code> classý içine þu kodu eklemelisiniz:</p>
                 <p><code>{hook h='displayProductListGallery' product=$product}</code></p>
+              </article>
+              <article id="tmretadetproducts">
+                <h4>TM Related Products</h4>
+                <p>Bu modül ürün sayfanýzda, o ürünle ilgili olan diðer ürünleri gösterir.</p>
+                <h5>Modüle kurulum/kaldýrma</h5>
+                <p>Bu modül de, diðer tüm PrestaShop modülleri gibi kurulup kaldýrýlabilir.</p>
+                <h5>Modüle ayarlarý</h5>
+                <p>Modül kurulduktan sonra tüm düzenlemeleri modülün ayar sayfasýndan yapabilirsiniz.</p>
+                <p><img class="presta_scr2" src="img/tmrelatedproducts-1.png" alt="" /></p>
+                <ul>
+                	<li>1. Ürün fiyatýný göster.</li>
+                    <li>2. Gösterilecek ürün sayýsý.</li>
+                </ul>
+                <p>Ana ürünle ilgili olan ürünleri, ürün ayarlarý kýsmýndaki <strong>Catalog->Products</strong> bölümünden ekleyip çýkartabilirsiniz.</p>
+                <ul>
+                	<li>1. <strong>TM Related Products</strong> bölümüne girin.
+                    	<p><img class="presta_scr2" src="img/tmrelatedproducts-2.png" alt="" /></p>
+                    </li>
+                    <li>2. Ürün arama alanýna ürün ismini yazýn ve istediðiniz ürünü seçin;</li>
+                    <li>3. Ürünü listeden kaldýrmak için, ürünün yanýndaki X e basýn;</li>
+                    <li>4. Tüm düzenlemeleri yaptýktan sonra <strong>Save and Stay</strong> e veya sadece <strong>Save</strong> e basýn.</li>
+                </ul>
+              </article>
+              <article id="tmsociallogin">
+                <h4>TM Social Login</h4>
+                <p>Bu modül, Facebook ve Google gibi sosyal aðlardaki kullanýcý verileriyle kayýt ve giriþ yapýlmasýný saðlar.</p>
+                <h5>Modüle kurulum/kaldýrma</h5>
+                <p>Bu modül de, diðer tüm PrestaShop modülleri gibi kurulup kaldýrýlabilir.</p>
+                <h5>Modül ayarlarý</h5>
+                <p>Modül kurulduktan sonra tüm düzenlemeleri modülün ayar sayfasýndan yapabilirsiniz.</p>
+                <p>Modül ayarlarýnýn yapýlabilmesi için gerekli veriyi almak üzere, ilgili kaynaktan uygulama oluþturmanýz gerekir.</p>
+                <p>Detaylý bilgiyi <a href="https://developers.google.com/console/help/" target="_blank">Google App</a> ve <a href="https://developers.facebook.com/apps/" target="_blank">Facebook App</a> sayfalarýnda bulabilirsiniz.</p>
+                <p><img class="presta_scr2" src="img/tmsociallogin-1.png" alt="" /></p>
+                <p>Ayný anda hem Google hem de Facebook kullanýmý istemiyorsanýz, bir tanesini de seçebilirsiniz.</p>
+                <h5>Facebook Alanlarý</h5>
+                <ul>
+                	<li>1. Uygulamanýzýn ID'si (Kimlik Numarasý).</li>
+                    <li>2. Uygulamanýzýn secret key'i (Anahtarý).</li>
+                </ul>
+                <h5>Google Alanlarý</h5>
+                <ul>
+                	<li>1. ID of your App.</li>
+                    <li>2. Uygulamanýzýn ID'si.</li>
+                    <li>3. Giriþ yapýldýktan sonra yönlendirilecek adres <strong>(maðaza adresiniz+index.php?fc=module&module=tmsociallogin&controller=googlelogin)</strong>.
+						<div class="box-notification">
+                            <span>
+                                Yöönlendirme adresi, Google App oluþtururken belirttiðiniz adresle ayný olmalýdýr.
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+              </article>
+              <article id="tmolarkchat">
+                <h4>TM Olark Chat</h4>
+                <p>Maðazanýzýn ön yüzüne Olark Chat'i yerleþtiren modüldür.</p>
+                <h5>Modülü kurmak/kaldýrmak</h5>
+                <p>Bu modül de, diðer tüm PrestaShop modülleri gibi kurulup kaldýrýlabilir.</p>
+                <h5>Modül ayarlarý</h5>
+                <p>Modül kurulduktan sonra tüm düzenlemeleri modülün ayar sayfasýndan yapabilirsiniz.</p>
+                <p><img class="presta_scr2" src="img/tmolarkchat-1.png" alt="" /></p>
+                <p>Olark Chat'i, þablonun demosunda gördüðünüz þekilde düzenlemek için <a href="http://www.olark.com/" target="_blank" title="Olark Registration">resmi site</a> den kayýt olmalý ve kendi siteniz için bir ID (kimlik) almalýsýnýz. Bu özgün kimliði "Olark site ID" alanýna yazýp, "Live mode" kýsmýnýn altýndan modül ayarlamasýný yapmalýsýnýz. Son olarak <strong>Save</strong> düðmesine basarak deðiþiklikleri kaydetmelisiniz.</p>
               </article>
             </section>
             <section class="block-templates" id="cookiepolicy">
