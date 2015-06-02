@@ -180,7 +180,7 @@ $(document).ready(function() {
 			return false;
 		});
 		$(".slide-down dt i.second-level").click(function(){
-			$(this).parents("li").toggleClass("open_item_1").find('dd.second-level').slideToggle(300);
+			$(this).parents("li.second-level").toggleClass("open_item_1").find('dd.second-level').slideToggle(300);
 			return false;
 		});
 

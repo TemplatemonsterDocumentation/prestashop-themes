@@ -137,6 +137,19 @@
                             </dd>
                       	  </dl>
                       </li>
+                      <li class="second-level">
+                      	<dl class="slide-down second-level">
+                            <dt><a href="#tmmegamenu">TM Mega Menu</a><i class="icon-sample second-level"></i></dt>
+                            <dd class="second-level">
+                              <ul class="list">
+                                <li><a href="#tmmegamenu-tabs">TM Mega Menu Tabs</a></li>
+                                <li><a href="#tmmegamenu-html">TM Mega Menu HTML</a></li>
+                                <li><a href="#tmmegamenu-links">TM Mega Menu Links</a></li>
+                                <li><a href="#tmmegamenu-banners">TM Mega Menu Banners</a></li>
+                              </ul>
+                            </dd>
+                          </dl>
+                      </li>
                       <li><a href="#tmmediaparallax">Media parallax module</a></li>
                       <li><a href="#tmvideobackground">Video background module</a></li>
                       <li><a href="#tmhtmlcontent">TM HTML Content</a></li>
@@ -583,6 +596,82 @@
                     <li><strong>Number of Tag to Show -</strong> number of tags shown in the block.</li>
                   </ol>
                 </div>
+              </article>
+              <article class="block-templates" id="tmmegamenu">
+                <h4>TM Mega Menu</h4>
+                <p>The module is designed to create complex menus. The module provides the ability to display one item (without sub-menu), a menu item with a sub-menu and a menu item with sub-menu by way of a multi-row and multi-column block. The module can be used in different positions, but it will display the same content. Available positions: top(displayTop), left(displayLeftColumn), right(displayRightColumn), footer(displayFooter). You can add categories (with subcategories), CMS categories (with subcategories), manufacturers (one or a list), suppliers (one or a list), stores (if multistore is used), links to any product, information block about the product, custom links are not limited in quantity, custom HTML blocks are not limited in number, and banners. See below for more details.</p>
+  
+                  <h5 id="tmmegamenu-tabs">TM Mega Menu Tabs</h5>
+                  <p>TM Mega Menu tabs are the basic items which are the top menu part.</p>
+                  <p><img class="presta_scr2" src="img/tmmegamenu-tabs.png" alt="" /></p>
+                  <p>In order to create a new tab, open the TM Mega Menu module and click + in the Tabs list table.</p>
+                  <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add.png" alt="" /></p>
+                  <p>In the form that appears, fill in the required fields.</p>
+                  <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form.png" alt="" /></p>
+                  <ol>
+                      <li>Enter tab name - the tab title which is mandatory to be filled in for the default language, if the additional languages fields are not filled in, the tab gives its name from the default language. Field is mandatory.</li>
+                      <li>Active - active/inactive tab.</li>
+                      <li>Link - a link that is assigned to this tab. You can enter a custom link, or choose from existing options (categories, CMS categories). If you leave the field blank, the link of this tab is inactive.</li>
+                      <li>Sort order - the order of tabs to be displayed.</li>
+                      <li>Specific Class - the class which is added to emphasize the item (CSS class).</li>
+                      <li>Enter tab badge - is filled in depending on multi-languages.</li>
+                      <li>It is Mega Menu - given tab sub-menu is a Mega Menu. <strong>*</strong></li>
+                      <li>Use simple menu - given tab sub-menu is a simple menu. <strong>**</strong></li>
+                  </ol>
+                  <p><strong>*</strong> It is Mega Menu. If this option is selected, there will be a form to create a complex menu (Mega Menu).</p>
+                  <p>Complex menu consist of rows and columns in rows.</p>
+                  <p>The Row is a part of the Mega Menu structure. It includes the menu columns. The existing row can be removed by clicking the appropriate button. The row will be removed with the content it includes. The rows quantity is not limited.</p>
+                  <p>The Column is a part of the Mega Menu structure, which is placed inside the rows. (The Class) The width of the column cannot be less than 2 and more than 12. In order to make the menu display properly, the total column width cannot exceed 12. The width (class) is a Bootstrap column type, corresponds to the same values.</p>
+                  <p>In order to create the menu, click the Add row button</p>
+                  <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form-row.png" alt="" /></p>
+                  <p>In the form appeared, click Add column button</p>
+                  <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form-row-col.png" alt="" /></p>
+                  <p>The pop up window appears, where you need to specify the column class (from 2 to 12). The column itself appears next where you need to set necessary settings,</p>
+                  <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form-row-col-content.png" alt="" /></p>
+                  <p>here you can change the column class, add CSS class, and also the required content from the list provided. You can add/remove content by double clicking the required item, or by highlighting required items and clicking the corresponding button.</p>
+                  <p>Block can be removed by clicking Remove block button in the footer of the block.</p>
+                  <p>By removing the row, the included columns are also removed.</p>
+                  <p><strong>**</strong> Use simple menu. If this option is selected, there will be a form to create a simple menu. This is a menu that displays the selected content in a single column. If the menu has embedded content, the new column is added.</p>
+                  <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form-simple.png" alt="" /></p>
+                  <p>In order to move the content available in the selected menu, double-click or highlight the desired content and press the corresponding button.</p>
+                  <p></p>
+                  <p>Inactive menu information is saved while switching between menu types and you can always change the type of menu.</p>
+                  <h5 id="tmmegamenu-html">TM Mega Menu HTML</h5>
+                  <p>In this section we will explain how to create a custom HTML block in the Mega Menu.</p>
+                  <p>The module has a table listing all the available blocks to which you can add a new block by clicking the + button in the top right of the table.</p>
+                  <p>In the form that appears, fill in the required fields.</p>
+                  <p><img class="presta_scr2" src="img/tmmegamenu-html.png" alt="" /></p>
+                  <ol>
+                      <li>Enter HTML item name - HTML block name, is mandatory to be filled in for the default language.</li>
+                      <li>Specific class - block's CSS class.</li>
+                      <li>HTML content - HTML content.</li>
+                  </ol>
+                  <p>Added block will appear in the list of blocks, as well as in the list of available content while creating menu blocks.</p>
+                  <h5 id="tmmegamenu-links">TM Mega Menu Links</h5>
+                  <p>In this section we will show how to create custom links in the Mega Menu.</p>
+                  <p>The module has a table listing all the available links to which you can add a new link by clicking the + button in the top right of the table.</p>
+                  <p>In the form that appears, fill in the required fields.</p>
+                  <p><img class="presta_scr2" src="img/tmmegamenu-links.png" alt="" /></p>
+                  <ol>
+                      <li>Enter Link name - link name, is mandatory to be filled in for the default language.</li>
+                      <li>Enter Link URL  - link URL, is mandatory to be filled in for the default language.</li>
+                      <li>Specific class - block's CSS class.</li>
+                      <li>Open in new window - open link in a new window.</li>
+                  </ol>
+                  <p>Added link will appear in the list of links, as well as in the list of available content while creating menu blocks.</p>
+                  <h5 id="tmmegamenu-banners">TM Mega Menu Banners</h5>
+                  <p>In this section we will explain how to create banners in the Mega Menu.</p>
+                  <p>The module has a table listing all the available banners to which you can add a new banner by clicking the + button in the top right of the table.</p>
+                  <p>In the form that appears, fill in the required fields.</p>
+                  <p><img class="presta_scr2" src="img/tmmegamenu-banners.png" alt="" /></p>
+                  <ol>
+                      <li>Select a file - select a file, is mandatory to be filled in for the default language.</li>
+                      <li>Enter Banner name - banner title, is mandatory to be filled in for the default language.</li>
+                      <li>Enter Link URL - link URL, is mandatory to be filled in for the default language.</li>
+                      <li>Specific class - block's CSS class.</li>
+                      <li>Open in new window - open link in a new window.</li>
+                  </ol>
+                  <p>Added banner will appear in the list of banners, as well as in the list of available content while creating menu blocks.</p>
               </article>
               <article id="tmmediaparallax">
                 <h4>Media Parallax Module</h4>

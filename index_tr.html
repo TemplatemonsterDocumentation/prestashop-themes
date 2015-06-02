@@ -137,6 +137,19 @@
                             </dd>
                           </dl>
                       </li>
+                      <li class="second-level">
+                      	<dl class="slide-down second-level">
+                            <dt><a href="#tmmegamenu">TM Mega Menu</a><i class="icon-sample second-level"></i></dt>
+                            <dd class="second-level">
+                              <ul class="list">
+                                <li><a href="#tmmegamenu-tabs">TM Mega Menu Sekmeleri</a></li>
+                                <li><a href="#tmmegamenu-html">TM Mega Menu HTML</a></li>
+                                <li><a href="#tmmegamenu-links">TM Mega Menu Linkleri</a></li>
+                                <li><a href="#tmmegamenu-banners">TM Mega Menu Bannerlarý</a></li>
+                              </ul>
+                            </dd>
+                          </dl>
+                      </li>
                       <li><a href="#tmmediaparallax">Media parallax modülü</a></li>
                       <li><a href="#tmvideobackground">Video arkaplan modülü</a></li>
                       <li><a href="#tmhtmlcontent">TM HTML İçerik</a></li>
@@ -583,6 +596,81 @@
                     <li><strong>Number of Tag to Show -</strong> gösterilecek olan etiket sayısı.</li>
                   </ol>
                 </div>
+              </article>
+              <article id="tmmegamenu">
+                <h4>TM Mega Menu</h4>
+                <p>Modülün amacý bileþik menüler oluþturmaktýr. Bu modülle (alt menüsüz) tek unsur, alt menülü tek unsur ve çoklu sýra ve sütuna sahip olan alt menülü unsurlar yaratabilirsiniz. Modül, farklý pozisyonlarda kullanýlabilir fakat yine de ayný içeriði gösterir. Kullanýlabilecek olan pozisyonlar: üst(displayTop), sol(displayLeftColumn), sað(displayRightColumn), alt(displayFooter). Dilerseniz (alt kategorili) kategoriler, (alt kategorili) CMS kategorileri,  (bir veya liste) imalatçýlar, (bir veya liste) tedarikçiler, (çoklu maðaza kullanýlmaktaysa) maðazalar, ürünlere baðlantý, ürünle ilgili bilgi kutusu, limitsiz baðlantýlar, limitsiz HTML kutularý ve bannerlar ekleyebilirsiniz. Detaylar için aþaðýya bakýnýz.</p>
+                <h5 id="tmmegamenu-tabs">TM Mega Menu Sekmeleri</h5>
+                <p>TM Mega Menu sekmeleri, üst menünün temel unsurlarýdýr.</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs.png" alt="" /></p>
+                <p>Yeni bir sekme oluþturmak için, TM Mega Menu modülünü açýn ve Sekmelerin listelendiði tabloda yer alan + iþaretine basýn.</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add.png" alt="" /></p>
+                <p>Karþýnýza çýkan formda gerekli alanlarý doldurun.</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form.png" alt="" /></p>
+                <ol>
+                    <li>Enter tab name - varsayýlan dil için doldurulmasý zorunlu etiket ismidir. Eðer diðer dil alanlarý doldurulmamýþsa, sekme kendisine varsayýlan dilde bir isim oluþturur. Bu alanýn doldurulmasý zorunludur.</li>
+                    <li>Active - etkin/pasif sekme.</li>
+                    <li>Link - bu sekme için kullanýlacak olan baðlantý. Belli bir baðlantý adresi yazabilir veya var olan seçeneklerden ( kategoriler, CMS kategorileri vs.) kullanabilirsiniz. Bu alaný boþ býrakýrsanýz, bu alan için baðlantý pasif olacaktýr.</li>
+                    <li>Sort order - görüntülenecek olan sekmelerin sýrasý.</li>
+                    <li>Specific Class - unsuru belirleyecek olan sýnýf (CSS class).</li>
+                    <li>Enter tab badge - çoklu dile göre doldurulur.</li>
+                    <li>It is Mega Menu - bu sekmedeki alt menü bir Mega Menüdür. <strong>*</strong></li>
+                    <li>Use simple menu - bu sekmedeki alt menü bir sýradan menüdür. <strong>**</strong></li>
+                </ol>
+                <p><strong>*</strong> Mega Menü'dür seçeneði seçilirse, karþýnýza bileþik menü (Mega Menü) oluþturmak için bir form çýkar.</p>
+                <p>Bileþik menü satýrdan ve sütunlardan oluþan bir dizidir.</p>
+                <p>Satýrlar, Mega Menü yapýsýnýn bir parçasýdýr. Menünün sütunlarýný içerir. Ýlgili düðme týklanarak, varolan satýr kaldýrýlabilir. Bu durumda satýrýn içeriði de silinmiþ olur. Dilediðiniz kadar satýr oluþturabilirsiniz, sýnýr yoktur.</p>
+                <p>Sütun, sýralarýn içine yerleþtirilen Mega Menü yapýsýnýn bir parçasýdýr. Sütun geniþliði (Class) 2'den az ve 12'den çok olamaz. Menünün düzgün görüntülenebilmesi için, toplam sütun geniþliði 12'yi aþmamalýdýr. Geniþlik (class) bir Bootstrap sütun türüdür ve ayný deðerlere tekabül eder.</p>
+                <p>Menüyü oluþturmak için, Add row (satýr ekle) düðmesine basýn</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form-row.png" alt="" /></p>
+                <p>Çýkan formda, Add column (sütun ekle) düðmesine basýn</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form-row-col.png" alt="" /></p>
+                <p>Karþýnýza çýkan açýlýr pencererede, sütun sýnýfýný belirleyin (2 ile 12 arasý). Sütun, zorunlu ayarlarý yaptýðýnýz alanýn yanýnda belirecektir,</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form-row-col-content.png" alt="" /></p>
+                <p>buradan sütun sýnýfýný deðiþtirebilir, CSS sýnýfý ve ayrýca listeden gerekli içeriði ekleyebilirsinir. Eklemek veya silmek istediðiniz alanýn üstüne çift týklamalýsýnýz veya alanýn üzerine gelerek ilgili düðmeye basmalýsýnýz.</p>
+                <p>Kutunun altýnda yer alan Remove block düðmesiyle, kutuyu kaldýrabilirsiniz.</p>
+                <p>Satýrý kaldýrdýðýnýzda, ilgili sütunlarý da kaldýrmýþ olursunuz.</p>
+                <p><strong>**</strong> Use simple menu (Tekli menü kullan). Bu seçenek seçilirse, tekli menü oluþturmak için karþýnýza bir form çýkar. Bu menüde içerik, basit bir sütun içinde gösterilir. Eðer içerik embedded (gömülü) bir içeriðe sahipse, yeni bir sütun eklenir.</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form-simple.png" alt="" /></p>
+                <p>Seçili menüdeki içeriðin yerini deðiþtirmek için, içeriðe çift týklayýn veya üstüne gelin ve ilgili düðmeye basýn.</p>
+                <p></p>
+                <p>Menü türünü deðiþtirirken, pasif menü bilgisi kaydedilir. Ýstediðiniz zaman menü türünü deðiþtirebilirsiniz.</p>
+                <h5 id="tmmegamenu-html">TM Mega Menu HTML</h5>
+                <p>Bu bölümde, Mega Menü'de nasýl bir HTML kutu oluþturabileceðinizi anlatacaðýz.</p>
+                <p>Modülde, sað üst köþesindeki + iþaretine basarak yeni kutu ekleyebileceðiniz bir tablo listesi bulunur.</p>
+                <p>Buna bastýðýnýzda karþýnýza bir form çýkar. Gerekli alanlarý doldurun.</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-html.png" alt="" /></p>
+                <ol>
+                    <li>Enter HTML item name - HTML kutusuna, kullanýlmakta olan dilde bir isim verin.</li>
+                    <li>Specific class - kutunun CSS sýnýfý.</li>
+                    <li>HTML content - HTML içeriði.</li>
+                </ol>
+                <p>Added block will appear in the list of blocks, as well as in the list of available content while creating menu blocks.</p>
+                <h5 id="tmmegamenu-links">TM Mega Menu Linkleri</h5>
+                <p>Bu bölümde Mega Menü'de nasýl baðlantý adresleri oluþturacaðýnýzý anlatacaðýz.</p>
+                <p>Modülde, sað üst köþesindeki + iþaretine basarak yeni baðlantý adresi ekleyebileceðiniz bir tablo listesi bulunur.</p>
+                <p>Buna bastýðýnýzda karþýnýza bir form çýkar. Gerekli alanlarý doldurun.</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-links.png" alt="" /></p>
+                <ol>
+                    <li>Enter Link name - baðlantýya, kullanýlmakta olan dilde bir isim yazýn.</li>
+                    <li>Enter Link URL  - baðlantý adresini yazýn. Kullanýlmakta olan dil için doldurulmasý zorunlu alandýr.</li>
+                    <li>Specific class - kutunun CSS sýnýfý.</li>
+                    <li>Open in new window - baðlantý yeni sayfada açýlsýn mý?</li>
+                </ol>
+                <p>Eklenen baðlantý, menü kutularý oluþturulurken gösterilen içerik listesinde ve baðlantýlar listesinde gösterilir.</p>
+                <h5 id="tmmegamenu-banners">TM Mega Menu Bannerlarý</h5>
+                <p>Bu bölümde, Mega Menü'de nasýl banner oluþturacaðýnýzý anlatacaðýz.</p>
+                <p>Modülde, sað üst köþesindeki + iþaretine basarak yeni banner ekleyebileceðiniz bir tablo listesi bulunur.</p>
+                <p>Karþýnýza çýkan formda gerekli alanlarý doldurun</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-banners.png" alt="" /></p>
+                <ol>
+                    <li>Select a file - dosya seçin. Kullanýlmakta olan dil için doldurulmasý zorunlu alandýr.</li>
+                    <li>Enter Banner name - banner ismi. Kullanýlmakta olan dil için doldurulmasý zorunlu alandýr.</li>
+                    <li>Enter Link URL - baðlantý URL'si. Kullanýlmakta olan dil için doldurulmasý zorunlu alandýr.</li>
+                    <li>Specific class - kutunun CSS sýnýfý.</li>
+                    <li>Open in new window - baðlantýyý yeni pencerede aç.</li>
+                </ol>
+                <p>Eklenen banner, menü kutularý oluþturulurken gösterilen içerik listesinde ve bannerlar listesinde görüntülenir.</p>
               </article>
               <article id="tmmediaparallax">
                 <h4>Media Parallax Module</h4>

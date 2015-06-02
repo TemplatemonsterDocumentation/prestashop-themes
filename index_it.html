@@ -137,6 +137,19 @@
                             </dd>
                         </dl>
                       </li>
+                      <li class="second-level">
+                      	<dl class="slide-down second-level">
+                            <dt><a href="#tmmegamenu">TM Mega Menu</a><i class="icon-sample second-level"></i></dt>
+                            <dd class="second-level">
+                              <ul class="list">
+                                <li><a href="#tmmegamenu-tabs">TM Mega Menu Tabs</a></li>
+                                <li><a href="#tmmegamenu-html">TM Mega Menu HTML</a></li>
+                                <li><a href="#tmmegamenu-links">TM Mega Menu Links</a></li>
+                                <li><a href="#tmmegamenu-banners">TM Mega Menu Banners</a></li>
+                              </ul>
+                            </dd>
+                          </dl>
+                      </li>
                       <li><a href="#tmmediaparallax">Modulo Media parallax</a></li>
                       <li><a href="#tmvideobackground">Video background module</a></li>
                       <li><a href="#tmhtmlcontent">TM HTML Content</a></li>
@@ -582,6 +595,81 @@
                     <li><strong>Number of Tag to Show -</strong> per impostare il numero di tag da mostrarea nel blocco.</li>
                   </ol>
                 </div>
+              </article>
+              <article id="tmmegamenu">
+                <h4>TM Mega Menu</h4>
+                <p>Questo modulo può essere utilizzato per creare menu complessi. Il modulo offre la possibilità di visualizzare un elemento senza sotto-menu, un elemento di menu con sotto-menu, e un elemento menu con sotto-menu tramite blocco multi-fila e multi-colonna. Il modulo può essere utilizzato in diverse posizioni, ma i contenuti visualizzati saranno gli stessi. Posizioni disponibili: in alto (displayTop), a sinistra (displayLeftColumn), a destra (displayRightColumn), a piè di pagina (displayFooter). È possibile aggiungere categorie (con relative sottocategorie), categorie CMS (con sottocategorie), produttori (elenco o singolo), fornitori (uno o singolo), negozi (se è utilizzato il multistore), link a qualunque prodotto, blocco informazioni sul prodotto, link personalizzati, senza limiti di quantità, blocchi HTML personalizzati, non limitati in numero, e banner. Vedi di seguito per trovare altri dettagli.</p>
+                <h5 id="tmmegamenu-tabs">TM Mega Menu Tabs</h5>
+                <p>Le schede TM Mega Menu sono gli elementi di base in cima al menu.</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs.png" alt="" /></p>
+                <p>Per creare una nuova scheda, aprire il modulo TM Mega Menu e fare clic su + nella tabella della lista schede.</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add.png" alt="" /></p>
+                <p>Verrà aperta un modulo: compilare i campi richiesti.</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form.png" alt="" /></p>
+                <ol>
+                    <li>Enter tab name - qui si deve inserire il titolo della scheda, obbligatorio da compilare nella lingua predefinita. Se i campi delle lingue aggiuntive non sono stati compilati, sarà assegnato il nome della lingua predefinita. La compilazione di questo campo è obbligatoria.</li>
+                    <li>Active - attiva/disattiva scheda.</li>
+                    <li>Link - il link assegnato a questa scheda. Si può immettere un link personalizzato oppure scegliere tra opzioni predefinite (categorie, categorie CMS). Lasciando il campo non compilato, il link di questa scheda resterà inattivo.</li>
+                    <li>Sort order - l'ordine in cui disporre le schede.</li>
+                    <li>Specific Class - la classe aggiunta per enfatizzare l'elemento (classe CSS).</li>
+                    <li>Enter tab badge - va compilato se è attivato il multilingua.</li>
+                    <li>It is Mega Menu - il sotto-menu della scheda in questione è un Mega Menu. <strong>*</strong></li>
+                    <li>Use simple menu - il sotto-menu della scheda in questione è un menu semplice. <strong>**</strong></li>
+                </ol>
+                <p><strong>*</strong> It is Mega Menu. Selezionando questa opzione, comparirà un modulo per creare un menu complesso (Mega Menu).</p>
+                <p>Il menu complesso è formato da righe e colonne.</p>
+                <p>La riga ("Row") fa parte della struttura del Mega Menu. Include le colonne del menu. Le righe preesistenti possono essere eliminate facendo clic sull'apposito pulsante. La riga verrà rimossa, insieme ai relativi contenuti. Non ci sono limiti di quantità per le righe.</p>
+                <p>La colonna fa parte della struttura del Mega Menu, ed è posta all'interno delle righe. (The Class) La larghezza della colonna non può essere inferiore a 2 o superiore a 12. Per fare in modo che i menu abbiano l'aspetto corretto, la larghezza totale della colonna non può essere di oltre 12. La larghezza (class) è una colonna di tipo Bootstrap, e corrisponde agli stessi valori.</p>
+                <p>Per creare il menu, fare clic sul pulsante Add row</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form-row.png" alt="" /></p>
+                <p>Nel modulo che apparirà, fare clic sul pulsante Add column</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form-row-col.png" alt="" /></p>
+                <p>Apparirà la finestra pop up, nella quale sarà necessario specificare la classe della colonna (da 2 a 12). La colonna stessa apparirà laddove sarà necessario specificare le impostazioni necessarie</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form-row-col-content.png" alt="" /></p>
+                <p>Qui sarà possibile modificare la classe della colonna, aggiungere classi CSS, e tutti i contenuti necessari dalla lista fornita. È possibile aggiungere/rimuovere i contenuti facendo doppio clic sull'elemento desiderato, o evidenziando l'elemento stesso e facendo clic sul pulsante apposito.</p>
+                <p>Il blocco può essere eliminato facendo clic sul pulsante Remove block in fondo al blocco.</p>
+                <p>Eliminando la riga, verranno eliminate anche le relative colonne.</p>
+                <p><strong>**</strong> Use simple menu. Se questa opzione è selezionata, apparirà un modulo per creare un menu semplice. Si tratta di un menu che visualizza i contenunti selezionati in una singola colonna. Se il contenuto contiene elementi embedded, verrà aggiunta la nuova colonna.</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form-simple.png" alt="" /></p>
+                <p>Per spostare i contenuti desiderati nel menu selezionato, fare doppio clic o evidenziare il contenuto desiderato e premere il pulsante corrispondente.</p>
+                <p></p>
+                <p>Le informazioni relative ai menu non attivi vengono salvate quando si passa da un tipo di menu a un altro, ed è sempre possibile cambiare il tipo di menu.</p>
+                <h5 id="tmmegamenu-html">TM Mega Menu HTML</h5>
+                <p>In questa sezione verrà illustrata la creazione di un blocco HMTL personalizzato nel Mega Menu.</p>
+                <p>Il modulo comprende una tabella che elenca tutti i blocchi disponibili, al quale è possibile aggiungere un nuovo blocco facendo clic sul pulsante + in alto a destra sulla tabella.</p>
+                <p>Nel modulo che comparirà, compilare i campi necessari:</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-html.png" alt="" /></p>
+                <ol>
+                    <li>Enter HTML item name - il nome del blocco HTML, obbligatorio per la lingua predefinita.</li>
+                    <li>Specific class - classe CSS del blocco.</li>
+                    <li>HTML content - i contenuti HTML.</li>
+                </ol>
+                <p>Il blocco aggiunto apparirà nella lista dei blocchi e nella lista dei contenuti disponibili, quando si creano blocchi di menu.</p>
+                <h5 id="tmmegamenu-links">TM Mega Menu Links</h5>
+                <p>In questa sezione sarà illustrata la creazione di link personalizzati nel Mega Menu.</p>
+                <p>Il modulo comprende una tabella che elenca tutti i link disponibili, ai quali è possibile aggiungerne altri facendo clic sul pulsante + in alto a destra sulla tabella.</p>
+                <p>Nel modulo che comparirà, compilare i campi necessari:</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-links.png" alt="" /></p>
+                <ol>
+                    <li>Enter Link name - il nome del link, obbligatorio per la lingua predefinita.</li>
+                    <li>Enter Link URL  - l'URL del link, obbligatorio per la lingua predefinita.</li>
+                    <li>Specific class - classe CSS del blocco.</li>
+                    <li>Open in new window - per aprire un link in una nuova finestra.</li>
+                </ol>
+                <p>Il link aggiunto apparirà sulla lista dei link e nella lista dei contenuti disponibili, quando si creano i blocchi di menu.</p>
+                <h5 id="tmmegamenu-banners">TM Mega Menu Banners</h5>
+                <p>In questa sezione verrà illustrato in che modo creare dei banner nel Mega Menu.</p>
+                <p>Il modulo comprende una tabella che elenca tutti i bannner disponibili, ai quali è possibile aggiungerne altri facendo clic con il pulsante + in alto a destra sulla tabella.</p>
+                <p>Nel modulo che comparirà, compilare i campi necessari:</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-banners.png" alt="" /></p>
+                <ol>
+                    <li>Select a file - selezionare un file, obbligatorio per la lingua predefinita..</li>
+                    <li>Enter Banner name - titolo del banner, obbligatorio per la lingua predefinita.</li>
+                    <li>Enter Link URL - URL del link, obbligatorio per la lingua predefinita.</li>
+                    <li>Specific class - classe CSS del blocco.</li>
+                    <li>Open in new window - per aprire il link in una nuova finestra.</li>
+                </ol>
+                <p>Il banner aggiunto apparirà nella lista dei banner e la lista dei contenuti, durante la creazione dei blocchi.</p>
               </article>
               <article id="tmmediaparallax">
                 <h4>Modulo Media Parallax</h4>

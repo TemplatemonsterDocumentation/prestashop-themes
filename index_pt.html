@@ -137,6 +137,19 @@
                             </dd>
                            </dl>
                       </li>
+                      <li class="second-level">
+                      	<dl class="slide-down second-level">
+                            <dt><a href="#tmmegamenu">TM Mega Menu</a><i class="icon-sample second-level"></i></dt>
+                            <dd class="second-level">
+                              <ul class="list">
+                                <li><a href="#tmmegamenu-tabs">TM Mega Menu Tabs</a></li>
+                                <li><a href="#tmmegamenu-html">TM Mega Menu HTML</a></li>
+                                <li><a href="#tmmegamenu-links">TM Mega Menu Links</a></li>
+                                <li><a href="#tmmegamenu-banners">TM Mega Menu Banners</a></li>
+                              </ul>
+                            </dd>
+                          </dl>
+                      </li>
                       <li><a href="#tmmediaparallax">módulo Media parallax</a></li>
                       <li><a href="#tmvideobackground">Módulo para fundo com vídeo</a></li>
                       <li><a href="#tmhtmlcontent">TM HTML Content</a></li>
@@ -476,10 +489,6 @@
                 <p>No campo <strong>Nome da loja (Shop name)</strong>, digite o nome de sua loja e clique em <strong>Salvar (Save)</strong> para alterá-lo.</p>
                 <p><img class="presta_scr2" src="img/10-shop_name.png" alt="" /></p>
               </article>
-              <!--article id="header_links">
-              <h3 id="basic_tutorials2">2. How to edit header and footer links</h3>
-              <p>Please check a detailed tutorial on how to <a target="_blank" href="/help/prestashop-1-5-x-how-to-manage-footer-and-header-links.html">edit header links</a>.</p>
-              </article-->
               <article id="eddit_slider">
                 <h4 id="basic_tutorials4">2. Como alterar o slider</h4>
                 <p>Para alterar as imagens do slider, encontre o módulo <strong>Slider de imagens para sua homepage (Image slider for your homepage)</strong> na parte de <strong>Módulos (Modules)</strong> de sua loja. Deve ficar na seção de módulos <strong>Fachada (Front Office Features)</strong>. Clique em <strong>Configurar (Configure)</strong>. </p>
@@ -604,6 +613,83 @@
                     <li><strong>Number of Tag to Show -</strong> quantidade de palavras chave mostradas no bloco.</li>
                   </ol>
                 </div>
+              </article>
+              <article id="tmmegamenu">
+                <h4>TM Mega Menu</h4>
+                <p>Este módulo foi desenvolvido para criar menus de navegação complexos. O módulo permite exibir itens (sem sub-menu), itens com sub-menu e itens com sub-menu definindo blocos de várias linhas e várias colunas. O módulo pode ser usado em diversos lugares do site, mas vai sempre mostrar o mesmo conteúdo. Posições disponíveis: topo do site(displayTop), esquerda(displayLeftColumn), direita(displayRightColumn), rodapé(displayFooter). Voce pode incluir categorias (com sub-categorias), categorias de CMS (com sub), fabricantes (um ou uma lista), fornecedores (um ou uma lista), lojas (se você usar multilojas), links para qualquer produto, bloco de informações sobre o produto, links personalizados sem limitação de quantidade, blocos personalizados de HTML em qualquer quantidade e banners. Veja abaixo para mais detalhes.</p>
+                <h5 id="tmmegamenu-tabs">TM Mega Menu Tabs</h5>
+                <p>Abas do "TM Mega Menu" são os itens básicos do menu no topo.</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs.png" alt="" /></p>
+                <p>Para criar uma nova aba, abra o módulo TM Mega Menu e clique no + na tabela que lista as abas.</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add.png" alt="" /></p>
+                <p>No formulário que surge, preencha os campos obrigatórios.</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form.png" alt="" /></p>
+                <ol>
+                    <li>Enter tab name - o título da aba que é necessário para o idioma principal, se você não preencher os campos de outros idioma, a aba receberá o nome do idioma principal. Este campo é obrigatório</li>
+                    <li>Active - ativa/desativa a aba.</li>
+                    <li>Link - o link para onde esta aba vai levar. Você pode colocar o endereço que desejar, ou escolher umas das opções existentes (categorias, categorias do CMS). Se deixar em branco, o link desta aba ficará inativo.</li>
+                    <li>Sort order - a ordem em que essa aba será mostrada.</li>
+                    <li>Specific Class - a classe usada para enfatizar este item (classe de CSS).</li>
+                    <li>Enter tab badge - é preenchido dependendo da opção de multi-idiomas.</li>
+                    <li>It is Mega Menu - o sub-menu desta aba é um Mega Menu. <strong>*</strong></li>
+                    <li>Use simple menu - o sub-menu desta aba é um menu simples. <strong>**</strong></li>
+                </ol>
+                <p><strong>*</strong> É um Mega Menu. Se você escolher esta opção, vai aparecer um formulário para criar um menu complexo (Mega Menu).</p>
+                <p>Um menu complexo consiste em linhas e colunas em cada linha.</p>
+                <p>A linha é parte da estrutura do Mega Menu. Isso inclui as colunas do menu. A linha existente pode ser retirada ao clicar no botão apropriado. A linha será retirada com todo o conteúdo dela. Não há limite para quantas linhas podem ser criadas.</p>
+                <p>A coluna é parte da estrutura do Mega Menu, que deve ser sempre inserida dentro de linhas. (A classe) A largura da coluna não pode ser menor que 2 ou maior do que 12. Para que o menu fique direito, o total de colunas em uma linha não pode exceder 12.A largura (class) é uma coluna do Bootstrap, correspondendo aos mesmos valores.</p>
+                <p>Para criar o menu, clique no botão "Add row" (adicionar linha).</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form-row.png" alt="" /></p>
+                <p>No formulário que aparece, clique no botão "Add column" (adicionar coluna)</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form-row-col.png" alt="" /></p>
+                <p>A janela de pop up abre, você precisa especificar a classe da coluna (de 2 a 12). A coluna em si aparece próxima a onde você define as configurações necessárias,</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form-row-col-content.png" alt="" /></p>
+                <p>aqui você pode mudar a classe da coluna, incluir classes CSS, e também o conteúdo necessário da lista. Você pode incluir/retirar conteúdo ao clicar duas vezes no item desejado, ou selecionando o item e clicando no botão correspondente.</p>
+                <p>O bloco pode ser removido clicando no botão "Remove block" no rodapé do bloco.</p>
+                <p>Ao retirar a linha, as colunas incluídas também são retiradas.</p>
+                <p><strong>**</strong> É um menu simples. Se esta opção estiver selecionada, você verá um formulário para criar um menu simples. Esse é um menu que mostra o conteúdo escolhido em uma coluna só. Se o conteúdo adicionado tiver conteúdo interno, a nova coluna será incluída.</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-tabs-add-form-simple.png" alt="" /></p>
+                
+                <p>Para mover o conteúdo no menu selecionado, dê duplo-clique ou marque o conteúdo desejado e aperte o botão correspondente.</p>
+                <p></p>
+                <p>Informações do menu inativo são salvas ao trocar entre os tipos de menu e você pode sempre mudar o tipo de menu.</p>
+                <h5 id="tmmegamenu-html">TM Mega Menu HTML</h5>
+                <p>Nesta seção, vamos explicar como criar um bloco personalizado de HTML no Mega Menu.</p>
+                <p>O módulo tem uma tabela listando todos os blocos disponíveis em que você pode adicionar um novo bloco clicando no botão + no topo direito da tabela.</p>
+                <p>No formulário que aparecer, preencha os campos obrigatórios.</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-html.png" alt="" /></p>
+                <ol>
+                    <li>Enter HTML item name - O nome do bloco HTML, é obrigatório para o idioma padrão.</li>
+                    <li>Specific class - classe CSS do bloco.</li>
+                    <li>HTML content - conteúdo HTML.</li>
+                </ol>
+                <p>O bloco adicionado vai aparecer na lista de blocos, assim como na lista de conteúdo disponível ao criar blocos de menu.</p>
+                <h5 id="tmmegamenu-links">TM Mega Menu Links</h5>
+                <p>Nesta seção vamos te mostrar como criar links personalizados no Mega Menu.</p>
+                <p>O módulo que tem a tabela listando todos os links disponíveis nos quais você pode incluir um novo link clicando no botão + no topo direito da tabela.</p>
+                <p>In the form that appears, fill in the required fields.</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-links.png" alt="" /></p>
+                <ol>
+                    <li>Enter Link name - O nome do link, é obrigatório para o idioma padrão.</li>
+                    <li>Enter Link URL  - O endereço do link, é obrigatório para o idioma padrão.</li>
+                    <li>Specific class - classe CSS do bloco.</li>
+                    <li>Open in new window - abre o link em uma nova janela.</li>
+                </ol>
+                <p>O link adicionado vai aparecer na lista de links, assim como na lista de conteúdo disponível ao criar blocos de menu.</p>
+  
+                <h5 id="tmmegamenu-banners">TM Mega Menu Banners</h5>
+                <p>Nesta seção vamos te mostrar como criar banners no Mega Menu.</p>
+                <p>O módulo que tem a tabela listando todos os banners disponíveis nos quais você pode incluir um novo banner clicando no botão + no topo direito da tabela.</p>
+                <p>No formulário que aparecer, preencha os campos obrigatórios.</p>
+                <p><img class="presta_scr2" src="img/tmmegamenu-banners.png" alt="" /></p>
+                <ol>
+                    <li>Select a file - escolha um arquivo, é obrigatório ser preenchido para o idioma padrão.</li>
+                    <li>Enter Banner name - título do banner, é obrigatório ser preenchido para o idioma padrão.</li>
+                    <li>Enter Link URL - endereço do link, é obrigatório ser preenchido para o idioma padrão.</li>
+                    <li>Specific class - classe CSS do bloco.</li>
+                    <li>Open in new window - abre o link em uma nova janela.</li>
+                </ol>
+                <p>O banner adicionado vai aparecer na lista de banners, assim como na lista de conteúdo disponível ao criar blocos de menu.</p>
               </article>
               <article id="tmmediaparallax">
                 <h4>Media Parallax Module</h4>
@@ -1044,6 +1130,9 @@
                 <p><img class="presta_scr2" src="img/tmolarkchat-1.png" alt="" /></p>
                 <p>Para configurar o bate-papo Olark, que você pode ver na página de demonstração do tema, você precisa se cadastrar no <a href="http://www.olark.com/" target="_blank" title="Olark Registration">site oficial</a> e pegar o número de ID para o seu site. Inclua o seu número de ID no campo  "Olark site ID" e configure em "Live mode". Agora grave as alterações ao clicar no botão <strong>Salvar</strong>.</p>
               </article>
+            </section>
+            <section class="block-templates" id="cookiepolicy">
+            	<h2 class="item6"><i class="icon-exclamation-sign"></i> Cookies Policy</h2>
               <p>Sua configuração é muito simples.</p>
               <ol>
                 <li>Encontre-o na pasta manual_install dentro do pacote do tema (se você realizou a Instalação manual com dados de amostra, então o módulo será adicionado automaticamente).</li>
@@ -1071,7 +1160,8 @@
                 <li><a target="_blank" href="http://addons.prestashop.com/en/front-office-features-prestashop-modules/8704-eu-cookie-law.html">Module EU Cookie Law</a></li>
                 <li><a target="_blank" href="http://addons.prestashop.com/en/administration-tools-prestashop-modules/10376-alert-for-eu-cookie-law.html">Module Alert for EU Cookie Law</a></li>
               </ul>
-            </section>
+           	</section>
+            
             <section class="block-templates" id="conclusion">
               <h2 class="item7"><i class="icon-question-sign"></i> Addendum <small>onde encontrar ajuda, suporte e informações adicionais</small></h2>
               <p>Nos esforçamos para que esta documentação estivesse o mais clara possível. No entanto, se você tiver qualquer dificuldade com o template do PrestaShop ou quaisquer sugestões para melhorar o tema ou a documentação, sinta-se à vontade para entrar com contato com nossa equipe de suporte em:</p>
