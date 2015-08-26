@@ -1,0 +1,44 @@
+{
+  "id": "basictutorials",
+  "translations": {
+    "en": "Basic tutorials",
+    "ru": "Основные туториалы",
+    "es": "Tutoriales b&aacute;sicos",
+    "de": "Haupttutorials",
+    "fr": "Tutoriels de base",
+    "it": "Guide di Base",
+    "pl": "Podstawowe tutoriale",
+    "pt": "Tutoriais básicos",
+    "tr": "Temel rehber"
+  },
+  "articles": [
+    {
+      "id": "changename",
+      "translations": {
+        "en": "How to change store name",
+        "ru": "Как изменить название магазина",
+        "es": "C&oacute;mo cambiar el nombre de la tienda",
+        "de": "Wie ändert man den Shopnamen",
+        "fr": "Comment changer le nom de la boutique",
+        "it": "Come cambiare il nome del negozio",
+        "pl": "Jak zmienić nazwę sklepu",
+        "pt": "Como trocar o nome da loja",
+        "tr": "Mağaza ismini değiştirmek"
+      }
+    },
+    {
+      "id": "eddit_slider",
+      "translations": {
+        "en": "How to edit slider",
+        "ru": "Как редактировать слайдер",
+        "es": "Como editar el control deslizante",
+        "de": "Wie bearbeitet man den Slider",
+        "fr": "Comment modifier un slider",
+        "it": "Come modificare le slide",
+        "pl": "Jak edytować slider",
+        "pt": "Como alterar o slider",
+        "tr": "Slider ayarları"
+      }
+    }
+  ]
+}

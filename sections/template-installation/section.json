@@ -1,0 +1,72 @@
+{
+  "id": "template-installation",
+  "translations": {
+    "en": "Template installation",
+    "ru": "Установка шаблона",
+    "es": "Instalaci&oacute;n de la plantilla",
+    "de": "Installation der Vorlage",
+    "fr": "Installation du template",
+    "it": "Installazione Template",
+    "pl": "Instalacja szablonu",
+    "pt": "Instalação do template",
+    "tr": "Şablon kurulumu"
+  },
+  "articles": [
+    {
+      "id": "themeinstaller",
+      "translations": {
+        "en": "Theme Import",
+        "ru": "Импорт темы",
+        "es": "Importaci&oacute;n del tema",
+        "de": "Import des Themas",
+        "fr": "Importation du thème",
+        "it": "Importa il tema",
+        "pl": "Import motywu",
+        "pt": "Importar o tema",
+        "tr": "Tema aktarımı"
+      }
+    },
+    {
+      "id": "with_products_auto",
+      "translations": {
+        "en": "Automatic installation with demo data (Sample data installer)",
+        "ru": "Автоматическая установка с использованием демо-данных",
+        "es": "Instalaci&oacute;n autom&aacute;tica con los datos de demostraci&oacute;n",
+        "de": "Automatische Installation mit den Demodaten",
+        "fr": "Installation automatique avec des données de démo",
+        "it": "Installazione automatica con dati campione",
+        "pl": "Automatyczna instalacja z danych demo",
+        "pt": "Instalação automática com dados de amostra",
+        "tr": "Demo veriyle otomatik kurulum"
+      }
+    },
+    {
+      "id": "with_products_manual",
+      "translations": {
+        "en": "Manual template installation with sample data",
+        "ru": "Установка шаблона вручную с использованием демо-данных",
+        "es": "Instalaci&oacute;n manual de la plantilla con los datos de muestra",
+        "de": "Manuelle Installation der Vorlage mit Demodaten",
+        "fr": "Installation manuelle du template avec des données d'exemple",
+        "it": "Installazione manuale del template con dati campione",
+        "pl": "Manualna instalacja szablonu z przykładowych danych",
+        "pt": "Instalação manual com dados de amostra",
+        "tr": "Örnek veriyle manuel şablon kurulumu"
+      }
+    },
+    {
+      "id": "overdata",
+      "translations": {
+        "en": "Installing template over existing store",
+        "ru": "Установка шаблона на существующий магазин",
+        "es": "Instalaci&oacute;n de la plantilla sobre una tienda existente",
+        "de": "Installation der Vorlage auf den aktuellen Online-Shop",
+        "fr": "Installation d'un template dans une boutique existante",
+        "it": "Installare il template su di un negozio pre-esistente",
+        "pl": "Instalacja szablonu na istniejącym sklepie",
+        "pt": "Como instalar o template em um site já existente",
+        "tr": "Şablonu varolan mağazaya kurmak"
+      }
+    }
+  ]
+}
