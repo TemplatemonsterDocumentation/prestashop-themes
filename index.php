@@ -45,7 +45,8 @@ if (!isset($sections)) {
         <div class="panel">
             <div class="select select-version">
                 <select>
-                    <option data-href="#" selected>Version v1-2</option>
+                    <option data-href="#" selected>Version v1-4</option>
+                    <option data-href="//info.template-help.com/help/quick-start-guide/prestashop-themes/v1-2/index_en.html">Version v1-2</option>
                     <option data-href="//info.template-help.com/help/quick-start-guide/prestashop-themes/v1-1/index_en.html">Version v1-1</option>
                     <option data-href="//info.template-help.com/help/quick-start-guide/prestashop-themes/v1-0/index_en.html">Version v1-0</option>
                 </select>
