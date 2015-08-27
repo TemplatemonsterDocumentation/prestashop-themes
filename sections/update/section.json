@@ -1,0 +1,16 @@
+{
+  "id": "update",
+  "translations": {
+    "en": "Update",
+    "ru": "Обновления",
+    "es": "Actualización",
+    "de": "Aktualisierung",
+    "fr": "Mettre à jour",
+    "it": "Aggiornare",
+    "pl": "Aktualizacja",
+    "pt": "Atualizar",
+    "tr": "Güncelleştirme"
+  },
+  "articles": [
+  ]
+}

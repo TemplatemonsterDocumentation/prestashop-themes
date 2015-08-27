@@ -1,0 +1,128 @@
+{
+  "id": "getting-started",
+  "translations": {
+    "en": "Getting started",
+    "ru": "Начало работы",
+    "es": "Primeros pasos",
+    "de": "Arbeitsbeginn",
+    "fr": "Démarrage rapide",
+    "it": "Per iniziare",
+    "pl": "Początek",
+    "pt": "Primeiros passos",
+    "tr": "Başlangıç"
+  },
+  "articles": [
+    {
+      "id": "preparation",
+      "translations": {
+        "en": "Preparation",
+        "ru": "Подготовка",
+        "es": "Preparaci&oacute;n",
+        "de": "Vorbereitung",
+        "fr": "Préparation",
+        "it": "Preparativi",
+        "pl": "Przygotowanie",
+        "pt": "Peparando-se",
+        "tr": "Hazırlık"
+      }
+    },
+    {
+      "id": "editing-software",
+      "translations": {
+        "en": "Editing software",
+        "ru": "Программное обеспечение",
+        "es": "Software de edici&oacute;n",
+        "de": "Software",
+        "fr": "Logiciel d'édition",
+        "it": "Software per l'Editing",
+        "pl": "Edytowanie oprogramowania",
+        "pt": "Programas necessários",
+        "tr": "Yazılımı düzenlemek"
+      }
+    },
+    {
+      "id": "server-requirements",
+      "translations": {
+        "en": "Server requirements",
+        "ru": "Требования к серверу",
+        "es": "Requisitos del servidor",
+        "de": "Anforderungen an Server",
+        "fr": "Besoins côté serveur",
+        "it": "Requisiti del Server",
+        "pl": "Wymagania serwera",
+        "pt": "Requisitos do servidor",
+        "tr": "Sunucu gereksinimleri"
+      }
+    },
+    {
+      "id": "local-server",
+      "translations": {
+        "en": "Using the local server",
+        "ru": "Использование локального сервера",
+        "es": "Usando el servidor local",
+        "de": "Verwendung des lokalen Servers",
+        "fr": "Utilisation d'un serveur local",
+        "it": "Usare il server locale",
+        "pl": "Korzystanie z serwera lokalnego",
+        "pt": "Usando um servidor local",
+        "tr": "Lokal sunucu kullanımı"
+      }
+    },
+    {
+      "id": "downloading",
+      "translations": {
+        "en": "Downloading",
+        "ru": "Скачивание",
+        "es": "Descargando",
+        "de": "Herunterladen",
+        "fr": "Téléchargement",
+        "it": "Scaricare",
+        "pl": "Pobieranie",
+        "pt": "Baixando",
+        "tr": "İndirme"
+      }
+    },
+    {
+      "id": "extracting-files",
+      "translations": {
+        "en": "Extracting Files",
+        "ru": "Разархивирование файлов",
+        "es": "Extracci&oacute;n de archivos",
+        "de": "Entpacken von Dateien",
+        "fr": "Extraction des Fichiers",
+        "it": "Estrarre i File",
+        "pl": "Rozpakowanie plików",
+        "pt": "Extraindo os arquivos",
+        "tr": "Dosyaları çıkarmak"
+      }
+    },
+    {
+      "id": "engine-files",
+      "translations": {
+        "en": "Uploading PrestaShop engine files",
+        "ru": "Загрузка файлов движка PrestaShop",
+        "es": "Carga de los archivos del motor de PrestaShop",
+        "de": "Hochladen von Dateien der PrestaShop Engine",
+        "fr": "Upload des fichiers de l'engine PrestaShop",
+        "it": "Caricare i file del motore PrestaShop",
+        "pl": "Przesyłanie plików silnika PrestaShop",
+        "pt": "Enviando os arquivos base do PrestaShop",
+        "tr": "PrestaShop dosyalarını yüklemek"
+      }
+    },
+    {
+      "id": "engine-installation",
+      "translations": {
+        "en": "PrestaShop engine installation",
+        "ru": "Установка движка PrestaShop",
+        "es": "Instalaci&oacute;n del motor de PrestaShop",
+        "de": "Installation der PrestaShop Engine",
+        "fr": "Installation de l'engine PrestaShop",
+        "it": "Installazione motore PrestaShop",
+        "pl": "Instalacja silnika PrestaShop",
+        "pt": "Instalando o PrestaShop",
+        "tr": "PrestaShop kurulumu"
+      }
+    }
+  ]
+}
