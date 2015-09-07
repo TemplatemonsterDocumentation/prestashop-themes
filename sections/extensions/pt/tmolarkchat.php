@@ -1,5 +1,4 @@
-
-    <h3>TM Olark Chat</h3>
+    <h3><a href="http://special.olark.com/cDqdW ">TM Olark Chat</a></h3>
 
     <p>Módulo para mostrar o bate-papo Olark em sua loja.</p>
     <h5>Instalar/desinstalar módulo</h5>

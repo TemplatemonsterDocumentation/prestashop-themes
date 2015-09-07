@@ -1,4 +1,4 @@
-<h3>TM Olark Chat</h3>
+<h3><a href="http://special.olark.com/cDqdW ">TM Olark Chat</a></h3>
 
 <p>Dieses Modul ermöglicht den Olark Chat auf dem Front-End Ihres Online-Shops
     anzuzeigen.</p>

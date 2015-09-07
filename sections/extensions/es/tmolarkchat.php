@@ -1,4 +1,4 @@
-<h3>TM Chat de Olark</h3>
+<h3><a href="http://special.olark.com/cDqdW ">TM Chat de Olark</a></h3>
 
 <p>M&oacute;dulo para mostrar el Chat de Olark en su tienda.</p>
 <h5>M&oacute;dulo de instalaci&oacute;n/desinstalaci&oacute;n</h5>

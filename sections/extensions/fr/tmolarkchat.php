@@ -1,4 +1,4 @@
-<h3>TM Olark Chat</h3>
+<h3><a href="http://special.olark.com/cDqdW ">TM Olark Chat</a></h3>
 
 <p>Le module pour afficher Olark Chat sur le frontale de votre boutique.</p>
 <h5>Le module installer / désinstaller</h5>

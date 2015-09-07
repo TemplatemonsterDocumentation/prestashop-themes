@@ -1,4 +1,4 @@
-<h3>TM Olark Chat</h3>
+<h3><a href="http://special.olark.com/cDqdW ">TM Olark Chat</a></h3>
 
 <p>Модуль для отображения чата Olark Chat на фронтенде вашего магазина.</p>
 
