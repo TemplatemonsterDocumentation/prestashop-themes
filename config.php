@@ -6,7 +6,7 @@ $path = dirname($_SERVER['PHP_SELF']);
 
 // Variables
 $product_name = "PrestaShop";
-$product_desc = "Documentation v1.4";
+$product_desc = "Documentation v1.3";
 $doc_title = $product_name . " " . $product_desc;
 
 $lang = 'en';
