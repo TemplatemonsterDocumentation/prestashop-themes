@@ -116,3 +116,28 @@ You can check the installation instructions specified within the Template instal
         <p>minor bug fixes</p>
     </li>
 </ul>
+
+<h3>Update 3</h3>
+<p>In order to install the latest Styler v.1.3 update, please, install the template from the update_3\theme\themeinstallator directory.
+You can check the installation instructions specified within the Template installation paragraph of the theme documentation</p>
+<h4>Change log:</h4>
+<ul class="marked-list">
+    <li>
+        <p>added the background video</p>
+    </li>
+    <li>
+        <p>added the TM Category Slider;</p>
+    </li>
+    <li>
+        <p>added the new hompage;</p>
+    </li>
+    <li>
+        <p>added the new product listing page;</p>
+    </li>
+    <li>
+        <p>added the new product page;</p>
+    </li>
+    <li>
+        <p>minor bug fixes</p>
+    </li>
+</ul>
