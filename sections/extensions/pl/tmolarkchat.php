@@ -1,5 +1,5 @@
 
-    <h3>TM Olark Chat</h3>
+    <h3><a href="http://special.olark.com/cDqdW ">TM Olark Chat</a></h3>
 
     <p>Moduł wyświetlający Olark Chat na front-endzie Twojego sklepu.</p>
     <h5>Instalacja/odinstalowanie modułu</h5>

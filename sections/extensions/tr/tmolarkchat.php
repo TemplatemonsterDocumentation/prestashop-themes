@@ -1,5 +1,5 @@
 
-    <h3>TM Olark Chat</h3>
+    <h3><a href="http://special.olark.com/cDqdW ">TM Olark Chat</a></h3>
 
     <p>Maðazanýzýn ön yüzüne Olark Chat'i yerleþtiren modüldür.</p>
     <h5>Modülü kurmak/kaldýrmak</h5>
