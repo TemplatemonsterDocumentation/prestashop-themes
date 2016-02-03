@@ -38,8 +38,8 @@
 
 
 <p class="alert alert-info">Puoi trovare altri dettagli seguendo questi link: <a
-        href="https://developers.google.com/console/help/" target="_blank">Google
-        App</a> e <a href="https://developers.facebook.com/apps/" target="_blank">Facebook
+        href="https://support.google.com/cloud/answer/6158849?hl=en&ref_topic=6262490" target="_blank">Google
+        App</a> e <a href="https://developers.facebook.com/docs/apps/register" target="_blank">Facebook
         App</a>.</p>
 <p class="alert alert-warning">
     Il percorso di reindirizzamento deve coincidere con quello che hai indicato durante la creazione della

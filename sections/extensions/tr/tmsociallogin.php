@@ -31,9 +31,10 @@
 </ol>
 
 
-<p class="alert alert-info">Detaylý bilgiyi <a href="https://developers.google.com/console/help/"
-                                               target="_blank">Google App</a> ve <a
-        href="https://developers.facebook.com/apps/" target="_blank">Facebook App</a>
+<p class="alert alert-info">Detaylý bilgiyi <a
+        href="https://support.google.com/cloud/answer/6158849?hl=en&ref_topic=6262490" target="_blank">Google
+        App</a> ve <a href="https://developers.facebook.com/docs/apps/register" target="_blank">Facebook
+        App</a>
     sayfalarýnda bulabilirsiniz.</p>
 
 <p class="alert alert-warning">

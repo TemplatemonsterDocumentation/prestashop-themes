@@ -31,8 +31,8 @@
 </ol>
 
 <p class="alert alert-info">Um mehr ausführliche Information zu erhalten, folgen Sie den folgenden Links <a
-        href="https://developers.google.com/console/help/" target="_blank">Google
-        App</a> und <a href="https://developers.facebook.com/apps/" target="_blank">Facebook
+        href="https://support.google.com/cloud/answer/6158849?hl=en&ref_topic=6262490" target="_blank">Google
+        App</a> and <a href="https://developers.facebook.com/docs/apps/register" target="_blank">Facebook
         App</a>.</p>
 <p class="alert alert-warning">
     Der Leitungspfad muss unbedingt mit demjenigen, den Sie beim Erstellen Google App angegeben haben, gleich sein.</p>
