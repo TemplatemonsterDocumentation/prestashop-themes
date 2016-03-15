@@ -41,34 +41,6 @@
       }
     },
     {
-      "id": "tmmediaparallax",
-      "translations": {
-        "en": "Media Parallax Module",
-        "ru": "Модуль Media Parallax",
-        "es": "M&oacute;dulo Media parallax",
-        "de": "Modul Media Parallax",
-        "fr": "Module Media Parallax",
-        "it": "Modulo Media Parallax",
-        "pl": "Media Parallax Module",
-        "pt": "Media Parallax Module",
-        "tr": "Media Parallax Module"
-      }
-    },
-    {
-      "id": "tmvideobackground",
-      "translations": {
-        "en": "Video Background Module",
-        "ru": "Модуль Video Background",
-        "es": "M&oacute;dulo de Video en segundo plano",
-        "de": "Modul Video Background",
-        "fr": "Module de Vidéo en Arrière-Plan",
-        "it": "Modulo Video Background",
-        "pl": "Moduł Video Background",
-        "pt": "Video Background Module",
-        "tr": "Video Background Module"
-      }
-    },
-    {
       "id": "tmhtmlcontent",
       "translations": {
         "en": "TM HTML Content",
@@ -83,34 +55,6 @@
       }
     },
     {
-      "id": "tmcategoriesbadges",
-      "translations": {
-        "en": "TM Categories Badges",
-        "ru": "TM Categories Badges",
-        "es": "TM Categories Badges",
-        "de": "TM Categories Badges",
-        "fr": "TM Categories Badges",
-        "it": "TM Categories Badges",
-        "pl": "TM Categories Badges",
-        "pt": "TM Categories Badges",
-        "tr": "TM Categories Badges"
-      }
-    },
-    {
-      "id": "tmgooglemap",
-      "translations": {
-        "en": "TM Google Map",
-        "ru": "TM Google Map",
-        "es": "TM Google Map",
-        "de": "TM Google Map",
-        "fr": "TM Google Map",
-        "it": "TM Google Map",
-        "pl": "TM Google Map",
-        "pt": "TM Google Map",
-        "tr": "TM Google Map"
-      }
-    },
-    {
       "id": "tmmanufacturersblock",
       "translations": {
         "en": "TM Manufacturers Block",
@@ -122,20 +66,6 @@
         "pl": "TM Manufacturers Block",
         "pt": "TM Manufacturers Block",
         "tr": "TM Manufacturers Block"
-      }
-    },
-    {
-      "id": "tmproductsslider",
-      "translations": {
-        "en": "TM Products Slider",
-        "ru": "TM Products Slider",
-        "es": "TM Products Slider",
-        "de": "TM Products Slider",
-        "fr": "TM Products Slider",
-        "it": "TM Products Slider",
-        "pl": "TM Products Slider",
-        "pt": "TM Products Slider",
-        "tr": "TM Products Slider"
       }
     },
     {

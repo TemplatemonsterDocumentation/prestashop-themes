@@ -100,7 +100,7 @@ if (!isset($sections)) {
         <button class="rd-mobilepanel_toggle active"><span></span></button>
         <div class="rd-mobilepanel">            
             <h1 class="rd-mobilepanel_title">
-                <span><?php echo $product_name; ?></span> <?php echo $product_desc; ?>
+                <!--span><?php echo $product_name; ?></span--> <?php echo $product_desc; ?>
             </h1>
         </div>
         <div class="page">
