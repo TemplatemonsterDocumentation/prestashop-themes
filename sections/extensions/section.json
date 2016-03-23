@@ -13,6 +13,20 @@
   },
   "articles": [
     {
+      "id": "tmmegalayout",
+      "translations": {
+        "en": "TM Mega Layout",
+        "ru": "TM Mega Layout",
+        "es": "TM Mega Layout",
+        "de": "TM Mega Layout",
+        "fr": "TM Mega Layout",
+        "it": "TM Mega Layout",
+        "pl": "TM Mega Layout",
+        "pt": "TM Mega Layout",
+        "tr": "TM Mega Layout"
+      }
+    },
+    {
       "id": "smart_blog",
       "translations": {
         "en": "Smart Blog",
@@ -52,6 +66,20 @@
         "pl": "Media Parallax Module",
         "pt": "Media Parallax Module",
         "tr": "Media Parallax Module"
+      }
+    },
+    {
+      "id": "tmmediaparallax20",
+      "translations": {
+        "en": "TM Media Parallax 2.0",
+        "ru": "TM Media Parallax 2.0",
+        "es": "TM Media parallax 2.0",
+        "de": "TM Media Parallax 2.0",
+        "fr": "TM Media Parallax 2.0",
+        "it": "TM Media Parallax 2.0",
+        "pl": "TM Media Parallax 2.0",
+        "pt": "TM Media Parallax 2.0",
+        "tr": "TM Media Parallax 2.0"
       }
     },
     {
