@@ -55,20 +55,6 @@
       }
     },
     {
-      "id": "tmmediaparallax",
-      "translations": {
-        "en": "Media Parallax Module",
-        "ru": "Модуль Media Parallax",
-        "es": "M&oacute;dulo Media parallax",
-        "de": "Modul Media Parallax",
-        "fr": "Module Media Parallax",
-        "it": "Modulo Media Parallax",
-        "pl": "Media Parallax Module",
-        "pt": "Media Parallax Module",
-        "tr": "Media Parallax Module"
-      }
-    },
-    {
       "id": "tmmediaparallax20",
       "translations": {
         "en": "TM Media Parallax 2.0",
@@ -80,20 +66,6 @@
         "pl": "TM Media Parallax 2.0",
         "pt": "TM Media Parallax 2.0",
         "tr": "TM Media Parallax 2.0"
-      }
-    },
-    {
-      "id": "tmvideobackground",
-      "translations": {
-        "en": "Video Background Module",
-        "ru": "Модуль Video Background",
-        "es": "M&oacute;dulo de Video en segundo plano",
-        "de": "Modul Video Background",
-        "fr": "Module de Vidéo en Arrière-Plan",
-        "it": "Modulo Video Background",
-        "pl": "Moduł Video Background",
-        "pt": "Video Background Module",
-        "tr": "Video Background Module"
       }
     },
     {
