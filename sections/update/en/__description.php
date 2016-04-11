@@ -48,4 +48,3 @@
         </p>
     </li>
 </ul>
-<p style="padding-bottom: 500px;">These modules allow to create, edit and switch between different store layouts.</p>
