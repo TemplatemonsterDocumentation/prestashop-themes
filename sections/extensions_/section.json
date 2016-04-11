@@ -1,0 +1,198 @@
+{
+  "id": "extensions",
+  "translations": {
+    "en": "Custom modules and extensions",
+    "ru": "Пользовательские модули и расширения",
+    "es": "M&oacute;dulos personalizados y extensiones",
+    "de": "Benutzerdefinierte Module und Erweiterungen",
+    "fr": "Modules et extensions personnalisés",
+    "it": "Moduli ed estensioni custom",
+    "pl": "Niestandardowe moduły i rozszerzenia",
+    "pt": "Módulos e extensões personalizadas",
+    "tr": "Temel modüller ve uzantılar"
+  },
+  "articles": [
+    {
+      "id": "smart_blog",
+      "translations": {
+        "en": "Smart Blog",
+        "ru": "Smart Blog",
+        "es": "Blog Inteligente",
+        "de": "Smart Blog",
+        "fr": "Smart Blog",
+        "it": "Smart Blog",
+        "pl": "Smart Blog",
+        "pt": "Smart Blog",
+        "tr": "Smart Blog"
+      }
+    },
+    {
+      "id": "tmmegamenu",
+      "translations": {
+        "en": "TM Mega Menu",
+        "ru": "TM Mega Menu",
+        "es": "TM Mega Menú",
+        "de": "TM Mega Menu",
+        "fr": "Menu Méga TM",
+        "it": "TM Mega Menu",
+        "pl": "TM Mega Menu",
+        "pt": "TM Mega Menu",
+        "tr": "TM Mega Menu"
+      }
+    },
+    {
+      "id": "tmhtmlcontent",
+      "translations": {
+        "en": "TM HTML Content",
+        "ru": "Модуль TM HTML Content",
+        "es": "Contenido TM HTML",
+        "de": "Modul TM HTML Content",
+        "fr": "Contenu TM HTML",
+        "it": "TM HTML Content",
+        "pl": "TM HTML Content",
+        "pt": "TM HTML Content",
+        "tr": "TM HTML Content"
+      }
+    },
+    {
+      "id": "tmmanufacturersblock",
+      "translations": {
+        "en": "TM Manufacturers Block",
+        "ru": "TM Manufacturers Block",
+        "es": "TM Manufacturers Block",
+        "de": "TM Manufacturers Block",
+        "fr": "TM Manufacturers Block",
+        "it": "TM Manufacturers Block",
+        "pl": "TM Manufacturers Block",
+        "pt": "TM Manufacturers Block",
+        "tr": "TM Manufacturers Block"
+      }
+    },
+    {
+      "id": "tmproductvideos",
+      "translations": {
+        "en": "TM Product Videos",
+        "ru": "TM Product Videos",
+        "es": "TM Product Videos",
+        "de": "TM Product Videos",
+        "fr": "TM Product Videos",
+        "it": "TM Product Videos",
+        "pl": "TM Product Videos",
+        "pt": "TM Product Videos",
+        "tr": "TM Product Videos"
+      }
+    },
+    {
+      "id": "tmsocialfeeds",
+      "translations": {
+        "en": "TM Social Feeds",
+        "ru": "TM Social Feeds",
+        "es": "TM Social Feeds",
+        "de": "TM Social Feeds",
+        "fr": "TM Social Feeds",
+        "it": "TM Social Feeds",
+        "pl": "TM Social Feeds",
+        "pt": "TM Social Feeds",
+        "tr": "TM Social Feeds"
+      }
+    },
+    {
+      "id": "tmheaderaccount",
+      "translations": {
+        "en": "TM Header Account",
+        "ru": "TM Cabecera de la Cuenta",
+        "es": "TM Header Account",
+        "de": "TM Header Account",
+        "fr": "Compte d'en-tête TM",
+        "it": "TM Header Account",
+        "pl": "TM Header Account",
+        "pt": "TM Conta no Cabeçalho",
+        "tr": "TM Header Account"
+      }
+    },
+    {
+      "id": "tmhomecarousel",
+      "translations": {
+        "en": "TM Homepage Products Carousel",
+        "ru": "TM Homepage Products Carousel",
+        "es": "TM Carrusel de Productos",
+        "de": "TM Homepage Products Carousel",
+        "fr": "Carrousel de produits TM de la page d'accueil",
+        "it": "TM Homepage Products Carousel",
+        "pl": "TM Homepage Products Carousel",
+        "pt": "TM Homepage Products Carousel",
+        "tr": "TM Homepage Products Carousel"
+      }
+    },
+    {
+      "id": "tmproductlistgallery",
+      "translations": {
+        "en": "TM Product List Gallery",
+        "ru": "TM Product List Gallery",
+        "es": "TM Galer&iacute;a de la Lista de Productos",
+        "de": "TM Product List Gallery",
+        "fr": "Galerie de la liste des produits TM",
+        "it": "TM Product List Gallery",
+        "pl": "TM Product List Gallery",
+        "pt": "TM Product List Gallery",
+        "tr": "TM Product List Gallery"
+      }
+    },
+    {
+      "id": "tmretadetproducts",
+      "translations": {
+        "en": "TM Related Products",
+        "ru": "TM Related Products",
+        "es": "TM Productos Relacionados",
+        "de": "TM Related Products",
+        "fr": "Produits Connexes TM",
+        "it": "TM Related Products",
+        "pl": "TM Related Products",
+        "pt": "TM Related Products",
+        "tr": "TM Related Products"
+      }
+    },
+    {
+      "id": "tmsociallogin",
+      "translations": {
+        "en": "TM Social Login",
+        "ru": "TM Social Login",
+        "es": "TM Inicio de Sesi&oacute;n de Redes Sociales",
+        "de": "TM Social Login",
+        "fr": "TM Social Login",
+        "it": "TM Social Login",
+        "pl": "TM Social Login",
+        "pt": "TM Social Login",
+        "tr": "TM Social Login"
+      }
+    },
+    {
+      "id": "tmnewsletter",
+      "translations": {
+        "en": "TM Newsletter",
+        "ru": "TM Newsletter",
+        "es": "TM Newsletter",
+        "de": "TM Newsletter",
+        "fr": "TM Newsletter",
+        "it": "TM Newsletter",
+        "pl": "TM Newsletter",
+        "pt": "TM Newsletter",
+        "tr": "TM Newsletter"
+      }
+    },
+    {
+      "id": "tmolarkchat",
+      "translations": {
+        "en": "TM Olark Chat",
+        "ru": "TM Olark Chat",
+        "es": "TM Olark Chat",
+        "de": "TM Olark Chat",
+        "fr": "TM Olark Chat",
+        "it": "TM Olark Chat",
+        "pl": "TM Olark Chat",
+        "pt": "TM Olark Chat",
+        "tr": "TM Olark Chat"
+      }
+    }
+  ]
+}
