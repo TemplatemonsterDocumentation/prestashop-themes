@@ -41,7 +41,7 @@
 
 <p>These modules allow to create, edit and switch between different store layouts.</p>
 <p>In order to get the same store look as on our live demo, all the new modules should be configured manually. Here you can see more information on modules settings:</p>
-<ul class="marked-list">
+<ul class="marked-list" style="padding-bottom: 500px;">
     <li>
         <p>
             <a target="_blank" href="http://ld-prestashop.template-help.com/prestashop_58148/index.php?id_cms=6&controller=cms">Pages configuration</a>
