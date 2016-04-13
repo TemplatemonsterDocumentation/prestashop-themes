@@ -141,3 +141,53 @@ You can check the installation instructions specified within the Template instal
         <p>minor bug fixes</p>
     </li>
 </ul>
+
+<h3>Update 4</h3>
+<p>In order to install the latest Styler v.1.4 update, please, install the template from the update_4\theme\themeinstallator directory.
+You can check the installation instructions specified within the Template installation paragraph of the theme documentation</p>
+<h4>Change log:</h4>
+<ul class="marked-list">
+    <li>
+        <p>added the TM Product Slider module;</p>
+    </li>
+    <li>
+        <p>added the Instagram (TM Social feed) feed;</p>
+    </li>
+    <li>
+        <p>Added the HTML Content (testimonials);</p>
+    </li>
+    <li>
+        <p>added the new home page;</p>
+    </li>
+    <li>
+        <p>added the new product listing page;</p>
+    </li>
+    <li>
+        <p>added the new product page;</p>
+    </li>
+    <li>
+        <p>minor bug fixes</p>
+    </li>
+</ul>
+
+<h3>Update 5</h3>
+<p>In order to install the latest Styler v.1.5 update, please, install the template from the update_5\theme\themeinstallator directory.
+You can check the installation instructions specified within the Template installation paragraph of the theme documentation</p>
+<h4>Change log:</h4>
+<ul class="marked-list">
+    <li>
+        <p>added the TM Mosaic Products module;</p>
+    </li>
+    <li>
+        <p>added the new home page;</p>
+    </li>
+    <li>
+        <p>added the new product listing page;</p>
+    </li>
+    <li>
+        <p>added the new product page;</p>
+    </li>
+    <li>
+        <p>minor bug fixes</p>
+    </li>
+</ul>
