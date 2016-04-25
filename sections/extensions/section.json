@@ -291,6 +291,20 @@
         "pt": "TM Olark Chat",
         "tr": "TM Olark Chat"
       }
+    },
+    {
+      "id": "tmproductzoomer",
+      "translations": {
+        "en": "TM Product Zoomer",
+        "ru": "TM Product Zoomer",
+        "es": "TM Product Zoomer",
+        "de": "TM Product Zoomer",
+        "fr": "TM Product Zoomer",
+        "it": "TM Product Zoomer",
+        "pl": "TM Product Zoomer",
+        "pt": "TM Product Zoomer",
+        "tr": "TM Product Zoomer"
+      }
     }
   ]
 }
