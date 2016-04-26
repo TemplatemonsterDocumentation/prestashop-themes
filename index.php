@@ -40,17 +40,9 @@ if (!isset($sections)) {
 <div class="page-wrap">
     <div class="rd-mobilemenu active">
         <div class="logo">
-            <a href="<?php echo $path; ?>/"><img src="<?php echo $path; ?>/img/logo.png" alt=""></a>
+            <a href="<?php echo $path; ?>"><img src="<?php echo $path; ?>/img/logo.png" alt=""></a>
         </div>        
         <div class="panel">
-            <div class="select select-version">
-                <select> 
-                <option data-href="#" selected>Version v1-3</option> 
-                <option data-href="/help/quick-start-guide/prestashop-themes/v1-2/index_en.html">Version v1-2</option> 
-                <option data-href="/help/quick-start-guide/prestashop-themes/v1-1/index_en.html">Version v1-1</option> 
-                <option data-href="/help/quick-start-guide/prestashop-themes/v1-0/index_en.html">Version v1-0</option> 
-                </select>
-            </div>
             <div class="select select-lang">
                 <select>
                     <option
@@ -100,7 +92,7 @@ if (!isset($sections)) {
         <button class="rd-mobilepanel_toggle active"><span></span></button>
         <div class="rd-mobilepanel">            
             <h1 class="rd-mobilepanel_title">
-                <span><?php echo $product_name; ?></span> <?php echo $product_desc; ?>
+                <!--span><?php echo $product_name; ?></span--> <?php echo $product_desc; ?>
             </h1>
         </div>
         <div class="page">

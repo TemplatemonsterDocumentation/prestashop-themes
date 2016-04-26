@@ -56,7 +56,7 @@
     <h4>No se pueden cargar las fuentes de Google: </h4>
 
     <ol class="index-list">
-        <li><p>Abra el archivo <strong>\themes\theme****\header.tpl</strong>.</p></li>
+        <li><p>Abra el archivo <strong>\themes\theme1330\header.tpl</strong>.</p></li>
         <li><p>Vaya a la linea: </p>
             <pre>&lt;link rel="stylesheet" href="http{if Tools::usingSecureMode()}s{/if}://fonts.googleapis.com/css?family=[---your_web_font_name_here---]" type="text/css" media="all" /&gt; </pre>
         </li>

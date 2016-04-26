@@ -130,7 +130,7 @@
                         <dl class="inline-term">
                             <dt>
                                 <i class="fa fa-file"></i>
-                                theme####.zip
+                                theme1330.zip
                             </dt>
                             <dd> theme archive. Contains all theme files. It is installed using standard
                                 PrestaShop installation method

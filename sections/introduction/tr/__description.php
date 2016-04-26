@@ -130,7 +130,7 @@
                         <dl class="inline-term">
                             <dt>
                                 <i class="fa fa-file"></i>
-                                theme####.zip
+                                theme1330.zip
                             </dt>
                             <dd> tema arşivi. Tüm tema dosyalarını içerir. Standart PrestaShop kurulumu
                                 sırasında kullanılır.

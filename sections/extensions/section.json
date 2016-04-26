@@ -55,76 +55,6 @@
       }
     },
     {
-      "id": "tmmediaparallax",
-      "translations": {
-        "en": "Media Parallax Module",
-        "ru": "Модуль Media Parallax",
-        "es": "M&oacute;dulo Media parallax",
-        "de": "Modul Media Parallax",
-        "fr": "Module Media Parallax",
-        "it": "Modulo Media Parallax",
-        "pl": "Media Parallax Module",
-        "pt": "Media Parallax Module",
-        "tr": "Media Parallax Module"
-      }
-    },
-    {
-      "id": "tmmediaparallax20",
-      "translations": {
-        "en": "TM Media Parallax 2.0",
-        "ru": "TM Media Parallax 2.0",
-        "es": "TM Media parallax 2.0",
-        "de": "TM Media Parallax 2.0",
-        "fr": "TM Media Parallax 2.0",
-        "it": "TM Media Parallax 2.0",
-        "pl": "TM Media Parallax 2.0",
-        "pt": "TM Media Parallax 2.0",
-        "tr": "TM Media Parallax 2.0"
-      }
-    },
-    {
-      "id": "tmvideobackground",
-      "translations": {
-        "en": "Video Background Module",
-        "ru": "Модуль Video Background",
-        "es": "M&oacute;dulo de Video en segundo plano",
-        "de": "Modul Video Background",
-        "fr": "Module de Vidéo en Arrière-Plan",
-        "it": "Modulo Video Background",
-        "pl": "Moduł Video Background",
-        "pt": "Video Background Module",
-        "tr": "Video Background Module"
-      }
-    },
-    {
-      "id": "tmhtmlcontent",
-      "translations": {
-        "en": "TM HTML Content",
-        "ru": "Модуль TM HTML Content",
-        "es": "Contenido TM HTML",
-        "de": "Modul TM HTML Content",
-        "fr": "Contenu TM HTML",
-        "it": "TM HTML Content",
-        "pl": "TM HTML Content",
-        "pt": "TM HTML Content",
-        "tr": "TM HTML Content"
-      }
-    },
-    {
-      "id": "tmcategoriesbadges",
-      "translations": {
-        "en": "TM Categories Badges",
-        "ru": "TM Categories Badges",
-        "es": "TM Categories Badges",
-        "de": "TM Categories Badges",
-        "fr": "TM Categories Badges",
-        "it": "TM Categories Badges",
-        "pl": "TM Categories Badges",
-        "pt": "TM Categories Badges",
-        "tr": "TM Categories Badges"
-      }
-    },
-    {
       "id": "tmgooglemap",
       "translations": {
         "en": "TM Google Map",
@@ -181,20 +111,6 @@
       }
     },
     {
-      "id": "tmsocialfeeds",
-      "translations": {
-        "en": "TM Social Feeds",
-        "ru": "TM Social Feeds",
-        "es": "TM Social Feeds",
-        "de": "TM Social Feeds",
-        "fr": "TM Social Feeds",
-        "it": "TM Social Feeds",
-        "pl": "TM Social Feeds",
-        "pt": "TM Social Feeds",
-        "tr": "TM Social Feeds"
-      }
-    },
-    {
       "id": "tmheaderaccount",
       "translations": {
         "en": "TM Header Account",
@@ -220,6 +136,20 @@
         "pl": "TM Homepage Products Carousel",
         "pt": "TM Homepage Products Carousel",
         "tr": "TM Homepage Products Carousel"
+      }
+    },
+    {
+      "id": "tmmosaicproducts",
+      "translations": {
+        "en": "TM Mosaic Products",
+        "ru": "TM Mosaic Products",
+        "es": "TM Mosaic Products",
+        "de": "TM Mosaic Products",
+        "fr": "TM Mosaic Products",
+        "it": "TM Mosaic Products",
+        "pl": "TM Mosaic Products",
+        "pt": "TM Mosaic Products",
+        "tr": "TM Mosaic Products"
       }
     },
     {
@@ -290,20 +220,6 @@
         "pl": "TM Olark Chat",
         "pt": "TM Olark Chat",
         "tr": "TM Olark Chat"
-      }
-    },
-    {
-      "id": "tmproductzoomer",
-      "translations": {
-        "en": "TM Product Zoomer",
-        "ru": "TM Product Zoomer",
-        "es": "TM Product Zoomer",
-        "de": "TM Product Zoomer",
-        "fr": "TM Product Zoomer",
-        "it": "TM Product Zoomer",
-        "pl": "TM Product Zoomer",
-        "pt": "TM Product Zoomer",
-        "tr": "TM Product Zoomer"
       }
     }
   ]

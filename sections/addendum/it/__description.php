@@ -56,7 +56,7 @@
     <h4>Impossibile caricare i font di Google: </h4>
 
     <ol class="index-list">
-        <li><p>Apri il file <strong>\themes\theme****\header.tpl</strong>.</p></li>
+        <li><p>Apri il file <strong>\themes\theme1330\header.tpl</strong>.</p></li>
         <li><p>Individua la riga: </p>
             <pre>&lt;link rel="stylesheet" href="http{if Tools::usingSecureMode()}s{/if}://fonts.googleapis.com/css?family=[---your_web_font_name_here---]" type="text/css" media="all" /&gt; </pre>
         </li>

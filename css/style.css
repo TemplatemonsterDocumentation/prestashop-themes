@@ -30,7 +30,7 @@ h1 {
 h2 {
   font-size: 45px;
   line-height: 1.37;
-  color: #E91E63;
+  color: #303f9f;
   margin-top: 60px;
   margin-bottom: 20px;
 }
@@ -41,7 +41,7 @@ h2 {
 }
 
 h3 {
-  color: #E91E63;
+  color: #303f9f;
   font-size: 34px;
   line-height: 1.47;
   margin-top: 60px;
@@ -111,7 +111,7 @@ article article {
   padding-right: 10%;
 }
 article a {
-  color: #E91E63;
+  color: #303f9f;
 }
 article a:hover {
   text-decoration: underline;
@@ -212,7 +212,7 @@ b, strong {
 .files_structure li .fa {
   margin-top: 3px;
   margin-right: 10px;
-  color: #526c78;
+  color: #85aefe;
   font-size: 16px;
 }
 .files_structure li ul {
@@ -400,7 +400,7 @@ blockquote {
   padding: 56px 0 56px;
   z-index: 9999996;
   text-align: left;
-  color: #333;
+  color: #333333;
   background: #f9f9f9;
   -moz-transform: translateX(-300px);
   -ms-transform: translateX(-300px);
@@ -422,7 +422,7 @@ blockquote {
   left: 0;
   right: 0;
   height: 112px;
-  background: #33434b;
+  background: #3a7cfd;
   padding: 23px 24px;
   text-align: left;
   -moz-box-sizing: border-box;
@@ -513,8 +513,8 @@ blockquote {
   padding: 14px 25px 16px;
 }
 .rd-mobilemenu_ul a:hover, .rd-mobilemenu_ul a.active, .rd-mobilemenu_ul a.opened {
-  background: #eee;
-  color: #333;
+  background: #eeeeee;
+  color: #333333;
 }
 .rd-mobilemenu_ul ul {
   margin: 0;
@@ -523,7 +523,7 @@ blockquote {
   padding-left: 50px;
 }
 .rd-mobilemenu_ul ul a.focus {
-  color: #E91E63;
+  color: #303f9f;
 }
 .rd-mobilemenu_ul ul ul a {
   padding-left: 60px;
@@ -534,36 +534,42 @@ blockquote {
   height: 20px;
 }
 
+@media (max-width: 1725px) {
+  .rd-mobilepanel:not(.fixed) .rd-mobilepanel_title {
+    right: auto;
+    width: 100%;
+    background: rgba(33, 60, 114, 0.8);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    bottom: 51px;
+  }
+}
+
 .rd-mobilepanel_title {
   position: absolute;
-  left: 64px;
+  left: 0;
   width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
   right: 300px;
-  bottom: 61px;
-  color: #FFF;
+  bottom: 91px;
+  font-weight: normal;
+  color: white;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-size: 40px;
+  padding-left: 70px;
 }
-@media (max-width: 1599px) {
-  .rd-mobilepanel_title {
-    right: 64px;
-  }
+.rd-mobilepanel_title span.ttl {
+  display: block;
+  text-transform: uppercase;
+  font-size: 61px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
 }
-@media (min-width: 1068px) and (max-width: 1301px) {
+@media (min-width: 1726px) {
   .rd-mobilepanel_title {
-    width: 940px;
-  }
-}
-@media (min-width: 878px) and (max-width: 1067px) {
-  .rd-mobilepanel_title {
-    width: 748px;
-  }
-}
-@media (max-width: 877px) {
-  .rd-mobilepanel_title {
-    width: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media (max-width: 479px) {
@@ -577,9 +583,9 @@ blockquote {
   top: 0;
   left: 0;
   right: 0;
-  height: 256px;
-  background: #3D515A;
-  color: #FFF;
+  height: 600px;
+  background: url("../img/Electroni.png") no-repeat right top #538dfd;
+  color: white;
   z-index: 9999997;
 }
 .rd-mobilepanel.fixed {
@@ -588,10 +594,22 @@ blockquote {
   -webkit-box-shadow: -3px 3px 6px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: -3px 3px 6px 0 rgba(0, 0, 0, 0.1);
   box-shadow: -3px 3px 6px 0 rgba(0, 0, 0, 0.1);
+  background-image: none;
 }
 .rd-mobilepanel.fixed .rd-mobilepanel_title {
   transform: translateY(50.25px);
-  font-size: 24px;
+  bottom: 57px;
+  font-size: 30px;
+  line-height: 1.7;
+}
+.rd-mobilepanel.fixed .rd-mobilepanel_title span.ttl {
+  display: none;
+}
+@media (max-width: 359px) {
+  .rd-mobilepanel.fixed .rd-mobilepanel_title {
+    font-size: 22px !important;
+    padding-left: 60px;
+  }
 }
 .rd-mobilepanel .panel {
   position: absolute;
@@ -678,7 +696,7 @@ body.navbar-fixed {
 .rd-mobilepanel_toggle span:after, .rd-mobilepanel_toggle span:before, .rd-mobilepanel_toggle span {
   width: 24px;
   height: 4px;
-  background-color: #FFF;
+  background-color: white;
   backface-visibility: hidden;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -727,11 +745,6 @@ body.navbar-fixed {
   display: none;
 }
 
-@media (max-width: 359px) {
-  .rd-mobilepanel_title {
-    font-size: 18px;
-  }
-}
 /*==================== Stuck ====================*/
 .stuck {
   -moz-transition: transform 0.3s ease;
@@ -740,7 +753,7 @@ body.navbar-fixed {
   transition: transform 0.3s ease;
   padding-top: 123px;
   padding-bottom: 69px;
-  background: #3D515A;
+  background: #538dfd;
 }
 .stuck .container {
   position: relative;
@@ -930,69 +943,69 @@ body.navbar-fixed {
   animation: open 0.3s 1 forwards;
 }
 @-webkit-keyframes open {
-  0% {
+  .select.opened 0%  {
     opacity: 0;
     height: 0;
   }
-  20% {
+  .select.opened 20%  {
     opacity: 0;
   }
-  60% {
+  .select.opened 60%  {
     opacity: 0.5;
     height: 26px;
   }
-  100% {
+  .select.opened 100%  {
     opacity: 1;
     height: 26px;
   }
 }
 @-moz-keyframes open {
-  0% {
+  .select.opened 0%  {
     opacity: 0;
     height: 0;
   }
-  20% {
+  .select.opened 20%  {
     opacity: 0;
   }
-  60% {
+  .select.opened 60%  {
     opacity: 0.5;
     height: 26px;
   }
-  100% {
+  .select.opened 100%  {
     opacity: 1;
     height: 26px;
   }
 }
 @-ms-keyframes open {
-  0% {
+  .select.opened 0%  {
     opacity: 0;
     height: 0;
   }
-  20% {
+  .select.opened 20%  {
     opacity: 0;
   }
-  60% {
+  .select.opened 60%  {
     opacity: 0.5;
     height: 26px;
   }
-  100% {
+  .select.opened 100%  {
     opacity: 1;
     height: 26px;
   }
 }
 @keyframes open {
-  0% {
+  .select.opened 0%  {
     opacity: 0;
     height: 0;
   }
-  20% {
+  .select.opened 20%  {
     opacity: 0;
   }
-  60% {
+  .select.opened 60%  {
     opacity: 0.5;
     height: 26px;
   }
-  100% {
+  .select.opened 100%  {
     opacity: 1;
     height: 26px;
   }
@@ -1037,7 +1050,7 @@ body.navbar-fixed {
   font-size: 24px;
   line-height: 52px;
   color: #fff;
-  background: #3D515A;
+  background: #538dfd;
   border-radius: 50%;
   -webkit-box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.15);
@@ -1061,7 +1074,7 @@ body.navbar-fixed {
 }
 .toTop:hover {
   color: #fff;
-  background: #33434b;
+  background: #3a7cfd;
   text-decoration: none;
 }
 .toTop.active {
@@ -1090,7 +1103,7 @@ body.navbar-fixed {
                      HEADER  Section
 =========================================================*/
 header {
-  background: #3D515A;
+  background: #538dfd;
   color: #ffffff;
 }
 header h1, header h2, header h3, header h4, header h5, header h6 {
