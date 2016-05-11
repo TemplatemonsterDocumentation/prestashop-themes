@@ -64,7 +64,7 @@
 <h4>Can't load Google Fonts: </h4>
 
 <ol class="index-list">
-    <li><p>Open <strong>\themes\theme****\header.tpl</strong> file.</p></li>
+    <li><p>Open <strong>\themes\theme1335\header.tpl</strong> file.</p></li>
     <li><p>Locate the line: </p>
         <code>&lt;link rel="stylesheet" href="http{if
             Tools::usingSecureMode()}s{/if}://fonts.googleapis.com/css?family=[---your_web_font_name_here---]"

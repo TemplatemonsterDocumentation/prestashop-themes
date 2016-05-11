@@ -133,7 +133,7 @@
                         <dl class="inline-term">
                             <dt>
                                 <i class="fa fa-file"></i>
-                                theme####.zip
+                                theme1335.zip
                             </dt>
                             <dd class="muted"> archiwum motywu. Zawiera wszystkie pliki motywu. Jest ono instalowane
                                 przy użyciu standardowej metody instalacji PrestaShop

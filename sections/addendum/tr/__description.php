@@ -56,7 +56,7 @@
     <h4>Google Fontlarını yükleyemiyorsanız: </h4>
 
     <ol class="index-list">
-        <li><p><strong>\themes\theme****\header.tpl</strong> dosyasını açın.</p></li>
+        <li><p><strong>\themes\theme1335\header.tpl</strong> dosyasını açın.</p></li>
         <li><p>Şu satırı bulun: </p>
             <pre>&lt;link rel="stylesheet" href="http{if Tools::usingSecureMode()}s{/if}://fonts.googleapis.com/css?family=[---your_web_font_name_here---]" type="text/css" media="all" /&gt; </pre>
         </li>

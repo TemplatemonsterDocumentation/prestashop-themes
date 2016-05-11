@@ -1,7 +1,7 @@
 /*==================   RD Mobile Menu    =====================*/
 $light-theme: (
         panel-background-color: $color-1,
-        panel-text-color: #FFF,
+        panel-text-color: #263238,
         menu-background-color: #f9f9f9,
         menu-item-color: #333,
         menu-item-hover-color: #333,
@@ -43,7 +43,7 @@ $rd-menu-width-mobile: 250px;
     left: 0;
     right: 0;
     height: $rd-mobilepanel-height*2;
-    background: darken(map-get($rd-theme, panel-background-color), 5%);
+    background: map-get($rd-theme, panel-background-color);
     padding: 23px 24px;
     text-align: left;
     @include box-sizing(border-box);
@@ -162,22 +162,30 @@ $rd-menu-width-mobile: 250px;
 
 .rd-mobilepanel_title {
   position: absolute;
-  left: 64px;
+  left: 70px;
   width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
   right: 300px;
-  bottom: 61px;
+  bottom: 91px;
+  font-weight: normal;
   color: map-get($rd-theme, panel-text-color);
   text-overflow: ellipsis;
   white-space: nowrap;
-
-  @media (max-width: 1599px) {
-    right: 64px;
+  font-size: 40px !important;
+  margin-left: auto;
+  margin-right: auto;
+  span.ttl {
+    display: block;
+    text-transform: uppercase;
+    font-size: 61px;
+    font-weight: 700;
   }
-
-  @media (min-width: 1068px) and (max-width: 1301px) {
-    width: 940px;
+  @media (max-width: 1599px) {
+    left: 0;
+    right: 0;
+    width: auto;
+    padding: 55px 90px;
+    background: rgba(#ffffff, 0.87);
+    z-index: 2;
   }
 
   @media (min-width: 878px) and (max-width: 1067px) {
@@ -200,19 +208,35 @@ $rd-menu-width-mobile: 250px;
   top: 0;
   left: 0;
   right: 0;
-  height: 256px;
-  background: map-get($rd-theme, panel-background-color);
+  height: 600px;
   color: map-get($rd-theme, panel-text-color);
   z-index: 9999997;
-
+  animation: 2.5s ease-in-out 0s normal none 1 fadeIn;
+  -webkit-animation: 2.5s ease-in-out 0s normal none 1 fadeIn;
+  &:before, &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+  &:before {
+    background: url("../img/bg.jpg") no-repeat center;
+    background-size: cover;
+  }
+  &:after {
+    background: url("../img/Bikerita.png") no-repeat right top;
+  }
   &.fixed {
     position: fixed;
     height: 56px;
     @include box-shadow(-3px 3px 6px 0 rgba(0, 0, 0, .1));
-
+    background-image: none;
     .rd-mobilepanel_title {
       transform: translateY(50.25px);
-      font-size: 24px;
+      bottom: 57px;
+      font-size: 30px !important;
     }
   }
 
@@ -221,6 +245,26 @@ $rd-menu-width-mobile: 250px;
     right: 10px;
     bottom: 14px;
     @include transition(.3s all cubic-bezier(0.2, 1, 0.3, 1));
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
 

@@ -134,7 +134,7 @@
                         <dl class="inline-term">
                             <dt>
                                 <i class="fa fa-file"></i>
-                                theme####.zip
+                                theme1335.zip
                             </dt>
                             <dd> архив темы. Включает в себя все файлы темы. Устанавливается
                                 стандартным методом установки в PrestaShop
