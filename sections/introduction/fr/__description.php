@@ -137,7 +137,7 @@
                         <dl class="inline-term">
                             <dt>
                                 <i class="fa fa-file"></i>
-                                theme####.zip
+                                theme1343.zip
                             </dt>
                             <dd> archive du thème. Contient tous les fichiers du thème. Installation via la méthode
                                 d'installation standard de PrestaShop

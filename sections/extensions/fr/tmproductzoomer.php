@@ -1,91 +1,106 @@
 <h3>TM Product Zoomer</h3>
+<p>This module is an alternative solution for the standard product image zoom on the single product page.
+    It's fully compatible with the standard additional products thumbnail carousel and product attributes changes.
+    It allows you to choose among the three available options (window/lens/inner) for image zoom with the advanced plugin's settings.
+    The module is based on the <a href="//igorlino.github.io/elevatezoom-plus/" target="_blank">Elevatezoom Plus</a> plugin.</p>
 
-<p>Ce module est une solution alternative pour le zoom de l'image du produit sur la page du produit. Il est entièrement compatible avec le carrousel des vignettes de produit et les attributs du produit. Il vous permet de choisir parmi les trois options disponibles (fenêtre/lentille/partie interne) pour l'image zoom avec les paramètres avancés du plug-in. Le module est basé sur plugin <a href="//igorlino.github.io/elevatezoom-plus/" target="_blank">Elevatezoom Plus</a>.</p>
+<h5>Installation and removing</h5>
 
-<h5>Installation et suppression</h5>
-<p>Le module peut être installé et supprimé comme tout autre module PrestaShop. Une fois le module a été installé l'effet zoom standard sera automatiquement désactivé. Une fois le module a été supprimé l'effet zoom standard doit être activé manuellement (dans le cas de besoin) dans la section <strong>Preferences->Products->Enable JqZoom instead of Fancybox on the product page</strong>.</p>
-<h5>Configuration de module</h5>
-<p>Une fois le module a été installé, vous pouvez le configurer sur la page de configuration du module.</p>
-<p>Par défaut, la page de configuration montre l'ensemble <strong>simplifié</strong> d'options.</p>
-<figure class="img-polaroid"><img src="img/tmproductzoomer-1.png" alt="" /></figure>
+<p>The module is installed and deleted like any other Prestashop module. After module has been installed the standard product zoom effect will be automatically disabled.
+    After deleting the module standard effect should be enabled back manually (if needed) in the <strong>Preferences->Products->Enable JqZoom instead of Fancybox on the
+        product page</strong> section.</p>
+
+<h5>Module configuration</h5>
+
+<p>After the module has been installed you can configure it on the module configuration page.</p>
+
+<p>By default the configuration page shows the <strong>simplified</strong> set of options.</p>
+
+<figure class="img-polaroid">
+    <img src="img/tmproductzoomer-1.png" alt=""/>
+</figure>
+
 <ol class="index-list">
-    <li><strong>Mode Live (Live mode)</strong> - module est on/off </li>
-    <li><strong>Fancybox (Fancybox)</strong> - si vous souhaitez afficher l'image agrandie dans le Fancybox sur clic.</li>
-    <li><strong>Changer l'image sur hover (Change image on hover)</strong> - changer l'image principale sur hover de vignette (par défaut peut être changé sur clic)</li>
-    <li><strong>Responsive (Responsive)</strong> - permet d'utiliser la fonctionnalité adaptative pour d'affichage de plug-in sur les appareils mobiles</li>
-    <li><strong>Type de zoom (Zoom Type)</strong> - choisir le type de mode d'affichage de l'image agrandie
+    <li><strong>Live mode</strong> - module is on/off </li>
+    <li><strong>Fancybox</strong> - whether to show the enlarged image in the Fancybox on click.</li>
+    <li><strong>Change image on hover</strong> - switch the main image on thumbnail hover (by default is set to switch on click)</li>
+    <li><strong>Responsive</strong> - allows to the use adaptive functionality for plugin display on the mobile devices</li>
+    <li><strong>Zoom Type</strong> - choose the type of the enlarged image display mode
         <ul>
-            <li><strong>fenêtre (window)</strong> - l'image agrandie apparaît à côté de l'image principale dans l'une des positions disponibles (16)</li>
-            <li><strong>lentille (lens)</strong> - l'image est agrandie dans le conteneur de lentille, au-dessus de celui-ci</li>
-            <li><strong>partie interne (inner)</strong> - l'image est agrandie à l'intérieur du conteneur d'image principale</li>
+            <li><strong>window</strong> - the enlarged image shows up next to the main one in one of the available (16) positions</li>
+            <li><strong>lens</strong> - the image is zoomed in the lens container, on top of the it</li>
+            <li><strong>inner</strong> - the image is zoomed inside of the main image container, with the full cover on it</li>
         </ul>
-        <div class="alert alert-info"><span>Les appareils mobiles(&lt; 768) ont mode "lentille" activé instantanément</span></div>
+        <div class="alert alert-info"><span>The mobile devices(&lt; 768) have "lens" mode activated instantly</span></div>
     </li>
-    <li><strong>(Extended settings)</strong> - activer les paramètres avancés pour les utilisateurs expérimentés. À côté vous pouvez voir le lien vers <a href="//igorlino.github.io/elevatezoom-plus/api.htm" target="_blank"> la documentation officielle pour plus de détails</a>.</li>
+    <li><strong>Extended settings</strong> - enables advanced settings for the experienced users. You can see the link to the official <a href="//igorlino.github.io/elevatezoom-plus/api.htm" target="_blank"> documentation for more details</a> next to it.</li>
 </ol>
-<p><strong>configuration étendue</strong> du module</p>
+
+<p><strong>Extended</strong> module configuration</p>
+
 <ol class="index-list">
-    <li><strong>Défilement Zoom (Scroll Zoom)</strong> - changement de zoom à l'aide de la molette de souris.
-        (pour tous les types)</li>
-    <li><strong>Curseur(Cursor)</strong> - type de curseur sur hover de l'image agrandie. Il y a les options suivantes: défaut, curseur, réticule. (pour tous les types)</li>
-    <li><strong>paramètres de zoom(zoom settings)</strong> - (pour tous les types, si 'Défilement Zoom' ('Scroll Zoom') est activé)
+    <li><strong>Scroll Zoom</strong> - zoom ratio change on the mousewheel scroll.
+        (available for all types)</li>
+    <li><strong>Cursor</strong> - cursor type on the magnified image hover. There are the following options available: default, cursor, crosshair. (available for all types)</li>
+    <li><strong>zoom settings</strong> - (available for all types, if the 'Scroll Zoom' is enabled)
         <figure class="img-polaroid"><img src="img/tmproductzoomer-2.png" alt="" /></figure>
         <ul>
-            <li>Niveau de zoom (Zoom Level) - le niveau de zoom sur hover initial</li>
-            <li>Min Niveau de zoom (Min Zoom Level) - niveau de zoom minimum</li>
-            <li>Max Niveau de zoom (Max Zoom Level) - niveau de zoom maximum</li>
-            <li>Défilement Zoom Incrément (Scroll Zoom Increment) - incrément lors de défilement</li>
+            <li>Zoom Level - the zoom level on the initial hover</li>
+            <li>Min Zoom Level - a minimum zoom level</li>
+            <li>Max Zoom Level - a maximum zoom level</li>
+            <li>Scroll Zoom Increment - increment on the magnifying scroll</li>
         </ul>
     </li>
-    <li><strong>Assouplissement (Easing)</strong> - l'effet de l'apparence de l'image agrandie (pour tous les types)
+    <li><strong>Easing</strong> - the magnified image appearance effect (available for all types)
         <figure class="img-polaroid"><img src="img/tmproductzoomer-3.png" alt="" /></figure>
         <ul>
-            <li>Zoom Assouplissement (Zoom Easing) - effet on/off</li>
-            <li>Assouplissement (Easing Amount) - retard de l'effet</li>
+            <li>Zoom Easing - effect on/off</li>
+            <li>Easing Amount - effect delay value</li>
         </ul>
     </li>
-    <li><strong>Image Crossfade (Image Crossfade)</strong> -  flou de l'image principale en dehors de la zone de hover (lentille).
-        (disponible pour la fenêtre, la lentille)</li>
-    <li><strong>paramètres de la fenêtre d'image agrandie (magnified image window settings)</strong> - (disponible pour la fenêtre)
+    <li><strong>Image Crossfade</strong> - main image blur outside the hover area (the lens).
+        (available for window, lens)</li>
+    <li><strong>magnified image window settings</strong> - (available for window)
         <figure class="img-polaroid"><img src="img/tmproductzoomer-4.png" alt="" /></figure>
         <ul>
-            <li>Largeur de la fenêtre de zoom (Zoom Window Width) - largeur de la fenêtre en px</li>
-            <li>Hauteur de la fenêtre de zoom (Zoom Window Height) - hauteur de la fenêtre en px</li>
-            <li>Zoom Fenêtre Offset X (Zoom Window Offset X) - fenêtre décalée sur l'axe X</li>
-            <li>Zoom Fenêtre Offset Y (Zoom Window Offset Y) - fenêtre décalée sur l'axe Y</li>
-            <li>Zoom Fenêtre Position (Zoom Window Position) - choix de position de la fenêtre par rapport à l'image principale (les positions disponibles sont présentées sur l'image en dessous de ce champ)</li>
-            <li>Zoom Fenêtre Bg Couleur (Zoom Window Bg Color) - image de fond de la fenêtre (pour des images transparentes uniquement)</li>
-            <li>Zoom Fenêtre Fondu en entrée (Zoom Window Fade In) - l'effet de ralentissement de l'apparence de la fenêtre</li>
-            <li>Zoom Fenêtre Fondu en sortie (Zoom Window Fade Out) - l'effet de ralentissement de disparition de la fenêtre</li>
-            <li>Taille de la bordure (Border Size) - largeur de la bordure de la fenêtre en px</li>
-            <li>Couleur de la bordure (Border Color) - couleur de la bordure de la fenêtre</li>
+            <li>Zoom Window Width - window width in px</li>
+            <li>Zoom Window Height - window height in px</li>
+            <li>Zoom Window Offset X - window offset on the X axis</li>
+            <li>Zoom Window Offset Y - window offset on the Y axis</li>
+            <li>Zoom Window Position - window position choice relatively to the main image (the positions available are presented on the image below this field)</li>
+            <li>Zoom Window Bg Color - window background image (for transparent images only)</li>
+            <li>Zoom Window Fade In - the effect of slowing the window appearance</li>
+            <li>Zoom Window Fade Out - the effect of slowing the window disappearance</li>
+            <li>Border Size - window border width in px</li>
+            <li>Border Color - window border color</li>
         </ul>
     </li>
-    <li><strong>Zoom Lentille (Zoom Lens)</strong> - zoom lentille (disponible pour la fenêtre, la lentille)
+    <li><strong>Zoom Lens</strong> - zoom lens (available for window, lens)
         <figure class="img-polaroid"><img src="img/tmproductzoomer-5.png" alt="" /></figure>
         <ul>
-            <li>Zoom Lentille (Zoom Lens) - on/off</li>
-            <li>Forme de Lentille (Lens Shape) - type de lentille. Il peut prendre les valeurs suivantes: circulaire/arrondi ou carré/rectangulaire</li>
-            <li>Couleur de Lentille (Lens Color) - couleur de fond de lentille</li>
-            <li>Opacité de Lentille (Lens Opacity) - opacité de fond de lentille</li>
-            <li>Taille de Lentille (Lens Size) - taille de lentille en px</li>
-            <li>Lentille Fondu en entrée (Lens Fade In) - la vitesse de l'effet de l'apparence de la lentille</li>
-            <li>Lentille Fondu en sortie (Lens Fade Out) - la vitesse de l'effet de disparition de la lentille</li>
-            <li>Bordure de Lentille (Lens Border) - largeur de la bordure de lentille</li>
-            <li>Couleur de la bordure de Lentille (Lens Border Color) - couleur de la bordure de Lentille</li>
-            <li>Contient Lentille Zoom (Contain Lens Zoom) - la restriction du débordement de la lentille dehors de conteneur principal de l'image</li>
+            <li>Zoom Lens - on/off</li>
+            <li>Lens Shape - lens type. It can take the following values: circular/rounded or squared/rectangular</li>
+            <li>Lens Color - lens inner background color</li>
+            <li>Lens Opacity - lens inner background opacity</li>
+            <li>Lens Size - lens size in px</li>
+            <li>Lens Fade In - the speed of lens appearance effect</li>
+            <li>Lens Fade Out - the speed of lens disappearance effect</li>
+            <li>Lens Border - lens border width</li>
+            <li>Lens Border Color - lens border color</li>
+            <li>Contain Lens Zoom - the restriction of the lens overflow outwards the main image container</li>
         </ul>
     </li>
-    <li><strong>Teinte (Tint)</strong> - l'effet de l'ombre sur la zone en dehors de la lentille (disponible pour fenêtre)
+    <li><strong>Tint</strong> - the shade effect on the area outside the lens (available for window)
         <figure class="img-polaroid"><img src="img/tmproductzoomer-6.png" alt="" /></figure>
         <ul>
-            <li>Teinte (Tint) - effet on/off</li>
-            <li>Couleur Teinte (Tint Color) - arrière-plan de la zone extérieure de la lentille</li>
-            <li>Teinte Opacité (Tint Opacity) - opacité de la zone extérieure de la lentille</li>
-            <li>Teinte Fondu en entrée (Tint Fade In) - la vitesse de l'effet de l'apparence</li>
-            <li>Teinte Fondu en sortie (Tint Fade Out) -la vitesse de l'effet de la disparition</li>
+            <li>Tint - effect on/off</li>
+            <li>Tint Color - the lens outer area background</li>
+            <li>Tint Opacity - the lens outer area opacity</li>
+            <li>Tint Fade In - the appearance effect speed</li>
+            <li>Tint Fade Out - the disappearance effect speed</li>
         </ul>
     </li>
 </ol>
-<div class="alert alert-info">Si vous changez le type de zoom, les options avancées afficheront uniquement les paramètres disponibles pour le type sélectionné.</div>
-<div class="alert alert-warning">Soyez prudent lors de modification des paramètres étendus. Si les paramètres sont définis de manière incorrecte, l'effet peut ne pas répondre à vos attentes.</div>
+
+<div class="alert alert-info">If you switch the zoom type, advanced options set is changed accordingly to show only the available parameters for the type selected.</div>
+<div class="alert alert-warning">Be careful when editing the extended settings. If the settings are set incorrectly, the effect can be ugly.</div>

@@ -1,94 +1,106 @@
 <h3>TM Product Zoomer</h3>
+<p>This module is an alternative solution for the standard product image zoom on the single product page.
+    It's fully compatible with the standard additional products thumbnail carousel and product attributes changes.
+    It allows you to choose among the three available options (window/lens/inner) for image zoom with the advanced plugin's settings.
+    The module is based on the <a href="//igorlino.github.io/elevatezoom-plus/" target="_blank">Elevatezoom Plus</a> plugin.</p>
 
-<p>Ten moduł jest alternatywą dla standardowego powiększenia zdjęcia produktu na stronie pojedynczego produktu. Jest w pełni kompatybilny z karuzelą standardowych miniatur dodatkowych produktów oraz zmianami atrybutów produktów. Zezwala na wybieranie spośród trzech dostępnych opcji (okno/obiektyw/wewnętrznie) dla powiększenia obrazu z ustawieniami zaawansowanego plugin'u. Ten moduł jest oparty na plugin'ie <a href="//igorlino.github.io/elevatezoom-plus/" target="_blank">Elevatezoom Plus</a>.</p>
+<h5>Installation and removing</h5>
 
-<h5>Instalacja oraz usuwanie</h5>
-<p>Instalacja oraz usuwanie modułu są takie same jak każdego innego modułu PrestaShop. Po zakończeniu instalacji modułu standardowy efekt powiększenia produktu zostanie automatycznie wyłączony. Po usunięciu modułu należy manualnie włączyć z powrotem efekt standardowy (w razie potrzeby) w sekcji <strong>Preferencje-> Produkty-> Włącz JqZoom zamiast Fancybox na stronie produktu (Preferences->Products->Enable JqZoom instead of Fancybox on the product page)</strong> .</p>
-<h5>Konfiguracja produktu</h5>
-<p>Po zakończeniu instalacji modułu można skonfigurować go na stronie konfiguracji modułu.</p>
-<p>Domyślnie strona konfiguracji pokazuje <strong>uproszczony</strong> zestaw opcji.</p>
+<p>The module is installed and deleted like any other Prestashop module. After module has been installed the standard product zoom effect will be automatically disabled.
+    After deleting the module standard effect should be enabled back manually (if needed) in the <strong>Preferences->Products->Enable JqZoom instead of Fancybox on the
+        product page</strong> section.</p>
+
+<h5>Module configuration</h5>
+
+<p>After the module has been installed you can configure it on the module configuration page.</p>
+
+<p>By default the configuration page shows the <strong>simplified</strong> set of options.</p>
+
 <figure class="img-polaroid">
     <img src="img/tmproductzoomer-1.png" alt=""/>
 </figure>
+
 <ol class="index-list">
-    <li><strong>Tryb live</strong> - moduł jest włączony/wyłączony </li>
+    <li><strong>Live mode</strong> - module is on/off </li>
     <li><strong>Fancybox</strong> - whether to show the enlarged image in the Fancybox on click.</li>
-    <li><strong>Zmiana obrazka po najechaniu kursorem</strong> - przełączenie głównego obrazka po najechaniu kursorem na miniaturkę (domyślnie jest ustawiony na włączanie przez kliknięcie)</li>
-    <li><strong>Reagujący</strong> - pozwala na wykorzystanie funkcjonalności adaptacyjnej dla plugin'a wyświetlania na urządzeniach mobilnych</li>
-    <li><strong>Typ Powiększenia</strong> - należy wybrać rodzaj trybu wyświetlania powiększonego obrazka
+    <li><strong>Change image on hover</strong> - switch the main image on thumbnail hover (by default is set to switch on click)</li>
+    <li><strong>Responsive</strong> - allows to the use adaptive functionality for plugin display on the mobile devices</li>
+    <li><strong>Zoom Type</strong> - choose the type of the enlarged image display mode
         <ul>
-            <li><strong>okno</strong> - powiększony obrazek pojawia się obok głównego w jednej z dostępnych pozycji (16)</li>
-            <li><strong>obiektyw</strong> - obrazek jest powiększony w kontenerze obiektywu, nad głównym obrazkiem</li>
-            <li><strong>wewnętrznie</strong> - obrazek jest powiększony wewnątrz kontenera głównego obrazka, całkowicie go pokrywając</li>
+            <li><strong>window</strong> - the enlarged image shows up next to the main one in one of the available (16) positions</li>
+            <li><strong>lens</strong> - the image is zoomed in the lens container, on top of the it</li>
+            <li><strong>inner</strong> - the image is zoomed inside of the main image container, with the full cover on it</li>
         </ul>
-        <div class="alert alert-info">Tryb "obiektyw" w urządzeniach mobilnych (&lt; 768) jest aktywowany natychmiastowo</div>
+        <div class="alert alert-info"><span>The mobile devices(&lt; 768) have "lens" mode activated instantly</span></div>
     </li>
-    <li><strong>Rozszerzone ustawienia</strong> - umożliwia zaawansowane ustawienia dla doświadczonych użytkowników. Można zobaczyć łącze do oficjalnej dokumentacji <a href="//igorlino.github.io/elevatezoom-plus/api.htm" target="_blank"> by otrzymać wiecej informacji</a>, tuż obok nich.</li>
+    <li><strong>Extended settings</strong> - enables advanced settings for the experienced users. You can see the link to the official <a href="//igorlino.github.io/elevatezoom-plus/api.htm" target="_blank"> documentation for more details</a> next to it.</li>
 </ol>
-<p><strong>Rozszerzona</strong> konfiguracja modułu</p>
+
+<p><strong>Extended</strong> module configuration</p>
+
 <ol class="index-list">
-    <li><strong>Powiększenie przez Przewijanie (Scroll Zoom)</strong> - proporcja powiększenia zmienia się podczas przewijania kółkiem myszki.
-        (dostępne dla wszystkich typów)</li>
-    <li><strong>Kursor</strong> - typ kursora na powiększonym obrazku po najechaniu. Można wyróżnić następujące opcje: domyślny, kursor, celownik. (dostępne dla wszystkich typów)</li>
-    <li><strong>ustawienia powiększenia</strong> - (dostępne dla wszystkich typów, jeżeli "Powiększenie przez Przewijanie" jest włączone)
+    <li><strong>Scroll Zoom</strong> - zoom ratio change on the mousewheel scroll.
+        (available for all types)</li>
+    <li><strong>Cursor</strong> - cursor type on the magnified image hover. There are the following options available: default, cursor, crosshair. (available for all types)</li>
+    <li><strong>zoom settings</strong> - (available for all types, if the 'Scroll Zoom' is enabled)
         <figure class="img-polaroid"><img src="img/tmproductzoomer-2.png" alt="" /></figure>
         <ul>
-            <li>Zoom Level - poziom powiększenia na początkowym najechaniu kursorem</li>
-            <li>Min Zoom Level - minimalny poziom powiększenia</li>
-            <li>Max Zoom Level - maksymalny poziom powiększenia</li>
-            <li>Scroll Zoom Increment - przysporzenie na przewijaniu powiększenia</li>
+            <li>Zoom Level - the zoom level on the initial hover</li>
+            <li>Min Zoom Level - a minimum zoom level</li>
+            <li>Max Zoom Level - a maximum zoom level</li>
+            <li>Scroll Zoom Increment - increment on the magnifying scroll</li>
         </ul>
     </li>
-    <li><strong>Easing</strong> - efekt wyglądu powiększonego obrazka (dostępne dla wszystkich typów)
+    <li><strong>Easing</strong> - the magnified image appearance effect (available for all types)
         <figure class="img-polaroid"><img src="img/tmproductzoomer-3.png" alt="" /></figure>
         <ul>
-            <li>Zoom Easing - włączony/wyłączony efekt</li>
-            <li>Easing Amount - wartość opóźnienia efektu</li>
+            <li>Zoom Easing - effect on/off</li>
+            <li>Easing Amount - effect delay value</li>
         </ul>
     </li>
-    <li><strong>Image Crossfade</strong> - rozmycie głównego obrazka poza obszarem najechania kursorem (obiektyw).
-        (dostępne dla okna, obiektywu)</li>
-    <li><strong>ustawienia okna powiększonego obrazka</strong> - (dostępne dla okna)
+    <li><strong>Image Crossfade</strong> - main image blur outside the hover area (the lens).
+        (available for window, lens)</li>
+    <li><strong>magnified image window settings</strong> - (available for window)
         <figure class="img-polaroid"><img src="img/tmproductzoomer-4.png" alt="" /></figure>
         <ul>
-            <li>Zoom Window Width - szerokość okna w pikselach</li>
-            <li>Zoom Window Height - wysokość okna w pikselach</li>
-            <li>Zoom Window Offset X - przesunięcie okna na osi X</li>
-            <li>Zoom Window Offset Y - przesunięcie okna na osi Y</li>
-            <li>Zoom Window Position - wybór położenia okna ze względu głównego obrazka (dostępne pozycje są przedstawione na poniższym rysunku)</li>
-            <li>Zoom Window Bg Color - obrazek tła okna (wyłącznie dla przezroczystych obrazków)</li>
-            <li>Zoom Window Fade In - efekt spowalniania pojawienia się okna</li>
-            <li>Zoom Window Fade Out - efekt spowalniania zniknięcia okna</li>
-            <li>Border Size - szerokość obramowania okna w pikselach</li>
-            <li>Border Color - kolor obramowania okna</li>
+            <li>Zoom Window Width - window width in px</li>
+            <li>Zoom Window Height - window height in px</li>
+            <li>Zoom Window Offset X - window offset on the X axis</li>
+            <li>Zoom Window Offset Y - window offset on the Y axis</li>
+            <li>Zoom Window Position - window position choice relatively to the main image (the positions available are presented on the image below this field)</li>
+            <li>Zoom Window Bg Color - window background image (for transparent images only)</li>
+            <li>Zoom Window Fade In - the effect of slowing the window appearance</li>
+            <li>Zoom Window Fade Out - the effect of slowing the window disappearance</li>
+            <li>Border Size - window border width in px</li>
+            <li>Border Color - window border color</li>
         </ul>
     </li>
-    <li><strong>Zoom Lens</strong> - powiększenie przez obiektyw (dostępne dla okna, obiektywu)
+    <li><strong>Zoom Lens</strong> - zoom lens (available for window, lens)
         <figure class="img-polaroid"><img src="img/tmproductzoomer-5.png" alt="" /></figure>
         <ul>
-            <li>Zoom Lens - włączony/wyłączony efekt</li>
-            <li>Lens Shape - typ obiektywu. Może przyjmować następujące wartości: okrągły/zaokrąglony lub kwadratowy/prostokątny</li>
-            <li>Lens Color - kolor tła wewnętrznego obiektywu</li>
-            <li>Lens Opacity - przezroczystość tła wewnętrznego obiektywu</li>
-            <li>Lens Size - rozmiar obiektywu w pikselach</li>
-            <li>Lens Fade In - szybkość efektu pojawienia się obiektywu</li>
-            <li>Lens Fade Out - szybkość efektu zniknięcia obiektywu</li>
-            <li>Lens Border - szerokość obramowania obiektywu</li>
-            <li>Lens Border Color - kolor obramowania obiektywu</li>
-            <li>Contain Lens Zoom - ograniczenie przepełnienia obiektywu na zewnątrz kontenera głównego obrazu</li>
+            <li>Zoom Lens - on/off</li>
+            <li>Lens Shape - lens type. It can take the following values: circular/rounded or squared/rectangular</li>
+            <li>Lens Color - lens inner background color</li>
+            <li>Lens Opacity - lens inner background opacity</li>
+            <li>Lens Size - lens size in px</li>
+            <li>Lens Fade In - the speed of lens appearance effect</li>
+            <li>Lens Fade Out - the speed of lens disappearance effect</li>
+            <li>Lens Border - lens border width</li>
+            <li>Lens Border Color - lens border color</li>
+            <li>Contain Lens Zoom - the restriction of the lens overflow outwards the main image container</li>
         </ul>
     </li>
-    <li><strong>Odcień (Tint)</strong> - efekt cienia na obszarze poza obiektywem (dostępne dla okna)
+    <li><strong>Tint</strong> - the shade effect on the area outside the lens (available for window)
         <figure class="img-polaroid"><img src="img/tmproductzoomer-6.png" alt="" /></figure>
         <ul>
-            <li>Tint - włączony/wyłączony efekt</li>
-            <li>Tint Color - tło zewnętrznego obszaru obiektywu</li>
-            <li>Tint Opacity - przezroczystość zewnętrznego obszaru obiektywu</li>
-            <li>Tint Fade In - szybkość efektu pojawienia się obiektywu</li>
-            <li>Tint Fade Out - szybkość efektu zniknięcia obiektywu</li>
+            <li>Tint - effect on/off</li>
+            <li>Tint Color - the lens outer area background</li>
+            <li>Tint Opacity - the lens outer area opacity</li>
+            <li>Tint Fade In - the appearance effect speed</li>
+            <li>Tint Fade Out - the disappearance effect speed</li>
         </ul>
     </li>
 </ol>
 
-<div class="alert alert-info">Jeżeli przełączyć typ powiększenia, zaawansowane opcje ustawienia również ulegną zmianie, aby wyświetlić tylko dostępne parametry dla wybranego typu.</div>
-<div class="alert alert-warning">Należy zachować ostrożność podczas edycji rozszerzonych ustawień. Jeżeli ustawienia zostały ustawione niepoprawnie, efekt może być brzydki.</div>
+<div class="alert alert-info">If you switch the zoom type, advanced options set is changed accordingly to show only the available parameters for the type selected.</div>
+<div class="alert alert-warning">Be careful when editing the extended settings. If the settings are set incorrectly, the effect can be ugly.</div>

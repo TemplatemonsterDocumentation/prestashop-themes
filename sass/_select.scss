@@ -12,7 +12,7 @@
     padding-left: 8px;
     padding-right: 20px;
     cursor: pointer;
-    color: #FFF;
+    color: #263238;
     opacity: .9;
 
     &:before {
@@ -50,18 +50,15 @@
       }
 
       &.selected, &:hover a {
-        color: #009688;
+        color: #ff138c;
         background: #EEE;
       }
     }
   }
 
   &.opened {
-    box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.12);
-
     .pseudo-select {
       color: #2D2D2D;
-      background: #FFF;
       opacity: 1;
       &:before {
         transform: rotate(180deg);

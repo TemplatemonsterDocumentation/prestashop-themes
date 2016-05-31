@@ -1,11 +1,13 @@
-<?php
+<?php 
 
-$path = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['SCRIPT_NAME']);
+$path = dirname($_SERVER['PHP_SELF']);
+
+//$path = 111;
 
 // Variables
-$product_name = "PrestaShop";
-$product_desc = "Documentation v1.3";
-$doc_title = $product_name . " " . $product_desc;
+$product_name = "Paltirea";
+$product_desc = "<span class='ttl'>Paltirea</span>PrestaShopTemplate";
+$doc_title = $product_name;
 
 $lang = 'en';
 if (isset($_GET['lang'])) {

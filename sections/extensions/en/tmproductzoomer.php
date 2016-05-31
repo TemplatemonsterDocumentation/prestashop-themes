@@ -1,15 +1,25 @@
 <h3>TM Product Zoomer</h3>
-
-<p>This module is an alternative solution for the standard product image zoom on the single product page. It's fully compatible with the standard additional products thumbnail carousel and product attributes changes. It allows you to choose among the three available options (window/lens/inner) for image zoom with the advanced plugin's settings. The module is based on the <a href="//igorlino.github.io/elevatezoom-plus/" target="_blank">Elevatezoom Plus</a> plugin.</p>
+<p>This module is an alternative solution for the standard product image zoom on the single product page.
+    It's fully compatible with the standard additional products thumbnail carousel and product attributes changes.
+    It allows you to choose among the three available options (window/lens/inner) for image zoom with the advanced plugin's settings.
+    The module is based on the <a href="//igorlino.github.io/elevatezoom-plus/" target="_blank">Elevatezoom Plus</a> plugin.</p>
 
 <h5>Installation and removing</h5>
-<p>The module is installed and deleted like any other Prestashop module. After module has been installed the standard product zoom effect will be automatically disabled. After deleting the module standard effect should be enabled back manually (if needed) in the <strong>Preferences->Products->Enable JqZoom instead of Fancybox on the product page</strong> section.</p>
+
+<p>The module is installed and deleted like any other Prestashop module. After module has been installed the standard product zoom effect will be automatically disabled.
+    After deleting the module standard effect should be enabled back manually (if needed) in the <strong>Preferences->Products->Enable JqZoom instead of Fancybox on the
+        product page</strong> section.</p>
+
 <h5>Module configuration</h5>
+
 <p>After the module has been installed you can configure it on the module configuration page.</p>
+
 <p>By default the configuration page shows the <strong>simplified</strong> set of options.</p>
+
 <figure class="img-polaroid">
     <img src="img/tmproductzoomer-1.png" alt=""/>
 </figure>
+
 <ol class="index-list">
     <li><strong>Live mode</strong> - module is on/off </li>
     <li><strong>Fancybox</strong> - whether to show the enlarged image in the Fancybox on click.</li>
@@ -25,7 +35,9 @@
     </li>
     <li><strong>Extended settings</strong> - enables advanced settings for the experienced users. You can see the link to the official <a href="//igorlino.github.io/elevatezoom-plus/api.htm" target="_blank"> documentation for more details</a> next to it.</li>
 </ol>
+
 <p><strong>Extended</strong> module configuration</p>
+
 <ol class="index-list">
     <li><strong>Scroll Zoom</strong> - zoom ratio change on the mousewheel scroll.
         (available for all types)</li>

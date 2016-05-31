@@ -57,7 +57,7 @@
     <h4>Wenn Sie Google Fonts Schriften nicht hochladen können: </h4>
 
     <ol class="index-list">
-        <li><p>Öffnen Sie die Datei <strong>\themes\theme****\header.tpl</strong>.</p></li>
+        <li><p>Öffnen Sie die Datei <strong>\themes\theme1343\header.tpl</strong>.</p></li>
         <li><p>Finden Sie die Zeile: </p>
             <pre>&lt;link rel="stylesheet" href="http{if Tools::usingSecureMode()}s{/if}://fonts.googleapis.com/css?family=[---your_web_font_name_here---]" type="text/css" media="all" /&gt; </pre>
         </li>

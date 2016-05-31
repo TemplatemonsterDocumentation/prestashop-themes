@@ -1,94 +1,106 @@
 <h3>TM Product Zoomer</h3>
+<p>This module is an alternative solution for the standard product image zoom on the single product page.
+    It's fully compatible with the standard additional products thumbnail carousel and product attributes changes.
+    It allows you to choose among the three available options (window/lens/inner) for image zoom with the advanced plugin's settings.
+    The module is based on the <a href="//igorlino.github.io/elevatezoom-plus/" target="_blank">Elevatezoom Plus</a> plugin.</p>
 
-<p>Bu modül, tekli ürün sayfasýndaki ürün görselini yakýnlaþtýrmak için kullanýlan alternatif bir çözümdür. Ürünün küçük öngösterim görseliyle ve ürün özellikleriyle tamamen uyumludur. Modül geliþmiþ eklenti ayarlarýnda, görsel yakýnlaþtýrmasý için size üç seçenek sunar (window/lens/inner). Modül <a href="//igorlino.github.io/elevatezoom-plus/" target="_blank">Elevatezoom Plus</a> eklentisi baz alýnarak yapýlmýþtýr.</p>
+<h5>Installation and removing</h5>
 
-<h5>Kurulum ve kaldýrma</h5>
-<p>Bu modül de tüm diðer Prestashop modülleri gibi kurulup kaldýrýlabilir. Modül kurulduktan sonra standart ürün yakýnlaþtýrma efekti otomatik olarak devre dýþý kalýr. Modülü kaldýrdýktan sonra, gerek duyulursa standart ürün yaklaþtýrma manuel olarak tekrar etkinleþtirilmelidir. Bunu yapmak için <strong>Ayarlar->Ürünler->ürün sayfasýnda Fancybox yerine JqZoom kullan</strong> seçeneði iþaretlenmelidir.</p>
+<p>The module is installed and deleted like any other Prestashop module. After module has been installed the standard product zoom effect will be automatically disabled.
+    After deleting the module standard effect should be enabled back manually (if needed) in the <strong>Preferences->Products->Enable JqZoom instead of Fancybox on the
+        product page</strong> section.</p>
 
-<h5>Modül ayarlarý</h5>
-<p>Modül kurulduktan sonra, gerekli düzenlemeleri modül sayfasýndan yapabilirsiniz.</p>
-<p>Varsayýlan düzenleme sayfasýnda <strong>sadeleþtirilmiþ</strong> seçenekler bulunmaktadýr.</p>
+<h5>Module configuration</h5>
+
+<p>After the module has been installed you can configure it on the module configuration page.</p>
+
+<p>By default the configuration page shows the <strong>simplified</strong> set of options.</p>
+
 <figure class="img-polaroid">
     <img src="img/tmproductzoomer-1.png" alt=""/>
 </figure>
+
 <ol class="index-list">
-    <li><strong>Live mode</strong> - modül açýk/kapalý </li>
-    <li><strong>Fancybox</strong> - Fancybox'taki görsel týklandýðýnda büyütülsün.</li>
-    <li><strong>Change image on hover</strong> - öngörüntüleme görselinin üstüne gelince ana görseli göster (varsayýlan ayar týklama bazlýdýr)</li>
-    <li><strong>Responsive</strong> - mobil cihazlara uyarlanabilir eklenti kullan</li>
-    <li><strong>Zoom Type</strong> - büyütülmüþ görselin gösterilme türünü seçin.
+    <li><strong>Live mode</strong> - module is on/off </li>
+    <li><strong>Fancybox</strong> - whether to show the enlarged image in the Fancybox on click.</li>
+    <li><strong>Change image on hover</strong> - switch the main image on thumbnail hover (by default is set to switch on click)</li>
+    <li><strong>Responsive</strong> - allows to the use adaptive functionality for plugin display on the mobile devices</li>
+    <li><strong>Zoom Type</strong> - choose the type of the enlarged image display mode
         <ul>
-            <li><strong>window</strong> - büyütülmüþ görsel, ana görselin yanýndaki 16 konumda gösterilebilir.</li>
-            <li><strong>lens</strong> - görsel, üst kýsmýnda bulunan lens alanýnda yakýnlaþtýrýlýr.</li>
-            <li><strong>inner</strong> - görsel, üzerinde tam kapak ile ana görsel alanýnýn içinde yakýnlaþtýrýlýr.</li>
+            <li><strong>window</strong> - the enlarged image shows up next to the main one in one of the available (16) positions</li>
+            <li><strong>lens</strong> - the image is zoomed in the lens container, on top of the it</li>
+            <li><strong>inner</strong> - the image is zoomed inside of the main image container, with the full cover on it</li>
         </ul>
-        <div class="alert alert-warning">Mobil cihazlarda hemen (&lt; 768) "lens" modu etkinleþtirilir</div>
+        <div class="alert alert-info"><span>The mobile devices(&lt; 768) have "lens" mode activated instantly</span></div>
     </li>
-    <li><strong>Extended settings</strong> - tecrübeli kullanýcýlar için geniþletilmiþ, ileri düzeyde ayarlar. Bu alanýn yanýndan <a href="//igorlino.github.io/elevatezoom-plus/api.htm" target="_blank"> detaylý rehber</a> adresine bakabilirsiniz.</li>
+    <li><strong>Extended settings</strong> - enables advanced settings for the experienced users. You can see the link to the official <a href="//igorlino.github.io/elevatezoom-plus/api.htm" target="_blank"> documentation for more details</a> next to it.</li>
 </ol>
-<p><strong>Geniþletilmiþ</strong> modül ayarlarý</p>
+
+<p><strong>Extended</strong> module configuration</p>
+
 <ol class="index-list">
-    <li><strong>Scroll Zoom</strong> - farenin çevirme tuþuyla yakýnlaþtýrma yapýlýr.
-        (tüm türler için geçerlidir)</li>
-    <li><strong>Cursor</strong> - büyütülmüþ görselin üzerine gelen imleç. Üç adet seçenek bulunur: varsayýlan, imleç, artý iþareti. (tüm türler için geçerlidir)</li>
-    <li><strong>Zoom ayarlarý</strong> - (tüm türler için geçerlidir, eðer 'Scroll Zoom' etkinse)
+    <li><strong>Scroll Zoom</strong> - zoom ratio change on the mousewheel scroll.
+        (available for all types)</li>
+    <li><strong>Cursor</strong> - cursor type on the magnified image hover. There are the following options available: default, cursor, crosshair. (available for all types)</li>
+    <li><strong>zoom settings</strong> - (available for all types, if the 'Scroll Zoom' is enabled)
         <figure class="img-polaroid"><img src="img/tmproductzoomer-2.png" alt="" /></figure>
         <ul>
-            <li>Zoom Level - baþlangýçtaki yakýnlaþtýrma seviyesi</li>
-            <li>Min Zoom Level - minimum yakýnlaþtýrma seviyesi</li>
-            <li>Max Zoom Level - maksimum yakýnlaþtýrma seviyesi</li>
-            <li>Scroll Zoom Increment - yakýnlaþtýrmadaki artýþ seviyesi</li>
+            <li>Zoom Level - the zoom level on the initial hover</li>
+            <li>Min Zoom Level - a minimum zoom level</li>
+            <li>Max Zoom Level - a maximum zoom level</li>
+            <li>Scroll Zoom Increment - increment on the magnifying scroll</li>
         </ul>
     </li>
-    <li><strong>Easing</strong> - büyütülmüþ görsel için efekt (tüm türler için geçerlidir)
+    <li><strong>Easing</strong> - the magnified image appearance effect (available for all types)
         <figure class="img-polaroid"><img src="img/tmproductzoomer-3.png" alt="" /></figure>
         <ul>
-            <li>Zoom Easing - efekt açýk/kapalý</li>
-            <li>Easing Amount - efekt gecikme deðeri</li>
+            <li>Zoom Easing - effect on/off</li>
+            <li>Easing Amount - effect delay value</li>
         </ul>
     </li>
-    <li><strong>Image Crossfade</strong> - ama görselin üzerine (lens) gelindiðinde geri kalan alanlar bulanýklaþýr).
-        (window ve lens için geçerlidir)</li>
-    <li><strong>magnified image window settings</strong> - (window için geçerlidir)
+    <li><strong>Image Crossfade</strong> - main image blur outside the hover area (the lens).
+        (available for window, lens)</li>
+    <li><strong>magnified image window settings</strong> - (available for window)
         <figure class="img-polaroid"><img src="img/tmproductzoomer-4.png" alt="" /></figure>
         <ul>
-            <li>Zoom Window Width - px deðerindeki pencere geniþliði px</li>
-            <li>Zoom Window Height - px deðerindeki pencere uzunluðu</li>
-            <li>Zoom Window Offset X - X'e göre pencere konumu</li>
-            <li>Zoom Window Offset Y - Y'ye göre pencere konumu</li>
-            <li>Zoom Window Position - pencerenin ana görsele oranla konumu (kullanýlabilir konumlar bu alanýn altýndaki görselde bulunmaktadýr)</li>
-            <li>Zoom Window Bg Color - pencerenin arkaplan görseli (sadece transparan görseller için)</li>
-            <li>Zoom Window Fade In - pencere yavaþ bir þekilde ortaya çýkar</li>
-            <li>Zoom Window Fade Out - pencere yavaþ bir þekilde ortadan kaybolur</li>
-            <li>Border Size - px deðerindeki pencere çerçeve kalýnlýðý</li>
-            <li>Border Color - pencere çerçeve rengi</li>
+            <li>Zoom Window Width - window width in px</li>
+            <li>Zoom Window Height - window height in px</li>
+            <li>Zoom Window Offset X - window offset on the X axis</li>
+            <li>Zoom Window Offset Y - window offset on the Y axis</li>
+            <li>Zoom Window Position - window position choice relatively to the main image (the positions available are presented on the image below this field)</li>
+            <li>Zoom Window Bg Color - window background image (for transparent images only)</li>
+            <li>Zoom Window Fade In - the effect of slowing the window appearance</li>
+            <li>Zoom Window Fade Out - the effect of slowing the window disappearance</li>
+            <li>Border Size - window border width in px</li>
+            <li>Border Color - window border color</li>
         </ul>
     </li>
-    <li><strong>Zoom Lens</strong> - yakýnlaþtýrma lensi (window ve lens için geçerlidir)
+    <li><strong>Zoom Lens</strong> - zoom lens (available for window, lens)
         <figure class="img-polaroid"><img src="img/tmproductzoomer-5.png" alt="" /></figure>
         <ul>
-            <li>Zoom Lens - a.ýk/kapalý</li>
-            <li>Lens Shape - lens türü. Þu deðerlerde olabilir: yuvarlak/yuvarlatýlmýþ veya kare/dikdörtgen</li>
-            <li>Lens Color - lensin iç arkaplan rengi</li>
-            <li>Lens Opacity - lensiç iç arkaplan þeffaflýðý</li>
-            <li>Lens Size - px deðerindeki lens boyutu</li>
-            <li>Lens Fade In - lensin gösterilme efektinin hýzý</li>
-            <li>Lens Fade Out - lensin yok olma efektinin hýzý</li>
-            <li>Lens Border - lens çerçeve geniþliði</li>
-            <li>Lens Border Color - lens çerçeve rengi</li>
-            <li>Contain Lens Zoom -  lensin ana görsel kutusunun dýþýna taþmasýnýn sýnýrlanmasý</li>
+            <li>Zoom Lens - on/off</li>
+            <li>Lens Shape - lens type. It can take the following values: circular/rounded or squared/rectangular</li>
+            <li>Lens Color - lens inner background color</li>
+            <li>Lens Opacity - lens inner background opacity</li>
+            <li>Lens Size - lens size in px</li>
+            <li>Lens Fade In - the speed of lens appearance effect</li>
+            <li>Lens Fade Out - the speed of lens disappearance effect</li>
+            <li>Lens Border - lens border width</li>
+            <li>Lens Border Color - lens border color</li>
+            <li>Contain Lens Zoom - the restriction of the lens overflow outwards the main image container</li>
         </ul>
     </li>
-    <li><strong>Tint</strong> - lensin dýþýnda kalan bölgenin gölgelendirilmesi (window için geçerlidir)
+    <li><strong>Tint</strong> - the shade effect on the area outside the lens (available for window)
         <figure class="img-polaroid"><img src="img/tmproductzoomer-6.png" alt="" /></figure>
         <ul>
-            <li>Tint - efekt açýk/kapalý</li>
-            <li>Tint Color - lensin dýþ alanýnýn arkaplaný</li>
-            <li>Tint Opacity - lensin dýþ alanýnýn þeffaflýðý</li>
-            <li>Tint Fade In - gösterilme efektinin hýzý</li>
-            <li>Tint Fade Out - kaybolma efektinin hýzý</li>
+            <li>Tint - effect on/off</li>
+            <li>Tint Color - the lens outer area background</li>
+            <li>Tint Opacity - the lens outer area opacity</li>
+            <li>Tint Fade In - the appearance effect speed</li>
+            <li>Tint Fade Out - the disappearance effect speed</li>
         </ul>
     </li>
 </ol>
-<div class="alert alert-info">Eðer zoom türünü deðiþtirirseniz, geliþtirilmiþ ayarlar da seçtiðiniz türe göre deðiþir.</div>
-<div class="alert alert-warning">Geniþletilmiþ ayarlarý düzenlerken dikkatli olunuz. Düzenlemeler yanlýþ yapýlýrsa, efekt hoþ durmayabilir.</div>
+
+<div class="alert alert-info">If you switch the zoom type, advanced options set is changed accordingly to show only the available parameters for the type selected.</div>
+<div class="alert alert-warning">Be careful when editing the extended settings. If the settings are set incorrectly, the effect can be ugly.</div>
