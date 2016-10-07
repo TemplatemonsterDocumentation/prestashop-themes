@@ -1,13 +1,12 @@
 <h3>Editing software</h3>
 
-<p>To feel comfortable working with your PrestaShop template, we recommend that you
-    download all applications required. You can see the list of required software on the
+<p>To feel comfortable working with your PrestaShop template, we recommend you to download all required applications. You can see the list of required software on the
     template preview page.
-    Requirements may vary depending on the template, we're going to tell you in general
+    Requirements may vary depending on the template. We're going to tell you in general
     what's needed:</p>
 <ol class="index-list">
     <li>
-        <p>First of all, you need the right applications to extract the password protected sources_#########.zip
+        <p>First of all, you need application to extract the password protected sources_#########.zip
             archive. You can use WinZip 9+ (Windows) and Stuffit Expander 10+ (Mac).</p>
     </li>
     <li>

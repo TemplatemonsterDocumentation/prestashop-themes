@@ -1,7 +1,7 @@
 <h3>Import theme</h3>
 
 <p class="alert alert-warning">Note: this method does not provide sample data installation.</p>
-<h4>Template preparation.</h4>
+<h4>Template preparation</h4>
 
 <p>Before you proceed, please make sure you have already downloaded the template and
     extracted the files from the template package. You can check detailed tutorials on
@@ -11,7 +11,7 @@
 </p>
 
 <p>When the files are extracted, you can proceed to uploading the template.</p>
-<h4>Installation.</h4>
+<h4>Installation</h4>
 
 <p>Log into your PrestaShop admin panel and navigate to <strong>Preferences ->
         Themes</strong>. At the top of the page click <strong>Add new theme</strong> button.
@@ -46,7 +46,7 @@
 </figure>
 
 
-<p>You should see the screen with the information of the modules used in the theme, the
+<p>You will see the screen with the information about the modules used in the theme, the
     number of modules that are turned on and off. Click <strong>Save</strong> in order
     to continue.</p>
 

@@ -278,3 +278,22 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
         
     });
 })(jQuery);
+
+/**
+ * @module       Responsive Tabs
+ * @description  Enables Easy Responsive Tabs Plugin
+ */
+;
+(function ($) {
+    var o = $('.responsive-tabs');
+    if (o.length > 0) {
+        $(document).ready(function () {
+            o.each(function () {
+                var $this = $(this);
+                $this.easyResponsiveTabs({
+                    type: $this.attr("data-type") === "accordion" ? "accordion" : "default"
+                });
+            })
+        });
+    }
+})(jQuery);

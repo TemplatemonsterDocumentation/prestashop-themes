@@ -61,6 +61,7 @@ input[type='button'] {
   cursor: pointer;
   -webkit-appearance: none;
 }
+
 button::-moz-focus-inner,
 input[type='button']::-moz-focus-inner {
   border: none;
@@ -82,80 +83,105 @@ input[type='button']::-moz-focus-inner {
 .container .row {
   margin-left: -30px;
 }
+
 .container [class*="grid_"] {
   float: left;
   min-height: 1px;
   margin-left: 30px;
 }
+
 .container .grid_1 {
   width: 70px;
 }
+
 .container .grid_2 {
   width: 170px;
 }
+
 .container .grid_3 {
   width: 270px;
 }
+
 .container .grid_4 {
   width: 370px;
 }
+
 .container .grid_5 {
   width: 470px;
 }
+
 .container .grid_6 {
   width: 570px;
 }
+
 .container .grid_7 {
   width: 670px;
 }
+
 .container .grid_8 {
   width: 770px;
 }
+
 .container .grid_9 {
   width: 870px;
 }
+
 .container .grid_10 {
   width: 970px;
 }
+
 .container .grid_11 {
   width: 1070px;
 }
+
 .container .grid_12 {
   width: 1170px;
 }
+
 .container .preffix_1 {
   margin-left: 130px;
 }
+
 .container .preffix_2 {
   margin-left: 230px;
 }
+
 .container .preffix_3 {
   margin-left: 330px;
 }
+
 .container .preffix_4 {
   margin-left: 430px;
 }
+
 .container .preffix_5 {
   margin-left: 530px;
 }
+
 .container .preffix_6 {
   margin-left: 630px;
 }
+
 .container .preffix_7 {
   margin-left: 730px;
 }
+
 .container .preffix_8 {
   margin-left: 830px;
 }
+
 .container .preffix_9 {
   margin-left: 930px;
 }
+
 .container .preffix_10 {
   margin-left: 1030px;
 }
+
 .container .preffix_11 {
   margin-left: 1130px;
 }
+
 .container .preffix_12 {
   margin-left: 1230px;
 }
@@ -171,11 +197,11 @@ input[type='button']::-moz-focus-inner {
     padding-right: 64px;
   }
 }
+
 @media (min-width: 1068px) and (max-width: 1301px) {
   .container {
     width: 940px;
   }
-
   .container .row {
     margin-left: -20px;
   }
@@ -257,11 +283,11 @@ input[type='button']::-moz-focus-inner {
     margin-left: 980px;
   }
 }
+
 @media (min-width: 878px) and (max-width: 1067px) {
   .container {
     width: 748px;
   }
-
   .container .row {
     margin-left: -20px;
   }
@@ -343,21 +369,19 @@ input[type='button']::-moz-focus-inner {
     margin-left: 788px;
   }
 }
+
 @media (max-width: 877px) {
   .container {
     width: 100%;
     padding: 0;
   }
-
   .container .row {
     margin-left: 0;
   }
-
   .row + .row,
   [class*="grid_"] + [class*="grid_"] {
     margin-top: 30px;
   }
-
   .container [class*="grid_"], .container-fluid [class*="grid_"] {
     float: none;
     display: block;
@@ -365,17 +389,20 @@ input[type='button']::-moz-focus-inner {
     margin-left: 0;
   }
 }
+
 @media (max-width: 479px) {
   .page {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
+
 .container:before, .row:before, .container:after, .row:after {
   display: table;
   content: "";
   line-height: 0;
 }
+
 .container:after, .row:after {
   clear: both;
 }

@@ -1,0 +1,14 @@
+{
+	"default": {
+		"textLogo": "",
+		"title": "PrestaShop Documentation v1.3",
+		"titleCaption": "",
+		"author": ""
+	},
+	"kingnews": {
+		"textLogo": "",
+		"title": "King news",
+		"titleCaption": "Latest news",
+		"author": ""
+	}
+}

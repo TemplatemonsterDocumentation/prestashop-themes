@@ -1,1 +1,0 @@
-<h2 class="item3">Installation der Vorlage</h2>

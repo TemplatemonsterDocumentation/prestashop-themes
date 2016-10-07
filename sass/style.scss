@@ -2,9 +2,13 @@
 @import "_variables.scss";
 // @import "animate.css";
 // Fonts
+
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 @import url(//fonts.googleapis.com/css?family=Roboto:300,400,500,700);
 @import url(//fonts.googleapis.com/css?family=Oswald:400,700);
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,700|Montserrat+Alternates:400,700);
+
 
 /*========================================================
                       Main Styles
@@ -34,7 +38,6 @@ h1 {
 h2 {
   font-size: 45px;
   line-height: 1.37;
-  color: $color-2;
   margin-top: 60px;
   margin-bottom: 20px;
 
@@ -44,7 +47,6 @@ h2 {
 }
 
 h3 {
-  color: $color-2;
   font-size: 34px;
   line-height: 1.47;
   margin-top: 60px;
@@ -99,19 +101,23 @@ ul, ol{
   margin-bottom: 20px;
 
   figure:last-child{
-    margin-bottom: 45px;
+    margin-bottom: 35px;
   }
 }
 
 article {
-  margin-top: 80px;
-  margin-bottom: 60px;
+  padding-top: 80px;
+
+  &:first-child{
+    padding-top: 0;
+  }
+
   article{
     padding-right: 10%;
   }
 
   a {
-    color: $color-2;
+    color: $primary-color;
 
     &:hover {
       text-decoration: underline;
@@ -143,7 +149,7 @@ a {
   &:focus { outline: none; }
   &:active { background-color: transparent; }
 
-  @include transition(.3s);
+  @include transition(.1s);
 }
 
 a[href^="tel:"],
@@ -203,7 +209,7 @@ b, strong {
     .fa {
       margin-top: 3px;
       margin-right: 10px;
-      color: lighten($color-1, 10%);
+      color: lighten($secondary-color, 10%);
       font-size: 16px;
     }
     ul {
@@ -217,7 +223,7 @@ b, strong {
 }
 
 .inline-term{
-  @include clearfix;
+  //@include clearfix;
   dt{
     font-weight: 700;
   }
@@ -246,16 +252,76 @@ b, strong {
   padding-right: 5px;
   font-weight: 700;
 }
+.italic{
+  font-style: italic;
+}
 
 /*=======================================================
                         Components
 =========================================================*/
+/*===============  Table  ==================*/
+.table{
+  thead{
+     background: #f0f0f0;
+  }
+  th{
+    font-weight: 500;
+  }
 
+  table, td, th{
+    border: 1px solid #f0f0f0;
+  }
+  td {
+    text-align: center;
+    width: 20%;
+    vertical-align: middle;
+  }
+  td, th{
+    padding: 10px;
+  }
+  tr th {
+    text-align: left;
+
+  }
+}
 /*===============  Marked List  ==================*/
 .marked-list{
+  margin-bottom: 20px;
+  &:last-child {
+    margin-bottom: 20px;
+  }
   > li {
     position: relative;
     padding-left: 20px;
+    &:before{
+      content: '';
+      position: absolute;
+      top: 10px;
+      left: 2px;
+      width: 4px;
+      height: 4px;
+      border: 1px solid #000;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+    }
+    .marked-list {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  & + li { margin-top: 10px; }
+  p {
+    margin-bottom: 0;
+  }
+}
+/*===============  Marked List Bold ==================*/
+.marked-list_bold{
+  > li {
+    position: relative;
+    padding-left: 20px;
+    font-weight: bold;
     &:before{
       content: '';
       position: absolute;
@@ -274,7 +340,7 @@ b, strong {
 }
 /*===============  Marked List  ==================*/
 .log-list{
-  > li { 
+  > li {
     margin-top: 10px;
     position: relative;
     padding-left: 20px;
@@ -300,16 +366,23 @@ b, strong {
   counter-reset: li;
   > li {
     position: relative;
-    padding-left: 20px;
+    //padding-left: 20px;
     &:before{
       content: counter(li,decimal) '.';
       counter-increment: li;
-      position: absolute;
-      left: 0;
+      position: relative;
+      display: inline-block;
+      margin-right: 5px;
       font-weight: 500;
     }
+    pre {margin: 20px 0 40px 0;}
+    strong + pre {margin: 10px 0 40px 0;}
 
     & + li { margin-top: 10px; }
+    p, dl {
+      display: inline-block;
+      max-width: 97%;
+    }
   }
 }
 
@@ -385,19 +458,32 @@ blockquote {
     & + li { margin-top: 10px; }
   }
 }
-
+/*==================== Quick Guide ====================*/
+.quick-guide {
+  width: auto;
+  margin-top: 17px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  @include transition(0.5s);
+  &:hover {
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1), 0 8px 8px 0 rgba(0, 0, 0, 0.1);
+  }
+   &:active {
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+  }
+}
 //==================    Imports    ======================
 @import "_navbar.scss";
 @import "_stuck.scss";
 @import "_select.scss";
 @import "_alerts.scss";
 @import "_to-top.scss";
+@import "_responsive-tabs.scss";
 
 /*========================================================
                      HEADER  Section
 =========================================================*/
 header {
-  background: $color-1;
+  background: $secondary-color;
   color: #ffffff;
   h1, h2, h3, h4, h5, h6 { color: #ffffff; }
 }
@@ -438,4 +524,28 @@ footer {
 
 .copyright {
   margin: 0;
+}
+
+/*========================================================
+                     CODEBOX  Styles
+=========================================================*/
+.codebox{
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+      font-size: 17px;
+      background-color:#f4f4f4;
+      padding: 30px;
+      line-height: 31px;
+        span {
+          display:block;
+          padding-left: 40px;
+        }
+  }
+
+.prettyprint_2 {
+  padding: 15px;
+  background: #f0f0f0;
+}
+
+samp {
+  padding: 15px;
 }
