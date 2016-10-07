@@ -1,0 +1,258 @@
+{
+  "id": "custom-modules",
+  "translations": {
+    "en": "Custom modules and extensions"
+  },
+  "articles": {
+    "default": [
+      {
+        "id": "tmmediaparallax",
+        "translations": {
+          "en": "Media Parallax Module"
+        }
+      },
+      {
+        "id": "smart_blog",
+        "translations": {
+          "en": "Smart Blog"
+        }
+      },
+      {
+        "id": "tmadvancedfilter",
+        "translations": {
+          "en": "TM Advanced Filter"
+        }
+      },
+      {
+        "id": "tmcategoriesbadges",
+        "translations": {
+          "en": "TM Categories Badges"
+        }
+      },
+      {
+        "id": "tmcategoryimageslider",
+        "translations": {
+          "en": "TM Category Image Slider"
+        }
+      },
+      {
+        "id": "tmcategoryproducts013",
+        "translations": {
+          "en": "TM Category Products 0.1.3"
+        }
+      },
+      {
+        "id": "tmcategoryproducts100",
+        "translations": {
+          "en": "TM Category Products 1.0.0"
+        }
+      },
+      {
+        "id": "tmcollections",
+        "translations": {
+          "en": "TM Collections"
+        }
+      },
+      {
+        "id": "tmcustomproducttab",
+        "translations": {
+          "en": "TM Custom Product Tab"
+        }
+      },
+      {
+        "id": "tmdealday",
+        "translations": {
+          "en": "TM Deal of the Day"
+        }
+      },
+      {
+        "id": "tmgooglemap",
+        "translations": {
+          "en": "TM Google Map"
+        }
+      },
+      {
+        "id": "tmgooglemap115",
+        "translations": {
+          "en": "TM Google Map 1.1.5"
+        }
+      },
+      {
+        "id": "tmheaderaccount",
+        "translations": {
+          "en": "TM Header Account"
+        }
+      },
+      {
+        "id": "tmheaderaccount200",
+        "translations": {
+          "en": "TM Header Account 2.0.0"
+        }
+      },
+      {
+        "id": "tmhomepagecategorygallery",
+        "translations": {
+          "en": "TM Homepage Category Gallery"
+        }
+      },
+      {
+        "id": "tmhomepageproductscarousel",
+        "translations": {
+          "en": "TM Homepage Products Carousel"
+        }
+      },
+      {
+        "id": "tmhtmlcontent",
+        "translations": {
+          "en": "TM HTML Content"
+        }
+      },
+      {
+        "id": "tminfinitescroll",
+        "translations": {
+          "en": "TM Infinite Scroll"
+        }
+      },
+      {
+        "id": "tmlookbook",
+        "translations": {
+          "en": "TM Look Book"
+        }
+      },
+      {
+        "id": "tmlookbookhomepage",
+        "translations": {
+          "en": "TM Look Book Homepage"
+        }
+      },
+      {
+        "id": "tmmanufacturersblock",
+        "translations": {
+          "en": "TM Manufacturers Block"
+        }
+      },
+      {
+        "id": "tmmediaparallax200",
+        "translations": {
+          "en": "TM Media Parallax 2.0.0"
+        }
+      },
+      {
+        "id": "tmmegalayout001",
+        "translations": {
+          "en": "TM Mega Layout"
+        }
+      },
+      {
+        "id": "tmmegalayout100",
+        "translations": {
+          "en": "TM Mega Layout 1.0.0"
+        }
+      },
+      {
+        "id": "tmmegamenu",
+        "translations": {
+          "en": "TM Mega Menu"
+        }
+      },
+      {
+        "id": "tmmosaicproducts",
+        "translations": {
+          "en": "TM Mosaic Products"
+        }
+      },
+      {
+        "id": "tmmotopressslider",
+        "translations": {
+          "en": "TM MotoPress Slider"
+        }
+      },
+      {
+        "id": "tmnewsletter",
+        "translations": {
+          "en": "TM Newsletter"
+        }
+      },
+      {
+        "id": "tmolarkchat",
+        "translations": {
+          "en": "TM Olark Chat"
+        }
+      },
+      {
+        "id": "tmproductlistgallery200",
+        "translations": {
+          "en": "TM Product List Gallery 2.0.0"
+        }
+      },
+      {
+        "id": "tmproductlistimages",
+        "translations": {
+          "en": "TM Product List Images"
+        }
+      },
+      {
+        "id": "tmproductsslider123",
+        "translations": {
+          "en": "TM Products Slider 1.2.3"
+        }
+      },
+      {
+        "id": "tmproductsslider200",
+        "translations": {
+          "en": "TM Products Slider 2.0.0"
+        }
+      },
+      {
+        "id": "tmproductvideos",
+        "translations": {
+          "en": "TM Product Videos"
+        }
+      },
+      {
+        "id": "tmproductzoomer",
+        "translations": {
+          "en": "TM Product Zoomer"
+        }
+      },
+      {
+        "id": "tmreladetproducts",
+        "translations": {
+          "en": "TM Related Products"
+        }
+      },
+      {
+        "id": "tmsearch105",
+        "translations": {
+          "en": "TM Search 1.0.5"
+        }
+      },
+      {
+        "id": "tmsearch110",
+        "translations": {
+          "en": "TM Search 1.1.0"
+        }
+      },
+      {
+        "id": "tmsocialfeeds",
+        "translations": {
+          "en": "TM Social Feeds"
+        }
+      },
+      {
+        "id": "tmsociallogin",
+        "translations": {
+          "en": "TM Social Login"
+        }
+      },
+      {
+        "id": "tmvideobackground",
+        "translations": {
+          "en": "Video Background Module"
+        }
+      }
+    ],
+    "kingnews": [
+    ]
+  }
+}

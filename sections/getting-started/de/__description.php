@@ -1,1 +1,0 @@
-<h2 class="item2">Arbeitsbeginn</h2>

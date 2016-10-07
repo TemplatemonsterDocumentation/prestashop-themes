@@ -1,16 +1,15 @@
 <h3>Automatic installation with demo data (Sample data installer)</h3>
 
-<p>After installing <strong>sample data</strong>, you'll get your PrestaShop store
-    appear the same as at the template live demo. It will contain all demo products,
-    categories, modules and store settings.</p>
+<p>To make your PrestaShop store appear the same as template live demo, you need to install  <strong>sample data</strong>.
+It will contain all demo products, categories, modules and store settings.</p>
 
 <p class="alert alert-danger">Please do not use the sample data for your running website! This will replace all your
     store products and store settings.</p>
 
 <p class="alert alert-warning">Please make sure your version of PrestaShop engine matches the specified version in
     "Technical Details" tab, mentioned as "PrestaShop Engine: 1.X.X.X".
-    <br/>Also, make sure your database tables prefix is <strong>ps_</strong>. Only if your PrestaShop engine matches
-    the specified version, install sample data. </p>
+    <br/>Also, make sure your database tables prefix is <strong>ps_</strong>. Install sample data only if your PrestaShop engine matches
+    the specified version. </p>
 
 <p>In order to install sample data using the Sample data installer module, please follow
     instruction from the step 1 <a href="#themeinstaller">(Theme import)</a> of this
@@ -38,7 +37,7 @@
         </figure>
     </li>
     <li>
-        <p>Wait till files are uploaded.</p>
+        <p>Wait until the files are uploaded.</p>
 
         <figure class="img-polaroid">
             <img src="img/05-install-7_2.png" alt=""/>

@@ -1,1 +1,0 @@
-<h2 class="item4">Tutoriais básicos</h2>

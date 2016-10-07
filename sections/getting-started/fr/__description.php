@@ -1,1 +1,0 @@
-<h2 class="item2">Démarrage rapide</h2>

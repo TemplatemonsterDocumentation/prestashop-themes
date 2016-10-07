@@ -1,9 +1,20 @@
-[
-	"introduction",
-	"getting-started",
-	"template-installation",
-	"basictutorials",
-	"extensions",
-	"cookiepolicy",
-	"addendum"
-]
+{
+	"default": [
+		"introduction",
+		"getting-started",
+		"template-installation",
+		"basic-tutorials",
+		"custom-modules",
+		"cookies-policy",
+		"addendum"
+	],
+	"kingnews": [
+		"introduction",
+		"getting-started",
+		"template-installation",
+		"basic-tutorials",
+		"custom-modules",
+		"cookies-policy",
+		"addendum"
+	]
+}

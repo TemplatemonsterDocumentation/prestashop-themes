@@ -1,1 +1,0 @@
-<h2 class="item4">Temel rehber</h2>
