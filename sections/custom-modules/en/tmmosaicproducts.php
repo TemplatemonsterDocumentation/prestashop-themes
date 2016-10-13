@@ -1,4 +1,10 @@
 <h3>TM Mosaic Products</h3>
+<?php if ($project == 'eveprest' ) { ?>
+    <div>
+        <p style="margin-bottom: 0;">Available in:</p>
+        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One Product</p>
+    </div>
+<?php } ?>
 <p>This module allows you to display categories with products, banners, video (Youtube, Vimeo and custom video),
     HTML content, various sliders with different number of slides and dimensions in any row on the site home page.
 </p>

@@ -1,4 +1,10 @@
 <h3>TM Product List Gallery 2.0.0</h3>
+<?php if ($project == 'eveprest' ) { ?>
+    <div>
+        <p style="margin-bottom: 0;">Available in:</p>
+        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One Product</p>
+    </div>
+<?php } ?>
 <p>This module displays all the available product images in form of a gallery on product listing pages. Depending on what settings you choose, the module can display images in form of a rollover or slideshow.</p>
 <h5>Module Installation and Deleting </h5>
 <p>This module can be installed and deleted like any other PrestaShop module.</p>

@@ -1,4 +1,10 @@
 <h3>TM Search 1.1.0</h3>
+<?php if ($project == 'eveprest' ) { ?>
+  <div>
+    <p style="margin-bottom: 0;">Available in:</p>
+    <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture</p>
+  </div>
+<?php } ?>
 <p>This module is an extended search version that allows you to select a specific category for searching  within its content. You can also change the category after defining the query.  It also provides a possibility to set the additional product information display (description/price/manufacturer, etc.), and define the search results container layout, e.g., you can divide the results into a few sections with the controls (pagination, next/previous/show all). All the module settings are available in main admin panel.</p>
 <h4>Installation and Deleting</h4>
 <p>The module is installed and deleted like any other Prestashop module.</p>

@@ -1,4 +1,10 @@
 <h3>TM Social Feeds</h3>
+<?php if ($project == 'eveprest' ) { ?>
+    <div>
+        <p style="margin-bottom: 0;">Available in:</p>
+        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Furniture, One Product</p>
+    </div>
+<?php } ?>
 <p>This module loads the social networks feeds on your website. It enables the site visitors to be aware of the latest
     news and posts shared on the social networks.</p>
 <h4>Installation and Deleting</h4>

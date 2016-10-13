@@ -1,4 +1,10 @@
 <h3>TM HTML Content</h3>
+<?php if ($project == 'eveprest' ) { ?>
+    <div>
+        <p style="margin-bottom: 0;">Available in:</p>
+        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One Product</p>
+    </div>
+<?php } ?>
 <p>This module allows to display any content (image, HTML, links, etc.) in the following positions: displayNav, home,
     top, topColumn, left and right (displayLeftColumn/displayRightColumn), footer. It is used to expand design
     opportunities and add advertisement/information blocks to your store. It is a multilanguage module and can also work
