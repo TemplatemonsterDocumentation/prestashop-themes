@@ -1,4 +1,10 @@
 <h3>TM Look Book</h3>
+<?php if ($project == 'eveprest' ) { ?>
+    <div>
+        <p style="margin-bottom: 0;">Available in:</p>
+        <p style="margin-top: 0;" class="small text-secondary">Fashion, Furniture</p>
+    </div>
+<?php } ?>
 <h5>Requirements:</h5>
 <p>This module allows to create lookbooks and combine them to collections. In their turn, lookbooks allow to view the products directly on the model. Also, if a product is marked in the lookbook, the module displays the lookbook link on the product page.</p>
 <ul class="marked-list">

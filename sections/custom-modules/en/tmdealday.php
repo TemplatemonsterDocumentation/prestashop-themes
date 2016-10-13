@@ -1,4 +1,10 @@
 <h3>TM Deal of the Day</h3>
+<?php if ($project == 'eveprest' ) { ?>
+    <div>
+        <p style="margin-bottom: 0;">Available in:</p>
+        <p style="margin-top: 0;" class="small text-secondary">Furniture, One Product</p>
+    </div>
+<?php } ?>
 <p>This module allows you to display the list of products with the discount countdown timer. You can also add a timer to products in the home page tabs,
     on the category pages and single product pages.
 </p>

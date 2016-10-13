@@ -1,4 +1,10 @@
 <h3>TM Products Slider 2.0.0</h3>
+<?php if ($project == 'eveprest' ) { ?>
+    <div>
+        <p style="margin-bottom: 0;">Available in:</p>
+        <p style="margin-top: 0;" class="small text-secondary">Electronics, Furniture</p>
+    </div>
+<?php } ?>
 <h4>Introduction</h4>
 <p>This module serves for creating galleries, based on product data and displaying them in form of slides on the website
     frontend. The module supplies 4 methods of displaying the gallery with individual settings and appearance. Each

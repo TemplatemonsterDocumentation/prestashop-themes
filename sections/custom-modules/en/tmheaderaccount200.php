@@ -1,4 +1,10 @@
 <h3>TM Header Account 2.0.0</h3>
+<?php if ($project == 'eveprest' ) { ?>
+    <div>
+        <p style="margin-bottom: 0;">Available in:</p>
+        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One Product</p>
+    </div>
+<?php } ?>
 <p>This module displays login and registration forms on the website. It can take the following positions: website header, left and right column. The module allows to log in and register using such social networks as Facebook, Google+ and VK, which is convenient for website users. Registration or logging in proceeds without reloading the page.</p>
 <h4>TM Header Account Main Panel</h4>
 <p>The main panel. Here you can set up the module.</p>

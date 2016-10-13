@@ -1,4 +1,10 @@
 <h3>TM Collections</h3>
+<?php if ($project == 'eveprest' ) { ?>
+    <div>
+        <p style="margin-bottom: 0;">Available in:</p>
+        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One Product</p>
+    </div>
+<?php } ?>
 <h6>TM Collections module is created to give the ability to the visitors of online store to add products to collections
     and share this collections on Facebook.</h6>
 <h4>Module Installation</h4>

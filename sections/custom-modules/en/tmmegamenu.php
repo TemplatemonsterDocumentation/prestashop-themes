@@ -1,4 +1,10 @@
 <h3>TM Mega Menu</h3>
+<?php if ($project == 'eveprest' ) { ?>
+    <div>
+        <p style="margin-bottom: 0;">Available in:</p>
+        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture</p>
+    </div>
+<?php } ?>
 <p>The module is designed to create complex menus. The module provides the ability to display one item (without
     sub-menu), a menu item with a sub-menu and a menu item with sub-menu by means of a multi-row and multi-column
     block. The module can be used in different positions, but it will display the same content. Available positions:

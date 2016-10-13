@@ -170,7 +170,7 @@ $rd-menu-width-mobile: 250px;
   &.fixed {
     position: fixed;
     height: 56px;
-    @include box-shadow(-3px 3px 6px 0 rgba(0, 0, 0, .1));
+    //@include box-shadow(-3px 3px 6px 0 rgba(0, 0, 0, .1));
     background-image: none;
 
     .rd-mobilepanel_title {
@@ -304,7 +304,7 @@ body.navbar-fixed {
 .page-content{
   &.active {
     .page, .rd-mobilepanel, .rd-mobilepanel_toggle {
-      @include transform(translateX($rd-menu-width - 1));
+      @include transform(translateX($rd-menu-width));
     }
   }
 

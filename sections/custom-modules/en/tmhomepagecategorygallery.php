@@ -1,4 +1,10 @@
 <h3>TM Homepage Category Gallery</h3>
+<?php if ($project == 'eveprest' ) { ?>
+	<div>
+		<p style="margin-bottom: 0;">Available in:</p>
+		<p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture</p>
+	</div>
+<?php } ?>
 <p>The module displays a category gallery on your store Homepage.</p>
 <p>It should look something like this:</p>
 <figure class="img-polaroid">

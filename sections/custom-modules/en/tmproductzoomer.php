@@ -1,4 +1,10 @@
 <h3>TM Product Zoomer</h3>
+<?php if ($project == 'eveprest' ) { ?>
+    <div>
+        <p style="margin-bottom: 0;">Available in:</p>
+        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One Product</p>
+    </div>
+<?php } ?>
 <p>This module is an alternative solution for the standard product image zoom on the single product page. It's fully compatible with the standard additional products thumbnail carousel and product attributes changes. It allows you to choose among the three available options (window/lens/inner) for image zoom with the advanced plugin settings. The module is based on the <a href="//igorlino.github.io/elevatezoom-plus/" target="_blank">Elevatezoom Plus</a> plugin.</p>
 <h4>Installation and removing</h4>
 <p>The module is installed and deleted like any other Prestashop module. After module has been installed the standard product zoom effect will be automatically disabled. After deleting the module standard effect should be enabled back manually (if needed) in the <strong>Preferences -> Products -> Enable JqZoom instead of Fancybox on the product page</strong> section.</p>

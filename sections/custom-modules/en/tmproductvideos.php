@@ -1,4 +1,10 @@
 <h3>TM Product Videos</h3>
+<?php if ($project == 'eveprest' ) { ?>
+    <div>
+        <p style="margin-bottom: 0;">Available in:</p>
+        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One Product</p>
+    </div>
+<?php } ?>
 <p>This module allows to add unlimited number of videos to any product in any language and store.</p>
 <h5>Installation and deleting</h5>
 <p>The module is installed and deleted like any other Prestashop module. It has no configuration page and supports

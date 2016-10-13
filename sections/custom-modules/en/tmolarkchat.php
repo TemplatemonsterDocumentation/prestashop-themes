@@ -1,4 +1,10 @@
 <h3><a href="http://special.olark.com/cDqdW ">TM Olark Chat</a></h3>
+<?php if ($project == 'eveprest' ) { ?>
+    <div>
+        <p style="margin-bottom: 0;">Available in:</p>
+        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One Product</p>
+    </div>
+<?php } ?>
 <p>Module to display Olark Chat on your store front-end.</p>
 <h5>Module install/uninstall</h5>
 <p>This module can be installed/uninstalled as any other PrestaShop module.</p>

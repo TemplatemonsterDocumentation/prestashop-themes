@@ -1,4 +1,10 @@
 <h3>TM Advanced Filter</h3>
+<?php if ($project == 'eveprest' ) { ?>
+    <div>
+        <p style="margin-bottom: 0;">Available in:</p>
+        <p style="margin-top: 0;" class="small text-secondary">Spare Parts</p>
+    </div>
+<?php } ?>
 <h4>Introduction</h4>
 <p>TM Advanced Filter module gives an opportunity to implement a quick search of the needed product based on key
     features. It allows to create filters with the unlimited number of search criteria, which are available in the store

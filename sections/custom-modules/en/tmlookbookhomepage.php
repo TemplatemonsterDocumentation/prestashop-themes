@@ -1,4 +1,10 @@
 <h3>TM Look Book Homepage</h3>
+<?php if ($project == 'eveprest' ) { ?>
+    <div>
+        <p style="margin-bottom: 0;">Available in:</p>
+        <p style="margin-top: 0;" class="small text-secondary">Fashion, Furniture</p>
+    </div>
+<?php } ?>
 <p class="alert alert-warning">To use the module, you should have the TM Look Book module installed.</p>
 <p>TM Look Book Homepage is used to display the TM Look Book module block on the Homepage. This module allows to display both the lookbook covers and lookbook pages.</p>
 <h5>Requirements:</h5>
