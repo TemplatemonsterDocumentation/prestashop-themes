@@ -140,7 +140,7 @@
       {
         "id": "tmmegalayout001",
         "translations": {
-          "en": "TM Mega Layout"
+          "en": "TM Mega Layout 0.0.1"
         }
       },
       {
@@ -317,12 +317,6 @@
         "id": "tmmediaparallax200",
         "translations": {
           "en": "TM Media Parallax 2.0.0"
-        }
-      },
-      {
-        "id": "tmmegalayout100",
-        "translations": {
-          "en": "TM Mega Layout 1.0.0"
         }
       },
       {

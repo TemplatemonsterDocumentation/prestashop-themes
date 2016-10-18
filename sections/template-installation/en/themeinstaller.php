@@ -17,7 +17,7 @@
         Themes</strong>. At the top of the page click <strong>Add new theme</strong> button.
 </p>
 <figure class="img-polaroid">
-    <img src="img/05-install-2.png" alt=""/>
+    <img src="img/theme-import-1.png" alt=""/>
 </figure>
 
 
@@ -27,7 +27,7 @@
 
 <p>Select your theme .zip file and click <strong>Save</strong>.</p>
 <figure class="img-polaroid">
-    <img src="img/05-install-3.png" alt=""/>
+    <img src="img/theme-import-2.png" alt=""/>
 </figure>
 
 
@@ -35,14 +35,14 @@
     been successfully uploaded. Your new theme preview will appear in the list of
     installed themes.</p>
 <figure class="img-polaroid">
-    <img src="img/05-install-4.png" alt=""/>
+    <img src="img/theme-import-3.png" alt=""/>
 </figure>
 
 
 <p>In order to activate the theme, hover the cursor over the theme preview icon and
     click <strong>Use this theme</strong>.</p>
 <figure class="img-polaroid">
-    <img src="img/05-install-5.png" alt=""/>
+    <img src="img/theme-import-4.png" alt=""/>
 </figure>
 
 
@@ -51,7 +51,7 @@
     to continue.</p>
 
 <figure class="img-polaroid">
-    <img src="img/05-install-6.png"
+    <img src="img/theme-import-5.png"
          alt=""/>
 </figure>
 
@@ -61,5 +61,5 @@
     <strong>Finish</strong> button.</p>
 
 <figure class="img-polaroid">
-    <img src="img/05-install-6_1.png" alt=""/>
+    <img src="img/theme-import-6.png" alt=""/>
 </figure>

@@ -9,7 +9,7 @@
 <p>TM Look Book Homepage is used to display the TM Look Book module block on the Homepage. This module allows to display both the lookbook covers and lookbook pages.</p>
 <h5>Requirements:</h5>
 <ul class="marked-list">
-    <li>PHP 5.3+</li>
+    <li>PHP 5.4+</li>
     <li>PrestaShop 1.6</li>
     <li>TM Look Book Module</li>
 </ul>

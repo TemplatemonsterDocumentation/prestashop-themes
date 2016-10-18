@@ -2,6 +2,9 @@
 
 <p class="alert alert-info">You can use this method of installation if you have a running PrestaShop website and just
     want to install a new template.</p>
+
+<p class="alert alert-info"><span>Modules configuration table can be found on the template livedemo page. Find the 'Sitemap' link in top or in footer menu and go the Sitemap -> Pages -> Pages Configuration.</span></p>
+
 <h4>Uploading template files and theme
     activation</h4>
 <ol class="index-list">
@@ -16,7 +19,7 @@
             <strong>Advanced settings</strong> button.</p>
 
         <figure class="img-polaroid">
-            <img alt="" src="img/theme_add.png"/>
+            <img alt="" src="img/existing-store-1.png"/>
             </p></figure>
     </li>
     <li>
@@ -24,7 +27,7 @@
             click <strong>Save</strong> button.</p>
 
         <figure class="img-polaroid">
-            <img alt="" src="img/theme-select.png"/>
+            <img alt="" src="img/existing-store-2.png"/>
             </p></figure>
     </li>
 </ol>

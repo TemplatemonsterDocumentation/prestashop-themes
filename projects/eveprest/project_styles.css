@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7cNoto+Serif%7CRoboto:100,300,400,500,700,900%7cPoiret+One:400);
+@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CRoboto:100,300,400,500,700,900%7CPoiret+One:400);
 main {
   padding-top: 80px;
 }
@@ -31,7 +31,7 @@ h4 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 a {
@@ -40,6 +40,16 @@ a {
 
 article a {
   color: #00b8d4;
+}
+
+.page-content .rd-mobilepanel {
+  background-position: 66% bottom;
+}
+
+@media (max-width: 1700px) {
+  .page-content .rd-mobilepanel {
+    background-position: 100% bottom;
+  }
 }
 
 .page-content.active .rd-mobilepanel {
@@ -54,7 +64,7 @@ article a {
 
 .rd-mobilepanel {
   background-color: #f4f3ea;
-  background-position: right top;
+  background-position: right bottom;
   transition-property: height;
   transition-duration: 2s;
   transition-timing-function: linear;
@@ -88,7 +98,11 @@ article a {
 }
 
 body {
-  color: #7d7d7d;
+  color: #4a4a4a;
+}
+
+section pre.prettyprint {
+  background-color: #f8f7f1;
 }
 
 body:not([data-section="introduction"]) .tm-title-caption {

@@ -119,7 +119,7 @@
     <li><p>drag the element back to the column of available elements;</p>
         <figure class="img-polaroid"><img src="img/tmadvancedfilter-12.png" alt=""/></figure>
     </li>
-    <li><p>press the 'Cross' in the upper right corner of the needed element.</p>
+    <li><p>or press the 'Cross' in the upper right corner of the needed element.</p>
         <figure class="img-polaroid"><img src="img/tmadvancedfilter-9.png" alt=""/></figure>
     </li>
 </ul>

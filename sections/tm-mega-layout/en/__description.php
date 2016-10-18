@@ -1,14 +1,13 @@
 <h3>TM Mega Layout 1.0.0</h3>
-<?php if ($project == 'eveprest') { ?>
+<?php if ($project == 'eveprest' ) { ?>
     <div>
         <p style="margin-bottom: 0;">Available in:</p>
-        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One
-            Product</p>
+        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One Product</p>
     </div>
 <?php } ?>
-<p>This module is designed to allow creating custom layouts (presets) for hooks and displaying them at site instead of
-    the default positions. This module advantage is allowing you to create different hook markups and modify them up to
-    your needs.</p>
+<p>This module is designed to allow creating custom layouts (presets) for hooks and displaying them at site instead of the default positions. This module advantage is allowing you to create different hook markups and modify them up to your needs.</p>
+
+<p class="alert alert-warning"><span>If you want to switch any layout you should use this module instead of Live Configurator.</span></p>
 
 <h4>Functional characteristics and features of the module</h4>
 <ul class="index-list">
@@ -26,15 +25,11 @@
             <li><p>In case module is not present in the hook, it can't be added to the preset.</p></li>
             <li><p>Module can be displayed in the preset only once, the same as in a hook.</p></li>
             <li><p>Module position in 'Modules and Services -> Positions' section does not affect the preset.</p></li>
-            <li><p>The module does not allow you to configure different modules. You cannot set different modules
-                    configuration for various presets.</p></li>
+            <li><p>The module does not allow you to configure different modules. You cannot set different modules configuration for various presets.</p></li>
         </ul>
     </li>
 </ul>
-<h6>Module provides you with an option for changing module position and setting up the grid for 3 hooks:
-    displayTopColumn, displayHome, displayFooter. Changing the modules position in 'Modules and Services -> Positions'
-    section will not affect the modules position in the preset. In case the module was not added to the hook, it can't
-    be added to the preset either.</h6>
+<h6>Module provides you with an option for changing module position and setting up the grid for 3 hooks: displayTopColumn, displayHome, displayFooter. Changing the modules position in 'Modules and Services -> Positions' section will not affect the modules position in the preset. In case the module was not added to the hook, it can't be added to the preset either.</h6>
 
 <h4>Integration module to the theme</h4>
 <p class="alert alert-warning"><span>Without this step your presets will not be displayed at the frontend.</span></p>
@@ -42,9 +37,7 @@
     <li><p>Top column. In order to add custom preset to the topColumn hook, you need to perform the following steps:</p>
         <ul class="marked-list">
             <li>Open the <strong>/themes/your_theme/header.tpl</strong> file for editing.</li>
-            <li>Locate the following code
-                <pre class="prettyprint">{hook h="displayTopColumn"}</pre>
-            </li>
+            <li>Locate the following code <pre class="prettyprint">{hook h="displayTopColumn"}</pre></li>
             <li>And replace it with:
                 <pre class="prettyprint">
 {assign var='displayMegaTopColumn' value={hook h='tmMegaLayoutTopColumn'}}
@@ -58,7 +51,6 @@
         &lt;/div&gt;
     {/if}
 {/if}</pre>
-
             </li>
         </ul>
     </li>
@@ -185,8 +177,7 @@
         </ul>
     </li>
 
-    <li><p>Product footer. In order to add custom preset to the Product footer hook, you need to perform the following
-            steps:</p>
+    <li><p>Product footer. In order to add custom preset to the Product footer hook, you need to perform the following steps:</p>
         <ul class="marked-list">
             <li>Open the <strong>/themes/your_theme/product.tpl</strong> file for editing.</li>
             <li>Locate the following code:
@@ -211,38 +202,30 @@
 <h4>Hooks</h4>
 <p>The module has 5 hooks available by default:</p>
 <ul class="index-list">
-    <li>'Header' is a hook that combines 2 standard hooks: displayNav and displayTop. This hook corresponds to the
-        website header.
-    </li>
-    <li>'Top Column' corresponds to the original displayTopColumn hook. This hook comes right after the Header hook.
-    </li>
+    <li>'Header' is a hook that combines 2 standard hooks: displayNav and displayTop. This hook corresponds to the website header.</li>
+    <li>'Top Column' corresponds to the original displayTopColumn hook. This hook comes right after the Header hook.</li>
     <li>'Home' corresponds to the original displayHome hook. This hook is present only on the main page.</li>
     <li>'Footer' corresponds to the original displayFooter hook.</li>
-    <li>'Product Footer' corresponds to the original displayFooterProduct hook, which is displayed in product page
-        footer.
-    </li>
+    <li>'Product Footer' corresponds to the original displayFooterProduct hook, which is displayed in product page footer.</li>
 </ul>
 
 <h4>TM Mega Layout Main Panel</h4>
-<p>The main TM Mega Layout module configuration panel that allows you to add a preset to the required hook and configure
-    the preset.</p>
-<figure class="img-polaroid"><img src="img/tmmegalayout100-main-panel.png" alt=""/></figure>
+<p>The main TM Mega Layout module configuration panel that allows you to add a preset to the required hook and configure the preset.</p>
+<figure class="img-polaroid"><img src="img/tmmegalayout100-main-panel.png" alt="" /></figure>
 
 <h5>Adding the preset</h5>
 <ul class="index-list">
     <li>
         <p>Press '+ Add Preset' (1) in the needed tab.</p>
-        <figure class="img-polaroid"><img src="img/tmmegalayout100-add-preset-1.png" alt=""/></figure>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-add-preset-1.png" alt="" /></figure>
     </li>
     <li>
-        <p>Next, fill in the 'Enter layout name' field in the popup typing the new preset (2) title there and press
-            'Save' (3).</p>
-        <figure class="img-polaroid"><img src="img/tmmegalayout100-add-preset-2.png" alt=""/></figure>
+        <p>Next, fill in the 'Enter layout name' field in the popup typing the new preset (2) title there and press 'Save' (3).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-add-preset-2.png" alt="" /></figure>
     </li>
     <li>
-        <p>Preset was successfully created, it's listed among the available presets (4) now. Newly created preset is
-            selected for editing (5).</p>
-        <figure class="img-polaroid"><img src="img/tmmegalayout100-add-preset-3.png" alt=""/></figure>
+        <p>Preset was successfully created, it's listed among the available  presets (4) now. Newly created preset is selected for editing (5).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-add-preset-3.png" alt="" /></figure>
     </li>
 </ul>
 
@@ -257,10 +240,7 @@
         <figure class="img-polaroid"><img src="img/tmmegalayout100-activation-preset-2.png" alt=""/></figure>
     </li>
     <li>
-        <p>The preset was activated. If you need to display this preset only on some pages, open the dropdown (3) and
-            select the pages you need. To apply changes, click outside the list area. A preset that is displayed on all
-            pages will be marked with a filled star in the presets list, and the one that is displayed only on some
-            pages will be marked with a partially filled star.</p>
+        <p>The preset was activated. If you need to display this preset only on some pages, open the dropdown (3) and select the pages you need. To apply changes, click outside the list area. A preset that is displayed on all pages will be marked with a filled star in the presets list, and the one that is displayed only on some pages will be marked with a partially filled star.</p>
         <figure class="img-polaroid"><img src="img/tmmegalayout100-activation-preset-3.png" alt=""/></figure>
     </li>
 </ul>
@@ -322,8 +302,7 @@
         <figure class="img-polaroid"><img src="img/tmmegalayout100-wrapper-add-class-1.png" alt=""></figure>
     </li>
     <li>
-        <p>You'll see a pop-up window, fill in the 'Enter wrapper classes' (2) field there and press a 'Confirm' (3)
-            button.</p>
+        <p>You'll see a pop-up window, fill in the 'Enter wrapper classes' (2) field there and press a 'Confirm' (3) button.</p>
         <figure class="img-polaroid"><img src="img/tmmegalayout100-wrapper-add-class-2.png" alt=""></figure>
     </li>
     <li>
@@ -332,8 +311,7 @@
 </ul>
 
 <h5>Deleting the wrapper</h5>
-<p class="alert alert-warning"><span>Deleting the preset item will also cause all of its child items and their styles removing.</span>
-</p>
+<p class="alert alert-warning"><span>Deleting the preset item will also cause all of its child items and their styles removing.</span></p>
 <ul class="index-list">
     <li>
         <p>In order to remove the wrapper, press the cart button (1).</p>
@@ -351,8 +329,7 @@
         <figure class="img-polaroid"><img src="img/tmmegalayout100-wrapper-add-styles-1.png" alt=""></figure>
     </li>
     <li>
-        <p>In the following pop-up window fill in all the needed fields (you may refer to the documentation 'Styling'
-            section), and press 'Save' (2) button.</p>
+        <p>In the following pop-up window fill in all the needed fields (you may refer to the documentation 'Styling' section), and press 'Save' (2) button.</p>
         <figure class="img-polaroid"><img src="img/tmmegalayout100-wrapper-add-styles-2.png" alt=""></figure>
     </li>
     <li>
@@ -365,8 +342,7 @@
 <h5>Adding the row</h5>
 <ul class="index-list">
     <li>
-        <p>In order to insert a new row, press '+ Add row' (1) into the wrapper block, or '+ Add row' (2) in the main
-            preset block, or '+ Add row' (3) in the column dropdown list.</p>
+        <p>In order to insert a new row, press '+ Add row' (1) into the wrapper block, or '+ Add row' (2) in the main preset block, or '+ Add row' (3) in the column dropdown list.</p>
         <figure class="img-polaroid"><img src="img/tmmegalayout100-add-row-1.png" alt=""></figure>
     </li>
     <li>
@@ -395,8 +371,7 @@
 </ul>
 
 <h5>Deleting the row</h5>
-<p class="alert alert-warning">
-    <span>Removal of preset item will also cause removal of its child items and their styles.</span></p>
+<p class="alert alert-warning"><span>Removal of preset item will also cause removal of its child items and their styles.</span></p>
 <ul class="index-list">
     <li>
         <p>In order to remove the row, open the menu (the 'ellipsis' icon) in the row block.</p>
@@ -422,8 +397,7 @@
         <figure class="img-polaroid"><img src="img/tmmegalayout100-row-add-styles-2.png" alt=""></figure>
     </li>
     <li>
-        <p>You will see the pop-up window, fill in all the needed fields there (you may refer to the documentation
-            'Styling' section) and press 'Save' (3) button.</p>
+        <p>You will see the pop-up window, fill in all the needed fields there (you may refer to the documentation 'Styling' section) and press 'Save' (3) button.</p>
         <figure class="img-polaroid"><img src="img/tmmegalayout100-row-add-styles-3.png" alt=""></figure>
     </li>
     <li>
@@ -444,8 +418,7 @@
         <figure class="img-polaroid"><img src="img/tmmegalayout100-add-col-2.png" alt=""></figure>
     </li>
     <li>
-        <p>Fill in the fields (col-xs*, col-sm*, col-md*, col-lg - bootstrap classes) in the pop-up window and press
-            'Confirm' (3) button.</p>
+        <p>Fill in the fields (col-xs*, col-sm*, col-md*, col-lg - bootstrap classes) in the pop-up window and press 'Confirm' (3) button.</p>
         <figure class="img-polaroid"><img src="img/tmmegalayout100-add-col-3.png" alt=""></figure>
     </li>
     <li>
@@ -454,8 +427,7 @@
 </ul>
 
 <h5>Removing the column</h5>
-<p class="alert alert-warning">
-    <span>Preset item removing will also cause its child items and their styles deleting.</span></p>
+<p class="alert alert-warning"><span>Preset item removing will also cause its child items and their styles deleting.</span></p>
 <ul class="index-list">
     <li>
         <p>In order to remove the column, open the menu (the 'ellipsis' icon) in a column block (1)</p>
@@ -481,8 +453,7 @@
         <figure class="img-polaroid"><img src="img/tmmegalayout100-edit-col-2.png" alt=""></figure>
     </li>
     <li>
-        <p>Fill in the fields (col-xs*, col-sm*, col-md*, col-lg - bootstrap classes) in the pop-up window and press
-            'Confirm'.</p>
+        <p>Fill in the fields (col-xs*, col-sm*, col-md*, col-lg - bootstrap classes)  in the pop-up window and press 'Confirm'.</p>
         <figure class="img-polaroid"><img src="img/tmmegalayout100-edit-col-3.png" alt=""></figure>
     </li>
     <li>
@@ -501,8 +472,7 @@
         <figure class="img-polaroid"><img src="img/tmmegalayout100-col-add-styles-2.png" alt=""></figure>
     </li>
     <li>
-        <p>You will see the pop-up window, fill in all the needed fields there (you may refer to the documentation
-            'Styling' section) and press 'Save' (3) button.</p>
+        <p>You will see the pop-up window, fill in all the needed fields there (you may refer to the documentation 'Styling' section) and press 'Save' (3) button.</p>
         <figure class="img-polaroid"><img src="img/tmmegalayout100-col-add-styles-3.png" alt=""></figure>
     </li>
     <li>
@@ -513,8 +483,7 @@
 <h4>Module</h4>
 <p>Module assigned to this hook.</p>
 <h5>Adding the module</h5>
-<p class="alert alert-warning"><span>Be careful when adding modules to the preset, some of the modules are desirable to use if they do not change the visible layout, e.g., 'Data mining for statistics' module.</span>
-</p>
+<p class="alert alert-warning"><span>Be careful when adding modules to the preset, some of the modules are desirable to use if they do not change the visible layout, e.g., 'Data mining for statistics' module.</span></p>
 <ul class="index-list">
     <li>
         <p>In order to add the module to the preset in a column block, open the menu (the 'ellipsis' icon) (1).</p>
@@ -525,8 +494,7 @@
         <figure class="img-polaroid"><img src="img/tmmegalayout100-add-module-2.png" alt=""></figure>
     </li>
     <li>
-        <p>If needed, you can enter the custom class (3) in the pop-up window and select the module (4), next press
-            'Confirm' (5).</p>
+        <p>If needed, you can enter the custom class (3) in the pop-up window and select the module (4), next press 'Confirm' (5).</p>
         <figure class="img-polaroid"><img src="img/tmmegalayout100-add-module-3.png" alt=""></figure>
     </li>
     <li>
@@ -535,8 +503,7 @@
 </ul>
 
 <h5>Deleting the module</h5>
-<p class="alert alert-warning">
-    <span>Removal of preset item will also cause removal of its child items and their styles.</span></p>
+<p class="alert alert-warning"><span>Removal of preset item will also cause removal of its child items and their styles.</span></p>
 <ul class="index-list">
     <li>
         <p>In order to remove the module, open the menu (the 'ellipsis' icon) (1) in the module block.</p>
@@ -555,8 +522,7 @@
 <p>Custom class adding allows to create module styling using CSS rules.</p>
 <ul class="index-list">
     <li>
-        <p>In order to specify custom class for the module, open the menu in the module block (the 'ellipsis' icon)
-            (1).</p>
+        <p>In order to specify custom class for the module, open the menu in the module block (the 'ellipsis' icon) (1).</p>
         <figure class="img-polaroid"><img src="img/tmmegalayout100-module-add-class-1.png" alt=""></figure>
     </li>
     <li>
@@ -573,8 +539,7 @@
 </ul>
 
 <h5>Logo, Copyright</h5>
-<p>Logo and Copyright blocks are edited the same way as modules, except for the fact that Logo can be placed only in
-    Header or Footer position, and the Copyright block can be placed only in Footer position.</p>
+<p>Logo and Copyright blocks are edited the same way as modules, except for the fact that Logo can be placed only in Header or Footer position, and the Copyright block can be placed only in Footer position.</p>
 
 <h5>Presets export</h5>
 <p>Export tool allows you to export presets for the further import into different shops.</p>
@@ -592,8 +557,7 @@
         <figure class="img-polaroid"><img src="img/tmmegalayout100-export-preset-3.png" alt=""></figure>
     </li>
     <li>
-        <p>In order to preview the preset, press 'Layout preview' (3) button next to the preset you need, in order to
-            export, please press 'Export layout' (4) button.</p>
+        <p>In order to preview the preset, press 'Layout preview' (3) button next to the preset you need, in order to export, please press 'Export layout' (4) button.</p>
         <figure class="img-polaroid"><img src="img/tmmegalayout100-export-preset-4.png" alt=""></figure>
     </li>
     <li>
@@ -602,31 +566,25 @@
 </ul>
 
 <h5>Preset import</h5>
-<p class="alert alert-warning"><span>Import tool accepts only the presets *.zip files that were previously generated with the same module Export tool.</span>
-</p>
+<p class="alert alert-warning"><span>Import tool accepts only the presets *.zip files that were previously generated with the same module Export tool.</span></p>
 <ul class="index-list">
     <li>
-        <p>In order to import your preset, you should open the <strong>Tools (1)</strong> tab and choose <strong>'Import'
-                (2)</strong>.</p>
-        <figure class="img-polaroid"><img src="img/tmmegalayout100-import-preset-1.png" alt=""/></figure>
+        <p>In order to import your preset, you should open the <strong>Tools (1)</strong> tab and choose <strong>'Import' (2)</strong>.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-import-preset-1.png" alt="" /></figure>
     </li>
     <li>
-        <p>Next, press the <strong>Add file (3)</strong> button and select the zip file of your exported preset. In case
-            this archive is the exported preset, you will see this preset preview.</p>
-        <figure class="img-polaroid"><img src="img/tmmegalayout100-import-preset-2.png" alt=""/></figure>
+        <p>Next, press the <strong>Add file (3)</strong> button and select the zip file of your exported preset. In case this archive is the exported preset, you will see this preset preview.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-import-preset-2.png" alt="" /></figure>
     </li>
     <li>
-        <p>If this preset meets your needs, press <strong>'Import' (4)</strong>. The preset will be imported and added
-            to the list of available presets.</p>
-        <figure class="img-polaroid"><img src="img/tmmegalayout100-import-preset-3.png" alt=""/></figure>
+        <p>If this preset meets your needs, press <strong>'Import' (4)</strong>. The preset will be imported and added to the list of available presets.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-import-preset-3.png" alt="" /></figure>
     </li>
 </ul>
 
 <h5>Reset</h5>
-<p>'Reset' reverts all the presets to initial state (to the way they came with the template), and discards all the
-    created presets.</p>
-<p class="alert alert-warning"><span>Attention! After reverting presets to default state, all the custom presets will be discarded!</span>
-</p>
+<p>'Reset' reverts all the presets to initial state (to the way they came with the template), and discards all the created presets.</p>
+<p class="alert alert-warning"><span>Attention! After reverting presets to default state, all the custom presets will be discarded!</span></p>
 <ul class="index-list">
     <li>
         <p>To reset presets, navigate to the 'Tools' (1) tab. In the appeared block open the 'Options' (2) tab.</p>
@@ -643,8 +601,7 @@
 
 <!--optimization-->
 <h5>Styles and Scripts Optimization</h5>
-<p>Styles and scripts optimization adds exclusions for modules in Header section, based on their use in presets. This
-    allows speeding up the page loading speed. Optimization works in test mode.</p>
+<p>Styles and scripts optimization adds exclusions for modules in Header section, based on their use in presets. This allows speeding up the page loading speed. Optimization works in test mode.</p>
 <p>Enabling optimization:</p>
 <ul class="index-list">
     <li>
@@ -656,52 +613,34 @@
         <figure class="img-polaroid"><img src="img/tmmegalayout100-optimization-2.png" alt=""></figure>
     </li>
 </ul>
-<p>If optimization is enabled when editing and enabling presets, optimization gets discarded, but you'll see a window
-    offering to run optimization. There is no need to optimize scripts and styles every time you change presets. It's
-    better to optimize them when you're done editing.</p>
+<p>If optimization is enabled when editing and enabling presets, optimization gets discarded, but you'll see a window offering to run optimization. There is no need to optimize scripts and styles every time you change presets. It's better to optimize them when you're done editing.</p>
 <figure class="img-polaroid"><img src="img/tmmegalayout100-optimization-3.png" alt=""></figure>
 
 <h5>Styling</h5>
 <ul class="index-list">
     <li>
         <p>Background styles. Fields description:</p>
-        <figure class="img-polaroid"><img src="img/tmmegalayout100-styles-1.png" alt=""/></figure>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-styles-1.png" alt="" /></figure>
         <ul class="marked-list">
-            <li>background-image (background image) - the image URL or 'none' value. The image is picked from the
-                ~/images/cms/ folder.
-            </li>
-            <li>background-color (background color) - the value can be set in any color format (rgb, hex, etc.). You can
-                choose the color using the colorpicker tool.
-            </li>
-            <li>background-repeat (background repeat) - all of the available options are listed in the radio buttons.
-            </li>
-            <li>background-position (background position) - all of the available options are listed in the dropdown.
-            </li>
+            <li>background-image (background image) - the image URL or 'none' value. The image is picked from the ~/images/cms/ folder.</li>
+            <li>background-color (background color) - the value can be set in any color format (rgb, hex, etc.). You can choose the color using the colorpicker tool.</li>
+            <li>background-repeat (background repeat) - all of the available options are listed in the radio buttons.</li>
+            <li>background-position (background position) - all of the available options are listed in the dropdown.</li>
             <li>background-size (background size) - all of the available options are listed in the dropdown.</li>
-            <li>background-origin (background image positioning region) - all of the available options are listed in the
-                dropdown.
-            </li>
+            <li>background-origin (background image positioning region) - all of the available options are listed in the dropdown.</li>
         </ul>
     </li>
     <li><p>Border styles.</p>
-        <figure class="img-polaroid"><img src="img/tmmegalayout100-styles-2.png" alt=""/></figure>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-styles-2.png" alt="" /></figure>
         <ul class="marked-list">
-            <li>border-top-style, border-right-style, border-left-style, border-bottom-style (border styles) - all of
-                the available options are listed in the dropdown.
-            </li>
-            <li>border-top-width, border-right-width, border-left-width, border-bottom-width (borders width) - should be
-                set in pixels.
-            </li>
-            <li>border-top-сolor, border-right-color, border-left-color, border-bottom-color (borders color) - the value
-                can be set in any color format (rgb, hex, etc.). You can choose the color using the colorpicker tool.
-            </li>
-            <li>border-top-right-radius, border-top-left-radius, border-bottom-right-radius, border-bottom-left-radius
-                (border radius) - should be set in pixels.
-            </li>
+            <li>border-top-style, border-right-style, border-left-style, border-bottom-style (border styles) - all of the available options are listed in the dropdown.</li>
+            <li>border-top-width, border-right-width, border-left-width, border-bottom-width (borders width) - should be set in pixels.</li>
+            <li>border-top-сolor, border-right-color, border-left-color, border-bottom-color (borders color) - the value can be set in any color format (rgb, hex, etc.). You can choose the color using the colorpicker tool.</li>
+            <li>border-top-right-radius, border-top-left-radius, border-bottom-right-radius, border-bottom-left-radius (border radius) - should be set in pixels.</li>
         </ul>
     </li>
     <li><p>Other styles.</p>
-        <figure class="img-polaroid"><img src="img/tmmegalayout100-styles-3.png" alt=""/></figure>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-styles-3.png" alt="" /></figure>
         <ul class="marked-list">
             <li>box-shadow (box shadow) - example:0px 0px 0px 0px rgba(0,0,0,0.75).</li>
         </ul>
@@ -712,7 +651,7 @@
 <ul class="index-list">
     <li>
         <p>In order to remove items styles, open the items styling section and press 'Clear styles' (1)</p>
-        <figure class="img-polaroid"><img src="img/tmmegalayout100-clear-styles-1.png" alt=""/></figure>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-clear-styles-1.png" alt="" /></figure>
     </li>
 </ul>
 
@@ -721,5 +660,4 @@
 <figure class="img-polaroid"><img src="img/tmmegalayout100-module-warning-1.png" alt=""></figure>
 <p>If the following message appears in the module item block, you should install the mentioned module.</p>
 <figure class="img-polaroid"><img src="img/tmmegalayout100-module-warning-2.png" alt=""></figure>
-<p>In case you remove or deactivate the 'TM Mega Layout' module, all of the active presets will be disabled and you will
-    see the positions (hooks) in their original appearance.</p>
+<p>In case you remove or deactivate the 'TM Mega Layout' module, all of the active presets will be disabled and you will see the positions (hooks) in their original appearance.</p>
