@@ -7,9 +7,9 @@
     <li><strong>Web server:</strong> Apache Web server 1.3 or later, Microsoft's IIS Web
         server 6.0 or later, and nginx 1.0 or later.
     </li>
-    <li><strong>PHP 5.2</strong> or later.</li>
-    <li><strong>MySQL 5.0</strong> or later.</li>
-    <li>At least 32 Mb of RAM on your server (64 Mb is comfortable, the more the
+    <li><strong>PHP 5.4</strong> or later.</li>
+    <li><strong>MySQL 5.5</strong> or later.</li>
+    <li>At least 128 Mb of RAM on your server (64 Mb is comfortable, the more the
         better).
     </li>
 </ul>

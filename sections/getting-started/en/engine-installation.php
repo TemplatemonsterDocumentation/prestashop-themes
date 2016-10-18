@@ -1,5 +1,10 @@
 <h3>PrestaShop engine installation</h3>
 
+<p class="alert alert-warning">Please make sure your version of PrestaShop engine matches the specified version in
+    "Technical Details" tab, mentioned as "PrestaShop Engine: 1.X.X.X".
+    <br/>Also, make sure your database tables prefix is <strong>ps_</strong>. Install sample data only if your PrestaShop engine matches
+    the specified version. </p>
+
 <p>When you are done with the files upload, you can start the PrestaShop engine
     installation. Open your web browser and type in the 'domain name/path to your
     PrestaShop directory' in the address bar, then reload the current page. You should
@@ -8,7 +13,7 @@
 
 <h4>Installation Assistant (Choose your language)</h4>
 
-<h6>Please select the installation language</h6>
+<h6>Please select the installation language.</h6>
 
 <p class="alert alert-warning">Please note: the installation language option will not affect your store language. By
     default PrestaShop is offered in English. You can install additional localization packages to change the store
@@ -17,7 +22,7 @@
 <p>When you are done, click the <strong>'Next'</strong> button.</p>
 
 <figure class="img-polaroid">
-    <img src="img/01-install.png" alt="">
+    <img src="img/engine-install-01.png" alt="">
 </figure>
 
 <h4>Installation Assistant (License agreements)</h4>
@@ -28,7 +33,7 @@
 </ol>
 
 <figure class="img-polaroid">
-    <img src="img/01-install-1.png" alt="">
+    <img src="img/engine-install-02.png" alt="">
 </figure>
 
 <h4>System Compatibility</h4>
@@ -39,7 +44,7 @@
 <p>If everything is correct, click the <strong>'Next'</strong> button.</p>
 
 <figure class="img-polaroid">
-    <img src="img/02-install.png" alt="">
+    <img src="img/engine-install-03.png" alt="">
 </figure>
 
 <h4>Shop configuration</h4>
@@ -50,7 +55,7 @@
 <p>All these settings can be changed later in your PrestaShop administration panel.</p>
 
 <figure class="img-polaroid">
-    <img src="img/04-install.png" alt="">
+    <img src="img/engine-install-04.png" alt="">
 </figure>
 
 <h4>System Configuration</h4>
@@ -64,7 +69,7 @@
 <p>When you are done, click the <strong>'Next'</strong> button.</p>
 
 <figure class="img-polaroid">
-    <img src="img/03-install.png" alt="">
+    <img src="img/engine-install-05.png" alt="">
 </figure>
 
 <h4>Installation is complete</h4>
@@ -76,7 +81,7 @@
 </p>
 
 <figure class="img-polaroid">
-    <img src="img/05-install.png" alt="">
+    <img src="img/engine-install-06.png" alt="">
 </figure>
 
 <p class="alert alert-info">Starting with version 1.5.4, PrestaShop takes care of renaming the administration folder

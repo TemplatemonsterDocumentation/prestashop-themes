@@ -48,6 +48,14 @@
                             <dd> template Adobe Photoshop source files (.psd)</dd>
                         </dl>
                     </li>
+                    <li>
+                        <dl class="inline-term">
+                            <dt>
+                                <i class="fa fa-folder"></i>
+                                <strong>custom_html</strong></dt>
+                            <dd> custom HTML files</dd>
+                        </dl>
+                    </li>
                 </ul>
             </li>
         </ul>

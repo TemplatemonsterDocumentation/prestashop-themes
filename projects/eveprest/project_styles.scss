@@ -8,7 +8,7 @@ $secondary-color: #00b8d4;
 $contrast-color: #FFFFFF;
 $header-background-image: '../../projects/eveprest/img/header-bg.png';
 
-@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7cNoto+Serif%7CRoboto:100,300,400,500,700,900%7cPoiret+One:400);
+@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CRoboto:100,300,400,500,700,900%7CPoiret+One:400);
 
 $primary-font-family: 'Noto Sans', sans-serif;
 
@@ -52,7 +52,7 @@ h4 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 a {
@@ -64,6 +64,15 @@ article a {
 }
 
 .page-content {
+
+  .rd-mobilepanel {
+    //background-position-y: 100%;
+    background-position: 66% bottom;
+    @media (max-width: 1700px) {
+      background-position: 100% bottom;
+    }
+  }
+
   &.active {
     .rd-mobilepanel {
       background-position: 66% bottom;
@@ -76,7 +85,7 @@ article a {
 
 .rd-mobilepanel {
   background-color: $primary-color;
-  background-position: right top;
+  background-position: right bottom;
   transition-property: height;
   transition-duration: 2s;
   transition-timing-function: linear;
@@ -101,13 +110,16 @@ article a {
       height: 56px;
       background-image: none;
       transition: top 1s ease-out 0.5s;
-      //box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
     }
   }
 }
 
 body {
-  color: #7d7d7d;
+  color: darken($default-color, 20%);
+}
+
+section pre.prettyprint  {
+  background-color: lighten($primary-color, 2%);
 }
 
 body:not([data-section="introduction"]) {

@@ -1,13 +1,13 @@
 <h3>TM Mega Layout 0.0.1</h3>
 <p>This module is designed to let you create custom layouts (presets) for hooks and display them at site instead of the default positions. This module advantage is allowing you to create different hook markups and modify them up to your needs.</p>
 
-<h4>Functional characteristics and features of the module.</h4>
+<h4>Functional characteristics and features of the module</h4>
 <ul class="index-list">
     <li>
         <p>Requirements:</p>
         <ul class="marked-list">
             <li>Prestashop 1.6+</li>
-            <li>PHP 5.3+</li>
+            <li>PHP 5.4+</li>
         </ul>
     </li>
     <li>
@@ -21,7 +21,7 @@
         </ul>
     </li>
 </ul>
-<p>Module provides you with an option for changing module position and setting up the grid for 3 hooks: displayTopColumn, displayHome, displayFooter. Changing the modules position in 'Modules and Services->Positions' section will not affect the modules position in the preset. In case module was not added to the hook, it can't be also added to the preset.</p>
+<h6>Module provides you with an option for changing module position and setting up the grid for 3 hooks: displayTopColumn, displayHome, displayFooter. Changing the modules position in 'Modules and Services -> Positions' section will not affect the modules position in the preset. In case module was not added to the hook, it can't be also added to the preset.</h6>
 
 <h4>Module integration to the theme</h4>
 <p class="alert alert-warning">Without this step done your presets will not be displayed on the frontend.</p>

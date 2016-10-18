@@ -1,4 +1,7 @@
 <h3>TM Modules used in Eveprest</h3>
+
+<p>Click on the module name to open the detailed documentation.</p> <br>
+
 <ul class="flex-list">
     <li>
         <img class="icon" src="projects/eveprest/img/modules/tmadvancedfilter.png" alt="">

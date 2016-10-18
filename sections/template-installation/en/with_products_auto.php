@@ -23,7 +23,7 @@ It will contain all demo products, categories, modules and store settings.</p>
         </p>
 
         <figure class="img-polaroid">
-            <img src="img/05-install-7.png" alt=""/>
+            <img src="img/auto-install-1.png" alt=""/>
         </figure>
     </li>
     <li>
@@ -33,21 +33,21 @@ It will contain all demo products, categories, modules and store settings.</p>
             browser window.</p>
 
         <figure class="img-polaroid">
-            <img src="img/05-install-7_1.png" alt=""/>
+            <img src="img/auto-install-2.png" alt=""/>
         </figure>
     </li>
     <li>
         <p>Wait until the files are uploaded.</p>
 
         <figure class="img-polaroid">
-            <img src="img/05-install-7_2.png" alt=""/>
+            <img src="img/auto-install-3.png" alt=""/>
         </figure>
     </li>
     <li>
         <p>Then click <strong>"Continue Install"</strong> button.</p>
 
         <figure class="img-polaroid">
-            <img src="img/05-install-7_3.png" alt=""/>
+            <img src="img/auto-install-4.png" alt=""/>
         </figure>
     </li>
     <li>
@@ -55,7 +55,7 @@ It will contain all demo products, categories, modules and store settings.</p>
             modules. This can take several minutes.</p>
 
         <figure class="img-polaroid">
-            <img src="img/05-install-7_4.png" alt=""/>
+            <img src="img/auto-install-5.png" alt=""/>
         </figure>
     </li>
     <li>
@@ -64,7 +64,7 @@ It will contain all demo products, categories, modules and store settings.</p>
         </p>
 
         <figure class="img-polaroid">
-            <img src="img/05-install-7_5.png" alt=""/>
+            <img src="img/auto-install-6.png" alt=""/>
         </figure>
     </li>
     <li>
@@ -72,7 +72,7 @@ It will contain all demo products, categories, modules and store settings.</p>
         </p>
 
         <figure class="img-polaroid">
-            <img src="img/05-install-7_6.png" alt=""/>
+            <img src="img/auto-install-7.png" alt=""/>
         </figure>
     </li>
 </ol>
