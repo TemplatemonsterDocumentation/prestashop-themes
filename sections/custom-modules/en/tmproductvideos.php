@@ -25,7 +25,7 @@
     <li>
         <dl class="inline-term">
             <dt>Youtube</dt>
-            <dd><code>https://www.youtube.com/v/K6VcTyaym90</code></dd>
+            <dd><code>https://www.youtube.com/embed/K6VcTyaym90</code></dd>
         </dl>
     </li>
     <li>

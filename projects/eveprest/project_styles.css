@@ -209,12 +209,12 @@ body:not([data-section="introduction"]) .tm-title-caption {
   margin-top: 10px;
 }
 
-.index-list-type-2 {
+.index-list-templates {
   margin-top: 50px;
   counter-reset: li;
 }
 
-.index-list-type-2 > li {
+.index-list-templates > li {
   position: relative;
   border: 1px solid #ccc;
   text-align: center;
@@ -225,7 +225,7 @@ body:not([data-section="introduction"]) .tm-title-caption {
   transition: .3s;
 }
 
-.index-list-type-2 > li:after {
+.index-list-templates > li:after {
   content: counter(li, decimal);
   counter-increment: li;
   position: absolute;
@@ -239,38 +239,38 @@ body:not([data-section="introduction"]) .tm-title-caption {
   color: #00b8d4;
 }
 
-.index-list-type-2 > li:nth-child(odd):after {
+.index-list-templates > li:nth-child(odd):after {
   left: 30px;
 }
 
-.index-list-type-2 > li:nth-child(even):after {
+.index-list-templates > li:nth-child(even):after {
   right: 30px;
 }
 
-.index-list-type-2 > li .inset-1 {
+.index-list-templates > li .inset-1 {
   padding: 80px;
 }
 
-.index-list-type-2 > li .overflow-hidden {
+.index-list-templates > li .overflow-hidden {
   overflow: hidden;
 }
 
-.index-list-type-2 > li img {
+.index-list-templates > li img {
   transform: scale(1.2) translateY(35%);
   transition: .5s;
 }
 
-.index-list-type-2 > li p {
+.index-list-templates > li p {
   transform: translateY(200%);
   transition: .7s;
   opacity: 0;
 }
 
-.index-list-type-2 > li:hover img {
+.index-list-templates > li:hover img {
   transform: scale(1) translateY(0);
 }
 
-.index-list-type-2 > li:hover p {
+.index-list-templates > li:hover p {
   transform: translateY(0);
   opacity: 1;
 }

@@ -308,6 +308,11 @@ b, strong {
       margin-top: 10px;
       margin-bottom: 10px;
     }
+    p {
+      &:last-child {
+        margin-bottom: 20px;
+      }
+    }
   }
 
   & + li { margin-top: 10px; }
