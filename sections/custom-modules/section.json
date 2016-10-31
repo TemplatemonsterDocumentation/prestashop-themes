@@ -18,6 +18,12 @@
         }
       },
       {
+        "id": "tm360view",
+        "translations": {
+          "en": "TM 360 View"
+        }
+      },
+      {
         "id": "tmadvancedfilter",
         "translations": {
           "en": "TM Advanced Filter"
@@ -93,6 +99,12 @@
         "id": "tmhomepagecategorygallery",
         "translations": {
           "en": "TM Homepage Category Gallery"
+        }
+      },
+      {
+        "id": "tmhomepagecombinations",
+        "translations": {
+          "en": "TM Homepage Combinations"
         }
       },
       {
@@ -180,6 +192,12 @@
         }
       },
       {
+        "id": "tmoneclickorder",
+        "translations": {
+          "en": "TM One Click Order"
+        }
+      },
+      {
         "id": "tmproductlistgallery200",
         "translations": {
           "en": "TM Product List Gallery 2.0.0"
@@ -254,6 +272,12 @@
     ],
     "eveprest": [
       {
+        "id": "tm360view",
+        "translations": {
+          "en": "TM 360 View"
+        }
+      },
+      {
         "id": "tmadvancedfilter",
         "translations": {
           "en": "TM Advanced Filter"
@@ -287,6 +311,12 @@
         "id": "tmhomepagecategorygallery",
         "translations": {
           "en": "TM Homepage Category Gallery"
+        }
+      },
+      {
+        "id": "tmhomepagecombinations",
+        "translations": {
+          "en": "TM Homepage Combinations"
         }
       },
       {
@@ -347,6 +377,12 @@
         "id": "tmolarkchat",
         "translations": {
           "en": "TM Olark Chat"
+        }
+      },
+      {
+        "id": "tmoneclickorder",
+        "translations": {
+          "en": "TM One Click Order"
         }
       },
       {

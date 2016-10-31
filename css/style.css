@@ -331,6 +331,10 @@ b, strong {
   margin-bottom: 10px;
 }
 
+.marked-list > li p:last-child {
+  margin-bottom: 20px;
+}
+
 .marked-list + li {
   margin-top: 10px;
 }

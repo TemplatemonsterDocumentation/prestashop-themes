@@ -177,7 +177,7 @@
             and manufacturers on the front page.</p>
     </li>
     <li>
-        <img class="icon" src="projects/eveprest/img/modules/tmrotationproduct.png" alt="">
+        <img class="icon" src="projects/eveprest/img/modules/tm360view.png" alt="">
         <div class="offset-1"><a href="index.php?project=eveprest&lang=en&section=custom-modules#tm360view">TM 360
                 View</a>
             <div>(coming soon)</div>
@@ -187,7 +187,7 @@
     </li>
     <li>
         <img class="icon" src="projects/eveprest/img/modules/tmoneclickorder.png" alt="">
-        <div class="offset-1"><a href="index.php?project=eveprest&lang=en&section=custom-modules#tm1clickorder">TM
+        <div class="offset-1"><a href="index.php?project=eveprest&lang=en&section=custom-modules#tmoneclickorder">TM
                 1-Click Order</a>
             <div>(coming soon)</div>
         </div>

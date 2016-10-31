@@ -2,7 +2,7 @@
 <h5>Eveprest is a luxury product, which includes all of our developments. Though it's easy to use for a customer.</h5>
 <p>It has four sought-after topics: Fashion, Furniture, Spare Parts, Electronics, so the client can choose the suitable
     one. The fifth one is our special feature - One-Product Shop.</p>
-<ul class="index-list-type-2">
+<ul class="index-list-templates">
     <li>
         <div class="theme-bg-1 inset-1 overflow-hidden">
             <img src="projects/eveprest/img/themes/fashion.png" alt="">

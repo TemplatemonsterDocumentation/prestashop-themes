@@ -14,18 +14,18 @@
 <h4>Installation</h4>
 
 <p>Log into your PrestaShop admin panel and navigate to <strong>Preferences ->
-        Themes</strong>. At the top of the page click <strong>Add new theme</strong> button.
+        Themes</strong>. At the top of the page click <strong>Add new theme</strong> button (1).
 </p>
 <figure class="img-polaroid">
     <img src="img/theme-import-1.png" alt=""/>
 </figure>
 
 
-<p>Click <strong>Add file</strong> button in Import from your computer section. Navigate
+<p>Click <strong>Add file</strong> button (1) in Import from your computer section. Navigate
     to previously unzipped template package and open <strong>themeinstallator</strong>
     folder.</p>
 
-<p>Select your theme .zip file and click <strong>Save</strong>.</p>
+<p>Select your theme .zip file and click <strong>Save</strong> (2).</p>
 <figure class="img-polaroid">
     <img src="img/theme-import-2.png" alt=""/>
 </figure>
