@@ -38,7 +38,7 @@ h3 {
 }
 
 [data-section="introduction"] .rd-mobilepanel {
-  background-image: url("../../projects/default/img/header.png");
+  background-image: url("../../projects/default/img/default-header-bg.png");
   height: 256px;
 }
 
@@ -53,7 +53,6 @@ body:not([data-section="introduction"]) .tm-title-caption {
 }
 
 .rd-mobilepanel_title {
-  font-size: 82px;
   top: 100px;
 }
 

@@ -43,10 +43,10 @@
         <ul class="marked-list">
             <li>Open the <strong>/themes/your_theme/header.tpl</strong> file for editing.</li>
             <li>Locate the following code
-                <pre class="prettyprint">{hook h="displayTopColumn"}</pre>
+                <pre class="codebox">{hook h="displayTopColumn"}</pre>
             </li>
             <li>And replace it with:
-                <pre class="prettyprint">
+                <pre class="codebox">
 {assign var='displayMegaTopColumn' value={hook h='tmMegaLayoutTopColumn'}}
 {if $displayMegaTopColumn}
     {hook h='tmMegaLayoutTopColumn'}
@@ -66,7 +66,7 @@
         <ul class="marked-list">
             <li>Open the <strong>/themes/your_theme/footer.tpl</strong> file for editing.</li>
             <li>Locate the following code:
-                <pre class="prettyprint">
+                <pre class="codebox">
 {if isset($HOOK_HOME) && $HOOK_HOME|trim}
     &lt;div class="home-column"&gt;
         &lt;div class="container"&gt;
@@ -76,7 +76,7 @@
 {/if}</pre>
             </li>
             <li>And replace it with:
-                <pre class="prettyprint">
+                <pre class="codebox">
 {assign var='displayMegaHome' value={hook h='tmMegaLayoutHome'}}
 {if $displayMegaHome}
     {hook h='tmMegaLayoutHome'}
@@ -92,7 +92,7 @@
         <ul class="marked-list">
             <li>Open the <strong>/themes/your_theme/footer.tpl</strong> file for editing.</li>
             <li>Locate the following code:
-                <pre class="prettyprint">
+                <pre class="codebox">
 {if isset($HOOK_FOOTER)}
     &lt;div class="footer-container"&gt;
         &lt;footer id="footer"  class="container"&gt;
@@ -104,7 +104,7 @@
 {/if}</pre>
             </li>
             <li>And replace it with:
-                <pre class="prettyprint">
+                <pre class="codebox">
 {assign var='displayMegaFooter' value={hook h='tmMegaLayoutFooter'}}
 {if isset($HOOK_FOOTER) || $displayMegaFooter}
     &lt;div class="footer-container"&gt;
@@ -126,7 +126,7 @@
         <ul class="marked-list">
             <li>Open the <strong>/themes/your_theme/header.tpl</strong> file for editing.</li>
             <li>Locate the following code:
-                <pre class="prettyprint">
+                <pre class="codebox">
 {capture name='displayNav'}{hook h='displayNav'}{/capture}
 {if $smarty.capture.displayNav}
 &lt;div class="nav"&gt;
@@ -151,7 +151,7 @@
 &lt;/div&gt;</pre>
             </li>
             <li>And replace it with:
-                <pre class="prettyprint">
+                <pre class="codebox">
 {assign var='displayMegaHeader' value={hook h='tmMegaLayoutHeader'}}
 {if isset($HOOK_TOP) || $displayMegaHeader}
   {if $displayMegaHeader}
@@ -190,11 +190,11 @@
         <ul class="marked-list">
             <li>Open the <strong>/themes/your_theme/product.tpl</strong> file for editing.</li>
             <li>Locate the following code:
-                <pre class="prettyprint">
+                <pre class="codebox">
 {if isset($HOOK_PRODUCT_FOOTER) && $HOOK_PRODUCT_FOOTER}{$HOOK_PRODUCT_FOOTER}{/if}                                   </pre>
             </li>
             <li>And replace it with:
-                <pre class="prettyprint">
+                <pre class="codebox">
 {assign var='displayMegaProductFooter' value={hook h='tmMegaLayoutProductFooter'}}
   {if isset($HOOK_PRODUCT_FOOTER) || $displayMegaFooter}
     {if $displayMegaProductFooter}

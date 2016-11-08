@@ -48,7 +48,7 @@
                 Items can be filtered by the type, size, brand, occasion, color, price, and many other parameters.</p>
         </div>
     </li>
-    <li class="coming-soon-label">
+    <li>
         <div class="theme-bg-5 inset-1 overflow-hidden">
             <img src="projects/eveprest/img/themes/one-product.png" alt="">
             <p>This theme will come in handy for companies selling a single product. Thanks to integration of 360 view

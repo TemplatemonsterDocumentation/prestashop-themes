@@ -219,7 +219,7 @@
             var nav = this,
                 p = $('.rd-mobilepanel'),
                 st_before = 0,
-                fz = 56;
+                fz = 65;
 
 
             function resizePanel() {

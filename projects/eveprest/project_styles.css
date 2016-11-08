@@ -3,6 +3,10 @@ main {
   padding-top: 80px;
 }
 
+body {
+  color: #4a4a4a;
+}
+
 h1, h2, h3, h4, h5, .heading-5, h6 {
   color: #555;
 }
@@ -40,6 +44,14 @@ a {
 
 article a {
   color: #00b8d4;
+}
+
+.alert a {
+  color: #ed3b5b;
+}
+
+.codebox {
+  background-color: #f8f7f1;
 }
 
 .page-content .rd-mobilepanel {
@@ -97,20 +109,11 @@ article a {
   transition: top 1s ease-out 0.5s;
 }
 
-body {
-  color: #4a4a4a;
-}
-
-section pre.prettyprint {
-  background-color: #f8f7f1;
-}
-
 body:not([data-section="introduction"]) .tm-title-caption {
   display: none;
 }
 
 .rd-mobilepanel_title {
-  font-size: 82px;
   top: 100px;
   right: auto;
   color: #7d7d7d;

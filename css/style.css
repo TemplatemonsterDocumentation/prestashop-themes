@@ -186,22 +186,6 @@ hr {
   background: #e4e4e4;
 }
 
-.color-1 {
-  color: #1d88de;
-}
-
-.color-2 {
-  color: #ec4034;
-}
-
-.color-3 {
-  color: #4aab4d;
-}
-
-.color-4 {
-  color: #ff9700;
-}
-
 .relative {
   position: relative;
 }
@@ -329,10 +313,6 @@ b, strong {
 .marked-list > li .marked-list {
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-.marked-list > li p:last-child {
-  margin-bottom: 20px;
 }
 
 .marked-list + li {
@@ -1574,27 +1554,8 @@ footer:after {
                      CODEBOX  Styles
 =========================================================*/
 .codebox {
-  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
-  font-size: 17px;
-  background-color: #f4f4f4;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1), 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff7e3;
   padding: 30px;
-  line-height: 31px;
-}
-
-.codebox span {
-  display: block;
-  padding-left: 40px;
-}
-
-section pre.prettyprint {
-  background-color: #fdf6e3;
-}
-
-.prettyprint_2 {
-  padding: 15px;
-  background-color: #f0f0f0;
-}
-
-samp {
-  padding: 15px;
+  white-space: pre-wrap;
 }

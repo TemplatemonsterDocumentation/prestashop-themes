@@ -171,7 +171,6 @@
         <div class="offset-1"><a
                 href="index.php?project=eveprest&lang=en&section=custom-modules#tmhomepagecombinations">TM Homepage
                 Combinations</a>
-            <div>(coming soon)</div>
         </div>
         <p>Prove versatility of your merchandise with this module. It lets you combine products of various categories
             and manufacturers on the front page.</p>
@@ -180,7 +179,6 @@
         <img class="icon" src="projects/eveprest/img/modules/tm360view.png" alt="">
         <div class="offset-1"><a href="index.php?project=eveprest&lang=en&section=custom-modules#tm360view">TM 360
                 View</a>
-            <div>(coming soon)</div>
         </div>
         <p>Let customers view your product from all angles on the front page. Using a mouse or touch screen, they can
             rotate the product image 360 degrees.</p>
@@ -189,7 +187,6 @@
         <img class="icon" src="projects/eveprest/img/modules/tmoneclickorder.png" alt="">
         <div class="offset-1"><a href="index.php?project=eveprest&lang=en&section=custom-modules#tmoneclickorder">TM
                 1-Click Order</a>
-            <div>(coming soon)</div>
         </div>
         <p>Increase the number of impulse purchases with this module. It allows buyers to skip the registration and
             minimizes the multi-step checkout to a single click.</p>

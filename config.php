@@ -31,7 +31,7 @@ if (isset($_REQUEST['project'])) {
 /**
  * Project text logo and project title depending on project name
  */
-$projectTitle        = 'TM Wordpress';
+$projectTitle        = 'TM Prestashop';
 $projectTextLogo     = '';
 $projectTitleCaption = '';
 if ( true === isset( $projectList[ $project ] ) ) {

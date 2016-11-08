@@ -1,14 +1,20 @@
 {
-	"default": {
-		"textLogo": "",
-		"title": "PrestaShop Documentation v1.3",
-		"titleCaption": "",
-		"author": ""
-	},
-	"eveprest": {
-		"textLogo": "",
-		"title": "Eveprest",
-		"titleCaption": "Prestashop multipurpose responsive theme",
-		"author": ""
-	}
+  "default": {
+    "textLogo": "",
+    "title": "PrestaShop Documentation v1.3",
+    "titleCaption": "",
+    "author": ""
+  },
+  "eveprest": {
+    "textLogo": "",
+    "title": "Eveprest",
+    "titleCaption": "Prestashop multipurpose responsive theme",
+    "author": ""
+  },
+  "stylenium": {
+    "textLogo": "",
+    "title": "Stylenium",
+    "titleCaption": "Online Store",
+    "author": ""
+  }
 }

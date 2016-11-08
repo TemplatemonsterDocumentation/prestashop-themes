@@ -1,0 +1,130 @@
+//========================================================
+//                     Variables
+//========================================================
+
+$default-color: #7d7d7d;
+$primary-color: #ed3b5b;
+$secondary-color: #32363f;
+$secondary-color-light: #f7f7f7;
+$contrast-color: #FFFFFF;
+$header-background-image: '../../projects/stylenium/img/header-bg.png';
+
+@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CUbuntu:400,700);
+$primary-font-family:'Montserrat', sans-serif;
+$secondary-font-family: 'Ubuntu', sans-serif;
+
+//========================================================
+//                     Color & Styles
+//========================================================
+
+h1 {
+	color: $contrast-color;
+}
+h2 {
+	color: $primary-color;
+}
+h3 {
+	color: $primary-color;
+}
+
+.page-content {
+
+	.rd-mobilepanel {
+		background-position: 60% bottom;
+	}
+
+	&.active {
+		.rd-mobilepanel {
+			background-position: 60% bottom;
+		}
+	}
+}
+
+.rd-mobilepanel {
+	background-color: $secondary-color;
+	transition-property: height;
+	transition-duration: 2s;
+	transition-timing-function: linear;
+	transition-delay: 1s;
+	&.fixed {
+		box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+	}
+}
+
+[data-section="introduction"] {
+	.rd-mobilepanel {
+		background-image: url($header-background-image);
+		height: 500px;
+		&.fixed {
+			height: 56px;
+			background-image: none;
+			transition: top 1s ease-out 0.5s;
+		}
+	}
+}
+
+body:not([data-section="introduction"]) {
+	.tm-title-caption {
+		display: none;
+	}
+}
+
+.rd-mobilepanel_title {
+	font-family: $secondary-font-family;
+	font-size: 82px;
+	top: 100px;
+	right: auto;
+
+}
+
+.tm-title-caption {
+	font-family: $secondary-font-family;
+	font-size: 22px;
+	top: 190px;
+	left: 230px;
+	right: auto;
+}
+
+.rd-mobilemenu {
+	background-color: transparent;
+
+	.logo {
+		background-color: $secondary-color-light;
+	}
+	li {
+		font-family: $secondary-font-family;
+		font-size: 13px;
+		font-weight: 400;
+		letter-spacing: .2px;
+	}
+	&_ul {
+		a {
+			padding: 13px 25px 14px;
+		}
+		a:hover, a.active, a.opened {
+
+		}
+		ul a.focus {
+			color: $primary-color;
+		}
+	}
+}
+
+.toTop {
+  background-color: $default-color;
+  &:hover {
+    background: lighten($default-color, 20%);
+  }
+}
+
+.files_structure {
+  li {
+    .fa {
+      color: lighten($secondary-color, 20%);
+    }
+  }
+}
+
+.codebox {
+  background-color: $secondary-color-light;
+}

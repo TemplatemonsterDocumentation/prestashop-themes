@@ -161,10 +161,7 @@ $rd-menu-width-mobile: 250px;
   left: 0;
   right: 0;
   height: 256px;
-  //background: map-get($rd-theme, panel-background-color);
-  //background-image: url('../img/nbt_header.png');
   background-repeat: no-repeat;
-  //color: map-get($rd-theme, panel-text-color);
   z-index: 9999997;
 
   &.fixed {

@@ -2,12 +2,9 @@
 @import "_variables.scss";
 // @import "animate.css";
 // Fonts
-
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 @import url(//fonts.googleapis.com/css?family=Roboto:300,400,500,700);
-
 @import url(//fonts.googleapis.com/css?family=Montserrat:400,700|Montserrat+Alternates:400,700);
-
 
 /*========================================================
                       Main Styles
@@ -95,11 +92,11 @@ p {
   margin-bottom: 20px;
 }
 
-ul, ol{
+ul, ol {
   margin-top: 10px;
   margin-bottom: 20px;
 
-  figure:last-child{
+  figure:last-child {
     margin-bottom: 35px;
   }
 }
@@ -107,11 +104,11 @@ ul, ol{
 article {
   padding-top: 80px;
 
-  &:first-child{
+  &:first-child {
     padding-top: 0;
   }
 
-  article{
+  article {
     padding-right: 10%;
   }
 
@@ -124,13 +121,13 @@ article {
   }
 
   @media (max-width: 1599px) {
-    article{
+    article {
       padding-right: 0;
     }
   }
 }
 
-figure{
+figure {
   margin-top: 20px;
   margin-bottom: 40px;
 }
@@ -144,10 +141,12 @@ a {
   font: inherit;
   color: inherit;
   text-decoration: none;
-
-  &:focus { outline: none; }
-  &:active { background-color: transparent; }
-
+  &:focus {
+    outline: none;
+  }
+  &:active {
+    background-color: transparent;
+  }
   @include transition(.1s);
 }
 
@@ -176,15 +175,9 @@ hr {
   background: #e4e4e4;
 }
 
-.color-1 { color: #1d88de; }
-
-.color-2 { color: #ec4034; }
-
-.color-3 { color: #4aab4d; }
-
-.color-4 { color: #ff9700; }
-
-.relative { position: relative; }
+.relative {
+  position: relative;
+}
 
 .img-polaroid {
   width: auto;
@@ -206,7 +199,6 @@ b, strong {
 .files_structure {
   li {
     .fa {
-      //margin-top: 3px;
       margin-right: 10px;
       color: lighten($secondary-color, 10%);
       font-size: 16px;
@@ -216,26 +208,25 @@ b, strong {
     }
   }
 
-  li:first-child, li{
+  li:first-child, li {
     margin-top: 10px;
   }
 }
 
-.inline-term{
-  //@include clearfix;
-  dt{
+.inline-term {
+  dt {
     font-weight: 700;
   }
 
-  dt, dd{
+  dt, dd {
     display: inline;
   }
 
-  dt + dd{
+  dt + dd {
     position: relative;
     padding-left: 20px;
 
-    &:before{
+    &:before {
       position: absolute;
       left: 5px;
       content: '–';
@@ -243,15 +234,16 @@ b, strong {
   }
 }
 
-.fa{
+.fa {
   line-height: inherit;
 }
 
-.fa-angle-right{
+.fa-angle-right {
   padding-right: 5px;
   font-weight: 700;
 }
-.italic{
+
+.italic {
   font-style: italic;
 }
 
@@ -259,15 +251,15 @@ b, strong {
                         Components
 =========================================================*/
 /*===============  Table  ==================*/
-.table{
-  thead{
-     background: #f0f0f0;
+.table {
+  thead {
+    background: #f0f0f0;
   }
-  th{
+  th {
     font-weight: 500;
   }
 
-  table, td, th{
+  table, td, th {
     border: 1px solid #f0f0f0;
   }
   td {
@@ -275,7 +267,7 @@ b, strong {
     width: 20%;
     vertical-align: middle;
   }
-  td, th{
+  td, th {
     padding: 10px;
   }
   tr th {
@@ -283,8 +275,9 @@ b, strong {
 
   }
 }
+
 /*===============  Marked List  ==================*/
-.marked-list{
+.marked-list {
   margin-bottom: 20px;
   &:last-child {
     margin-bottom: 20px;
@@ -292,7 +285,7 @@ b, strong {
   > li {
     position: relative;
     padding-left: 20px;
-    &:before{
+    &:before {
       content: '';
       position: absolute;
       top: 10px;
@@ -310,23 +303,26 @@ b, strong {
     }
     p {
       &:last-child {
-        margin-bottom: 20px;
+        //margin-bottom: 20px;
       }
     }
   }
 
-  & + li { margin-top: 10px; }
+  & + li {
+    margin-top: 10px;
+  }
   p {
     margin-bottom: 0;
   }
 }
+
 /*===============  Marked List Bold ==================*/
-.marked-list_bold{
+.marked-list_bold {
   > li {
     position: relative;
     padding-left: 20px;
     font-weight: bold;
-    &:before{
+    &:before {
       content: '';
       position: absolute;
       top: 10px;
@@ -340,15 +336,18 @@ b, strong {
     }
   }
 
-  & + li { margin-top: 10px; }
+  & + li {
+    margin-top: 10px;
+  }
 }
+
 /*===============  Marked List  ==================*/
-.log-list{
+.log-list {
   > li {
     margin-top: 10px;
     position: relative;
     padding-left: 20px;
-    &:before{
+    &:before {
       content: '';
       position: absolute;
       top: 10px;
@@ -365,24 +364,31 @@ b, strong {
     }
   }
 }
+
 /*===============  Index List   ==================*/
 .index-list {
   counter-reset: li;
   > li {
     position: relative;
     //padding-left: 20px;
-    &:before{
-      content: counter(li,decimal) '.';
+    &:before {
+      content: counter(li, decimal) '.';
       counter-increment: li;
       position: relative;
       display: inline-block;
       margin-right: 5px;
       font-weight: 500;
     }
-    pre {margin: 30px 0;}
-    strong + pre {margin: 10px 0 40px 0;}
+    pre {
+      margin: 30px 0;
+    }
+    strong + pre {
+      margin: 10px 0 40px 0;
+    }
 
-    & + li { margin-top: 10px; }
+    & + li {
+      margin-top: 10px;
+    }
     p, dl {
       display: inline-block;
       max-width: 97%;
@@ -455,13 +461,18 @@ blockquote {
 
   a {
     color: #1d88de;
-    &:hover { color: lighten(#1d88de, 10%); }
+    &:hover {
+      color: lighten(#1d88de, 10%);
+    }
   }
 
   li {
-    & + li { margin-top: 10px; }
+    & + li {
+      margin-top: 10px;
+    }
   }
 }
+
 /*==================== Quick Guide ====================*/
 .quick-guide {
   width: auto;
@@ -471,10 +482,11 @@ blockquote {
   &:hover {
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1), 0 8px 8px 0 rgba(0, 0, 0, 0.1);
   }
-   &:active {
+  &:active {
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   }
 }
+
 //==================    Imports    ======================
 @import "_navbar.scss";
 @import "_stuck.scss";
@@ -489,7 +501,9 @@ blockquote {
 header {
   background: $secondary-color;
   color: #ffffff;
-  h1, h2, h3, h4, h5, h6 { color: #ffffff; }
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+  }
 }
 
 /*========================================================
@@ -513,7 +527,7 @@ main {
   }
 
   @media (max-width: 1599px) {
-    > .container{
+    > .container {
       padding-right: 0;
     }
   }
@@ -533,27 +547,9 @@ footer {
 /*========================================================
                      CODEBOX  Styles
 =========================================================*/
-.codebox{
-    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
-      font-size: 17px;
-      background-color:#f4f4f4;
-      padding: 30px;
-      line-height: 31px;
-        span {
-          display:block;
-          padding-left: 40px;
-        }
-  }
-
-section pre.prettyprint {
-  background-color: #fdf6e3;
-}
-
-.prettyprint_2 {
-  padding: 15px;
-  background-color: #f0f0f0;
-}
-
-samp {
-  padding: 15px;
+.codebox {
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1), 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff7e3;
+  padding: 30px;
+  white-space: pre-wrap;
 }
