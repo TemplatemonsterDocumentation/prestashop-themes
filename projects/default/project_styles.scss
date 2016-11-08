@@ -6,9 +6,10 @@ $primary-color: #E91E63;
 $secondary-color: #33434b;
 $secondary-color-light: #3D515A;
 $contrast-color: #FFFFFF;
-$header-background-image: '../../projects/default/img/header.png';
+$header-background-image: '../../projects/default/img/default-header-bg.png';
 
 @import url(//fonts.googleapis.com/css?family=Montserrat:400,700|Montserrat+Alternates:400,700);
+
 $primary-font-family:'Montserrat', sans-serif;
 
 //========================================================
@@ -16,16 +17,13 @@ $primary-font-family:'Montserrat', sans-serif;
 //========================================================
 
 h1 {
-	//font-family: $primary-font-family;
 	color: $contrast-color;
 }
 h2 {
 	color: $primary-color;
-	//font-family: $primary-font-family;
 }
 h3 {
 	color: $primary-color;
-	//font-family: $primary-font-family;
 }
 
 .page-content {
@@ -69,7 +67,6 @@ body:not([data-section="introduction"]) {
 }
 
 .rd-mobilepanel_title {
-	font-size: 82px;
 	top: 100px;
 }
 

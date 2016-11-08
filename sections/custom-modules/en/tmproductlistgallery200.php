@@ -13,7 +13,7 @@
 <figure class="img-polaroid"><img src="img/tmproductlistgallery-1.png" alt="" /></figure>
 <p>and replace it with:</p>
 
-<pre class="prettyprint">
+<pre class="codebox">
     {capture name='displayProductListGallery'}{hook h='displayProductListGallery' product=$product}{/capture}
     {if $smarty.capture.displayProductListGallery}
     &nbsp;&nbsp;{hook h='displayProductListGallery' product=$product}
