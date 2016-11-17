@@ -1,0 +1,121 @@
+@import url(//fonts.googleapis.com/css?family=Poppins+Light:400,700%7CPermanent+Marker:400,700);
+h1 {
+  color: #FFFFFF;
+}
+
+h2 {
+  color: #05bdb6;
+}
+
+h3 {
+  color: #05bdb6;
+}
+
+.page-content .rd-mobilepanel {
+  background-position: 60% bottom;
+}
+
+.page-content.active .rd-mobilepanel {
+  background-position: 60% bottom;
+}
+
+.rd-mobilepanel {
+  background-color: #b2e7d7;
+  transition-property: height;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+
+.rd-mobilepanel.fixed {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+[data-section="introduction"] .rd-mobilepanel {
+  background-image: url("../../projects/fashionli/img/header-bg.png");
+  height: 500px;
+}
+
+[data-section="introduction"] .rd-mobilepanel.fixed {
+  height: 56px;
+  background-image: none;
+  transition: top 1s ease-out 0.5s;
+}
+
+body:not([data-section="introduction"]) .tm-title-caption {
+  display: none;
+}
+
+.rd-mobilepanel_title {
+  font-family: "Permanent Marker", sans-serif;
+  top: 250px;
+  left: 80px;
+  right: auto;
+}
+
+.tm-title-caption {
+  font-family: "Poppins Light", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  top: 340px;
+  left: 160px;
+  right: auto;
+  bottom: auto;
+}
+
+.tm-title-caption:before, .tm-title-caption:after {
+  content: '';
+  position: absolute;
+  border-bottom: 1px solid #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70px;
+}
+
+.tm-title-caption:before {
+  right: 100%;
+  margin-right: 10px;
+}
+
+.tm-title-caption:after {
+  margin-left: 10px;
+}
+
+.rd-mobilemenu {
+  background-color: transparent;
+}
+
+.rd-mobilemenu .logo {
+  background-color: #f7f7f7;
+}
+
+.rd-mobilemenu li {
+  font-family: "Poppins Light", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: .2px;
+}
+
+.rd-mobilemenu_ul a {
+  padding: 13px 25px 14px;
+}
+
+.rd-mobilemenu_ul ul a.focus {
+  color: #05bdb6;
+}
+
+.toTop {
+  background-color: #7d7d7d;
+}
+
+.toTop:hover {
+  background: #b0b0b0;
+}
+
+.files_structure li .fa {
+  color: #05bdb6;
+}
+
+.codebox {
+  background-color: #f7f7f7;
+}

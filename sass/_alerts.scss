@@ -1,28 +1,33 @@
 .alert {
   position: relative;
+  border: 1px solid;
   border-left: transparent 8px solid;
   margin: 30px 0 50px;
   padding: 30px;
   background: #FFF;
-  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
-  font-size: 20px;
-  line-height: 34px;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  line-height: 30px;
 
   &.alert-success {
-    border-color: #5BCB60;
-    color: #5BCB60;
+    background-color: #dff0d8;
+    border-color: #d0e9c6;
+    color: #3c763d;
   }
   &.alert-info {
-    border-color: #1D88DE;
-    color: #1D88DE;
+    background-color: #d9edf7;
+    border-color: #bcdff1;
+    color: #31708f;
   }
   &.alert-warning {
-    border-color: #FFA200;
-    color: #FFA200;
+    background-color: #fcf8e3;
+    border-color: #faf2cc;
+    color: #8a6d3b;
   }
   &.alert-danger {
-    border-color: #F44336;
-    color: #F44336;
+    background-color: #f2dede;
+    border-color: #ebcccc;
+    color: #a94442;
   }
   &:last-child {
     margin-bottom: 50px;

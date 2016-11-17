@@ -1,4 +1,4 @@
-<h2 class="item1">Introduction</h2>
+<h2>Introduction</h2>
 
 <h3>What is PrestaShop e-commerce?</h3>
 
@@ -115,38 +115,38 @@
                     </li>
                 </ul>
             </li>
-            <li class="folder">
-                <dl class="inline-term">
-                    <dt>
-                        <i class="fa fa-folder"></i>
-                        sample_data
-                    </dt>
-                    <dd> contains files used for sample data installation with sampledatainstall module
-                    </dd>
-                </dl>
-            </li>
-            <li class="folder">
-                <dl class="inline-term">
-                    <dt>
-                        <i class="fa fa-folder"></i>
-                        themeinstallator
-                    </dt>
-                    <dd> contains an archive for automatic theme installation</dd>
-                </dl>
-                <ul>
-                    <li class="file">
-                        <dl class="inline-term">
-                            <dt>
-                                <i class="fa fa-file"></i>
-                                theme####.zip
-                            </dt>
-                            <dd> theme archive. Contains all theme files. It is installed using standard
-                                PrestaShop installation method
-                            </dd>
-                        </dl>
-                    </li>
-                </ul>
-            </li>
+<!--            <li class="folder">-->
+<!--                <dl class="inline-term">-->
+<!--                    <dt>-->
+<!--                        <i class="fa fa-folder"></i>-->
+<!--                        sample_data-->
+<!--                    </dt>-->
+<!--                    <dd> contains files used for sample data installation with sampledatainstall module-->
+<!--                    </dd>-->
+<!--                </dl>-->
+<!--            </li>-->
+<!--            <li class="folder">-->
+<!--                <dl class="inline-term">-->
+<!--                    <dt>-->
+<!--                        <i class="fa fa-folder"></i>-->
+<!--                        themeinstallator-->
+<!--                    </dt>-->
+<!--                    <dd> contains an archive for automatic theme installation</dd>-->
+<!--                </dl>-->
+<!--                <ul>-->
+<!--                    <li class="file">-->
+<!--                        <dl class="inline-term">-->
+<!--                            <dt>-->
+<!--                                <i class="fa fa-file"></i>-->
+<!--                                theme####.zip-->
+<!--                            </dt>-->
+<!--                            <dd> theme archive. Contains all theme files. It is installed using standard-->
+<!--                                PrestaShop installation method-->
+<!--                            </dd>-->
+<!--                        </dl>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </li>-->
         </ul>
     </li>
     <li class="file">

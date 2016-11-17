@@ -9,10 +9,11 @@
     top, topColumn, left and right (displayLeftColumn/displayRightColumn), footer. It is used to expand design
     opportunities and add advertisement/information blocks to your store. It is a multilanguage module and can also work
     in the multistore website.</p>
-<h5>To add the content, you should follow the steps below:</h5>
-<h6>Navigate to
-    <strong>Modules -> Front Office Features -> TM HTML Content</strong> (if it is not installed, install it).
-</h6>
+<h5>Installation and Deleting</h5>
+<p>The module can be installed and deleted like any other PrestaShop module.</p>
+<h5>Module configuration</h5>
+<p>After the module has been successfully installed, open the configuration page.</p>
+<h6>To add the content, you should follow the steps below:</h6>
 <ul class="index-list">
     <li>Click <strong>'Add new'</strong> button.</li>
     <li>The list of available languages. You can view the available elements for all languages by switching the

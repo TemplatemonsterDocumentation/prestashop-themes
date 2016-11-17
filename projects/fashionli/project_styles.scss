@@ -1,0 +1,148 @@
+//========================================================
+//                     Variables
+//========================================================
+
+$default-color: #7d7d7d;
+$primary-color: #05bdb6;
+$primary-color-light: #b2e7d7;
+$secondary-color: #32363f;
+$secondary-color-light: #f7f7f7;
+$contrast-color: #FFFFFF;
+$header-background-image: '../../projects/fashionli/img/header-bg.png';
+
+@import url(//fonts.googleapis.com/css?family=Poppins+Light:400,700%7CPermanent+Marker:400,700);
+$primary-font-family:'Poppins Light', sans-serif;
+$secondary-font-family: 'Permanent Marker', sans-serif;
+
+//========================================================
+//                     Color & Styles
+//========================================================
+
+h1 {
+	color: $contrast-color;
+}
+h2 {
+	color: $primary-color;
+}
+h3 {
+	color: $primary-color;
+}
+
+.page-content {
+
+	.rd-mobilepanel {
+		background-position: 60% bottom;
+	}
+
+	&.active {
+		.rd-mobilepanel {
+			background-position: 60% bottom;
+		}
+	}
+}
+
+.rd-mobilepanel {
+	background-color: $primary-color-light;
+	transition-property: height;
+	transition-duration: 2s;
+	transition-timing-function: linear;
+	transition-delay: 1s;
+	&.fixed {
+		box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+	}
+}
+
+[data-section="introduction"] {
+	.rd-mobilepanel {
+		background-image: url($header-background-image);
+		height: 500px;
+		&.fixed {
+			height: 56px;
+			background-image: none;
+			transition: top 1s ease-out 0.5s;
+		}
+	}
+}
+
+body:not([data-section="introduction"]) {
+	.tm-title-caption {
+		display: none;
+	}
+}
+
+.rd-mobilepanel_title {
+	font-family: $secondary-font-family;
+	top: 250px;
+	left: 80px;
+	right: auto;
+
+}
+
+.tm-title-caption {
+	font-family: $primary-font-family;
+	font-size: 16px;
+	text-transform: uppercase;
+	top: 340px;
+	left: 160px;
+	right: auto;
+	bottom: auto;
+	&:before, &:after {
+		content: '';
+		position: absolute;
+		border-bottom: 1px solid #fff;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 70px;
+	}
+	&:before {
+		right: 100%;
+		margin-right: 10px;
+	}
+	&:after {
+		margin-left: 10px;
+	}
+}
+
+.rd-mobilemenu {
+	background-color: transparent;
+
+	.logo {
+		background-color: $secondary-color-light;
+	}
+	li {
+		font-family: $primary-font-family;
+		font-size: 13px;
+		font-weight: 400;
+		letter-spacing: .2px;
+	}
+	&_ul {
+		a {
+			padding: 13px 25px 14px;
+		}
+		a:hover, a.active, a.opened {
+
+		}
+		ul a.focus {
+			color: $primary-color;
+		}
+	}
+}
+
+.toTop {
+  background-color: $default-color;
+  &:hover {
+    background: lighten($default-color, 20%);
+  }
+}
+
+.files_structure {
+  li {
+    .fa {
+      color: $primary-color;
+    }
+  }
+}
+
+.codebox {
+  background-color: $secondary-color-light;
+}

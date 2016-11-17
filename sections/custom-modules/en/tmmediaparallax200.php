@@ -21,14 +21,14 @@
     <img src="img/add-item.jpg" alt="" />
 </figure>
 <h4>Form options for adding parallax items</h4>
-<ul class="index-list">
-    <li>Selector - CSS selector of the item with parallax effect applied. For example, '#header .nav'</li>
-    <li>Item status - item status (parallax will not be displayed if it's disabled)</li>
-    <li>Speed - digit value from 0 to 2, which defines main parallax block speed</li>
-    <li>Offset - main layer indent on the Y axis</li>
-    <li>Inverse - parallax direction</li>
-    <li>Fade - this option allows to configure main block fade-out on page scroll</li>
-    <li>Forced full width - forced full width of the parallax block</li>
+<ul class="marked-list">
+    <li><strong>Selector</strong> - CSS selector of the item with parallax effect applied. For example, '#header .nav'</li>
+    <li><strong>Item status</strong> - item status (parallax will not be displayed if it's disabled)</li>
+    <li><strong>Speed</strong> - digit value from 0 to 2, which defines main parallax block speed</li>
+    <li><strong>Offset</strong> - main layer indent on the Y axis</li>
+    <li><strong>Inverse</strong> - parallax direction</li>
+    <li><strong>Fade</strong> - this option allows to configure main block fade-out on page scroll</li>
+    <li><strong>Forced full width</strong> - forced full width of the parallax block</li>
 </ul>
 <p>Press 'Save' after filling in all the required fields.</p>
 <h4>Parallax layers list</h4>
@@ -52,7 +52,7 @@
 <p>Press 'Save' after filling in all the required fields.</p>
 <h4>Parallax layers types and their fields</h4>
 <ul class="index-list">
-    <li><p>Image-background - image used as a parallax background</p>
+    <li><p><strong>Image-background</strong> - image used as a parallax background</p>
         <ul class="marked-list">
             <li>Item status - item status (parallax will not be displayed if it's disabled)</li>
             <li>Layout speed - digit value from 0 to 2, which defines main parallax block speed</li>
@@ -63,7 +63,7 @@
             <li>Sort order - layout position, relative to the rest of items</li>
         </ul>
     </li>
-    <li><p>Video-background - video used as a parallax background</p>
+    <li><p><strong>Video-background</strong> - video used as a parallax background</p>
         <ul class="marked-list">
             <li>Item status - item status (parallax will not be displayed if it's disabled)</li>
             <li>Layout speed - digit value from 0 to 2, which defines main parallax block speed</li>
@@ -76,7 +76,7 @@
             <li>Sort order - layout position, relative to the rest of items</li>
         </ul>
     </li>
-    <li><p>Text - text layer which position can be defined with CSS</p>
+    <li><p><strong>Text</strong> - text layer which position can be defined with CSS</p>
         <ul class="marked-list">
             <li>Item status - item status (parallax will not be displayed if it's disabled)</li>
             <li>Layout speed - digit value from 0 to 2, which defines main parallax block speed</li>
@@ -88,7 +88,7 @@
             <li>Sort order - layout position, relative to the rest of items</li>
         </ul>
     </li>
-    <li><p>Youtube-background - YouTube video used as a parallax background</p>
+    <li><p><strong>Youtube-background</strong> - YouTube video used as a parallax background</p>
         <ul class="marked-list">
             <li>Item status - item status (parallax will not be displayed if it's disabled)</li>
             <li>Layout speed - digit value from 0 to 2, which defines main parallax block speed</li>
@@ -99,7 +99,7 @@
             <li>Sort order - layout position, relative to the rest of items</li>
         </ul>
     </li>
-    <li><p>Image - image layer which position can be defined with CSS</p>
+    <li><p><strong>Image</strong> - image layer which position can be defined with CSS</p>
         <ul class="marked-list">
             <li>Item status - item status (parallax will not be displayed if it's disabled)</li>
             <li>Layout speed - digit value from 0 to 2, which defines main parallax block speed</li>

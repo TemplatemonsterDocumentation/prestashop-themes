@@ -23,17 +23,17 @@
     </li>
     <li><p>In the appeared form, you'll see the following options:</p>
         <ul class="marked-list">
-            <li>Status - this option allows enabling/disabling the tab.</li>
-            <li>Select category - the category, products of which will
+            <li><strong>Status</strong> - this option allows enabling/disabling the tab.</li>
+            <li><strong>Select category</strong> - the category, products of which will
                 be displayed.
             </li>
-            <li>Use custom name - this option allows changing the displayed category name. If enabled, the following
+            <li><strong>Use custom name</strong> - this option allows changing the displayed category name. If enabled, the following
                 form will be displayed:
                 <ul class="marked-list">
-                    <li>Name - the custom tab name, displayed on the website.</li>
+                    <li><strong>Name</strong> - the custom tab name, displayed on the website.</li>
                 </ul>
             </li>
-            <li>Select products to display - if disabled, displays the 'Number of products to display' field, which sets
+            <li><strong>Select products to display</strong> - if disabled, displays the 'Number of products to display' field, which sets
                 the number of products to display. If enabled, displays the 'Add products' button that allows selecting
                 products to display in the tab.
             </li>
@@ -55,42 +55,42 @@
     </li>
     <li><p>In the appeared form, you'll find the following options:</p>
         <ul class="marked-list">
-            <li><p>Status - this option allows enabling/disabling the block.</p></li>
-            <li><p>Select category - the category, products of which will be displayed.</p></li>
+            <li><p><strong>Status</strong> - this option allows enabling/disabling the block.</p></li>
+            <li><p><strong>Select category</strong> - the category, products of which will be displayed.</p></li>
             <li>
-                <p>Use custom name - this option allows changing the displayed category name. If enabled, displays the
+                <p><strong>Use custom name</strong> - this option allows changing the displayed category name. If enabled, displays the
                     following form:</p>
                 <ul class="marked-list">
-                    <li><p>Name - the custom tab name, displayed on the website.</p></li>
+                    <li><p><strong>Name</strong> - the custom tab name, displayed on the website.</p></li>
                 </ul>
             </li>
             <li>
-                <p>Select products to display - if disabled, displays the 'Number of products to display' field, which
+                <p><strong>Select products to display</strong> - if disabled, displays the 'Number of products to display' field, which
                     sets the
                     number of products to display. If disabled, displays the 'Add products' button that allows selecting
                     products to display in the tab.</p>
             </li>
             <li>
-                <p>Use carousel - this option allows enabling/disabling the carousel for block products. After enabling
+                <p><strong>Use carousel</strong> - this option allows enabling/disabling the carousel for block products. After enabling
                     the
                     option, you'll see the following settings:</p>
                 <ul class="marked-list">
-                    <li><p>Visible items - the number of visible items.</p></li>
-                    <li><p>Items scroll - the number of items changed with one carousel scroll.</p></li>
-                    <li><p>Slide Width - the carousel list item width.</p></li>
-                    <li><p>Slide Margin - the carousel list item margin.</p></li>
-                    <li><p>Auto scroll - auto scroll of carousel items.</p></li>
-                    <li><p>Carousel speed - speed of changing items.</p></li>
-                    <li><p>Pause - pause between scrolls (if "Auto scroll" is enabled).</p></li>
-                    <li><p>Random - the carousel starts with a random item.</p></li>
-                    <li><p>Carousel loop - the loop: when all the carousel items have been displayed, carousel starts
+                    <li><p><strong>Visible items</strong> - the number of visible items.</p></li>
+                    <li><p><strong>Items scroll</strong> - the number of items changed with one carousel scroll.</p></li>
+                    <li><p><strong>Slide Width</strong> - the carousel list item width.</p></li>
+                    <li><p><strong>Slide Margin</strong> - the carousel list item margin.</p></li>
+                    <li><p><strong>Auto scroll</strong> - auto scroll of carousel items.</p></li>
+                    <li><p><strong>Carousel speed</strong> - speed of changing items.</p></li>
+                    <li><p><strong>Pause</strong> - pause between scrolls (if "Auto scroll" is enabled).</p></li>
+                    <li><p><strong>Random</strong> - the carousel starts with a random item.</p></li>
+                    <li><p><strong>Carousel loop</strong> - the loop: when all the carousel items have been displayed, carousel starts
                             from the
                             beginning.</p></li>
-                    <li><p>Hide control on end - hide control buttons (Next/Prev).</p></li>
-                    <li><p>Pager - display pagination.</p></li>
-                    <li><p>Control - display controls (Next/Prev).</p></li>
-                    <li><p>Auto control - display controls (Play/Pause).</p></li>
-                    <li><p>Auto hover - carousel pauses, if the user hovers a list item.</p></li>
+                    <li><p><strong>Hide control on end</strong> - hide control buttons (Next/Prev).</p></li>
+                    <li><p><strong>Pager</strong> - display pagination.</p></li>
+                    <li><p><strong>Control</strong> - display controls (Next/Prev).</p></li>
+                    <li><p><strong>Auto control</strong> - display controls (Play/Pause).</p></li>
+                    <li><p><strong>Auto hover</strong> - carousel pauses, if the user hovers a list item.</p></li>
                 </ul>
             </li>
         </ul>

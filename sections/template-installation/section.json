@@ -5,18 +5,6 @@
 	},
 	"articles": {
 		"default": [
-			{
-		      "id": "themeinstaller",
-		      "translations": {
-		        "en": "Theme Import"
-		      }
-		    },
-		    {
-		      "id": "with_products_auto",
-		      "translations": {
-		        "en": "Automatic installation with demo data (Sample data installer)"
-		      }
-		    },
 		    {
 		      "id": "with_products_manual",
 		      "translations": {
@@ -30,69 +18,13 @@
 		      }
 		    },
 		    {
-		      "id": "existing_store",
-		      "translations": {
-		        "en": "Installing template over existing store"
-		      }
-		    },
-		    {
 		      "id": "modules_and_images",
 		      "translations": {
 		        "en": "Installing modules and configuring images"
 		      }
 		    }
 		],
-		"eveprest": [
-			{
-		      "id": "themeinstaller",
-		      "translations": {
-		        "en": "Theme Import"
-		      }
-		    },
-		    {
-		      "id": "with_products_auto",
-		      "translations": {
-		        "en": "Automatic installation with demo data (Sample data installer)"
-		      }
-		    },
-		    {
-		      "id": "with_products_manual",
-		      "translations": {
-		        "en": "Manual template installation with sample data"
-		      }
-		    },
-		    {
-		      "id": "add_lang",
-		      "translations": {
-		        "en": "Adding languages to online store"
-		      }
-		    },
-		    {
-		      "id": "existing_store",
-		      "translations": {
-		        "en": "Installing template over existing store"
-		      }
-		    },
-		    {
-		      "id": "modules_and_images",
-		      "translations": {
-		        "en": "Installing modules and configuring images"
-		      }
-		    }
-		],
-		"stylenium": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
+		"fashionli": [
 			{
 				"id": "with_products_manual",
 				"translations": {
@@ -103,12 +35,6 @@
 				"id": "add_lang",
 				"translations": {
 					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "existing_store",
-				"translations": {
-					"en": "Installing template over existing store"
 				}
 			},
 			{

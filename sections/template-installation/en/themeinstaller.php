@@ -1,4 +1,4 @@
-<h3>Import theme</h3>
+<h3 id="themeinstaller">Import theme</h3>
 
 <p class="alert alert-warning">Note: this method does not provide sample data installation.</p>
 <h4>Template preparation</h4>

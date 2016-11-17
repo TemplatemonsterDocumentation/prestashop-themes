@@ -8,7 +8,7 @@
 
 <p>Please check the following tutorials on how to extract files from the archives with
     <a target="_blank"
-       href="/help/extract-archived-files-windows-os.html">WinZip (Windows)</a> and <a
+       href="/help/how-to-extract-archived-files-windows-os.html">WinZip (Windows)</a> and <a
         target="_blank" href="/help/extract-archived-files-mac-os.html">StuffitExpander (Mac)</a>.
 </p>
 

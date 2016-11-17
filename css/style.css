@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 @import url(//fonts.googleapis.com/css?family=Roboto:300,400,500,700);
-@import url(//fonts.googleapis.com/css?family=Montserrat:400,700|Montserrat+Alternates:400,700);
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,700%7CMontserrat+Alternates:400,700);
 /*========================================================
                       Main Styles
 =========================================================*/
@@ -24,11 +24,10 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 56px;
   line-height: 1.5;
-  font-weight: 500;
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 44px;
   line-height: 1.37;
   margin-top: 60px;
   margin-bottom: 20px;
@@ -41,7 +40,7 @@ h2 {
 }
 
 h3 {
-  font-size: 34px;
+  font-size: 32px;
   line-height: 1.47;
   margin-top: 60px;
   margin-bottom: 20px;
@@ -127,6 +126,10 @@ article a:hover {
   text-decoration: underline;
 }
 
+article h3 a:hover {
+  text-decoration: none;
+}
+
 @media (max-width: 1599px) {
   article article {
     padding-right: 0;
@@ -193,7 +196,7 @@ hr {
 .img-polaroid {
   width: auto;
   padding: 20px;
-  background-color: #cecece;
+  background-color: #f2f2f2;
   text-align: center;
   box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, 0.15);
 }
@@ -512,7 +515,6 @@ blockquote {
   z-index: 9999996;
   text-align: left;
   color: #333;
-  background: #f9f9f9;
   -moz-transform: translateX(-300px);
   -ms-transform: translateX(-300px);
   -o-transform: translateX(-300px);
@@ -592,9 +594,9 @@ blockquote {
   top: 0;
   right: -10px;
   bottom: 0;
-  -webkit-box-shadow: -5px 0 10px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: -5px 0 10px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: -5px 0 10px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
 
@@ -616,7 +618,6 @@ blockquote {
   margin: 0;
   left: 0;
   right: 0;
-  font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   max-height: 100%;
@@ -625,7 +626,7 @@ blockquote {
 
 .rd-mobilemenu_ul a {
   display: block;
-  padding: 14px 25px 16px;
+  padding: 12px 20px 13px;
 }
 
 .rd-mobilemenu_ul a:hover, .rd-mobilemenu_ul a.active, .rd-mobilemenu_ul a.opened {
@@ -638,7 +639,7 @@ blockquote {
 }
 
 .rd-mobilemenu_ul ul a {
-  padding-left: 50px;
+  padding-left: 40px;
 }
 
 .rd-mobilemenu_ul ul a.focus {
@@ -1070,7 +1071,6 @@ body.navbar-fixed {
   padding-left: 8px;
   padding-right: 20px;
   cursor: pointer;
-  color: #FFF;
   opacity: .9;
 }
 
@@ -1114,12 +1114,12 @@ body.navbar-fixed {
 }
 
 .select .pseudo-dropdown li.selected, .select .pseudo-dropdown li:hover a {
-  color: #009688;
+  color: #E91E63;
   background: #EEE;
 }
 
 .select.opened {
-  box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.1);
 }
 
 .select.opened .pseudo-select {
@@ -1221,33 +1221,38 @@ body.navbar-fixed {
 
 .alert {
   position: relative;
+  border: 1px solid;
   border-left: transparent 8px solid;
   margin: 30px 0 50px;
   padding: 30px;
   background: #FFF;
-  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
-  font-size: 20px;
-  line-height: 34px;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .alert.alert-success {
-  border-color: #5BCB60;
-  color: #5BCB60;
+  background-color: #dff0d8;
+  border-color: #d0e9c6;
+  color: #3c763d;
 }
 
 .alert.alert-info {
-  border-color: #1D88DE;
-  color: #1D88DE;
+  background-color: #d9edf7;
+  border-color: #bcdff1;
+  color: #31708f;
 }
 
 .alert.alert-warning {
-  border-color: #FFA200;
-  color: #FFA200;
+  background-color: #fcf8e3;
+  border-color: #faf2cc;
+  color: #8a6d3b;
 }
 
 .alert.alert-danger {
-  border-color: #F44336;
-  color: #F44336;
+  background-color: #f2dede;
+  border-color: #ebcccc;
+  color: #a94442;
 }
 
 .alert:last-child {
@@ -1555,7 +1560,7 @@ footer:after {
 =========================================================*/
 .codebox {
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1), 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-  background-color: #fff7e3;
+  background-color: #fdf9ef;
   padding: 30px;
   white-space: pre-wrap;
 }

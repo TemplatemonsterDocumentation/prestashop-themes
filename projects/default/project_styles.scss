@@ -3,8 +3,7 @@
 //========================================================
 
 $primary-color: #E91E63;
-$secondary-color: #33434b;
-$secondary-color-light: #3D515A;
+$secondary-color: #363A41;
 $contrast-color: #FFFFFF;
 $header-background-image: '../../projects/default/img/default-header-bg.png';
 
@@ -37,7 +36,7 @@ h3 {
 	}
 }
 	.rd-mobilepanel {
-		background-color: $secondary-color-light;
+		background-color: $secondary-color;
 		background-position: right top;
 		transition-property: height;
 	    transition-duration: 2s;
@@ -79,8 +78,11 @@ body:not([data-section="introduction"]) {
 }
 
 .rd-mobilemenu {
+	.panel {
+		top: 135px;
+	}
 	.logo{
-		background-color: $secondary-color;
+		background-color: #f9f9f9;
 	}
 }
 
@@ -89,4 +91,8 @@ body:not([data-section="introduction"]) {
 	&:hover {
     	background: lighten($secondary-color, 20%);
 	}
+}
+
+.files_structure li .fa {
+	color: #5f6778;
 }

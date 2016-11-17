@@ -1,17 +1,10 @@
 <h3>How to change info about your store</h3>
 
-<p>Open the PrestaShop admin panel and go to <strong>Preferences > Store Contacts</strong>.</p>
-<p>First you'll see the list of stores in <strong>Store Contacts</strong> section. Here you can enable/disable, add/delete or edit each store.</p>
+<p>Open the PrestaShop admin panel, go to <strong>Shop Parameters > Contact</strong> and open the tab <strong>Stores</strong>.</p>
+<p>First you'll see the list of stores in <strong>Stores</strong> section. Here you can enable/disable, add/delete or edit each store.</p>
 
 <figure class="img-polaroid">
     <img src="img/10-shop_info-1.png" alt=""/>
-</figure>
-
-<h4>Store mapping</h4>
-<p>Below the list of stores there's a <strong>Parameters</strong> section where you can edit the main settings concerning the mapping of your store. Change them according to your needs and press 'Save' button (1).</p>
-
-<figure class="img-polaroid">
-    <img src="img/10-shop_info-2.png" alt=""/>
 </figure>
 
 <h4>How to change store name</h4>

@@ -3,28 +3,6 @@
 		"introduction",
 		"getting-started",
 		"template-installation",
-		"basic-tutorials",
-		"custom-modules",
-		"cookies-policy",
-		"addendum"
-	],
-	"eveprest": [
-		"introduction",
-		"about-eveprest",
-		"getting-started",
-		"template-installation",
-		"basic-tutorials",
-		"tm-mega-layout",
-		"custom-modules",
-		"cookies-policy",
-		"addendum"
-	],
-	"stylenium": [
-		"introduction",
-		"getting-started",
-		"template-installation",
-		"basic-tutorials",
-		"tm-mega-layout",
 		"custom-modules",
 		"cookies-policy",
 		"addendum"

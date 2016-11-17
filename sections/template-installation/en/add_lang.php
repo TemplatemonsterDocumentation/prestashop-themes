@@ -4,7 +4,7 @@
     languages provided with it (English, French, Spanish, German, Russian) to the online
     store platform. It can be done this way: </p>
 
-<p>Go to <strong>'Localization > Translations'</strong> in the admin panel, find
+<p>Go to <strong>'International > Translations'</strong> in the admin panel, find
     <strong>'ADD/UPDATE A LANGUAGE'</strong> and add languages by choosing them from the
     drop-down menu
     <small>(1)</small>
@@ -13,15 +13,15 @@
     .
 </p>
 <figure class="img-polaroid">
-    <img alt="" src="img/01-language-update.png"/>
+    <img alt="" src="img/adding-languages-1.png"/>
 </figure>
 
 <p>If you do not want to have some languages, you can delete them
     <small>(2)</small>
     or turn them off
     <small>(1)</small>
-    in the <strong>'Localization > Languages'</strong> menu.
+    in the <strong>'International > Localization ></strong> tab <strong>Languages'</strong> menu.
 </p>
 <figure class="img-polaroid">
-    <img alt="" src="img/02-language-update.png"/>
+    <img alt="" src="img/adding-languages-2.png"/>
 </figure>

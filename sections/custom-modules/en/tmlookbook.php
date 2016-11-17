@@ -11,7 +11,7 @@
     on the product page.</p>
 <ul class="marked-list">
     <li>PHP 5.4+</li>
-    <li>PrestaShop 1.6</li>
+    <li>PrestaShop 1.6+</li>
 </ul>
 <h5>TM Look Book Main panel</h5>
 <p>On the main page of the module, you can delete and edit the module collections.</p>

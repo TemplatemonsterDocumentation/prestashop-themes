@@ -8,7 +8,7 @@
 <p>The module displays a category gallery on your store Homepage.</p>
 <p>It should look something like this:</p>
 <figure class="img-polaroid">
-    <img src="img/tmhomepagecategorygallery-11.png" alt=""/>
+    <img src="img/tmhomepagecategorygallery-1.png" alt=""/>
 </figure>
 <p>Here are the main parts of the Category Gallery item, which are marked on the screenshot:</p>
 <ul>

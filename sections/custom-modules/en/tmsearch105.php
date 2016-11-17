@@ -5,7 +5,7 @@
 <h4>Installation and Deleting</h4>
 <p>The module is installed and deleted like any other Prestashop module.</p>
 <h4>Module configuration</h4>
-<p>After module has been installed you can set it up on the module configuration page. Navigate to Modules and Services -> Modules and Services -> TemplateMonster Search.</p>
+<p>After module has been installed you can set it up on the module configuration page. Navigate to Modules and Services -> Modules and Services -> TM Search.</p>
 <figure class="img-polaroid"><img src="img/tmsearch105-1.png" alt="" /></figure>
 <ul class="marked-list">
   <li><strong>Enable Ajax Search</strong> - enables live search in a dropdown.</li>

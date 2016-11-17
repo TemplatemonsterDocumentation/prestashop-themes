@@ -28,8 +28,8 @@
 <h4>Installation Assistant (License agreements)</h4>
 
 <ol class="index-list">
-    <li>Please check the license agreement.</li>
-    <li>When you are done, click the <strong>'Next'</strong> button.</li>
+    <li>Please check the license agreement (1).</li>
+    <li>When you are done, click the <strong>'Next'</strong> (2) button.</li>
 </ol>
 
 <figure class="img-polaroid">

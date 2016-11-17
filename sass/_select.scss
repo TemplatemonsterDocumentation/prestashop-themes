@@ -12,7 +12,7 @@
     padding-left: 8px;
     padding-right: 20px;
     cursor: pointer;
-    color: #FFF;
+    //color: #FFF;
     opacity: .9;
 
     &:before {
@@ -50,14 +50,14 @@
       }
 
       &.selected, &:hover a {
-        color: #009688;
+        color: #E91E63;
         background: #EEE;
       }
     }
   }
 
   &.opened {
-    box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 1px 4px 4px 1px rgba(0, 0, 0, 0.1);
 
     .pseudo-select {
       color: #2D2D2D;

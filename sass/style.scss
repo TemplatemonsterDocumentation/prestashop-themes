@@ -4,7 +4,7 @@
 // Fonts
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 @import url(//fonts.googleapis.com/css?family=Roboto:300,400,500,700);
-@import url(//fonts.googleapis.com/css?family=Montserrat:400,700|Montserrat+Alternates:400,700);
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,700%7CMontserrat+Alternates:400,700);
 
 /*========================================================
                       Main Styles
@@ -28,11 +28,10 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 56px;
   line-height: 1.5;
-  font-weight: 500;
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 44px;
   line-height: 1.37;
   margin-top: 60px;
   margin-bottom: 20px;
@@ -43,7 +42,7 @@ h2 {
 }
 
 h3 {
-  font-size: 34px;
+  font-size: 32px;
   line-height: 1.47;
   margin-top: 60px;
   margin-bottom: 20px;
@@ -120,6 +119,12 @@ article {
     }
   }
 
+  h3 a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   @media (max-width: 1599px) {
     article {
       padding-right: 0;
@@ -182,7 +187,7 @@ hr {
 .img-polaroid {
   width: auto;
   padding: 20px;
-  background-color: #cecece;
+  background-color: #f2f2f2;
   text-align: center;
   box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, 0.15);
 }
@@ -549,7 +554,7 @@ footer {
 =========================================================*/
 .codebox {
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1), 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-  background-color: #fff7e3;
+  background-color: #fdf9ef;
   padding: 30px;
   white-space: pre-wrap;
 }

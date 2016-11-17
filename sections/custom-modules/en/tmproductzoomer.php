@@ -7,7 +7,7 @@
 <?php } ?>
 <p>This module is an alternative solution for the standard product image zoom on the single product page. It's fully compatible with the standard additional products thumbnail carousel and product attributes changes. It allows you to choose among the three available options (window/lens/inner) for image zoom with the advanced plugin settings. The module is based on the <a href="//igorlino.github.io/elevatezoom-plus/" target="_blank">Elevatezoom Plus</a> plugin.</p>
 <h4>Installation and removing</h4>
-<p>The module is installed and deleted like any other Prestashop module. After module has been installed the standard product zoom effect will be automatically disabled. After deleting the module standard effect should be enabled back manually (if needed) in the <strong>Preferences -> Products -> Enable JqZoom instead of Fancybox on the product page</strong> section.</p>
+<p>The module is installed and deleted like any other Prestashop module.</p>
 <h4>Module configuration</h4>
 <p>After the module has been installed you can configure it on the module configuration page.</p>
 <p>By default the configuration page shows the <strong>simplified</strong> set of options.</p>
@@ -20,7 +20,7 @@
     <li><strong>Change image on hover</strong> - switch the main image on thumbnail hover (by default is set to switch on click).</li>
     <li><strong>Responsive</strong> - allows to the use adaptive functionality for plugin display on the mobile devices.</li>
     <li><strong>Zoom Type</strong> - choose the type of the enlarged image display mode
-        <ul>
+        <ul class="marked-list">
             <li><strong>window</strong> - the enlarged image shows up next to the main image in one of the available (16) positions</li>
             <li><strong>lens</strong> - the image is zoomed in the lens container, on top of it</li>
             <li><strong>inner</strong> - the image is zoomed inside of main image container, fully covering it.</li>

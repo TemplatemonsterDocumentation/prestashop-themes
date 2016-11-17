@@ -51,6 +51,6 @@ It will contain all demo products, categories, modules and store settings.</p>
 <p>When you are done with installing the dump.sql file, you will need to activate the
     template.</p>
 
-<p>From the PrestaShop admin panel, go to <strong>Preferences > Themes</strong>, choose
-    your template in the <strong>Themes</strong> section and click <strong>Save</strong>.
+<p>From the PrestaShop admin panel, go to <strong>Design > Theme & Logo</strong>, choose
+    your template in the <strong>Themes</strong> section and click <strong>'Save'</strong> button.
 </p>

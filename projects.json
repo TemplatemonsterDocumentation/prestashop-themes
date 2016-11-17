@@ -1,20 +1,14 @@
 {
   "default": {
     "textLogo": "",
-    "title": "PrestaShop Documentation v1.3",
+    "title": "PrestaShop Documentation v1.5",
     "titleCaption": "",
     "author": ""
   },
-  "eveprest": {
+  "fashionli": {
     "textLogo": "",
-    "title": "Eveprest",
-    "titleCaption": "Prestashop multipurpose responsive theme",
-    "author": ""
-  },
-  "stylenium": {
-    "textLogo": "",
-    "title": "Stylenium",
-    "titleCaption": "Online Store",
+    "title": "Fashionli",
+    "titleCaption": "Fashion Store",
     "author": ""
   }
 }

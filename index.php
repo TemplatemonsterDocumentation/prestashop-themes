@@ -60,8 +60,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div class="panel">
               <div class="select select-version">
                   <select> 
-                    <option data-href="#" selected>Version v1-3</option> 
-                    <option data-href="/help/quick-start-guide/prestashop-themes/v1-2/index_en.html">Version v1-2</option> 
+                    <option data-href="#" selected>Version v1-5</option>
+                    <option data-href="/help/quick-start-guide/prestashop-themes/v1-3/index_en.html">Version v1-3</option>
+                    <option data-href="/help/quick-start-guide/prestashop-themes/v1-2/index_en.html">Version v1-2</option>
                     <option data-href="/help/quick-start-guide/prestashop-themes/v1-1/index_en.html">Version v1-1</option> 
                     <option data-href="/help/quick-start-guide/prestashop-themes/v1-0/index_en.html">Version v1-0</option> 
                   </select>
@@ -104,16 +105,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 FOOTER
             =========================================================-->
             <footer>
-                <!-- <div class="navigate">
-                    <div class="next_wrapper navigated-section-2">
-                        <div class="container">
-                            <a href="/section/template-installatiamework-installation.html" class="next">
-                                <span>Next</span>
-                                <em>Template installation</em>
-                            </a>
-                        </div>
-                    </div>
-                </div> -->
 
             </footer>
         </div>

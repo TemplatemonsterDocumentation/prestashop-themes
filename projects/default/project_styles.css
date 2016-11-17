@@ -22,7 +22,7 @@ h3 {
 }
 
 .rd-mobilepanel {
-  background-color: #3D515A;
+  background-color: #363A41;
   background-position: right top;
   transition-property: height;
   transition-duration: 2s;
@@ -64,14 +64,22 @@ body:not([data-section="introduction"]) .tm-title-caption {
   line-height: 36px;
 }
 
+.rd-mobilemenu .panel {
+  top: 135px;
+}
+
 .rd-mobilemenu .logo {
-  background-color: #33434b;
+  background-color: #f9f9f9;
 }
 
 .toTop {
-  background-color: #33434b;
+  background-color: #363A41;
 }
 
 .toTop:hover {
-  background: #5c7988;
+  background: #646c79;
+}
+
+.files_structure li .fa {
+  color: #5f6778;
 }
