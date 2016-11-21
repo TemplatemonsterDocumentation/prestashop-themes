@@ -1,1 +1,1 @@
-<h2 class="item3">Template installation</h2>
+<h2 id="template-installation">Template installation</h2>

@@ -13,5 +13,5 @@
         better).
     </li>
 </ul>
-<p class="alert alert-info">PrestaShop will work with PHP 5.1 or later, but the versions lower than 5.2 have bugs which
+<p class="alert alert-info">PrestaShop will work with PHP 5.1 or later, but the versions lower than 5.4 have bugs which
     might prevent some functions from working as expected (like invalid date timezone).</p>

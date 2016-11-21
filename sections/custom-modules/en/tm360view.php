@@ -78,25 +78,34 @@
 <p class="alert alert-warning">You can add as much panorama blocks as you need.</p>
 
 <h5>Adding panorama</h5>
-<p>To add new panorama open the module configuration page and click '+' ('Add new item') button (1).</p>
-<figure class="img-polaroid">
-    <img src="img/360view-8.png" alt=""/>
-</figure>
-<p>You'll see the panorama settings which are described below.</p>
-<figure class="img-polaroid">
-    <img src="img/360view-9.png" alt=""/>
-</figure>
-<ul class="marked-list">
-    <li><strong>Select a file</strong> - choose a panorama filed; this field is required (at least for the default language).</li>
-    <li><strong>Title</strong> - enter a title for the panorama; this field is required (at least for the default language).</li>
-    <li><strong>Width</strong> - panorama block width; this field is required.</li>
-    <li><strong>Height</strong> - panorama block height; this field is required.</li>
-    <li><strong>Status</strong> - enable/disable panorama item on Homepage.</li>
-    <li><strong>Loop</strong> - start rotating the image from the beginning after it's end.</li>
-    <li><strong>Animate</strong> - option to display the panorama automatically rotating on page load.</li>
-    <li><strong>Frame time</strong>(appears if 'Animate' is set to 'Yes') - time period during which the panorama image makes a full circle; should be entered in milliseconds; this field is required.</li>
+
+<ul class="index-list">
+    <li>
+        <p>To add new panorama open the module configuration page and click '+' ('Add new item') button (1).</p>
+        <figure class="img-polaroid">
+            <img src="img/360view-8.png" alt=""/>
+        </figure>
+    </li>
+    <li>
+        <p>You'll see the panorama settings which are described below.</p>
+        <figure class="img-polaroid">
+            <img src="img/360view-9.png" alt=""/>
+        </figure>
+        <ul class="marked-list">
+            <li><strong>Select a file</strong> - choose a panorama filed; this field is required (at least for the default language).</li>
+            <li><strong>Title</strong> - enter a title for the panorama; this field is required (at least for the default language).</li>
+            <li><strong>Width</strong> - panorama block width; this field is required.</li>
+            <li><strong>Height</strong> - panorama block height; this field is required.</li>
+            <li><strong>Status</strong> - enable/disable panorama item on Homepage.</li>
+            <li><strong>Loop</strong> - start rotating the image from the beginning after it's end.</li>
+            <li><strong>Animate</strong> - option to display the panorama automatically rotating on page load.</li>
+            <li><strong>Frame time</strong>(appears if 'Animate' is set to 'Yes') - time period during which the panorama image makes a full circle; should be entered in milliseconds; this field is required.</li>
+        </ul>
+    </li>
+    <li>
+        <p>Click the 'Save' button and your panorama image will appear on the Homepage.</p>
+    </li>
 </ul>
-<p>Click the 'Save' button and your panorama image will appear on the Homepage.</p>
 
 <h5>Removing panorama</h5>
 <ul class="index-list">
@@ -110,3 +119,4 @@
         <p>Then confirm the deleting.</p>
     </li>
 </ul>
+
