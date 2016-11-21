@@ -1,0 +1,22 @@
+{
+	"id": "update",
+	"translations": {
+		"en": "Update"
+	},
+	"articles": {
+		"eveprest": [
+			{
+				"id": "theme_update",
+				"translations": {
+					"en": "How to update your theme"
+				}
+			},
+			{
+				"id": "update_1",
+				"translations": {
+					"en": "Update 1.1"
+				}
+			}
+		]
+	}
+}

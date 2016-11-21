@@ -2,7 +2,7 @@
 
 <p>You can run PrestaShop locally on your computer using the local server. To create a
     local hosting server, please use the localhost applications, such as WAMP, AppServ,
-    MAMP, etc. Any of those can be easily installed as any other program and used to run
+    XAMP, etc. Any of those can be easily installed as any other program and used to run
     PrestaShop.</p>
 
 <h6>Please check the tutorials below on how to configure a local development
