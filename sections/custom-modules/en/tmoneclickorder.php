@@ -1,23 +1,15 @@
-<h3>TM One Click Order</a></h3>
-<?php if ($project == 'eveprest') { ?>
-    <div>
-        <p style="margin-bottom: 0;">Available in:</p>
-        <p style="margin-top: 0;" class="small text-secondary">One Product</p>
-    </div>
-<?php } ?>
+<h3>TM One Click Order</h3>
 <p>Module is used to make the process of making an order much faster and easier than it was before.<br>
     It simplifies the procedure from five steps to one and makes it more appealing for the customers who want to save
     their time while making an order.<br>
     By means of this feature you can get more spontaneous purchases that will have a positive impact on your business.
 </p>
-
 <h4>Installation</h4>
 <p>Navigate to Modules and Settings -> Modules and Settings (1) in your admin panel and find the TM One Click Order
     module (2). Then click the 'Install' button (3).</p>
 <figure class="img-polaroid">
     <img src="img/tmoneclick-1.png" alt=""/>
 </figure>
-
 <h4>Module configuration</h4>
 <p>After the module has been successfully installed, the 'Configure' page with the module settings will be opened. <br>
     You'll also see the new menu item 'Quick Orders' (1) and a new icon will appear in the navigation panel (2).
@@ -25,12 +17,10 @@
 <figure class="img-polaroid">
     <img src="img/tmoneclick-2.png" alt=""/>
 </figure>
-
 <p>The settings are divided into three tabs - Preorder template (1), Preorder success message (2) and Settings (3).</p>
 <figure class="img-polaroid">
     <img src="img/tmoneclick-3.png" alt=""/>
 </figure>
-
 <h5>Preorder template</h5>
 <ul class="index-list-type-2">
     <li><p>Here you can add a new field by pressing the corresponding button (1):</p>
@@ -64,33 +54,28 @@
         </figure>
     </li>
 </ul>
-
 <h5>Preorder success message</h5>
 <p>The tab allows to edit the message for the alert window that appears after the user clicks 'Send' button in quick order form.</p>
 <p>Add the text/button you want to be shown and click the 'Save' button (1).</p>
 <figure class="img-polaroid">
     <img src="img/tmoneclick-8.png" alt=""/>
 </figure>
-
 <h5>Settings</h5>
 <p>The tab allows to switch the 'Ajax order' option on and off.</p>
 <p>It helps the administrator to see the new quick orders which were submitted while processing the existing orders.</p>
 <figure class="img-polaroid">
     <img src="img/tmoneclick-9.png" alt=""/>
 </figure>
-
 <p>If the option is enabled, the additional option 'Ajax order timeout' appears. <br>
     The value is set in milliseconds and means the time period between each check for new quick orders.
 </p>
 <figure class="img-polaroid">
     <img src="img/tmoneclick-10.png" alt=""/>
 </figure>
-
 <p>This option helps to open new preorders without page reloading. To see them in the list of quick orders, click the 'Load new orders' link (1) in Orders -> Quick Orders menu.</p>
 <figure class="img-polaroid">
     <img src="img/tmoneclick-11.png" alt=""/>
 </figure>
-
 <h4>Order processing</h4>
 <p>Navigate to Orders -> Quick Orders (1) in your admin panel.</p>
 <figure class="img-polaroid">
