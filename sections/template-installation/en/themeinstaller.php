@@ -34,16 +34,32 @@
 <p>The uploading process will be started. You will see the message that the theme has
     been successfully uploaded. Your new theme preview will appear in the list of
     installed themes.</p>
-<figure class="img-polaroid">
-    <img src="img/theme-import-3.png" alt=""/>
-</figure>
+
+<?php if ($project == 'stylenium') { ?>
+    <figure class="img-polaroid">
+        <img src="projects/stylenium/img/theme-import-3.png" alt=""/>
+    </figure>
+<?php }
+    else { ?>
+    <figure class="img-polaroid">
+        <img src="img/theme-import-3.png" alt=""/>
+    </figure>
+<?php } ?>
 
 
 <p>In order to activate the theme, hover the cursor over the theme preview icon and
     click <strong>Use this theme</strong>.</p>
-<figure class="img-polaroid">
-    <img src="img/theme-import-4.png" alt=""/>
-</figure>
+
+<?php if ($project == 'stylenium') { ?>
+    <figure class="img-polaroid">
+        <img src="projects/stylenium/img/theme-import-4.png" alt=""/>
+    </figure>
+<?php }
+else { ?>
+    <figure class="img-polaroid">
+        <img src="img/theme-import-4.png" alt=""/>
+    </figure>
+<?php } ?>
 
 
 <p>You will see the screen with the information about the modules used in the theme, the
@@ -60,6 +76,13 @@
     up to the defined in theme dimensions. To finish installation click
     <strong>Finish</strong> button.</p>
 
-<figure class="img-polaroid">
-    <img src="img/theme-import-6.png" alt=""/>
-</figure>
+<?php if ($project == 'stylenium') { ?>
+    <figure class="img-polaroid">
+        <img src="projects/stylenium/img/theme-import-6.png" alt=""/>
+    </figure>
+<?php }
+else { ?>
+    <figure class="img-polaroid">
+        <img src="img/theme-import-6.png" alt=""/>
+    </figure>
+<?php } ?>

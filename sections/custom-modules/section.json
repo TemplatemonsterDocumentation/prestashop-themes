@@ -514,6 +514,12 @@
         }
       },
       {
+        "id": "tmproductzoomer",
+        "translations": {
+          "en": "TM Product Zoomer"
+        }
+      },
+      {
         "id": "tmrelatedproducts",
         "translations": {
           "en": "TM Related Products"
