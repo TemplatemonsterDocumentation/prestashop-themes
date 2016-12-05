@@ -66,15 +66,16 @@ body:not([data-section="introduction"]) {
 }
 
 .rd-mobilepanel_title {
-	top: 100px;
+	top: 80px;
 }
 
 .tm-title-caption {
-	font-size: 32px;
-	top: 200px;
-	font-family: $primary-font-family;
+	font-size: 22px;
+	top: 180px;
+	left: 70px;
     color: $contrast-color;
-    line-height: 36px;
+    line-height: 28px;
+	letter-spacing: 0.5px;
 }
 
 .rd-mobilemenu {

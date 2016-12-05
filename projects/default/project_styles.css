@@ -53,15 +53,16 @@ body:not([data-section="introduction"]) .tm-title-caption {
 }
 
 .rd-mobilepanel_title {
-  top: 100px;
+  top: 80px;
 }
 
 .tm-title-caption {
-  font-size: 32px;
-  top: 200px;
-  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  top: 180px;
+  left: 70px;
   color: #FFFFFF;
-  line-height: 36px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
 }
 
 .rd-mobilemenu .panel {
