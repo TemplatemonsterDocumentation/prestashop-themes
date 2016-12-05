@@ -59,7 +59,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <?php if ( $defaultProject === $project ) : ?>
           <div class="panel">
               <div class="select select-version">
-                  <select> 
+                  <select>
+                    <option data-href="/help/quick-start-guide/prestashop-themes/v1-5/index_en.html">Version v1-5</option>
                     <option data-href="#" selected>Version v1-3</option> 
                     <option data-href="/help/quick-start-guide/prestashop-themes/v1-2/index_en.html">Version v1-2</option> 
                     <option data-href="/help/quick-start-guide/prestashop-themes/v1-1/index_en.html">Version v1-1</option> 
