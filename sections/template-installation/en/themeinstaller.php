@@ -40,7 +40,14 @@
         <img src="projects/stylenium/img/theme-import-3.png" alt=""/>
     </figure>
 <?php }
-    else { ?>
+
+elseif ($project == 'creatica'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/creatica/img/theme-import-3.png" alt=""/>
+    </figure>
+<?php }
+
+else { ?>
     <figure class="img-polaroid">
         <img src="img/theme-import-3.png" alt=""/>
     </figure>
@@ -55,21 +62,40 @@
         <img src="projects/stylenium/img/theme-import-4.png" alt=""/>
     </figure>
 <?php }
+
+elseif ($project == 'creatica'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/creatica/img/theme-import-4.png" alt=""/>
+    </figure>
+<?php }
+
 else { ?>
     <figure class="img-polaroid">
         <img src="img/theme-import-4.png" alt=""/>
     </figure>
 <?php } ?>
 
-
 <p>You will see the screen with the information about the modules used in the theme, the
     number of modules that are turned on and off. Click <strong>Save</strong> in order
     to continue.</p>
 
-<figure class="img-polaroid">
-    <img src="img/theme-import-5.png"
-         alt=""/>
-</figure>
+<?php if ($project == 'stylenium') { ?>
+    <figure class="img-polaroid">
+        <img src="projects/stylenium/img/theme-import-5.png" alt=""/>
+    </figure>
+<?php }
+
+elseif ($project == 'creatica'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/creatica/img/theme-import-5.png" alt=""/>
+    </figure>
+<?php }
+
+else { ?>
+    <figure class="img-polaroid">
+        <img src="img/theme-import-5.png" alt=""/>
+    </figure>
+<?php } ?>
 
 <p>After this you will see the pop-up with the message about successful theme
     activation: the theme has been installed successfully, images have been re-generated
@@ -81,6 +107,13 @@ else { ?>
         <img src="projects/stylenium/img/theme-import-6.png" alt=""/>
     </figure>
 <?php }
+
+elseif ($project == 'creatica'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/creatica/img/theme-import-6.png" alt=""/>
+    </figure>
+<?php }
+
 else { ?>
     <figure class="img-polaroid">
         <img src="img/theme-import-6.png" alt=""/>
