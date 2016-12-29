@@ -184,6 +184,7 @@ $rd-menu-width-mobile: 250px;
 [data-section="introduction"] {
   .rd-mobilepanel {
     //height: 600px;
+    @include transition(height .3s ease);
   }
 }
 

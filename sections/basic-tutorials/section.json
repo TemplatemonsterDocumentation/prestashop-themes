@@ -107,6 +107,32 @@
 					"en": "How to add or remove some links in Permanent links block"
 				}
 			}
+		],
+		"kansysis": [
+			{
+				"id": "changestoreinfo",
+				"translations": {
+					"en": "How to change info about your store"
+				}
+			},
+			{
+				"id": "edit_slider",
+				"translations": {
+					"en": "How to edit slider"
+				}
+			},
+			{
+				"id": "manage_configurator",
+				"translations": {
+					"en": "How to manage the Theme Configurator module"
+				}
+			},
+			{
+				"id": "permanent_links",
+				"translations": {
+					"en": "How to add or remove some links in Permanent links block"
+				}
+			}
 		]
 	}
 }

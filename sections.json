@@ -38,5 +38,14 @@
 		"custom-modules",
 		"cookies-policy",
 		"addendum"
+	],
+	"kansysis": [
+		"introduction",
+		"getting-started",
+		"template-installation",
+		"basic-tutorials",
+		"custom-modules",
+		"cookies-policy",
+		"addendum"
 	]
 }
