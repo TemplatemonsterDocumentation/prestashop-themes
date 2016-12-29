@@ -47,6 +47,12 @@ elseif ($project == 'creatica'){ ?>
     </figure>
 <?php }
 
+elseif ($project == 'kansysis'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/kansysis/img/theme-import-3.png" alt=""/>
+    </figure>
+<?php }
+
 else { ?>
     <figure class="img-polaroid">
         <img src="img/theme-import-3.png" alt=""/>
@@ -66,6 +72,12 @@ else { ?>
 elseif ($project == 'creatica'){ ?>
     <figure class="img-polaroid">
         <img src="projects/creatica/img/theme-import-4.png" alt=""/>
+    </figure>
+<?php }
+
+elseif ($project == 'kansysis'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/kansysis/img/theme-import-4.png" alt=""/>
     </figure>
 <?php }
 
@@ -91,6 +103,12 @@ elseif ($project == 'creatica'){ ?>
     </figure>
 <?php }
 
+elseif ($project == 'kansysis'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/kansysis/img/theme-import-5.png" alt=""/>
+    </figure>
+<?php }
+
 else { ?>
     <figure class="img-polaroid">
         <img src="img/theme-import-5.png" alt=""/>
@@ -111,6 +129,12 @@ else { ?>
 elseif ($project == 'creatica'){ ?>
     <figure class="img-polaroid">
         <img src="projects/creatica/img/theme-import-6.png" alt=""/>
+    </figure>
+<?php }
+
+elseif ($project == 'kansysis'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/kansysis/img/theme-import-6.png" alt=""/>
     </figure>
 <?php }
 

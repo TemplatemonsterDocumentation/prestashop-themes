@@ -1,0 +1,79 @@
+@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CUbuntu:400,700%7CJura:300,400,500,700);
+h2 {
+  color: #162851; }
+
+h3 {
+  color: #162851; }
+
+.page-content .rd-mobilepanel {
+  background-position: 60% bottom; }
+
+.page-content.active .rd-mobilepanel {
+  background-position: 60% bottom; }
+
+.rd-mobilepanel {
+  background-color: #ae4f83;
+  border-bottom: 1px solid #f0f0f0;
+  transition-property: height;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s; }
+  .rd-mobilepanel.fixed {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); }
+  .rd-mobilepanel_toggle span, .rd-mobilepanel_toggle span:before, .rd-mobilepanel_toggle span:after {
+    background-color: #fff; }
+
+[data-section="introduction"] .rd-mobilepanel {
+  background-image: url("../../projects/kansysis/img/header-bg.png");
+  height: 500px; }
+  [data-section="introduction"] .rd-mobilepanel.fixed {
+    height: 56px;
+    background-image: none;
+    transition: top 1s ease-out 0.5s; }
+
+body:not([data-section="introduction"]) .tm-title-caption {
+  display: none; }
+
+.rd-mobilepanel_title {
+  font-family: "Jura", sans-serif;
+  font-size: 82px;
+  top: 250px;
+  left: 80px;
+  right: auto;
+  color: #fff;
+  text-transform: uppercase; }
+
+.tm-title-caption {
+  font-family: "Jura", sans-serif;
+  font-size: 22px;
+  top: 340px;
+  left: 84px;
+  right: auto;
+  color: #fff; }
+
+.rd-mobilemenu {
+  background-color: transparent; }
+  .rd-mobilemenu:before {
+    box-shadow: -5px 0 7px 0 rgba(0, 0, 0, 0.1); }
+  .rd-mobilemenu .logo {
+    background-color: #131313; }
+  .rd-mobilemenu li {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: .2px; }
+  .rd-mobilemenu_ul a {
+    padding: 13px 25px 14px; }
+  .rd-mobilemenu_ul ul a.focus {
+    color: #ae4f83; }
+
+.toTop {
+  background-color: #7d7d7d; }
+  .toTop:hover {
+    background: #b0b0b0; }
+
+.files_structure li .fa {
+  color: #162851; }
+
+.codebox {
+  background-color: #f7f7f7; }

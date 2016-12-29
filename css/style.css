@@ -512,6 +512,11 @@ blockquote {
       top: -40px; }
     .rd-mobilepanel.fixed .tm-title-caption {
       display: none; }
+  .rd-mobilepanel [data-section="introduction"] .rd-mobilepanel {
+    -moz-transition: height 0.3s ease;
+    -o-transition: height 0.3s ease;
+    -webkit-transition: height 0.3s ease;
+    transition: height 0.3s ease; }
   .rd-mobilepanel .panel {
     position: absolute;
     right: 10px;
