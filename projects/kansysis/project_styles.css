@@ -77,3 +77,10 @@ body:not([data-section="introduction"]) .tm-title-caption {
 
 .codebox {
   background-color: #f7f7f7; }
+
+.text-secondary {
+  color: #ae4f83; }
+
+.small {
+  font-size: .9em;
+  letter-spacing: .3px; }

@@ -136,3 +136,12 @@ body:not([data-section="introduction"]) {
 .codebox {
   background-color: $secondary-color-light;
 }
+
+.text-secondary {
+	color: $secondary-color;
+}
+
+.small {
+	font-size: .9em;
+	letter-spacing: .3px;
+}

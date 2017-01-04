@@ -17,16 +17,15 @@
         <p>In your PrestaShop admin panel navigate to <strong>Preferences >
                 Themes</strong>, select the theme you installed (you can also use the
             enabled theme, it will not cause any issues for your enabled theme). Click
-            <strong>Advanced settings</strong> button.</p>
+            <strong>'Advanced settings'</strong> button (1).</p>
 
         <figure class="img-polaroid">
             <img alt="" src="img/existing-store-1.png"/>
         </figure>
     </li>
     <li>
-        <p>On the appeared screen select the directory with your new theme name and
-            click <strong>Save</strong> button.</p>
-
+        <p>On the appeared screen select the directory with your new theme name (1) and
+            click <strong>'Save'</strong> button (2).</p>
         <figure class="img-polaroid">
             <img alt="" src="img/existing-store-2.png"/>
         </figure>

@@ -1,4 +1,17 @@
 <h3>TM One Click Order</h3>
+<?php if ($project == 'kansysis' ) { ?>
+    <div>
+        <p class="small text-secondary">If you plan to use this module, after sample data installation find this module in Modules List and click the 'Install' (1) and then 'Reset' button (2).</p>
+        <figure class="img-polaroid">
+            <img src="img/tmoneclick-20.png" alt="">
+        </figure>
+        <figure class="img-polaroid">
+            <img src="img/tmoneclick-21.png" alt="">
+        </figure>
+    </div>
+    <hr style="margin-top: 30px;">
+<?php } ?>
+
 <p>Module is used to make the process of making an order much faster and easier than it was before.<br>
     It simplifies the procedure from five steps to one and makes it more appealing for the customers who want to save
     their time while making an order.<br>
