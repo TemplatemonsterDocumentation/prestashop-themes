@@ -3,27 +3,27 @@
 //========================================================
 
 $default-color: #7d7d7d;
-$primary-color: #162851;
-$secondary-color: #ae4f83;
+$primary-color: #adf0e3;
+$secondary-color: #fea7cc;
 $secondary-color-light: #f7f7f7;
-$dark-color: #131313;
-$header-background-color: #ae4f83;
-$header-color: #fff;
-$header-background-image: '../../projects/kansysis/img/header-bg.png';
+$secondary-color-dark: #d91469;
+$header-background-color: #adf0e3;
+$header-color: #292929;
+$header-background-image: '../../projects/lunalin/img/header-bg.png';
 
-@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CUbuntu:400,700%7CJura:300,400,500,700);
-$primary-font-family: 'Ubuntu', sans-serif;
-$secondary-font-family: 'Jura', sans-serif;
+@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CLato:400,700%7CArizonia:300,400,500,700);
+$primary-font-family: 'Lato', sans-serif;
+$secondary-font-family: 'Arizonia', sans-serif;
 
 //========================================================
 //                     Color & Styles
 //========================================================
 
 h2 {
-	color: $primary-color;
+	color: $secondary-color-dark;
 }
 h3 {
-	color: $primary-color;
+	color: $secondary-color-dark;
 }
 
 .page-content {
@@ -53,7 +53,7 @@ h3 {
 		background-color: $header-color;
 	}
 	&.fixed {
-		background: linear-gradient(90deg, #ae4f83, #9CD7EB);
+		background: linear-gradient(90deg, #f6f4e8, #fda7cc);
 		border-bottom: none;
 		box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
 	}
@@ -61,7 +61,7 @@ h3 {
 
 [data-section="introduction"] {
 	.rd-mobilepanel {
-		background: linear-gradient(90deg, #ae4f83, #9CD7EB);
+		background: linear-gradient(90deg, #f6f4e8, #fda7cc);
 		height: 500px;
 		z-index: 99999998;
 
@@ -106,16 +106,15 @@ body:not([data-section="introduction"]) {
 	left: 80px;
 	right: auto;
 	color: $header-color;
-	text-transform: uppercase;
 }
 
 .tm-title-caption {
-	font-family: $secondary-font-family;
-	font-size: 22px;
-	top: 340px;
-	left: 84px;
+	font-family: $primary-font-family;
+	font-size: 12px;
+	top: 365px;
 	right: auto;
 	color: $header-color;
+	text-transform: uppercase;
 }
 
 .rd-mobilemenu {
@@ -124,7 +123,7 @@ body:not([data-section="introduction"]) {
 		box-shadow: -5px 0 7px 0 rgba(0, 0, 0, 0.1);
 	}
 	.logo {
-		background-color: $dark-color;
+		background-color: $secondary-color-light;
 	}
 	li {
 		font-family: $primary-font-family;
@@ -140,7 +139,7 @@ body:not([data-section="introduction"]) {
 
 		}
 		ul a.focus {
-			color: $secondary-color;
+			color: $secondary-color-dark;
 		}
 	}
 }
@@ -155,7 +154,7 @@ body:not([data-section="introduction"]) {
 .files_structure {
   li {
     .fa {
-      color: $primary-color;
+		color: $default-color;
     }
   }
 }

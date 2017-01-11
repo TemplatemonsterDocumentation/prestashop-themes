@@ -107,12 +107,13 @@ article a {
     background-color: $default-color;
   }
   &.fixed {
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
   }
 }
 
 [data-section="introduction"] {
   .rd-mobilepanel {
+    border-bottom: 1px solid #eee;
     background-image: url($header-background-image);
     height: 500px;
     &.fixed {
@@ -140,6 +141,7 @@ body:not([data-section="introduction"]) {
   font-size: 18px;
   text-transform: uppercase;
   top: 200px;
+  left: 85px;
   right: auto;
   color: $default-color;
   line-height: 36px;

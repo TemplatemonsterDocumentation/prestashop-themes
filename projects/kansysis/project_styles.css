@@ -12,24 +12,44 @@ h3 {
   background-position: 60% bottom; }
 
 .rd-mobilepanel {
-  background-color: #ae4f83;
-  border-bottom: 1px solid #f0f0f0;
+  box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
   transition-property: height;
   transition-duration: 2s;
   transition-timing-function: linear;
   transition-delay: 1s; }
-  .rd-mobilepanel.fixed {
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); }
+  .rd-mobilepanel_toggle {
+    z-index: 99999999; }
   .rd-mobilepanel_toggle span, .rd-mobilepanel_toggle span:before, .rd-mobilepanel_toggle span:after {
     background-color: #fff; }
+  .rd-mobilepanel.fixed {
+    background: linear-gradient(90deg, #ae4f83, #9CD7EB);
+    border-bottom: none;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15); }
 
 [data-section="introduction"] .rd-mobilepanel {
-  background-image: url("../../projects/kansysis/img/header-bg.png");
-  height: 500px; }
+  background: linear-gradient(90deg, #ae4f83, #9CD7EB);
+  height: 500px;
+  z-index: 99999998; }
+  [data-section="introduction"] .rd-mobilepanel:before {
+    content: '';
+    position: absolute;
+    background-position: 60% bottom;
+    background-image: url("img/header-bg.png");
+    transition-property: height;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    z-index: 99999999; }
   [data-section="introduction"] .rd-mobilepanel.fixed {
     height: 56px;
-    background-image: none;
     transition: top 1s ease-out 0.5s; }
+  [data-section="introduction"] .rd-mobilepanel.fixed:before {
+    background-image: none; }
 
 body:not([data-section="introduction"]) .tm-title-caption {
   display: none; }

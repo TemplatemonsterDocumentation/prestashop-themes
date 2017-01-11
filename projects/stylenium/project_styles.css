@@ -1,101 +1,71 @@
 @import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CUbuntu:400,700);
 h1 {
-  color: #FFFFFF;
-}
+  color: #FFFFFF; }
 
 h2 {
-  color: #ed3b5b;
-}
+  color: #ed3b5b; }
 
 h3 {
-  color: #ed3b5b;
-}
+  color: #ed3b5b; }
 
 .page-content .rd-mobilepanel {
-  background-position: 60% bottom;
-}
+  background-position: 60% bottom; }
 
 .page-content.active .rd-mobilepanel {
-  background-position: 60% bottom;
-}
+  background-position: 60% bottom; }
 
 .rd-mobilepanel {
   background-color: #32363f;
   transition-property: height;
   transition-duration: 2s;
   transition-timing-function: linear;
-  transition-delay: 1s;
-}
-
-.rd-mobilepanel.fixed {
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
-}
+  transition-delay: 1s; }
+  .rd-mobilepanel.fixed {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); }
 
 [data-section="introduction"] .rd-mobilepanel {
   background-image: url("../../projects/stylenium/img/header-bg.png");
-  height: 500px;
-}
-
-[data-section="introduction"] .rd-mobilepanel.fixed {
-  height: 56px;
-  background-image: none;
-  transition: top 1s ease-out 0.5s;
-}
+  height: 500px; }
+  [data-section="introduction"] .rd-mobilepanel.fixed {
+    height: 56px;
+    background-image: none;
+    transition: top 1s ease-out 0.5s; }
 
 body:not([data-section="introduction"]) .tm-title-caption {
-  display: none;
-}
+  display: none; }
 
 .rd-mobilepanel_title {
   font-family: "Ubuntu", sans-serif;
-  font-size: 82px;
-  top: 100px;
-  right: auto;
-}
+  top: 250px;
+  left: 80px;
+  right: auto; }
 
 .tm-title-caption {
   font-family: "Ubuntu", sans-serif;
   font-size: 22px;
-  top: 190px;
-  left: 230px;
-  right: auto;
-}
+  right: auto; }
 
 .rd-mobilemenu {
-  background-color: transparent;
-}
-
-.rd-mobilemenu .logo {
-  background-color: #f7f7f7;
-}
-
-.rd-mobilemenu li {
-  font-family: "Ubuntu", sans-serif;
-  font-size: 13px;
-  font-weight: 400;
-  letter-spacing: .2px;
-}
-
-.rd-mobilemenu_ul a {
-  padding: 13px 25px 14px;
-}
-
-.rd-mobilemenu_ul ul a.focus {
-  color: #ed3b5b;
-}
+  background-color: transparent; }
+  .rd-mobilemenu .logo {
+    background-color: #f7f7f7; }
+  .rd-mobilemenu li {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: .2px; }
+  .rd-mobilemenu_ul a {
+    padding: 13px 25px 14px; }
+  .rd-mobilemenu_ul ul a.focus {
+    color: #ed3b5b; }
 
 .toTop {
-  background-color: #7d7d7d;
-}
-
-.toTop:hover {
-  background: #b0b0b0;
-}
+  background-color: #7d7d7d; }
+  .toTop:hover {
+    background: #b0b0b0; }
 
 .files_structure li .fa {
-  color: #5f6778;
-}
+  color: #5f6778; }
 
 .codebox {
-  background-color: #f7f7f7;
-}
+  background-color: #f7f7f7; }
