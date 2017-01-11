@@ -1,25 +1,15 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat:400,700|Montserrat+Alternates:400,700);
-h1 {
-  color: #FFFFFF;
-}
-
 h2 {
-  color: #E91E63;
-}
+  color: #E91E63; }
 
 h3 {
-  color: #E91E63;
-}
+  color: #E91E63; }
 
 .page-content.active .rd-mobilepanel {
-  background-position: 66% top;
-}
-
-@media (max-width: 1440px) {
-  .page-content.active .rd-mobilepanel {
-    background-position: 100% bottom;
-  }
-}
+  background-position: 66% top; }
+  @media (max-width: 1440px) {
+    .page-content.active .rd-mobilepanel {
+      background-position: 100% bottom; } }
 
 .rd-mobilepanel {
   background-color: #3D515A;
@@ -27,51 +17,31 @@ h3 {
   transition-property: height;
   transition-duration: 2s;
   transition-timing-function: linear;
-  transition-delay: 1s;
-}
-
-@media (max-width: 1440px) {
-  .rd-mobilepanel {
-    background-size: 60% auto;
-    background-position: 256px bottom;
-  }
-}
+  transition-delay: 1s; }
+  @media (max-width: 1440px) {
+    .rd-mobilepanel {
+      background-size: 60% auto;
+      background-position: 256px bottom; } }
 
 [data-section="introduction"] .rd-mobilepanel {
   background-image: url("../../projects/default/img/default-header-bg.png");
-  height: 256px;
-}
-
-[data-section="introduction"] .rd-mobilepanel.fixed {
-  height: 56px;
-  background-image: none;
-  transition: top 1s ease-out 0.5s;
-}
+  height: 256px; }
+  [data-section="introduction"] .rd-mobilepanel.fixed {
+    height: 56px;
+    background-image: none;
+    transition: top 1s ease-out 0.5s; }
 
 body:not([data-section="introduction"]) .tm-title-caption {
-  display: none;
-}
+  display: none; }
 
 .rd-mobilepanel_title {
   top: 100px;
-}
-
-.tm-title-caption {
-  font-size: 32px;
-  top: 200px;
-  font-family: "Montserrat", sans-serif;
-  color: #FFFFFF;
-  line-height: 36px;
-}
+  left: 65px; }
 
 .rd-mobilemenu .logo {
-  background-color: #33434b;
-}
+  background-color: #33434b; }
 
 .toTop {
-  background-color: #33434b;
-}
-
-.toTop:hover {
-  background: #5c7988;
-}
+  background-color: #33434b; }
+  .toTop:hover {
+    background: #5c7988; }

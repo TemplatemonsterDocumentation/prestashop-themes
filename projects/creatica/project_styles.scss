@@ -38,29 +38,54 @@ h3 {
 }
 
 .rd-mobilepanel {
-	background-color: $header-background-color;
 	border-bottom: 1px solid #f0f0f0;
 	transition-property: height;
 	transition-duration: 2s;
 	transition-timing-function: linear;
 	transition-delay: 1s;
-	&.fixed {
-		box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
-	}
+    &_toggle {
+      z-index: 99999999;
+    }
 	&_toggle span, &_toggle span:before, &_toggle span:after {
 		background-color: $header-color;
 	}
+    &.fixed {
+      background: linear-gradient(90deg, #f9f9f9, #ccc);
+    }
 }
 
 [data-section="introduction"] {
 	.rd-mobilepanel {
-		background-image: url($header-background-image);
-		height: 500px;
-		&.fixed {
-			height: 56px;
-			background-image: none;
-			transition: top 1s ease-out 0.5s;
-		}
+        background: linear-gradient(90deg, #f9f9f9, #ccc);
+        height: 500px;
+        z-index: 99999998;
+
+      &:before {
+        content: '';
+        position: absolute;
+        background-position: 60% bottom;
+        background-image: url("img/header-bg.png");
+        transition-property: height;
+        transition-duration: 2s;
+        transition-timing-function: linear;
+        transition-delay: 1s;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-repeat: no-repeat;
+        z-index: 99999999;
+      }
+
+      &.fixed {
+        height: 56px;
+        background: linear-gradient(90deg, #f9f9f9, #ccc);
+        transition: top 1s ease-out 0.5s;
+      }
+
+      &.fixed:before {
+        background-image: none;
+      }
 	}
 }
 
@@ -72,7 +97,6 @@ body:not([data-section="introduction"]) {
 
 .rd-mobilepanel_title {
 	font-family: $secondary-font-family;
-	font-size: 82px;
 	top: 250px;
 	left: 80px;
 	right: auto;
@@ -82,8 +106,7 @@ body:not([data-section="introduction"]) {
 .tm-title-caption {
 	font-family: $secondary-font-family;
 	font-size: 22px;
-	top: 340px;
-	left: 84px;
+    left: 85px;
 	right: auto;
 	color: $header-color;
 }
@@ -107,7 +130,7 @@ body:not([data-section="introduction"]) {
 			padding: 13px 25px 14px;
 		}
 		a:hover, a.active, a.opened {
-
+          background-color: rgba(#3faee6, .2);
 		}
 		ul a.focus {
 			color: $primary-color;

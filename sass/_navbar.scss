@@ -172,7 +172,7 @@ $rd-menu-width-mobile: 250px;
 
     .rd-mobilepanel_title {
       transform: translateY(50.25px);
-      //font-size: 24px;
+      font-size: 24px;
       bottom: 61px;
       top: -40px;
     }
@@ -198,12 +198,13 @@ $rd-menu-width-mobile: 250px;
 
 .tm-title-caption {
   position: absolute;
-  left: 64px;
+  top: 360px;
+  left: 80px;
+  right: 300px;
+  bottom: 61px;
   width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  right: 300px;
-  bottom: 61px;
   color: map-get($rd-theme, panel-text-color);
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -233,7 +234,8 @@ $rd-menu-width-mobile: 250px;
 
 .rd-mobilepanel_title {
   position: absolute;
-  left: 64px;
+  top: 250px;
+  left: 80px;
   width: 1170px;
   margin-left: auto;
   margin-right: auto;

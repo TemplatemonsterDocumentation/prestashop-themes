@@ -16,9 +16,6 @@ $primary-font-family:'Montserrat', sans-serif;
 //                     Color & Styles
 //========================================================
 
-h1 {
-	color: $contrast-color;
-}
 h2 {
 	color: $primary-color;
 }
@@ -68,14 +65,7 @@ body:not([data-section="introduction"]) {
 
 .rd-mobilepanel_title {
 	top: 100px;
-}
-
-.tm-title-caption {
-	font-size: 32px;
-	top: 200px;
-	font-family: $primary-font-family;
-    color: $contrast-color;
-    line-height: 36px;
+	left: 65px;
 }
 
 .rd-mobilemenu {

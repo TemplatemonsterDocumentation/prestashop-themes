@@ -225,20 +225,48 @@
             function resizePanel() {
                 var p = $('.rd-mobilepanel'),
                     t = $('.rd-mobilepanel_title'),
-                    st = $(document).scrollTop();
+                    c = $('.tm-title-caption'),
+                    st = $(document).scrollTop(),
+                    pr_name = $('body').data('project'),
+                    pr_height = '';
+
+                if(pr_name =="default" || pr_name =="eveprest") {
+                    pr_height = 130;
+                } else {
+                    pr_height = 300;
+                }
 
                 function resize() {
                     p.removeClass('fixed');
                     $('body').removeClass('navbar-stickup').removeClass('navbar-fixed');
+
+
+                    if($('body').data('project') == "default") {
+                        fz = 65;
+                    } else if ($('body').data('project') == "lunalin") {
+                        fz = 95;
+                    } else {
+                        fz = 70;
+                    }
+
                     if (st > st_before && !p.hasClass('fixed')) {
                         t.css({
-                            "transform": "translateY(" + (st / 4) + "px)",
+                            "transform": "translateY(" + (st / 3) + "px)",
                             "font-size": fz - st / 6.7
                         });
+                        c.css({
+                            "display": "none",
+                            "transform": "translateY(" + (st / 3) + "px)"
+                        });
+
                     } else {
                         t.css({
-                            "transform": "translateY(" + (st / 4) + "px)",
+                            "transform": "translateY(" + (st / 3) + "px)",
                             "font-size": fz - st / 6.7
+                        });
+                        c.css({
+                            "display": "block",
+                            "transform": "translateY(" + (st / 3) + "px)"
                         });
                     }
                 }
@@ -249,10 +277,16 @@
                         "transform": "translateY(50.25px)",
                         "font-size": 24
                     });
+
+                    c.css({
+                        "display": "none"
+                    });
+
                 }
 
+
                 if ($(window).width() > 1067) {
-                     if (st < 130 && 'introduction' === $('body').data('section')) {
+                     if (st < pr_height && 'introduction' === $('body').data('section')) {
                          resize();
                      } else {
                          fix();
