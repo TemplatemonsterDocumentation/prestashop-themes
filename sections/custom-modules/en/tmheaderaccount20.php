@@ -1,4 +1,4 @@
-<h3>TM Header Account 2.0.0</h3>
+<h3>TM Header Account 2.0</h3>
 <?php if ($project == 'eveprest' ) { ?>
     <div>
         <p style="margin-bottom: 0;">Available in:</p>
