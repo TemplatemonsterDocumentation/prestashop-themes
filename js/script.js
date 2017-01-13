@@ -20,14 +20,14 @@ function isIE() {
 ;
 (function ($) {
     var o = $('html');
-    if (o.hasClass('desktop')) {
+    // if (o.hasClass('desktop')) {
         $(document).ready(function () {
             $().UItoTop({
                 easingType: 'easeOutQuart',
                 containerClass: 'toTop fa fa-angle-up'
             });
         });
-    }
+    // }
 })(jQuery);
 
 /* Orientation tablet fix

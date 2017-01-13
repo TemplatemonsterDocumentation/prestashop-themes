@@ -1,0 +1,167 @@
+//========================================================
+//                     Variables
+//========================================================
+
+$default-color: #7d7d7d;
+$primary-color: #ffca57;
+$secondary-color-light: #f1ebe3;
+$secondary-color: #c9bba8;
+$secondary-color-dark: #422b0b;
+$header-background-image: '../../projects/decorma/img/header-bg.png';
+
+@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CLato:400,700%7CRokkitt:300,400,500,700,800);
+$primary-font-family: 'Lato', sans-serif;
+$secondary-font-family: 'Rokkitt', sans-serif;
+
+//========================================================
+//                     Color & Styles
+//========================================================
+
+h2 {
+	color: $primary-color;
+	font-family: $secondary-font-family;
+}
+h3 {
+	color: $primary-color;
+	font-family: $secondary-font-family;
+}
+
+.rd-mobilepanel {
+	box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
+	transition-property: height;
+	transition-duration: 2s;
+	transition-timing-function: linear;
+	transition-delay: 1s;
+
+	&_toggle {
+		z-index: 99999999;
+	}
+	&_toggle span, &_toggle span:before, &_toggle span:after {
+		background-color: $primary-color;
+	}
+	&.fixed {
+
+		background: -webkit-repeating-linear-gradient(left top, $secondary-color 73%, $secondary-color-dark 98%);/* Chrome10+,Safari5.1+ */
+		background: -moz-repeating-linear-gradient(left top, $secondary-color 73%, $secondary-color-dark 98%);/* FF3.6+ */
+		background: -o-repeating-linear-gradient(left top, $secondary-color 73%, $secondary-color-dark 98%);/* Opera 11.10+ */
+		background: -ms-repeating-linear-gradient(left top, $secondary-color 73%, $secondary-color-dark 98%); /* IE10+ */
+		background: repeating-linear-gradient(to right bottom, $secondary-color 73%, $secondary-color-dark 98%);/* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$secondary-color, endColorstr=$secondary-color-dark);/* IE6-8 */
+		background-size: 10px 10px;
+		background-repeat: repeat;
+
+		border-bottom: none;
+		box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
+	}
+}
+
+[data-section="introduction"] {
+	.rd-mobilepanel {
+
+		background: -webkit-repeating-linear-gradient(left top, $secondary-color 73%, $secondary-color-dark 98%);/* Chrome10+,Safari5.1+ */
+		background: -moz-repeating-linear-gradient(left top, $secondary-color 73%, $secondary-color-dark 98%);/* FF3.6+ */
+		background: -o-repeating-linear-gradient(left top, $secondary-color 73%, $secondary-color-dark 98%);/* Opera 11.10+ */
+		background: -ms-repeating-linear-gradient(left top, $secondary-color 73%, $secondary-color-dark 98%); /* IE10+ */
+		background: repeating-linear-gradient(to right bottom, $secondary-color 73%, $secondary-color-dark 98%);/* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$secondary-color, endColorstr=$secondary-color-dark);/* IE6-8 */
+		background-size: 10px 10px;
+		background-repeat: repeat;
+
+		height: 500px;
+		z-index: 99999998;
+
+		&:before {
+			content: '';
+			position: absolute;
+			background-position: 70% bottom;
+			background-image: url("img/header-bg.png");
+			transition-property: height;
+			transition-duration: 2s;
+			transition-timing-function: linear;
+			transition-delay: 1s;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-repeat: no-repeat;
+			z-index: 99999999;
+		}
+
+		&.fixed {
+			height: 56px;
+			transition: top 1s ease-out 0.5s;
+		}
+
+		&.fixed:before {
+			background-image: none;
+		}
+	}
+}
+
+body:not([data-section="introduction"]) {
+	.tm-title-caption {
+		display: none;
+	}
+}
+
+.rd-mobilepanel_title {
+	font-family: $secondary-font-family;
+	font-size: 82px;
+	top: 250px;
+	left: 80px;
+	right: auto;
+	color: $primary-color;
+	text-transform: uppercase;
+	text-shadow: 1px 2px 3px rgba(0, 0, 0, .4);
+}
+
+.rd-mobilemenu {
+	background-color: transparent;
+	&:before {
+		box-shadow: -5px 0 7px 0 rgba(0, 0, 0, 0.1);
+	}
+	.logo {
+		background-color: $secondary-color-light;
+	}
+	li {
+		font-family: $primary-font-family;
+		font-size: 13px;
+		font-weight: 300;
+		letter-spacing: .2px;
+	}
+	&_ul {
+		a {
+			padding: 13px 25px 14px;
+		}
+		a:hover, a.active, a.opened {
+			background: $secondary-color-light;
+		}
+		ul a.focus {
+			color: darken($primary-color, 20%);
+		}
+	}
+}
+
+.toTop {
+	background-color: darken($secondary-color, 15%);
+  &:hover {
+	  background-color: $secondary-color;
+  }
+}
+
+.files_structure {
+  li {
+    .fa {
+		color: darken($secondary-color, 35%);
+    }
+  }
+}
+
+.codebox {
+  background-color: $secondary-color;
+}
+
+.small {
+	font-size: .9em;
+	letter-spacing: .3px;
+}
