@@ -7,6 +7,9 @@
 <?php } ?>
 <p>This module is an extended search version that allows you to select a specific category for searching  within its content. You can also change the category after defining the query.  It also provides a possibility to set the additional product information display (description/price/manufacturer, etc.), and define the search results container layout, e.g., you can divide the results into a few sections with the controls (pagination, next/previous/show all). All the module settings are available in main admin panel.</p>
 <h4>Installation and Deleting</h4>
+<p class="alert alert-warning">
+    If you have the 1.0.5 version of this module installed in your prestashop engine, you are not suggested to update it with the current one. First you need to remove the old version of the module to run without errors.
+</p>
 <p>The module is installed and deleted like any other Prestashop module.</p>
 <h4>Module configuration</h4>
 <p>After module has been installed you can set it up on the module configuration page.</p>

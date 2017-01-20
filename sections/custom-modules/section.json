@@ -162,6 +162,12 @@
         }
       },
       {
+        "id": "tmmegalayout110",
+        "translations": {
+          "en": "TM Mega Layout 1.1.0"
+        }
+      },
+      {
         "id": "tmmegamenu",
         "translations": {
           "en": "TM Mega Menu"
@@ -1005,6 +1011,116 @@
         "id": "tmsearch110",
         "translations": {
           "en": "TM Search 1.1.0"
+        }
+      }
+    ],
+    "foodfate": [
+      {
+        "id": "smart_blog",
+        "translations": {
+          "en": "Smart Blog"
+        }
+      },
+      {
+        "id": "tmcategoryproducts100",
+        "translations": {
+          "en": "TM Category Products 1.0.0"
+        }
+      },
+      {
+        "id": "tmdealday",
+        "translations": {
+          "en": "TM Deal of the Day"
+        }
+      },
+      {
+        "id": "tmgooglemap115",
+        "translations": {
+          "en": "TM Google Map 1.1.5"
+        }
+      },
+      {
+        "id": "tmheaderaccount20",
+        "translations": {
+          "en": "TM Header Account 2.0"
+        }
+      },
+      {
+        "id": "tmhomepagecategorygallery",
+        "translations": {
+          "en": "TM Homepage Category Gallery"
+        }
+      },
+      {
+        "id": "tmhtmlcontent",
+        "translations": {
+          "en": "TM HTML Content"
+        }
+      },
+      {
+        "id": "tmmegalayout100",
+        "translations": {
+          "en": "TM Mega Layout 1.0.0"
+        }
+      },
+      {
+        "id": "tmmegamenu",
+        "translations": {
+          "en": "TM Mega Menu"
+        }
+      },
+      {
+        "id": "tmmosaicproducts",
+        "translations": {
+          "en": "TM Mosaic Products"
+        }
+      },
+      {
+        "id": "tmnewsletter",
+        "translations": {
+          "en": "TM Newsletter"
+        }
+      },
+      {
+        "id": "tmolarkchat",
+        "translations": {
+          "en": "TM Olark Chat"
+        }
+      },
+      {
+        "id": "tmproductlistgallery200",
+        "translations": {
+          "en": "TM Product List Gallery 2.0.0"
+        }
+      },
+      {
+        "id": "tmproductvideos",
+        "translations": {
+          "en": "TM Product Videos"
+        }
+      },
+      {
+        "id": "tmproductzoomer",
+        "translations": {
+          "en": "TM Product Zoomer"
+        }
+      },
+      {
+        "id": "tmrelatedproducts",
+        "translations": {
+          "en": "TM Related Products"
+        }
+      },
+      {
+        "id": "tmsearch110",
+        "translations": {
+          "en": "TM Search 1.1.0"
+        }
+      },
+      {
+        "id": "tmsocialfeeds",
+        "translations": {
+          "en": "TM Social Feeds"
         }
       }
     ]

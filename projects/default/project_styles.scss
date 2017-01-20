@@ -80,3 +80,7 @@ body:not([data-section="introduction"]) {
     	background: lighten($secondary-color, 20%);
 	}
 }
+
+.text-secondary {
+	color: $secondary-color-light;
+}

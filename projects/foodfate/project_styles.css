@@ -1,9 +1,9 @@
-@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CLato:400,700%7CArizonia:300,400,500,700);
+@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CRoboto:400,700%7CTinos:300,400,500,700%7CMarck+Script:400,700);
 h2 {
-  color: #d91469; }
+  color: #83b93f; }
 
 h3 {
-  color: #d91469; }
+  color: #83b93f; }
 
 .page-content .rd-mobilepanel {
   background-position: 60% bottom; }
@@ -20,14 +20,16 @@ h3 {
   .rd-mobilepanel_toggle {
     z-index: 99999999; }
   .rd-mobilepanel_toggle span, .rd-mobilepanel_toggle span:before, .rd-mobilepanel_toggle span:after {
-    background-color: #292929; }
+    background-color: #83b93f; }
   .rd-mobilepanel.fixed {
-    background: linear-gradient(90deg, #f6f4e8, #fda7cc);
+    background-image: url("img/header-bg-texture.png");
+    background-repeat: no-repeat;
     border-bottom: none;
     box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15); }
 
 [data-section="introduction"] .rd-mobilepanel {
-  background: linear-gradient(90deg, #f6f4e8, #fda7cc);
+  background-image: url("img/header-bg-texture.png");
+  background-repeat: no-repeat;
   height: 500px;
   z-index: 99999998; }
   [data-section="introduction"] .rd-mobilepanel:before {
@@ -55,49 +57,52 @@ body:not([data-section="introduction"]) .tm-title-caption {
   display: none; }
 
 .rd-mobilepanel_title {
-  font-family: "Arizonia", sans-serif;
+  font-family: "Tinos", sans-serif;
   top: 250px;
   left: 80px;
   right: auto;
-  color: #292929; }
+  color: #83b93f;
+  font-variant: small-caps; }
 
 .tm-title-caption {
-  font-family: "Lato", sans-serif;
-  font-size: 12px;
-  top: 365px;
+  font-family: "Marck Script", sans-serif;
+  font-size: 28px;
+  top: 340px;
+  left: 83px;
   right: auto;
-  color: #292929;
-  text-transform: uppercase; }
+  letter-spacing: 1px; }
 
 .rd-mobilemenu {
   background-color: transparent; }
   .rd-mobilemenu:before {
     box-shadow: -5px 0 7px 0 rgba(0, 0, 0, 0.1); }
   .rd-mobilemenu .logo {
-    background-color: #f7f7f7; }
+    background-color: #fff7df; }
   .rd-mobilemenu li {
-    font-family: "Lato", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 13px;
     font-weight: 300;
     letter-spacing: .2px; }
   .rd-mobilemenu_ul a {
     padding: 13px 25px 14px; }
+  .rd-mobilemenu_ul a:hover, .rd-mobilemenu_ul a.active, .rd-mobilemenu_ul a.opened {
+    background-color: #e8f6de; }
   .rd-mobilemenu_ul ul a.focus {
-    color: #d91469; }
+    color: #64b203; }
 
 .toTop {
-  background-color: #7d7d7d; }
+  background-color: #83b93f; }
   .toTop:hover {
-    background: #b0b0b0; }
+    background: #b4d688; }
 
 .files_structure li .fa {
   color: #7d7d7d; }
 
 .codebox {
-  background-color: #f7f7f7; }
+  background-color: #fff7df; }
 
 .text-secondary {
-  color: #fea7cc; }
+  color: #ffd554; }
 
 .small {
   font-size: .9em;

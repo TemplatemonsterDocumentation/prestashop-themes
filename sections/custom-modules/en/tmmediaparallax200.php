@@ -5,6 +5,9 @@
         <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One Product</p>
     </div>
 <?php } ?>
+<p class="alert alert-warning">
+    If you have the 1.n version of this module installed in your prestashop engine, you are not suggested to update it with the current one. First you need to remove the old version of the module to run without errors.
+</p>
 <p>This module is designed to let you add parallax effect to the DOM items of the page. It allows you to create multi-layered parallax. It also provides a possibility to add a custom background video (you can upload it from your computer to server) or add a YouTube video.</p>
 <h4>TM Media Parallax Main Panel</h4>
 <p>Main module panel that allows you to add, edit or remove parallax items. </p>

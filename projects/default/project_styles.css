@@ -45,3 +45,6 @@ body:not([data-section="introduction"]) .tm-title-caption {
   background-color: #33434b; }
   .toTop:hover {
     background: #5c7988; }
+
+.text-secondary {
+  color: #3D515A; }
