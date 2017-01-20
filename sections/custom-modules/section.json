@@ -151,6 +151,44 @@
           "en": "TM Mosaic Products"
         }
       }
+    ],
+    "foodfate": [
+      {
+        "id": "tmcategoryproducts100",
+        "translations": {
+          "en": "TM Category Products 1.0.0"
+        }
+      },
+      {
+        "id": "tmheaderaccount200",
+        "translations": {
+          "en": "TM Header Account 2.0.0"
+        }
+      },
+      {
+        "id": "tmhomepagecategorygallery",
+        "translations": {
+          "en": "TM Homepage Category Gallery"
+        }
+      },
+      {
+        "id": "tmhtmlcontent",
+        "translations": {
+          "en": "TM HTML Content"
+        }
+      },
+      {
+        "id": "tmmegamenu",
+        "translations": {
+          "en": "TM Mega Menu"
+        }
+      },
+      {
+        "id": "tmsearch110",
+        "translations": {
+          "en": "TM Search 1.1.0"
+        }
+      }
     ]
   }
 }
