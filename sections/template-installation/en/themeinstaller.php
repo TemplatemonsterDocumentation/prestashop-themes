@@ -60,6 +60,11 @@ elseif ($project == 'decorma'){ ?>
         <img src="projects/decorma/img/theme-import-3.png" alt=""/>
     </figure>
 <?php }
+elseif ($project == 'foodfate'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/foodfate/img/theme-import-3.png" alt=""/>
+    </figure>
+<?php }
 else { ?>
     <figure class="img-polaroid">
         <img src="img/theme-import-3.png" alt=""/>
@@ -93,6 +98,11 @@ elseif ($project == 'lunalin'){ ?>
 elseif ($project == 'decorma'){ ?>
     <figure class="img-polaroid">
         <img src="projects/decorma/img/theme-import-4.png" alt=""/>
+    </figure>
+<?php }
+elseif ($project == 'foodfate'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/foodfate/img/theme-import-4.png" alt=""/>
     </figure>
 <?php }
 else { ?>
@@ -130,6 +140,11 @@ elseif ($project == 'decorma'){ ?>
         <img src="projects/decorma/img/theme-import-5.png" alt=""/>
     </figure>
 <?php }
+elseif ($project == 'foodfate'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/foodfate/img/theme-import-5.png" alt=""/>
+    </figure>
+<?php }
 else { ?>
     <figure class="img-polaroid">
         <img src="img/theme-import-5.png" alt=""/>
@@ -164,6 +179,11 @@ elseif ($project == 'lunalin'){ ?>
 elseif ($project == 'decorma'){ ?>
     <figure class="img-polaroid">
         <img src="projects/decorma/img/theme-import-6.png" alt=""/>
+    </figure>
+<?php }
+elseif ($project == 'foodfate'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/foodfate/img/theme-import-6.png" alt=""/>
     </figure>
 <?php }
 else { ?>

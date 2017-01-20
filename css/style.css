@@ -295,6 +295,8 @@ b, strong {
     .index-list > li p, .index-list > li dl {
       display: inline-block;
       max-width: 97%; }
+    .index-list > li > p {
+      margin-bottom: 10px; }
 
 /*==================== Search ====================*/
 .search {

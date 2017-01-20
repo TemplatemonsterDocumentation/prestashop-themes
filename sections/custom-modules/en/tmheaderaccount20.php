@@ -5,6 +5,9 @@
         <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One Product</p>
     </div>
 <?php } ?>
+<p class="alert alert-warning">
+    If you have the 1.n version of this module installed in your prestashop engine, you are not suggested to update it with the current one. First you need to remove the old version of the module to run without errors.
+</p>
 <p>This module displays login and registration forms on the website. It can take the following positions: website header, left and right column. The module allows to log in and register using such social networks as Facebook, Google+ and VK, which is convenient for website users. Registration or logging in proceeds without reloading the page.</p>
 <h4>TM Header Account Main Panel</h4>
 <p>The main panel. Here you can set up the module.</p>

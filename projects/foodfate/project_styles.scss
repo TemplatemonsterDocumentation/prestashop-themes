@@ -3,27 +3,28 @@
 //========================================================
 
 $default-color: #7d7d7d;
-$primary-color: #adf0e3;
-$secondary-color: #fea7cc;
-$secondary-color-light: #f7f7f7;
-$secondary-color-dark: #d91469;
-$header-background-color: #adf0e3;
-$header-color: #292929;
-$header-background-image: '../../projects/lunalin/img/header-bg.png';
+$primary-color: #83b93f;
+$primary-color-dark: #64b203;
+$primary-color-light: #e8f6de;
+$secondary-color: #ffd554;
+$secondary-color-light: #fff7df;
+$header-color: #83b93f;
+$header-background-image: '../../projects/foodfate/img/header-bg.png';
 
-@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CLato:400,700%7CArizonia:300,400,500,700);
-$primary-font-family: 'Lato', sans-serif;
-$secondary-font-family: 'Arizonia', sans-serif;
+@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CRoboto:400,700%7CTinos:300,400,500,700%7CMarck+Script:400,700);
+$primary-font-family: 'Roboto', sans-serif;
+$secondary-font-family: 'Tinos', sans-serif;
+$tertiary-font-family: 'Marck Script', sans-serif;
 
 //========================================================
 //                     Color & Styles
 //========================================================
 
 h2 {
-	color: $secondary-color-dark;
+	color: $primary-color;
 }
 h3 {
-	color: $secondary-color-dark;
+	color: $primary-color;
 }
 
 .page-content {
@@ -53,7 +54,8 @@ h3 {
 		background-color: $header-color;
 	}
 	&.fixed {
-		background: linear-gradient(90deg, #f6f4e8, #fda7cc);
+		background-image: url("img/header-bg-texture.png");
+		background-repeat: no-repeat;
 		border-bottom: none;
 		box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
 	}
@@ -61,7 +63,8 @@ h3 {
 
 [data-section="introduction"] {
 	.rd-mobilepanel {
-		background: linear-gradient(90deg, #f6f4e8, #fda7cc);
+		background-image: url("img/header-bg-texture.png");
+		background-repeat: no-repeat;
 		height: 500px;
 		z-index: 99999998;
 
@@ -105,15 +108,16 @@ body:not([data-section="introduction"]) {
 	left: 80px;
 	right: auto;
 	color: $header-color;
+	font-variant: small-caps;
 }
 
 .tm-title-caption {
-	font-family: $primary-font-family;
-	font-size: 12px;
-	top: 365px;
+	font-family: $tertiary-font-family;
+	font-size: 28px;
+	top: 340px;
+	left: 83px;
 	right: auto;
-	color: $header-color;
-	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 .rd-mobilemenu {
@@ -135,31 +139,31 @@ body:not([data-section="introduction"]) {
 			padding: 13px 25px 14px;
 		}
 		a:hover, a.active, a.opened {
-
+			background-color: $primary-color-light;
 		}
 		ul a.focus {
-			color: $secondary-color-dark;
+			color: $primary-color-dark;
 		}
 	}
 }
 
 .toTop {
-  background-color: $default-color;
-  &:hover {
-    background: lighten($default-color, 20%);
-  }
+	background-color: $primary-color;
+	&:hover {
+		background: lighten($primary-color, 20%);
+	}
 }
 
 .files_structure {
-  li {
-    .fa {
-		color: $default-color;
-    }
-  }
+	li {
+		.fa {
+			color: $default-color;
+		}
+	}
 }
 
 .codebox {
-  background-color: $secondary-color-light;
+	background-color: $secondary-color-light;
 }
 
 .text-secondary {

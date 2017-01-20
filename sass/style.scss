@@ -392,6 +392,9 @@ b, strong {
       display: inline-block;
       max-width: 97%;
     }
+    > p {
+      margin-bottom: 10px;
+    }
   }
 }
 

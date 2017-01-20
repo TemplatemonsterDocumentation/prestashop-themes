@@ -11,6 +11,9 @@
     method has pre-defined functionality. Advanced configuration is also available. The module can display an unlimited
     amount of products with diverse information.</p>
 <h4>Installation and removal of the module</h4>
+<p class="alert alert-warning">
+    If you have the 1.n version of this module installed in your prestashop engine, you are not suggested to update it with the current one. First you need to remove the old version of the module to run without errors.
+</p>
 <p>The module is installed and removed as any default Prestashop module.</p>
 <p class="alert alert-info">
     <span>After removal or re-installation of the module, all the settings and filters are discarded.</span>
