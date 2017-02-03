@@ -589,15 +589,74 @@
     Header or Footer position, and the Copyright block can be placed only in Footer position.</p>
 
 <h4 class="text-secondary">Product Page</h4>
-
-<p>You can edit the layout of product page using this module. <br>
-
-</p>
-
-<!HERE><!HERE><!HERE><!HERE><!HERE><!HERE><!HERE><!HERE><!HERE><!HERE><!HERE>
-<!HERE><!HERE><!HERE><!HERE><!HERE><!HERE><!HERE><!HERE><!HERE><!HERE><!HERE>
-<!HERE><!HERE><!HERE><!HERE><!HERE><!HERE><!HERE><!HERE><!HERE><!HERE><!HERE>
-
+<h5>Product Info tab</h5>
+<h6>By means of this tab you can switch the layouts of product page. It will appear in the admin panel after making some simple actions described below.</h6>
+<h5>Creating layout</h5>
+<h6>Layouts are created and edited manually.</h6>
+<ul class="index-list">
+    <li><p>Create folder 'product_pages' in your theme folder.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout110-product-info-3.png" alt=""></figure>
+    </li>
+    <li>In theme folder find the file 'product.tpl', copy it to the created folder 'product_pages' and rename to 'default.tpl'. To create several layouts -  duplicate this file, rename it (e.g. 'layout_1.tpl', 'layout_2.tpl') and change the structure according to your needs.</li>
+    <li>Create file 'config.json' in this folder. Copy the following code into it:
+        <pre class="codebox">
+{
+  "default": {
+    "name": "Default",
+    "preview": "default.jpg",
+    "default": 1
+  }
+}</pre>
+        <ul class="marked-list">
+            <li><strong>"default"</strong> - name of .tpl file containing the product page structure.</li>
+            <li>"name": <strong>"Default"</strong> - title of product page layout in module settings.
+            </li>
+            <li>"preview": <strong>"default.jpg"</strong> - preview picture of product page layout in module settings; image should be located in 'product_pages' folder.
+            </li>
+            <li><p>"default": <strong>1</strong> - set to '1' if the layout should be set as default</p><br>
+                <p class="alert small alert-warning">One of the layouts should contain '1' value to be set as default.</p>
+            </li>
+        </ul>
+        <p>This code should be duplicated for each created layout, and contain corresponding values. For example:</p>
+        <pre class="codebox">
+{
+  "default": {
+    "name": "Default",
+    "preview": "default.jpg",
+    "default": 0
+  },
+  "layout_1": {
+    "name": "Layout 1",
+    "preview": "layout_1.jpg",
+    "default": 0
+  },
+  "layout_2": {
+    "name": "Layout 2",
+    "preview": "layout_2.jpg",
+    "default": 1
+  }
+}</pre>
+    </li>
+    <li>Open the 'product.tpl' file in the theme folder. Delete everything and paste the following code:
+        <pre class="codebox">
+{include file="$tpl_dir./errors.tpl"}
+{if $errors|@count == 0}
+  {if isset($megalayoutProductInfoPage) && $megalayoutProductInfoPage}
+    {assign var='path' value="./product_pages/`$megalayoutProductInfoPage`"}
+    {include file=$path}
+  {else}
+    {include file='./product_pages/default.tpl'}
+  {/if}
+{/if}</pre>
+    </li>
+    <li>To add/edit styles of any product page layout, go to your_theme_folder/css/ and add new folder 'product_pages'. In this folder create file with the layout name and .css extension (e.g. 'default.css', 'layout_1.css', 'layout_2.css'). These files should contain styles of the corresponding product page layout.</li>
+    <li>To add scripts to any product page layout, go to your_theme_folder/js/ and add new folder 'product_pages'. In this folder create file with the layout name and .js extension (e.g. 'default.js', 'layout_1.js', 'layout_2.js'). These files should contain scripts of the corresponding product page layout.</li>
+</ul>
+<h5>Switching layouts</h5>
+<p>Select 'Product Page' from the dropdown list (1) and click the 'Product Info' tab (2).</p>
+<figure class="img-polaroid"><img src="img/tmmegalayout110-product-info-1.png" alt=""></figure>
+<p>In this tab you can switch the layouts of product page. The layout image with the gray border is set as default.</p>
+<figure class="img-polaroid"><img src="img/tmmegalayout110-product-info-2.png" alt=""></figure>
 
 <h5>Presets export</h5>
 <p>Export tool allows you to export presets for the further import into different shops.</p>

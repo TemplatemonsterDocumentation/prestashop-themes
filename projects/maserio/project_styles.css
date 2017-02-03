@@ -1,0 +1,137 @@
+@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CRoboto:300,400,500,700%7CPoppins+Light:300,400,700);
+h2 {
+  color: #ff138c;
+}
+
+h3 {
+  color: #ff138c;
+}
+
+.page-content .rd-mobilepanel {
+  background-position: 60% bottom;
+}
+.page-content.active .rd-mobilepanel {
+  background-position: 60% bottom;
+}
+
+.rd-mobilepanel {
+  box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
+  transition-property: height;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+.rd-mobilepanel_toggle {
+  z-index: 99999999;
+}
+.rd-mobilepanel_toggle span, .rd-mobilepanel_toggle span:before, .rd-mobilepanel_toggle span:after {
+  background-color: white;
+}
+.rd-mobilepanel.fixed {
+  background: linear-gradient(90deg, #ff138c, #4edbcd);
+  border-bottom: none;
+  box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
+}
+
+[data-section="introduction"] .rd-mobilepanel {
+  background: linear-gradient(90deg, #ff138c, #4edbcd);
+  height: 500px;
+  z-index: 99999998;
+}
+[data-section="introduction"] .rd-mobilepanel:before {
+  content: '';
+  position: absolute;
+  background-position: 60% bottom;
+  background-image: url("img/header-bg.png");
+  transition-property: height;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  z-index: 99999999;
+}
+[data-section="introduction"] .rd-mobilepanel.fixed {
+  height: 56px;
+  transition: top 1s ease-out 0.5s;
+}
+[data-section="introduction"] .rd-mobilepanel.fixed:before {
+  background-image: none;
+}
+
+body:not([data-section="introduction"]) .tm-title-caption {
+  display: none;
+}
+
+.rd-mobilepanel_title {
+  font-family: "Poppins Light", sans-serif;
+  top: 250px;
+  left: 80px;
+  right: auto;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+
+.tm-title-caption {
+  font-family: "Poppins Light", sans-serif;
+  font-size: 14px;
+  top: 340px;
+  left: 85px;
+  right: auto;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.rd-mobilemenu {
+  background-color: transparent;
+}
+.rd-mobilemenu:before {
+  box-shadow: -5px 0 7px 0 rgba(0, 0, 0, 0.1);
+}
+.rd-mobilemenu .logo {
+  background-color: #f7f7f7;
+}
+.rd-mobilemenu li {
+  font-family: "Poppins Light", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: .2px;
+}
+.rd-mobilemenu_ul a {
+  padding: 13px 25px 14px;
+}
+.rd-mobilemenu_ul a:hover, .rd-mobilemenu_ul a.active, .rd-mobilemenu_ul a.opened {
+  background-color: #f6edee;
+}
+.rd-mobilemenu_ul ul a.focus {
+  color: #ff138c;
+}
+
+.toTop {
+  background-color: #7d7d7d;
+}
+.toTop:hover {
+  background: #b0b0b0;
+}
+
+.files_structure li .fa {
+  color: #7d7d7d;
+}
+
+.codebox {
+  background-color: #f7f7f7;
+}
+
+.text-secondary {
+  color: #4cddce;
+}
+
+.small {
+  font-size: .9em;
+  letter-spacing: .3px;
+}

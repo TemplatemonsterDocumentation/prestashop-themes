@@ -46,5 +46,17 @@
     "title": "FoodFate",
     "titleCaption": "Market",
     "author": ""
+  },
+  "maserio": {
+    "textLogo": "",
+    "title": "Maserio",
+    "titleCaption": "Beauty Style Store",
+    "author": ""
+  },
+  "wedderic": {
+    "textLogo": "",
+    "title": "Wedderic",
+    "titleCaption": "Wedding Shop",
+    "author": ""
   }
 }

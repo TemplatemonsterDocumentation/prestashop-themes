@@ -5,8 +5,7 @@
         <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One Product</p>
     </div>
 <?php } ?>
-<p>This module allows you to display categories with products, banners, video (Youtube, Vimeo and custom video),
-    HTML content, various sliders with different number of slides and dimensions in any row on the site home page.
+<p>This module allows you to display categories with products, banners, video (Youtube, Vimeo and custom video), HTML content, various sliders with different number of slides and dimensions in any row on the site home page.
 </p>
 <h5>Installation and Deleting</h5>
 <p>The module is installed and deleted like any other PrestaShop module.</p>

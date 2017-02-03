@@ -39,13 +39,6 @@
             products and banners to videos and slides.</p>
     </li>
     <li>
-        <img class="icon" src="projects/eveprest/img/modules/tmsociallogin.png" alt="">
-        <div class="offset-1"><a href="index.php?project=eveprest&lang=en&section=custom-modules#tmsociallogin">TM
-                Social Login</a></div>
-        <p>Facilitate authorization on your site by means of a social login. This feature lets customers log in to your
-            store via their Facebook and Google+ accounts.</p>
-    </li>
-    <li>
         <img class="icon" src="projects/eveprest/img/modules/tmproductvideos.png" alt="">
         <div class="offset-1"><a href="index.php?project=eveprest&lang=en&section=custom-modules#tmproductvideos">TM
                 Product Videos</a></div>
