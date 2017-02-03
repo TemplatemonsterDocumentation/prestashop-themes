@@ -12,7 +12,6 @@
 <p>After the module is installed, open the product-list.tpl file in your template root folder, find the following code:<br/></p>
 <figure class="img-polaroid"><img src="img/tmproductlistgallery-1.png" alt="" /></figure>
 <p>and replace it with:</p>
-
 <pre class="codebox">
     {capture name='displayProductListGallery'}{hook h='displayProductListGallery' product=$product}{/capture}
     {if $smarty.capture.displayProductListGallery}
@@ -23,7 +22,6 @@
     &nbsp;&nbsp;&lt;/a&gt;
     {/if}
 </pre>
-
 <p>After installing and connecting the module, you can set it up on the module configuration page.</p>
 <h5>The module has the following main settings:</h5>
 <ul class="marked-list">

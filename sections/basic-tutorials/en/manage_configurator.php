@@ -1,7 +1,5 @@
 <h3>How to manage the Theme Configurator module</h3>
-
 <p>This tutorial is going to show you how to manage the Theme Configurator module on your Prestashop 1.6 template.</p>
-
 <p>The module handles a lot of things on your theme. Mainly, it enables you to switch some features on and off (social sharing buttons, top banner, payment logos, etc.), and perhaps more importantly, it lets you easily add/change images on your home-page.</p>
 <ul class="index-list">
 	<li>
@@ -10,7 +8,6 @@
     		<img src="img/13-configurator-1.png" alt=""/>
 		</figure>
 	</li>
-
 	<li>
 		<span>Then find 'Theme Configurator' module in <strong>Modules list</strong> (1). It will show up in the right column. If it is not installed yet, click its 'Install' button. <br>
 		Once the module is installed, the 'Install' button will be changed to the 'Configure' button (2) which you need to click to configure the settings.</span>
@@ -18,13 +15,11 @@
     		<img src="img/13-configurator-2.png" alt=""/>
 		</figure>
 	</li>
-
 	<li>
 		<span>On the settings configuration page, you can see different blocks which you can switch on and off by clicking 'Yes' and 'No' buttons (1). Click 'Configure' (2) to configure the settings of a particular block:</span>
 		<figure class="img-polaroid">
     		<img src="img/13-configurator-3.png" alt=""/>
 		</figure>
-
 		<ul class="marked-list">
 			<li>
 				<span><strong>Display links to your store's social accounts</strong>: enter web addresses for the icons you want to display in this block and click 'Save' (1) when you are done.</span>
@@ -88,11 +83,8 @@
 				<span>If you are running a multilingual site, click the corresponding language tab and repeat the same adjustments for it.  Click the 'Add Item' button to add a new item.</span>
 			</li>
 		</ul>
-
 	</li>
-
 	<li>
 		<span>Open the front end of your site to see the changes.</span>
 	</li>
-
 </ul>

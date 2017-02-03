@@ -14,14 +14,12 @@
 <figure class="img-polaroid">
     <img src="img/360view-1.png" alt=""/>
 </figure>
-
 <h4>Module configuration</h4>
 <p>After the module has been successfully installed you'll see the 'Configure' page with the default module settings.</p>
 <p>You can find here settings for 360 view (1) and for panorama view (2).</p>
 <figure class="img-polaroid">
     <img src="img/360view-2.png" alt=""/>
 </figure>
-
 <h4>360 view</h4>
 <p>The settings are described below the screenshot. Choose them according to your needs and click the 'Save' button (1).</p>
 <figure class="img-polaroid">
@@ -33,7 +31,6 @@
     <li><strong>Animate</strong> - option to display the product automatically rotating on page load.</li>
     <li><strong>Frame time</strong>(appears if 'Animate' is set to 'Yes') - time period before one image in the set will be changed to another; should be entered in milliseconds.</li>
 </ul>
-
 <h5>Adding/removing images</h5>
 <ul class="index-list">
     <li>
@@ -72,13 +69,10 @@
         <p>To disable 360 view on the product page, open the 'TM 360 view' tab in product settings and remove all images.</p>
     </li>
 </ul>
-
 <h4>Panorama</h4>
 <p>Using this module is also used for adding panorama view to the Homepage.</p>
 <p class="alert alert-warning">You can add as much panorama blocks as you need.</p>
-
 <h5>Adding panorama</h5>
-
 <ul class="index-list">
     <li>
         <p>To add new panorama open the module configuration page and click '+' ('Add new item') button (1).</p>
@@ -106,7 +100,6 @@
         <p>Click the 'Save' button and your panorama image will appear on the Homepage.</p>
     </li>
 </ul>
-
 <h5>Removing panorama</h5>
 <ul class="index-list">
     <li>
@@ -119,4 +112,3 @@
         <p>Then confirm the deleting.</p>
     </li>
 </ul>
-

@@ -1,23 +1,15 @@
 <h2 class="item1">Introduction</h2>
-
 <h3>What is PrestaShop e-commerce?</h3>
-
 <p>PrestaShop is an e-commerce solution which is free for the basic kernel and open source. It supports payment gateways
     such as Google checkout, paypal or payments pro via APIs.</p>
 <p>PrestaShop is available under the Open Software License and officially launched in August 2007 for dd to medium-sized
     businesses. The software, which is based on the Smarty template engine, is used by several thousands of shops
     worldwide.</p>
-
 <h3>What is PrestaShop template?</h3>
-
 <p>PrestaShop template is a theme for PrestaShop e-commerce solution. It provides you with vast variety of customization
     opportunities and allows you to create an online store that fully meets your needs.</p>
-
-
 <h3>Template structure</h3>
-
 <h6>The template package you have downloaded consists of several folders. Let's see what each folder contains:</h6>
-
 <ul class="files_structure">
     <li class="folder">
         <dl class="inline-term">
@@ -38,7 +30,6 @@
             <li class="folder">
                 <i class="fa fa-folder"></i>
                 <strong>sources</strong>
-
                 <ul>
                     <li>
                         <dl class="inline-term">

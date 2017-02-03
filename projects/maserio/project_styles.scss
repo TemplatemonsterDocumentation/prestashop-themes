@@ -1,0 +1,176 @@
+//========================================================
+//                     Variables
+//========================================================
+
+$default-color: #7d7d7d;
+$default-color-light: #f7f7f7;
+$primary-color: #ff138c;
+$primary-color-light: #f6edee;
+$secondary-color: #4cddce;
+$header-color: #fff;
+$header-background-image: url("img/header-bg.png");
+
+@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CRoboto:300,400,500,700%7CPoppins+Light:300,400,700);
+$primary-font-family: 'Roboto', sans-serif;
+$secondary-font-family: 'Poppins Light', sans-serif;
+
+//========================================================
+//                     Color & Styles
+//========================================================
+
+h2 {
+	color: $primary-color;
+}
+
+h3 {
+	color: $primary-color;
+}
+
+.page-content {
+
+	.rd-mobilepanel {
+		background-position: 60% bottom;
+	}
+
+	&.active {
+		.rd-mobilepanel {
+			background-position: 60% bottom;
+		}
+	}
+}
+
+.rd-mobilepanel {
+	box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
+	transition-property: height;
+	transition-duration: 2s;
+	transition-timing-function: linear;
+	transition-delay: 1s;
+
+	&_toggle {
+		z-index: 99999999;
+	}
+	&_toggle span, &_toggle span:before, &_toggle span:after {
+		background-color: $header-color;
+	}
+	&.fixed {
+		background: linear-gradient(90deg, $primary-color, #4edbcd);
+		border-bottom: none;
+		box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
+	}
+}
+
+[data-section="introduction"] {
+	.rd-mobilepanel {
+		background: linear-gradient(90deg, $primary-color, #4edbcd);
+		height: 500px;
+		z-index: 99999998;
+
+		&:before {
+			content: '';
+			position: absolute;
+			background-position: 60% bottom;
+			background-image: $header-background-image;
+			transition-property: height;
+			transition-duration: 2s;
+			transition-timing-function: linear;
+			transition-delay: 1s;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-repeat: no-repeat;
+			z-index: 99999999;
+		}
+
+		&.fixed {
+			height: 56px;
+			transition: top 1s ease-out 0.5s;
+		}
+
+		&.fixed:before {
+			background-image: none;
+		}
+	}
+}
+
+body:not([data-section="introduction"]) {
+	.tm-title-caption {
+		display: none;
+	}
+}
+
+.rd-mobilepanel_title {
+	font-family: $secondary-font-family;
+	top: 250px;
+	left: 80px;
+	right: auto;
+	color: $header-color;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+}
+
+.tm-title-caption {
+	font-family: $secondary-font-family;
+	font-size: 14px;
+	top: 340px;
+	left: 85px;
+	right: auto;
+	color: $header-color;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.rd-mobilemenu {
+	background-color: transparent;
+	&:before {
+		box-shadow: -5px 0 7px 0 rgba(0, 0, 0, 0.1);
+	}
+	.logo {
+		background-color: $default-color-light;
+	}
+	li {
+		font-family: $secondary-font-family;
+		font-size: 13px;
+		font-weight: 300;
+		letter-spacing: .2px;
+	}
+	&_ul {
+		a {
+			padding: 13px 25px 14px;
+		}
+		a:hover, a.active, a.opened {
+			background-color: $primary-color-light;
+		}
+		ul a.focus {
+			color: $primary-color;
+		}
+	}
+}
+
+.toTop {
+  background-color: $default-color;
+  &:hover {
+    background: lighten($default-color, 20%);
+  }
+}
+
+.files_structure {
+  li {
+    .fa {
+		color: $default-color;
+    }
+  }
+}
+
+.codebox {
+  background-color: $default-color-light;
+}
+
+.text-secondary {
+	color: $secondary-color;
+}
+
+.small {
+	font-size: .9em;
+	letter-spacing: .3px;
+}

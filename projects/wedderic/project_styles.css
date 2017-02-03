@@ -1,0 +1,131 @@
+@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CUbuntu:300,400,500,700%7CYeseva+One:300,400,700%7CMr+De+Haviland);
+h2 {
+  color: #f7ae92;
+}
+
+h3 {
+  color: #f7ae92;
+}
+
+.page-content .rd-mobilepanel {
+  background-position: 60% bottom;
+}
+.page-content.active .rd-mobilepanel {
+  background-position: 60% bottom;
+}
+
+.rd-mobilepanel {
+  box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
+  transition-property: height;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+.rd-mobilepanel_toggle {
+  z-index: 99999999;
+}
+.rd-mobilepanel_toggle span, .rd-mobilepanel_toggle span:before, .rd-mobilepanel_toggle span:after {
+  background-color: white;
+}
+.rd-mobilepanel.fixed {
+  background: linear-gradient(90deg, #7f6c60, oldlace);
+  border-bottom: none;
+  box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
+}
+
+[data-section="introduction"] .rd-mobilepanel {
+  background: linear-gradient(90deg, #7f6c60, oldlace);
+  height: 500px;
+  z-index: 99999998;
+}
+[data-section="introduction"] .rd-mobilepanel:before {
+  content: '';
+  position: absolute;
+  background-position: 60% bottom;
+  background-image: url("img/header-bg.png");
+  transition-property: height;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  z-index: 99999999;
+}
+[data-section="introduction"] .rd-mobilepanel.fixed {
+  height: 56px;
+  transition: top 1s ease-out 0.5s;
+}
+[data-section="introduction"] .rd-mobilepanel.fixed:before {
+  background-image: none;
+}
+
+body:not([data-section="introduction"]) .tm-title-caption {
+  display: none;
+}
+
+.rd-mobilepanel_title {
+  font-family: "Yeseva One", serif;
+  top: 250px;
+  left: 80px;
+  right: auto;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.tm-title-caption {
+  font-family: "Mr De Haviland", sans-serif;
+  font-size: 45px;
+  top: 350px;
+  left: 85px;
+  right: auto;
+  color: white;
+  text-transform: lowercase;
+}
+
+.rd-mobilemenu {
+  background-color: transparent;
+}
+.rd-mobilemenu:before {
+  box-shadow: -5px 0 7px 0 rgba(0, 0, 0, 0.1);
+}
+.rd-mobilemenu .logo {
+  background-color: #f9ebe6;
+}
+.rd-mobilemenu li {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 13px;
+  letter-spacing: .2px;
+}
+.rd-mobilemenu_ul a {
+  padding: 13px 25px 14px;
+}
+.rd-mobilemenu_ul a:hover, .rd-mobilemenu_ul a.active, .rd-mobilemenu_ul a.opened {
+  background-color: #f9ebe6;
+}
+.rd-mobilemenu_ul ul a.focus {
+  color: #f7ae92;
+}
+
+.toTop {
+  background-color: #f7ae92;
+}
+.toTop:hover {
+  background: #f9c0aa;
+}
+
+.files_structure li .fa {
+  color: #f7ae92;
+}
+
+.codebox {
+  background-color: #f7f7f7;
+}
+
+.small {
+  font-size: .9em;
+  letter-spacing: .3px;
+}
