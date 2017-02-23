@@ -45,6 +45,20 @@
 					"en": "How to edit slider"
 				}
 			}
+		],
+		"alistaco": [
+			{
+				"id": "changestoreinfo",
+				"translations": {
+					"en": "How to change info about your store"
+				}
+			},
+			{
+				"id": "edit_slider",
+				"translations": {
+					"en": "How to edit slider"
+				}
+			}
 		]
 	}
 }

@@ -189,6 +189,56 @@
           "en": "TM Search 1.1.0"
         }
       }
+    ],
+    "alistaco": [
+      {
+        "id": "tmcategoryproducts100",
+        "translations": {
+          "en": "TM Category Products 1.0.0"
+        }
+      },
+      {
+        "id": "tmgooglemap115",
+        "translations": {
+          "en": "TM Google Map 1.1.5"
+        }
+      },
+      {
+        "id": "tmheaderaccount200",
+        "translations": {
+          "en": "TM Header Account 2.0.0"
+        }
+      },
+      {
+        "id": "tmhtmlcontent",
+        "translations": {
+          "en": "TM HTML Content"
+        }
+      },
+      {
+        "id": "tmmanufacturersblock",
+        "translations": {
+          "en": "TM Manufacturers Block"
+        }
+      },
+      {
+        "id": "tmmegamenu",
+        "translations": {
+          "en": "TM Mega Menu"
+        }
+      },
+      {
+        "id": "tmolarkchat",
+        "translations": {
+          "en": "TM Olark Chat"
+        }
+      },
+      {
+        "id": "tmsearch110",
+        "translations": {
+          "en": "TM Search 1.1.0"
+        }
+      }
     ]
   }
 }
