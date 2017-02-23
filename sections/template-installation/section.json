@@ -5,6 +5,12 @@
 	},
 	"articles": {
 		"default": [
+			{
+				"id": "themeinstaller",
+				"translations": {
+					"en": "Theme Import"
+				}
+			},
 		    {
 		      "id": "with_products_manual",
 		      "translations": {
@@ -65,6 +71,12 @@
 			}
 		],
 		"alistaco": [
+			{
+				"id": "themeinstaller",
+				"translations": {
+					"en": "Theme Import"
+				}
+			},
 			{
 				"id": "with_products_manual",
 				"translations": {

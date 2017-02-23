@@ -17,7 +17,7 @@
         Themes</strong>. At the top of the page click <strong>Add new theme</strong> button (1).
 </p>
 <figure class="img-polaroid">
-    <img src="img/theme-import-1.png" alt=""/>
+    <img src="img/theme17-import-1.png" alt=""/>
 </figure>
 
 
@@ -27,7 +27,7 @@
 
 <p>Select your theme .zip file and click <strong>Save</strong> (2).</p>
 <figure class="img-polaroid">
-    <img src="img/theme-import-2.png" alt=""/>
+    <img src="img/theme17-import-2.png" alt=""/>
 </figure>
 
 
@@ -35,31 +35,12 @@
     been successfully uploaded. Your new theme preview will appear in the list of
     installed themes.</p>
 <figure class="img-polaroid">
-    <img src="img/theme-import-3.png" alt=""/>
+    <img src="img/theme17-import-3.png" alt=""/>
 </figure>
 
 
 <p>In order to activate the theme, hover the cursor over the theme preview icon and
     click <strong>Use this theme</strong>.</p>
 <figure class="img-polaroid">
-    <img src="img/theme-import-4.png" alt=""/>
-</figure>
-
-
-<p>You will see the screen with the information about the modules used in the theme, the
-    number of modules that are turned on and off. Click <strong>Save</strong> in order
-    to continue.</p>
-
-<figure class="img-polaroid">
-    <img src="img/theme-import-5.png"
-         alt=""/>
-</figure>
-
-<p>After this you will see the pop-up with the message about successful theme
-    activation: the theme has been installed successfully, images have been re-generated
-    up to the defined in theme dimensions. To finish installation click
-    <strong>Finish</strong> button.</p>
-
-<figure class="img-polaroid">
-    <img src="img/theme-import-6.png" alt=""/>
+    <img src="img/theme17-import-4.png" alt=""/>
 </figure>
