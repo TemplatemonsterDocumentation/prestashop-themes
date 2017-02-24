@@ -2,7 +2,17 @@
 
 <p>Click on the module name to open the detailed documentation.</p> <br>
 
-<ul class="flex-list">
+<ul class="flex-list-three-cols">
+    <li>
+        <div class="ribbon">
+            <span>NEW</span>
+        </div>
+        <img class="icon" src="projects/eveprest/img/modules/tmproductsmanager.png" alt="">
+        <div class="offset-1"><a href="index.php?project=eveprest&lang=en&section=custom-modules#tmproductsmanager">TM
+                Products Manager</a>
+        </div>
+        <p>Administer your products with 16 helpful options of the module and save your time using it. Can be very helpful for managing stores with many products, which have to be constantly revised.</p>
+    </li>
     <li>
         <img class="icon" src="projects/eveprest/img/modules/tmadvancedfilter.png" alt="">
         <div class="offset-1"><a href="index.php?project=eveprest&lang=en&section=custom-modules#tmadvancedfilter">TM

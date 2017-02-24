@@ -422,6 +422,12 @@
         }
       },
       {
+        "id": "tmproductsmanager",
+        "translations": {
+          "en": "TM Products Manager"
+        }
+      },
+      {
         "id": "tmproductsslider200",
         "translations": {
           "en": "TM Products Slider 2.0.0"
@@ -1332,12 +1338,6 @@
         }
       },
       {
-        "id": "tmproductlistimages",
-        "translations": {
-          "en": "TM Product List Images"
-        }
-      },
-      {
         "id": "tmproductvideos",
         "translations": {
           "en": "TM Product Videos"
@@ -1350,33 +1350,9 @@
         }
       },
       {
-        "id": "tmproductsmanager",
-        "translations": {
-          "en": "TM Products Manager"
-        }
-      },
-      {
-        "id": "tmproductsslider123",
-        "translations": {
-          "en": "TM Products Slider 1.2.3"
-        }
-      },
-      {
-        "id": "tmproductsslider200",
-        "translations": {
-          "en": "TM Products Slider 2.0.0"
-        }
-      },
-      {
         "id": "tmrelatedproducts",
         "translations": {
           "en": "TM Related Products"
-        }
-      },
-      {
-        "id": "tmsearch105",
-        "translations": {
-          "en": "TM Search 1.0.5"
         }
       },
       {
@@ -1389,24 +1365,6 @@
         "id": "tmsocialfeeds",
         "translations": {
           "en": "TM Social Feeds"
-        }
-      },
-      {
-        "id": "tmsociallogin",
-        "translations": {
-          "en": "TM Social Login"
-        }
-      },
-      {
-        "id": "tmsociallogin120",
-        "translations": {
-          "en": "TM Social Login 1.2.0"
-        }
-      },
-      {
-        "id": "tmvideobackground",
-        "translations": {
-          "en": "Video Background Module"
         }
       }
     ]

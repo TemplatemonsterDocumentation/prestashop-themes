@@ -16,6 +16,12 @@
 				"translations": {
 					"en": "Update 1.1"
 				}
+			},
+			{
+				"id": "update_2",
+				"translations": {
+					"en": "Update 1.2"
+				}
 			}
 		]
 	}
