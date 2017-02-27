@@ -30,7 +30,7 @@
     section will not affect the modules position in the preset. In case the module was not added to the hook, it can't
     be added to the preset either.</h6>
 
-<h4>Integration module to the theme</h4>
+<h4>Integrating module to the theme</h4>
 <p class="alert alert-warning"><span>Without this step your presets will not be displayed at the frontend.</span></p>
 <ul class="index-list">
     <li><p>Top column. In order to add custom preset to the topColumn hook, you need to perform the following steps:</p>

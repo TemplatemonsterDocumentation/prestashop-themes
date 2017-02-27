@@ -7,6 +7,14 @@ h3 {
   color: #f7ae92;
 }
 
+h4 {
+  color: #f7ae92;
+}
+
+main {
+  padding-top: 80px;
+}
+
 .page-content .rd-mobilepanel {
   background-position: 60% bottom;
 }

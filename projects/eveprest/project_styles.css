@@ -153,13 +153,14 @@ body:not([data-section="introduction"]) .tm-title-caption {
   color: #00a2bb;
 }
 
-.flex-list {
+.flex-list-three-cols, .flex-list-two-cols {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.flex-list li {
+.flex-list-three-cols li, .flex-list-two-cols li {
+  position: relative;
   background-color: rgba(244, 243, 234, 0.2);
   padding: 40px 20px;
   flex-basis: 42%;
@@ -170,14 +171,14 @@ body:not([data-section="introduction"]) .tm-title-caption {
   transition: .3s all ease;
 }
 @media (min-width: 1600px) {
-  .flex-list li {
+  .flex-list-three-cols li, .flex-list-two-cols li {
     flex-basis: 28%;
   }
 }
-.flex-list li .offset-1 {
+.flex-list-three-cols li .offset-1, .flex-list-two-cols li .offset-1 {
   margin: 20px 0;
 }
-.flex-list li a {
+.flex-list-three-cols li a, .flex-list-two-cols li a {
   font-size: 20px;
   line-height: 1.7;
   text-decoration: none;
@@ -185,15 +186,24 @@ body:not([data-section="introduction"]) .tm-title-caption {
   transition: .3s;
 }
 @media (max-width: 479px) {
-  .flex-list li a {
+  .flex-list-three-cols li a, .flex-list-two-cols li a {
     font-size: 16px;
   }
 }
-.flex-list li a:hover {
+.flex-list-three-cols li a:hover, .flex-list-two-cols li a:hover {
   color: #00b8d4;
 }
-.flex-list li p {
-  margin-top: 10px;
+.flex-list-three-cols li p, .flex-list-two-cols li p {
+  margin-top: 0px;
+}
+
+.flex-list-two-cols li {
+  padding: 0px;
+}
+@media (min-width: 1600px) {
+  .flex-list-two-cols li {
+    flex-basis: 47%;
+  }
 }
 
 .index-list-templates {
@@ -215,6 +225,7 @@ body:not([data-section="introduction"]) .tm-title-caption {
   counter-increment: li;
   position: absolute;
   top: 0;
+  left: 30px;
   transform: translateY(-50%);
   display: inline-block;
   margin-right: 5px;
@@ -223,20 +234,15 @@ body:not([data-section="introduction"]) .tm-title-caption {
   font-size: 50px;
   color: #00b8d4;
 }
-.index-list-templates > li:nth-child(odd):after {
-  left: 30px;
-}
-.index-list-templates > li:nth-child(even):after {
-  right: 30px;
-}
 .index-list-templates > li .inset-1 {
-  padding: 80px;
+  padding: 20px;
 }
 .index-list-templates > li .overflow-hidden {
   overflow: hidden;
 }
 .index-list-templates > li img {
-  transform: scale(1.2) translateY(35%);
+  width: 250px;
+  transform: scale(1.4) translateY(50%);
   transition: .5s;
 }
 .index-list-templates > li p {
@@ -245,10 +251,10 @@ body:not([data-section="introduction"]) .tm-title-caption {
   opacity: 0;
 }
 .index-list-templates > li:hover img {
-  transform: scale(1) translateY(0);
+  transform: scale(1) translateY(-10px);
 }
 .index-list-templates > li:hover p {
-  transform: translateY(0);
+  transform: translateY(-10px);
   opacity: 1;
 }
 
@@ -319,20 +325,20 @@ body:not([data-section="introduction"]) .tm-title-caption {
   letter-spacing: .3px;
 }
 
-.theme-bg-1, .theme-bg-2, .theme-bg-3, .theme-bg-4, .theme-bg-5 {
+.theme-bg-1, .theme-bg-2, .theme-bg-3, .theme-bg-4, .theme-bg-5, .theme-bg-6, .theme-bg-7, .theme-bg-8, .theme-bg-9, .theme-bg-10 {
   position: relative;
   background-image: url("../../projects/eveprest/img/backgrounds/fashion_bg.png");
   background-size: cover;
   z-index: 0;
 }
-.theme-bg-1:before, .theme-bg-2:before, .theme-bg-3:before, .theme-bg-4:before, .theme-bg-5:before {
+.theme-bg-1:before, .theme-bg-2:before, .theme-bg-3:before, .theme-bg-4:before, .theme-bg-5:before, .theme-bg-6:before, .theme-bg-7:before, .theme-bg-8:before, .theme-bg-9:before, .theme-bg-10:before {
   content: '';
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.88);
   z-index: -2;
 }
 
@@ -347,7 +353,7 @@ body:not([data-section="introduction"]) .tm-title-caption {
   background-image: url("../../projects/eveprest/img/backgrounds/furniture_bg.png");
 }
 .theme-bg-3:before {
-  background-color: rgba(255, 255, 255, 0.92);
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 .theme-bg-4 {
@@ -361,23 +367,93 @@ body:not([data-section="introduction"]) .tm-title-caption {
   background-image: url("../../projects/eveprest/img/backgrounds/one-product_bg.png");
 }
 .theme-bg-5:before {
+  background-color: rgba(255, 255, 255, 0.88);
+}
+
+.theme-bg-6 {
+  background-image: url("../../projects/eveprest/img/backgrounds/drugstore_bg.png");
+}
+.theme-bg-6:before {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-.coming-soon-label {
-  position: relative;
+.theme-bg-7 {
+  background-image: url("../../projects/eveprest/img/backgrounds/jewelry_bg.png");
 }
-.coming-soon-label:before {
-  content: '';
-  background-image: url("../../projects/eveprest/img/labels/coming-soon.png");
-  background-repeat: no-repeat;
-  background-position: top right;
+.theme-bg-7:before {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.theme-bg-8 {
+  background-image: url("../../projects/eveprest/img/backgrounds/lingerie_bg.png");
+}
+.theme-bg-8:before {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.theme-bg-9 {
+  background-image: url("../../projects/eveprest/img/backgrounds/wedding_bg.png");
+}
+.theme-bg-9:before {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.theme-bg-10 {
+  background-image: url("../../projects/eveprest/img/backgrounds/supermarket_bg.png");
+}
+.theme-bg-10:before {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.ribbon {
   position: absolute;
-  top: -1px;
-  right: -6px;
-  width: 100%;
-  height: 100%;
-  z-index: 999;
+  right: -5px;
+  top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px;
+  height: 75px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#f70505 0%, #8f0808 100%);
+  box-shadow: 0 3px 10px -5px black;
+  position: absolute;
+  top: 19px;
+  right: -21px;
+}
+.ribbon span:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 100%;
+  z-index: -1;
+  border-left: 3px solid #8F0808;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #8F0808;
+}
+.ribbon span:after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #8F0808;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #8F0808;
 }
 
 .resp-accordion:hover, .resp-accordion.resp-tab-active {

@@ -25,9 +25,9 @@
         <p class="big"><strong>Logotypes</strong></p>
         <p>Each theme has its own unique logo.</p>
     </li>
-    <li>
-        <p class="big"><strong>Translation- & RTL-Ready</strong></p>
-        <p>Make sure everyone interested in your products can shop at your store. As Eveprest is a translation-ready
-            theme supporting RTL languages, international buyers will use your store without barriers.</p>
-    </li>
+<!--    <li>-->
+<!--        <p class="big"><strong>Translation- & RTL-Ready</strong></p>-->
+<!--        <p>Make sure everyone interested in your products can shop at your store. As Eveprest is a translation-ready-->
+<!--            theme supporting RTL languages, international buyers will use your store without barriers.</p>-->
+<!--    </li>-->
 </ul>
