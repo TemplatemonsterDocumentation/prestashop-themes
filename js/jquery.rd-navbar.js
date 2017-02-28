@@ -245,6 +245,8 @@
                         fz = 65;
                     } else if ($('body').data('project') == "lunalin") {
                         fz = 95;
+                    } else if ($('body').data('project') == "watchelli") {
+                        fz = 60;
                     } else {
                         fz = 70;
                     }
