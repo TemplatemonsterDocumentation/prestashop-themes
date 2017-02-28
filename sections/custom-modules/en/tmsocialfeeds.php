@@ -108,12 +108,12 @@
             <dd>display block in specific position.</dd>
         </dl>
     </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Select theme</dt>
-            <dd>color scheme of the block for this position.</dd>
-        </dl>
-    </li>
+<!--    <li>-->
+<!--        <dl class="inline-term">-->
+<!--            <dt>Select theme</dt>-->
+<!--            <dd>color scheme of the block for this position.</dd>-->
+<!--        </dl>-->
+<!--    </li>-->
     <li>
         <dl class="inline-term">
             <dt>Sort order</dt>
@@ -132,16 +132,28 @@
             <dd>block height in this position.</dd>
         </dl>
     </li>
+<!--    <li>-->
+<!--        <dl class="inline-term">-->
+<!--            <dt>Enable header</dt>-->
+<!--            <dd>show block title.</dd>-->
+<!--        </dl>-->
+<!--    </li>-->
+<!--    <li>-->
+<!--        <dl class="inline-term">-->
+<!--            <dt>Enable border</dt>-->
+<!--            <dd>show footer of the block.</dd>-->
+<!--        </dl>-->
+<!--    </li>-->
     <li>
         <dl class="inline-term">
-            <dt>Enable header</dt>
-            <dd>show block title.</dd>
+            <dt>Small header</dt>
+            <dd>use the small header instead.</dd>
         </dl>
     </li>
     <li>
         <dl class="inline-term">
-            <dt>Enable border</dt>
-            <dd>show footer of the block.</dd>
+            <dt>Hide cover</dt>
+            <dd>hide cover photo in the header.</dd>
         </dl>
     </li>
     <li>
@@ -197,18 +209,23 @@
 </ul>
 
 <h4>Instagram</h4>
-<p><strong>Client ID</strong> - a unique ID assigned during widget registration on Instagram.</p>
-<p><strong>User Name</strong> - username used to link the owner's page.</p>
-<p>Selection type: you can set whether the images are loaded from specific user or by tag.</p>
+<h6>Social Widgets Settings</h6>
+<figure class="img-polaroid">
+    <img src="img/tmsocialfeeds-5.png" alt="">
+</figure>
+<!--<p><strong>Client ID</strong> - a unique ID assigned during widget registration on Instagram.</p>-->
+<!--<p><strong>User Name</strong> - username used to link the owner's page.</p>-->
+<p>Selection type (<strong>Get Feeds by</strong>): you can set whether the images are loaded from specific user or by tag.</p>
 <p><strong>Tag</strong> by which images are loaded.</p>
 <p><strong>Id</strong> of the user whose images will be loaded.</p>
-<p><strong>Instagram access token</strong> - access token of the user who owns the page.</p>
+<!--<p><strong>Instagram access token</strong> - access token of the user who owns the page.</p>-->
+<h6>Instagram Widget Settings</h6>
 <p>In the second part of the module configuration page you can add the required module to the position you want. There
     are 4 positions. You can add the block settings to each position. The only global setting is the data of social
     networks which feeds will be loaded.</p>
-<p>Each social network has its own settings.</p>
+<!--<p>Each social network has its own settings.</p>-->
 <figure class="img-polaroid">
-    <img src="img/tmsocialfeeds-5.png" alt="">
+    <img src="img/tmsocialfeeds-6.png" alt="">
 </figure>
 <ul class="marked-list">
     <li>
@@ -217,12 +234,12 @@
             <dd>display block in specific position.</dd>
         </dl>
     </li>
-    <li>
-        <dl class="inline-term">
-            <dt>Sort order</dt>
-            <dd>sort order (order number of the block in this position).</dd>
-        </dl>
-    </li>
+<!--    <li>-->
+<!--        <dl class="inline-term">-->
+<!--            <dt>Sort order</dt>-->
+<!--            <dd>sort order (order number of the block in this position).</dd>-->
+<!--        </dl>-->
+<!--    </li>-->
     <li>
         <dl class="inline-term">
             <dt>Widget feeds limit</dt>

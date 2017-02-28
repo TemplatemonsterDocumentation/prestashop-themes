@@ -92,5 +92,14 @@
 		"custom-modules",
 		"cookies-policy",
 		"addendum"
+	],
+	"watchelli": [
+		"introduction",
+		"getting-started",
+		"template-installation",
+		"basic-tutorials",
+		"custom-modules",
+		"cookies-policy",
+		"addendum"
 	]
 }

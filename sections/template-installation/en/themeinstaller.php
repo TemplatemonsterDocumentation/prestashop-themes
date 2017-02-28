@@ -57,6 +57,11 @@ elseif ($project == 'wedderic'){ ?>
         <img src="projects/wedderic/img/theme-import-3.png" alt=""/>
     </figure>
 <?php }
+elseif ($project == 'watchelli'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/watchelli/img/theme-import-3.png" alt=""/>
+    </figure>
+<?php }
 else { ?>
     <figure class="img-polaroid">
         <img src="img/theme-import-3.png" alt=""/>
@@ -103,6 +108,11 @@ elseif ($project == 'maserio'){ ?>
 elseif ($project == 'wedderic'){ ?>
     <figure class="img-polaroid">
         <img src="projects/wedderic/img/theme-import-4.png" alt=""/>
+    </figure>
+<?php }
+elseif ($project == 'watchelli'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/watchelli/img/theme-import-4.png" alt=""/>
     </figure>
 <?php }
 else { ?>
@@ -153,6 +163,11 @@ elseif ($project == 'wedderic'){ ?>
         <img src="projects/wedderic/img/theme-import-5.png" alt=""/>
     </figure>
 <?php }
+elseif ($project == 'watchelli'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/watchelli/img/theme-import-5.png" alt=""/>
+    </figure>
+<?php }
 else { ?>
     <figure class="img-polaroid">
         <img src="img/theme-import-5.png" alt=""/>
@@ -199,6 +214,11 @@ elseif ($project == 'maserio'){ ?>
 elseif ($project == 'wedderic'){ ?>
     <figure class="img-polaroid">
         <img src="projects/wedderic/img/theme-import-6.png" alt=""/>
+    </figure>
+<?php }
+elseif ($project == 'watchelli'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/watchelli/img/theme-import-6.png" alt=""/>
     </figure>
 <?php }
 else { ?>
