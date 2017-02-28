@@ -1460,12 +1460,6 @@
         }
       },
       {
-        "id": "tmoneclickorder",
-        "translations": {
-          "en": "TM One Click Order"
-        }
-      },
-      {
         "id": "tmproductvideos",
         "translations": {
           "en": "TM Product Videos"
