@@ -290,6 +290,12 @@
     ],
     "eveprest": [
       {
+        "id": "smart_blog",
+        "translations": {
+          "en": "Smart Blog"
+        }
+      },
+      {
         "id": "tm360view",
         "translations": {
           "en": "TM 360 View"
@@ -814,6 +820,12 @@
     ],
     "lunalin": [
       {
+        "id": "smart_blog",
+        "translations": {
+          "en": "Smart Blog"
+        }
+      },
+      {
         "id": "tmdealday",
         "translations": {
           "en": "TM Deal of the Day"
@@ -905,6 +917,12 @@
       }
     ],
     "decorma": [
+      {
+        "id": "smart_blog",
+        "translations": {
+          "en": "Smart Blog"
+        }
+      },
       {
         "id": "tmcategoryproducts100",
         "translations": {
@@ -1230,6 +1248,12 @@
     ],
     "wedderic": [
       {
+        "id": "smart_blog",
+        "translations": {
+          "en": "Smart Blog"
+        }
+      },
+      {
         "id": "tmcategoryproducts100",
         "translations": {
           "en": "TM Category Products 1.0.0"
@@ -1370,6 +1394,12 @@
     ],
     "watchelli": [
       {
+        "id": "smart_blog",
+        "translations": {
+          "en": "Smart Blog"
+        }
+      },
+      {
         "id": "tmadvancedfilter",
         "translations": {
           "en": "TM Advanced Filter"
@@ -1487,6 +1517,140 @@
         "id": "tmsearch110",
         "translations": {
           "en": "TM Search 1.1.0"
+        }
+      }
+    ],
+    "sweet4you": [
+      {
+        "id": "smart_blog",
+        "translations": {
+          "en": "Smart Blog"
+        }
+      },
+      {
+        "id": "tmcategoryproducts100",
+        "translations": {
+          "en": "TM Category Products 1.0.0"
+        }
+      },
+      {
+        "id": "tmcollections",
+        "translations": {
+          "en": "TM Collections"
+        }
+      },
+      {
+        "id": "tmdealday",
+        "translations": {
+          "en": "TM Deal of the Day"
+        }
+      },
+      {
+        "id": "tmgooglemap115",
+        "translations": {
+          "en": "TM Google Map 1.1.5"
+        }
+      },
+      {
+        "id": "tmheaderaccount20",
+        "translations": {
+          "en": "TM Header Account 2.0"
+        }
+      },
+      {
+        "id": "tmhtmlcontent",
+        "translations": {
+          "en": "TM HTML Content"
+        }
+      },
+      {
+        "id": "tminfinitescroll",
+        "translations": {
+          "en": "TM Infinite Scroll"
+        }
+      },
+      {
+        "id": "tmmediaparallax200",
+        "translations": {
+          "en": "TM Media Parallax 2.0.0"
+        }
+      },
+      {
+        "id": "tmmegalayout100",
+        "translations": {
+          "en": "TM Mega Layout 1.0.0"
+        }
+      },
+      {
+        "id": "tmmegamenu",
+        "translations": {
+          "en": "TM Mega Menu"
+        }
+      },
+      {
+        "id": "tmmosaicproducts",
+        "translations": {
+          "en": "TM Mosaic Products"
+        }
+      },
+      {
+        "id": "tmnewsletter",
+        "translations": {
+          "en": "TM Newsletter"
+        }
+      },
+      {
+        "id": "tmolarkchat",
+        "translations": {
+          "en": "TM Olark Chat"
+        }
+      },
+      {
+        "id": "tmoneclickorder",
+        "translations": {
+          "en": "TM One Click Order"
+        }
+      },
+      {
+        "id": "tmproductlistgallery200",
+        "translations": {
+          "en": "TM Product List Gallery 2.0.0"
+        }
+      },
+      {
+        "id": "tmproductvideos",
+        "translations": {
+          "en": "TM Product Videos"
+        }
+      },
+      {
+        "id": "tmproductzoomer",
+        "translations": {
+          "en": "TM Product Zoomer"
+        }
+      },
+      {
+        "id": "tmproductsslider200",
+        "translations": {
+          "en": "TM Products Slider 2.0.0"
+        }
+      },
+      {
+        "id": "tmrelatedproducts",
+        "translations": {
+          "en": "TM Related Products"
+        }
+      },
+      {
+        "id": "tmsearch110",
+        "translations": {
+          "en": "TM Search 1.1.0"
+        }
+      },
+      {
+        "id": "tmsocialfeeds",
+        "translations": {
+          "en": "TM Social Feeds"
         }
       }
     ]

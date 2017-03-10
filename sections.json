@@ -101,5 +101,14 @@
 		"custom-modules",
 		"cookies-policy",
 		"addendum"
+	],
+	"sweet4you": [
+		"introduction",
+		"getting-started",
+		"template-installation",
+		"basic-tutorials",
+		"custom-modules",
+		"cookies-policy",
+		"addendum"
 	]
 }
