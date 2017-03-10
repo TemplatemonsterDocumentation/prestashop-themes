@@ -1,7 +1,8 @@
 {
 	"id": "introduction",
 	"translations": {
-		"en": "Introduction"
+		"en": "Introduction",
+		"es": "Introduction"
 	},
 	"articles": {
 		"default": [],
@@ -14,6 +15,7 @@
 		"foodfate": [],
 		"maserio": [],
 		"wedderic": [],
-		"watchelli": []
+		"watchelli": [],
+		"sweet4you": []
 	}
 }
