@@ -110,5 +110,14 @@
 		"custom-modules",
 		"cookies-policy",
 		"addendum"
+	],
+	"bigbike": [
+		"introduction",
+		"getting-started",
+		"template-installation",
+		"basic-tutorials",
+		"custom-modules",
+		"cookies-policy",
+		"addendum"
 	]
 }
