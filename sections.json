@@ -119,5 +119,15 @@
 		"custom-modules",
 		"cookies-policy",
 		"addendum"
+	],
+	"eveprest_furniture": [
+		"introduction",
+		"getting-started",
+		"template-installation",
+		"basic-tutorials",
+		"tm-mega-layout",
+		"custom-modules",
+		"cookies-policy",
+		"addendum"
 	]
 }
