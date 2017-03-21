@@ -1,4 +1,5 @@
 <?php
+var_dump('test');
 include_once 'config.php';
 include_once 'functions.php';
 
