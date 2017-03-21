@@ -2,6 +2,8 @@
 include_once 'config.php';
 include_once 'functions.php';
 
+var_dump('1');
+
 if (!isset($sections)) {
     $sections = getSections($project, $defaultProject);
 }
