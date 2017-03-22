@@ -67,6 +67,34 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <option data-href="/help/quick-start-guide/prestashop-themes/v1-0/index_en.html">Version v1-0</option> 
                   </select>
               </div>
+              <div class="select select-lang">
+                  <select>
+                      <option
+                              data-href="<?php echo $path; ?>/index.php?lang=en&section=<?php echo $section_param; ?>" <?php echo $lang == "en" ? "selected" : ""; ?>>
+                          EN
+                      </option>
+                      <option
+                              data-href="<?php echo $path; ?>/index.php?lang=es&section=<?php echo $section_param; ?>" <?php echo $lang == "es" ? "selected" : ""; ?>>
+                          ES
+                      </option>
+                      <option
+                              data-href="<?php echo $path; ?>/index.php?lang=fr&section=<?php echo $section_param; ?>" <?php echo $lang == "fr" ? "selected" : ""; ?>>
+                          FR
+                      </option>
+                      <option
+                              data-href="<?php echo $path; ?>/index.php?lang=it&section=<?php echo $section_param; ?>" <?php echo $lang == "it" ? "selected" : ""; ?>>
+                          IT
+                      </option>
+                      <option
+                              data-href="<?php echo $path; ?>/index.php?lang=pl&section=<?php echo $section_param; ?>" <?php echo $lang == "pl" ? "selected" : ""; ?>>
+                          PL
+                      </option>
+                      <option
+                              data-href="<?php echo $path; ?>/index.php?lang=pt&section=<?php echo $section_param; ?>" <?php echo $lang == "pt" ? "selected" : ""; ?>>
+                          PT
+                      </option>
+                  </select>
+              </div>
           </div>
         <?php endif; ?>
         <p class="copyright">TemplateMonster ©
