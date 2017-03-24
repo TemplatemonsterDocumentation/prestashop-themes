@@ -1,4 +1,4 @@
-<h3>TM Google Map 1.1.5</h3>
+<h3>TM Google Map 1.2.0</h3>
 <p>This module allows adding Google Map with store locations and store short descriptions to the Homepage. The map will display the addresses of all the stores connected with your online store.</p>
 <h5>Installation and removal</h5>
 <p>The module is installed and removed as any other PrestaShop module.</p>

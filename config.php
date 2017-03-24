@@ -7,8 +7,7 @@ $document_root = addslashes( realpath( __DIR__ ) );
 $relative_dir = addslashes( $_SERVER['REQUEST_URI'] );
 
 if ( strpos( $relative_dir, 'index.php' ) > -1 ) {
-  $relative_dir = explode( 'index.php', $relative_dir );
-  $relative_dir = $relative_dir[0];
+  $relative_dir = explode( 'index.php', $relative_dir )[0];
 }
 
 defined( 'DOCUMENT_ROOT' ) or define( 'DOCUMENT_ROOT', $document_root );

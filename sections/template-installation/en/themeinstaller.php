@@ -5,9 +5,7 @@
 
 <p>Before you proceed, please make sure you have already downloaded the template and
     extracted the files from the template package. You can check detailed tutorials on
-    how to extract files from the template package using <a target="_blank"
-                                                            href="/help/unzipping-your-template.html">WinZip</a>
-    and <a target="_blank" href="/help/how-unzip-template-mac.html">StuffitExpander</a>.
+    how to extract files from the template package using <a target="_blank" href="/help/unzipping-your-template.html">WinZip</a> and <a target="_blank" href="/help/how-unzip-template-mac.html">StuffitExpander</a>.
 </p>
 
 <p>When the files are extracted, you can proceed to uploading the template.</p>
@@ -34,13 +32,39 @@
 <p>The uploading process will be started. You will see the message that the theme has
     been successfully uploaded. Your new theme preview will appear in the list of
     installed themes.</p>
-<figure class="img-polaroid">
-    <img src="img/theme17-import-3.png" alt=""/>
-</figure>
+<?php if  ($project == 'alistaco'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/alistaco/img/theme17-import-3.png" alt=""/>
+    </figure>
+<?php }
+elseif ($project == 'mannerway'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/mannerway/img/theme17-import-3.png" alt=""/>
+    </figure>
+<?php }
+
+else { ?>
+    <figure class="img-polaroid">
+        <img src="img/theme17-import-3.png" alt=""/>
+    </figure>
+<?php } ?>
 
 
 <p>In order to activate the theme, hover the cursor over the theme preview icon and
     click <strong>Use this theme</strong>.</p>
-<figure class="img-polaroid">
-    <img src="img/theme17-import-4.png" alt=""/>
-</figure>
+<?php if  ($project == 'alistaco'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/alistaco/img/theme17-import-4.png" alt=""/>
+    </figure>
+<?php }
+elseif ($project == 'mannerway'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/mannerway/img/theme17-import-4.png" alt=""/>
+    </figure>
+<?php }
+
+else { ?>
+    <figure class="img-polaroid">
+        <img src="img/theme17-import-4.png" alt=""/>
+    </figure>
+<?php } ?>
