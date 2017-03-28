@@ -6,6 +6,13 @@
             Product</p>
     </div>
 <?php } ?>
+
+<?php if ($project == 'impresta') { ?>
+    <div>
+        <p></p>
+    </div>
+<?php } ?>
+
 <p>This module is designed to allow creating custom layouts (presets) for hooks and displaying them at site instead of
     the default positions. This module advantage is allowing you to create different hook markups and modify them up to
     your needs.</p>

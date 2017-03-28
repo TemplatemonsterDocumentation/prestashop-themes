@@ -80,7 +80,19 @@
   "eveprest_furniture": {
     "textLogo": "",
     "title": "Eveprest",
+    "titleCaption": "One Product store",
+    "author": ""
+  },
+  "eveprest_oneproduct": {
+    "textLogo": "",
+    "title": "Eveprest",
     "titleCaption": "Furniture",
+    "author": ""
+  },
+  "impresta": {
+    "textLogo": "",
+    "title": "imPresta",
+    "titleCaption": "",
     "author": ""
   }
 }
