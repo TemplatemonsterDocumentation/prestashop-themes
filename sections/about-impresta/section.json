@@ -1,0 +1,28 @@
+{
+  "id": "about-impresta",
+  "translations": {
+    "en": "About imPresta"
+  },
+  "articles": {
+    "impresta": [
+      {
+        "id": "whatisimpresta",
+        "translations": {
+          "en": "What is imPresta"
+        }
+      },
+      {
+        "id": "mainfeatures",
+        "translations": {
+          "en": "Main Features"
+        }
+      },
+      {
+        "id": "modulesinimpresta",
+        "translations": {
+          "en": "TM Modules used in imPresta"
+        }
+      }
+    ]
+  }
+}

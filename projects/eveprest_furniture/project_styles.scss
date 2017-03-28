@@ -263,34 +263,34 @@ body:not([data-section="introduction"]) {
 //FOR CREATING PDF VERSION!!!!!!!!!!!!!!!!!!!!
 /////////////////////////////////////////////
 
-.rd-mobilemenu, .rd-mobilepanel_toggle, .rd-mobilepanel, .toTop {
-	display: none;
-}
-
-.page-content.active .page, .page-content.active .rd-mobilepanel, .page-content.active .rd-mobilepanel_toggle {
-	-moz-transform: translateX(0px);
-	-ms-transform: translateX(0px);
-	-o-transform: translateX(0px);
-	-webkit-transform: translateX(0px);
-	transform: translateX(0px);
-}
-
-main > .container {
-	padding-right: 0%;
-}
-
-.resp-tab-content {
-	display: block;
-}
-
-.resp-accordion.resp-tab-active {
-	background-color: #999;
-}
-
-article.description {
-	padding-top: 0px;
-}
-
-article {
-	padding-top: 0px;
-}
+//.rd-mobilemenu, .rd-mobilepanel_toggle, .rd-mobilepanel, .toTop {
+//	display: none;
+//}
+//
+//.page-content.active .page, .page-content.active .rd-mobilepanel, .page-content.active .rd-mobilepanel_toggle {
+//	-moz-transform: translateX(0px);
+//	-ms-transform: translateX(0px);
+//	-o-transform: translateX(0px);
+//	-webkit-transform: translateX(0px);
+//	transform: translateX(0px);
+//}
+//
+//main > .container {
+//	padding-right: 0%;
+//}
+//
+//.resp-tab-content {
+//	display: block;
+//}
+//
+//.resp-accordion.resp-tab-active {
+//	background-color: #999;
+//}
+//
+//article.description {
+//	padding-top: 0px;
+//}
+//
+//article {
+//	padding-top: 0px;
+//}

@@ -129,5 +129,26 @@
 		"custom-modules",
 		"cookies-policy",
 		"addendum"
+	],
+	"eveprest_oneproduct": [
+		"introduction",
+		"getting-started",
+		"template-installation",
+		"basic-tutorials",
+		"tm-mega-layout",
+		"custom-modules",
+		"cookies-policy",
+		"addendum"
+	],
+	"impresta": [
+		"introduction",
+		"about-impresta",
+		"getting-started",
+		"template-installation",
+		"basic-tutorials",
+		"tm-mega-layout",
+		"custom-modules",
+		"cookies-policy",
+		"addendum"
 	]
 }

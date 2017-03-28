@@ -230,7 +230,7 @@
                     pr_name = $('body').data('project'),
                     pr_height = '';
 
-                if(pr_name =="default" || pr_name =="eveprest") {
+                if(pr_name =="default" || pr_name =="eveprest" || pr_name =="impresta") {
                     pr_height = 130;
                 } else {
                     pr_height = 300;
