@@ -387,9 +387,12 @@ b, strong {
     & + li {
       margin-top: 10px;
     }
-    p, dl {
+    p {
       display: inline-block;
       max-width: 97%;
+    }
+    dl {
+      display: inline;
     }
     > p {
       margin-bottom: 10px;

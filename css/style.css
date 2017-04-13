@@ -359,9 +359,12 @@ b, strong {
 .index-list > li + li {
   margin-top: 10px;
 }
-.index-list > li p, .index-list > li dl {
+.index-list > li p {
   display: inline-block;
   max-width: 97%;
+}
+.index-list > li dl {
+  display: inline;
 }
 .index-list > li > p {
   margin-bottom: 10px;

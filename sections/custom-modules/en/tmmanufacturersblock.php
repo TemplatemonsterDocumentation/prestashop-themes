@@ -1,10 +1,12 @@
 <h3>TM Manufacturers Block</h3>
-<?php if ($project == 'eveprest' ) { ?>
-    <div>
-        <p style="margin-bottom: 0;">Available in:</p>
-        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture</p>
-    </div>
-<?php } ?>
+<div class="pdf-hidden">
+    <?php if ($project == 'eveprest') { ?>
+        <div>
+            <p style="margin-bottom: 0;">Available in:</p>
+            <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture</p>
+        </div>
+    <?php } ?>
+</div>
 <p>This module shows up manufacturers available in your store. The list of manufacturers may consist of image and
     title. The list can also show up as a carousel.</p>
 <h5>Installing and Deleting</h5>

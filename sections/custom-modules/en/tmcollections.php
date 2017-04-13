@@ -1,10 +1,13 @@
 <h3>TM Collections</h3>
-<?php if ($project == 'eveprest' ) { ?>
-    <div>
-        <p style="margin-bottom: 0;">Available in:</p>
-        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One Product</p>
-    </div>
-<?php } ?>
+<div class="pdf-hidden">
+    <?php if ($project == 'eveprest') { ?>
+        <div>
+            <p style="margin-bottom: 0;">Available in:</p>
+            <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One
+                Product</p>
+        </div>
+    <?php } ?>
+</div>
 <h6>TM Collections module is created to give the ability to the visitors of online store to add products to collections
     and share this collections on Facebook.</h6>
 <h4>Module Installation</h4>
@@ -17,7 +20,7 @@
 <p>After the module has been installed, the 'Settings' page will appear.<br>
     Add the Facebook App Id to the required field (1) and press 'Save' button (2).<br>
     The instruction how to get the Facebook App Id can be found here: <a
-        href="https://developers.facebook.com/docs/apps/register" target="blank">Creating an App ID</a>.</p>
+            href="https://developers.facebook.com/docs/apps/register" target="blank">Creating an App ID</a>.</p>
 <figure class="img-polaroid">
     <img src="img/tmcollections2.png" alt=""/>
 </figure>

@@ -1,10 +1,12 @@
 <h3>TM Advanced Filter</h3>
-<?php if ($project == 'eveprest' ) { ?>
-    <div>
-        <p style="margin-bottom: 0;">Available in:</p>
-        <p style="margin-top: 0;" class="small text-secondary">Spare Parts</p>
-    </div>
-<?php } ?>
+<div class="pdf-hidden">
+    <?php if ($project == 'eveprest') { ?>
+        <div>
+            <p style="margin-bottom: 0;">Available in:</p>
+            <p style="margin-top: 0;" class="small text-secondary">Spare Parts</p>
+        </div>
+    <?php } ?>
+</div>
 <h4>Introduction</h4>
 <p>TM Advanced Filter module gives an opportunity to implement a quick search of the needed product based on key
     features. It allows to create filters with the unlimited number of search criteria, which are available in the store
@@ -18,7 +20,8 @@
     quickly inserted to a Prestashop store of any kind.</p>
 <h4>Installing and deleting the module</h4>
 <h6>The module is installed and deleted like any other PrestaShop module.</h6>
-<p class="alert alert-info"><span>After deleting or reinstalling the module, all the module settings and filters will be discarded.</span></p>
+<p class="alert alert-info"><span>After deleting or reinstalling the module, all the module settings and filters will be discarded.</span>
+</p>
 <h4>Filter setup/editing</h4>
 <p>After installing the module, you can set it up on the module configuration page. By default, you'll see the tabs with
     available filter types. To start creating a filter, select a tab (1) and press the 'Create filter' button (2).</p>
@@ -41,21 +44,23 @@
         Filter);
     </li>
 </ul>
-<p class="alert alert-info"><span>Please note that there are no required fields. If you leave all the fields empty, then a one-column filter with no description and title will be created.</span></p>
+<p class="alert alert-info"><span>Please note that there are no required fields. If you leave all the fields empty, then a one-column filter with no description and title will be created.</span>
+</p>
 <h5>Editing the filter</h5>
 <p>To change the description and filter settings, press the 'Cogwheel' button in the filter menu.</p>
 <figure class="img-polaroid"><img src="img/tmadvancedfilter-3.png" alt=""/></figure>
 <p>In the editing mode, the form looks and works as in the setup mode.</p>
 <p class="alert alert-info"><span>The filter grid selection is available only for 'Top filter'.</span></p>
-<p class="alert alert-info"><span>When changing the filter grid, all the elements will be automatically transferred to the first column, keeping the nesting and display order (based on the principle: all elements of the previous column with the display order kept inside).</span></p>
+<p class="alert alert-info"><span>When changing the filter grid, all the elements will be automatically transferred to the first column, keeping the nesting and display order (based on the principle: all elements of the previous column with the display order kept inside).</span>
+</p>
 <h5>Deleting the filter</h5>
 <p>To change the filter description or filter settings, press the 'Cross' in the filter menu</p>
 <figure class="img-polaroid"><img src="img/tmadvancedfilter-31.png" alt=""/></figure>
 <p>and confirm filter deletion.</p>
 <figure class="img-polaroid"><img src="img/tmadvancedfilter-4.png" alt=""/></figure>
-<div class="box-notification">
+<p class="alert alert-warning">
     <span>After deleting a filter, all the data will be permanently lost.</span>
-</div>
+</p>
 <h5>Filter indexation</h5>
 <p><strong>Indexation</strong> - the process of creating unique tables with the data necessary for the filter,
     which is created for the filter-specific criteria. They allow to drastically speed up the filter work on the
@@ -63,8 +68,10 @@
 <p>The corresponding button in the filter menu is highlighted in red. If the button is not highlighted, the filter
     doesn't need indexation.</p>
 <figure class="img-polaroid"><img src="img/tmadvancedfilter-5.png" alt=""/></figure>
-<p class="alert alert-info"><span>The re-indexation process can take some time, depending on the number of products in the store and selected filter criteria.</span></p>
-<p class="alert alert-info"><span>If the filter requires re-indexation, it won't be displayed on the frontend.</span></p>
+<p class="alert alert-info"><span>The re-indexation process can take some time, depending on the number of products in the store and selected filter criteria.</span>
+</p>
+<p class="alert alert-info"><span>If the filter requires re-indexation, it won't be displayed on the frontend.</span>
+</p>
 <h5>Creating/editing filter elements (criteria)</h5>
 <p>To add an element to the filter, select it in the panel of available elements (on the left) and drag it to the
     available area of the filter grid (it will light up after being selected. In the example, the grid has 2
@@ -98,8 +105,10 @@
         </ul>
     </li>
 </ul>
-<p class="alert alert-info"><span>You can change all the data and the parent element in the filter editing mode.</span></p>
-<p class="alert alert-info"><span>After editing the element, the filter should be re-indexed, which is shown by the button in the filter menu. Do not go for reindexing the filter after editing every element, you can do this after applying changes to all the needed elements - by doing so you'll save your time.</span></p>
+<p class="alert alert-info"><span>You can change all the data and the parent element in the filter editing mode.</span>
+</p>
+<p class="alert alert-info"><span>After editing the element, the filter should be re-indexed, which is shown by the button in the filter menu. Do not go for reindexing the filter after editing every element, you can do this after applying changes to all the needed elements - by doing so you'll save your time.</span>
+</p>
 <p>If there is a tree of connected filters, you can add the new element as a related to this tree.</p>
 <figure class="img-polaroid"><img src="img/tmadvancedfilter-10.png" alt=""/></figure>
 <h5>Editing the filter element</h5>
@@ -124,15 +133,19 @@
     </li>
 </ul>
 <p>Regardless of the chosen method, you'll see a window of deleting confirmation.</p>
-<figure class="img-polaroid"><img src="img/tmadvancedfilter-13.png" alt=""/></figure></li>
-<p class="alert alert-info"><span>After deleting a filter with nested elements, all the nested elements will be deleted.</span></p>
-<p class="alert alert-info"><span>After deleting an element, the filter needs to be re-indexed, what is indicated by the button in the filter menu. Do not go for reindexing the filter after editing every element, you can do this after applying changes to all the needed elements - by doing so you'll save your time.</span></p>
+<figure class="img-polaroid"><img src="img/tmadvancedfilter-13.png" alt=""/></figure>
+<p class="alert alert-info">
+    <span>After deleting a filter with nested elements, all the nested elements will be deleted.</span></p>
+<p class="alert alert-info"><span>After deleting an element, the filter needs to be re-indexed, what is indicated by the button in the filter menu. Do not go for reindexing the filter after editing every element, you can do this after applying changes to all the needed elements - by doing so you'll save your time.</span>
+</p>
 <h5>"Smart" reindexation</h5>
 <p>The module provides the automatic (smart) reindexation after making changes to the products or after some other
     crucial changes (manufacturer, attribute, etc.). The table fields will be reindexed, if these changes affected the
     filter functioning.</p>
-<p class="alert alert-info"><span>If, after making changes, the filter did not take them automatically, enter the filter settings page and reindex it manually.</span></p>
-<p class="alert alert-info"><span>The filter won't be reindexed automatically after adding currency, that's why it should be reindexed manually.</span></p>
+<p class="alert alert-info"><span>If, after making changes, the filter did not take them automatically, enter the filter settings page and reindex it manually.</span>
+</p>
+<p class="alert alert-info"><span>The filter won't be reindexed automatically after adding currency, that's why it should be reindexed manually.</span>
+</p>
 <h4>FAQ</h4>
 <div class="responsive-tabs" data-type="accordion">
     <ul class="resp-tabs-list">

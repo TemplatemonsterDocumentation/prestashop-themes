@@ -9,7 +9,7 @@
 
 <?php if ($project == 'impresta') { ?>
     <div>
-        <p>Available in:</p>
+        <p class="alert alert-info">If you want to switch to the layout with left column, you need to activate the left column for the main page. Navigate to Preferences -> Theme -> Advanced Settings -> Appearance of columns and enable the left column for index page.</p>
     </div>
 <?php } ?>
 

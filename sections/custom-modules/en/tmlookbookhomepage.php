@@ -1,12 +1,15 @@
 <h3>TM Look Book Homepage</h3>
-<?php if ($project == 'eveprest' ) { ?>
-    <div>
-        <p style="margin-bottom: 0;">Available in:</p>
-        <p style="margin-top: 0;" class="small text-secondary">Fashion, Furniture</p>
-    </div>
-<?php } ?>
+<div class="pdf-hidden">
+    <?php if ($project == 'eveprest') { ?>
+        <div>
+            <p style="margin-bottom: 0;">Available in:</p>
+            <p style="margin-top: 0;" class="small text-secondary">Fashion, Furniture</p>
+        </div>
+    <?php } ?>
+</div>
 <p class="alert alert-warning">To use the module, you should have the TM Look Book module installed.</p>
-<p>TM Look Book Homepage is used to display the TM Look Book module block on the Homepage. This module allows to display both the lookbook covers and lookbook pages.</p>
+<p>TM Look Book Homepage is used to display the TM Look Book module block on the Homepage. This module allows to display
+    both the lookbook covers and lookbook pages.</p>
 <h5>Requirements:</h5>
 <ul class="marked-list">
     <li>PHP 5.4+</li>
@@ -35,7 +38,8 @@
     <li>
         <p>In the appeared form, set up the following options:</p>
         <ul class="marked-list">
-            <li><strong>Status</strong> - the block status. This setting allows to enable or disable the block display.</li>
+            <li><strong>Status</strong> - the block status. This setting allows to enable or disable the block display.
+            </li>
             <li><strong>Type</strong> - allows to select the block type.</li>
             <li><strong>Lookbook</strong> - allows to select a previously selected look.</li>
         </ul>

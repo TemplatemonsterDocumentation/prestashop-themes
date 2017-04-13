@@ -1,10 +1,12 @@
 <h3>TM Category Products 1.0.0</h3>
-<?php if ($project == 'eveprest' ) { ?>
-    <div>
-        <p style="margin-bottom: 0;">Available in:</p>
-        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture</p>
-    </div>
-<?php } ?>
+<div class="pdf-hidden">
+    <?php if ($project == 'eveprest') { ?>
+        <div>
+            <p style="margin-bottom: 0;">Available in:</p>
+            <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture</p>
+        </div>
+    <?php } ?>
+</div>
 <p>This module displays category products in displayHome and displayHomeTabContent hooks. The module allows displaying
     single products, products from a category or all products. Moreover, the module comes with a carousel that works,
     when the module occupies the displayHome position.</p>

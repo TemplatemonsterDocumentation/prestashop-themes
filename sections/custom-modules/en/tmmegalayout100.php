@@ -1,11 +1,13 @@
 <h3>TM Mega Layout 1.0.0</h3>
-<?php if ($project == 'eveprest') { ?>
-    <div>
-        <p style="margin-bottom: 0;">Available in:</p>
-        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One
-            Product</p>
-    </div>
-<?php } ?>
+<div class="pdf-hidden">
+    <?php if ($project == 'eveprest') { ?>
+        <div>
+            <p style="margin-bottom: 0;">Available in:</p>
+            <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One
+                Product</p>
+        </div>
+    <?php } ?>
+</div>
 <p>This module is designed to allow creating custom layouts (presets) for hooks and displaying them at site instead of
     the default positions. This module advantage is allowing you to create different hook markups and modify them up to
     your needs.</p>

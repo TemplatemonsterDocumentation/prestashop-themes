@@ -72,6 +72,16 @@ elseif ($project == 'bigbike'){ ?>
         <img src="projects/bigbike/img/theme-import-3.png" alt=""/>
     </figure>
 <?php }
+elseif ($project == 'impresta'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/impresta/img/theme-import-3.png" alt=""/>
+    </figure>
+<?php }
+elseif ($project == 'boygirl'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/boygirl/img/theme-import-3.png" alt=""/>
+    </figure>
+<?php }
 else { ?>
     <figure class="img-polaroid">
         <img src="img/theme-import-3.png" alt=""/>
@@ -133,6 +143,16 @@ elseif ($project == 'sweet4you'){ ?>
 elseif ($project == 'bigbike'){ ?>
     <figure class="img-polaroid">
         <img src="projects/bigbike/img/theme-import-4.png" alt=""/>
+    </figure>
+<?php }
+elseif ($project == 'impresta'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/impresta/img/theme-import-4.png" alt=""/>
+    </figure>
+<?php }
+elseif ($project == 'boygirl'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/boygirl/img/theme-import-4.png" alt=""/>
     </figure>
 <?php }
 else { ?>
@@ -198,6 +218,16 @@ elseif ($project == 'bigbike'){ ?>
         <img src="projects/bigbike/img/theme-import-5.png" alt=""/>
     </figure>
 <?php }
+elseif ($project == 'impresta'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/impresta/img/theme-import-5.png" alt=""/>
+    </figure>
+<?php }
+elseif ($project == 'boygirl'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/boygirl/img/theme-import-5.png" alt=""/>
+    </figure>
+<?php }
 else { ?>
     <figure class="img-polaroid">
         <img src="img/theme-import-5.png" alt=""/>
@@ -259,6 +289,16 @@ elseif ($project == 'sweet4you'){ ?>
 elseif ($project == 'bigbike'){ ?>
     <figure class="img-polaroid">
         <img src="projects/bigbike/img/theme-import-6.png" alt=""/>
+    </figure>
+<?php }
+elseif ($project == 'impresta'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/impresta/img/theme-import-6.png" alt=""/>
+    </figure>
+<?php }
+elseif ($project == 'boygirl'){ ?>
+    <figure class="img-polaroid">
+        <img src="projects/boygirl/img/theme-import-6.png" alt=""/>
     </figure>
 <?php }
 else { ?>

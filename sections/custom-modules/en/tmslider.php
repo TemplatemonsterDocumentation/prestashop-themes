@@ -5,12 +5,13 @@
 <p>This module can be installed/uninstalled as any other PrestaShop module.</p>
 
 <h4>Module customization and managing</h4>
-<h5>To implement a slider into your site, follow the next steps:</h5>
+<h5>To implement a slider into your site, you need to follow the next steps:</h5>
 <ul class="index-list">
-    <li>Add new slides</li>
+    <li>Add new slides / slides' content</li>
     <li>Create slider from slides</li>
     <li>Manage relations</li>
 </ul>
+<p>Detailed instructions are described further.</p>
 
 <h5>Adding new slide</h5>
 <ul class="index-list">
@@ -21,31 +22,59 @@
     <li>
         <p>Click the 'Add new' ('+') button (1).</p>
         <figure class="img-polaroid"><img src="" alt="" /></figure>
+    </li>
+    <li>
+        <p>Choose the options for new slide.</p>
+        <figure class="img-polaroid"><img src="" alt="" /></figure>
         <ul class="marked-list">
             <li><strong>Slide name</strong> - enter the slide name</li>
+            <li><strong>Multi link</strong> - se different links for each language</li>
             <li><strong>Link</strong> - enter the slide link</li>
             <li><strong>Link target</strong> - choose if the link should be opened in new window or in the same</li>
             <li><strong>Width</strong> - enter the slide width in px</li>
             <li><strong>Height</strong> - enter the slide height in px</li>
-            <li><strong>Slide type</strong> - choose the type of slide background (image / youtube video / no slide content)</li>
-            <li><strong>Select an image (default)</strong> - this image will be displayed on the large screens and on other screens if another image is not defined</li>
-            <li><strong>Select an image (tablet)</strong> - this image will be displayed on tablet screens</li>
-            <li><strong>Select an image (mobile)</strong> - this image will be displayed on mobile screens</li>
-            <li><strong>Select an image for Retina screens</strong> - this image will be displayed on retina screens</li>
+            <li><strong>Slide background type</strong> - choose the type of slide background (image / youtube video / no slide content)</li>
+            <li><strong>Multi images</strong> - use different image for each language</li>
+            <li><strong>*Select an image (default)</strong> - this image will be displayed on the large screens and on other screens if another image is not defined</li>
+            <li>*<strong>Select an image (tablet)</strong> - this image will be displayed on tablet screens</li>
+            <li>*<strong>Select an image (mobile)</strong> - this image will be displayed on mobile screens</li>
+            <li>*<strong>Select an image (retina)</strong> - this image will be displayed on retina screens</li>
+            <li>*<strong>Multi videos</strong> - use different video for each language</li>
+            <li>*<strong>Enter a youtube video code</strong> - enter youtube code</li>
+            <li>*<strong>Select a poster</strong> - select the image that will cover video slide</li>
             <li><strong>Slide description</strong> - enter the slide description</li>
+            <li><strong>Multi thumbnails</strong> - use different thumbnails for each language</li>
             <li><strong>Select an thumbnail image</strong> - choose the image for slide thumbnail</li>
             <li><strong>Thumbnail text</strong> - enter a thumbnail text</li>
         </ul>
     </li>
     <li>Click 'Save' button (1).</li>
+    <li>
+        <p>To edit the slide press the down arrow near the slide you want to edit and click the 'Edit' button (1). Options are the same as for creating new slide.</p>
+        <figure class="img-polaroid"><img src="" alt="" /></figure>
+    </li>
+    <li>
+        <p>To preview the slide just click on the needed slide in the list of slides or the 'View' button (1) on the slide.</p>
+        <figure class="img-polaroid"><img src="" alt="" /></figure>
+    </li>
+    <li>
+        <p>To delete the slide press the down arrow near the slide you want to remove and click the 'Delete' button (1). Then confirm the deletion.</p>
+        <figure class="img-polaroid"><img src="" alt="" /></figure>
+    </li>
 </ul>
 
 <h5>Adding slide content</h5>
 <ul class="index-list">
     <li>
-        <p>Navigate to TM Slider -> TM Slides in Admin panel and click the 'View' button (1) or simply click on the slide you want to edit.</p>
+        <p>Navigate to TM Slider -> TM Slides in Admin panel and click the 'View' button (1) or simply click on the slide for adding content.</p>
         <figure class="img-polaroid"><img src="" alt="" /></figure>
+    </li>
+    <li>
         <p>To add a new content layer click the 'Add new' ('+') button (1).</p>
+        <figure class="img-polaroid"><img src="" alt="" /></figure>
+    </li>
+    <li>
+        <p>Fill in the fields.</p>
         <figure class="img-polaroid"><img src="" alt="" /></figure>
         <ul class="marked-list">
             <li><strong>Item title</strong> - the title of he content layer</li>
@@ -61,32 +90,80 @@
         </ul>
     </li>
     <li>Click 'Save' button (1).</li>
+    <li>
+        <p>To edit the slide content layer, simply click on the layer or click the 'Edit' button (1).</p>
+        <figure class="img-polaroid"><img src="" alt="" /></figure>
+    </li>
+    <li>
+        <p>To delete the content layer press the down arrow near the layer you want to remove and click the 'Delete' button (1).</p>
+    </li>
 </ul>
 
 <h5>Creating slider</h5>
 <ul class="index-list">
     <li>
         <p>Navigate to TM Slider -> TM Sliders in Admin panel (1).</p>
+        <figure class="img-polaroid"><img src="" alt="" /></figure>
     </li>
     <li>
+        <p>To add a new slider click the 'Add new' ('+') button (1).</p>
+        <figure class="img-polaroid"><img src="" alt="" /></figure>
+    </li>
+    <li>
+        <p>Fill in the required field.</p>
+        <figure class="img-polaroid"><img src="" alt="" /></figure>
         <ul class="marked-list">
-            <li><strong>Select page</strong> - the page where the slider should be displayed</li>
-            <li><strong>Select hook</strong> - the hook for the slider</li>
-            <li><strong>Select slider</strong> - choose the slider</li>
-            <li><strong>Slider order</strong> - the order of sliders (if there are several in the same hook of the same page)</li>
-            <li><strong>Active</strong> - </li>
-            <li><strong>Slide only</strong> - display only the slide without related layouts</li>
-            <li><strong>Slider width(px)</strong> - display only the slide without related layouts</li>
-            <li><strong>Slider height</strong> - display only the slide without related layouts</li>
-            <li><strong>Responsive</strong> - Makes the slider responsive. The slider can be responsive even if the "width" and/or "height" properties are set to fixed values. In this situation, "width" and "height" will act as the maximum width and height of the slides.</li>
-            <li><strong>Allow autopaly</strong> - Indicates whether or not autoplay will be enabled. </li>
-            <li><strong>Autoplay delay</strong> - Sets the delay/interval (in milliseconds) at which the autoplay will run.</li>
-            <li><strong>Autoplay direction</strong> - Indicates whether autoplay will navigate to the next slide or previous slide.</li>
-            <li><strong>Autoplay on hover</strong> - Indicates if the autoplay will be paused or stopped when the slider is hovered. </li>
-            <li><strong>Fade</strong> - Indicates if fade will be used.</li>
-            <li><strong>Fade out previous slide</strong> - Indicates if the previous slide will be faded out (in addition to the next slide being faded in).</li>
+            <li><strong>Slider name</strong> - enter the slider name</li>
         </ul>
     </li>
-    <li></li>
+    <li>
+        <p>To open and edit the list of slides in current slider, click the 'View' button (1).</p>
+        <figure class="img-polaroid"><img src="" alt="" /></figure>
+    </li>
+    <li>
+        <p>To edit the slide in current slider, simply click on the target slide or click the 'Edit' button (1).</p>
+        <figure class="img-polaroid"><img src="" alt="" /></figure>
+    </li>
+    <li>
+        <p>Define settings the added slide.</p>
+        <figure class="img-polaroid"><img src="" alt="" /></figure>
+        <ul class="marked-list">
+            <li><strong>Select slide</strong> - choose the slide for adding to slider</li>
+            <li><strong>Active</strong> - enable / disable slide</li>
+            <li><strong>Slide order</strong> - the order of current slide</li>
+        </ul>
+    </li>
+    <li>
+        <p>To delete the slide from current slider press the down arrow near the slide you want to remove and click the 'Delete' button (1).</p>
+        <figure class="img-polaroid"><img src="" alt="" /></figure>
+    </li>
+    <li>Editing or removing slider is proceeded the same way.</li>
+</ul>
 
+<h5>Managing Relations</h5>
+<ul class="index-list">
+    <li>
+        <p>Navigate to TM Slider -> Manage Relations in Admin panel (1).</p>
+        <figure class="img-polaroid"><img src="" alt="" /></figure>
+    </li>
+    <li>
+        <p>To add new relation click the 'Add new' ('+') button (1) in the top right corner of the screen.</p>
+        <figure class="img-polaroid"><img src="" alt="" /></figure>
+    </li>
+    <li>
+        <p></p>
+        <figure class="img-polaroid"><img src="" alt="" /></figure>
+        <ul class="marked-list">
+            <li><strong></strong> - </li>
+
+        </ul>
+    </li>
+    <li>
+        <p>To edit the realtion, simply click on the relation or click the 'Edit' button (1).</p>
+        <figure class="img-polaroid"><img src="" alt="" /></figure>
+    </li>
+    <li>
+        <p>To delete the slide from current slider press the down arrow near the slide you want to remove and click the 'Delete' button (1).</p>
+    </li>
+    
 </ul>

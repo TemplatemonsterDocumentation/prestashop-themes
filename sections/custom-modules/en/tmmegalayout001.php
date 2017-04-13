@@ -389,7 +389,7 @@
 <p>Module, assigned to this hook.</p>
 
 <h4>Adding the module</h4>
-<p class="box-notification"><span>Be careful when adding modules to the preset, some of the modules are desirable to use if if they do not change the visible layout, e.g., 'Data mining for statistics' statistics module.</span></p>
+<p class="alert alert-warning"><span>Be careful when adding modules to the preset, some of the modules are desirable to use if if they do not change the visible layout, e.g., 'Data mining for statistics' statistics module.</span></p>
 <ul class="index-list">
     <li>
         <p>In order to add the module to the preset in a column block, open the menu  (the 'ellipsis' icon) (1).</p>

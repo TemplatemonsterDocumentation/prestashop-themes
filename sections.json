@@ -150,5 +150,25 @@
 		"custom-modules",
 		"cookies-policy",
 		"addendum"
+	],
+	"giftterrs": [
+		"introduction",
+		"getting-started",
+		"template-installation",
+		"basic-tutorials",
+		"tm-mega-layout",
+		"custom-modules",
+		"cookies-policy",
+		"addendum"
+	],
+	"boygirl": [
+		"introduction",
+		"getting-started",
+		"template-installation",
+		"basic-tutorials",
+		"tm-mega-layout",
+		"custom-modules",
+		"cookies-policy",
+		"addendum"
 	]
 }
