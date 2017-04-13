@@ -1,11 +1,12 @@
 <h3>TM MotoPress Slider</h3>
-<?php if ($project == 'eveprest') { ?>
-    <div>
-        <p style="margin-bottom: 0;">Available in:</p>
-        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture</p>
-    </div>
-<?php } ?>
-
+<div class="pdf-hidden">
+    <?php if ($project == 'eveprest') { ?>
+        <div>
+            <p style="margin-bottom: 0;">Available in:</p>
+            <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture</p>
+        </div>
+    <?php } ?>
+</div>
 <h4>Module Installation</h4>
 <p>This module provides the ability to add MotoPress Slider to your HTML page. It can be installed like any other
     PrestaShop module:</p>

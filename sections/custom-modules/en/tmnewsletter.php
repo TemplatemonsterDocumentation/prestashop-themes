@@ -1,10 +1,13 @@
 <h3>TM Newsletter</h3>
-<?php if ($project == 'eveprest' ) { ?>
-    <div>
-        <p style="margin-bottom: 0;">Available in:</p>
-        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One Product</p>
-    </div>
-<?php } ?>
+<div class="pdf-hidden">
+    <?php if ($project == 'eveprest') { ?>
+        <div>
+            <p style="margin-bottom: 0;">Available in:</p>
+            <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One
+                Product</p>
+        </div>
+    <?php } ?>
+</div>
 <p>The module displays a notification with a proposal to subscribe to store newsletter
     in a pop-up window. The email check can be enabled in module settings by means of
     confirmation email. You can also adjust the timeout between reminders for registered

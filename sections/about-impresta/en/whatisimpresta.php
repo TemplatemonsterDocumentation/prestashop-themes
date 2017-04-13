@@ -21,27 +21,18 @@
         </div>
     </li>
     <li>
-        <div class="ribbon">
-            <span>COMING SOON</span>
-        </div>
         <div class="theme-bg-4 inset-1 overflow-hidden">
             <img src="projects/impresta/img/themes/cosmetics_logo.png" alt="">
             <p>This theme would be the perfect solution for your beauty shop. To build trust, it's important to keep users updated on new arrivals and let them know which items would help them save money. This is when catchy banners with announcements on special offers and slideshows with featured items discounts come in handy.</p>
         </div>
     </li>
     <li>
-        <div class="ribbon">
-            <span>COMING SOON</span>
-        </div>
         <div class="theme-bg-5 inset-1 overflow-hidden">
             <img src="projects/impresta/img/themes/kids_logo.png" alt="">
             <p>Theme produced for baby store websites. Create and switch layouts easily with Mega Layout Builder. Enjoy the brightness of design with a cool Theme Color Switcher. This baby shop theme boasts a vibrant design with colorful menu items, promo banners, and many other elements. This template is a very successful attempt to say that this is the best place to shop for infants' clothes and stuff.</p>
         </div>
     </li>
     <li>
-        <div class="ribbon">
-            <span>COMING SOON</span>
-        </div>
         <div class="theme-bg-6 inset-1 overflow-hidden">
             <img src="projects/impresta/img/themes/bikes_logo.png" alt="">
             <p>A stylish bike shop theme built for selling bikes, bicycles, bike parts, accessories and other sport equipment. The theme is preferred by online store owners who are looking for a stable functionality and unobtrusive design easily customizable to fit to their brand. The complex customization tool allows you to switch between several color schemes, headers, footers and homepage layouts.</p>

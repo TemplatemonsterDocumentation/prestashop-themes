@@ -499,10 +499,10 @@ body:not([data-section="introduction"]) {
   background: $secondary-color;
 }
 
-///////////////////////////////////////////////
-////FOR CREATING PDF VERSION!!!!!!!!!!!!!!!!!!!!
-///////////////////////////////////////////////
-//
+/////////////////////////////////////////////
+//FOR CREATING PDF VERSION!!!!!!!!!!!!!!!!!!!!
+/////////////////////////////////////////////
+
 //.rd-mobilemenu, .rd-mobilepanel_toggle, .rd-mobilepanel, .toTop {
 //  display: none;
 //}
@@ -529,4 +529,8 @@ body:not([data-section="introduction"]) {
 //
 //article.description {
 //  padding-top: 0px;
+//}
+//
+//.pdf-hidden {
+//  display: none;
 //}

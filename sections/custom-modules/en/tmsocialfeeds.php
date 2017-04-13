@@ -1,10 +1,12 @@
 <h3>TM Social Feeds</h3>
-<?php if ($project == 'eveprest' ) { ?>
-    <div>
-        <p style="margin-bottom: 0;">Available in:</p>
-        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Furniture, One Product</p>
-    </div>
-<?php } ?>
+<div class="pdf-hidden">
+    <?php if ($project == 'eveprest') { ?>
+        <div>
+            <p style="margin-bottom: 0;">Available in:</p>
+            <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Furniture, One Product</p>
+        </div>
+    <?php } ?>
+</div>
 <p>This module loads the social networks feeds on your website. It enables the site visitors to be aware of the latest
     news and posts shared on the social networks.</p>
 <h4>Installation and Deleting</h4>
@@ -108,12 +110,12 @@
             <dd>display block in specific position.</dd>
         </dl>
     </li>
-<!--    <li>-->
-<!--        <dl class="inline-term">-->
-<!--            <dt>Select theme</dt>-->
-<!--            <dd>color scheme of the block for this position.</dd>-->
-<!--        </dl>-->
-<!--    </li>-->
+    <!--    <li>-->
+    <!--        <dl class="inline-term">-->
+    <!--            <dt>Select theme</dt>-->
+    <!--            <dd>color scheme of the block for this position.</dd>-->
+    <!--        </dl>-->
+    <!--    </li>-->
     <li>
         <dl class="inline-term">
             <dt>Sort order</dt>
@@ -132,18 +134,18 @@
             <dd>block height in this position.</dd>
         </dl>
     </li>
-<!--    <li>-->
-<!--        <dl class="inline-term">-->
-<!--            <dt>Enable header</dt>-->
-<!--            <dd>show block title.</dd>-->
-<!--        </dl>-->
-<!--    </li>-->
-<!--    <li>-->
-<!--        <dl class="inline-term">-->
-<!--            <dt>Enable border</dt>-->
-<!--            <dd>show footer of the block.</dd>-->
-<!--        </dl>-->
-<!--    </li>-->
+    <!--    <li>-->
+    <!--        <dl class="inline-term">-->
+    <!--            <dt>Enable header</dt>-->
+    <!--            <dd>show block title.</dd>-->
+    <!--        </dl>-->
+    <!--    </li>-->
+    <!--    <li>-->
+    <!--        <dl class="inline-term">-->
+    <!--            <dt>Enable border</dt>-->
+    <!--            <dd>show footer of the block.</dd>-->
+    <!--        </dl>-->
+    <!--    </li>-->
     <li>
         <dl class="inline-term">
             <dt>Small header</dt>
@@ -219,7 +221,8 @@
 <!--</p>-->
 <!--<p><strong>Client ID</strong> - a unique ID assigned during widget registration on Instagram.</p>-->
 <!--<p><strong>User Name</strong> - username used to link the owner's page.</p>-->
-<p>Selection type (<strong>Get Feeds by</strong>): you can set whether the images are loaded from specific user or by tag.</p>
+<p>Selection type (<strong>Get Feeds by</strong>): you can set whether the images are loaded from specific user or by
+    tag.</p>
 <p><strong>Tag</strong> by which images are loaded.</p>
 <p><strong>Name</strong> of the user whose images will be loaded.</p>
 <!--<p><strong>Instagram access token</strong> - access token of the user who owns the page.</p>-->
@@ -238,12 +241,12 @@
             <dd>display block in specific position.</dd>
         </dl>
     </li>
-<!--    <li>-->
-<!--        <dl class="inline-term">-->
-<!--            <dt>Sort order</dt>-->
-<!--            <dd>sort order (order number of the block in this position).</dd>-->
-<!--        </dl>-->
-<!--    </li>-->
+    <!--    <li>-->
+    <!--        <dl class="inline-term">-->
+    <!--            <dt>Sort order</dt>-->
+    <!--            <dd>sort order (order number of the block in this position).</dd>-->
+    <!--        </dl>-->
+    <!--    </li>-->
     <li>
         <dl class="inline-term">
             <dt>Widget feeds limit</dt>

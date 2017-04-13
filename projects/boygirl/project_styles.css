@@ -1,0 +1,165 @@
+@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CRubik:400,700%7CPlay:400,600,700);
+h2 {
+  color: #2983b7;
+}
+
+h3 {
+  color: #2983b7;
+}
+
+h4 {
+  color: #2983b7;
+}
+
+main {
+  padding-top: 80px;
+}
+
+.page-content .rd-mobilepanel {
+  background-position: 60% bottom;
+}
+.page-content.active .rd-mobilepanel {
+  background-position: 60% bottom;
+}
+
+.rd-mobilepanel {
+  box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
+  transition-property: height;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+}
+.rd-mobilepanel_toggle {
+  z-index: 99999999;
+}
+.rd-mobilepanel_toggle span, .rd-mobilepanel_toggle span:before, .rd-mobilepanel_toggle span:after {
+  background-color: #eeeeee;
+}
+.rd-mobilepanel.fixed {
+  background: -webkit-repeating-linear-gradient(left top, #555555 73%, #f7f7f7 98%);
+  /* Chrome10+,Safari5.1+ */
+  background: -moz-repeating-linear-gradient(left top, #555555 73%, #f7f7f7 98%);
+  /* FF3.6+ */
+  background: -o-repeating-linear-gradient(left top, #555555 73%, #f7f7f7 98%);
+  /* Opera 11.10+ */
+  background: -ms-repeating-linear-gradient(left top, #555555 73%, #f7f7f7 98%);
+  /* IE10+ */
+  background: repeating-linear-gradient(to right bottom, #555555 73%, #f7f7f7 98%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$secondary-color, endColorstr=$default-color-light);
+  /* IE6-8 */
+  background-size: 10px 10px;
+  background-repeat: repeat;
+  border-bottom: none;
+  box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
+}
+
+[data-section="introduction"] .rd-mobilepanel {
+  background: -webkit-repeating-linear-gradient(left top, #555555 73%, #f7f7f7 98%);
+  /* Chrome10+,Safari5.1+ */
+  background: -moz-repeating-linear-gradient(left top, #555555 73%, #f7f7f7 98%);
+  /* FF3.6+ */
+  background: -o-repeating-linear-gradient(left top, #555555 73%, #f7f7f7 98%);
+  /* Opera 11.10+ */
+  background: -ms-repeating-linear-gradient(left top, #555555 73%, #f7f7f7 98%);
+  /* IE10+ */
+  background: repeating-linear-gradient(to right bottom, #555555 73%, #f7f7f7 98%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=$secondary-color, endColorstr=$default-color-light);
+  /* IE6-8 */
+  background-size: 10px 10px;
+  background-repeat: repeat;
+  height: 500px;
+  z-index: 99999998;
+}
+[data-section="introduction"] .rd-mobilepanel:before {
+  content: '';
+  position: absolute;
+  background-position: 60% bottom;
+  background-image: url("img/header-bg.png");
+  transition-property: height;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  z-index: 99999999;
+}
+[data-section="introduction"] .rd-mobilepanel.fixed {
+  height: 56px;
+  transition: top 1s ease-out 0.5s;
+}
+[data-section="introduction"] .rd-mobilepanel.fixed:before {
+  background-image: none;
+}
+
+body:not([data-section="introduction"]) .tm-title-caption {
+  display: none;
+}
+
+.rd-mobilepanel_title {
+  font-family: "Rubik", sans-serif;
+  top: 250px;
+  left: 80px;
+  right: auto;
+  color: #eeeeee;
+  text-transform: uppercase;
+}
+
+.tm-title-caption {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  top: 350px;
+  left: 85px;
+  right: auto;
+  color: #eeeeee;
+  text-transform: uppercase;
+}
+
+.rd-mobilemenu {
+  background-color: transparent;
+}
+.rd-mobilemenu:before {
+  box-shadow: -5px 0 7px 0 rgba(0, 0, 0, 0.1);
+}
+.rd-mobilemenu .logo {
+  background-color: #f2f2f2;
+}
+.rd-mobilemenu li {
+  font-family: "Rubik", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: .2px;
+}
+.rd-mobilemenu_ul a {
+  padding: 13px 25px 14px;
+}
+.rd-mobilemenu_ul a:hover, .rd-mobilemenu_ul a.active, .rd-mobilemenu_ul a.opened {
+  background-color: #fee7ed;
+}
+.rd-mobilemenu_ul ul a.focus {
+  color: #f93a66;
+}
+
+.toTop {
+  background-color: #20658d;
+}
+.toTop:hover {
+  background: #2983b7;
+}
+
+.files_structure li .fa {
+  color: #2983b7;
+}
+
+.codebox {
+  background-color: #f7f7f7;
+}
+
+.small {
+  font-size: .9em;
+  letter-spacing: .3px;
+}

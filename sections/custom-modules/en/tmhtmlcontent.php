@@ -1,10 +1,13 @@
 <h3>TM HTML Content</h3>
-<?php if ($project == 'eveprest' ) { ?>
-    <div>
-        <p style="margin-bottom: 0;">Available in:</p>
-        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One Product</p>
-    </div>
-<?php } ?>
+<div class="pdf-hidden">
+    <?php if ($project == 'eveprest') { ?>
+        <div>
+            <p style="margin-bottom: 0;">Available in:</p>
+            <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One
+                Product</p>
+        </div>
+    <?php } ?>
+</div>
 <p>This module allows to display any content (image, HTML, links, etc.) in the following positions: displayNav, home,
     top, topColumn, left and right (displayLeftColumn/displayRightColumn), footer. It is used to expand design
     opportunities and add advertisement/information blocks to your store. It is a multilanguage module and can also work
@@ -16,18 +19,21 @@
 <ul class="index-list">
     <li>Click <strong>'Add new'</strong> button.</li>
     <li>The list of available languages. You can view the available elements for all languages by switching the
-        language tabs.</li>
+        language tabs.
+    </li>
     <li>The list of elements added for specific position and language.</li>
 </ul>
 <figure class="img-polaroid">
     <img src="img/htmlcontent.png" alt=""/>
 </figure>
-<h6>Adding the element. Click <strong>Add item</strong> button and fill in the required settings (none of the fields are mandatory).</h6>
+<h6>Adding the element. Click <strong>Add item</strong> button and fill in the required settings (none of the fields are
+    mandatory).</h6>
 <p class="alert alert-info"> All elements of one language added to the same position will be displayed as a list at the
     backend and frontend.</p>
 <figure class="img-polaroid">
     <img src="img/htmlcontent-1.png" alt=""/>
-</figure><ul class="marked-list">
+</figure>
+<ul class="marked-list">
     <li>
         <dl class="inline-term">
             <dt>Language</dt>

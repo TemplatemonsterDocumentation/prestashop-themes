@@ -1,9 +1,7 @@
 <h3>TM Mega Layout 1.1.0</h3>
-
 <p>This module is designed to allow creating custom layouts (presets) for hooks and displaying them at site instead of
     the default positions. This module advantage is allowing you to create different hook markups and modify them up to
     your needs.</p>
-
 <h4>Functional characteristics and features of the module</h4>
 <ul class="index-list">
     <li>

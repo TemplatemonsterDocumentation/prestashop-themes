@@ -1,10 +1,12 @@
 <h3>TM Related Products</h3>
-<?php if ($project == 'eveprest' ) { ?>
-    <div>
-        <p style="margin-bottom: 0;">Available in:</p>
-        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture</p>
-    </div>
-<?php } ?>
+<div class="pdf-hidden">
+    <?php if ($project == 'eveprest') { ?>
+        <div>
+            <p style="margin-bottom: 0;">Available in:</p>
+            <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture</p>
+        </div>
+    <?php } ?>
+</div>
 <p>Given module was designed in order to add and display the related products on the
     product page.</p>
 <h4>Module installation</h4>

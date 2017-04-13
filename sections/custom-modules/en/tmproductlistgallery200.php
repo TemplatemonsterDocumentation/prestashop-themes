@@ -1,16 +1,21 @@
 <h3>TM Product List Gallery 2.0.0</h3>
-<?php if ($project == 'eveprest' ) { ?>
-    <div>
-        <p style="margin-bottom: 0;">Available in:</p>
-        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One Product</p>
-    </div>
-<?php } ?>
-<p>This module displays all the available product images in form of a gallery on product listing pages. Depending on what settings you choose, the module can display images in form of a rollover or slideshow.</p>
+<div class="pdf-hidden">
+    <?php if ($project == 'eveprest') { ?>
+        <div>
+            <p style="margin-bottom: 0;">Available in:</p>
+            <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One
+                Product</p>
+        </div>
+    <?php } ?>
+</div>
+<p>This module displays all the available product images in form of a gallery on product listing pages. Depending on
+    what settings you choose, the module can display images in form of a rollover or slideshow.</p>
 <h5>Module Installation and Deleting </h5>
 <p>This module can be installed and deleted like any other PrestaShop module.</p>
 <h5>Module settings</h5>
-<p>After the module is installed, open the product-list.tpl file in your template root folder, find the following code:<br/></p>
-<figure class="img-polaroid"><img src="img/tmproductlistgallery-1.png" alt="" /></figure>
+<p>After the module is installed, open the product-list.tpl file in your template root folder, find the following
+    code:<br/></p>
+<figure class="img-polaroid"><img src="img/tmproductlistgallery-1.png" alt=""/></figure>
 <p>and replace it with:</p>
 <pre class="codebox">
     {capture name='displayProductListGallery'}{hook h='displayProductListGallery' product=$product}{/capture}
@@ -28,7 +33,7 @@
     <li><strong>Type</strong> - select display type: rollover or slideshow.</li>
 </ul>
 <p>If you choose <strong>rollover</strong>, you can choose the animation effect:</p>
-<figure class="img-polaroid"><img src="img/tmproductlistgallery-2.png" alt="" /></figure>
+<figure class="img-polaroid"><img src="img/tmproductlistgallery-2.png" alt=""/></figure>
 <strong>Animation type:</strong>
 <ul class="marked-list">
     <li><strong>Opacity slide</strong> - opacity changes;</li>
@@ -36,7 +41,7 @@
     <li><strong>Vertical slide</strong> - vertical.</li>
 </ul>
 <p>If you choose <strong>slideshow</strong>, you will find the following settings available:</p>
-<figure class="img-polaroid"><img src="img/tmproductlistgallery-3.png" alt="" /></figure>
+<figure class="img-polaroid"><img src="img/tmproductlistgallery-3.png" alt=""/></figure>
 <ul class="marked-list">
     <li><strong>Display items</strong> - the number of items displayed;</li>
     <li><strong>Infinite</strong> - endless slideshow cycle;</li>

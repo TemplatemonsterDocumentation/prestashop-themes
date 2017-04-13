@@ -11,7 +11,6 @@
     </div>
     <hr style="margin-top: 30px;">
 <?php } ?>
-
 <p>Module is used to make the process of making an order much faster and easier than it was before.<br>
     It simplifies the procedure from five steps to one and makes it more appealing for the customers who want to save
     their time while making an order.<br>

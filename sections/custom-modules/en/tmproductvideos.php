@@ -1,15 +1,19 @@
 <h3>TM Product Videos</h3>
-<?php if ($project == 'eveprest' ) { ?>
-    <div>
-        <p style="margin-bottom: 0;">Available in:</p>
-        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One Product</p>
-    </div>
-<?php } ?>
+<div class="pdf-hidden">
+    <?php if ($project == 'eveprest') { ?>
+        <div>
+            <p style="margin-bottom: 0;">Available in:</p>
+            <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One
+                Product</p>
+        </div>
+    <?php } ?>
+</div>
 <p>This module allows to add unlimited number of videos to any product in any language and store.</p>
 <h5>Installation and deleting</h5>
 <p>The module is installed and deleted like any other Prestashop module. It has no configuration page and supports
     multi-stores.</p>
-<p>After module installation you will see the new tab in your product configuration page (Catalog -> Product -> select any
+<p>After module installation you will see the new tab in your product configuration page (Catalog -> Product -> select
+    any
     product - TM Product Videos).</p>
 <p>To add a video to any product, you should fill in the required fields (the link field is mandatory). The module is
     multilanguage, so you will have to fill in the fields for all languages this video is related to. If the Link field
@@ -36,7 +40,8 @@
     </li>
 </ul>
 <p>If the product has video related to this language, you will see the list of videos below.</p>
-<p>To save, delete or edit the list, there is no need to click <strong>'Save'</strong>/<strong>'Save and Stay'</strong> button. Use the buttons located in the
+<p>To save, delete or edit the list, there is no need to click <strong>'Save'</strong>/<strong>'Save and Stay'</strong>
+    button. Use the buttons located in the
     video blocks. To change the order of videos, use drag-and-drop method to change their position. To enable/disable
     the video, use the button next to video. To edit videos, fill in the fields with required data and click <strong>'Update'</strong>
     button.</p>

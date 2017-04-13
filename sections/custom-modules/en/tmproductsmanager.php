@@ -1,7 +1,6 @@
 <h3>TM Products Manager</h3>
 <h4>Introduction</h4>
 <p>The module is created for managing online shops, especially shops with big amount of products. Using this module you can easily filter your products and make different operations on them.</p>
-
 <h4>Installation and removal of the module</h4>
 <p>The module is installed and removed as any Prestashop module.</p>
 <p class="alert alert-info">

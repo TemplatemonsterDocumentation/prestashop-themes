@@ -1,10 +1,12 @@
 <h3>TM Products Slider 2.0.0</h3>
-<?php if ($project == 'eveprest' ) { ?>
-    <div>
-        <p style="margin-bottom: 0;">Available in:</p>
-        <p style="margin-top: 0;" class="small text-secondary">Electronics, Furniture</p>
-    </div>
-<?php } ?>
+<div class="pdf-hidden">
+    <?php if ($project == 'eveprest') { ?>
+        <div>
+            <p style="margin-bottom: 0;">Available in:</p>
+            <p style="margin-top: 0;" class="small text-secondary">Electronics, Furniture</p>
+        </div>
+    <?php } ?>
+</div>
 <h4>Introduction</h4>
 <p>This module serves for creating galleries, based on product data and displaying them in form of slides on the website
     frontend. The module supplies 4 methods of displaying the gallery with individual settings and appearance. Each
@@ -12,7 +14,8 @@
     amount of products with diverse information.</p>
 <h4>Installation and removal of the module</h4>
 <p class="alert alert-warning">
-    If you have the 1.n version of this module installed in your prestashop engine, you are not suggested to update it with the current one. First you need to remove the old version of the module to run without errors.
+    If you have the 1.n version of this module installed in your prestashop engine, you are not suggested to update it
+    with the current one. First you need to remove the old version of the module to run without errors.
 </p>
 <p>The module is installed and removed as any default Prestashop module.</p>
 <p class="alert alert-info">
