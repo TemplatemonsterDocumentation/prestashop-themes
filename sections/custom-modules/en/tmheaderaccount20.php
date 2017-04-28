@@ -12,6 +12,10 @@
     If you have the 1.n version of this module installed in your prestashop engine, you are not suggested to update it
     with the current one. First you need to remove the old version of the module to run without errors.
 </p>
+<p class="alert alert-warning">
+    For the correct module functioning, make sure that the service for sending messages on server is configured correctly.
+    To check if it works correctly navigate to Admin panel -> Advanced parameters -> E-mail -> Test your email configuration -> Send a test email.
+</p>
 <p>This module displays login and registration forms on the website. It can take the following positions: website
     header, left and right column. The module allows to log in and register using such social networks as Facebook,
     Google+ and VK, which is convenient for website users. Registration or logging in proceeds without reloading the
