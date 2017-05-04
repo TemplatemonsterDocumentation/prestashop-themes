@@ -247,6 +247,8 @@
                         fz = 95;
                     } else if ($('body').data('project') == "watchelli") {
                         fz = 60;
+                    } else if ($('body').data('project') == "starcosmetics") {
+                        fz = 60;
                     } else {
                         fz = 70;
                     }

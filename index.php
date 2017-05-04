@@ -62,9 +62,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   <select>
                     <option data-href="/help/quick-start-guide/prestashop-themes/v1-5/index_en.html">Version v1-5</option>
                     <option data-href="#" selected>Version v1-3</option> 
-                    <option data-href="/help/quick-start-guide/prestashop-themes/v1-2/index_en.html">Version v1-2</option> 
-                    <option data-href="/help/quick-start-guide/prestashop-themes/v1-1/index_en.html">Version v1-1</option> 
-                    <option data-href="/help/quick-start-guide/prestashop-themes/v1-0/index_en.html">Version v1-0</option> 
+                    <option data-href="/help/quick-start-guide/prestashop-themes/v1-2/index_en.html">Version v1-2</option>
+                    <option data-href="/help/quick-start-guide/prestashop-themes/v1-1/index_en.html">Version v1-1</option>
+                    <option data-href="/help/quick-start-guide/prestashop-themes/v1-0/index_en.html">Version v1-0</option>
                   </select>
               </div>
               <div class="select select-lang">

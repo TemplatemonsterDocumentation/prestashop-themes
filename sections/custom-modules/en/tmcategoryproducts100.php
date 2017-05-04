@@ -69,7 +69,7 @@
             <li>
                 <p>Select products to display - if disabled, displays the 'Number of products to display' field, which
                     sets the
-                    number of products to display. If disabled, displays the 'Add products' button that allows selecting
+                    number of products to display. If enabled, displays the 'Add products' button that allows selecting
                     products to display in the tab.</p>
             </li>
             <li>

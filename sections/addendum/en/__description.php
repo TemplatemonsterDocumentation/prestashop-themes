@@ -13,7 +13,8 @@
             <a href="http://support.template-help.com/index.php?/Tickets/Submit" target="_blank">Help ticket system</a>
         </p>
     </li>
-</ul><h4>Useful resources</h4>
+</ul>
+<h4>Useful resources</h4>
 <ul class="marked-list">
     <li>
         <p>
@@ -44,11 +45,6 @@
     <li>
         <p>
             <a target="_blank" href="http://www.prestashop.com/wiki/">Wiki</a>
-        </p>
-    </li>
-    <li>
-        <p>
-            <a target="_blank" href="/help/ecommerce/prestashop/prestashop-tutorials/">PrestaShop tutorials</a>
         </p>
     </li>
 </ul>
