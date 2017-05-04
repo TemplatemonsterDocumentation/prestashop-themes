@@ -170,5 +170,14 @@
 		"custom-modules",
 		"cookies-policy",
 		"addendum"
+	],
+	"starcosmetics": [
+		"introduction",
+		"getting-started",
+		"template-installation",
+		"basic-tutorials",
+		"custom-modules",
+		"cookies-policy",
+		"addendum"
 	]
 }
