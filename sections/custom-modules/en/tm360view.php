@@ -86,9 +86,9 @@
     </li>
 </ul>
 <h4>Panorama</h4>
-<p>Using this module is also used for adding panorama view to the Homepage.</p>
-<p class="alert alert-warning">You can add as much panorama blocks as you need.</p>
-<h5>Adding panorama</h5>
+<p>Using this module is also used for adding panorama view to homepage or to the product page.</p>
+<p class="alert alert-warning">You can add as much panorama blocks as you need to the homepage.</p>
+<h5>Adding panorama to the Homepage</h5>
 <ul class="index-list">
     <li>
         <p>To add new panorama open the module configuration page and click '+' ('Add new item') button (1).</p>
@@ -122,7 +122,7 @@
         <p>Click the 'Save' button and your panorama image will appear on the Homepage.</p>
     </li>
 </ul>
-<h5>Removing panorama</h5>
+<h5>Removing panorama from Homepage</h5>
 <ul class="index-list">
     <li>
         <p>To remove the panorama - choose the item, click the arrow down button (1) and then click 'Delete' (2).</p>
