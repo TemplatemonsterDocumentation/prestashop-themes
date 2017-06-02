@@ -1,0 +1,28 @@
+{
+  "id": "layouts-structure",
+  "translations": {
+    "en": "Layouts structure"
+  },
+  "articles": {
+    "leuendano": [
+      {
+        "id": "layout1",
+        "translations": {
+          "en": "Layout 1"
+        }
+      },
+      {
+        "id": "layout2",
+        "translations": {
+          "en": "Layout 2"
+        }
+      },
+      {
+        "id": "layout3",
+        "translations": {
+          "en": "Layout 3"
+        }
+      }
+    ]
+  }
+}
