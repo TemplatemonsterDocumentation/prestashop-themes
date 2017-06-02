@@ -3,7 +3,7 @@
 //========================================================
 
 $default-color: #7d7d7d;
-$primary-color: #fe9b4b;
+$primary-color: #00b3d4;
 $secondary-color-light: #f7f7f7;
 $dark-color: #131313;
 $header-background-color: #ae4f83;
@@ -51,7 +51,8 @@ h3 {
 		background-color: $header-color;
 	}
 	&.fixed {
-		background: linear-gradient(90deg, #C35A2F, #f4f4f4);
+		background: -webkit-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), -webkit-radial-gradient(rgb(255,255,255) 15%, rgba(0,0,0,0) 16%), rgb(50, 58, 81);
+		background-size: 7px 7px;
 		border-bottom: none;
 		box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
 	}
@@ -59,7 +60,8 @@ h3 {
 
 [data-section="introduction"] {
 	.rd-mobilepanel {
-		background: linear-gradient(90deg, #C35A2F, #f4f4f4);
+		background: radial-gradient(rgb(170,170,170) 15%, rgba(0,0,0,0) 16%), radial-gradient(rgb(170,170,170) 15%, rgba(0,0,0,0) 16%), rgb(54, 74, 121);
+		background-size: 7px 7px;
 		height: 500px;
 		z-index: 99999998;
 

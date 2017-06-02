@@ -19,6 +19,16 @@
         </figure>
     </li>
     <li>
+        <p>You will see the pop-up window offering different types of sample data installation. By default it's set to 'Load all content' type (1). This means that all sample data will be imported to your store. If that's what you need, click the  'Confirm' button.</p>
+        <figure class="img-polaroid">
+            <img src="img/auto-install-8.png" alt=""/>
+        </figure>
+        <p>If you do not need to install all sample data, uncheck 'Load all content' (1), choose from the required options below by checking options the same way (2) and confirm your choice (3).</p>
+        <figure class="img-polaroid">
+            <img src="img/auto-install-9.png" alt=""/>
+        </figure>
+    </li>
+    <li>
         <p>Wait until the files are uploaded.</p>
         <figure class="img-polaroid">
             <img src="img/auto-install-3.png" alt=""/>

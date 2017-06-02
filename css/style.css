@@ -182,6 +182,11 @@ hr {
   text-align: center;
   box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, 0.15);
 }
+.img-polaroid-custom {
+  width: 1200px;
+  border-right: none;
+  text-align: center;
+}
 
 .clearfix {
   clear: both;
