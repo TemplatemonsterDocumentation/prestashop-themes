@@ -206,5 +206,14 @@
 		"custom-modules",
 		"cookies-policy",
 		"addendum"
+	],
+	"eximinn": [
+		"introduction",
+		"getting-started",
+		"template-installation",
+		"basic-tutorials",
+		"custom-modules",
+		"cookies-policy",
+		"addendum"
 	]
 }
