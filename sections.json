@@ -215,5 +215,14 @@
 		"custom-modules",
 		"cookies-policy",
 		"addendum"
+	],
+	"autotune": [
+		"introduction",
+		"getting-started",
+		"template-installation",
+		"basic-tutorials",
+		"custom-modules",
+		"cookies-policy",
+		"addendum"
 	]
 }

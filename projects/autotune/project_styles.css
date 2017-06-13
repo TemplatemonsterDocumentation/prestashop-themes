@@ -28,13 +28,13 @@ h3 {
   background-color: white;
 }
 .rd-mobilepanel.fixed {
-  background-color: #5270a7;
+  background-color: #404a7e;
   border-bottom: none;
   box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
 }
 
 [data-section="introduction"] .rd-mobilepanel {
-  background-color: #5270a7;
+  background-color: #404a7e;
   height: 500px;
   z-index: 99999998;
 }

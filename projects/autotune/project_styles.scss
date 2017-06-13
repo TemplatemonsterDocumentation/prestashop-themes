@@ -51,7 +51,7 @@ h3 {
 		background-color: $header-color;
 	}
 	&.fixed {
-		background-color: rgb(82,112,167);
+		background-color: #404a7e;
 		border-bottom: none;
 		box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
 	}
@@ -59,7 +59,7 @@ h3 {
 
 [data-section="introduction"] {
 	.rd-mobilepanel {
-		background-color: rgb(82,112,167);
+		background-color: #404a7e;
 		height: 500px;
 		z-index: 99999998;
 
