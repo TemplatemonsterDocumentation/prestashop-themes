@@ -1,26 +1,46 @@
 {
   "id": "about-eveprest",
   "translations": {
-    "en": "About Eveprest"
+    "en": "About Eveprest",
+    "de": "Über Eveprest",
+    "es": "Sobre Eveprest",
+    "fr": "À propos d'Everest",
+    "it": "Su Eveprest",
+    "ru": "Про Eveprest"
   },
   "articles": {
     "eveprest": [
       {
         "id": "whatiseveprest",
         "translations": {
-          "en": "What is Eveprest"
+          "en": "What is Eveprest",
+          "de": "Was ist eigentlich Eveprest",
+          "es": "Que es Eveprest",
+          "fr": "Qu'est-ce que Eveprest?",
+          "it": "Che cosa è Eveprest",
+          "ru": "Что такое Eveprest"
         }
       },
       {
         "id": "mainfeatures",
         "translations": {
-          "en": "Main Features"
+          "en": "Main Features",
+          "de": "Wichtige Eigenschaften",
+          "es": "Main Feautures",
+          "fr": "Caractéristiques Principales",
+          "it": "Main Caratteristiche",
+          "ru": "Основные свойства"
         }
       },
       {
         "id": "modulesineveprest",
         "translations": {
-          "en": "TM Modules used in Eveprest"
+          "en": "TM Modules used in Eveprest",
+          "de": "TM Module, die in Eveprest verwendet sind",
+          "es": "Módulos TM utilizados en Eveprest",
+          "fr": "Modules TM utilisés dans Everest",
+          "it": "TM Modules uso in Eveprest",
+          "ru": "Модули TM, которые используются в Eveprest"
         }
       }
     ]

@@ -1,26 +1,46 @@
 {
 	"id": "update",
 	"translations": {
-		"en": "Update"
+		"en": "Update",
+		"de": "Update",
+		"es": "Actualizar",
+		"fr": "Mettre à jour",
+		"it": "Aggiornamento",
+		"ru": "Обновление"
 	},
 	"articles": {
 		"eveprest": [
 			{
 				"id": "theme_update",
 				"translations": {
-					"en": "How to update your theme"
+					"en": "How to update your theme",
+					"de": "Wie man Eveprest aktualisiert",
+					"es": "Cómo actualizar Eveprest",
+					"fr": "Comment mettre à jour Eveprest",
+					"it": "Come aggiornare Eveprest",
+					"ru": "Как обновить Eveprest"
 				}
 			},
 			{
 				"id": "update_1",
 				"translations": {
-					"en": "Update 1.1"
+					"en": "Update 1.1",
+					"de": "Update 1.1",
+					"es": "Actualización 1.1",
+					"fr": "Mettre à jour 1.1",
+					"it": "Aggiornamento 1.1",
+					"ru": "Обновление 1.1"
 				}
 			},
 			{
 				"id": "update_2",
 				"translations": {
-					"en": "Update 1.2"
+					"en": "Update 1.2",
+					"de": "Update 1.2",
+					"es": "Actualización 1.2",
+					"fr": "Mettre à jour 1.2",
+					"it": "Aggiornamento 1.2",
+					"ru": "Обновление 1.2"
 				}
 			}
 		]

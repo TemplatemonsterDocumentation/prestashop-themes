@@ -1,638 +1,1071 @@
 {
-	"id": "basic-tutorials",
-	"translations": {
-		"en": "Basic tutorials"
-	},
-	"articles": {
-		"default": [
-			{
-		      "id": "changestoreinfo",
-		      "translations": {
-		        "en": "How to change info about your store"
-		      }
-		    },
-		    {
-		      "id": "edit_slider",
-		      "translations": {
-		        "en": "How to edit slider"
-		      }
-		    },
-		    {
-		      "id": "manage_configurator",
-		      "translations": {
-		        "en": "How to manage the Theme Configurator module"
-		      }
-		    },
-		    {
-		      "id": "permanent_links",
-		      "translations": {
-		        "en": "How to add or remove some links in Permanent links block"
-		      }
-		    }
-		],
-		"eveprest": [
-			{
-		      "id": "changestoreinfo",
-		      "translations": {
-		        "en": "How to change info about your store"
-		      }
-		    },
-		    {
-		      "id": "edit_slider",
-		      "translations": {
-		        "en": "How to edit slider"
-		      }
-		    },
-		    {
-		      "id": "manage_configurator",
-		      "translations": {
-		        "en": "How to manage the Theme Configurator module"
-		      }
-		    },
-		    {
-		      "id": "permanent_links",
-		      "translations": {
-		        "en": "How to add or remove some links in Permanent links block"
-		      }
-		    }
-		],
-		"stylenium": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"creatica": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"kansysis": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"lunalin": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"decorma": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"foodfate": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"maserio": [
-			{
-				"id": "additionaloptions",
-				"translations": {
-					"en": "How to enable additional options"
-				}
-			},
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"wedderic": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"watchelli": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"sweet4you": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"bigbike": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"eveprest_furniture": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"eveprest_oneproduct": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"impresta": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"giftterrs": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"boygirl": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"starcosmetics": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"glassini": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"leuendano": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"kerbelco": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"eximinn": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		],
-		"autotune": [
-			{
-				"id": "changestoreinfo",
-				"translations": {
-					"en": "How to change info about your store"
-				}
-			},
-			{
-				"id": "edit_slider",
-				"translations": {
-					"en": "How to edit slider"
-				}
-			},
-			{
-				"id": "manage_configurator",
-				"translations": {
-					"en": "How to manage the Theme Configurator module"
-				}
-			},
-			{
-				"id": "permanent_links",
-				"translations": {
-					"en": "How to add or remove some links in Permanent links block"
-				}
-			}
-		]
-	}
+  "id": "basic-tutorials",
+  "translations": {
+    "en": "Basic tutorials",
+    "de": "Grundsätzliche Tutorials",
+    "es": "Tutoriales básicos",
+    "fr": "Didacticiels de Base",
+    "it": "Basic tutorials",
+    "ru": "Базовые туториалы"
+  },
+  "articles": {
+    "default": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "eveprest": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "stylenium": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "creatica": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "kansysis": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "lunalin": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "decorma": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "foodfate": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "maserio": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "wedderic": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "watchelli": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "sweet4you": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "bigbike": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "eveprest_furniture": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "impresta": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "giftterrs": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "boygirl": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "starcosmetics": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "glassini": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "leuendano": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "kerbelco": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "eximinn": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ],
+    "autotune": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
+    ]
+  }
 }

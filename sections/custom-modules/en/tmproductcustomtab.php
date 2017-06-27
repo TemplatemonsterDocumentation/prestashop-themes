@@ -1,4 +1,4 @@
-<h3>TM Custom Product Tab</h3>
+<h3>TM Product Custom Tab</h3>
 <p>The module serves to create an additional tab on the product page for displaying additional information.
     The module has an advantage over the existing functionality, due to the ability of adding images, text, video, links, etc.</p>
 <h4>Installation and removal</h4>

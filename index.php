@@ -56,7 +56,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <?php echo $projectTextLogo; ?>
             </a>
         </div>
-        <?php if ( $defaultProject === $project ) : ?>
+<?php if ($project == $defaultProject){?>
           <div class="panel">
               <div class="select select-version">
                   <select>
@@ -70,37 +70,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <div class="select select-lang">
                   <select>
                       <option
-                              data-href="<?php echo $path; ?>/index.php?lang=en&section=<?php echo $section_param; ?>" <?php echo $lang == "en" ? "selected" : ""; ?>>
+                              data-href="<?php echo $path; ?>index.php?lang=en&section=<?php echo $section_param; ?>&project=<?php echo $project; ?>" <?php echo $lang == "en" ? "selected" : ""; ?>>
                           EN
                       </option>
                       <option
-                              data-href="<?php echo $path; ?>/index.php?lang=es&section=<?php echo $section_param; ?>" <?php echo $lang == "es" ? "selected" : ""; ?>>
+                              data-href="<?php echo $path; ?>index.php?lang=de&section=<?php echo $section_param; ?>&project=<?php echo $project; ?>" <?php echo $lang == "de" ? "selected" : ""; ?>>
+                          DE
+                      </option>
+                      <option
+                              data-href="<?php echo $path; ?>index.php?lang=es&section=<?php echo $section_param; ?>&project=<?php echo $project; ?>" <?php echo $lang == "es" ? "selected" : ""; ?>>
                           ES
                       </option>
                       <option
-                              data-href="<?php echo $path; ?>/index.php?lang=fr&section=<?php echo $section_param; ?>" <?php echo $lang == "fr" ? "selected" : ""; ?>>
+                              data-href="<?php echo $path; ?>index.php?lang=fr&section=<?php echo $section_param; ?>&project=<?php echo $project; ?>" <?php echo $lang == "fr" ? "selected" : ""; ?>>
                           FR
                       </option>
                       <option
-                              data-href="<?php echo $path; ?>/index.php?lang=it&section=<?php echo $section_param; ?>" <?php echo $lang == "it" ? "selected" : ""; ?>>
+                              data-href="<?php echo $path; ?>index.php?lang=it&section=<?php echo $section_param; ?>&project=<?php echo $project; ?>" <?php echo $lang == "it" ? "selected" : ""; ?>>
                           IT
                       </option>
                       <option
-                              data-href="<?php echo $path; ?>/index.php?lang=pl&section=<?php echo $section_param; ?>" <?php echo $lang == "pl" ? "selected" : ""; ?>>
+                              data-href="<?php echo $path; ?>index.php?lang=pl&section=<?php echo $section_param; ?>&project=<?php echo $project; ?>" <?php echo $lang == "pl" ? "selected" : ""; ?>>
                           PL
                       </option>
                       <option
-                              data-href="<?php echo $path; ?>/index.php?lang=pt&section=<?php echo $section_param; ?>" <?php echo $lang == "pt" ? "selected" : ""; ?>>
-                          PT
+                              data-href="<?php echo $path; ?>index.php?lang=ru&section=<?php echo $section_param; ?>&project=<?php echo $project; ?>" <?php echo $lang == "ru" ? "selected" : ""; ?>>
+                          RU
                       </option>
                   </select>
               </div>
           </div>
-        <?php endif; ?>
+
         <p class="copyright">TemplateMonster ©
             <a href="http://www.templatemonster.com/privacy-policy.php">Privacy Policy</a>
         </p>
     </div>
+    <?php } ?>
     <div class="page-content active">
         <button class="rd-mobilepanel_toggle active"><span></span></button>
         <div class="rd-mobilepanel<?php if ('introduction' !== $section_param) : ?> fixed<?php endif; ?>">

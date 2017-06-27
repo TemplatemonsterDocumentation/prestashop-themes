@@ -1,33 +1,36 @@
 {
-	"id": "introduction",
-	"translations": {
-		"en": "Introduction",
-		"es": "Introduction"
-	},
-	"articles": {
-		"default": [],
-		"eveprest": [],
-		"stylenium": [],
-		"creatica": [],
-		"kansysis": [],
-		"lunalin": [],
-		"decorma": [],
-		"foodfate": [],
-		"maserio": [],
-		"wedderic": [],
-		"watchelli": [],
-		"sweet4you": [],
-		"bigbike": [],
-		"eveprest_furniture": [],
-		"eveprest_oneproduct": [],
-		"impresta": [],
-		"giftterrs": [],
-		"boygirl": [],
-		"starcosmetics": [],
-		"glassini": [],
-		"leuendano": [],
-		"kerbelco": [],
-		"eximinn": [],
-		"autotune": []
-	}
+  "id": "introduction",
+  "translations": {
+    "en": "Introduction",
+    "de": "Einführung",
+    "es": "Introduction",
+    "fr": "Introduction",
+    "it": "Introduzione",
+    "ru": "Вступление"
+  },
+  "articles": {
+    "default": [],
+    "eveprest": [],
+    "stylenium": [],
+    "creatica": [],
+    "kansysis": [],
+    "lunalin": [],
+    "decorma": [],
+    "foodfate": [],
+    "maserio": [],
+    "wedderic": [],
+    "watchelli": [],
+    "sweet4you": [],
+    "bigbike": [],
+    "eveprest_furniture": [],
+    "impresta": [],
+    "giftterrs": [],
+    "boygirl": [],
+    "starcosmetics": [],
+    "glassini": [],
+    "leuendano": [],
+    "kerbelco": [],
+    "eximinn": [],
+    "autotune": []
+  }
 }

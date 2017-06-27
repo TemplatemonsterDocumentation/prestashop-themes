@@ -1,0 +1,4 @@
+<h3>Wie man die Dateien der PrestaShop Engine hochlädt</h3>
+<p>Wenn Sie die Dateien auf Ihrem Computer schon entpackt haben, sollen Sie sie auf Ihrem Server hochladen.</p>
+<p>Um dies zu machen, können Sie den Dateimanager in dem Hosting Control Panel oder eine Software von Drittanbietern für die Arbeit mit FTP wie FileZilla, TotalCommander, CuteFTP usw. nutzen.</p>
+<p>Sie können das ausführliche Video-Tutorial ansehen, das Ihnen zeigt, <a target="_blank" href="/help/how-upload-files-server-2.html">wie man Dateien auf dem Server hochlädt, indem man den FTP-Manager nutzt </a> oder <a target="_blank" href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html">wie man Dateien auf dem Server hochlädt, indem man das Hosting Control Panel (WebHost Manager, WHM) nutzt</a>.</p>

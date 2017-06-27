@@ -63,7 +63,7 @@ if (file_exists(DOCUMENT_ROOT . "/projects/".$project."/img/favicon_" . $project
  * List of available languages
  * @var array
  */
-$allowedLanguages = array('en', 'ru', 'es');
+$allowedLanguages = array('en', 'de', 'es', 'fr', 'it', 'pl', 'ru');
 $lang = $allowedLanguages[0];
 if (isset($_REQUEST['lang'])) {
     $lang = allowedParameterValue($_REQUEST['lang'], $allowedLanguages);

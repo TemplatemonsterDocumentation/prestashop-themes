@@ -1,7 +1,5 @@
 <h3>TM Modules used in Eveprest</h3>
-
 <p>Click on the module name to open the detailed documentation.</p> <br>
-
 <ul class="flex-list-three-cols">
     <li>
         <div class="ribbon">
