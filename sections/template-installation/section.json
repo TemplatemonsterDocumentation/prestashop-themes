@@ -1,788 +1,1577 @@
 {
-	"id": "template-installation",
-	"translations": {
-		"en": "Template installation"
-	},
-	"articles": {
-		"default": [
-			{
-		      "id": "themeinstaller",
-		      "translations": {
-		        "en": "Theme Import"
-		      }
-		    },
-		    {
-		      "id": "with_products_auto",
-		      "translations": {
-		        "en": "Automatic installation with demo data (Sample data installer)"
-		      }
-		    },
-		    {
-		      "id": "with_products_manual",
-		      "translations": {
-		        "en": "Manual template installation with sample data"
-		      }
-		    },
-		    {
-		      "id": "add_lang",
-		      "translations": {
-		        "en": "Adding languages to online store"
-		      }
-		    },
-		    {
-		      "id": "existing_store",
-		      "translations": {
-		        "en": "Installing template over existing store"
-		      }
-		    },
-		    {
-		      "id": "modules_and_images",
-		      "translations": {
-		        "en": "Installing modules and configuring images"
-		      }
-		    }
-		],
-		"eveprest": [
-			{
-		      "id": "themeinstaller",
-		      "translations": {
-		        "en": "Theme Import"
-		      }
-		    },
-		    {
-		      "id": "with_products_auto",
-		      "translations": {
-		        "en": "Automatic installation with demo data (Sample data installer)"
-		      }
-		    },
-		    {
-		      "id": "with_products_manual",
-		      "translations": {
-		        "en": "Manual template installation with sample data"
-		      }
-		    },
-		    {
-		      "id": "add_lang",
-		      "translations": {
-		        "en": "Adding languages to online store"
-		      }
-		    },
-		    {
-		      "id": "existing_store",
-		      "translations": {
-		        "en": "Installing template over existing store"
-		      }
-		    },
-		    {
-		      "id": "modules_and_images",
-		      "translations": {
-		        "en": "Installing modules and configuring images"
-		      }
-		    }
-		],
-		"stylenium": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "with_products_manual",
-				"translations": {
-					"en": "Manual template installation with sample data"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "existing_store",
-				"translations": {
-					"en": "Installing template over existing store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"creatica": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "with_products_manual",
-				"translations": {
-					"en": "Manual template installation with sample data"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "existing_store",
-				"translations": {
-					"en": "Installing template over existing store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"kansysis": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "with_products_manual",
-				"translations": {
-					"en": "Manual template installation with sample data"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "existing_store",
-				"translations": {
-					"en": "Installing template over existing store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"lunalin": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "with_products_manual",
-				"translations": {
-					"en": "Manual template installation with sample data"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "existing_store",
-				"translations": {
-					"en": "Installing template over existing store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"decorma": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "with_products_manual",
-				"translations": {
-					"en": "Manual template installation with sample data"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "existing_store",
-				"translations": {
-					"en": "Installing template over existing store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"foodfate": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "with_products_manual",
-				"translations": {
-					"en": "Manual template installation with sample data"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "existing_store",
-				"translations": {
-					"en": "Installing template over existing store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"maserio": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "with_products_manual",
-				"translations": {
-					"en": "Manual template installation with sample data"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "existing_store",
-				"translations": {
-					"en": "Installing template over existing store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"wedderic": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "with_products_manual",
-				"translations": {
-					"en": "Manual template installation with sample data"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "existing_store",
-				"translations": {
-					"en": "Installing template over existing store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"watchelli": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "with_products_manual",
-				"translations": {
-					"en": "Manual template installation with sample data"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "existing_store",
-				"translations": {
-					"en": "Installing template over existing store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"sweet4you": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "with_products_manual",
-				"translations": {
-					"en": "Manual template installation with sample data"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "existing_store",
-				"translations": {
-					"en": "Installing template over existing store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"bigbike": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "with_products_manual",
-				"translations": {
-					"en": "Manual template installation with sample data"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "existing_store",
-				"translations": {
-					"en": "Installing template over existing store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"eveprest_furniture": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"eveprest_oneproduct": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"impresta": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"giftterrs": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"boygirl": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"starcosmetics": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"glassini": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"leuendano": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"kerbelco": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"eximinn": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		],
-		"autotune": [
-			{
-				"id": "themeinstaller",
-				"translations": {
-					"en": "Theme Import"
-				}
-			},
-			{
-				"id": "with_products_auto",
-				"translations": {
-					"en": "Automatic installation with demo data (Sample data installer)"
-				}
-			},
-			{
-				"id": "add_lang",
-				"translations": {
-					"en": "Adding languages to online store"
-				}
-			},
-			{
-				"id": "modules_and_images",
-				"translations": {
-					"en": "Installing modules and configuring images"
-				}
-			}
-		]
-	}
+  "id": "template-installation",
+  "translations": {
+    "en": "Template installation",
+    "de": "Installation",
+    "es": "Instalación de Plantilla",
+    "fr": "Installation du Modèle",
+    "it": "Installazione del modello",
+    "ru": "Установка шаблона"
+  },
+  "articles": {
+    "default": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation von Modulen und Einstellung von Bildern",
+          "es": "Instalar módulos y configurar imágenes",
+          "fr": "Installation de modules et configuration d'images",
+          "it": "Installazione moduli e la configurazione delle immagini",
+          "ru": "Установка модулей и настройка изображений"
+        }
+      }
+    ],
+    "eveprest": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "stylenium": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "creatica": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "kansysis": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "lunalin": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "decorma": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "foodfate": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "maserio": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "wedderic": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "watchelli": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "sweet4you": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "bigbike": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "eveprest_furniture": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "impresta": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "giftterrs": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "boygirl": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "starcosmetics": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "glassini": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "leuendano": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "kerbelco": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "eximinn": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ],
+    "autotune": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation der Module",
+          "es": "Instalación de módulos",
+          "fr": "Installation des modules",
+          "it": "Installazione dei moduli",
+          "ru": "Установка модулей"
+        }
+      }
+    ]
+  }
 }

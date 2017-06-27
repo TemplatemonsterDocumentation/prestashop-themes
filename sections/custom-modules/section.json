@@ -1,290 +1,420 @@
 {
   "id": "custom-modules",
   "translations": {
-    "en": "Custom modules and extensions"
+    "en": "Custom modules and extensions",
+    "de": "Benutzerdefinierte Module und Erweiterungen",
+    "es": "Módulos personalizados y extensiones",
+    "fr": "Modules et extensions personnalisés",
+    "it": "Moduli e estensioni personalizzati",
+    "ru": "Пользовательские модули и расширения"
   },
   "articles": {
     "default": [
       {
-        "id": "tmmediaparallax",
-        "translations": {
-          "en": "Media Parallax Module"
-        }
-      },
-      {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tm360view",
         "translations": {
-          "en": "TM 360 View"
+          "en": "TM 360 View",
+          "de": "TM 360 View",
+          "es": "TM 360 View",
+          "fr": "Vue 360 TM",
+          "it": "TM 360 View",
+          "ru": "TM 360 View"
         }
       },
       {
         "id": "tmadvancedfilter",
         "translations": {
-          "en": "TM Advanced Filter"
+          "en": "TM Advanced Filter",
+          "de": "TM Advanced Filter",
+          "es": "TM Advanced Filter",
+          "fr": "Filtre Avancé TM",
+          "it": "TM Advanced Filter",
+          "ru": "TM Advanced Filter"
         }
       },
       {
         "id": "tmcategoriesbadges",
         "translations": {
-          "en": "TM Categories Badges"
+          "en": "TM Categories Badges",
+          "de": "TM Categories Badges",
+          "es": "TM Categories Badges",
+          "fr": "Badges  de Catégories TM",
+          "it": "TM Categorie Badges",
+          "ru": "TM Categories Badges"
         }
       },
       {
         "id": "tmcategoryimageslider",
         "translations": {
-          "en": "TM Category Image Slider"
-        }
-      },
-      {
-        "id": "tmcategoryproducts013",
-        "translations": {
-          "en": "TM Category Products 0.1.3"
+          "en": "TM Category Image Slider",
+          "de": "TM Category Image Slider",
+          "es": "TM Category Image Slider",
+          "fr": "Curseur D'image de Categorie TM",
+          "it": "TM Category Immagine Slider",
+          "ru": "TM Category Image Slider"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmcollections",
         "translations": {
-          "en": "TM Collections"
-        }
-      },
-      {
-        "id": "tmcustomproducttab",
-        "translations": {
-          "en": "TM Custom Product Tab"
+          "en": "TM Collections",
+          "de": "TM Collections",
+          "es": "TM Collections",
+          "fr": "Collections TM",
+          "it": "TM Collezione",
+          "ru": "TM Collections"
         }
       },
       {
         "id": "tmdealday",
         "translations": {
-          "en": "TM Deal of the Day"
-        }
-      },
-      {
-        "id": "tmgooglemap",
-        "translations": {
-          "en": "TM Google Map"
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
         }
       },
       {
         "id": "tmgooglemap115",
         "translations": {
-          "en": "TM Google Map 1.1.5"
-        }
-      },
-      {
-        "id": "tmheaderaccount",
-        "translations": {
-          "en": "TM Header Account"
+          "en": "TM Google Map 1.1.5",
+          "de": "TM Google Map 1.1.5",
+          "es": "TM Google Map 1.1.5",
+          "fr": "TM Google Map 1.1.5",
+          "it": "TM Google Map 1.1.5",
+          "ru": "TM Google Map 1.1.5"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhomepagecategorygallery",
         "translations": {
-          "en": "TM Homepage Category Gallery"
+          "en": "TM Homepage Category Gallery",
+          "de": "TM Homepage Category Gallery",
+          "es": "TM Homepage Category Gallery",
+          "fr": "Home Galerie des Categories TM",
+          "it": "TM Homepage Categoria Galleria",
+          "ru": "TM Homepage Category Gallery"
         }
       },
       {
         "id": "tmhomepagecombinations",
         "translations": {
-          "en": "TM Homepage Combinations"
+          "en": "TM Homepage Combinations",
+          "de": "TM Homepage Combinations",
+          "es": "TM Homepage Combinations",
+          "fr": "Combinaisons Homepage TM",
+          "it": "TM Homepage Combinazioni",
+          "ru": "TM Homepage Combinations"
         }
       },
       {
         "id": "tmhomepageproductscarousel",
         "translations": {
-          "en": "TM Homepage Products Carousel"
+          "en": "TM Homepage Products Carousel",
+          "de": "TM Homepage Products Carousel",
+          "es": "TM Homepage Products Carousel",
+          "fr": "Home Carrousel des Produits TM",
+          "it": "TM Homepage Prodotti Carousel",
+          "ru": "TM Homepage Products Carousel"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tminfinitescroll",
         "translations": {
-          "en": "TM Infinite Scroll"
+          "en": "TM Infinite Scroll",
+          "de": "TM Infinite Scroll",
+          "es": "TM Infinite Scroll",
+          "fr": "Défilement Infini TM",
+          "it": "TM Infinito Scroll",
+          "ru": "TM Infinite Scroll"
         }
       },
       {
         "id": "tmlookbook",
         "translations": {
-          "en": "TM Look Book"
+          "en": "TM Look Book",
+          "de": "TM Look Book",
+          "es": "TM Look Book",
+          "fr": "TM Look Book",
+          "it": "TM Look Book",
+          "ru": "TM Look Book"
         }
       },
       {
         "id": "tmlookbookhomepage",
         "translations": {
-          "en": "TM Look Book Homepage"
+          "en": "TM Look Book Homepage",
+          "de": "TM Look Book Homepage",
+          "es": "TM Look Book Homepage",
+          "fr": "LookBook Homepage TM",
+          "it": "TM Look Book Homepage",
+          "ru": "TM Look Book Homepage"
         }
       },
       {
         "id": "tmmanufacturersblock",
         "translations": {
-          "en": "TM Manufacturers Block"
+          "en": "TM Manufacturers Block",
+          "de": "TM Manufacturers Block",
+          "es": "TM Manufacturers Block",
+          "fr": "Bloc des fabricants TM",
+          "it": "TM Manufacturers Blocco",
+          "ru": "TM Manufacturers Block"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
-        }
-      },
-      {
-        "id": "tmmegalayout001",
-        "translations": {
-          "en": "TM Mega Layout 0.0.1"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
         "id": "tmmegalayout100",
         "translations": {
-          "en": "TM Mega Layout 1.0.0"
+          "en": "TM Mega Layout 1.0.0",
+          "de": "TM Mega Layout 1.0.0",
+          "es": "TM Mega Layout 1.0.0",
+          "fr": "TM Mega Layout 1.0.0",
+          "it": "TM Mega Layout 1.0.0",
+          "ru": "TM Mega Layout 1.0.0"
         }
       },
       {
         "id": "tmmegalayout110",
         "translations": {
-          "en": "TM Mega Layout 1.1.0"
+          "en": "TM Mega Layout 1.1.0",
+          "de": "TM Mega Layout 1.1.0",
+          "es": "TM Mega Layout 1.1.0",
+          "fr": "TM Mega Layout 1.1.0",
+          "it": "TM Mega Layout 1.1.0",
+          "ru": "TM Mega Layout 1.1.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmmotopressslider",
         "translations": {
-          "en": "TM MotoPress Slider"
+          "en": "TM MotoPress Slider",
+          "de": "TM MotoPress Slider",
+          "es": "TM MotoPress Slider",
+          "fr": "TM MotoPress Slider",
+          "it": "TM MotoPress Slider",
+          "ru": "TM MotoPress Slider"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
         }
       },
       {
         "id": "tmoneclickorder",
         "translations": {
-          "en": "TM One Click Order"
+          "en": "TM One Click Order",
+          "de": "TM One Click Order",
+          "es": "TM One Click Order",
+          "fr": "TM One Click Ordine",
+          "it": "TM One Click Ordine",
+          "ru": "TM One Click Order"
+        }
+      },
+      {
+        "id": "tmproductcustomtab",
+        "translations": {
+          "en": "TM Product Custom Tab",
+          "de": "TM Product Custom Tab",
+          "es": "TM Product Custom Tab",
+          "fr": "Onglet Personnalisé du Produit TM",
+          "it": "TM Prodotto Custom Tab",
+          "ru": "TM Product Custom Tab"
         }
       },
       {
         "id": "tmproductlistgallery200",
         "translations": {
-          "en": "TM Product List Gallery 2.0.0"
-        }
-      },
-      {
-        "id": "tmproductlistimages",
-        "translations": {
-          "en": "TM Product List Images"
+          "en": "TM Product List Gallery 2.0.0",
+          "de": "TM Product List Gallery 2.0.0",
+          "es": "TM Product List Gallery 2.0.0",
+          "fr": "Galerie de Liste des Produits TM 2.0.0",
+          "it": "TM Prodotto Lista Gallery 2.0.0",
+          "ru": "TM Product List Gallery 2.0.0"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductzoomer",
         "translations": {
-          "en": "TM Product Zoomer"
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
         }
       },
       {
         "id": "tmproductsmanager",
         "translations": {
-          "en": "TM Products Manager"
-        }
-      },
-      {
-        "id": "tmproductsslider123",
-        "translations": {
-          "en": "TM Products Slider 1.2.3"
+          "en": "TM Products Manager",
+          "de": "TM Products Manager",
+          "es": "TM Products Manager",
+          "fr": "Gestionnaire de Produits TM",
+          "it": "TM Prodotti Manager",
+          "ru": "TM Products Manager"
         }
       },
       {
         "id": "tmproductsslider200",
         "translations": {
-          "en": "TM Products Slider 2.0.0"
+          "en": "TM Products Slider 2.0.0",
+          "de": "TM Products Slider 2.0.0",
+          "es": "TM Products Slider 2.0.0",
+          "fr": "Slider de Produits TM 2.0.0",
+          "it": "TM Prodotti Slider 2.0.0",
+          "ru": "TM Products Slider 2.0.0"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
-        }
-      },
-      {
-        "id": "tmsearch105",
-        "translations": {
-          "en": "TM Search 1.0.5"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
+        }
+      },
+      {
+        "id": "tmslider",
+        "translations": {
+          "en": "TM Slider",
+          "de": "TM Slider",
+          "es": "TM Slider",
+          "fr": "TM Slider",
+          "it": "TM Slider",
+          "ru": "TM Slider"
         }
       },
       {
         "id": "tmsocialfeeds",
         "translations": {
-          "en": "TM Social Feeds"
-        }
-      },
-      {
-        "id": "tmsociallogin",
-        "translations": {
-          "en": "TM Social Login"
-        }
-      },
-      {
-        "id": "tmsociallogin120",
-        "translations": {
-          "en": "TM Social Login 1.2.0"
-        }
-      },
-      {
-        "id": "tmvideobackground",
-        "translations": {
-          "en": "Video Background Module"
+          "en": "TM Social Feeds",
+          "de": "TM Social Feeds",
+          "es": "TM Social Feeds",
+          "fr": "Flux sociaux TM",
+          "it": "TM Social Feeds",
+          "ru": "TM Social Feeds"
         }
       }
     ],
@@ -292,169 +422,309 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tm360view",
         "translations": {
-          "en": "TM 360 View"
+          "en": "TM 360 View",
+          "de": "TM 360 View",
+          "es": "TM 360 View",
+          "fr": "Vue 360 TM",
+          "it": "TM 360 View",
+          "ru": "TM 360 View"
         }
       },
       {
         "id": "tmadvancedfilter",
         "translations": {
-          "en": "TM Advanced Filter"
+          "en": "TM Advanced Filter",
+          "de": "TM Advanced Filter",
+          "es": "TM Advanced Filter",
+          "fr": "Filtre Avancé TM",
+          "it": "TM Advanced Filter",
+          "ru": "TM Advanced Filter"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmcollections",
         "translations": {
-          "en": "TM Collections"
+          "en": "TM Collections",
+          "de": "TM Collections",
+          "es": "TM Collections",
+          "fr": "Collections TM",
+          "it": "TM Collezione",
+          "ru": "TM Collections"
         }
       },
       {
         "id": "tmdealday",
         "translations": {
-          "en": "TM Deal of the Day"
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhomepagecategorygallery",
         "translations": {
-          "en": "TM Homepage Category Gallery"
+          "en": "TM Homepage Category Gallery",
+          "de": "TM Homepage Category Gallery",
+          "es": "TM Homepage Category Gallery",
+          "fr": "Home Galerie des Categories TM",
+          "it": "TM Homepage Categoria Galleria",
+          "ru": "TM Homepage Category Gallery"
         }
       },
       {
         "id": "tmhomepagecombinations",
         "translations": {
-          "en": "TM Homepage Combinations"
+          "en": "TM Homepage Combinations",
+          "de": "TM Homepage Combinations",
+          "es": "TM Homepage Combinations",
+          "fr": "Combinaisons Homepage TM",
+          "it": "TM Homepage Combinazioni",
+          "ru": "TM Homepage Combinations"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tmlookbook",
         "translations": {
-          "en": "TM Look Book"
+          "en": "TM Look Book",
+          "de": "TM Look Book",
+          "es": "TM Look Book",
+          "fr": "TM Look Book",
+          "it": "TM Look Book",
+          "ru": "TM Look Book"
         }
       },
       {
         "id": "tmlookbookhomepage",
         "translations": {
-          "en": "TM Look Book Homepage"
+          "en": "TM Look Book Homepage",
+          "de": "TM Look Book Homepage",
+          "es": "TM Look Book Homepage",
+          "fr": "LookBook Homepage TM",
+          "it": "TM Look Book Homepage",
+          "ru": "TM Look Book Homepage"
         }
       },
       {
         "id": "tmmanufacturersblock",
         "translations": {
-          "en": "TM Manufacturers Block"
+          "en": "TM Manufacturers Block",
+          "de": "TM Manufacturers Block",
+          "es": "TM Manufacturers Block",
+          "fr": "Bloc des fabricants TM",
+          "it": "TM Manufacturers Blocco",
+          "ru": "TM Manufacturers Block"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmmotopressslider",
         "translations": {
-          "en": "TM MotoPress Slider"
+          "en": "TM MotoPress Slider",
+          "de": "TM MotoPress Slider",
+          "es": "TM MotoPress Slider",
+          "fr": "TM MotoPress Slider",
+          "it": "TM MotoPress Slider",
+          "ru": "TM MotoPress Slider"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
         }
       },
       {
         "id": "tmoneclickorder",
         "translations": {
-          "en": "TM One Click Order"
+          "en": "TM One Click Order",
+          "de": "TM One Click Order",
+          "es": "TM One Click Order",
+          "fr": "TM One Click Ordine",
+          "it": "TM One Click Ordine",
+          "ru": "TM One Click Order"
         }
       },
       {
         "id": "tmproductlistgallery200",
         "translations": {
-          "en": "TM Product List Gallery 2.0.0"
+          "en": "TM Product List Gallery 2.0.0",
+          "de": "TM Product List Gallery 2.0.0",
+          "es": "TM Product List Gallery 2.0.0",
+          "fr": "Galerie de Liste des Produits TM 2.0.0",
+          "it": "TM Prodotto Lista Gallery 2.0.0",
+          "ru": "TM Product List Gallery 2.0.0"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductzoomer",
         "translations": {
-          "en": "TM Product Zoomer"
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
         }
       },
       {
         "id": "tmproductsmanager",
         "translations": {
-          "en": "TM Products Manager"
+          "en": "TM Products Manager",
+          "de": "TM Products Manager",
+          "es": "TM Products Manager",
+          "fr": "Gestionnaire de Produits TM",
+          "it": "TM Prodotti Manager",
+          "ru": "TM Products Manager"
         }
       },
       {
         "id": "tmproductsslider200",
         "translations": {
-          "en": "TM Products Slider 2.0.0"
+          "en": "TM Products Slider 2.0.0",
+          "de": "TM Products Slider 2.0.0",
+          "es": "TM Products Slider 2.0.0",
+          "fr": "Slider de Produits TM 2.0.0",
+          "it": "TM Prodotti Slider 2.0.0",
+          "ru": "TM Products Slider 2.0.0"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       },
       {
         "id": "tmsocialfeeds",
         "translations": {
-          "en": "TM Social Feeds"
+          "en": "TM Social Feeds",
+          "de": "TM Social Feeds",
+          "es": "TM Social Feeds",
+          "fr": "Flux sociaux TM",
+          "it": "TM Social Feeds",
+          "ru": "TM Social Feeds"
         }
       }
     ],
@@ -462,109 +732,199 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmgooglemap115",
         "translations": {
-          "en": "TM Google Map 1.1.5"
+          "en": "TM Google Map 1.1.5",
+          "de": "TM Google Map 1.1.5",
+          "es": "TM Google Map 1.1.5",
+          "fr": "TM Google Map 1.1.5",
+          "it": "TM Google Map 1.1.5",
+          "ru": "TM Google Map 1.1.5"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tmmanufacturersblock",
         "translations": {
-          "en": "TM Manufacturers Block"
+          "en": "TM Manufacturers Block",
+          "de": "TM Manufacturers Block",
+          "es": "TM Manufacturers Block",
+          "fr": "Bloc des fabricants TM",
+          "it": "TM Manufacturers Blocco",
+          "ru": "TM Manufacturers Block"
         }
       },
       {
         "id": "tmmegalayout001",
         "translations": {
-          "en": "TM Mega Layout 0.0.1"
+          "en": "TM Mega Layout 0.0.1",
+          "de": "TM Mega Layout 0.0.1",
+          "es": "TM Mega Layout 0.0.1",
+          "fr": "TM Mega Layout 0.0.1",
+          "it": "TM Mega Layout 0.0.1",
+          "ru": "TM Mega Layout 0.0.1"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
         }
       },
       {
         "id": "tmproductlistgallery200",
         "translations": {
-          "en": "TM Product List Gallery 2.0.0"
+          "en": "TM Product List Gallery 2.0.0",
+          "de": "TM Product List Gallery 2.0.0",
+          "es": "TM Product List Gallery 2.0.0",
+          "fr": "Galerie de Liste des Produits TM 2.0.0",
+          "it": "TM Prodotto Lista Gallery 2.0.0",
+          "ru": "TM Product List Gallery 2.0.0"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductzoomer",
         "translations": {
-          "en": "TM Product Zoomer"
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
         }
       },
       {
         "id": "tmproductsslider123",
         "translations": {
-          "en": "TM Products Slider 1.2.3"
+          "en": "TM Products Slider 1.2.3",
+          "de": "TM Products Slider 1.2.3",
+          "es": "TM Products Slider 1.2.3",
+          "fr": "Slider de Produits TM 1.2.3",
+          "it": "TM Prodotti Slider 1.2.3",
+          "ru": "TM Products Slider 1.2.3"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch105",
         "translations": {
-          "en": "TM Search 1.0.5"
+          "en": "TM Search 1.0.5",
+          "de": "TM Search 1.0.5",
+          "es": "TM Search 1.0.5",
+          "fr": "Recherche TM 1.0.5",
+          "it": "TM Search 1.0.5",
+          "ru": "TM Search 1.0.5"
         }
       },
       {
         "id": "tmsociallogin",
         "translations": {
-          "en": "TM Social Login"
+          "en": "TM Social Login",
+          "de": "TM Social Login",
+          "es": "TM Social Login",
+          "fr": "Connexion Sociale TM",
+          "it": "TM Social Login",
+          "ru": "TM Social Login"
         }
       }
     ],
@@ -572,121 +932,221 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
-        }
-      },
-      {
-        "id": "tmcustomproducttab",
-        "translations": {
-          "en": "TM Custom Product Tab"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmgooglemap115",
         "translations": {
-          "en": "TM Google Map 1.1.5"
+          "en": "TM Google Map 1.1.5",
+          "de": "TM Google Map 1.1.5",
+          "es": "TM Google Map 1.1.5",
+          "fr": "TM Google Map 1.1.5",
+          "it": "TM Google Map 1.1.5",
+          "ru": "TM Google Map 1.1.5"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhomepagecategorygallery",
         "translations": {
-          "en": "TM Homepage Category Gallery"
+          "en": "TM Homepage Category Gallery",
+          "de": "TM Homepage Category Gallery",
+          "es": "TM Homepage Category Gallery",
+          "fr": "Home Galerie des Categories TM",
+          "it": "TM Homepage Categoria Galleria",
+          "ru": "TM Homepage Category Gallery"
         }
       },
       {
         "id": "tmhomepageproductscarousel",
         "translations": {
-          "en": "TM Homepage Products Carousel"
+          "en": "TM Homepage Products Carousel",
+          "de": "TM Homepage Products Carousel",
+          "es": "TM Homepage Products Carousel",
+          "fr": "Home Carrousel des Produits TM",
+          "it": "TM Homepage Prodotti Carousel",
+          "ru": "TM Homepage Products Carousel"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tmmanufacturersblock",
         "translations": {
-          "en": "TM Manufacturers Block"
+          "en": "TM Manufacturers Block",
+          "de": "TM Manufacturers Block",
+          "es": "TM Manufacturers Block",
+          "fr": "Bloc des fabricants TM",
+          "it": "TM Manufacturers Blocco",
+          "ru": "TM Manufacturers Block"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
         "id": "tmmegalayout100",
         "translations": {
-          "en": "TM Mega Layout 1.0.0"
+          "en": "TM Mega Layout 1.0.0",
+          "de": "TM Mega Layout 1.0.0",
+          "es": "TM Mega Layout 1.0.0",
+          "fr": "TM Mega Layout 1.0.0",
+          "it": "TM Mega Layout 1.0.0",
+          "ru": "TM Mega Layout 1.0.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
         }
       },
       {
         "id": "tmoneclickorder",
         "translations": {
-          "en": "TM One Click Order"
+          "en": "TM One Click Order",
+          "de": "TM One Click Order",
+          "es": "TM One Click Order",
+          "fr": "TM One Click Ordine",
+          "it": "TM One Click Ordine",
+          "ru": "TM One Click Order"
+        }
+      },
+      {
+        "id": "tmproductcustomtab",
+        "translations": {
+          "en": "TM Product Custom Tab",
+          "de": "TM Product Custom Tab",
+          "es": "TM Product Custom Tab",
+          "fr": "Onglet Personnalisé du Produit TM",
+          "it": "TM Prodotto Custom Tab",
+          "ru": "TM Product Custom Tab"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       },
       {
         "id": "tmsocialfeeds",
         "translations": {
-          "en": "TM Social Feeds"
+          "en": "TM Social Feeds",
+          "de": "TM Social Feeds",
+          "es": "TM Social Feeds",
+          "fr": "Flux sociaux TM",
+          "it": "TM Social Feeds",
+          "ru": "TM Social Feeds"
         }
       }
     ],
@@ -694,127 +1154,232 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmdealday",
         "translations": {
-          "en": "TM Deal of the Day"
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
         }
       },
       {
         "id": "tmgooglemap",
         "translations": {
-          "en": "TM Google Map"
+          "en": "TM Google Map",
+          "de": "TM Google Map",
+          "es": "TM Google Map",
+          "fr": "TM Google Map",
+          "it": "TM Google Map",
+          "ru": "TM Google Map"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tmlookbook",
         "translations": {
-          "en": "TM Look Book"
+          "en": "TM Look Book",
+          "de": "TM Look Book",
+          "es": "TM Look Book",
+          "fr": "TM Look Book",
+          "it": "TM Look Book",
+          "ru": "TM Look Book"
         }
       },
       {
         "id": "tmlookbookhomepage",
         "translations": {
-          "en": "TM Look Book Homepage"
+          "en": "TM Look Book Homepage",
+          "de": "TM Look Book Homepage",
+          "es": "TM Look Book Homepage",
+          "fr": "LookBook Homepage TM",
+          "it": "TM Look Book Homepage",
+          "ru": "TM Look Book Homepage"
         }
       },
       {
         "id": "tmmanufacturersblock",
         "translations": {
-          "en": "TM Manufacturers Block"
+          "en": "TM Manufacturers Block",
+          "de": "TM Manufacturers Block",
+          "es": "TM Manufacturers Block",
+          "fr": "Bloc des fabricants TM",
+          "it": "TM Manufacturers Blocco",
+          "ru": "TM Manufacturers Block"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
         "id": "tmmegalayout100",
         "translations": {
-          "en": "TM Mega Layout 1.0.0"
+          "en": "TM Mega Layout 1.0.0",
+          "de": "TM Mega Layout 1.0.0",
+          "es": "TM Mega Layout 1.0.0",
+          "fr": "TM Mega Layout 1.0.0",
+          "it": "TM Mega Layout 1.0.0",
+          "ru": "TM Mega Layout 1.0.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
         }
       },
       {
         "id": "tmoneclickorder",
         "translations": {
-          "en": "TM One Click Order"
+          "en": "TM One Click Order",
+          "de": "TM One Click Order",
+          "es": "TM One Click Order",
+          "fr": "TM One Click Ordine",
+          "it": "TM One Click Ordine",
+          "ru": "TM One Click Order"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductzoomer",
         "translations": {
-          "en": "TM Product Zoomer"
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       },
       {
         "id": "tmsocialfeeds",
         "translations": {
-          "en": "TM Social Feeds"
+          "en": "TM Social Feeds",
+          "de": "TM Social Feeds",
+          "es": "TM Social Feeds",
+          "fr": "Flux sociaux TM",
+          "it": "TM Social Feeds",
+          "ru": "TM Social Feeds"
         }
       }
     ],
@@ -822,97 +1387,177 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tmdealday",
         "translations": {
-          "en": "TM Deal of the Day"
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
         }
       },
       {
         "id": "tmgooglemap",
         "translations": {
-          "en": "TM Google Map"
+          "en": "TM Google Map",
+          "de": "TM Google Map",
+          "es": "TM Google Map",
+          "fr": "TM Google Map",
+          "it": "TM Google Map",
+          "ru": "TM Google Map"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
         "id": "tmmegalayout100",
         "translations": {
-          "en": "TM Mega Layout 1.0.0"
+          "en": "TM Mega Layout 1.0.0",
+          "de": "TM Mega Layout 1.0.0",
+          "es": "TM Mega Layout 1.0.0",
+          "fr": "TM Mega Layout 1.0.0",
+          "it": "TM Mega Layout 1.0.0",
+          "ru": "TM Mega Layout 1.0.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
         }
       },
       {
         "id": "tmproductlistgallery200",
         "translations": {
-          "en": "TM Product List Gallery 2.0.0"
+          "en": "TM Product List Gallery 2.0.0",
+          "de": "TM Product List Gallery 2.0.0",
+          "es": "TM Product List Gallery 2.0.0",
+          "fr": "Galerie de Liste des Produits TM 2.0.0",
+          "it": "TM Prodotto Lista Gallery 2.0.0",
+          "ru": "TM Product List Gallery 2.0.0"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       },
       {
         "id": "tmsocialfeeds",
         "translations": {
-          "en": "TM Social Feeds"
+          "en": "TM Social Feeds",
+          "de": "TM Social Feeds",
+          "es": "TM Social Feeds",
+          "fr": "Flux sociaux TM",
+          "it": "TM Social Feeds",
+          "ru": "TM Social Feeds"
         }
       }
     ],
@@ -920,121 +1565,221 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmdealday",
         "translations": {
-          "en": "TM Deal of the Day"
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
         }
       },
       {
         "id": "tmgooglemap115",
         "translations": {
-          "en": "TM Google Map 1.1.5"
+          "en": "TM Google Map 1.1.5",
+          "de": "TM Google Map 1.1.5",
+          "es": "TM Google Map 1.1.5",
+          "fr": "TM Google Map 1.1.5",
+          "it": "TM Google Map 1.1.5",
+          "ru": "TM Google Map 1.1.5"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tmlookbook",
         "translations": {
-          "en": "TM Look Book"
+          "en": "TM Look Book",
+          "de": "TM Look Book",
+          "es": "TM Look Book",
+          "fr": "TM Look Book",
+          "it": "TM Look Book",
+          "ru": "TM Look Book"
         }
       },
       {
         "id": "tmlookbookhomepage",
         "translations": {
-          "en": "TM Look Book Homepage"
+          "en": "TM Look Book Homepage",
+          "de": "TM Look Book Homepage",
+          "es": "TM Look Book Homepage",
+          "fr": "LookBook Homepage TM",
+          "it": "TM Look Book Homepage",
+          "ru": "TM Look Book Homepage"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
         "id": "tmmegalayout100",
         "translations": {
-          "en": "TM Mega Layout 1.0.0"
+          "en": "TM Mega Layout 1.0.0",
+          "de": "TM Mega Layout 1.0.0",
+          "es": "TM Mega Layout 1.0.0",
+          "fr": "TM Mega Layout 1.0.0",
+          "it": "TM Mega Layout 1.0.0",
+          "ru": "TM Mega Layout 1.0.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
         }
       },
       {
         "id": "tmproductlistgallery200",
         "translations": {
-          "en": "TM Product List Gallery 2.0.0"
+          "en": "TM Product List Gallery 2.0.0",
+          "de": "TM Product List Gallery 2.0.0",
+          "es": "TM Product List Gallery 2.0.0",
+          "fr": "Galerie de Liste des Produits TM 2.0.0",
+          "it": "TM Prodotto Lista Gallery 2.0.0",
+          "ru": "TM Product List Gallery 2.0.0"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductzoomer",
         "translations": {
-          "en": "TM Product Zoomer"
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
         }
       },
       {
         "id": "tmproductsslider200",
         "translations": {
-          "en": "TM Products Slider 2.0.0"
+          "en": "TM Products Slider 2.0.0",
+          "de": "TM Products Slider 2.0.0",
+          "es": "TM Products Slider 2.0.0",
+          "fr": "Slider de Produits TM 2.0.0",
+          "it": "TM Prodotti Slider 2.0.0",
+          "ru": "TM Products Slider 2.0.0"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       }
     ],
@@ -1042,109 +1787,199 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmdealday",
         "translations": {
-          "en": "TM Deal of the Day"
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
         }
       },
       {
         "id": "tmgooglemap115",
         "translations": {
-          "en": "TM Google Map 1.1.5"
+          "en": "TM Google Map 1.1.5",
+          "de": "TM Google Map 1.1.5",
+          "es": "TM Google Map 1.1.5",
+          "fr": "TM Google Map 1.1.5",
+          "it": "TM Google Map 1.1.5",
+          "ru": "TM Google Map 1.1.5"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhomepagecategorygallery",
         "translations": {
-          "en": "TM Homepage Category Gallery"
+          "en": "TM Homepage Category Gallery",
+          "de": "TM Homepage Category Gallery",
+          "es": "TM Homepage Category Gallery",
+          "fr": "Home Galerie des Categories TM",
+          "it": "TM Homepage Categoria Galleria",
+          "ru": "TM Homepage Category Gallery"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tmmegalayout100",
         "translations": {
-          "en": "TM Mega Layout 1.0.0"
+          "en": "TM Mega Layout 1.0.0",
+          "de": "TM Mega Layout 1.0.0",
+          "es": "TM Mega Layout 1.0.0",
+          "fr": "TM Mega Layout 1.0.0",
+          "it": "TM Mega Layout 1.0.0",
+          "ru": "TM Mega Layout 1.0.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
         }
       },
       {
         "id": "tmproductlistgallery200",
         "translations": {
-          "en": "TM Product List Gallery 2.0.0"
+          "en": "TM Product List Gallery 2.0.0",
+          "de": "TM Product List Gallery 2.0.0",
+          "es": "TM Product List Gallery 2.0.0",
+          "fr": "Galerie de Liste des Produits TM 2.0.0",
+          "it": "TM Prodotto Lista Gallery 2.0.0",
+          "ru": "TM Product List Gallery 2.0.0"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductzoomer",
         "translations": {
-          "en": "TM Product Zoomer"
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       },
       {
         "id": "tmsocialfeeds",
         "translations": {
-          "en": "TM Social Feeds"
+          "en": "TM Social Feeds",
+          "de": "TM Social Feeds",
+          "es": "TM Social Feeds",
+          "fr": "Flux sociaux TM",
+          "it": "TM Social Feeds",
+          "ru": "TM Social Feeds"
         }
       }
     ],
@@ -1152,97 +1987,177 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmdealday",
         "translations": {
-          "en": "TM Deal of the Day"
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
         }
       },
       {
         "id": "tmgooglemap115",
         "translations": {
-          "en": "TM Google Map 1.1.5"
+          "en": "TM Google Map 1.1.5",
+          "de": "TM Google Map 1.1.5",
+          "es": "TM Google Map 1.1.5",
+          "fr": "TM Google Map 1.1.5",
+          "it": "TM Google Map 1.1.5",
+          "ru": "TM Google Map 1.1.5"
         }
       },
       {
         "id": "tmhomepageproductscarousel",
         "translations": {
-          "en": "TM Homepage Products Carousel"
+          "en": "TM Homepage Products Carousel",
+          "de": "TM Homepage Products Carousel",
+          "es": "TM Homepage Products Carousel",
+          "fr": "Home Carrousel des Produits TM",
+          "it": "TM Homepage Prodotti Carousel",
+          "ru": "TM Homepage Products Carousel"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tmmanufacturersblock",
         "translations": {
-          "en": "TM Manufacturers Block"
+          "en": "TM Manufacturers Block",
+          "de": "TM Manufacturers Block",
+          "es": "TM Manufacturers Block",
+          "fr": "Bloc des fabricants TM",
+          "it": "TM Manufacturers Blocco",
+          "ru": "TM Manufacturers Block"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
         "id": "tmmegalayout110",
         "translations": {
-          "en": "TM Mega Layout 1.1.0"
+          "en": "TM Mega Layout 1.1.0",
+          "de": "TM Mega Layout 1.1.0",
+          "es": "TM Mega Layout 1.1.0",
+          "fr": "TM Mega Layout 1.1.0",
+          "it": "TM Mega Layout 1.1.0",
+          "ru": "TM Mega Layout 1.1.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
         }
       },
       {
         "id": "tmproductlistgallery200",
         "translations": {
-          "en": "TM Product List Gallery 2.0.0"
+          "en": "TM Product List Gallery 2.0.0",
+          "de": "TM Product List Gallery 2.0.0",
+          "es": "TM Product List Gallery 2.0.0",
+          "fr": "Galerie de Liste des Produits TM 2.0.0",
+          "it": "TM Prodotto Lista Gallery 2.0.0",
+          "ru": "TM Product List Gallery 2.0.0"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       }
     ],
@@ -1250,145 +2165,265 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmcollections",
         "translations": {
-          "en": "TM Collections"
-        }
-      },
-      {
-        "id": "tmcustomproducttab",
-        "translations": {
-          "en": "TM Custom Product Tab"
+          "en": "TM Collections",
+          "de": "TM Collections",
+          "es": "TM Collections",
+          "fr": "Collections TM",
+          "it": "TM Collezione",
+          "ru": "TM Collections"
         }
       },
       {
         "id": "tmdealday",
         "translations": {
-          "en": "TM Deal of the Day"
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
         }
       },
       {
         "id": "tmgooglemap115",
         "translations": {
-          "en": "TM Google Map 1.1.5"
+          "en": "TM Google Map 1.1.5",
+          "de": "TM Google Map 1.1.5",
+          "es": "TM Google Map 1.1.5",
+          "fr": "TM Google Map 1.1.5",
+          "it": "TM Google Map 1.1.5",
+          "ru": "TM Google Map 1.1.5"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tminfinitescroll",
         "translations": {
-          "en": "TM Infinite Scroll"
+          "en": "TM Infinite Scroll",
+          "de": "TM Infinite Scroll",
+          "es": "TM Infinite Scroll",
+          "fr": "Défilement Infini TM",
+          "it": "TM Infinito Scroll",
+          "ru": "TM Infinite Scroll"
         }
       },
       {
         "id": "tmlookbook",
         "translations": {
-          "en": "TM Look Book"
+          "en": "TM Look Book",
+          "de": "TM Look Book",
+          "es": "TM Look Book",
+          "fr": "TM Look Book",
+          "it": "TM Look Book",
+          "ru": "TM Look Book"
         }
       },
       {
         "id": "tmlookbookhomepage",
         "translations": {
-          "en": "TM Look Book Homepage"
+          "en": "TM Look Book Homepage",
+          "de": "TM Look Book Homepage",
+          "es": "TM Look Book Homepage",
+          "fr": "LookBook Homepage TM",
+          "it": "TM Look Book Homepage",
+          "ru": "TM Look Book Homepage"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
         "id": "tmmegalayout100",
         "translations": {
-          "en": "TM Mega Layout 1.0.0"
+          "en": "TM Mega Layout 1.0.0",
+          "de": "TM Mega Layout 1.0.0",
+          "es": "TM Mega Layout 1.0.0",
+          "fr": "TM Mega Layout 1.0.0",
+          "it": "TM Mega Layout 1.0.0",
+          "ru": "TM Mega Layout 1.0.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
         }
       },
       {
         "id": "tmoneclickorder",
         "translations": {
-          "en": "TM One Click Order"
+          "en": "TM One Click Order",
+          "de": "TM One Click Order",
+          "es": "TM One Click Order",
+          "fr": "TM One Click Ordine",
+          "it": "TM One Click Ordine",
+          "ru": "TM One Click Order"
+        }
+      },
+      {
+        "id": "tmproductcustomtab",
+        "translations": {
+          "en": "TM Product Custom Tab",
+          "de": "TM Product Custom Tab",
+          "es": "TM Product Custom Tab",
+          "fr": "Onglet Personnalisé du Produit TM",
+          "it": "TM Prodotto Custom Tab",
+          "ru": "TM Product Custom Tab"
         }
       },
       {
         "id": "tmproductlistgallery200",
         "translations": {
-          "en": "TM Product List Gallery 2.0.0"
+          "en": "TM Product List Gallery 2.0.0",
+          "de": "TM Product List Gallery 2.0.0",
+          "es": "TM Product List Gallery 2.0.0",
+          "fr": "Galerie de Liste des Produits TM 2.0.0",
+          "it": "TM Prodotto Lista Gallery 2.0.0",
+          "ru": "TM Product List Gallery 2.0.0"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductzoomer",
         "translations": {
-          "en": "TM Product Zoomer"
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       },
       {
         "id": "tmsocialfeeds",
         "translations": {
-          "en": "TM Social Feeds"
+          "en": "TM Social Feeds",
+          "de": "TM Social Feeds",
+          "es": "TM Social Feeds",
+          "fr": "Flux sociaux TM",
+          "it": "TM Social Feeds",
+          "ru": "TM Social Feeds"
         }
       }
     ],
@@ -1396,127 +2431,232 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tmadvancedfilter",
         "translations": {
-          "en": "TM Advanced Filter"
+          "en": "TM Advanced Filter",
+          "de": "TM Advanced Filter",
+          "es": "TM Advanced Filter",
+          "fr": "Filtre Avancé TM",
+          "it": "TM Advanced Filter",
+          "ru": "TM Advanced Filter"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmcollections",
         "translations": {
-          "en": "TM Collections"
-        }
-      },
-      {
-        "id": "tmcustomproducttab",
-        "translations": {
-          "en": "TM Custom Product Tab"
+          "en": "TM Collections",
+          "de": "TM Collections",
+          "es": "TM Collections",
+          "fr": "Collections TM",
+          "it": "TM Collezione",
+          "ru": "TM Collections"
         }
       },
       {
         "id": "tmdealday",
         "translations": {
-          "en": "TM Deal of the Day"
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
         }
       },
       {
         "id": "tmgooglemap115",
         "translations": {
-          "en": "TM Google Map 1.1.5"
+          "en": "TM Google Map 1.1.5",
+          "de": "TM Google Map 1.1.5",
+          "es": "TM Google Map 1.1.5",
+          "fr": "TM Google Map 1.1.5",
+          "it": "TM Google Map 1.1.5",
+          "ru": "TM Google Map 1.1.5"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tminfinitescroll",
         "translations": {
-          "en": "TM Infinite Scroll"
+          "en": "TM Infinite Scroll",
+          "de": "TM Infinite Scroll",
+          "es": "TM Infinite Scroll",
+          "fr": "Défilement Infini TM",
+          "it": "TM Infinito Scroll",
+          "ru": "TM Infinite Scroll"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
         "id": "tmmegalayout100",
         "translations": {
-          "en": "TM Mega Layout 1.0.0"
+          "en": "TM Mega Layout 1.0.0",
+          "de": "TM Mega Layout 1.0.0",
+          "es": "TM Mega Layout 1.0.0",
+          "fr": "TM Mega Layout 1.0.0",
+          "it": "TM Mega Layout 1.0.0",
+          "ru": "TM Mega Layout 1.0.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
+        }
+      },
+      {
+        "id": "tmproductcustomtab",
+        "translations": {
+          "en": "TM Product Custom Tab",
+          "de": "TM Product Custom Tab",
+          "es": "TM Product Custom Tab",
+          "fr": "Onglet Personnalisé du Produit TM",
+          "it": "TM Prodotto Custom Tab",
+          "ru": "TM Product Custom Tab"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductzoomer",
         "translations": {
-          "en": "TM Product Zoomer"
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
         }
       },
       {
         "id": "tmproductsslider200",
         "translations": {
-          "en": "TM Products Slider 2.0.0"
+          "en": "TM Products Slider 2.0.0",
+          "de": "TM Products Slider 2.0.0",
+          "es": "TM Products Slider 2.0.0",
+          "fr": "Slider de Produits TM 2.0.0",
+          "it": "TM Prodotti Slider 2.0.0",
+          "ru": "TM Products Slider 2.0.0"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       }
     ],
@@ -1524,133 +2664,243 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmcollections",
         "translations": {
-          "en": "TM Collections"
+          "en": "TM Collections",
+          "de": "TM Collections",
+          "es": "TM Collections",
+          "fr": "Collections TM",
+          "it": "TM Collezione",
+          "ru": "TM Collections"
         }
       },
       {
         "id": "tmdealday",
         "translations": {
-          "en": "TM Deal of the Day"
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
         }
       },
       {
         "id": "tmgooglemap115",
         "translations": {
-          "en": "TM Google Map 1.1.5"
+          "en": "TM Google Map 1.1.5",
+          "de": "TM Google Map 1.1.5",
+          "es": "TM Google Map 1.1.5",
+          "fr": "TM Google Map 1.1.5",
+          "it": "TM Google Map 1.1.5",
+          "ru": "TM Google Map 1.1.5"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tminfinitescroll",
         "translations": {
-          "en": "TM Infinite Scroll"
+          "en": "TM Infinite Scroll",
+          "de": "TM Infinite Scroll",
+          "es": "TM Infinite Scroll",
+          "fr": "Défilement Infini TM",
+          "it": "TM Infinito Scroll",
+          "ru": "TM Infinite Scroll"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
         "id": "tmmegalayout100",
         "translations": {
-          "en": "TM Mega Layout 1.0.0"
+          "en": "TM Mega Layout 1.0.0",
+          "de": "TM Mega Layout 1.0.0",
+          "es": "TM Mega Layout 1.0.0",
+          "fr": "TM Mega Layout 1.0.0",
+          "it": "TM Mega Layout 1.0.0",
+          "ru": "TM Mega Layout 1.0.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
         }
       },
       {
         "id": "tmoneclickorder",
         "translations": {
-          "en": "TM One Click Order"
+          "en": "TM One Click Order",
+          "de": "TM One Click Order",
+          "es": "TM One Click Order",
+          "fr": "TM One Click Ordine",
+          "it": "TM One Click Ordine",
+          "ru": "TM One Click Order"
         }
       },
       {
         "id": "tmproductlistgallery200",
         "translations": {
-          "en": "TM Product List Gallery 2.0.0"
+          "en": "TM Product List Gallery 2.0.0",
+          "de": "TM Product List Gallery 2.0.0",
+          "es": "TM Product List Gallery 2.0.0",
+          "fr": "Galerie de Liste des Produits TM 2.0.0",
+          "it": "TM Prodotto Lista Gallery 2.0.0",
+          "ru": "TM Product List Gallery 2.0.0"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductzoomer",
         "translations": {
-          "en": "TM Product Zoomer"
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
         }
       },
       {
         "id": "tmproductsslider200",
         "translations": {
-          "en": "TM Products Slider 2.0.0"
+          "en": "TM Products Slider 2.0.0",
+          "de": "TM Products Slider 2.0.0",
+          "es": "TM Products Slider 2.0.0",
+          "fr": "Slider de Produits TM 2.0.0",
+          "it": "TM Prodotti Slider 2.0.0",
+          "ru": "TM Products Slider 2.0.0"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       },
       {
         "id": "tmsocialfeeds",
         "translations": {
-          "en": "TM Social Feeds"
+          "en": "TM Social Feeds",
+          "de": "TM Social Feeds",
+          "es": "TM Social Feeds",
+          "fr": "Flux sociaux TM",
+          "it": "TM Social Feeds",
+          "ru": "TM Social Feeds"
         }
       }
     ],
@@ -1658,145 +2908,265 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmcollections",
         "translations": {
-          "en": "TM Collections"
-        }
-      },
-      {
-        "id": "tmcustomproducttab",
-        "translations": {
-          "en": "TM Custom Product Tab"
+          "en": "TM Collections",
+          "de": "TM Collections",
+          "es": "TM Collections",
+          "fr": "Collections TM",
+          "it": "TM Collezione",
+          "ru": "TM Collections"
         }
       },
       {
         "id": "tmdealday",
         "translations": {
-          "en": "TM Deal of the Day"
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
         }
       },
       {
         "id": "tmgooglemap115",
         "translations": {
-          "en": "TM Google Map 1.1.5"
+          "en": "TM Google Map 1.1.5",
+          "de": "TM Google Map 1.1.5",
+          "es": "TM Google Map 1.1.5",
+          "fr": "TM Google Map 1.1.5",
+          "it": "TM Google Map 1.1.5",
+          "ru": "TM Google Map 1.1.5"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhomepagecategorygallery",
         "translations": {
-          "en": "TM Homepage Category Gallery"
+          "en": "TM Homepage Category Gallery",
+          "de": "TM Homepage Category Gallery",
+          "es": "TM Homepage Category Gallery",
+          "fr": "Home Galerie des Categories TM",
+          "it": "TM Homepage Categoria Galleria",
+          "ru": "TM Homepage Category Gallery"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tminfinitescroll",
         "translations": {
-          "en": "TM Infinite Scroll"
+          "en": "TM Infinite Scroll",
+          "de": "TM Infinite Scroll",
+          "es": "TM Infinite Scroll",
+          "fr": "Défilement Infini TM",
+          "it": "TM Infinito Scroll",
+          "ru": "TM Infinite Scroll"
         }
       },
       {
         "id": "tmlookbook",
         "translations": {
-          "en": "TM Look Book"
+          "en": "TM Look Book",
+          "de": "TM Look Book",
+          "es": "TM Look Book",
+          "fr": "TM Look Book",
+          "it": "TM Look Book",
+          "ru": "TM Look Book"
         }
       },
       {
         "id": "tmlookbookhomepage",
         "translations": {
-          "en": "TM Look Book Homepage"
+          "en": "TM Look Book Homepage",
+          "de": "TM Look Book Homepage",
+          "es": "TM Look Book Homepage",
+          "fr": "LookBook Homepage TM",
+          "it": "TM Look Book Homepage",
+          "ru": "TM Look Book Homepage"
         }
       },
       {
         "id": "tmmanufacturersblock",
         "translations": {
-          "en": "TM Manufacturers Block"
+          "en": "TM Manufacturers Block",
+          "de": "TM Manufacturers Block",
+          "es": "TM Manufacturers Block",
+          "fr": "Bloc des fabricants TM",
+          "it": "TM Manufacturers Blocco",
+          "ru": "TM Manufacturers Block"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
         "id": "tmmegalayout100",
         "translations": {
-          "en": "TM Mega Layout 1.0.0"
+          "en": "TM Mega Layout 1.0.0",
+          "de": "TM Mega Layout 1.0.0",
+          "es": "TM Mega Layout 1.0.0",
+          "fr": "TM Mega Layout 1.0.0",
+          "it": "TM Mega Layout 1.0.0",
+          "ru": "TM Mega Layout 1.0.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
+        }
+      },
+      {
+        "id": "tmproductcustomtab",
+        "translations": {
+          "en": "TM Product Custom Tab",
+          "de": "TM Product Custom Tab",
+          "es": "TM Product Custom Tab",
+          "fr": "Onglet Personnalisé du Produit TM",
+          "it": "TM Prodotto Custom Tab",
+          "ru": "TM Product Custom Tab"
         }
       },
       {
         "id": "tmproductlistgallery200",
         "translations": {
-          "en": "TM Product List Gallery 2.0.0"
+          "en": "TM Product List Gallery 2.0.0",
+          "de": "TM Product List Gallery 2.0.0",
+          "es": "TM Product List Gallery 2.0.0",
+          "fr": "Galerie de Liste des Produits TM 2.0.0",
+          "it": "TM Prodotto Lista Gallery 2.0.0",
+          "ru": "TM Product List Gallery 2.0.0"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductzoomer",
         "translations": {
-          "en": "TM Product Zoomer"
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       }
     ],
@@ -1804,429 +3174,265 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmcollections",
         "translations": {
-          "en": "TM Collections"
-        }
-      },
-      {
-        "id": "tmcustomproducttab",
-        "translations": {
-          "en": "TM Custom Product Tab"
-        }
-      },
-      {
-        "id": "tmdealday",
-        "translations": {
-          "en": "TM Deal of the Day"
-        }
-      },
-      {
-        "id": "tmgooglemap115",
-        "translations": {
-          "en": "TM Google Map 1.1.5"
-        }
-      },
-      {
-        "id": "tmheaderaccount20",
-        "translations": {
-          "en": "TM Header Account 2.0"
-        }
-      },
-      {
-        "id": "tmhomepagecategorygallery",
-        "translations": {
-          "en": "TM Homepage Category Gallery"
-        }
-      },
-      {
-        "id": "tmhtmlcontent",
-        "translations": {
-          "en": "TM HTML Content"
-        }
-      },
-      {
-        "id": "tminfinitescroll",
-        "translations": {
-          "en": "TM Infinite Scroll"
-        }
-      },
-      {
-        "id": "tmlookbook",
-        "translations": {
-          "en": "TM Look Book"
-        }
-      },
-      {
-        "id": "tmlookbookhomepage",
-        "translations": {
-          "en": "TM Look Book Homepage"
-        }
-      },
-      {
-        "id": "tmmanufacturersblock",
-        "translations": {
-          "en": "TM Manufacturers Block"
-        }
-      },
-      {
-        "id": "tmmediaparallax200",
-        "translations": {
-          "en": "TM Media Parallax 2.0.0"
-        }
-      },
-      {
-        "id": "tmmegalayout100",
-        "translations": {
-          "en": "TM Mega Layout 1.0.0"
-        }
-      },
-      {
-        "id": "tmmegamenu",
-        "translations": {
-          "en": "TM Mega Menu"
-        }
-      },
-      {
-        "id": "tmmosaicproducts",
-        "translations": {
-          "en": "TM Mosaic Products"
-        }
-      },
-      {
-        "id": "tmnewsletter",
-        "translations": {
-          "en": "TM Newsletter"
-        }
-      },
-      {
-        "id": "tmolarkchat",
-        "translations": {
-          "en": "TM Olark Chat"
-        }
-      },
-      {
-        "id": "tmproductlistgallery200",
-        "translations": {
-          "en": "TM Product List Gallery 2.0.0"
-        }
-      },
-      {
-        "id": "tmproductvideos",
-        "translations": {
-          "en": "TM Product Videos"
-        }
-      },
-      {
-        "id": "tmproductzoomer",
-        "translations": {
-          "en": "TM Product Zoomer"
-        }
-      },
-      {
-        "id": "tmrelatedproducts",
-        "translations": {
-          "en": "TM Related Products"
-        }
-      },
-      {
-        "id": "tmsearch110",
-        "translations": {
-          "en": "TM Search 1.1.0"
-        }
-      }
-    ],
-    "eveprest_oneproduct": [
-      {
-        "id": "tmmediaparallax",
-        "translations": {
-          "en": "Media Parallax Module"
-        }
-      },
-      {
-        "id": "smart_blog",
-        "translations": {
-          "en": "Smart Blog"
-        }
-      },
-      {
-        "id": "tm360view",
-        "translations": {
-          "en": "TM 360 View"
-        }
-      },
-      {
-        "id": "tmadvancedfilter",
-        "translations": {
-          "en": "TM Advanced Filter"
-        }
-      },
-      {
-        "id": "tmcategoriesbadges",
-        "translations": {
-          "en": "TM Categories Badges"
-        }
-      },
-      {
-        "id": "tmcategoryimageslider",
-        "translations": {
-          "en": "TM Category Image Slider"
-        }
-      },
-      {
-        "id": "tmcategoryproducts013",
-        "translations": {
-          "en": "TM Category Products 0.1.3"
-        }
-      },
-      {
-        "id": "tmcategoryproducts100",
-        "translations": {
-          "en": "TM Category Products 1.0.0"
-        }
-      },
-      {
-        "id": "tmcollections",
-        "translations": {
-          "en": "TM Collections"
-        }
-      },
-      {
-        "id": "tmcustomproducttab",
-        "translations": {
-          "en": "TM Custom Product Tab"
+          "en": "TM Collections",
+          "de": "TM Collections",
+          "es": "TM Collections",
+          "fr": "Collections TM",
+          "it": "TM Collezione",
+          "ru": "TM Collections"
         }
       },
       {
         "id": "tmdealday",
         "translations": {
-          "en": "TM Deal of the Day"
-        }
-      },
-      {
-        "id": "tmgooglemap",
-        "translations": {
-          "en": "TM Google Map"
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
         }
       },
       {
         "id": "tmgooglemap115",
         "translations": {
-          "en": "TM Google Map 1.1.5"
-        }
-      },
-      {
-        "id": "tmheaderaccount",
-        "translations": {
-          "en": "TM Header Account"
+          "en": "TM Google Map 1.1.5",
+          "de": "TM Google Map 1.1.5",
+          "es": "TM Google Map 1.1.5",
+          "fr": "TM Google Map 1.1.5",
+          "it": "TM Google Map 1.1.5",
+          "ru": "TM Google Map 1.1.5"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhomepagecategorygallery",
         "translations": {
-          "en": "TM Homepage Category Gallery"
-        }
-      },
-      {
-        "id": "tmhomepagecombinations",
-        "translations": {
-          "en": "TM Homepage Combinations"
-        }
-      },
-      {
-        "id": "tmhomepageproductscarousel",
-        "translations": {
-          "en": "TM Homepage Products Carousel"
+          "en": "TM Homepage Category Gallery",
+          "de": "TM Homepage Category Gallery",
+          "es": "TM Homepage Category Gallery",
+          "fr": "Home Galerie des Categories TM",
+          "it": "TM Homepage Categoria Galleria",
+          "ru": "TM Homepage Category Gallery"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tminfinitescroll",
         "translations": {
-          "en": "TM Infinite Scroll"
+          "en": "TM Infinite Scroll",
+          "de": "TM Infinite Scroll",
+          "es": "TM Infinite Scroll",
+          "fr": "Défilement Infini TM",
+          "it": "TM Infinito Scroll",
+          "ru": "TM Infinite Scroll"
         }
       },
       {
         "id": "tmlookbook",
         "translations": {
-          "en": "TM Look Book"
+          "en": "TM Look Book",
+          "de": "TM Look Book",
+          "es": "TM Look Book",
+          "fr": "TM Look Book",
+          "it": "TM Look Book",
+          "ru": "TM Look Book"
         }
       },
       {
         "id": "tmlookbookhomepage",
         "translations": {
-          "en": "TM Look Book Homepage"
+          "en": "TM Look Book Homepage",
+          "de": "TM Look Book Homepage",
+          "es": "TM Look Book Homepage",
+          "fr": "LookBook Homepage TM",
+          "it": "TM Look Book Homepage",
+          "ru": "TM Look Book Homepage"
         }
       },
       {
         "id": "tmmanufacturersblock",
         "translations": {
-          "en": "TM Manufacturers Block"
+          "en": "TM Manufacturers Block",
+          "de": "TM Manufacturers Block",
+          "es": "TM Manufacturers Block",
+          "fr": "Bloc des fabricants TM",
+          "it": "TM Manufacturers Blocco",
+          "ru": "TM Manufacturers Block"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
-        }
-      },
-      {
-        "id": "tmmegalayout001",
-        "translations": {
-          "en": "TM Mega Layout 0.0.1"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
         "id": "tmmegalayout100",
         "translations": {
-          "en": "TM Mega Layout 1.0.0"
-        }
-      },
-      {
-        "id": "tmmegalayout110",
-        "translations": {
-          "en": "TM Mega Layout 1.1.0"
+          "en": "TM Mega Layout 1.0.0",
+          "de": "TM Mega Layout 1.0.0",
+          "es": "TM Mega Layout 1.0.0",
+          "fr": "TM Mega Layout 1.0.0",
+          "it": "TM Mega Layout 1.0.0",
+          "ru": "TM Mega Layout 1.0.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
-        }
-      },
-      {
-        "id": "tmmotopressslider",
-        "translations": {
-          "en": "TM MotoPress Slider"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
         }
       },
       {
-        "id": "tmoneclickorder",
+        "id": "tmproductcustomtab",
         "translations": {
-          "en": "TM One Click Order"
+          "en": "TM Product Custom Tab",
+          "de": "TM Product Custom Tab",
+          "es": "TM Product Custom Tab",
+          "fr": "Onglet Personnalisé du Produit TM",
+          "it": "TM Prodotto Custom Tab",
+          "ru": "TM Product Custom Tab"
         }
       },
       {
         "id": "tmproductlistgallery200",
         "translations": {
-          "en": "TM Product List Gallery 2.0.0"
-        }
-      },
-      {
-        "id": "tmproductlistimages",
-        "translations": {
-          "en": "TM Product List Images"
+          "en": "TM Product List Gallery 2.0.0",
+          "de": "TM Product List Gallery 2.0.0",
+          "es": "TM Product List Gallery 2.0.0",
+          "fr": "Galerie de Liste des Produits TM 2.0.0",
+          "it": "TM Prodotto Lista Gallery 2.0.0",
+          "ru": "TM Product List Gallery 2.0.0"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductzoomer",
         "translations": {
-          "en": "TM Product Zoomer"
-        }
-      },
-      {
-        "id": "tmproductsmanager",
-        "translations": {
-          "en": "TM Products Manager"
-        }
-      },
-      {
-        "id": "tmproductsslider123",
-        "translations": {
-          "en": "TM Products Slider 1.2.3"
-        }
-      },
-      {
-        "id": "tmproductsslider200",
-        "translations": {
-          "en": "TM Products Slider 2.0.0"
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
-        }
-      },
-      {
-        "id": "tmsearch105",
-        "translations": {
-          "en": "TM Search 1.0.5"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
-        }
-      },
-      {
-        "id": "tmsocialfeeds",
-        "translations": {
-          "en": "TM Social Feeds"
-        }
-      },
-      {
-        "id": "tmsociallogin",
-        "translations": {
-          "en": "TM Social Login"
-        }
-      },
-      {
-        "id": "tmsociallogin120",
-        "translations": {
-          "en": "TM Social Login 1.2.0"
-        }
-      },
-      {
-        "id": "tmvideobackground",
-        "translations": {
-          "en": "Video Background Module"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       }
     ],
@@ -2234,163 +3440,298 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmcollections",
         "translations": {
-          "en": "TM Collections"
-        }
-      },
-      {
-        "id": "tmcustomproducttab",
-        "translations": {
-          "en": "TM Custom Product Tab"
+          "en": "TM Collections",
+          "de": "TM Collections",
+          "es": "TM Collections",
+          "fr": "Collections TM",
+          "it": "TM Collezione",
+          "ru": "TM Collections"
         }
       },
       {
         "id": "tmdealday",
         "translations": {
-          "en": "TM Deal of the Day"
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhomepageproductscarousel",
         "translations": {
-          "en": "TM Homepage Products Carousel"
+          "en": "TM Homepage Products Carousel",
+          "de": "TM Homepage Products Carousel",
+          "es": "TM Homepage Products Carousel",
+          "fr": "Home Carrousel des Produits TM",
+          "it": "TM Homepage Prodotti Carousel",
+          "ru": "TM Homepage Products Carousel"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tminfinitescroll",
         "translations": {
-          "en": "TM Infinite Scroll"
+          "en": "TM Infinite Scroll",
+          "de": "TM Infinite Scroll",
+          "es": "TM Infinite Scroll",
+          "fr": "Défilement Infini TM",
+          "it": "TM Infinito Scroll",
+          "ru": "TM Infinite Scroll"
         }
       },
       {
         "id": "tmlookbook",
         "translations": {
-          "en": "TM Look Book"
+          "en": "TM Look Book",
+          "de": "TM Look Book",
+          "es": "TM Look Book",
+          "fr": "TM Look Book",
+          "it": "TM Look Book",
+          "ru": "TM Look Book"
         }
       },
       {
         "id": "tmlookbookhomepage",
         "translations": {
-          "en": "TM Look Book Homepage"
+          "en": "TM Look Book Homepage",
+          "de": "TM Look Book Homepage",
+          "es": "TM Look Book Homepage",
+          "fr": "LookBook Homepage TM",
+          "it": "TM Look Book Homepage",
+          "ru": "TM Look Book Homepage"
         }
       },
       {
         "id": "tmmanufacturersblock",
         "translations": {
-          "en": "TM Manufacturers Block"
+          "en": "TM Manufacturers Block",
+          "de": "TM Manufacturers Block",
+          "es": "TM Manufacturers Block",
+          "fr": "Bloc des fabricants TM",
+          "it": "TM Manufacturers Blocco",
+          "ru": "TM Manufacturers Block"
         }
       },
       {
         "id": "tmmegalayout110",
         "translations": {
-          "en": "TM Mega Layout 1.1.0"
+          "en": "TM Mega Layout 1.1.0",
+          "de": "TM Mega Layout 1.1.0",
+          "es": "TM Mega Layout 1.1.0",
+          "fr": "TM Mega Layout 1.1.0",
+          "it": "TM Mega Layout 1.1.0",
+          "ru": "TM Mega Layout 1.1.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmmotopressslider",
         "translations": {
-          "en": "TM MotoPress Slider"
+          "en": "TM MotoPress Slider",
+          "de": "TM MotoPress Slider",
+          "es": "TM MotoPress Slider",
+          "fr": "TM MotoPress Slider",
+          "it": "TM MotoPress Slider",
+          "ru": "TM MotoPress Slider"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
         }
       },
       {
         "id": "tmoneclickorder",
         "translations": {
-          "en": "TM One Click Order"
+          "en": "TM One Click Order",
+          "de": "TM One Click Order",
+          "es": "TM One Click Order",
+          "fr": "TM One Click Ordine",
+          "it": "TM One Click Ordine",
+          "ru": "TM One Click Order"
+        }
+      },
+      {
+        "id": "tmproductcustomtab",
+        "translations": {
+          "en": "TM Product Custom Tab",
+          "de": "TM Product Custom Tab",
+          "es": "TM Product Custom Tab",
+          "fr": "Onglet Personnalisé du Produit TM",
+          "it": "TM Prodotto Custom Tab",
+          "ru": "TM Product Custom Tab"
         }
       },
       {
         "id": "tmproductlistgallery200",
         "translations": {
-          "en": "TM Product List Gallery 2.0.0"
+          "en": "TM Product List Gallery 2.0.0",
+          "de": "TM Product List Gallery 2.0.0",
+          "es": "TM Product List Gallery 2.0.0",
+          "fr": "Galerie de Liste des Produits TM 2.0.0",
+          "it": "TM Prodotto Lista Gallery 2.0.0",
+          "ru": "TM Product List Gallery 2.0.0"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductzoomer",
         "translations": {
-          "en": "TM Product Zoomer"
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
         }
       },
       {
         "id": "tmproductsmanager",
         "translations": {
-          "en": "TM Products Manager"
+          "en": "TM Products Manager",
+          "de": "TM Products Manager",
+          "es": "TM Products Manager",
+          "fr": "Gestionnaire de Produits TM",
+          "it": "TM Prodotti Manager",
+          "ru": "TM Products Manager"
         }
       },
       {
         "id": "tmproductsslider200",
         "translations": {
-          "en": "TM Products Slider 2.0.0"
+          "en": "TM Products Slider 2.0.0",
+          "de": "TM Products Slider 2.0.0",
+          "es": "TM Products Slider 2.0.0",
+          "fr": "Slider de Produits TM 2.0.0",
+          "it": "TM Prodotti Slider 2.0.0",
+          "ru": "TM Products Slider 2.0.0"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       },
       {
         "id": "tmsocialfeeds",
         "translations": {
-          "en": "TM Social Feeds"
+          "en": "TM Social Feeds",
+          "de": "TM Social Feeds",
+          "es": "TM Social Feeds",
+          "fr": "Flux sociaux TM",
+          "it": "TM Social Feeds",
+          "ru": "TM Social Feeds"
         }
       }
     ],
@@ -2398,115 +3739,210 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmcollections",
         "translations": {
-          "en": "TM Collections"
-        }
-      },
-      {
-        "id": "tmcustomproducttab",
-        "translations": {
-          "en": "TM Custom Product Tab"
+          "en": "TM Collections",
+          "de": "TM Collections",
+          "es": "TM Collections",
+          "fr": "Collections TM",
+          "it": "TM Collezione",
+          "ru": "TM Collections"
         }
       },
       {
         "id": "tmdealday",
         "translations": {
-          "en": "TM Deal of the Day"
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
         }
       },
       {
         "id": "tmgooglemap115",
         "translations": {
-          "en": "TM Google Map 1.1.5"
+          "en": "TM Google Map 1.1.5",
+          "de": "TM Google Map 1.1.5",
+          "es": "TM Google Map 1.1.5",
+          "fr": "TM Google Map 1.1.5",
+          "it": "TM Google Map 1.1.5",
+          "ru": "TM Google Map 1.1.5"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tminfinitescroll",
         "translations": {
-          "en": "TM Infinite Scroll"
+          "en": "TM Infinite Scroll",
+          "de": "TM Infinite Scroll",
+          "es": "TM Infinite Scroll",
+          "fr": "Défilement Infini TM",
+          "it": "TM Infinito Scroll",
+          "ru": "TM Infinite Scroll"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
         "id": "tmmegalayout100",
         "translations": {
-          "en": "TM Mega Layout 1.0.0"
+          "en": "TM Mega Layout 1.0.0",
+          "de": "TM Mega Layout 1.0.0",
+          "es": "TM Mega Layout 1.0.0",
+          "fr": "TM Mega Layout 1.0.0",
+          "it": "TM Mega Layout 1.0.0",
+          "ru": "TM Mega Layout 1.0.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
+        }
+      },
+      {
+        "id": "tmproductcustomtab",
+        "translations": {
+          "en": "TM Product Custom Tab",
+          "de": "TM Product Custom Tab",
+          "es": "TM Product Custom Tab",
+          "fr": "Onglet Personnalisé du Produit TM",
+          "it": "TM Prodotto Custom Tab",
+          "ru": "TM Product Custom Tab"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductzoomer",
         "translations": {
-          "en": "TM Product Zoomer"
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       }
     ],
@@ -2514,139 +3950,254 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmcollections",
         "translations": {
-          "en": "TM Collections"
+          "en": "TM Collections",
+          "de": "TM Collections",
+          "es": "TM Collections",
+          "fr": "Collections TM",
+          "it": "TM Collezione",
+          "ru": "TM Collections"
         }
       },
       {
         "id": "tmdealday",
         "translations": {
-          "en": "TM Deal of the Day"
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
         }
       },
       {
         "id": "tmgooglemap115",
         "translations": {
-          "en": "TM Google Map 1.1.5"
+          "en": "TM Google Map 1.1.5",
+          "de": "TM Google Map 1.1.5",
+          "es": "TM Google Map 1.1.5",
+          "fr": "TM Google Map 1.1.5",
+          "it": "TM Google Map 1.1.5",
+          "ru": "TM Google Map 1.1.5"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tminfinitescroll",
         "translations": {
-          "en": "TM Infinite Scroll"
+          "en": "TM Infinite Scroll",
+          "de": "TM Infinite Scroll",
+          "es": "TM Infinite Scroll",
+          "fr": "Défilement Infini TM",
+          "it": "TM Infinito Scroll",
+          "ru": "TM Infinite Scroll"
         }
       },
       {
         "id": "tmlookbook",
         "translations": {
-          "en": "TM Look Book"
+          "en": "TM Look Book",
+          "de": "TM Look Book",
+          "es": "TM Look Book",
+          "fr": "TM Look Book",
+          "it": "TM Look Book",
+          "ru": "TM Look Book"
         }
       },
       {
         "id": "tmlookbookhomepage",
         "translations": {
-          "en": "TM Look Book Homepage"
+          "en": "TM Look Book Homepage",
+          "de": "TM Look Book Homepage",
+          "es": "TM Look Book Homepage",
+          "fr": "LookBook Homepage TM",
+          "it": "TM Look Book Homepage",
+          "ru": "TM Look Book Homepage"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
         "id": "tmmegalayout100",
         "translations": {
-          "en": "TM Mega Layout 1.0.0"
+          "en": "TM Mega Layout 1.0.0",
+          "de": "TM Mega Layout 1.0.0",
+          "es": "TM Mega Layout 1.0.0",
+          "fr": "TM Mega Layout 1.0.0",
+          "it": "TM Mega Layout 1.0.0",
+          "ru": "TM Mega Layout 1.0.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
         }
       },
       {
         "id": "tmoneclickorder",
         "translations": {
-          "en": "TM One Click Order"
+          "en": "TM One Click Order",
+          "de": "TM One Click Order",
+          "es": "TM One Click Order",
+          "fr": "TM One Click Ordine",
+          "it": "TM One Click Ordine",
+          "ru": "TM One Click Order"
         }
       },
       {
         "id": "tmproductlistgallery200",
         "translations": {
-          "en": "TM Product List Gallery 2.0.0"
+          "en": "TM Product List Gallery 2.0.0",
+          "de": "TM Product List Gallery 2.0.0",
+          "es": "TM Product List Gallery 2.0.0",
+          "fr": "Galerie de Liste des Produits TM 2.0.0",
+          "it": "TM Prodotto Lista Gallery 2.0.0",
+          "ru": "TM Product List Gallery 2.0.0"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductzoomer",
         "translations": {
-          "en": "TM Product Zoomer"
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       },
       {
         "id": "tmsocialfeeds",
         "translations": {
-          "en": "TM Social Feeds"
+          "en": "TM Social Feeds",
+          "de": "TM Social Feeds",
+          "es": "TM Social Feeds",
+          "fr": "Flux sociaux TM",
+          "it": "TM Social Feeds",
+          "ru": "TM Social Feeds"
         }
       }
     ],
@@ -2654,145 +4205,265 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmcollections",
         "translations": {
-          "en": "TM Collections"
-        }
-      },
-      {
-        "id": "tmcustomproducttab",
-        "translations": {
-          "en": "TM Custom Product Tab"
+          "en": "TM Collections",
+          "de": "TM Collections",
+          "es": "TM Collections",
+          "fr": "Collections TM",
+          "it": "TM Collezione",
+          "ru": "TM Collections"
         }
       },
       {
         "id": "tmdealday",
         "translations": {
-          "en": "TM Deal of the Day"
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
         }
       },
       {
         "id": "tmgooglemap115",
         "translations": {
-          "en": "TM Google Map 1.1.5"
+          "en": "TM Google Map 1.1.5",
+          "de": "TM Google Map 1.1.5",
+          "es": "TM Google Map 1.1.5",
+          "fr": "TM Google Map 1.1.5",
+          "it": "TM Google Map 1.1.5",
+          "ru": "TM Google Map 1.1.5"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tminfinitescroll",
         "translations": {
-          "en": "TM Infinite Scroll"
+          "en": "TM Infinite Scroll",
+          "de": "TM Infinite Scroll",
+          "es": "TM Infinite Scroll",
+          "fr": "Défilement Infini TM",
+          "it": "TM Infinito Scroll",
+          "ru": "TM Infinite Scroll"
         }
       },
       {
         "id": "tmlookbook",
         "translations": {
-          "en": "TM Look Book"
+          "en": "TM Look Book",
+          "de": "TM Look Book",
+          "es": "TM Look Book",
+          "fr": "TM Look Book",
+          "it": "TM Look Book",
+          "ru": "TM Look Book"
         }
       },
       {
         "id": "tmlookbookhomepage",
         "translations": {
-          "en": "TM Look Book Homepage"
+          "en": "TM Look Book Homepage",
+          "de": "TM Look Book Homepage",
+          "es": "TM Look Book Homepage",
+          "fr": "LookBook Homepage TM",
+          "it": "TM Look Book Homepage",
+          "ru": "TM Look Book Homepage"
         }
       },
       {
         "id": "tmmanufacturersblock",
         "translations": {
-          "en": "TM Manufacturers Block"
+          "en": "TM Manufacturers Block",
+          "de": "TM Manufacturers Block",
+          "es": "TM Manufacturers Block",
+          "fr": "Bloc des fabricants TM",
+          "it": "TM Manufacturers Blocco",
+          "ru": "TM Manufacturers Block"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
         "id": "tmmegalayout100",
         "translations": {
-          "en": "TM Mega Layout 1.0.0"
+          "en": "TM Mega Layout 1.0.0",
+          "de": "TM Mega Layout 1.0.0",
+          "es": "TM Mega Layout 1.0.0",
+          "fr": "TM Mega Layout 1.0.0",
+          "it": "TM Mega Layout 1.0.0",
+          "ru": "TM Mega Layout 1.0.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
         }
       },
       {
         "id": "tmoneclickorder",
         "translations": {
-          "en": "TM One Click Order"
+          "en": "TM One Click Order",
+          "de": "TM One Click Order",
+          "es": "TM One Click Order",
+          "fr": "TM One Click Ordine",
+          "it": "TM One Click Ordine",
+          "ru": "TM One Click Order"
+        }
+      },
+      {
+        "id": "tmproductcustomtab",
+        "translations": {
+          "en": "TM Product Custom Tab",
+          "de": "TM Product Custom Tab",
+          "es": "TM Product Custom Tab",
+          "fr": "Onglet Personnalisé du Produit TM",
+          "it": "TM Prodotto Custom Tab",
+          "ru": "TM Product Custom Tab"
         }
       },
       {
         "id": "tmproductlistgallery200",
         "translations": {
-          "en": "TM Product List Gallery 2.0.0"
+          "en": "TM Product List Gallery 2.0.0",
+          "de": "TM Product List Gallery 2.0.0",
+          "es": "TM Product List Gallery 2.0.0",
+          "fr": "Galerie de Liste des Produits TM 2.0.0",
+          "it": "TM Prodotto Lista Gallery 2.0.0",
+          "ru": "TM Product List Gallery 2.0.0"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductzoomer",
         "translations": {
-          "en": "TM Product Zoomer"
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       }
     ],
@@ -2800,139 +4471,243 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmcollections",
         "translations": {
-          "en": "TM Collections"
-        }
-      },
-      {
-        "id": "tmcustomproducttab",
-        "translations": {
-          "en": "TM Custom Product Tab"
+          "en": "TM Collections",
+          "de": "TM Collections",
+          "es": "TM Collections",
+          "fr": "Collections TM",
+          "it": "TM Collezione",
+          "ru": "TM Collections"
         }
       },
       {
         "id": "tmdealday",
         "translations": {
-          "en": "TM Deal of the Day"
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
         }
       },
       {
         "id": "tmgooglemap115",
         "translations": {
-          "en": "TM Google Map 1.1.5"
-        }
-      },
-      {
-        "id": "tmheaderaccount",
-        "translations": {
-          "en": "TM Header Account"
+          "en": "TM Google Map 1.1.5",
+          "de": "TM Google Map 1.1.5",
+          "es": "TM Google Map 1.1.5",
+          "fr": "TM Google Map 1.1.5",
+          "it": "TM Google Map 1.1.5",
+          "ru": "TM Google Map 1.1.5"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhomepageproductscarousel",
         "translations": {
-          "en": "TM Homepage Products Carousel"
+          "en": "TM Homepage Products Carousel",
+          "de": "TM Homepage Products Carousel",
+          "es": "TM Homepage Products Carousel",
+          "fr": "Home Carrousel des Produits TM",
+          "it": "TM Homepage Prodotti Carousel",
+          "ru": "TM Homepage Products Carousel"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tminfinitescroll",
         "translations": {
-          "en": "TM Infinite Scroll"
+          "en": "TM Infinite Scroll",
+          "de": "TM Infinite Scroll",
+          "es": "TM Infinite Scroll",
+          "fr": "Défilement Infini TM",
+          "it": "TM Infinito Scroll",
+          "ru": "TM Infinite Scroll"
         }
       },
       {
         "id": "tmmanufacturersblock",
         "translations": {
-          "en": "TM Manufacturers Block"
+          "en": "TM Manufacturers Block",
+          "de": "TM Manufacturers Block",
+          "es": "TM Manufacturers Block",
+          "fr": "Bloc des fabricants TM",
+          "it": "TM Manufacturers Blocco",
+          "ru": "TM Manufacturers Block"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
         "id": "tmmegalayout100",
         "translations": {
-          "en": "TM Mega Layout 1.0.0"
+          "en": "TM Mega Layout 1.0.0",
+          "de": "TM Mega Layout 1.0.0",
+          "es": "TM Mega Layout 1.0.0",
+          "fr": "TM Mega Layout 1.0.0",
+          "it": "TM Mega Layout 1.0.0",
+          "ru": "TM Mega Layout 1.0.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
+        }
+      },
+      {
+        "id": "tmproductcustomtab",
+        "translations": {
+          "en": "TM Product Custom Tab",
+          "de": "TM Product Custom Tab",
+          "es": "TM Product Custom Tab",
+          "fr": "Onglet Personnalisé du Produit TM",
+          "it": "TM Prodotto Custom Tab",
+          "ru": "TM Product Custom Tab"
         }
       },
       {
         "id": "tmproductlistgallery200",
         "translations": {
-          "en": "TM Product List Gallery 2.0.0"
+          "en": "TM Product List Gallery 2.0.0",
+          "de": "TM Product List Gallery 2.0.0",
+          "es": "TM Product List Gallery 2.0.0",
+          "fr": "Galerie de Liste des Produits TM 2.0.0",
+          "it": "TM Prodotto Lista Gallery 2.0.0",
+          "ru": "TM Product List Gallery 2.0.0"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductzoomer",
         "translations": {
-          "en": "TM Product Zoomer"
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       }
     ],
@@ -2940,67 +4715,122 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tm360view",
         "translations": {
-          "en": "TM 360 View"
+          "en": "TM 360 View",
+          "de": "TM 360 View",
+          "es": "TM 360 View",
+          "fr": "Vue 360 TM",
+          "it": "TM 360 View",
+          "ru": "TM 360 View"
         }
       },
       {
         "id": "tmadvancedfilter",
         "translations": {
-          "en": "TM Advanced Filter"
+          "en": "TM Advanced Filter",
+          "de": "TM Advanced Filter",
+          "es": "TM Advanced Filter",
+          "fr": "Filtre Avancé TM",
+          "it": "TM Advanced Filter",
+          "ru": "TM Advanced Filter"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmgooglemap115",
         "translations": {
-          "en": "TM Google Map 1.1.5"
+          "en": "TM Google Map 1.1.5",
+          "de": "TM Google Map 1.1.5",
+          "es": "TM Google Map 1.1.5",
+          "fr": "TM Google Map 1.1.5",
+          "it": "TM Google Map 1.1.5",
+          "ru": "TM Google Map 1.1.5"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhomepagecategorygallery",
         "translations": {
-          "en": "TM Homepage Category Gallery"
+          "en": "TM Homepage Category Gallery",
+          "de": "TM Homepage Category Gallery",
+          "es": "TM Homepage Category Gallery",
+          "fr": "Home Galerie des Categories TM",
+          "it": "TM Homepage Categoria Galleria",
+          "ru": "TM Homepage Category Gallery"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tmlookbook",
         "translations": {
-          "en": "TM Look Book"
+          "en": "TM Look Book",
+          "de": "TM Look Book",
+          "es": "TM Look Book",
+          "fr": "TM Look Book",
+          "it": "TM Look Book",
+          "ru": "TM Look Book"
         }
       },
       {
         "id": "tmlookbookhomepage",
         "translations": {
-          "en": "TM Look Book Homepage"
+          "en": "TM Look Book Homepage",
+          "de": "TM Look Book Homepage",
+          "es": "TM Look Book Homepage",
+          "fr": "LookBook Homepage TM",
+          "it": "TM Look Book Homepage",
+          "ru": "TM Look Book Homepage"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
@@ -3012,67 +4842,122 @@
       {
         "id": "tmmegalayout100",
         "translations": {
-          "en": "TM Mega Layout 1.0.0"
+          "en": "TM Mega Layout 1.0.0",
+          "de": "TM Mega Layout 1.0.0",
+          "es": "TM Mega Layout 1.0.0",
+          "fr": "TM Mega Layout 1.0.0",
+          "it": "TM Mega Layout 1.0.0",
+          "ru": "TM Mega Layout 1.0.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
         }
       },
       {
         "id": "tmoneclickorder",
         "translations": {
-          "en": "TM One Click Order"
+          "en": "TM One Click Order",
+          "de": "TM One Click Order",
+          "es": "TM One Click Order",
+          "fr": "TM One Click Ordine",
+          "it": "TM One Click Ordine",
+          "ru": "TM One Click Order"
         }
       },
       {
         "id": "tmproductlistgallery200",
         "translations": {
-          "en": "TM Product List Gallery 2.0.0"
+          "en": "TM Product List Gallery 2.0.0",
+          "de": "TM Product List Gallery 2.0.0",
+          "es": "TM Product List Gallery 2.0.0",
+          "fr": "Galerie de Liste des Produits TM 2.0.0",
+          "it": "TM Prodotto Lista Gallery 2.0.0",
+          "ru": "TM Product List Gallery 2.0.0"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductsslider200",
         "translations": {
-          "en": "TM Products Slider 2.0.0"
+          "en": "TM Products Slider 2.0.0",
+          "de": "TM Products Slider 2.0.0",
+          "es": "TM Products Slider 2.0.0",
+          "fr": "Slider de Produits TM 2.0.0",
+          "it": "TM Prodotti Slider 2.0.0",
+          "ru": "TM Products Slider 2.0.0"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsocialfeeds",
         "translations": {
-          "en": "TM Social Feeds"
+          "en": "TM Social Feeds",
+          "de": "TM Social Feeds",
+          "es": "TM Social Feeds",
+          "fr": "Flux sociaux TM",
+          "it": "TM Social Feeds",
+          "ru": "TM Social Feeds"
         }
       }
     ],
@@ -3080,127 +4965,232 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tm360view",
         "translations": {
-          "en": "TM 360 View"
+          "en": "TM 360 View",
+          "de": "TM 360 View",
+          "es": "TM 360 View",
+          "fr": "Vue 360 TM",
+          "it": "TM 360 View",
+          "ru": "TM 360 View"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmcollections",
         "translations": {
-          "en": "TM Collections"
-        }
-      },
-      {
-        "id": "tmcustomproducttab",
-        "translations": {
-          "en": "TM Custom Product Tab"
+          "en": "TM Collections",
+          "de": "TM Collections",
+          "es": "TM Collections",
+          "fr": "Collections TM",
+          "it": "TM Collezione",
+          "ru": "TM Collections"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tminfinitescroll",
         "translations": {
-          "en": "TM Infinite Scroll"
+          "en": "TM Infinite Scroll",
+          "de": "TM Infinite Scroll",
+          "es": "TM Infinite Scroll",
+          "fr": "Défilement Infini TM",
+          "it": "TM Infinito Scroll",
+          "ru": "TM Infinite Scroll"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
         "id": "tmmegalayout110",
         "translations": {
-          "en": "TM Mega Layout 1.1.0"
+          "en": "TM Mega Layout 1.1.0",
+          "de": "TM Mega Layout 1.1.0",
+          "es": "TM Mega Layout 1.1.0",
+          "fr": "TM Mega Layout 1.1.0",
+          "it": "TM Mega Layout 1.1.0",
+          "ru": "TM Mega Layout 1.1.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
         }
       },
       {
         "id": "tmoneclickorder",
         "translations": {
-          "en": "TM One Click Order"
+          "en": "TM One Click Order",
+          "de": "TM One Click Order",
+          "es": "TM One Click Order",
+          "fr": "TM One Click Ordine",
+          "it": "TM One Click Ordine",
+          "ru": "TM One Click Order"
+        }
+      },
+      {
+        "id": "tmproductcustomtab",
+        "translations": {
+          "en": "TM Product Custom Tab",
+          "de": "TM Product Custom Tab",
+          "es": "TM Product Custom Tab",
+          "fr": "Onglet Personnalisé du Produit TM",
+          "it": "TM Prodotto Custom Tab",
+          "ru": "TM Product Custom Tab"
         }
       },
       {
         "id": "tmproductlistgallery200",
         "translations": {
-          "en": "TM Product List Gallery 2.0.0"
+          "en": "TM Product List Gallery 2.0.0",
+          "de": "TM Product List Gallery 2.0.0",
+          "es": "TM Product List Gallery 2.0.0",
+          "fr": "Galerie de Liste des Produits TM 2.0.0",
+          "it": "TM Prodotto Lista Gallery 2.0.0",
+          "ru": "TM Product List Gallery 2.0.0"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductzoomer",
         "translations": {
-          "en": "TM Product Zoomer"
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
         }
       },
       {
         "id": "tmproductsslider200",
         "translations": {
-          "en": "TM Products Slider 2.0.0"
+          "en": "TM Products Slider 2.0.0",
+          "de": "TM Products Slider 2.0.0",
+          "es": "TM Products Slider 2.0.0",
+          "fr": "Slider de Produits TM 2.0.0",
+          "it": "TM Prodotti Slider 2.0.0",
+          "ru": "TM Products Slider 2.0.0"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       }
     ],
@@ -3208,127 +5198,232 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmcollections",
         "translations": {
-          "en": "TM Collections"
-        }
-      },
-      {
-        "id": "tmcustomproducttab",
-        "translations": {
-          "en": "TM Custom Product Tab"
+          "en": "TM Collections",
+          "de": "TM Collections",
+          "es": "TM Collections",
+          "fr": "Collections TM",
+          "it": "TM Collezione",
+          "ru": "TM Collections"
         }
       },
       {
         "id": "tmdealday",
         "translations": {
-          "en": "TM Deal of the Day"
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
         }
       },
       {
         "id": "tmgooglemap115",
         "translations": {
-          "en": "TM Google Map 1.1.5"
+          "en": "TM Google Map 1.1.5",
+          "de": "TM Google Map 1.1.5",
+          "es": "TM Google Map 1.1.5",
+          "fr": "TM Google Map 1.1.5",
+          "it": "TM Google Map 1.1.5",
+          "ru": "TM Google Map 1.1.5"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tminfinitescroll",
         "translations": {
-          "en": "TM Infinite Scroll"
+          "en": "TM Infinite Scroll",
+          "de": "TM Infinite Scroll",
+          "es": "TM Infinite Scroll",
+          "fr": "Défilement Infini TM",
+          "it": "TM Infinito Scroll",
+          "ru": "TM Infinite Scroll"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
         "id": "tmmegalayout100",
         "translations": {
-          "en": "TM Mega Layout 1.0.0"
+          "en": "TM Mega Layout 1.0.0",
+          "de": "TM Mega Layout 1.0.0",
+          "es": "TM Mega Layout 1.0.0",
+          "fr": "TM Mega Layout 1.0.0",
+          "it": "TM Mega Layout 1.0.0",
+          "ru": "TM Mega Layout 1.0.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
         }
       },
       {
         "id": "tmoneclickorder",
         "translations": {
-          "en": "TM One Click Order"
+          "en": "TM One Click Order",
+          "de": "TM One Click Order",
+          "es": "TM One Click Order",
+          "fr": "TM One Click Ordine",
+          "it": "TM One Click Ordine",
+          "ru": "TM One Click Order"
+        }
+      },
+      {
+        "id": "tmproductcustomtab",
+        "translations": {
+          "en": "TM Product Custom Tab",
+          "de": "TM Product Custom Tab",
+          "es": "TM Product Custom Tab",
+          "fr": "Onglet Personnalisé du Produit TM",
+          "it": "TM Prodotto Custom Tab",
+          "ru": "TM Product Custom Tab"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductzoomer",
         "translations": {
-          "en": "TM Product Zoomer"
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       },
       {
         "id": "tmsocialfeeds",
         "translations": {
-          "en": "TM Social Feeds"
+          "en": "TM Social Feeds",
+          "de": "TM Social Feeds",
+          "es": "TM Social Feeds",
+          "fr": "Flux sociaux TM",
+          "it": "TM Social Feeds",
+          "ru": "TM Social Feeds"
         }
       }
     ],
@@ -3336,145 +5431,265 @@
       {
         "id": "smart_blog",
         "translations": {
-          "en": "Smart Blog"
+          "en": "Smart Blog",
+          "de": "Smart Blog",
+          "es": "Smart Blog",
+          "fr": "Smart Blog",
+          "it": "Smart Blog",
+          "ru": "Smart Blog"
         }
       },
       {
         "id": "tmadvancedfilter",
         "translations": {
-          "en": "TM Advanced Filter"
+          "en": "TM Advanced Filter",
+          "de": "TM Advanced Filter",
+          "es": "TM Advanced Filter",
+          "fr": "Filtre Avancé TM",
+          "it": "TM Advanced Filter",
+          "ru": "TM Advanced Filter"
         }
       },
       {
         "id": "tmcategoryproducts100",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
         }
       },
       {
         "id": "tmcollections",
         "translations": {
-          "en": "TM Collections"
+          "en": "TM Collections",
+          "de": "TM Collections",
+          "es": "TM Collections",
+          "fr": "Collections TM",
+          "it": "TM Collezione",
+          "ru": "TM Collections"
         }
       },
       {
         "id": "tmdealday",
         "translations": {
-          "en": "TM Deal of the Day"
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
         }
       },
       {
         "id": "tmgooglemap115",
         "translations": {
-          "en": "TM Google Map 1.1.5"
+          "en": "TM Google Map 1.1.5",
+          "de": "TM Google Map 1.1.5",
+          "es": "TM Google Map 1.1.5",
+          "fr": "TM Google Map 1.1.5",
+          "it": "TM Google Map 1.1.5",
+          "ru": "TM Google Map 1.1.5"
         }
       },
       {
         "id": "tmheaderaccount20",
         "translations": {
-          "en": "TM Header Account 2.0"
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
         }
       },
       {
         "id": "tmhomepageproductscarousel",
         "translations": {
-          "en": "TM Homepage Products Carousel"
+          "en": "TM Homepage Products Carousel",
+          "de": "TM Homepage Products Carousel",
+          "es": "TM Homepage Products Carousel",
+          "fr": "Home Carrousel des Produits TM",
+          "it": "TM Homepage Prodotti Carousel",
+          "ru": "TM Homepage Products Carousel"
         }
       },
       {
         "id": "tmhtmlcontent",
         "translations": {
-          "en": "TM HTML Content"
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
         }
       },
       {
         "id": "tminfinitescroll",
         "translations": {
-          "en": "TM Infinite Scroll"
+          "en": "TM Infinite Scroll",
+          "de": "TM Infinite Scroll",
+          "es": "TM Infinite Scroll",
+          "fr": "Défilement Infini TM",
+          "it": "TM Infinito Scroll",
+          "ru": "TM Infinite Scroll"
         }
       },
       {
         "id": "tmmanufacturersblock",
         "translations": {
-          "en": "TM Manufacturers Block"
+          "en": "TM Manufacturers Block",
+          "de": "TM Manufacturers Block",
+          "es": "TM Manufacturers Block",
+          "fr": "Bloc des fabricants TM",
+          "it": "TM Manufacturers Blocco",
+          "ru": "TM Manufacturers Block"
         }
       },
       {
         "id": "tmmediaparallax200",
         "translations": {
-          "en": "TM Media Parallax 2.0.0"
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
         }
       },
       {
         "id": "tmmegalayout110",
         "translations": {
-          "en": "TM Mega Layout 1.1.0"
+          "en": "TM Mega Layout 1.1.0",
+          "de": "TM Mega Layout 1.1.0",
+          "es": "TM Mega Layout 1.1.0",
+          "fr": "TM Mega Layout 1.1.0",
+          "it": "TM Mega Layout 1.1.0",
+          "ru": "TM Mega Layout 1.1.0"
         }
       },
       {
         "id": "tmmegamenu",
         "translations": {
-          "en": "TM Mega Menu"
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
         }
       },
       {
         "id": "tmmosaicproducts",
         "translations": {
-          "en": "TM Mosaic Products"
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
         }
       },
       {
         "id": "tmnewsletter",
         "translations": {
-          "en": "TM Newsletter"
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
         }
       },
       {
         "id": "tmolarkchat",
         "translations": {
-          "en": "TM Olark Chat"
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
         }
       },
       {
         "id": "tmoneclickorder",
         "translations": {
-          "en": "TM One Click Order"
+          "en": "TM One Click Order",
+          "de": "TM One Click Order",
+          "es": "TM One Click Order",
+          "fr": "TM One Click Ordine",
+          "it": "TM One Click Ordine",
+          "ru": "TM One Click Order"
         }
       },
       {
         "id": "tmproductlistgallery200",
         "translations": {
-          "en": "TM Product List Gallery 2.0.0"
+          "en": "TM Product List Gallery 2.0.0",
+          "de": "TM Product List Gallery 2.0.0",
+          "es": "TM Product List Gallery 2.0.0",
+          "fr": "Galerie de Liste des Produits TM 2.0.0",
+          "it": "TM Prodotto Lista Gallery 2.0.0",
+          "ru": "TM Product List Gallery 2.0.0"
         }
       },
       {
         "id": "tmproductvideos",
         "translations": {
-          "en": "TM Product Videos"
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
         }
       },
       {
         "id": "tmproductzoomer",
         "translations": {
-          "en": "TM Product Zoomer"
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
         }
       },
       {
         "id": "tmproductsslider200",
         "translations": {
-          "en": "TM Products Slider 2.0.0"
+          "en": "TM Products Slider 2.0.0",
+          "de": "TM Products Slider 2.0.0",
+          "es": "TM Products Slider 2.0.0",
+          "fr": "Slider de Produits TM 2.0.0",
+          "it": "TM Prodotti Slider 2.0.0",
+          "ru": "TM Products Slider 2.0.0"
         }
       },
       {
         "id": "tmrelatedproducts",
         "translations": {
-          "en": "TM Related Products"
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
         }
       },
       {
         "id": "tmsearch110",
         "translations": {
-          "en": "TM Search 1.1.0"
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
         }
       }
     ]

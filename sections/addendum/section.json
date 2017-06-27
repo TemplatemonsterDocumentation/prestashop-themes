@@ -1,7 +1,12 @@
 {
 	"id": "addendum",
 	"translations": {
-		"en": "Addendum"
+		"en": "Addendum",
+		"de": "Ergänzung",
+		"es": "Addendum",
+		"fr": "Addendum",
+		"it": "Addendum",
+		"ru": "Дополнение"
 	},
 	"articles": {
 		"default": [],
@@ -18,7 +23,6 @@
 		"sweet4you": [],
 		"bigbike": [],
 		"eveprest_furniture": [],
-		"eveprest_oneproduct": [],
 		"impresta": [],
 		"giftterrs": [],
 		"boygirl": [],

@@ -1,7 +1,12 @@
 {
 	"id": "cookies-policy",
 	"translations": {
-		"en": "Cookies Policy"
+		"en": "Cookies Policy",
+		"de": "Cookie-Richtlinien",
+		"es": "Política de cookies",
+		"fr": "Politique des Cookies",
+		"it": "Cookies Policy",
+		"ru": "Политика использования куки"
 	},
 	"articles": {
 		"default": [],
@@ -18,7 +23,6 @@
 		"sweet4you": [],
 		"bigbike": [],
 		"eveprest_furniture": [],
-		"eveprest_oneproduct": [],
 		"impresta": [],
 		"giftterrs": [],
 		"boygirl": [],

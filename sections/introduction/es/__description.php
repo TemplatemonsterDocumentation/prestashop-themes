@@ -1,22 +1,21 @@
 <h2 class="item1">Introduction</h2>
-<h3>What is PrestaShop e-commerce?</h3>
-<p>PrestaShop is an e-commerce solution which is free for the basic kernel and open source. It supports payment gateways
-    such as Google checkout, paypal or payments pro via APIs.</p>
-<p>PrestaShop is available under the Open Software License and officially launched in August 2007 for dd to medium-sized
-    businesses. The software, which is based on the Smarty template engine, is used by several thousands of shops
-    worldwide.</p>
-<h3>What is PrestaShop template?</h3>
-<p>PrestaShop template is a theme for PrestaShop e-commerce solution. It provides you with vast variety of customization
-    opportunities and allows you to create an online store that fully meets your needs.</p>
-<h3>Template structure</h3>
-<h6>The template package you have downloaded consists of several folders. Let's see what each folder contains:</h6>
+<h3>Qué es PrestaShop e-commerce?</h3>
+<p>PrestaShop es una solución de comercio electrónico que es gratuita para el núcleo básico y código abierto. Soporta gateways de pago
+     еales como Google checkout, paypal o pagos pro a través de APIs.</p>
+<p>PrestaShop está disponible bajo la Licencia de Software Abierto y lanzado oficialmente en agosto de 2007 para añadir a las medianas empresas.
+   El software, que se basa en el motor de plantilla Smarty, es utilizado por varios miles de tiendas en todo el mundo.</p>
+<h3>¿Qué es la plantilla de PrestaShop??</h3>
+<p>La plantilla de PrestaShop es un tema para la solución de comercio electrónico de PrestaShop. Le proporciona una gran variedad de personalización
+     oportunidades y le permite crear una tienda en línea que satisface plenamente sus necesidades.</p>
+<h3>Estructura de la plantilla</h3>
+<h6>El paquete de plantillas que ha descargado consta de varias carpetas. Veamos qué contiene cada carpeta:</h6>
 <ul class="files_structure">
     <li class="folder">
         <dl class="inline-term">
             <dt>
                 <i class="fa fa-folder"></i>
                 <b>screenshots</b></dt>
-            <dd> contains template screenshots. Not for production</dd>
+            <dd> contiene capturas de pantalla de plantillas. No para la producción</dd>
         </dl>
     </li>
     <li class="folder">
@@ -36,7 +35,7 @@
                             <dt>
                                 <i class="fa fa-folder"></i>
                                 <strong>psd</strong></dt>
-                            <dd> template Adobe Photoshop source files (.psd)</dd>
+                            <dd> archivos de origen de Adobe Photoshop de la plantilla (.psd)</dd>
                         </dl>
                     </li>
                     <li>
@@ -44,7 +43,7 @@
                             <dt>
                                 <i class="fa fa-folder"></i>
                                 <strong>custom_html</strong></dt>
-                            <dd> custom HTML files</dd>
+                            <dd> archivos HTML personalizados</dd>
                         </dl>
                     </li>
                 </ul>
@@ -56,7 +55,7 @@
             <dt>
                 <i class="fa fa-folder"></i>
                 <b>theme</b></dt>
-            <dd> contains PrestaShop theme files</dd>
+            <dd> contiene archivos de tema de PrestaShop</dd>
         </dl>
         <ul>
             <li class="folder">
@@ -65,7 +64,7 @@
                         <i class="fa fa-folder"></i>
                         manual_install
                     </dt>
-                    <dd> contains files for manual installation</dd>
+                    <dd> contiene archivos para la instalación manual</dd>
                 </dl>
                 <ul>
                     <li class="folder">
@@ -74,7 +73,7 @@
                                 <i class="fa fa-folder"></i>
                                 img
                             </dt>
-                            <dd> images for manual installation</dd>
+                            <dd> imágenes para la instalación manual</dd>
                         </dl>
                     </li>
                     <li class="folder">
@@ -83,7 +82,7 @@
                                 <i class="fa fa-folder"></i>
                                 modules
                             </dt>
-                            <dd> modules for manual installation</dd>
+                            <dd> módulos para instalación manual</dd>
                         </dl>
                     </li>
                     <li class="folder">
@@ -92,7 +91,7 @@
                                 <i class="fa fa-folder"></i>
                                 themes
                             </dt>
-                            <dd> theme files for manual installation</dd>
+                            <dd> archivos de tema para la instalación manual</dd>
                         </dl>
                     </li>
                     <li class="file">
@@ -101,7 +100,7 @@
                                 <i class="fa fa-file"></i>
                                 dump.sql
                             </dt>
-                            <dd> sample data file for manual installation</dd>
+                            <dd> archivo de datos de muestra para la instalación manual</dd>
                         </dl>
                     </li>
                 </ul>
@@ -112,7 +111,7 @@
                         <i class="fa fa-folder"></i>
                         sample_data
                     </dt>
-                    <dd> contains files used for sample data installation with sampledatainstall module
+                    <dd> contiene archivos utilizados para la instalación de datos de ejemplo con el módulo sampledatainstall 
                     </dd>
                 </dl>
             </li>
@@ -122,7 +121,7 @@
                         <i class="fa fa-folder"></i>
                         themeinstallator
                     </dt>
-                    <dd> contains an archive for automatic theme installation</dd>
+                    <dd> contiene un archivo para la instalación automática de temas</dd>
                 </dl>
                 <ul>
                     <li class="file">
@@ -131,8 +130,8 @@
                                 <i class="fa fa-file"></i>
                                 theme####.zip
                             </dt>
-                            <dd> theme archive. Contains all theme files. It is installed using standard
-                                PrestaShop installation method
+                            <dd> Archivo temático. Contiene todos los archivos de tema. Se instala utilizando
+                                 el método de instalación estándar de PrestaShop
                             </dd>
                         </dl>
                     </li>
@@ -146,7 +145,7 @@
                 <i class="fa fa-file"></i>
                 fonts_info.txt
             </dt>
-            <dd> contains links where the template custom fonts can be downloaded
+            <dd> contiene enlaces donde se pueden descargar las fuentes personalizadas de la plantilla
             </dd>
         </dl>
     </li>
@@ -156,7 +155,7 @@
                 <i class="fa fa-file"></i>
                 info.txt
             </dt>
-            <dd> contains instructions on extracting source files</dd>
+            <dd> contiene instrucciones para extraer archivos de origen</dd>
         </dl>
     </li>
 </ul>
