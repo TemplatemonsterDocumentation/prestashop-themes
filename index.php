@@ -56,8 +56,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <?php echo $projectTextLogo; ?>
             </a>
         </div>
-<?php if ($project == $defaultProject){?>
-          <div class="panel">
+          <div class="panel <?php if ($project != $defaultProject){?>hidden<?php } ?>">
               <div class="select select-version">
                   <select>
                     <option data-href="/help/quick-start-guide/prestashop-themes/v1-5/index_en.html">Version v1-5</option>
@@ -105,7 +104,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <a href="http://www.templatemonster.com/privacy-policy.php">Privacy Policy</a>
         </p>
     </div>
-    <?php } ?>
     <div class="page-content active">
         <button class="rd-mobilepanel_toggle active"><span></span></button>
         <div class="rd-mobilepanel<?php if ('introduction' !== $section_param) : ?> fixed<?php endif; ?>">
