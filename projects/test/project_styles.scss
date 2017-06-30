@@ -1,0 +1,218 @@
+//========================================================
+//                     Variables
+//========================================================
+
+$default-color: #7d7d7d;
+$default-color-light: #f7f7f7;
+$primary-color: #f7ae92;
+$primary-color-light: #f9ebe6;
+$header-color: #fff;
+$header-background-image: url("img/header-bg.png");
+
+@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CUbuntu:300,400,500,700%7CYeseva+One:300,400,700%7CMr+De+Haviland);
+$primary-font-family: 'Ubuntu', sans-serif;
+$secondary-font-family: 'Yeseva One', serif;
+$tertiary-font-family: 'Mr De Haviland', sans-serif;
+
+//========================================================
+//                     Color & Styles
+//========================================================
+
+h2 {
+	color: $primary-color;
+}
+
+h3 {
+	color: $primary-color;
+}
+
+h4 {
+	color: $primary-color;
+}
+
+main {
+	padding-top: 80px;
+}
+
+.page-content {
+
+	.rd-mobilepanel {
+		background-position: 60% bottom;
+	}
+
+	&.active {
+		.rd-mobilepanel {
+			background-position: 60% bottom;
+		}
+	}
+}
+
+.rd-mobilepanel {
+	box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
+	transition-property: height;
+	transition-duration: 2s;
+	transition-timing-function: linear;
+	transition-delay: 1s;
+
+	&_toggle {
+		z-index: 99999999;
+	}
+	&_toggle span, &_toggle span:before, &_toggle span:after {
+		background-color: $header-color;
+	}
+	&.fixed {
+		background: linear-gradient(90deg, #7f6c60, #fdf5e6);
+		border-bottom: none;
+		box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
+	}
+}
+
+[data-section="introduction"] {
+	.rd-mobilepanel {
+		background: linear-gradient(90deg, #7f6c60, #fdf5e6);
+		height: 500px;
+		z-index: 99999998;
+
+		&:before {
+			content: '';
+			position: absolute;
+			background-position: 60% bottom;
+			background-image: $header-background-image;
+			transition-property: height;
+			transition-duration: 2s;
+			transition-timing-function: linear;
+			transition-delay: 1s;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-repeat: no-repeat;
+			z-index: 99999999;
+		}
+
+		&.fixed {
+			height: 56px;
+			transition: top 1s ease-out 0.5s;
+		}
+
+		&.fixed:before {
+			background-image: none;
+		}
+	}
+}
+
+body:not([data-section="introduction"]) {
+	.tm-title-caption {
+		display: none;
+	}
+}
+
+.rd-mobilepanel_title {
+	font-family: $secondary-font-family;
+	top: 250px;
+	left: 80px;
+	right: auto;
+	color: $header-color;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.tm-title-caption {
+	font-family: $tertiary-font-family;
+	font-size: 45px;
+	top: 350px;
+	left: 85px;
+	right: auto;
+	color: $header-color;
+	text-transform: lowercase;
+}
+
+.rd-mobilemenu {
+	background-color: transparent;
+	&:before {
+		box-shadow: -5px 0 7px 0 rgba(0, 0, 0, 0.1);
+	}
+	.logo {
+		background-color: $primary-color-light;
+	}
+	li {
+		font-family: $primary-font-family;
+		font-size: 13px;
+		letter-spacing: .2px;
+	}
+	&_ul {
+		a {
+			padding: 13px 25px 14px;
+		}
+		a:hover, a.active, a.opened {
+			background-color: $primary-color-light;
+		}
+		ul a.focus {
+			color: $primary-color;
+		}
+	}
+}
+
+.toTop {
+  background-color: $primary-color;
+  &:hover {
+    background: lighten($primary-color, 5%);
+  }
+}
+
+.files_structure {
+  li {
+    .fa {
+		color: $primary-color;
+    }
+  }
+}
+
+.codebox {
+  background-color: $default-color-light;
+}
+
+.small {
+	font-size: .9em;
+	letter-spacing: .3px;
+}
+
+///////////////////////////////////////////////
+////FOR CREATING PDF VERSION!!!!!!!!!!!!!!!!!!!!
+///////////////////////////////////////////////
+//
+//.rd-mobilemenu, .rd-mobilepanel_toggle, .rd-mobilepanel, .toTop {
+//  display: none;
+//}
+//
+//.page-content.active .page, .page-content.active .rd-mobilepanel, .page-content.active .rd-mobilepanel_toggle {
+//  -moz-transform: translateX(0px);
+//  -ms-transform: translateX(0px);
+//  -o-transform: translateX(0px);
+//  -webkit-transform: translateX(0px);
+//  transform: translateX(0px);
+//}
+//
+//main > .container {
+//  padding-right: 0%;
+//}
+//
+//.resp-tab-content {
+//  display: block;
+//}
+//
+//.resp-accordion.resp-tab-active {
+//  background-color: #999;
+//}
+//
+//article.description {
+//  padding-top: 0px;
+//}
+//
+////main {
+////	padding-top: 0px;
+////}
+//
+//body.navbar-fixed {
+//	padding-top: 0px;
+//}
