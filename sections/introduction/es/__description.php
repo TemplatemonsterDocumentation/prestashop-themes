@@ -4,7 +4,7 @@
      еales como Google checkout, paypal o pagos pro a través de APIs.</p>
 <p>PrestaShop está disponible bajo la Licencia de Software Abierto y lanzado oficialmente en agosto de 2007 para añadir a las medianas empresas.
    El software, que se basa en el motor de plantilla Smarty, es utilizado por varios miles de tiendas en todo el mundo.</p>
-<h3>¿Qué es la plantilla de PrestaShop??</h3>
+<h3>¿Qué es la plantilla de PrestaShop?</h3>
 <p>La plantilla de PrestaShop es un tema para la solución de comercio electrónico de PrestaShop. Le proporciona una gran variedad de personalización
      oportunidades y le permite crear una tienda en línea que satisface plenamente sus necesidades.</p>
 <h3>Estructura de la plantilla</h3>

@@ -1066,6 +1066,52 @@
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
+    ],
+    "decorta": [
+      {
+        "id": "changestoreinfo",
+        "translations": {
+          "en": "How to change info about your store",
+          "de": "Wie man Informationen über Ihren Online-Shops ändert",
+          "es": "Cómo cambiar la información de su tienda",
+          "fr": "Comment changer d'information sur votre magasin",
+          "it": "Come modificare informazioni sul tuo negozio",
+          "ru": "Как изменить информацию о вашем магазине"
+        }
+      },
+      {
+        "id": "edit_slider",
+        "translations": {
+          "en": "How to edit slider",
+          "de": "Wie man Änderungen an dem Slider vornimmt",
+          "es": "Cómo editar el slider",
+          "fr": "Comment modifier le slider",
+          "it": "Come modificare il dispositivo di scorrimento",
+          "ru": "Как внести изменения в слайдер"
+        }
+      },
+      {
+        "id": "manage_configurator",
+        "translations": {
+          "en": "How to manage the Theme Configurator module",
+          "de": "Wie man mit dem Modul Theme Configurator arbeitet",
+          "es": "Cómo administrar el módulo Theme Configurator",
+          "fr": "Comment gérer le module de Configuration de Thème",
+          "it": "Come gestire il modulo Theme Configurator",
+          "ru": "Как работать с модулем Theme Configurator"
+        }
+      },
+      {
+        "id": "permanent_links",
+        "translations": {
+          "en": "How to add or remove some links in Permanent links block",
+          "de": "Wie man einige Links zum Block Permalinks hinzufügt oder löscht",
+          "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
+          "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
+          "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
+        }
+      }
     ]
   }
 }
