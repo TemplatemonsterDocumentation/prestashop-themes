@@ -3,9 +3,10 @@
 //========================================================
 
 $default-color: #7d7d7d;
-$primary-color: #fe9b4b;
+$primary-color: #121212;
 $secondary-color-light: #f7f7f7;
 $dark-color: #131313;
+$header-background-color: #ae4f83;
 $header-color: #fff;
 
 @import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CRubik:400,700%7COpen+Sans:300,400,500,700);
@@ -50,7 +51,8 @@ h3 {
 		background-color: $header-color;
 	}
 	&.fixed {
-		background: linear-gradient(90deg, #C35A2F, #f4f4f4);
+		background: #121212;
+
 		border-bottom: none;
 		box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
 	}
@@ -58,7 +60,8 @@ h3 {
 
 [data-section="introduction"] {
 	.rd-mobilepanel {
-		background: linear-gradient(90deg, #C35A2F, #f4f4f4);
+		background: #121212;
+
 		height: 500px;
 		z-index: 99999998;
 

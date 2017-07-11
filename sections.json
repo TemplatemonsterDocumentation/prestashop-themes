@@ -233,5 +233,14 @@
 		"custom-modules",
 		"cookies-policy",
 		"addendum"
+	],
+	"doretech": [
+		"introduction",
+		"getting-started",
+		"template-installation",
+		"basic-tutorials",
+		"custom-modules",
+		"cookies-policy",
+		"addendum"
 	]
 }

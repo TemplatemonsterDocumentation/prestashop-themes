@@ -172,7 +172,8 @@
     </li>
     <li>
         <p>Choose options for displaying one of the sliders on your website.</p>
-        <figure class="img-polaroid"><img src="img/tmslider-25.png" alt="" /></figure>
+        <figure class="img-polaroid"><img src="img/tmslider-251.png" alt="" /></figure>
+        <figure class="img-polaroid"><img src="img/tmslider-252.png" alt="" /></figure>
         <ul class="marked-list">
             <li><strong>Select page</strong> - choose the page for implementing the slider</li>
             <li><strong>Select hook</strong> - choose the hook within this page</li>
