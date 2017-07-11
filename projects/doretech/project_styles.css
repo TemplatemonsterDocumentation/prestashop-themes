@@ -1,18 +1,10 @@
-@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CUbuntu:300,400,500,700%7CYeseva+One:300,400,700%7CMr+De+Haviland);
+@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CRubik:400,700%7COpen+Sans:300,400,500,700);
 h2 {
-  color: #f7ae92;
+  color: #121212;
 }
 
 h3 {
-  color: #f7ae92;
-}
-
-h4 {
-  color: #f7ae92;
-}
-
-main {
-  padding-top: 80px;
+  color: #121212;
 }
 
 .page-content .rd-mobilepanel {
@@ -36,13 +28,13 @@ main {
   background-color: white;
 }
 .rd-mobilepanel.fixed {
-  background: linear-gradient(90deg, #7f6c60, oldlace);
+  background: #121212;
   border-bottom: none;
   box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
 }
 
 [data-section="introduction"] .rd-mobilepanel {
-  background: linear-gradient(90deg, #7f6c60, oldlace);
+  background: #121212;
   height: 500px;
   z-index: 99999998;
 }
@@ -75,23 +67,23 @@ body:not([data-section="introduction"]) .tm-title-caption {
 }
 
 .rd-mobilepanel_title {
-  font-family: "Yeseva One", serif;
+  font-family: "Rubik", sans-serif;
+  font-size: 82px;
   top: 250px;
   left: 80px;
   right: auto;
   color: white;
   text-transform: uppercase;
-  letter-spacing: 3px;
 }
 
 .tm-title-caption {
-  font-family: "Mr De Haviland", sans-serif;
-  font-size: 45px;
-  top: 350px;
-  left: 85px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  top: 335px;
+  left: 84px;
   right: auto;
   color: white;
-  text-transform: lowercase;
+  text-transform: uppercase;
 }
 
 .rd-mobilemenu {
@@ -101,32 +93,30 @@ body:not([data-section="introduction"]) .tm-title-caption {
   box-shadow: -5px 0 7px 0 rgba(0, 0, 0, 0.1);
 }
 .rd-mobilemenu .logo {
-  background-color: #f9ebe6;
+  background-color: #f7f7f7;
 }
 .rd-mobilemenu li {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 13px;
+  font-weight: 300;
   letter-spacing: .2px;
 }
 .rd-mobilemenu_ul a {
   padding: 13px 25px 14px;
 }
-.rd-mobilemenu_ul a:hover, .rd-mobilemenu_ul a.active, .rd-mobilemenu_ul a.opened {
-  background-color: #f9ebe6;
-}
 .rd-mobilemenu_ul ul a.focus {
-  color: #f7ae92;
+  color: #121212;
 }
 
 .toTop {
-  background-color: #f7ae92;
+  background-color: #7d7d7d;
 }
 .toTop:hover {
-  background: #f9c0aa;
+  background: #b0b0b0;
 }
 
 .files_structure li .fa {
-  color: #f7ae92;
+  color: #121212;
 }
 
 .codebox {

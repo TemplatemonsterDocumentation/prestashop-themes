@@ -3,16 +3,15 @@
 //========================================================
 
 $default-color: #7d7d7d;
-$default-color-light: #f7f7f7;
-$primary-color: #f7ae92;
-$primary-color-light: #f9ebe6;
+$primary-color: #121212;
+$secondary-color-light: #f7f7f7;
+$dark-color: #131313;
+$header-background-color: #ae4f83;
 $header-color: #fff;
-$header-background-image: url("img/header-bg.png");
 
-@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CUbuntu:300,400,500,700%7CYeseva+One:300,400,700%7CMr+De+Haviland);
-$primary-font-family: 'Ubuntu', sans-serif;
-$secondary-font-family: 'Yeseva One', serif;
-$tertiary-font-family: 'Mr De Haviland', sans-serif;
+@import url(//fonts.googleapis.com/css?family=Noto+Sans:700%7CRubik:400,700%7COpen+Sans:300,400,500,700);
+$primary-font-family: 'Rubik', sans-serif;
+$secondary-font-family: 'Open Sans', sans-serif;
 
 //========================================================
 //                     Color & Styles
@@ -21,17 +20,8 @@ $tertiary-font-family: 'Mr De Haviland', sans-serif;
 h2 {
 	color: $primary-color;
 }
-
 h3 {
 	color: $primary-color;
-}
-
-h4 {
-	color: $primary-color;
-}
-
-main {
-	padding-top: 80px;
 }
 
 .page-content {
@@ -61,7 +51,8 @@ main {
 		background-color: $header-color;
 	}
 	&.fixed {
-		background: linear-gradient(90deg, #7f6c60, #fdf5e6);
+		background: #121212;
+
 		border-bottom: none;
 		box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
 	}
@@ -69,7 +60,8 @@ main {
 
 [data-section="introduction"] {
 	.rd-mobilepanel {
-		background: linear-gradient(90deg, #7f6c60, #fdf5e6);
+		background: #121212;
+
 		height: 500px;
 		z-index: 99999998;
 
@@ -77,7 +69,7 @@ main {
 			content: '';
 			position: absolute;
 			background-position: 60% bottom;
-			background-image: $header-background-image;
+			background-image: url("img/header-bg.png");
 			transition-property: height;
 			transition-duration: 2s;
 			transition-timing-function: linear;
@@ -107,24 +99,30 @@ body:not([data-section="introduction"]) {
 	}
 }
 
+[data-section="layouts-structure"] {
+	.page {
+		//background-color: #faf7e6;
+	}
+}
+
 .rd-mobilepanel_title {
-	font-family: $secondary-font-family;
+	font-family: $primary-font-family;
+	font-size: 82px;
 	top: 250px;
 	left: 80px;
 	right: auto;
 	color: $header-color;
 	text-transform: uppercase;
-	letter-spacing: 3px;
 }
 
 .tm-title-caption {
-	font-family: $tertiary-font-family;
-	font-size: 45px;
-	top: 350px;
-	left: 85px;
+	font-family: $secondary-font-family;
+	font-size: 17px;
+	top: 335px;
+	left: 84px;
 	right: auto;
 	color: $header-color;
-	text-transform: lowercase;
+	text-transform: uppercase;
 }
 
 .rd-mobilemenu {
@@ -133,11 +131,12 @@ body:not([data-section="introduction"]) {
 		box-shadow: -5px 0 7px 0 rgba(0, 0, 0, 0.1);
 	}
 	.logo {
-		background-color: $primary-color-light;
+		background-color: $secondary-color-light;
 	}
 	li {
 		font-family: $primary-font-family;
 		font-size: 13px;
+		font-weight: 300;
 		letter-spacing: .2px;
 	}
 	&_ul {
@@ -145,7 +144,7 @@ body:not([data-section="introduction"]) {
 			padding: 13px 25px 14px;
 		}
 		a:hover, a.active, a.opened {
-			background-color: $primary-color-light;
+
 		}
 		ul a.focus {
 			color: $primary-color;
@@ -154,65 +153,25 @@ body:not([data-section="introduction"]) {
 }
 
 .toTop {
-  background-color: $primary-color;
+  background-color: $default-color;
   &:hover {
-    background: lighten($primary-color, 5%);
+    background: lighten($default-color, 20%);
   }
 }
 
 .files_structure {
   li {
     .fa {
-		color: $primary-color;
+      color: $primary-color;
     }
   }
 }
 
 .codebox {
-  background-color: $default-color-light;
+  background-color: $secondary-color-light;
 }
 
 .small {
 	font-size: .9em;
 	letter-spacing: .3px;
 }
-
-///////////////////////////////////////////////
-////FOR CREATING PDF VERSION!!!!!!!!!!!!!!!!!!!!
-///////////////////////////////////////////////
-//
-//.rd-mobilemenu, .rd-mobilepanel_toggle, .rd-mobilepanel, .toTop {
-//  display: none;
-//}
-//
-//.page-content.active .page, .page-content.active .rd-mobilepanel, .page-content.active .rd-mobilepanel_toggle {
-//  -moz-transform: translateX(0px);
-//  -ms-transform: translateX(0px);
-//  -o-transform: translateX(0px);
-//  -webkit-transform: translateX(0px);
-//  transform: translateX(0px);
-//}
-//
-//main > .container {
-//  padding-right: 0%;
-//}
-//
-//.resp-tab-content {
-//  display: block;
-//}
-//
-//.resp-accordion.resp-tab-active {
-//  background-color: #999;
-//}
-//
-//article.description {
-//  padding-top: 0px;
-//}
-//
-////main {
-////	padding-top: 0px;
-////}
-//
-//body.navbar-fixed {
-//	padding-top: 0px;
-//}
