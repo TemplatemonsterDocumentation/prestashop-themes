@@ -1,1 +1,1 @@
-<h2 class="item2">Introducción</h2>
+<h2 class="item2">Primeros pasos</h2>

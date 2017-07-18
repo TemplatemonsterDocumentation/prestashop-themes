@@ -1,5 +1,5 @@
 ﻿<h3>TM Mega Layout 1.1.0</h3>
-<p>Ce module est conçu pour vous permettre de créer des mises en page personnalisées (préréglages) pour les crochets et les afficher sur le site au lieu des positions par défaut. 
+<p>Ce module est conçu pour vous permettre de créer des mises en page personnalisées (préréglages) pour les crochets et les afficher sur le site au lieu des positions par défaut.
 L'avantage de ce module est de vous permettre de créer différentes crochets et les modifier selon vos besoins.</p>
 <h4>Caractéristiques fonctionnelles du module</h4>
 <ul class="index-list">
@@ -21,7 +21,7 @@ L'avantage de ce module est de vous permettre de créer différentes crochets et
         </ul>
     </li>
 </ul>
-<h6>Le module fournit une option pour changer la position du module et configurer la grille pour 3 crochets: displayTopColumn, displayHome, displayFooter. 
+<h6>Le module fournit une option pour changer la position du module et configurer la grille pour 3 crochets: displayTopColumn, displayHome, displayFooter.
 La modification de la position des modules dans la section 'Modules et Services -> Positions' n'affecte pas le préréglage.
 Si le module n'a pas été ajouté au crochet, il ne peut pas être ajouté au préréglage.</h6>
 <h4>ML'intégration du module au thème</h4>
@@ -241,7 +241,7 @@ Si le module n'a pas été ajouté au crochet, il ne peut pas être ajouté au p
     </li>
     <li>
         <p>Le préréglage a été activé. Si vous devez afficher ce préréglage uniquement sur certaines pages, ouvrez le menu déroulant (3) et sélectionnez les pages dont vous avez besoin.
-			Pour appliquer les modifications, cliquez en dehors de la zone de liste. 
+			Pour appliquer les modifications, cliquez en dehors de la zone de liste.
 			Un préréglage affiché sur toutes les pages sera marqué avec une étoile remplie dans la liste des préréglages,
 			et le préréglage, qui s'affiche uniquement sur certaines pages, sera marqué avec une étoile partiellement remplie.</p>
         <figure class="img-polaroid"><img src="img/tmmegalayout100-activation-preset-3.png" alt=""/></figure>
@@ -494,8 +494,8 @@ Si le module n'a pas été ajouté au crochet, il ne peut pas être ajouté au p
 <p>Module, affecté à ce crochet.</p>
 
 <h5>Ajout du module</h5>
-<p class="box-notification"><span>Faites attention lors de l'ajout de modules au préréglage, 
-Il est souhaitable que certains modules de ne pas changer leur disposition visible, par exemple, 
+<p class="box-notification"><span>Faites attention lors de l'ajout de modules au préréglage,
+Il est souhaitable que certains modules de ne pas changer leur disposition visible, par exemple,
 le module statistique 'Data mining for statistics' ('Exploration de données pour statistiques').</span></p>
 <ul class="index-list">
     <li>
@@ -552,7 +552,7 @@ le module statistique 'Data mining for statistics' ('Exploration de données pou
 </ul>
 
 <h5>Logo, Droits d'auteur</h5>
-<p>Les blocs de Logo et de Droits d'auteur sont modifiés de la même manière que les modules, 
+<p>Les blocs de Logo et de Droits d'auteur sont modifiés de la même manière que les modules,
 Sauf que Logo ne peut être placé que dans la position de Header ou Footer, et le bloc Copyright peut être placé uniquement en position de Footer.</p>
 
 <h4 class="text-secondary">Page de produit</h4>
@@ -564,7 +564,7 @@ Sauf que Logo ne peut être placé que dans la position de Header ou Footer, et 
     <li><p>Créez le dossier 'product_pages' dans votre répertoire de thème.</p>
         <figure class="img-polaroid"><img src="img/tmmegalayout110-product-info-3.png" alt=""></figure>
     </li>
-    <li>Dans le dossier de thème, retrouvez le fichier 'product.tpl', copiez-le dans le dossier récemment créé 'product_pages' et renommez-le 'default.tpl'. 
+    <li>Dans le dossier de thème, retrouvez le fichier 'product.tpl', copiez-le dans le dossier récemment créé 'product_pages' et renommez-le 'default.tpl'.
 	Pour créer plusieurs mises en page -  dupliquer ce fichier, renommez-le (par ex. 'layout_1.tpl', 'layout_2.tpl') et modifiez la structure selon vos besoins.</li>
     <li>Créez un fichier 'config.json' dans ce dossier. Copiez le code suivant:
         <pre class="codebox">
@@ -617,11 +617,11 @@ Sauf que Logo ne peut être placé que dans la position de Header ou Footer, et 
   {/if}
 {/if}</pre>
     </li>
-    <li>Pour ajouter/modifier les styles de la disposition d'une page de produit, accédez à your_theme_folder/css/ et ajoutez un nouveau dossier 'product_pages'. 
-	Dans ce dossier, créez un fichier avec le nom de disposition et l'extension .css (par ex. 'default.css', 'layout_1.css', 'layout_2.css'). 
+    <li>Pour ajouter/modifier les styles de la disposition d'une page de produit, accédez à your_theme_folder/css/ et ajoutez un nouveau dossier 'product_pages'.
+	Dans ce dossier, créez un fichier avec le nom de disposition et l'extension .css (par ex. 'default.css', 'layout_1.css', 'layout_2.css').
 	Ces fichiers doivent contenir des styles de la disposition de la page de produit correspondante.</li>
-    <li>Pour ajouter des scripts à la disposition d'une page de produit, allez à your_theme_folder/js/ et ajoutez un nouveau dossier 'product_pages'. 
-	Dans ce dossier, créez un fichier avec le nom de disposition et l'extension .js (par ex. 'default.js', 'layout_1.js', 'layout_2.js'). 
+    <li>Pour ajouter des scripts à la disposition d'une page de produit, allez à your_theme_folder/js/ et ajoutez un nouveau dossier 'product_pages'.
+	Dans ce dossier, créez un fichier avec le nom de disposition et l'extension .js (par ex. 'default.js', 'layout_1.js', 'layout_2.js').
 	Ces fichiers doivent contenir des scripts de la disposition de la page de produit correspondante.</li>
 </ul>
 <h5>Bascule entre différentes présentations.</h5>
@@ -696,7 +696,7 @@ Sauf que Logo ne peut être placé que dans la position de Header ou Footer, et 
 
 <!--optimization-->
 <h5>Optimisation des styles et des scripts</h5>
-<p>L'optimisation des styles et des scripts ajoute des exclusions pour les modules dans la section Header, en fonction de leur utilisation dans les préréglages. 
+<p>L'optimisation des styles et des scripts ajoute des exclusions pour les modules dans la section Header, en fonction de leur utilisation dans les préréglages.
 Cela permet d'accélérer la vitesse de chargement de la page. L'optimisation fonctionne en mode test.</p>
 <p>Activation de l'optimisation:</p>
 <ul class="index-list">
@@ -710,7 +710,7 @@ Cela permet d'accélérer la vitesse de chargement de la page. L'optimisation fo
     </li>
 </ul>
 <p>Si l'optimisation est activée lors de l'édition et de l'activation des préréglages, l'optimisation est rejetée, mais vous verrez une fenêtre, offrant d'exécuter l'optimisation.
-Il n'est pas nécessaire d'optimiser les scripts et les styles chaque fois que vous modifiez les préréglages. 
+Il n'est pas nécessaire d'optimiser les scripts et les styles chaque fois que vous modifiez les préréglages.
 Il est préférable de les optimiser quand vous avez terminé l'édition.</p>
 <figure class="img-polaroid"><img src="img/tmmegalayout100-optimization-3.png" alt=""></figure>
 

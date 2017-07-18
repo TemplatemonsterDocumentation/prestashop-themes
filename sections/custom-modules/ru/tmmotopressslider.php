@@ -1,25 +1,23 @@
+
 <h3>TM MotoPress Slider</h3>
 <?php if ($project == 'eveprest') { ?>
     <div>
-        <p style="margin-bottom: 0;">Available in:</p>
-        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture</p>
+        <p style="margin-bottom: 0;">Доступен в:</p>
+        <p style="margin-top: 0;" class="small text-secondary">Мода, Электроника, Запчасти, Мебель</p>
     </div>
 <?php } ?>
 
-<h4>Module Installation</h4>
-<p>This module provides the ability to add MotoPress Slider to your HTML page. It can be installed like any other
-    PrestaShop module:</p>
+<h4>Установка модуля</h4>
+<p>Это модуль предоставляет возможность добавить Слайдер MotoPress на вашу станицу HTML. Он может быть установлен как любой другой модуль PrestaShop:</p>
 <ul class="index-list">
-    <li><p>Upload module to the /modules folder.</p></li>
-    <li><p>Go to Admin panel -> Modules and Services -> Modules and Services (1), find the module (2) and click the
-            'Install' button (3).</p>
+    <li><p>Загрузите модуль в папку /modules.</p></li>
+    <li><p>Откройте Админ панель  -> Модули и службы -> Модули и службы (1), найдите модуль (2) и нажмите на кнопку 'Установить' (3).</p>
         <figure class="img-polaroid">
             <img src="img/mpslider00_install.png" alt=""/>
         </figure>
     </li>
-    <li><p>When the module is successfully installed you can see the 'MotoPress Slider' menu appeared at the bottom of
-            your admin panel (1).<br>
-            Click the 'MotoPress Slider' button in this menu (2).
+    <li><p>Успешно установив модуль, Вы увидите меню 'MotoPress Slider' внизу панели (1).<br>
+            Нажмите на кнопку 'MotoPress Slider' в этом меню (2).
         </p>
         <figure class="img-polaroid">
             <img src="img/mpslider01_open.png" alt=""/>
@@ -27,311 +25,283 @@
     </li>
 </ul>
 
-<h4>Module Usage</h4>
-<h5>Adding/editing slider</h5>
-<p>Now you are able to add new slider (1) or edit the existing one (2).</p>
+<h4>Использование модуля</h4>
+<h5>Добавление/редактирование слайдера</h5>
+<p>Теперь Вы можете добавить новый слайдер (1) или внести изменения в существующий (2).</p>
 <figure class="img-polaroid">
     <img src="img/mpslider02_addedit.png" alt=""/>
 </figure>
-<h5>Adding new slider</h5>
-<p>When you clicked the 'Add Slider' button, there's an option to choose if it should be 'Custom Slider' or 'Product
-    Slider'.</p>
+<h5>Добавление нового слайдера</h5>
+<p>Нажав на кнопку 'Добавить слайдер', Вы увидите настройку, которая позволяет выбрать, будет ли это 'Пользовательский слайдер' или 'Слайдер товаров'.</p>
 <figure class="img-polaroid">
     <img src="img/mpslider03_slider_add.png" alt=""/>
 </figure>
-<p>The difference between these two types is the following: Product slider is created from the products of your store,
-    though in Custom Slider you can add as much slides as you wish, customizing them according to your needs.</p>
-<p>The settings for Custom and Product slider are slightly different. <br>
-    They will be mentioned further.</p>
+<p>Различие между этими двумя типами слайдера следующее: Слайдер товаров отображает товары вашего магазина, а в пользовательский слайдер Вы можете добавить столько слайдов, сколько пожелаете, редактируя их код в соответствии с вашими потребностями.</p>
+<p> Настройки для Пользовательского слайдера и Слайдера товаров немного отличаются. <br>
+    Они будут упомянуты далее.</p>
 
-<h4>Module Configuration</h4>
-<h5>Slider settings</h5>
-<p>The main slider settings. Detailed settings description is below the screenshot.</p>
+<h4>Настройка модуля</h4>
+<h5>Настройки слайдера</h5>
+<p>Настройки главного слайдера. Детальное описание настроек находится под скриншотом.</p>
 <figure class="img-polaroid">
     <img src="img/mpslider04_slider_slider_settings.png" alt=""/>
 </figure>
 <ul class="marked-list">
-    <li><strong>Slider title</strong> - the title of the slider (example: Slider1); it is required when you have several
-        sliders and have to distinguish them.
+    <li><strong>Название слайдера</strong> (Slider title) - название слайдера (например: Slider1); название обязательно, если у Вас есть несколько слайдеров, и Вам нужно их различать.
     </li>
-    <li><strong>Slider alias</strong> - the unique alias that will be used in shortcodes for embedding the slider
-        (example: slider1); must be unique.
+    <li><strong>Алиас слайдера</strong> (Slider alias) - алиас, который будет использован в шорткодах для добавления слайдера (например: slider1); должен быть уникальным.
     </li>
-    <li><strong>Slider shortcode</strong> - copy this shortocode and paste to your page.</li>
-    <li><strong>Force full width</strong> - enable this option to make this slider stretch to full-width.</li>
-    <li><strong>Force full height</strong> - enable this option to make this slider full-height.</li>
-    <li><strong>Force full size grid</strong> - makes grid stretch to parent container (but you still need to set grid
-        width and height).
+    <li><strong>Шорткод слайдера</strong> (Slider shortcode) - скопируйте этот шорткод и вставьте на вашу страницу.</li>
+    <li><strong>Обязательная полная ширина</strong> (Force full width) - включите эту настройку, для того чтобы растянуть слайдер на полную ширину.</li>
+    <li><strong>Обязательная полная высота </strong> (Force full height) - включите эту настройку, чтобы растянуть слайдер на полную высоту.</li>
+    <li><strong>Обязательная полноразмерная сетка</strong> (Force full size grid) – используется для того, чтобы сетка заняла весь родительский контейнер (но Вам все равно нужно задать ширину и высоту сетки). 
     </li>
-    <li><strong>Layers grid size</strong> - allows to set initial width and height of the layers.</li>
-    <li><strong>Enable slideshow</strong> - enable/disable the slideshow.</li>
-    <li><strong>Slideshow delay</strong> - the time one slide stays on the screen; is measured in milliseconds.</li>
-    <li><strong>Slideshow animation</strong> - choose the animation for changing slides.</li>
-    <li><strong>Slideshow duration</strong> - animation duration in milliseconds.</li>
-    <li><strong>Slideshow easings</strong> - easings on slide changing.</li>
-    <li><strong>Start with slide</strong> - first slide index.</li>
+    <li><strong>Размер сетки слоёв</strong> (Layers grid size) - позволяет установить изначальную ширину и высоту слоёв.</li>
+    <li><strong>Включить слайдшоу</strong> (Enable slideshow) - включить/отключить слайдшоу.</li>
+    <li><strong>Задержка слайдшоу</strong> (Slideshow delay) - время отображения слайда на экране; измеряется в миллисекундах. </li>
+    <li><strong>Анимационный эффект слайдшоу</strong> (Slideshow animation) - выберите анимационный эффект смены слайдов.</li>
+    <li><strong>Продолжительность слайдшоу</strong> (Slideshow duration) - продолжительность анимационного эффекта в миллисекундах.</li>
+    <li><strong>Выцветание слайдшоу</strong> (Slideshow easings) - выцветание при переключении слайдов.</li>
+    <li><strong>Начать со слайда</strong> (Start with slide) - индекс первого слайда.</li>
 </ul>
-<h5>Controls</h5>
-<p>Options which refer to slide switching controls.</p>
+<h5>Элементы управления</h5>
+<p>Настройки элементов управления переключением слайдов.</p>
 <figure class="img-polaroid">
     <img src="img/mpslider05_slider_controls.png" alt=""/>
 </figure>
 <ul class="marked-list">
-    <li><strong>Show arrows</strong> - show/hide arrows.</li>
-    <li><strong>Show bullets</strong> - show/hide bullets.</li>
-    <li><strong>Show slideshow timer</strong> - show/hide timer.</li>
-    <li><strong>Show slideshow play/pause button</strong> - show or hide play/pause button.</li>
-    <li><strong>Hide controls when mouse leaves slider</strong> - hide controls when mouse is not on slider area.</li>
-    <li><strong>Pause on hover</strong> - allows to pause slideshow while hover the slider.</li>
-    <li><strong>Reverse order of the slides</strong> - animate slides in the reverse order.</li>
-    <li><strong>Show counter</strong> - enable to display the number of slides.</li>
-    <li><strong>Enable swipe</strong> - turn on swipe on desktop.</li>
+    <li><strong>Отображение стрелок</strong> (Show arrows) - отобразить/скрыть стрелки.</li>
+    <li><strong>Отобразить точки</strong> (Show bullets) - отобразить/скрыть точки.</li>
+    <li><strong>Отобразить счетчик обратного отсчета слайдшоу</strong> (Show slideshow timer) - отобразить/скрыть счетчик обратного отсчета. </li>
+    <li><strong>Отобразить кнопку воспроизведения/паузы</strong> (Show slideshow play/pause button) – отобразить или скрыть кнопку воспроизведения/паузы.</li>
+    <li><strong>Срыть элементы управления когда курсор мышки не на слайдере</strong> (Hide controls when mouse leaves slider) – скрыть элементы управления когда мышка не в области слайдера.</li>
+    <li><strong>Пауза при ховере</strong> (Pause on hover) – позволяет остановить слайдшоу при ховере слайдера.</li>
+    <li><strong>Включить обратный порядок слайдов</strong> (Reverse order of the slides) – анимировать слайды в обратном порядке.</li>
+    <li><strong>Отобразить счётчик</strong> (Show counter) – включить отображение количества слайдов.</li>
+    <li><strong>Включить свайп</strong> (Enable swipe) – включить свайп на дисплее.</li>
 </ul>
-<h5>Appearance</h5>
-<p>Options referring the display of slider.</p>
+<h5>Внешний вид</h5>
+<p>Настройки, которые относятся к отображению слайдера.</p>
 <figure class="img-polaroid">
     <img src="img/mpslider06_slider_appearance.png" alt=""/>
 </figure>
 <ul class="marked-list">
-    <li><strong>Display on</strong> - hooks where the slider should be displayed.</li>
-    <li><strong>Visible</strong> - min. and/or max. screen resolutions when the slider is visible (can be set using the
-        presets: phone / tablet / desktop).
+    <li><strong>Отображать на</strong> (Display on) – хуки, в которых должен отображаться слайдер.</li>
+    <li><strong>Видим на</strong> (Visible) – минимальное и/или максимальное разрешение экрана, на котором виден слайдер (можно задать, используя пресеты: смартфон / планшет / ПК).
     </li>
-    <li><strong>Initialization delay</strong> - the delay bofore slider initialization (should be set in milliseconds).
+    <li><strong>Задержка инициализации</strong> (Initialization delay) – задержка перед инициализацией слайдера (задайте значение в миллисекундах).
     </li>
-    <li><strong>Initialize slider on scroll</strong> - choose if you want the slider to be initialized on scroll.</li>
-    <li><strong>Slider custom class name</strong> - name of custom class which is used for slider.</li>
-    <li><strong>Slider custom styles</strong> - custom css styles can be added directly in this textarea.</li>
+    <li><strong>Инициализировать слайдер при прокрутке</strong> (Initialize slider on scroll) – укажите, хотите ли Вы инициализировать слайдер при прокрутке.</li>
+    <li><strong>Пользовательское имя класса слайдера</strong> (Slider custom class name) – имя пользовательского класса, которое используется для слайдера.</li>
+    <li><strong>Пользовательские стили слайдера</strong> (Slider custom styles) – пользовательские стили css можно добавить прямо в текстовую область.</li>
 </ul>
-<h5>Content</h5>
-<p>This menu appears only for the Product Slider. <br>
-    When it will be configured press the 'Create' button (1).</p>
+<h5>Содержимое</h5>
+<p>Это меню отображается только для Слайдера товаров. <br>
+    Когда он будет настроен, нажмите на кнопку 'Создать' (1).</p>
 <figure class="img-polaroid">
     <img src="img/mpslider07_slider_content1.png" alt=""/>
 </figure>
 <ul class="marked-list">
-    <li><strong>Link slides to product page</strong> - enable if you want the product page to be opened after the click
-        on slide with the product.
+    <li><strong>Слайд ссылается на страницу товара</strong> (Link slides to product page) – включите, если Вы хотите, чтобы после нажатия на слайд мышкой открывалась страница соответствующего товара.    </li>
+    <li><strong>Открыть в новом окне</strong> (Open in new window) – включите эту настройку, для того чтобы открыть страницу товара в новом окне.</li>
+    <li><strong>Категории</strong> (Categories) – категории товаров, которые будут отображаться в слайдере (Ctrl + нажмите на левую кнопку мышки для выбора нескольких категорий).
     </li>
-    <li><strong>Open in new window</strong> - enable this option to open the product page in new window.</li>
-    <li><strong>Categories</strong> - categories with products to show in slider (Ctrl + click to select several
-        categories).
+    <li><strong>Теги</strong> (Tags) – необходимые теги.</li>
+    <li><strong>Отображать только товары, которые есть в наличии</strong> (Only display in-stock products) – только товары в наличии будут отображаться.</li>
+    <li><strong>Отображать только товары на распродаже</strong> (Only display on sale products) – отобразятся только товары на распродаже.</li>
+    <li><strong>Исключить товары</strong> (Exclude products) – добавьте Идентификационные номера товаров, отделённые запятыми.</li>
+    <li><strong>Включить товары</strong> (Include products) - добавьте Идентификационные номера товаров, отделённые запятыми.</li>
+    <li><strong>Количество товаров</strong> (Products number) – количество отображаемых товаров.</li>
+    <li><strong>Количество первых результатов, которые нужно пропустить (отложенный запуск)</strong> (Number of first results to skip (offset)) –количество первых слайдов, которые не будут отображены.
     </li>
-    <li><strong>Tags</strong> - tags to be included.</li>
-    <li><strong>Only display in-stock products</strong> - only products in stock will be displayed.</li>
-    <li><strong>Only display on sale products</strong> - only products on sale will be displayed.</li>
-    <li><strong>Exclude products</strong> - add Product IDs separated by comma.</li>
-    <li><strong>Include products</strong> - add Product IDs separated by comma.</li>
-    <li><strong>Products number</strong> - number of products to be displayed.</li>
-    <li><strong>Number of first results to skip (offset)</strong> - the number of first slides which will not be shown.
-    </li>
-    <li><strong>Order by</strong> - type of order to be applied.</li>
-    <li><strong>Order direction</strong> - descending or ascending order direction.</li>
+    <li><strong>Упорядочить по</strong> (Order by) – упорядочивание, которое будет применено.</li>
+    <li><strong>Направление упорядочивания</strong> (Order direction) – спадающее или возрастающее направление упорядочивания.</li>
 </ul>
-<p>Below there's a list of products which will be displayed in slider. After you've made any changes in settings, press
-    the 'Preview products' button (1).</p>
+<p>Ниже Вы найдете список товаров, которые будут отображаться в слайдере. Добавив изменения в настройках, нажмите на кнопку 'Предварительно просмотреть товары' (1).</p>
 <figure class="img-polaroid">
     <img src="img/mpslider08_slider_content2.png" alt=""/>
 </figure>
-<p>After the slider has been configured, press the 'Save' button.</p>
-<h5>Adding/editing slides</h5>
-<p>To add new slide press the button 'Add Slide' (1). To edit the existing one click 'Edit' (2).</p>
+<p>Настроив слайдер, нажмите на кнопку 'Сохранить'.</p>
+<h5>Добавление/редактирование слайда</h5>
+<p>Для того чтобы добавить новый слайд, нажмите на кнопку 'Добавить слайд' (1). Для того чтобы изменить существующий слайд, нажмите на кнопку 'Изменить' (2).</p>
 <figure class="img-polaroid">
     <img src="img/mpslider09_slide_edit.png" alt=""/>
 </figure>
-<h5>Slide settings</h5>
-<p>MotoPress Slider contains the Style Editor. That allows customizing slide layers, their styles and texts using
-    preview area and avoiding any manual changes of code or CSS rules.</p>
-<p>Select slider to edit and pick the actual slide to work with.</p>
+<h5>Настройки слайда</h5>
+<p>MotoPress Slider содержит Редактор стилей. Он позволяет настроить слои слайда, их стили и текст, используя область предварительного просмотра. Вам не нужно вручную изменять код или правила CSS.</p>
+<p>Выберите слайдер для редактирования и слайд, в который Вы хотите внести изменения.</p>
 
-<h6>General</h6>
-<p>General slide settings include slide title and status.</p>
+<h6>Общие настройки</h6>
+<p>Общие настройки слайда включают название слайда и статус.</p>
 <figure class="img-polaroid">
     <img src="img/mpslider10_slide_general.png" alt=""/>
 </figure>
 
-<h6>Color</h6>
-<p>In the 'Color' tab there are two variants of background color type - background color and gradient. Choose the option
-    and the preferable color.</p>
+<h6>Цвет</h6>
+<p>На вкладке 'Цвет' есть два варианта типа цвета фона – фоновый цвет и градиент. Выберите настройку и нужный цвет.</p>
 <figure class="img-polaroid">
     <img src="img/mpslider11_slide_color.png" alt=""/>
 </figure>
 
-<p>If you choose gradient, select gradient color 1, gradient color 2 and the gradient angle.</p>
+<p>Если Вы выберите градиент, выберите цвет градиента 1,цвет градиента 2 и угол градиента.</p>
 <figure class="img-polaroid">
     <img src="img/mpslider12_slide_gradient.png" alt=""/>
 </figure>
 
-<h6>Image</h6>
-<p>Background image can be attached from the Media Library or from the external URL.</p>
-<p>Image can also be added from your local folder to the Media Library. To do this press the 'Browse' button (1).</p>
+<h6>Изображение</h6>
+<p>Фоновое изображение можно добавить из Библиотеки медиафайлов, или используя внешнюю ссылку.</p>
+<p>Изображение можно также добавить из локальной папки в Библиотеку медиафайлов. Для того чтобы это сделать, нажмите на кнопку 'Найти' (1).</p>
 <figure class="img-polaroid">
     <img src="img/mpslider13_slide_image.png" alt=""/>
 </figure>
 
-<p>Then choose 'Upload New' (2) tab and click on the selected area or simply drag the images into it.</p>
+<p>Затем, выберите 'Загрузить новый' (2) и нажмите на выбранную область или просто перетяните в неё изображения.</p>
 <figure class="img-polaroid">
     <img src="img/mpslider14_slide_image_upload.png" alt=""/>
 </figure>
 
-<h6>Video</h6>
-<p>You can add video to your slide. To add video choose sources for different video formats and set other parameters for
-    video display. You'll need to upload a video in MP4, WEBM or OGG format and provide the video file URL in Video
-    tab.</p>
-<p>Settings for video display can also be adjusted.</p>
+<h6>Видео</h6>
+<p>Вы можете добавить видео в слайд. Для того чтобы добавить видео, выберите источники для различных форматов видео и задайте параметры для отображения видео. Вам необходимо загрузить видео в формате MP4, WEBM или OGG и предоставить ссылку на видеофайл во вкладке "Видео".</p>
+<p>Вы можете также изменить настройки отображения видео.</p>
 <figure class="img-polaroid">
     <img src="img/mpslider15_slide_video.png" alt=""/>
 </figure>
 
-<h6>Link</h6>
-<p>Link tab allows adding a link to your slide, assign the id, class, add link title and relation:</p>
+<h6>Ссылка</h6>
+<p>Вкладка "Ссылка" позволяет добавить ссылку к вашему слайду, идентификационный номер, класс, название ссылки и отношение:</p>
 <figure class="img-polaroid">
     <img src="img/mpslider16_slide_link.png" alt=""/>
 </figure>
 
-<h6>Visibility</h6>
-<p>Slide visibility options can be managed from the Visibility tab:</p>
+<h6>Отображение</h6>
+<p>Настройки отображения слайда можно изменить на вкладке "Отображение":</p>
 <figure class="img-polaroid">
     <img src="img/mpslider17_slide_visibility.png" alt=""/>
 </figure>
 
-<h6>Misc</h6>
-<p>Misc section allows assigning a css class or id to the slide.</p>
+<h6>Прочее</h6>
+<p>Раздел прочее позволяет добавить класс css или идентификационный номер слайда.</p>
 <figure class="img-polaroid">
     <img src="img/mpslider18_slide_misc.png" alt=""/>
 </figure>
 
-<p>Click on 'Save slide' button when you are done making changes.</p>
+<p>Закончив внесение изменений, нажмите на кнопку 'Сохранить слайд'.</p>
 
 
-<h4>Slide content</h4>
-<p>Here you can add texts, images, buttons and video to each slide. <br>
-    It is divided into two main sections: 'Layer Settings' (1) and 'Layers Sorting' (2).
-    Above the 'Layer Settings' area there are four tabs for adding the needed content (3). After you've chosen what
-    element you want to add, you can go further with detailed customization. <br>
-    The great feature is that these contents are added as individual layers, so you can drag them up and down to set
-    their order in the 'Layers Sorting' section (2).</p>
-<p>Layers can be deleted separately (4) or all at once (5). </p>
+<h4>Содержимое слайда</h4>
+<p>Здесь Вы можете добавить текст, изображения, кнопки и видео в каждый слайд. <br>
+    Раздел разделён на два основных подраздела: 'Настройки слоя' (1) и 'Сортировка слоёв' (2).
+   Над областью 'Настройки слоя' Вы увидите четыре вкладки для добавления нужного содержимого (3). Выбрав, какой элемент Вы хотите добавить, Вы можете перейти к детальной настройке. <br>
+Отличным свойством является то, что это содержимое добавляется как индивидуальные слои, так что Вы можете перетянуть их вверх или вниз, для того чтобы  задать сортировку в разделе 'Сортировка слоёв' (2).</p>
+<p>Слои можно удалить по отдельности (4) или все сразу (5). </p>
 <figure class="img-polaroid">
     <img src="img/mpslider19_slide_add_text.png" alt=""/>
 </figure>
-<h5>Layer settings</h5>
-<h6>Add Text</h6>
-<p>This tab is created to add, edit and locate texts in slide.</p>
+<h5>Настройки слоя</h5>
+<h6>Добавление текста</h6>
+<p>Эта вкладка создана для добавления, редактирования и размещения текста в слайде.</p>
 <figure class="img-polaroid">
     <img src="img/mpslider19_slide_add_text_2.png" alt=""/>
 </figure>
 <ul class="marked-list">
-    <li>Using grey squares you can quickly set the position of the text (1).</li>
-    <li>To adjust it, add the 'X' and 'Y' value in pixels and set the width of this element (2).</li>
-    <li>If 'Whitespace' is set to 'Normal', the text will be wrapped normally. If 'No-wrap' is chosen, the wrapping will
-        be ignored (3).
+    <li>Используя серые кружки, Вы можете быстро задать позицию текста (1).</li>
+    <li>Для того чтобы настроить эту позицию, добавьте значения 'X' и 'Y' в пикселях и задайте ширину этого элемента (2).</li>
+    <li>Если 'Белое пространство' имеет значение 'Стандартно', текст будет обернут нормально. Если выбрано значение 'Не оборачивать', обертка не будет добавлена (3).
     </li>
-    <li>In the second column you can control the element animation - how, how long and when it should start and end (4)
-        within the duration of the slide (which is shown below for your convenience (5); to change it go to Slider
-        Settings -> Slideshow delay). You can also preview the animation in the window that appears after clicking the
-        'Edit' button. Choose the duration, ease function, animation effect and press 'Play' to preview. Then click
-        'Apply' when it meets your expectations.
+    <li>Во второй колонке Вы можете управлять анимационным эффектом элемента – как, как долго и когда он должен начинаться и завершаться (4) относительно продолжительности отображения слайда (которая отображается ниже для вашего удобства (5); для того чтобы её изменить, перейдите на вкладку Настройки слайдера -> Задержка слайдшоу). Вы можете также предварительно просмотреть анимационный эффект в окне, которое отобразится после нажатия на кнопку 'Редактировать'. Выберите продолжительность, выцветание, анимационный эффект и нажмите на кнопку 'Воспроизвести' для предварительного просмотра слайда. Затем, нажмите на кнопку  'Применить', когда слайд будет соответствовать вашим потребностям.
     </li>
 </ul>
-<p>Settings described above are similar for each element, that's why only options from the third column will be
-    mentioned further.</p>
+<p>Настройки, описанные выше одинаковы для элементов, поэтому далее мы рассмотрим только настройки из третьей колонки.</p>
 <figure class="img-polaroid">
     <img src="img/mpslider19_slide_add_text_3.png" alt=""/>
 </figure>
 <ul class="marked-list">
-    <li>The text itself can be added in the textarea which comes next (6).</li>
-    <li>The text style can be chosen from the presets in the dropdown (7), edited after you've pressed the 'Edit' button
-        (8), and disabled clicking the 'Remove' button (9). After the text style has been edited, press the 'Apply
-        Style' button. If you want to edit and save the existing style, press 'Duplicate' button, edit and save it. To
-        create from scrach the style which will be often applied, click the 'Create new preset' and edit it.
+    <li>Текст можно добавить в текстовую область, которая следует далее (6).</li>
+    <li>Стиль текста можно выбрать из пресетов в выпадающем списке (7), которые можно изменить, нажав на кнопку 'Редактировать' (8), и отключить, нажав на кнопку 'Удалить' (9). Изменив стиль текста, нажмите на кнопку 'Применить стиль'. Если Вы хотите добавить и сохранить существующий стиль, нажмите на кнопку 'Дублировать', измените и сохраните его. Для того чтобы создать стиль, который будет часто использоваться, с нуля, нажмите на кнопку 'Создать новый пресет' и внесите необходимые изменения.
     </li>
-    <li>It is also possible to add a custom class to each element (10).</li>
+    <li>Вы можете также добавить пользовательский класс для каждого элемента (10).</li>
 </ul>
-<h6>Add Image</h6>
+<h6>Добавление изображения</h6>
 <figure class="img-polaroid">
     <img src="img/mpslider21_slide_add_image.png" alt=""/>
 </figure>
 <ul class="marked-list">
-    <li>To choose the image press the 'Select image' button (1).</li>
-    <li>If you want to add the link to image, add the URL of the target page in the 'Link' field (2).</li>
-    <li>This link can be opened in new window ('On') or in the same ('Off') (3).</li>
-    <li>Some styles can also be applied to images (for example, border styles) (4).</li>
-    <li>It is also possible to add a custom classes to the element (5).</li>
+    <li>Для того чтобы выбрать изображение, нажмите на кнопку 'Выбрать изображение' (1).</li>
+    <li>Если Вы хотите добавить ссылку для изображение, добавьте ссылку на целевую страницу в поле 'Ссылка' (2).</li>
+    <li>Эта ссылка может открываться в новом окне ('Вкл') или в том же окне ('Выкл') (3).</li>
+    <li>Некоторые стили можно также применить к изображениям (например, стили границ) (4).</li>
+    <li>Вы можете также добавить пользовательские стили для элемента (5).</li>
 </ul>
-<h6>Add Button</h6>
-<p>Button styles are almost the same as image styles.</p>
+<h6>Добавление кнопки</h6>
+<p>Стили кнопки практически такие же, как и стили изображения.</p>
 <figure class="img-polaroid">
     <img src="img/mpslider22_slide_add_button.png" alt=""/>
 </figure>
 <ul class="marked-list">
-    <li>Add the button text in the corresponding field (1).</li>
-    <li>Add the URL of the target page in the 'Link' field (2).</li>
-    <li>Choose the style for your button or create your own (3).</li>
+    <li>Добавьте текст кнопки в соответствующее окно (1).</li>
+    <li>Добавьте ссылку на целевую страницу в поле 'Ссылка' (2).</li>
+    <li>Выберите стиль вашей кнопки или создайте свой стиль (3).</li>
 </ul>
-<h6>Add Video</h6>
+<h6>Добавление видео</h6>
 <figure class="img-polaroid">
     <img src="img/mpslider23_slide_add_video.png" alt=""/>
 </figure>
 <ul class="marked-list">
-    <li>Video can be added as a link to Youtube or Vimeo, or it can be chosen from Media Library (1).</li>
-    <li>Add the video URL (2).</li>
-    <li>Add the URL of the preview image (3).</li>
-    <li>Choose the video dispaly options (4) and add styles to it (5).</li>
+    <li>Видео можно добавить как ссылку на Youtube или Vimeo, или его можно выбрать из Библиотеки медиафалов (1).</li>
+    <li>Добавьте ссылку на видео(2).</li>
+    <li>Добавьте ссылку на изображение предварительного просмотра (3).</li>
+    <li>Выберите настройки отображения видео (4) и добавьте для него стили (5).</li>
 </ul>
-<p>After you've made changes to your slide, don't forget to click the 'Save slide' button (1), then press 'Close' (2) or
-    navigate between other slides (3).</p>
+<p>Закончив внесение изменений в ваш слайд, не забудьте нажать на кнопку 'Сохранить слайд' (1), затем нажмите на кнопку 'Закрыть' (2) или перейдите на другой слайд (3).</p>
 <figure class="img-polaroid">
     <img src="img/mpslider24_slide_save.png" alt=""/>
 </figure>
 
-<h4>Import and Export Slider</h4>
-<h6>Import & Export Slider is very useful if you need to transfer any Slider to different websites. You do not need to
-    spend much time for re-building sliders from scratch any more. If you are a developer you can create sliders on your
-    website, show them them to your customers and import sliders to customers' websites.</h6>
-<h5>Exporting Slider</h5>
-<h6>Follow these easy steps to learn how to export Motopress slider.</h6>
+<h4>Импорт и экспорт слайдера </h4>
+<h6>Импорт и экспорт слайдера очень полезны, если Вам нужно переместить слайдер на другой сайт. Вам больше не нужно тратить много времени на повторное создание слайдера. Если Вы разработчик, Вы можете создать слайдеры на вашем сайте, показать их вашим клиентам и импортировать их на сайты клиентов.</h6>
+<h5>Экспорт слайдера</h5>
+<h6>Следуйте этим простым инструкциям, для того чтобы экспортировать слайдер Motopress.</h6>
 <ul class="index-list">
     <li>
-        <p>Go to Motopress Slider in your admin panel (1, 2).</p>
+        <p>Перейдите в Motopress Slider в вашей админ панели (1, 2).</p>
         <figure class="img-polaroid">
             <img src="img/mpslider01_open.png" alt=""/>
         </figure>
     </li>
     <li>
-        <p>Click 'Export' button (3).</p>
+        <p>Нажмите на кнопку 'Экспорт' (3).</p>
         <figure class="img-polaroid">
             <img src="img/mpslider25_export1.png" alt=""/>
         </figure>
     </li>
     <li>
-        <p>Choose sliders you want to export (4) and click 'Export sliders' button (5).</p>
+        <p>Выберите слайдеры, которые Вы хотите экспортировать (4) и нажмите на кнопку 'Экспортировать слайдеры' (5).</p>
         <figure class="img-polaroid">
             <img src="img/mpslider26_export2.png" alt=""/>
         </figure>
     </li>
-    <li>You'll be prompted to save the exported .json file to PC.</li>
+    <li>Вам будет предложено сохранить экспортированный файл.json на ваш компьютер.</li>
 </ul>
-<h5>Importing Slider</h5>
-<h6>In order to import Motopress Slider do the following:</h6>
+<h5>Импорт слайдера</h5>
+<h6>Для того чтобы импортировать Слайдер Motopress следуйте таким инструкциям:</h6>
 <ul class="index-list">
     <li>
-        <p>Go to Motopress Slider in your admin panel (1, 2).</p>
+        <p> Перейдите в Motopress Slider в вашей админ панели (1, 2).</p>
         <figure class="img-polaroid">
             <img src="img/mpslider01_open.png" alt=""/>
         </figure>
     </li>
     <li>
-        <p>Click 'Import' button (3).</p>
+        <p>Нажмите на кнопку 'Импортировать' (3).</p>
         <figure class="img-polaroid">
             <img src="img/mpslider27_import1.png" alt=""/>
         </figure>
     </li>
     <li>
-        <p>Select the exported .json file from your PC clicking the 'Browse' button (4) and press 'Import' (5).</p>
+        <p>Выберите экспортированный файл.json с вашего компьютера, нажав на кнопку  'Обзор' (4)и нажмите на кнопку 'Импорт' (5).</p>
         <figure class="img-polaroid">
             <img src="img/mpslider28_import2.png" alt=""/>
         </figure>
     </li>
-    <li>Slider settings, images and other slider content should be exported successfully to your website.</li>
+    <li>Настройки слайдера, изображения и другое содержимое слайдера успешно импортировано на ваш сайт.</li>
 </ul>

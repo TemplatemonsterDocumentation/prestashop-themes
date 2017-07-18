@@ -26,7 +26,7 @@
     </li>
 </ul>
 <h6>Módulo le ofrece una opción para cambiar la posición del módulo y configurar la cuadrícula para 3 ganchos:
-    displayTopColumn, displayHome, displayFooter. Cambiar la posición de los módulos en la sección 'Módulos y servicios -> Posiciones' 
+    displayTopColumn, displayHome, displayFooter. Cambiar la posición de los módulos en la sección 'Módulos y servicios -> Posiciones'
 	no afectará la posición de los módulos en el preset. En caso
 	de que el módulo no se haya añadido al gancho, no se puede añadir al preset ni.</h6>
 
@@ -191,7 +191,7 @@
         </ul>
     </li>
 
-    <li><p>Pie de producto. Para agregar presets personalizados al gancho del pie de producto, debe realizar los siguientes 
+    <li><p>Pie de producto. Para agregar presets personalizados al gancho del pie de producto, debe realizar los siguientes
 	       pasos:</p>
         <ul class="marked-list">
             <li>Abra el archivo <strong>/themes/your_theme/product.tpl</strong> para editar.</li>
@@ -264,7 +264,7 @@
         <figure class="img-polaroid"><img src="img/tmmegalayout100-activation-preset-2.png" alt=""/></figure>
     </li>
     <li>
-        <p>El preset se ha activado. Si necesita mostrar este preset solamente en algunas páginas, abra el menú desplegable (3) y 
+        <p>El preset se ha activado. Si necesita mostrar este preset solamente en algunas páginas, abra el menú desplegable (3) y
 		   seleccione las páginas que necesita. Para aplicar los cambios, haga clic fuera del área de la lista. Un preset que se muestra en todas
 		   las páginas se marcará con una estrella llena en la lista de preajustes, y el que se muestra sólo en algunas
 		   páginas se marcará con una estrella parcialmente llena.</p>
@@ -428,7 +428,7 @@
         <figure class="img-polaroid"><img src="img/tmmegalayout100-row-add-styles-2.png" alt=""></figure>
     </li>
     <li>
-        <p>Verá la ventana emergente, rellene todos los campos necesarios (puede consultar la sección 
+        <p>Verá la ventana emergente, rellene todos los campos necesarios (puede consultar la sección
 		'Styling' de la documentación) y presione el botón 'Guardar' (3).</p>
         <figure class="img-polaroid"><img src="img/tmmegalayout100-row-add-styles-3.png" alt=""></figure>
     </li>
@@ -697,7 +697,7 @@
         <figure class="img-polaroid"><img src="img/tmmegalayout100-import-preset-2.png" alt=""/></figure>
     </li>
     <li>
-        <p>Si este preset satisface sus necesidades, presione el botón <strong>'Importar' (4)</strong>. El preset se importará y se agregará 
+        <p>Si este preset satisface sus necesidades, presione el botón <strong>'Importar' (4)</strong>. El preset se importará y se agregará
 		     a la lista de presets disponibles.</p>
         <figure class="img-polaroid"><img src="img/tmmegalayout100-import-preset-3.png" alt=""/></figure>
     </li>
@@ -736,8 +736,8 @@
         <figure class="img-polaroid"><img src="img/tmmegalayout100-optimization-2.png" alt=""></figure>
     </li>
 </ul>
-<p>Si la optimización está habilitada al editar y habilitar presets, la optimización se descarta, pero verá una ventana 
-    que ofrece ejecutar la optimización. No hay necesidad de optimizar los scripts y los estilos cada vez que cambie presets. 
+<p>Si la optimización está habilitada al editar y habilitar presets, la optimización se descarta, pero verá una ventana
+    que ofrece ejecutar la optimización. No hay necesidad de optimizar los scripts y los estilos cada vez que cambie presets.
 	Es mejor optimizarlos cuando termines de editar.</p>
 <figure class="img-polaroid"><img src="img/tmmegalayout100-optimization-3.png" alt=""></figure>
 
@@ -758,7 +758,7 @@
             <li>background-position (posición de fondo) - todas las opciones disponibles se muestran en la lista desplegable.
             </li>
             <li>background-size (tamaño de fondo) - todas las opciones disponibles se muestran en la lista desplegable.</li>
-            <li>background-origin (región de posicionamiento de imagen de fondo) - Todas las opciones disponibles se muestran en 
+            <li>background-origin (región de posicionamiento de imagen de fondo) - Todas las opciones disponibles se muestran en
 			     la lista desplegable.
             </li>
         </ul>
@@ -769,7 +769,7 @@
             <li>border-top-style, border-right-style, border-left-style, border-bottom-style (border styles) - todas las
 			    opciones disponibles se muestran en la lista desplegable.
             </li>
-            <li>border-top-width, border-right-width, border-left-width, border-bottom-width (borders width) - debe establecerse 
+            <li>border-top-width, border-right-width, border-left-width, border-bottom-width (borders width) - debe establecerse
                 en píxeles.
             </li>
             <li>border-top-сolor, border-right-color, border-left-color, border-bottom-color (borders color) - el valor

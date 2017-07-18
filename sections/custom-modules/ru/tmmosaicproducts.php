@@ -1,86 +1,86 @@
 <h3>TM Mosaic Products</h3>
 <?php if ($project == 'eveprest' ) { ?>
     <div>
-        <p style="margin-bottom: 0;">Available in:</p>
-        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One Product</p>
+        <p style="margin-bottom: 0;">Доступен в:</p>
+        <p style="margin-top: 0;" class="small text-secondary">Мода, Электроника, Запчасти, Мебель, Один товар</p>
     </div>
 <?php } ?>
-<p>This module allows you to display categories with products, banners, video (Youtube, Vimeo and custom video), HTML content, various sliders with different number of slides and dimensions in any row on the site home page.
+<p>Этот модуль позволяет отобразить категории товаров, баннеры, видео (Youtube, Vimeo и пользовательские видео), содержимое HTML, слайдеры с различным количеством слайдов и размерами изображений в любой строке домашней страницы сайта.
 </p>
-<h5>Installation and Deleting</h5>
-<p>The module is installed and deleted like any other PrestaShop module.</p>
-<h5>Module settings</h5>
-<p>After module has been installed, you can add the required blocks with category products, previously added banners, video and HTML content.</p>
+<h5>Установка и удаление</h5>
+<p>Этот модуль устанавливается и удаляется так же, как и любой другой модуль PrestaShop.</p>
+<h5>Настройки модуля</h5>
+<p>Установив модуль, Вы можете добавить необходимые блоки с товарами категорий, ранее добавленными баннерами, видео и содержимым HTML.</p>
 <figure class="img-polaroid"><img src="img/tmmosaicproducts-1.png" alt="" /></figure>
-<h5>Adding/removing/editing Blocks</h5>
-<p>In order to add a new category, press the "Add new" button.</p>
+<h5>Добавление/удаление/редактирование блоков</h5>
+<p>Для того чтобы добавить новую категорию, нажмите на кнопку "Добавить новый".</p>
 <figure class="img-polaroid"><img src="img/tmmosaicproducts-2.png" alt="" /></figure>
 <ul class="marked-list">
-    <li><strong>Select category</strong> - choose a category to add products, banners, video and HTML content to.</li>
-    <li><strong>Use custom name</strong> - custom category status.</li>
-    <li><strong>Custom name</strong> - category title.</li>
-    <li><strong>Status</strong> - item status.</li>
-    <p>In order to add the new row, press the "Add row" button. Then choose one of the eight layouts presented in the following window.</p>
+    <li><strong>Выбор категории</strong> (Select category) - выберите категорию, в которую Вы хотите добавить товары, баннеры, видео и содержимое HTML .</li>
+    <li><strong>Использовать пользовательское название</strong> (Use custom name) - пользовательский статус категории.</li>
+    <li><strong>Пользовательское название</strong> (Custom name) - название категории.</li>
+    <li><strong>Статус</strong> (Status) - статус элемента.</li>
+    <p>Для того чтобы добавить новую строку, нажмите на кнопку "Добавить строку". Затем, выберите один из девяти макетов, который отображаются в следующем окне.</p>
 </ul>
 <figure class="img-polaroid"><img src="img/tmmosaicproducts-3.png" alt="" /></figure>
-<p>In order to add the layout, click on one of the eight options to pick it, and it will be added to the form.</p>
+<p>Для того чтобы добавить макет, нажмите на один из девяти вариантов, для того чтобы его выбрать, и он будет добавлен в форму.</p>
 <figure class="img-polaroid"><img src="img/tmmosaicproducts-4.png" alt="" /></figure>
-<p>In order to add items, click on one of the layout cells. You'll see five buttons listing the available items of certain type.</p>
+<p>Для того чтобы добавить элементы, нажмите на одно из окошек макета. Вы увидите пять кнопок, в которых перечислены доступные элементы определённого типа.</p>
 <figure class="img-polaroid"><img src="img/tmmosaicproducts-5.png" alt="" /></figure>
-<p>After pressing one of the buttons you will see the form to pick the item of chosen type.</p>
+<p>Нажав на одну из кнопок, Вы увидите форму, в которой Вы можете выбрать элемент выбранного типа.</p>
 <figure class="img-polaroid"><img src="img/tmmosaicproducts-6.png" alt="" /></figure>
-<p>After clicking on one of the items, it will be added to the layout cell. You can fill in the layout with different blocks this way.</p>
+<p>Нажав на один из элементов, Вы добавите его в ячейку макета. Таким образом, Вы можете заполнить макет различными блоками.</p>
 <figure class="img-polaroid"><img src="img/tmmosaicproducts-7.png" alt="" /></figure>
-<p>After saving the category with chosen layouts, it will show up in the form of the added categories.</p>
+<p>Сохранив категорию с выбранными макетами, Вы увидите её в форме добавленных категорий.</p>
 <figure class="img-polaroid"><img src="img/tmmosaicproducts-8.png" alt="" /></figure>
-<p>In order to remove the item, press the 'Delete' button.</p>
-<h5>Banner adding/removing/editing</h5>
-<p>In order to add a new banner, click the 'Add new banner' button. Next, fill in the required fields in the form that appears.</p>
+<p>Для того чтобы удалить элемент, нажмите на кнопку 'Удалить'.</p>
+<h5>Добавление/удаление/редактирования баннера</h5>
+<p>Для того чтобы добавить новый баннер, нажмите на кнопку 'Добавить новый баннер'. Затем, заполните нужные поля в открывшейся форме.</p>
 <figure class="img-polaroid"><img src="img/tmmosaicproducts-9.png" alt="" /></figure>
 <ul class="marked-list">
-    <li><strong>Select a file</strong> - choose a file, this field is required (at least for the default language).</li>
-    <li><strong>Title</strong> - banner title, this field is required (at least for the default language).</li>
-    <li><strong>Url</strong> - link path, this field is required (at least for the default language).</li>
-    <li><strong>Description</strong> - banner description (at least for the default language).</li>
-    <li><strong>Specific class</strong> - block's CSS class.</li>
+    <li><strong>Выбор файла</strong> (Select a file) - выберите файл, это поле обязательно для заполнения (по крайней мере, для стандартного языка).</li>
+    <li><strong>Название</strong> (Title) - название баннера, это поле обязательно для заполнения (по крайней мере, для стандартного языка).</li>
+    <li><strong>Url</strong> - ссылка, это поле обязательно для заполнения (по крайней мере, для стандартного языка).</li>
+    <li><strong>Описание</strong> (Description) - описание баннера (по крайней мере, для стандартного языка).</li>
+    <li><strong>Особый класс</strong> (Specific class) - CSS класс блока.</li>
 </ul>
-<h5>Adding/removing/editing Video</h5>
-<p>In order to add a new video, click the 'Add new video' button. Next, fill in the required fields in the form that appears.</p>
+<h5>Добавление/удаление/редактирование видео</h5>
+<p>Для того чтобы добавить новое видео, нажмите на кнопку 'Добавить новое видео'. Затем, заполните обязательные поля в открывшейся форме.</p>
 <figure class="img-polaroid"><img src="img/tmmosaicproducts-10.png" alt="" /></figure>
 <ul class="marked-list">
-    <li><strong>Enter Video name</strong> - video title, this field is required (at least for the default language).</li>
-    <li><strong>Video Link/Path</strong> - link to the video (youtube, vimeo or custom video), this field is required (at least for the default language).</li>
-    <li><strong>Allow autoplay</strong> - defines if video starts automatically right after the player has been loaded.</li>
-    <li><strong>Allow controls</strong> - defines if player controls are displayed.</li>
-    <li><strong>Loop</strong> - defines if the video playback is in the infinite loop.</li>
+    <li><strong>Введите название видео</strong> (Enter Video name) - название видео, это поле обязательно для заполнения (по крайней мере, для стандартного языка).</li>
+    <li><strong>Ссылка/путь видео</strong> - ссылка на видео (youtube, vimeo или пользовательское видео), это поле обязательно для заполнения (по крайней мере, для стандартного языка).</li>
+    <li><strong>Включить автоматическое воспроизведение</strong> (Allow autoplay) - определяет, начинается ли воспроизведение видео автоматически после загрузки плеера.</li>
+    <li><strong>Автоматическое воспроизведение</strong> (Allow controls) - указывает на то, будут ли отображаться элементы управления плеером.</li>
+    <li><strong>Луп</strong> - определят, начинается ли воспроизведение видео сначала после окончания воспроизведения.</li>
 </ul>
-<p>In order to add custom video, press the 'file' button. Next, you'll be able to add a video via file manager.</p>
-<h5>Adding/removing/editing HTML content</h5>
-<p>In order to add new HTML content, press the 'Add new HTML' button. Next, fill in the required fields in the form that appears.</p>
+<p>Для того чтобы добавить пользовательское видео, нажмите на кнопку 'Файл'. Рядом Вы сможете добавить видео при помощи Файлового менеджера.</p>
+<h5>Добавление/удаление/редактирование содержимого HTML</h5>
+<p>Для того чтобы добавить новое содержимое HTML, нажмите на кнопку 'Добавить новый HTML'. Затем, заполните обязательные поля в открывшейся форме.</p>
 <figure class="img-polaroid"><img src="img/tmmosaicproducts-11.png" alt="" /></figure>
 <ul class="marked-list">
-    <li><strong>Enter HTML item name</strong> - HTML content title, this field is required (at least for the default language).</li>
-    <li><strong>Specific class</strong> - block's CSS class.</li>
-    <li><strong>HTML content</strong> - the content.</li>
+    <li><strong>Введите название элемента HTML</strong> (Enter HTML item name) - название содержимого HTML, это поле обязательно для заполнения (по крайней мере для стандартного языка).</li>
+    <li><strong>Особый класс</strong> (Specific class) - класс CSS блока.</li>
+    <li><strong>Содержимое HTML</strong> (HTML content) - содержимое.</li>
 </ul>
-<h5>Adding/removing/editing Slider</h5>
-<p>In order to add a new slider, press the 'Add new slider' button. Next, fill in the required fields in the form that appears.</p>
+<h5>Добавление/удаление/редактирование слайдера</h5>
+<p>Для того чтобы добавить новый слайдер, нажмите на кнопку 'Добавить новый слайдер'. Затем, заполните обязательные поля в открывшейся форме.</p>
 <figure class="img-polaroid"><img src="img/tmmosaicproducts-12.png" alt="" /></figure>
 <ul class="marked-list">
-    <li><strong>Enter Slider item name</strong> - slider title, this field is required (at least for the default language).</li>
-    <li><strong>Control</strong> - show/hide slider navigation.</li>
-    <li><strong>Pager</strong> - show/hide slider pagination.</li>
-    <li><strong>Auto scroll</strong> - turns on/off slider autoplay.</li>
-    <li><strong>Specific class</strong> - block's CSS class.</li>
-    <li><strong>Carousel speed</strong> - slides transition duration (in ms), this field is required.</li>
-    <li><strong>Pause</strong> - the period between slides switching (in ms), this field is required.</li>
+    <li><strong>Введите название слайдера</strong> (Enter Slider item name) - название слайдера, это поле обязательно для заполнения (по крайней мере для стандартного языка).</li>
+    <li><strong>Элементы управления</strong> (Control) - отобразить/скрыть навигацию слайдера.</li>
+    <li><strong>Пагинация</strong> (Pager) - отобразить/скрыть пагинацию слайдера.</li>
+    <li><strong>Автоматическая прокрутка</strong> (Auto scroll) - включает/отключает автоматическое воспроизведение слайдов.</li>
+    <li><strong>Особый класс</strong> (Specific class) - CSS класс блока.</li>
+    <li><strong>Скорость карусели</strong> (Carousel speed) - продолжительность перехода слайдов (в мс), это поле обязательно для заполнения.</li>
+    <li><strong>Пауза</strong> - промежуток времени между переключениями слайдов (в мс), это поле обязательно для заполнения.</li>
 </ul>
-<h5>Adding/removing/editing Slides</h5>
-<p>In order to add a new slide, click the 'View' button in the slider form and then press the 'Add new' button in a window that appears. Then fill in the required fields.</p>
+<h5>Добавление/удаление/редактирование слайдов</h5>
+<p>Для того чтобы добавить новый слайд, нажмите на кнопку 'Вид' в форме слайдера и нажмите на кнопку 'Добавить новый' в отобразившемся окне. Заполните поля, обязательные для заполнения.</p>
 <figure class="img-polaroid"><img src="img/tmmosaicproducts-13.png" alt="" /></figure>
 <ul class="marked-list">
-    <li><strong>Type</strong> - choose the slide type, this field is required.</li>
-    <li><strong>Banner/Video/Html list</strong> - choose the element of the previously selected type, this field is required.</li>
-    <li><strong>Sort order</strong> - slide position.</li>
-    <li><strong>Item status</strong> - status of the element.</li>
+    <li><strong>Тип</strong> (Type) - выберите тип слайдера, это поле обязательно для заполнения.</li>
+    <li><strong>Список баннеров/видео/Html</strong> (Banner/Video/Html list) - выберите элемент ранее выбранного типа, это поле обязательно для заполнения.</li>
+    <li><strong>Порядок отображения</strong> (Sort order) - расположение слайда.</li>
+    <li><strong>Статус элемента</strong> (Item status) - статус элемента.</li>
 </ul>
