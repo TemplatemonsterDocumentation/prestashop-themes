@@ -1,4 +1,4 @@
-<h2 class="item1">Introduction</h2>
+<h2 class="item1">Introducción</h2>
 <h3>Qué es PrestaShop e-commerce?</h3>
 <p>PrestaShop es una solución de comercio electrónico que es gratuita para el núcleo básico y código abierto. Soporta gateways de pago
      еales como Google checkout, paypal o pagos pro a través de APIs.</p>
