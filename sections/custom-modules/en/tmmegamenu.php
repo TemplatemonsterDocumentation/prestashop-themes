@@ -1,10 +1,12 @@
 <h3>TM Mega Menu</h3>
-<?php if ($project == 'eveprest' ) { ?>
-    <div>
-        <p style="margin-bottom: 0;">Available in:</p>
-        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture</p>
-    </div>
-<?php } ?>
+<div class="pdf-hidden">
+    <?php if ($project == 'eveprest') { ?>
+        <div>
+            <p style="margin-bottom: 0;">Available in:</p>
+            <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture</p>
+        </div>
+    <?php } ?>
+</div>
 <p>The module is designed to create complex menus. The module provides the ability to display one item (without
     sub-menu), a menu item with a sub-menu and a menu item with sub-menu by means of a multi-row and multi-column
     block. The module can be used in different positions, but it will display the same content. Available positions:
@@ -234,4 +236,76 @@
     blocks.</p>
 <figure class="img-polaroid">
     <img src="img/tmmegamenu-banners.png" alt=""/>
+</figure>
+<h4>TM Mega Menu Video</h4>
+<p>In this section we will explain how to add a video in the Mega Menu.</p>
+<p>The module has a table listing all the available videos. You can also add a new video by clicking the '+'
+    button in the top right of the table.</p>
+<h6>In the form that appears, fill in the required fields.</h6>
+<ul class="marked-list">
+    <li>
+        <dl class="inline-term">
+            <dt>Enter Video Name</dt>
+            <dd>video title (the field is required).</dd>
+        </dl>
+    </li>
+    <li><strong>Enter Video URL</strong> - add video link in the formats described below:
+            <ul class="marked-list">
+                <li>If this is a <strong>YouTube video</strong>, click on Embed and copy the code between the quotes for https://www.youtube.com/embed/video_id </li>
+                <li>If this is a <strong>Vimeo video</strong>, click on Share icon and in the Embed section copy the source code between the quotes for http://player.vimeo.com/video/video_id
+                </li>
+            </ul>
+        </li>
+</ul>
+<p>Added video will appear in the list of videos, as well as in the list of available content while creating menu
+    blocks.</p>
+<figure class="img-polaroid">
+    <img src="img/tmmegamenu-video.png" alt=""/>
+</figure>
+<h4>TM Mega Menu Map</h4>
+<p>In this section we will explain how to add a map in the Mega Menu.</p>
+<p>The module has a table listing all the available maps. You can also add a new map by clicking the '+'
+    button in the top right of the table.</p>
+<h6>In the form that appears, fill in the required fields.</h6>
+<ul class="marked-list">
+    <li>
+        <dl class="inline-term">
+            <dt>Enter Map item name</dt>
+            <dd>the title of the map.</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Enter Map latitude</dt>
+            <dd>set a latitude value.</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Enter Map longitude</dt>
+            <dd> set a longitude value.</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Marker</dt>
+            <dd>adding a custom  marker.</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Enter Map scale</dt>
+            <dd>the scale of the map (used 8 by default).</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Map description</dt>
+            <dd>set the description of the map.</dd>
+        </dl>
+    </li>
+</ul>
+<p>Added map will appear in the list of maps, as well as in the list of available content while creating menu blocks.</p>
+<figure class="img-polaroid">
+    <img src="img/tmmegamenu-map.png" alt=""/>
 </figure>
