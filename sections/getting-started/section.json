@@ -2258,6 +2258,96 @@
           "ru": "Установка движка PrestaShop"
         }
       }
+    ],
+    "sportlabs": [
+      {
+        "id": "preparation",
+        "translations": {
+          "en": "Preparation",
+          "de": "Vorbereitung",
+          "es": "Preparación",
+          "fr": "Préparation",
+          "it": "Preparazione",
+          "ru": "Подготовка"
+        }
+      },
+      {
+        "id": "editing-software",
+        "translations": {
+          "en": "Editing software",
+          "de": "Bearbeitungssoftware",
+          "es": "Edición de software",
+          "fr": "Logiciel d'édition",
+          "it": "Modifica del software",
+          "ru": "Программное обеспечение для редактирования"
+        }
+      },
+      {
+        "id": "server-requirements",
+        "translations": {
+          "en": "Server requirements",
+          "de": "Server-Anforderungen",
+          "es": "Requisitos del servidor",
+          "fr": "Configuration requise du serveur",
+          "it": "Requisiti del server",
+          "ru": "Требования сервера"
+        }
+      },
+      {
+        "id": "local-server",
+        "translations": {
+          "en": "Using the local server",
+          "de": "Verwendung eines lokalen Servers",
+          "es": "Uso del servidor local",
+          "fr": "Utilisation du serveur local",
+          "it": "Utilizzo del server locale",
+          "ru": "Использование локального сервера"
+        }
+      },
+      {
+        "id": "downloading",
+        "translations": {
+          "en": "Downloading",
+          "de": "Herunterladen",
+          "es": "Descargando",
+          "fr": "Téléchargement",
+          "it": "Scaricamento",
+          "ru": "Скачивание"
+        }
+      },
+      {
+        "id": "extracting-files",
+        "translations": {
+          "en": "Extracting Files",
+          "de": "Entpacken von Dateien",
+          "es": "Extrayendo archivos",
+          "fr": "Extraction des fichiers",
+          "it": "Estrazione dei File",
+          "ru": "Извлечение файлов"
+        }
+      },
+      {
+        "id": "engine-files",
+        "translations": {
+          "en": "Uploading PrestaShop engine files",
+          "de": "Wie man die Dateien der PrestaShop Engine hochlädt",
+          "es": "Cargar archivos de motor de PrestaShop",
+          "fr": "Téléchargement de fichiers de moteur PrestaShop",
+          "it": "Caricamento dei file di motore PrestaShop",
+          "ru": "Загрузка файлов движка PrestaShop"
+        }
+      },
+      {
+        "id": "engine-installation",
+        "translations": {
+          "en": "PrestaShop engine installation",
+          "de": "Installation der PrestaShop Engine",
+          "es": "Instalación del motor PrestaShop",
+          "fr": "Installation du moteur PrestaShop",
+          "it": "Installazione del motore PrestaShop",
+          "ru": "Установка движка PrestaShop"
+        }
+      }
     ]
   }
 }
