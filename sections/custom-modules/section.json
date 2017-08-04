@@ -6556,6 +6556,283 @@
           "ru": "TM Social Feeds"
         }
       }
+    ],
+    "hugesale": [
+      {
+        "id": "tmcategoryproducts100",
+        "translations": {
+          "en": "TM Category Products 1.0.0",
+          "de": "TM Category Products 1.0.0",
+          "es": "TM Category Products 1.0.0",
+          "fr": "Produits de Catégorie TM 1.0.0",
+          "it": "TM Categoria Prodotti 1.0.0",
+          "ru": "TM Category Products 1.0.0"
+        }
+      },
+      {
+        "id": "tmcollections",
+        "translations": {
+          "en": "TM Collections",
+          "de": "TM Collections",
+          "es": "TM Collections",
+          "fr": "Collections TM",
+          "it": "TM Collezione",
+          "ru": "TM Collections"
+        }
+      },
+      {
+        "id": "tmdealday",
+        "translations": {
+          "en": "TM Deal of the Day",
+          "de": "TM Deal of the Day",
+          "es": "TM Deal of the Day",
+          "fr": "Promo du Jour TM",
+          "it": "TM Deal of the Day",
+          "ru": "TM Deal of the Day"
+        }
+      },
+      {
+        "id": "tmheaderaccount20",
+        "translations": {
+          "en": "TM Header Account 2.0",
+          "de": "TM Header Account 2.0",
+          "es": "TM Header Account 2.0",
+          "fr": "Header Compte TM 2.0",
+          "it": "TM Header Account 2.0",
+          "ru": "TM Header Account 2.0"
+        }
+      },
+      {
+        "id": "tmhomepageproductscarousel",
+        "translations": {
+          "en": "TM Homepage Products Carousel",
+          "de": "TM Homepage Products Carousel",
+          "es": "TM Homepage Products Carousel",
+          "fr": "Home Carrousel des Produits TM",
+          "it": "TM Homepage Prodotti Carousel",
+          "ru": "TM Homepage Products Carousel"
+        }
+      },
+      {
+        "id": "tmhtmlcontent",
+        "translations": {
+          "en": "TM HTML Content",
+          "de": "TM HTML Content",
+          "es": "TM HTML Content",
+          "fr": "Contenu HTML TM",
+          "it": "TM HTML Contenuto",
+          "ru": "TM HTML Content"
+        }
+      },
+      {
+        "id": "tminfinitescroll",
+        "translations": {
+          "en": "TM Infinite Scroll",
+          "de": "TM Infinite Scroll",
+          "es": "TM Infinite Scroll",
+          "fr": "Défilement Infini TM",
+          "it": "TM Infinito Scroll",
+          "ru": "TM Infinite Scroll"
+        }
+      },
+      {
+        "id": "tmlookbook",
+        "translations": {
+          "en": "TM Look Book",
+          "de": "TM Look Book",
+          "es": "TM Look Book",
+          "fr": "TM Look Book",
+          "it": "TM Look Book",
+          "ru": "TM Look Book"
+        }
+      },
+      {
+        "id": "tmlookbookhomepage",
+        "translations": {
+          "en": "TM Look Book Homepage",
+          "de": "TM Look Book Homepage",
+          "es": "TM Look Book Homepage",
+          "fr": "LookBook Homepage TM",
+          "it": "TM Look Book Homepage",
+          "ru": "TM Look Book Homepage"
+        }
+      },
+      {
+        "id": "tmmanufacturersblock",
+        "translations": {
+          "en": "TM Manufacturers Block",
+          "de": "TM Manufacturers Block",
+          "es": "TM Manufacturers Block",
+          "fr": "Bloc des fabricants TM",
+          "it": "TM Manufacturers Blocco",
+          "ru": "TM Manufacturers Block"
+        }
+      },
+      {
+        "id": "tmmediaparallax200",
+        "translations": {
+          "en": "TM Media Parallax 2.0.0",
+          "de": "TM Media Parallax 2.0.0",
+          "es": "TM Media Parallax 2.0.0",
+          "fr": "TM Media Parallax 2.0.0",
+          "it": "TM Media Parallax 2.0.0",
+          "ru": "TM Media Parallax 2.0.0"
+        }
+      },
+      {
+        "id": "tmmegalayout110",
+        "translations": {
+          "en": "TM Mega Layout 1.1.0",
+          "de": "TM Mega Layout 1.1.0",
+          "es": "TM Mega Layout 1.1.0",
+          "fr": "TM Mega Layout 1.1.0",
+          "it": "TM Mega Layout 1.1.0",
+          "ru": "TM Mega Layout 1.1.0"
+        }
+      },
+      {
+        "id": "tmmegamenu",
+        "translations": {
+          "en": "TM Mega Menu",
+          "de": "TM Mega Menu",
+          "es": "TM Mega Menu",
+          "fr": "Méga Menu TM",
+          "it": "TM Mega Menu",
+          "ru": "TM Mega Menu"
+        }
+      },
+      {
+        "id": "tmmosaicproducts",
+        "translations": {
+          "en": "TM Mosaic Products",
+          "de": "TM Mosaic Products",
+          "es": "TM Mosaic Products",
+          "fr": "Produits Mosaïques TM",
+          "it": "TM Mosaic Prodotti",
+          "ru": "TM Mosaic Products"
+        }
+      },
+      {
+        "id": "tmnewsletter",
+        "translations": {
+          "en": "TM Newsletter",
+          "de": "TM Newsletter",
+          "es": "TM Newsletter",
+          "fr": "TM Newsletter",
+          "it": "TM Newsletter",
+          "ru": "TM Newsletter"
+        }
+      },
+      {
+        "id": "tmolarkchat",
+        "translations": {
+          "en": "TM Olark Chat",
+          "de": "TM Olark Chat",
+          "es": "TM Olark Chat",
+          "fr": "TM Olark Chat",
+          "it": "TM Olark Chat",
+          "ru": "TM Olark Chat"
+        }
+      },
+      {
+        "id": "tmoneclickorder",
+        "translations": {
+          "en": "TM One Click Order",
+          "de": "TM One Click Order",
+          "es": "TM One Click Order",
+          "fr": "TM One Click Ordine",
+          "it": "TM One Click Ordine",
+          "ru": "TM One Click Order"
+        }
+      },
+      {
+        "id": "tmproductcustomtab",
+        "translations": {
+          "en": "TM Product Custom Tab",
+          "de": "TM Product Custom Tab",
+          "es": "TM Product Custom Tab",
+          "fr": "Onglet Personnalisé du Produit TM",
+          "it": "TM Prodotto Custom Tab",
+          "ru": "TM Product Custom Tab"
+        }
+      },
+      {
+        "id": "tmproductlistgallery200",
+        "translations": {
+          "en": "TM Product List Gallery 2.0.0",
+          "de": "TM Product List Gallery 2.0.0",
+          "es": "TM Product List Gallery 2.0.0",
+          "fr": "Galerie de Liste des Produits TM 2.0.0",
+          "it": "TM Prodotto Lista Gallery 2.0.0",
+          "ru": "TM Product List Gallery 2.0.0"
+        }
+      },
+      {
+        "id": "tmproductvideos",
+        "translations": {
+          "en": "TM Product Videos",
+          "de": "TM Product Videos",
+          "es": "TM Product Videos",
+          "fr": "Vidéos du Produit TM",
+          "it": "TM Prodotto Videos",
+          "ru": "TM Product Videos"
+        }
+      },
+      {
+        "id": "tmproductzoomer",
+        "translations": {
+          "en": "TM Product Zoomer",
+          "de": "TM Product Zoomer",
+          "es": "TM Product Zoomer",
+          "fr": "Zoom de Droduit TM",
+          "it": "TM Prodotto Zoomer",
+          "ru": "TM Product Zoomer"
+        }
+      },
+      {
+        "id": "tmrelatedproducts",
+        "translations": {
+          "en": "TM Related Products",
+          "de": "TM Related Products",
+          "es": "TM Related Products",
+          "fr": "Produits Connexes TM",
+          "it": "TM Prodotti Correlati",
+          "ru": "TM Related Products"
+        }
+      },
+      {
+        "id": "tmsearch110",
+        "translations": {
+          "en": "TM Search 1.1.0",
+          "de": "TM Search 1.1.0",
+          "es": "TM Search 1.1.0",
+          "fr": "Recherche TM 1.1.0",
+          "it": "TM Search 1.1.0",
+          "ru": "TM Search 1.1.0"
+        }
+      },
+      {
+        "id": "tmslider",
+        "translations": {
+          "en": "TM Slider",
+          "de": "TM Slider",
+          "es": "TM Slider",
+          "fr": "TM Slider",
+          "it": "TM Slider",
+          "ru": "TM Slider"
+        }
+      },
+      {
+        "id": "tmsocialfeeds",
+        "translations": {
+          "en": "TM Social Feeds",
+          "de": "TM Social Feeds",
+          "es": "TM Social Feeds",
+          "fr": "Flux sociaux TM",
+          "it": "TM Social Feeds",
+          "ru": "TM Social Feeds"
+        }
+      }
     ]
   }
 }
