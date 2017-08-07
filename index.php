@@ -88,10 +88,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                               data-href="<?php echo $path; ?>index.php?lang=it&section=<?php echo $section_param; ?>&project=<?php echo $project; ?>" <?php echo $lang == "it" ? "selected" : ""; ?>>
                           IT
                       </option>
-                      <option
-                              data-href="<?php echo $path; ?>index.php?lang=pl&section=<?php echo $section_param; ?>&project=<?php echo $project; ?>" <?php echo $lang == "pl" ? "selected" : ""; ?>>
-                          PL
-                      </option>
+<!--                      <option-->
+<!--                              data-href="--><?php //echo $path; ?><!--index.php?lang=pl&section=--><?php //echo $section_param; ?><!--&project=--><?php //echo $project; ?><!--" --><?php //echo $lang == "pl" ? "selected" : ""; ?><!-->-->
+<!--                          PL-->
+<!--                      </option>-->
                       <option
                               data-href="<?php echo $path; ?>index.php?lang=ru&section=<?php echo $section_param; ?>&project=<?php echo $project; ?>" <?php echo $lang == "ru" ? "selected" : ""; ?>>
                           RU
