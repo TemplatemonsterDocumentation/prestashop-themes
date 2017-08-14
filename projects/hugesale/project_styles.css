@@ -28,13 +28,13 @@ h3 {
   background-color: #262626;
 }
 .rd-mobilepanel.fixed {
-  background: #ff6161;
+  background: linear-gradient(50deg, #ff6161, gray);
   border-bottom: none;
   box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
 }
 
 [data-section="introduction"] .rd-mobilepanel {
-  background: #ff6161;
+  background: linear-gradient(50deg, #ff6161, gray);
   box-shadow: 5px 0 16px;
   height: 500px;
   z-index: 99999998;
@@ -84,8 +84,7 @@ body:not([data-section="introduction"]) .tm-title-caption {
   top: 348px;
   left: 84px;
   right: auto;
-  color: #808080;
-  font-weight: bold;
+  color: #595959;
   text-transform: uppercase;
 }
 
