@@ -108,25 +108,25 @@
         Settings</strong> slider to the Yes position.</p>
 <figure class="img-polaroid"><img src="img/tmproductsslider2-11.png" alt=""/></figure>
 <ul class="marked-list">
-    <li><strong>Gallery Type</strong> - active gallery type</li>
-    <li><strong>Gallery Width</strong> - active gallery width</li>
-    <li><strong>Gallery Height</strong> - active gallery height</li>
+    <li><strong>Gallery Type</strong> - active gallery type. Four types of gallery are available (<strong>standard, list, grid, full width</strong>). You can set up each of them independently. </li>
+    <li><strong>Gallery Width</strong> - active gallery width.</li>
+    <li><strong>Gallery Height</strong> - active gallery height.</li>
     <li><strong>Extended Settings</strong> - advanced settings; if the option is moved to 'No' position, all the
         advanced settings will be saved and you can restore them at any time. At the same time, at frontend it will be
         displayed as by default.
     </li>
-    <li><strong>Slider Duration</strong> - the speed of slide changing</li>
-    <li><strong>Use navigation</strong> - the display of the Prev/Next buttons for slide switching</li>
+    <li><strong>Slider Duration</strong> - the speed of slide changing.</li>
+    <li><strong>Use navigation</strong> - the display of the Prev/Next buttons for slide switching.</li>
     <li><strong>Use Thumbnails</strong> - using thumbnails with additional information about slides as an element for
-        switching the current slide
+        switching the current slide.
     </li>
-    <li><strong>Use Pagination</strong> - using pagination as an element for switching the current slide</li>
-    <li><strong>Use Image Gallery</strong> - using additional product images inside the slides</li>
-    <li><strong>Allow autoplay</strong> - allow automatic slide switching</li>
+    <li><strong>Use Pagination</strong> - using pagination as an element for switching the current slide.</li>
+    <li><strong>Use Image Gallery</strong> - using additional product images inside the slides.</li>
+    <li><strong>Allow autoplay</strong> - allow automatic slide switching.</li>
     <li><strong>Slider Interval</strong> - the time span, after which the slide will switch to another (available only
-        if 'Allow autoplay' is active)
+        if 'Allow autoplay' is active).
     </li>
-    <li><strong>Allow Loop</strong> - allow repeating slides from the beginning after all the slides were shown</li>
+    <li><strong>Allow Loop</strong> - allow repeating slides from the beginning after all the slides were shown.</li>
 </ul>
 <p class="alert alert-info">
     <span>After switching the gallery, all the setup of the previously used gallery is saved.</span>
