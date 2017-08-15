@@ -15,20 +15,21 @@
     (one or a list), stores (if multistore is used), links to any product, information block about the product,
     custom links (not limited in quantity), custom HTML blocks (not limited in number) and banners. See below
     for more details.</p>
-<h4>TM Mega Menu Tabs</h4>
-<p>TM Mega Menu tabs are the basic items which are the top menu part.</p>
+<p>The module includes 6 main tabs that allow to customize the menu.</p>
 <figure class="img-polaroid">
-    <img src="img/tmmegamenu-tabs.png" alt=""/>
+    <img src="img/tmmegamenu.png" alt=""/>
 </figure>
-<p>In order to create a new tab, open the TM Mega Menu module and click '+' in the Tabs list table.</p>
+<h4>TM Mega Menu Items</h4>
+<p>TM Mega Menu items are the basic items which appears in the menu.</p>
+<p>In order to create a new item, open the TM Mega Menu module and click Add item button from the top menu or click "+" button in the top right of the table.</p>
 <figure class="img-polaroid">
-    <img src="img/tmmegamenu-tabs-add.png" alt=""/>
+    <img src="img/tmmegamenu-items.png" alt=""/>
 </figure>
 <h6>In the form that appears, fill in the required fields.</h6>
 <ul class="marked-list">
     <li>
         <dl class="inline-term">
-            <dt>Enter tab name</dt>
+            <dt>Enter item name</dt>
             <dd>the tab title which is mandatory to be filled in for the default language, if the additional
                 languages fields are not filled in, the tab takes its name from the default language.
             </dd>
@@ -62,7 +63,7 @@
     </li>
     <li>
         <dl class="inline-term">
-            <dt>Enter tab badge</dt>
+            <dt>Enter item badge</dt>
             <dd>is filled in depending on multi-languages.</dd>
         </dl>
     </li>
@@ -93,7 +94,7 @@
     displays the selected content in a single column. If the menu has embedded content, the new column is added.
 </p>
 <figure class="img-polaroid">
-    <img src="img/tmmegamenu-tabs-add-form.png" alt=""/>
+    <img src="img/thmegamenu-add-items.png" alt=""/>
 </figure>
 <p>Complex menu consists of rows and columns in rows.</p>
 <p><strong>The Row is a part of the Mega Menu structure.</strong> It includes the menu columns. The existing row can be
@@ -106,11 +107,11 @@
     width cannot exceed 12. The width (class) is a Bootstrap column type, corresponds to the same values.</p>
 <p>In order to create the menu, click the <strong>'Add row'</strong> button.</p>
 <figure class="img-polaroid">
-    <img src="img/tmmegamenu-tabs-add-form-row.png" alt=""/>
+    <img src="img/tmmegamenu-items-add-form-row.png" alt=""/>
 </figure>
 <p>In the form appeared, click <strong>'Add column'</strong> button.</p>
 <figure class="img-polaroid">
-    <img src="img/tmmegamenu-tabs-add-form-row-col.png" alt=""/>
+    <img src="img/tmmegamenu-items-add-form-row-col.png" alt=""/>
 </figure>
 <p>In the pop up window you need to specify the column class (from 2 to 12). The column itself appears
     next where you need to set the required settings.</p>
@@ -120,14 +121,14 @@
 <p>Block can be removed by clicking <strong>'Remove block'</strong> button in the footer of the block.</p>
 <p>By removing the row, the included columns are also removed.</p>
 <figure class="img-polaroid">
-    <img src="img/tmmegamenu-tabs-add-form-row-col-content.png" alt=""/>
+    <img src="img/tmmegamenu-items-add-form-row-col-content.png" alt=""/>
 </figure>
 <p>In order to move the content available in the selected menu, double-click or highlight the desired content and
     press the corresponding button.</p>
 <p>Inactive menu information is saved while switching between menu types and you can always change the type of
     menu.</p>
 <figure class="img-polaroid">
-    <img src="img/tmmegamenu-tabs-add-form-simple.png" alt=""/>
+    <img src="img/tmmegamenu-items-add-form-simple.png" alt=""/>
 </figure>
 <h4>TM Mega Menu HTML</h4>
 <p>In this section we will explain how to create a custom HTML block in the Mega Menu.</p>
@@ -215,7 +216,7 @@
     </li>
     <li>
         <dl class="inline-term">
-            <dt>Enter Link URL</dt>
+            <dt>Enter Banner URL</dt>
             <dd>link URL, is mandatory to be filled in for the default language.</dd>
         </dl>
     </li>
@@ -223,6 +224,18 @@
         <dl class="inline-term">
             <dt>Specific class</dt>
             <dd>block's CSS class.</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Public Title</dt>
+            <dd>public banner title.</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Description</dt>
+            <dd>set the description of the banner.</dd>
         </dl>
     </li>
     <li>
@@ -235,7 +248,7 @@
 <p>Added banner will appear in the list of banners, as well as in the list of available content while creating menu
     blocks.</p>
 <figure class="img-polaroid">
-    <img src="img/tmmegamenu-banners.png" alt=""/>
+    <img src="img/tmmegamenu-banner.png" alt=""/>
 </figure>
 <h4>TM Mega Menu Video</h4>
 <p>In this section we will explain how to add a video in the Mega Menu.</p>
