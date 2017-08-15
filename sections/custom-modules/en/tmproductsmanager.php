@@ -11,13 +11,14 @@
 <h4>Performance</h4>
 <p>The main module menu is divided into two main parts: 'Choose section' (1) and 'Choose option' (2).</p>
 <figure class="img-polaroid"><img src="img/tmproductsmanager-2.png" alt=""/></figure>
-<p>The first part is created in the form of tabs - Information, Price, Associations and Quantity.</p>
+<p>The first part is created in the form of tabs - Information, Price, Associations, Quantity and Extra Pages.</p>
 <figure class="img-polaroid"><img src="img/tmproductsmanager-3.png" alt=""/></figure>
 <ul class="marked-list">
     <li><strong>Information</strong> - options concerning product availability and description.</li>
     <li><strong>Price</strong> - price and tax rules settings.</li>
     <li><strong>Associations</strong> - ability to change brand, category or accessories of several products.</li>
     <li><strong>Quantity</strong> - changing products' quantity.</li>
+    <li><strong>Extra Pages</strong> - ability to add a new page.</li>
 </ul>
 <ul class="index-list">
     <li>
@@ -102,4 +103,10 @@
 <figure class="img-polaroid"><img src="img/tmproductsmanager-13.png" alt=""/></figure>
 <ul class="marked-list">
     <li><strong>Change quantity</strong> - set the required quantity of some products.</li>
+</ul>
+<h5>Extra Pages</h5>
+<p>This option allows to add a new page.</p>
+<figure class="img-polaroid"><img src="img/tmproductsmanager-14.png" alt=""/></figure>
+<ul class="marked-list">
+    <li><strong>Add new page</strong> - create a new product page.</li>
 </ul>
