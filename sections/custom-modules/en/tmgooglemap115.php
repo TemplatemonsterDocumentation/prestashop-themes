@@ -5,7 +5,7 @@
 <h5>Module settings</h5>
 <p>After installing the module, you can add stores to the map. After pressing the 'Add new store' button (1), you'll be redirected to the 'Store contacts' tab, where you can edit your stores.</p>
 <p class="img-polaroid"><img src="img/tmgooglemap115-1.png" alt="" /></p>
-<p>To add a new store, press the 'Add new' button.</p>
+<p>To add a new store, press the 'Add new item' button.</p>
 <p class="img-polaroid"><img src="img/tmgooglemap115-2.png" alt="" /></p>
 <ul class="marked-list">
     <li><strong>Select a store</strong> - select the store that you want to add to the map.</li>
@@ -16,6 +16,7 @@
 <h5>Google Map display settings</h5>
 <p class="img-polaroid"><img src="img/tmgooglemap115-3.png" alt="" /></p>
 <ul class="marked-list">
+    <li><strong>Google Api Key</strong> - enter your Google Map API Key.</li>
     <li><strong>Map Style</strong> - select the map display style.</li>
     <li><strong>Map Type</strong> - select the map display type.</li>
     <li><strong>Zoom Level</strong> - specify the initial level of the map zoom (from 1 to 17).</li>
