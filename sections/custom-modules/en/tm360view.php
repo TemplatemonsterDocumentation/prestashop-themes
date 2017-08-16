@@ -134,39 +134,39 @@
         <p>Then confirm the deleting.</p>
     </li>
 </ul>
-<h5>Adding panorama to the Product</h5>
-<ul class="index-list">
-    <li>
-        <p>To add panorama to the product page navigate to Catalog -> Products in your admin panel (1), choose the product and click the 'Edit' button (2).</p>
-        <figure class="img-polaroid">
-            <img src="img/360view-4.png" alt=""/>
-        </figure>
-    </li>
-    <li>
-        <p>To add the image, open the 'TM 360 view' tab (1) in product settings and click 'Add file' button (2).</p>
-        <figure class="img-polaroid">
-            <img src="img/360view-11.png" alt=""/>
-        </figure>
-    </li>
-    <li>
-        <p>Then press 'Upload files' (1).</p>
-        <figure class="img-polaroid">
-            <img src="img/360view-12.png" alt=""/>
-        </figure>
-    </li>
-    <li>
-        <p>Wait till the file is uploaded.</p>
-        <figure class="img-polaroid">
-            <img src="img/360view-13.png" alt=""/>
-        </figure>
-    </li>
-    <li>
-        <p>After you've added panorama image, it will be shown on the product page.</p>
-    </li>
-    <li>
-        <p>To disable panorama on the product page, open the 'TM 360 view' tab in product settings and remove panorama image (1).</p>
-        <figure class="img-polaroid">
-            <img src="img/360view-14.png" alt=""/>
-        </figure>
-    </li>
-</ul>
+<!--<h5>Adding panorama to the Product</h5>-->
+<!--<ul class="index-list">-->
+<!--    <li>-->
+<!--        <p>To add panorama to the product page navigate to Catalog -> Products in your admin panel (1), choose the product and click the 'Edit' button (2).</p>-->
+<!--        <figure class="img-polaroid">-->
+<!--            <img src="img/360view-4.png" alt=""/>-->
+<!--        </figure>-->
+<!--    </li>-->
+<!--    <li>-->
+<!--        <p>To add the image, open the 'TM 360 view' tab (1) in product settings and click 'Add file' button (2).</p>-->
+<!--        <figure class="img-polaroid">-->
+<!--            <img src="img/360view-11.png" alt=""/>-->
+<!--        </figure>-->
+<!--    </li>-->
+<!--    <li>-->
+<!--        <p>Then press 'Upload files' (1).</p>-->
+<!--        <figure class="img-polaroid">-->
+<!--            <img src="img/360view-12.png" alt=""/>-->
+<!--        </figure>-->
+<!--    </li>-->
+<!--    <li>-->
+<!--        <p>Wait till the file is uploaded.</p>-->
+<!--        <figure class="img-polaroid">-->
+<!--            <img src="img/360view-13.png" alt=""/>-->
+<!--        </figure>-->
+<!--    </li>-->
+<!--    <li>-->
+<!--        <p>After you've added panorama image, it will be shown on the product page.</p>-->
+<!--    </li>-->
+<!--    <li>-->
+<!--        <p>To disable panorama on the product page, open the 'TM 360 view' tab in product settings and remove panorama image (1).</p>-->
+<!--        <figure class="img-polaroid">-->
+<!--            <img src="img/360view-14.png" alt=""/>-->
+<!--        </figure>-->
+<!--    </li>-->
+<!--</ul>-->
