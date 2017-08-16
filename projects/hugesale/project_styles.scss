@@ -51,7 +51,7 @@ h3 {
 		background-color: $header-color;
 	}
 	&.fixed {
-		background: linear-gradient(50deg, #ff6161, #808080);
+		background: linear-gradient(50deg, #fdd6c5, #bd7c71);
 
 		border-bottom: none;
 		box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.15);
@@ -60,7 +60,7 @@ h3 {
 
 [data-section="introduction"] {
 	.rd-mobilepanel {
-		background: linear-gradient(50deg, #ff6161, #808080);
+		background: linear-gradient(50deg, #fdd6c5, #bd7c71);
 		box-shadow: 5px 0 16px;
 
 		height: 500px;
