@@ -5,7 +5,7 @@
 <h5>Module settings</h5>
 <p>After installing the module, you can add stores to the map. After pressing the 'Add new store' button (1), you'll be redirected to the 'Store contacts' tab, where you can edit your stores.</p>
 <p class="img-polaroid"><img src="img/tmgooglemap115-1.png" alt="" /></p>
-<p>To add a new store, press the 'Add new item' button.</p>
+<p>To add a new store, press the 'Add new' button.</p>
 <p class="img-polaroid"><img src="img/tmgooglemap115-2.png" alt="" /></p>
 <ul class="marked-list">
     <li><strong>Select a store</strong> - select the store that you want to add to the map.</li>
