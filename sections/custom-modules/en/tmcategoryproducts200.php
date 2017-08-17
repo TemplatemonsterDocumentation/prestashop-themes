@@ -1,4 +1,4 @@
-<h3>TM Category Products 1.0.0</h3>
+<h3>TM Category Products 2.0.0</h3>
 <?php if ($project == 'eveprest' ) { ?>
     <div>
         <p style="margin-bottom: 0;">Available in:</p>
@@ -13,38 +13,38 @@
 <figure class="img-polaroid">
     <img src="img/tmcategoryproducts-1.png" alt=""/>
 </figure>
-<h5>Adding a Tab</h5>
-<p>Tab is a block that displays products in displayHomeTabContent position.</p>
-<ul class="index-list">
-    <li><p>Navigate to the module main panel and press the 'plus' (1) button in the tabs list.</p>
-        <figure class="img-polaroid">
-            <img src="img/tmcategoryproducts-2.png" alt=""/>
-        </figure>
-    </li>
-    <li><p>In the appeared form, you'll see the following options:</p>
-        <ul class="marked-list">
-            <li><strong>Status</strong> - this option allows enabling/disabling the tab.</li>
-            <li><strong>Select category</strong> - the category, products of which will
-                be displayed.
-            </li>
-            <li><strong>Use custom name</strong> - this option allows changing the displayed category name. If enabled, the following
-                form will be displayed:
-                <ul class="marked-list">
-                    <li><strong>Name</strong> - the custom tab name, displayed on the website.</li>
-                </ul>
-            </li>
-            <li><strong>Select products to display</strong> - if disabled, displays the 'Number of products to display' field, which sets
-                the number of products to display. If enabled, displays the 'Add products' button that allows selecting
-                products to display in the tab.
-            </li>
-        </ul>
-    </li>
-    <li><p>After configuring all the needed options, press the 'Save' (2) button.</p>
-        <figure class="img-polaroid">
-            <img src="img/tmcategoryproducts-3.png" alt=""/>
-        </figure>
-    </li>
-</ul>
+<!--<h5>Adding a Tab</h5>-->
+<!--<p>Tab is a block that displays products in displayHomeTabContent position.</p>-->
+<!--<ul class="index-list">-->
+<!--    <li><p>Navigate to the module main panel and press the 'plus' (1) button in the tabs list.</p>-->
+<!--        <figure class="img-polaroid">-->
+<!--            <img src="img/tmcategoryproducts-2.png" alt=""/>-->
+<!--        </figure>-->
+<!--    </li>-->
+<!--    <li><p>In the appeared form, you'll see the following options:</p>-->
+<!--        <ul class="marked-list">-->
+<!--            <li><strong>Status</strong> - this option allows enabling/disabling the tab.</li>-->
+<!--            <li><strong>Select category</strong> - the category, products of which will-->
+<!--                be displayed.-->
+<!--            </li>-->
+<!--            <li><strong>Use custom name</strong> - this option allows changing the displayed category name. If enabled, the following-->
+<!--                form will be displayed:-->
+<!--                <ul class="marked-list">-->
+<!--                    <li><strong>Name</strong> - the custom tab name, displayed on the website.</li>-->
+<!--                </ul>-->
+<!--            </li>-->
+<!--            <li><strong>Select products to display</strong> - if disabled, displays the 'Number of products to display' field, which sets-->
+<!--                the number of products to display. If enabled, displays the 'Add products' button that allows selecting-->
+<!--                products to display in the tab.-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </li>-->
+<!--    <li><p>After configuring all the needed options, press the 'Save' (2) button.</p>-->
+<!--        <figure class="img-polaroid">-->
+<!--            <img src="img/tmcategoryproducts-3.png" alt=""/>-->
+<!--        </figure>-->
+<!--    </li>-->
+<!--</ul>-->
 <h5>Adding a block</h5>
 <p>This block allows selecting products in displayHome position.</p>
 <ul class="index-list">
@@ -102,8 +102,8 @@
         </figure>
     </li>
 </ul>
-<h5>Blocks/Tabs Sorting</h5>
-<p>You can sort the blocks of the module with the help of drag'n'drop. This allows to change blocks and tabs positions
+<h5>Blocks Sorting</h5>
+<p>You can sort the blocks of the module with the help of drag'n'drop. This allows to change blocks positions
     quickly.</p>
 <figure class="img-polaroid">
     <img src="img/tmcategoryproducts-6.png" alt=""/>
@@ -130,8 +130,8 @@
     <li><p>When all the needed products are added and arranged in the desired order, press the 'Save' button.</p>
     </li>
 </ul>
-<h5>Deleting Blocks/Tabs</h5>
-<p>To delete items, press the drop-down menu next to the needed block/tab (1) and press delete (2). The item will be
+<h5>Deleting Blocks</h5>
+<p>To delete items, press the drop-down menu next to the needed block (1) and press delete (2). The item will be
     deleted.</p>
 <figure class="img-polaroid">
     <img src="img/tmcategoryproducts-10.png" alt=""/>
