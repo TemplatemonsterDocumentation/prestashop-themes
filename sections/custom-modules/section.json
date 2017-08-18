@@ -18,9 +18,9 @@
         }
       },
       {
-        "id": "tmcategoryproducts100",
+        "id": "tmcategoryproducts200",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 2.0.0"
         }
       },
       {
@@ -112,13 +112,19 @@
         "translations": {
           "en": "TM Search 1.1.0"
         }
+      },
+      {
+        "id": "tmsocialfeeds",
+        "translations": {
+          "en": "TM Social Feeds"
+        }
       }
     ],
     "fashionli": [
       {
-        "id": "tmcategoryproducts100",
+        "id": "tmcategoryproducts200",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 2.0.0"
         }
       },
       {
@@ -154,9 +160,9 @@
     ],
     "foodfate": [
       {
-        "id": "tmcategoryproducts100",
+        "id": "tmcategoryproducts200",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 2.0.0"
         }
       },
       {
@@ -192,9 +198,9 @@
     ],
     "alistaco": [
       {
-        "id": "tmcategoryproducts100",
+        "id": "tmcategoryproducts200",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 2.0.0"
         }
       },
       {
@@ -242,9 +248,9 @@
     ],
     "mannerway": [
       {
-        "id": "tmcategoryproducts100",
+        "id": "tmcategoryproducts200",
         "translations": {
-          "en": "TM Category Products 1.0.0"
+          "en": "TM Category Products 2.0.0"
         }
       },
       {
