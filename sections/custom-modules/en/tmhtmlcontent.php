@@ -27,7 +27,7 @@
 <p class="alert alert-info"> All elements of one language added to the same position will be displayed as a list at the
     backend and frontend.</p>
 <figure class="img-polaroid">
-    <img src="img/htmlcontent-1.png" alt=""/>
+    <img src="img/htmlcontent-1.1.png" alt=""/>
 </figure><ul class="marked-list">
     <li>
         <dl class="inline-term">
@@ -53,6 +53,12 @@
         <dl class="inline-term">
             <dt>Hook</dt>
             <dd>position where the element is added.</dd>
+        </dl>
+        </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Specific class</dt>
+            <dd>custom class, defines item styling (CSS class).</dd>
         </dl>
     </li>
     <li>
@@ -113,7 +119,7 @@
 <h6>Click <strong>Edit</strong> button to modify the element.</h6>
 <p>In the appeared screen change all the required fields.</p>
 <figure class="img-polaroid">
-    <img src="img/htmlcontent-3.png" alt=""/>
+    <img src="img/htmlcontent-3.1.png" alt=""/>
 </figure>
 <ul class="marked-list">
     <li>
@@ -138,6 +144,12 @@
         <dl class="inline-term">
             <dt>Hook to which the image should be attached</dt>
             <dd>position of the element.</dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Specific class</dt>
+            <dd>custom CSS class.</dd>
         </dl>
     </li>
     <li>
