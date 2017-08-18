@@ -27,7 +27,8 @@
 <p>After installing and connecting the module, you can set it up on the module configuration page.</p>
 <h5>The module has the following main settings:</h5>
 <ul class="marked-list">
-    <li><strong>Type</strong> - select display type: rollover or slideshow.</li>
+    <li><strong>Live mode</strong> - ability to use the module in live mode.</li>
+    <li><strong>Type</strong> - select display type: rollover, gallery or slideshow.</li>
 </ul>
 <p>If you choose <strong>rollover</strong>, you can choose the animation effect:</p>
 <figure class="img-polaroid"><img src="img/tmproductlistgallery-2.png" alt="" /></figure>
@@ -37,18 +38,17 @@
     <li><strong>Horizontal slide</strong> - horizontal;</li>
     <li><strong>Vertical slide</strong> - vertical.</li>
 </ul>
+<p>If you choose <strong>gallery</strong>, you will find the following settings available:</p>
+<figure class="img-polaroid"><img src="img/tmproductlistgallery-2.01.png" alt="" /></figure>
+<ul class="marked-list">
+    <li><strong>Display items</strong> - the number of items displayed;</li>
+    <li><strong>Visible items in row</strong> - the number of items in a row;</li>
+    <li><strong>Use carousel</strong> - enable/disable the carousel for this block.</li>
+</ul>
 <p>If you choose <strong>slideshow</strong>, you will find the following settings available:</p>
 <figure class="img-polaroid"><img src="img/tmproductlistgallery-3.png" alt="" /></figure>
 <ul class="marked-list">
     <li><strong>Display items</strong> - the number of items displayed;</li>
-    <li><strong>Infinite</strong> - endless slideshow cycle;</li>
-    <li><strong>Pager</strong> - pager display in slide show;</li>
-    <li><strong>Controls</strong> - controls display in slide show;</li>
-    <li><strong>Use thumbnails</strong> - slideshow thumbnails display;</li>
-    <li><strong>Pager</strong> - pager display in thumbnails carousel;</li>
-    <li><strong>Controls</strong> - controls display in thumbnails carousel;</li>
-    <li><strong>Position</strong> - vertical or horizontal carousel mode;</li>
-    <li><strong>Center mode</strong> - centering the thumbnails carousel view;</li>
-    <li><strong>Visible items</strong> - the number of items in a row;</li>
-    <li><strong>Items to scroll</strong> - the number of scrolled items in thumbnails carousel.</li>
+    <li><strong>Use pager</strong> - pager display in slide show;</li>
+    <li><strong>Use controls</strong> - controls display in slide show.</li>
 </ul>
