@@ -46,12 +46,6 @@
 		      "translations": {
 		        "en": "Uploading PrestaShop engine files"
 		      }
-		    },
-		    {
-		      "id": "engine-installation",
-		      "translations": {
-		        "en": "PrestaShop engine installation"
-		      }
 		    }
 		],
 		"fashionli": [
@@ -205,6 +199,56 @@
 			}
 		],
 		"mannerway": [
+			{
+				"id": "preparation",
+				"translations": {
+					"en": "Preparation"
+				}
+			},
+			{
+				"id": "editing-software",
+				"translations": {
+					"en": "Editing software"
+				}
+			},
+			{
+				"id": "server-requirements",
+				"translations": {
+					"en": "Server requirements"
+				}
+			},
+			{
+				"id": "local-server",
+				"translations": {
+					"en": "Using the local server"
+				}
+			},
+			{
+				"id": "downloading",
+				"translations": {
+					"en": "Downloading"
+				}
+			},
+			{
+				"id": "extracting-files",
+				"translations": {
+					"en": "Extracting Files"
+				}
+			},
+			{
+				"id": "engine-files",
+				"translations": {
+					"en": "Uploading PrestaShop engine files"
+				}
+			},
+			{
+				"id": "engine-installation",
+				"translations": {
+					"en": "PrestaShop engine installation"
+				}
+			}
+		],
+		"bormeria": [
 			{
 				"id": "preparation",
 				"translations": {

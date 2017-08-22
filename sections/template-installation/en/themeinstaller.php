@@ -49,7 +49,6 @@ else { ?>
     </figure>
 <?php } ?>
 
-
 <p>In order to activate the theme, hover the cursor over the theme preview icon and
     click <strong>Use this theme</strong>.</p>
 <?php if  ($project == 'alistaco'){ ?>

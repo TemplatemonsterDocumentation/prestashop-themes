@@ -263,12 +263,12 @@
         </dl>
     </li>
     <li><strong>Enter Video URL</strong> - add video link in the formats described below:
-            <ul class="marked-list">
-                <li>If this is a <strong>YouTube video</strong>, click on Embed and copy the code between the quotes for https://www.youtube.com/embed/video_id </li>
-                <li>If this is a <strong>Vimeo video</strong>, click on Share icon and in the Embed section copy the source code between the quotes for http://player.vimeo.com/video/video_id
-                </li>
-            </ul>
-        </li>
+        <ul class="marked-list">
+            <li>If this is a <strong>YouTube video</strong>, click on Embed and copy the code between the quotes for https://www.youtube.com/embed/video_id </li>
+            <li>If this is a <strong>Vimeo video</strong>, click on Share icon and in the Embed section copy the source code between the quotes for http://player.vimeo.com/video/video_id
+            </li>
+        </ul>
+    </li>
 </ul>
 <p>Added video will appear in the list of videos, as well as in the list of available content while creating menu
     blocks.</p>

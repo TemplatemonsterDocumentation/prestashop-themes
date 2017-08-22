@@ -229,12 +229,11 @@ b, strong {
 
   dt + dd {
     position: relative;
-    padding-left: 20px;
+    padding-left: 10px;
 
     &:before {
-      position: absolute;
-      left: 5px;
-      content: '–';
+      padding-right: 10px;
+      content: '-';
     }
   }
 }
@@ -558,3 +557,42 @@ footer {
   padding: 30px;
   white-space: pre-wrap;
 }
+
+/////////////////////////////////////////////
+//FOR CREATING PDF VERSION!!!!!!!!!!!!!!!!!!!!
+/////////////////////////////////////////////
+
+//.rd-mobilemenu, .rd-mobilepanel_toggle, .rd-mobilepanel, .toTop {
+//  display: none;
+//}
+//
+//.page-content.active .page, .page-content.active .rd-mobilepanel, .page-content.active .rd-mobilepanel_toggle {
+//  -moz-transform: translateX(0px);
+//  -ms-transform: translateX(0px);
+//  -o-transform: translateX(0px);
+//  -webkit-transform: translateX(0px);
+//  transform: translateX(0px);
+//}
+//
+//main > .container {
+//  padding-right: 0%;
+//}
+//
+//.resp-tab-content {
+//  display: block;
+//}
+//
+//.resp-accordion.resp-tab-active {
+//  background-color: #999;
+//}
+//
+//article.description {
+//  padding-top: 0px;
+//}
+//article {
+//  padding-top: 0;
+//}
+//
+//.pdf-hidden {
+//  display: none;
+//}

@@ -30,33 +30,36 @@
     <li class="folder">
         <dl class="inline-term">
             <dt>
-                <i class="fa fa-archive"></i>
-                <b>sources.zip</b></dt>
+                <i class="fa fa-folder"></i>
+                <strong>sources</strong>
+            </dt>
             <dd> contains template source files</dd>
         </dl>
         <ul>
-            <li class="folder">
-                <i class="fa fa-folder"></i>
-                <strong>sources</strong>
-
-                <ul>
-                    <li>
-                        <dl class="inline-term">
-                            <dt>
-                                <i class="fa fa-folder"></i>
-                                <strong>psd</strong></dt>
-                            <dd> template Adobe Photoshop source files (.psd)</dd>
-                        </dl>
-                    </li>
-                    <li>
-                        <dl class="inline-term">
-                            <dt>
-                                <i class="fa fa-folder"></i>
-                                <strong>custom_html</strong></dt>
-                            <dd> custom HTML files</dd>
-                        </dl>
-                    </li>
-                </ul>
+            <li>
+                <dl class="inline-term">
+                    <dt>
+                        <i class="fa fa-folder"></i>
+                        <strong>custom_html</strong></dt>
+                    <dd> custom HTML files</dd>
+                </dl>
+            </li>
+            <li>
+                <dl class="inline-term">
+                    <dt>
+                        <i class="fa fa-folder"></i>
+                        <strong>psd</strong></dt>
+                    <dd> template Adobe Photoshop source files (.psd)</dd>
+                </dl>
+            </li>
+            <li class="file">
+                <dl class="inline-term">
+                    <dt>
+                        <i class="fa fa-file"></i>
+                        favicon.png
+                    </dt>
+                    <dd> favicon image</dd>
+                </dl>
             </li>
         </ul>
     </li>
@@ -76,86 +79,87 @@
                     </dt>
                     <dd> contains files for manual installation</dd>
                 </dl>
+
                 <ul>
                     <li class="folder">
                         <dl class="inline-term">
                             <dt>
                                 <i class="fa fa-folder"></i>
-                                img
+                                theme####
                             </dt>
-                            <dd> images for manual installation</dd>
                         </dl>
+                        <ul>
+                            <li class="folder">
+                                <dl class="inline-term">
+                                    <dt>
+                                        <i class="fa fa-folder"></i>
+                                        img
+                                    </dt>
+                                    <dd> images for manual installation</dd>
+                                </dl>
+                            </li>
+                            <li class="folder">
+                                <dl class="inline-term">
+                                    <dt>
+                                        <i class="fa fa-folder"></i>
+                                        modules
+                                    </dt>
+                                    <dd> modules for manual installation</dd>
+                                </dl>
+                            </li>
+                            <li class="folder">
+                                <dl class="inline-term">
+                                    <dt>
+                                        <i class="fa fa-folder"></i>
+                                        themes
+                                    </dt>
+                                    <dd> theme files for manual installation</dd>
+                                </dl>
+                            </li>
+                            <li class="file">
+                                <dl class="inline-term">
+                                    <dt>
+                                        <i class="fa fa-file"></i>
+                                        dump.sql
+                                    </dt>
+                                    <dd> sample data file for manual installation</dd>
+                                </dl>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="folder">
-                        <dl class="inline-term">
-                            <dt>
-                                <i class="fa fa-folder"></i>
-                                modules
-                            </dt>
-                            <dd> modules for manual installation</dd>
-                        </dl>
-                    </li>
-                    <li class="folder">
-                        <dl class="inline-term">
-                            <dt>
-                                <i class="fa fa-folder"></i>
-                                themes
-                            </dt>
-                            <dd> theme files for manual installation</dd>
-                        </dl>
-                    </li>
+                </ul>
+            </li>
+            <li class="folder">
+                <dl class="inline-term">
+                    <dt>
+                        <i class="fa fa-folder"></i>
+                        themeinstallator
+                    </dt>
+                    <dd> contains an archive for automatic theme installation</dd>
+                </dl>
+                <ul>
                     <li class="file">
                         <dl class="inline-term">
                             <dt>
                                 <i class="fa fa-file"></i>
-                                dump.sql
+                                theme####.zip
                             </dt>
-                            <dd> sample data file for manual installation</dd>
+                            <dd> theme archive. Contains all theme files. It is installed using standard
+                                PrestaShop installation method
+                            </dd>
                         </dl>
                     </li>
                 </ul>
             </li>
-<!--            <li class="folder">-->
-<!--                <dl class="inline-term">-->
-<!--                    <dt>-->
-<!--                        <i class="fa fa-folder"></i>-->
-<!--                        sample_data-->
-<!--                    </dt>-->
-<!--                    <dd> contains files used for sample data installation with sampledatainstall module-->
-<!--                    </dd>-->
-<!--                </dl>-->
-<!--            </li>-->
-<!--            <li class="folder">-->
-<!--                <dl class="inline-term">-->
-<!--                    <dt>-->
-<!--                        <i class="fa fa-folder"></i>-->
-<!--                        themeinstallator-->
-<!--                    </dt>-->
-<!--                    <dd> contains an archive for automatic theme installation</dd>-->
-<!--                </dl>-->
-<!--                <ul>-->
-<!--                    <li class="file">-->
-<!--                        <dl class="inline-term">-->
-<!--                            <dt>-->
-<!--                                <i class="fa fa-file"></i>-->
-<!--                                theme####.zip-->
-<!--                            </dt>-->
-<!--                            <dd> theme archive. Contains all theme files. It is installed using standard-->
-<!--                                PrestaShop installation method-->
-<!--                            </dd>-->
-<!--                        </dl>-->
-<!--                    </li>-->
-<!--                </ul>-->
-<!--            </li>-->
         </ul>
     </li>
     <li class="file">
         <dl class="inline-term">
             <dt>
                 <i class="fa fa-file"></i>
-                fonts_info.txt
+                documentation.txt
             </dt>
-            <dd> contains links where the template custom fonts can be downloaded
+            <dd> contains link to online theme documentation
             </dd>
         </dl>
     </li>

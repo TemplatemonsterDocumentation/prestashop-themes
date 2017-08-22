@@ -1,6 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Poppins+Light:400,700%7CPermanent+Marker:400,700);
 h1 {
-  color: #FFFFFF;
+  color: white;
 }
 
 h2 {
@@ -14,7 +14,6 @@ h3 {
 .page-content .rd-mobilepanel {
   background-position: 60% bottom;
 }
-
 .page-content.active .rd-mobilepanel {
   background-position: 60% bottom;
 }
@@ -26,7 +25,6 @@ h3 {
   transition-timing-function: linear;
   transition-delay: 1s;
 }
-
 .rd-mobilepanel.fixed {
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 }
@@ -35,7 +33,6 @@ h3 {
   background-image: url("../../projects/fashionli/img/header-bg.png");
   height: 500px;
 }
-
 [data-section="introduction"] .rd-mobilepanel.fixed {
   height: 56px;
   background-image: none;
@@ -62,7 +59,6 @@ body:not([data-section="introduction"]) .tm-title-caption {
   right: auto;
   bottom: auto;
 }
-
 .tm-title-caption:before, .tm-title-caption:after {
   content: '';
   position: absolute;
@@ -71,12 +67,10 @@ body:not([data-section="introduction"]) .tm-title-caption {
   transform: translateY(-50%);
   width: 70px;
 }
-
 .tm-title-caption:before {
   right: 100%;
   margin-right: 10px;
 }
-
 .tm-title-caption:after {
   margin-left: 10px;
 }
@@ -84,22 +78,18 @@ body:not([data-section="introduction"]) .tm-title-caption {
 .rd-mobilemenu {
   background-color: transparent;
 }
-
 .rd-mobilemenu .logo {
   background-color: #f7f7f7;
 }
-
 .rd-mobilemenu li {
   font-family: "Poppins Light", sans-serif;
   font-size: 13px;
   font-weight: 400;
   letter-spacing: .2px;
 }
-
 .rd-mobilemenu_ul a {
   padding: 13px 25px 14px;
 }
-
 .rd-mobilemenu_ul ul a.focus {
   color: #05bdb6;
 }
@@ -107,7 +97,6 @@ body:not([data-section="introduction"]) .tm-title-caption {
 .toTop {
   background-color: #7d7d7d;
 }
-
 .toTop:hover {
   background: #b0b0b0;
 }

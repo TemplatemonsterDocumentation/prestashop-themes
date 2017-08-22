@@ -121,6 +121,32 @@
 					"en": "Installing modules and configuring images"
 				}
 			}
+		],
+		"bormeria": [
+			{
+				"id": "themeinstaller",
+				"translations": {
+					"en": "Theme Import"
+				}
+			},
+			{
+				"id": "with_products_manual",
+				"translations": {
+					"en": "Manual template installation with sample data"
+				}
+			},
+			{
+				"id": "add_lang",
+				"translations": {
+					"en": "Adding languages to online store"
+				}
+			},
+			{
+				"id": "modules_and_images",
+				"translations": {
+					"en": "Installing modules and configuring images"
+				}
+			}
 		]
 	}
 }
