@@ -108,6 +108,12 @@
         }
       },
       {
+        "id": "tmproductsslider200",
+        "translations": {
+          "en": "TM Products Slider 2.0.0"
+        }
+      },
+      {
         "id": "tmsearch110",
         "translations": {
           "en": "TM Search 1.1.0"

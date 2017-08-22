@@ -19,43 +19,42 @@
 <h5>Adding a slide</h5>
 <p>To add a product to the gallery, go to the needed product in the <strong>Catalog
         -> Products</strong> section. Then press the <strong>'Edit'</strong> button (1) next to the needed product.</p>
-<figure class="img-polaroid"><img src="img/tmproductsslider2-1.png" alt=""/></figure>
-<p>In the appeared window for editing information about the product, navigate to the <strong>TM Products Slider</strong>
-    tab (2) and mark (3) that you want the product to be displayed in slider.</p>
-<figure class="img-polaroid"><img src="img/tmproductsslider2-2.png" alt=""/></figure>
-<p>Save changes by pressing either <strong>'Save and stay'</strong> (4) or <strong>'Save'</strong> button (5).</p>
+<figure class="img-polaroid"><img src="img/productsslider1.png" alt=""/></figure>
+<p>In the appeared window for editing information about the product choose <strong>Modules tab</strong> (1), navigate to the <strong>TM Products Slider</strong>
+    (2) and click the <strong>Configure</strong> button.</p>
+<figure class="img-polaroid"><img src="img/productsslider2.png" alt=""/></figure>
+<p> Mark (3) that you want the product to be displayed in slider. Save changes by pressing <strong>'Save'</strong> button (4).
+    <figure class="img-polaroid"><img src="img/productsslider3.png" alt=""/></figure></p>
 <h5>Slide removal</h5>
 <p>There are two ways of deleting a slide.</p>
 <ul class="index-list">
     <li>
         <p>To exclude a product from the gallery, navigate to the needed product in <strong>Catalog -> Products</strong>
             section. Then press the <strong>'Edit'</strong> button (1) next to the needed product.</p>
-        <figure class="img-polaroid"><img src="img/tmproductsslider2-1.png" alt=""/></figure>
-        <p>In the appeared window for editing information about the product, navigate to the <strong>TM Products
+        <figure class="img-polaroid"><img src="img/productsslider1.png" alt=""/></figure>
+        <p>In the appeared window for editing information about the product choose <strong>Modules tab</strong> (1), navigate to the <strong>TM Products
                 Slider</strong> tab (2) and remove the check mark (3) which means that you don't want the product to be
-            displayed in slider:</p>
-        <figure class="img-polaroid"><img src="img/tmproductsslider2-3.png" alt=""/></figure>
-        <p>Save changes by pressing either <strong>'Save and stay'</strong> (4) or <strong>'Save'</strong> button (5).
-        </p>
+            displayed in slider. Click the <strong>Save</strong> button (4):</p>
+        <figure class="img-polaroid"><img src="img/productsslider4.png" alt=""/></figure>
     </li>
     <li>
         <p>The second way is to navigate to the module configuration page, find the needed product in the <strong>Slides
                 list</strong> table and press the <strong>Delete</strong> button (1) next to it.</p>
-        <figure class="img-polaroid"><img src="img/tmproductsslider2-4.png" alt=""/></figure>
+        <figure class="img-polaroid"><img src="img/productsslider6.png" alt=""/></figure>
         <p>Then confirm the deletion.</p>
     </li>
 </ul>
 <h5>Slides display order</h5>
 <p>By default, the slides are displayed in the order they were added. To change the display order, navigate to the
     module configuration page and drag the slide to the needed place in <strong>Slides list</strong> table.</p>
-<figure class="img-polaroid"><img src="img/tmproductsslider2-5.png" alt=""/></figure>
+<figure class="img-polaroid"><img src="img/productsslider7.png" alt=""/></figure>
 <h5>Disabling slides</h5>
 <p>Moreover, you can temporarily disable a slide (for the time period that a product is out of stock or for any other
     reason) without removing it completely. To do this, navigate to the module configuration page and click a tick next
     to the needed product (if it's active now) or click crosses (if it's inactive) in the <strong>Slides list</strong>
     table:
 </p>
-<figure class="img-polaroid"><img src="img/tmproductsslider2-6.png" alt=""/></figure>
+<figure class="img-polaroid"><img src="img/productsslider9.png" alt=""/></figure>
 <h4>Gallery types and recommended settings</h4>
 <p>There are four types of gallery display (standard, list, grid, full width). Each of them can be set up independently
     and you can switch between them if needed.</p>
@@ -69,7 +68,7 @@
     <li>Gallery Height - 580px</li>
     <li>Extended Settings - off</li>
 </ul>
-<figure class="img-polaroid"><img src="img/tmproductsslider2-7.png" alt=""/></figure>
+<figure class="img-polaroid"><img src="img/productsslider-standard.png" alt=""/></figure>
 <h5>List</h5>
 <p>Recommended settings:</p>
 <ul class="marked-list">
@@ -78,7 +77,7 @@
     <li>Gallery Height - 520px</li>
     <li>Extended Settings - off</li>
 </ul>
-<figure class="img-polaroid"><img src="img/tmproductsslider2-8.png" alt=""/></figure>
+<figure class="img-polaroid"><img src="img/productsslider-list.png" alt=""/></figure>
 <h5>Grid</h5>
 <p>Recommended settings:</p>
 <ul class="marked-list">
@@ -87,7 +86,7 @@
     <li>Gallery Height - 750px</li>
     <li>Extended Settings - off</li>
 </ul>
-<figure class="img-polaroid"><img src="img/tmproductsslider2-9.png" alt=""/></figure>
+<figure class="img-polaroid"><img src="img/productsslider-grid.png" alt=""/></figure>
 <h5>Full width</h5>
 <p>Recommended settings:</p>
 <ul class="marked-list">
@@ -96,7 +95,7 @@
     <li>Gallery Height - 450px</li>
     <li>Extended Settings - off</li>
 </ul>
-<figure class="img-polaroid"><img src="img/tmproductsslider2-10.png" alt=""/></figure>
+<figure class="img-polaroid"><img src="img/productsslider-fullwidth.png" alt=""/></figure>
 <h4>Advanced settings</h4>
 <p>To access extended settings, move the <strong>Extended
         Settings</strong> slider to the Yes position.</p>
