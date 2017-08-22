@@ -24,6 +24,12 @@
         }
       },
       {
+        "id": "tmdealday",
+        "translations": {
+          "en": "TM Deal of the Day"
+        }
+      },
+      {
         "id": "tmgooglemap120",
         "translations": {
           "en": "TM Google Map 1.2.0"
@@ -69,6 +75,12 @@
         "id": "tmmediaparallax200",
         "translations": {
           "en": "TM Media Parallax 2.0.0"
+        }
+      },
+      {
+        "id": "tmmegalayout110",
+        "translations": {
+          "en": "TM Mega Layout"
         }
       },
       {
