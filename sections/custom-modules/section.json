@@ -138,6 +138,12 @@
         }
       },
       {
+        "id": "tmproductsmanager",
+        "translations": {
+          "en": "TM Products Manager"
+        }
+      },
+      {
         "id": "tmproductsslider200",
         "translations": {
           "en": "TM Products Slider 2.0.0"
