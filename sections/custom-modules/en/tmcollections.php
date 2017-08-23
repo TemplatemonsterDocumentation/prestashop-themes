@@ -8,8 +8,8 @@
 <h6>TM Collections module is created to give the ability to the visitors of online store to add products to collections
     and share this collections on Facebook.</h6>
 <h4>Module Installation</h4>
-<p>То install the module navigate to Admin panel -> Modules and Services -> Modules and Services (1), find the TM
-    Collections module (2) and press 'Install' button (3).</p>
+<p>То install the module navigate to Admin panel -> Modules -> Modules and Services, find the TM
+    Collections module and press 'Install' button (1).</p>
 <figure class="img-polaroid">
     <img src="img/tmcollections1.png" alt=""/>
 </figure>
