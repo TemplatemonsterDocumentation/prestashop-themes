@@ -10,7 +10,7 @@
 <p>360 view mode is also available on product page.</p>
 
 <h4>Installation</h4>
-<p>Navigate to Modules and Settings -> Modules and Settings (1) in your admin panel and find the TM 360 view module (2). Then click the 'Install' button (3).</p>
+<p>Navigate to Modules -> Modules and Settings in your admin panel and find the TM 360 view module. Then click the 'Install' button (1).</p>
 <figure class="img-polaroid">
     <img src="img/360view-1.png" alt=""/>
 </figure>
@@ -43,9 +43,15 @@
         </figure>
     </li>
     <li>
-        <p>To add images, use the 'TM 360 view' tab (1) in product settings and click 'Add files' button (2).</p>
+        <p>To add images, choose Modules tab (1) and click on the 'TM 360 view' module(2)</p>
         <figure class="img-polaroid">
             <img src="img/360view-5.png" alt=""/>
+        </figure>
+    </li>
+    <li>
+        <p>Click 'Add files' button (1).</p>
+        <figure class="img-polaroid">
+            <img src="img/360view-5.1.png" alt=""/>
         </figure>
     </li>
     <li>

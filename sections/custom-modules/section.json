@@ -6,6 +6,12 @@
   "articles": {
     "default": [
       {
+        "id": "tm360view",
+        "translations": {
+          "en": "TM 360 View"
+        }
+      },
+      {
         "id": "tmcategoriesbadges",
         "translations": {
           "en": "TM Categories Badges"
