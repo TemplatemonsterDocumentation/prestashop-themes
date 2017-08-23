@@ -24,6 +24,12 @@
         }
       },
       {
+        "id": "tmcollections",
+        "translations": {
+          "en": "TM Collections"
+        }
+      },
+      {
         "id": "tmdealday",
         "translations": {
           "en": "TM Deal of the Day"
@@ -105,6 +111,18 @@
         "id": "tmolarkchat",
         "translations": {
           "en": "TM Olark Chat"
+        }
+      },
+      {
+        "id": "tmoneclickorder",
+        "translations": {
+          "en": "TM One Click Order"
+        }
+      },
+      {
+        "id": "tmproductcustomtab",
+        "translations": {
+          "en": "TM Product Custom Tab"
         }
       },
       {

@@ -12,7 +12,7 @@
 </p>
 
 <h4>Installation</h4>
-<p>Navigate to Modules and Settings -> Modules and Settings (1) in your admin panel and find the TM One Click Order
+<p>Navigate to Modules (1) -> Modules and Settings (2) in your admin panel and find the TM One Click Order
     module (2). Then click the 'Install' button (3).</p>
 <figure class="img-polaroid">
     <img src="img/tmoneclick-1.png" alt=""/>
@@ -20,7 +20,7 @@
 
 <h4>Module configuration</h4>
 <p>After the module has been successfully installed, the 'Configure' page with the module settings will be opened. <br>
-    You'll also see the new menu item 'Quick Orders' (1) and a new icon will appear in the navigation panel (2).
+    You'll also see the new menu item 'Quick Orders' (2).
 </p>
 <figure class="img-polaroid">
     <img src="img/tmoneclick-2.png" alt=""/>
@@ -73,13 +73,13 @@
 </figure>
 
 <h5>Settings</h5>
-<p>The tab allows to switch the 'Ajax order' option on and off.</p>
+<p>The tab allows to switch the 'Ajax order' option and the 'Notify the owner' option on and off.</p>
 <p>It helps the administrator to see the new quick orders which were submitted while processing the existing orders.</p>
 <figure class="img-polaroid">
     <img src="img/tmoneclick-9.png" alt=""/>
 </figure>
 
-<p>If the option is enabled, the additional option 'Ajax order timeout' appears. <br>
+<p>If the 'Ajax order' option is enabled, the additional option 'Ajax order timeout' appears. <br>
     The value is set in milliseconds and means the time period between each check for new quick orders.
 </p>
 <figure class="img-polaroid">
