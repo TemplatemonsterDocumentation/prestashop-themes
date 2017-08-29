@@ -1,4 +1,4 @@
-<h3>TM Mega Layout</h3>
+<h3>TM Mega Layout 1.1.0</h3>
 <p>This module is designed to allow creating custom layouts (presets) for hooks and displaying them at site instead of
     the default positions. This module advantage is allowing you to create different hook markups and modify them up to
     your needs.</p>
@@ -28,189 +28,189 @@
     section will not affect the modules position in the preset. In case the module was not added to the hook, it can't
     be added to the preset either.</h6>
 
-<h4>Integrating module to the theme</h4>
-<p class="alert alert-warning"><span>Without this step your presets will not be displayed at the frontend.</span></p>
-<ul class="index-list">
-    <li><p>Top column. In order to add custom preset to the topColumn hook, you need to perform the following steps:</p>
-        <ul class="marked-list">
-            <li>Open the <strong>/themes/your_theme/header.tpl</strong> file for editing.</li>
-            <li>Locate the following code
-                <pre class="codebox">{hook h="displayTopColumn"}</pre>
-            </li>
-            <li>And replace it with:
-                <pre class="codebox">
-{assign var='displayMegaTopColumn' value={hook h='tmMegaLayoutTopColumn'}}
-{if $displayMegaTopColumn}
-    {hook h='tmMegaLayoutTopColumn'}
-{else}
-    {capture name='displayTopColumn'}{hook h='displayTopColumn'}{/capture}
-    {if $smarty.capture.displayTopColumn}
-        &lt;div id="slider_row" class="row"&gt;
-            &lt;div id="top_column" class="center_column col-xs-12 col-sm-12">{$smarty.capture.displayTopColumn}&lt;/div&gt;
-        &lt;/div&gt;
-    {/if}
-{/if}</pre>
-
-            </li>
-        </ul>
-    </li>
-    <li><p>Home. In order to add custom preset to the Home hook, you need to perform the following steps:</p>
-        <ul class="marked-list">
-            <li>Open the <strong>/themes/your_theme/index.tpl</strong> file for editing.</li>
-            <li>Locate the following code:
-                <pre class="codebox">
-{if isset($HOOK_HOME_TAB_CONTENT) && $HOOK_HOME_TAB_CONTENT|trim}
-  {if isset($HOOK_HOME_TAB) && $HOOK_HOME_TAB|trim}
-    &lt;ul id="home-page-tabs" class="nav nav-tabs clearfix"&gt;
-      {$HOOK_HOME_TAB}
-    &lt;/ul&gt;
-  {/if}
-  &lt;div class="tab-content"&gt;{$HOOK_HOME_TAB_CONTENT}&lt;/div&gt;
-{/if}
-{if isset($HOOK_HOME) && $HOOK_HOME|trim}
-  &lt;div class="clearfix"&gt;{$HOOK_HOME}&lt;/div&gt;
-{/if}</pre>
-            </li>
-            <li>And replace it with:
-                <pre class="codebox">
-{assign var='displayMegaHome' value={hook h='tmMegaLayoutHome'}}
-{if $displayMegaHome}
-  {hook h='tmMegaLayoutHome'}
-{else}
-  {if isset($HOOK_HOME_TAB_CONTENT) && $HOOK_HOME_TAB_CONTENT|trim}
-    {if isset($HOOK_HOME_TAB) && $HOOK_HOME_TAB|trim}
-      &lt;ul id="home-page-tabs" class="nav nav-tabs clearfix"&gt;
-        {$HOOK_HOME_TAB}
-      &lt;/ul&gt;
-    {/if}
-    &lt;div class="tab-content"&gt;{$HOOK_HOME_TAB_CONTENT}&lt;/div&gt;
-  {/if}
-  {if isset($HOOK_HOME) && $HOOK_HOME|trim}
-    &lt;div class="clearfix"&gt;{$HOOK_HOME}&lt;/div&gt;
-  {/if}
-{/if}</pre>
-            </li>
-        </ul>
-    </li>
-    <li><p>Footer. In order to add custom preset to the Footer hook, you need to perform the following steps:</p>
-        <ul class="marked-list">
-            <li>Open the <strong>/themes/your_theme/footer.tpl</strong> file for editing.</li>
-            <li>Locate the following code:
-                <pre class="codebox">
-{if isset($HOOK_FOOTER)}
-    &lt;div class="footer-container"&gt;
-        &lt;footer id="footer"  class="container"&gt;
-            &lt;div class="row"&gt;
-                {$HOOK_FOOTER}
-            &lt;/div&gt;
-        &lt;/footer&gt;
-    &lt;/div&gt;
-{/if}</pre>
-            </li>
-            <li>And replace it with:
-                <pre class="codebox">
-{assign var='displayMegaFooter' value={hook h='tmMegaLayoutFooter'}}
-{if isset($HOOK_FOOTER) || $displayMegaFooter}
-    &lt;div class="footer-container"&gt;
-    {if $displayMegaFooter}
-         &lt;div id="footer"&gt;
-              {$displayMegaFooter}
-         &lt;/div&gt;
-    {else}
-        &lt;div id="footer" class="container"&gt;
-            &lt;div class="row"&gt;{$HOOK_FOOTER}&lt;/div&gt;
-        &lt;/div&gt;
-    {/if}
-    &lt;/div&gt;
-{/if}</pre>
-            </li>
-        </ul>
-    </li>
-    <li><p>Header. In order to add custom preset to the Header hook, you need to perform the following steps:</p>
-        <ul class="marked-list">
-            <li>Open the <strong>/themes/your_theme/header.tpl</strong> file for editing.</li>
-            <li>Locate the following code:
-                <pre class="codebox">
-{capture name='displayNav'}{hook h='displayNav'}{/capture}
-{if $smarty.capture.displayNav}
-&lt;div class="nav"&gt;
-  &lt;div class="container"&gt;
-    &lt;div class="row"&gt;
-      &lt;nav>{$smarty.capture.displayNav}&lt;/nav&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-{/if}
-&lt;div&gt;
-  &lt;div class="container"&gt;
-   &lt;div class="row"&gt;
-    &lt;div id="header_logo"&gt;
-      &lt;a href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{$shop_name|escape:'html':'UTF-8'}"&gt;
-        &lt;img class="logo img-responsive" src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/&gt;
-      &lt;/a&gt;
-    &lt;/div&gt;
-    {if isset($HOOK_TOP)}{$HOOK_TOP}{/if}
-   &lt;/div&gt;
- &lt;/div&gt;
-&lt;/div&gt;</pre>
-            </li>
-            <li>And replace it with:
-                <pre class="codebox">
-{assign var='displayMegaHeader' value={hook h='tmMegaLayoutHeader'}}
-{if isset($HOOK_TOP) || $displayMegaHeader}
-  {if $displayMegaHeader}
-    {$displayMegaHeader}
-  {else}
-    {capture name='displayNav'}{hook h='displayNav'}{/capture}
-    {if $smarty.capture.displayNav}
-    &lt;div class="nav"&gt;
-      &lt;div class="container"&gt;
-        &lt;div class="row"&gt;
-          &lt;nav>{$smarty.capture.displayNav}&lt;/nav&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    {/if}
-    &lt;div&gt;
-      &lt;div class="container"&gt;
-       &lt;div class="row"&gt;
-        &lt;div id="header_logo"&gt;
-          &lt;a href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{$shop_name|escape:'html':'UTF-8'}"&gt;
-            &lt;img class="logo img-responsive" src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/&gt;
-          &lt;/a&gt;
-        &lt;/div&gt;
-        {$HOOK_TOP}
-       &lt;/div&gt;
-     &lt;/div&gt;
-    &lt;/div&gt;
-  {/if}
-{/if}</pre>
-            </li>
-        </ul>
-    </li>
-
-    <li><p>Product footer. In order to add custom preset to the Product footer hook, you need to perform the following
-            steps:</p>
-        <ul class="marked-list">
-            <li>Open the <strong>/themes/your_theme/product.tpl</strong> file for editing.</li>
-            <li>Locate the following code:
-                <pre class="codebox">
-{if isset($HOOK_PRODUCT_FOOTER) && $HOOK_PRODUCT_FOOTER}{$HOOK_PRODUCT_FOOTER}{/if}                                   </pre>
-            </li>
-            <li>And replace it with:
-                <pre class="codebox">
-{assign var='displayMegaProductFooter' value={hook h='tmMegaLayoutProductFooter'}}
-  {if isset($HOOK_PRODUCT_FOOTER) || $displayMegaFooter}
-    {if $displayMegaProductFooter}
-      {$displayMegaProductFooter product=$product category=$category}
-    {else}
-      {$HOOK_PRODUCT_FOOTER}
-    {/if}
-  {/if}</pre>
-            </li>
-        </ul>
-    </li>
-</ul>
+<!--<h4>Integrating module to the theme</h4>-->
+<!--<p class="alert alert-warning"><span>Without this step your presets will not be displayed at the frontend.</span></p>-->
+<!--<ul class="index-list">-->
+<!--    <li><p>Top column. In order to add custom preset to the topColumn hook, you need to perform the following steps:</p>-->
+<!--        <ul class="marked-list">-->
+<!--            <li>Open the <strong>/themes/your_theme/header.tpl</strong> file for editing.</li>-->
+<!--            <li>Locate the following code-->
+<!--                <pre class="codebox">{hook h="displayTopColumn"}</pre>-->
+<!--            </li>-->
+<!--            <li>And replace it with:-->
+<!--                <pre class="codebox">-->
+<!--{assign var='displayMegaTopColumn' value={hook h='tmMegaLayoutTopColumn'}}-->
+<!--{if $displayMegaTopColumn}-->
+<!--    {hook h='tmMegaLayoutTopColumn'}-->
+<!--{else}-->
+<!--    {capture name='displayTopColumn'}{hook h='displayTopColumn'}{/capture}-->
+<!--    {if $smarty.capture.displayTopColumn}-->
+<!--        &lt;div id="slider_row" class="row"&gt;-->
+<!--            &lt;div id="top_column" class="center_column col-xs-12 col-sm-12">{$smarty.capture.displayTopColumn}&lt;/div&gt;-->
+<!--        &lt;/div&gt;-->
+<!--    {/if}-->
+<!--{/if}</pre>-->
+<!---->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </li>-->
+<!--    <li><p>Home. In order to add custom preset to the Home hook, you need to perform the following steps:</p>-->
+<!--        <ul class="marked-list">-->
+<!--            <li>Open the <strong>/themes/your_theme/index.tpl</strong> file for editing.</li>-->
+<!--            <li>Locate the following code:-->
+<!--                <pre class="codebox">-->
+<!--{if isset($HOOK_HOME_TAB_CONTENT) && $HOOK_HOME_TAB_CONTENT|trim}-->
+<!--  {if isset($HOOK_HOME_TAB) && $HOOK_HOME_TAB|trim}-->
+<!--    &lt;ul id="home-page-tabs" class="nav nav-tabs clearfix"&gt;-->
+<!--      {$HOOK_HOME_TAB}-->
+<!--    &lt;/ul&gt;-->
+<!--  {/if}-->
+<!--  &lt;div class="tab-content"&gt;{$HOOK_HOME_TAB_CONTENT}&lt;/div&gt;-->
+<!--{/if}-->
+<!--{if isset($HOOK_HOME) && $HOOK_HOME|trim}-->
+<!--  &lt;div class="clearfix"&gt;{$HOOK_HOME}&lt;/div&gt;-->
+<!--{/if}</pre>-->
+<!--            </li>-->
+<!--            <li>And replace it with:-->
+<!--                <pre class="codebox">-->
+<!--{assign var='displayMegaHome' value={hook h='tmMegaLayoutHome'}}-->
+<!--{if $displayMegaHome}-->
+<!--  {hook h='tmMegaLayoutHome'}-->
+<!--{else}-->
+<!--  {if isset($HOOK_HOME_TAB_CONTENT) && $HOOK_HOME_TAB_CONTENT|trim}-->
+<!--    {if isset($HOOK_HOME_TAB) && $HOOK_HOME_TAB|trim}-->
+<!--      &lt;ul id="home-page-tabs" class="nav nav-tabs clearfix"&gt;-->
+<!--        {$HOOK_HOME_TAB}-->
+<!--      &lt;/ul&gt;-->
+<!--    {/if}-->
+<!--    &lt;div class="tab-content"&gt;{$HOOK_HOME_TAB_CONTENT}&lt;/div&gt;-->
+<!--  {/if}-->
+<!--  {if isset($HOOK_HOME) && $HOOK_HOME|trim}-->
+<!--    &lt;div class="clearfix"&gt;{$HOOK_HOME}&lt;/div&gt;-->
+<!--  {/if}-->
+<!--{/if}</pre>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </li>-->
+<!--    <li><p>Footer. In order to add custom preset to the Footer hook, you need to perform the following steps:</p>-->
+<!--        <ul class="marked-list">-->
+<!--            <li>Open the <strong>/themes/your_theme/footer.tpl</strong> file for editing.</li>-->
+<!--            <li>Locate the following code:-->
+<!--                <pre class="codebox">-->
+<!--{if isset($HOOK_FOOTER)}-->
+<!--    &lt;div class="footer-container"&gt;-->
+<!--        &lt;footer id="footer"  class="container"&gt;-->
+<!--            &lt;div class="row"&gt;-->
+<!--                {$HOOK_FOOTER}-->
+<!--            &lt;/div&gt;-->
+<!--        &lt;/footer&gt;-->
+<!--    &lt;/div&gt;-->
+<!--{/if}</pre>-->
+<!--            </li>-->
+<!--            <li>And replace it with:-->
+<!--                <pre class="codebox">-->
+<!--{assign var='displayMegaFooter' value={hook h='tmMegaLayoutFooter'}}-->
+<!--{if isset($HOOK_FOOTER) || $displayMegaFooter}-->
+<!--    &lt;div class="footer-container"&gt;-->
+<!--    {if $displayMegaFooter}-->
+<!--         &lt;div id="footer"&gt;-->
+<!--              {$displayMegaFooter}-->
+<!--         &lt;/div&gt;-->
+<!--    {else}-->
+<!--        &lt;div id="footer" class="container"&gt;-->
+<!--            &lt;div class="row"&gt;{$HOOK_FOOTER}&lt;/div&gt;-->
+<!--        &lt;/div&gt;-->
+<!--    {/if}-->
+<!--    &lt;/div&gt;-->
+<!--{/if}</pre>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </li>-->
+<!--    <li><p>Header. In order to add custom preset to the Header hook, you need to perform the following steps:</p>-->
+<!--        <ul class="marked-list">-->
+<!--            <li>Open the <strong>/themes/your_theme/header.tpl</strong> file for editing.</li>-->
+<!--            <li>Locate the following code:-->
+<!--                <pre class="codebox">-->
+<!--{capture name='displayNav'}{hook h='displayNav'}{/capture}-->
+<!--{if $smarty.capture.displayNav}-->
+<!--&lt;div class="nav"&gt;-->
+<!--  &lt;div class="container"&gt;-->
+<!--    &lt;div class="row"&gt;-->
+<!--      &lt;nav>{$smarty.capture.displayNav}&lt;/nav&gt;-->
+<!--    &lt;/div&gt;-->
+<!--  &lt;/div&gt;-->
+<!--&lt;/div&gt;-->
+<!--{/if}-->
+<!--&lt;div&gt;-->
+<!--  &lt;div class="container"&gt;-->
+<!--   &lt;div class="row"&gt;-->
+<!--    &lt;div id="header_logo"&gt;-->
+<!--      &lt;a href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{$shop_name|escape:'html':'UTF-8'}"&gt;-->
+<!--        &lt;img class="logo img-responsive" src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/&gt;-->
+<!--      &lt;/a&gt;-->
+<!--    &lt;/div&gt;-->
+<!--    {if isset($HOOK_TOP)}{$HOOK_TOP}{/if}-->
+<!--   &lt;/div&gt;-->
+<!-- &lt;/div&gt;-->
+<!--&lt;/div&gt;</pre>-->
+<!--            </li>-->
+<!--            <li>And replace it with:-->
+<!--                <pre class="codebox">-->
+<!--{assign var='displayMegaHeader' value={hook h='tmMegaLayoutHeader'}}-->
+<!--{if isset($HOOK_TOP) || $displayMegaHeader}-->
+<!--  {if $displayMegaHeader}-->
+<!--    {$displayMegaHeader}-->
+<!--  {else}-->
+<!--    {capture name='displayNav'}{hook h='displayNav'}{/capture}-->
+<!--    {if $smarty.capture.displayNav}-->
+<!--    &lt;div class="nav"&gt;-->
+<!--      &lt;div class="container"&gt;-->
+<!--        &lt;div class="row"&gt;-->
+<!--          &lt;nav>{$smarty.capture.displayNav}&lt;/nav&gt;-->
+<!--        &lt;/div&gt;-->
+<!--      &lt;/div&gt;-->
+<!--    &lt;/div&gt;-->
+<!--    {/if}-->
+<!--    &lt;div&gt;-->
+<!--      &lt;div class="container"&gt;-->
+<!--       &lt;div class="row"&gt;-->
+<!--        &lt;div id="header_logo"&gt;-->
+<!--          &lt;a href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{$shop_name|escape:'html':'UTF-8'}"&gt;-->
+<!--            &lt;img class="logo img-responsive" src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/&gt;-->
+<!--          &lt;/a&gt;-->
+<!--        &lt;/div&gt;-->
+<!--        {$HOOK_TOP}-->
+<!--       &lt;/div&gt;-->
+<!--     &lt;/div&gt;-->
+<!--    &lt;/div&gt;-->
+<!--  {/if}-->
+<!--{/if}</pre>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </li>-->
+<!---->
+<!--    <li><p>Product footer. In order to add custom preset to the Product footer hook, you need to perform the following-->
+<!--            steps:</p>-->
+<!--        <ul class="marked-list">-->
+<!--            <li>Open the <strong>/themes/your_theme/product.tpl</strong> file for editing.</li>-->
+<!--            <li>Locate the following code:-->
+<!--                <pre class="codebox">-->
+<!--{if isset($HOOK_PRODUCT_FOOTER) && $HOOK_PRODUCT_FOOTER}{$HOOK_PRODUCT_FOOTER}{/if}                                   </pre>-->
+<!--            </li>-->
+<!--            <li>And replace it with:-->
+<!--                <pre class="codebox">-->
+<!--{assign var='displayMegaProductFooter' value={hook h='tmMegaLayoutProductFooter'}}-->
+<!--  {if isset($HOOK_PRODUCT_FOOTER) || $displayMegaFooter}-->
+<!--    {if $displayMegaProductFooter}-->
+<!--      {$displayMegaProductFooter product=$product category=$category}-->
+<!--    {else}-->
+<!--      {$HOOK_PRODUCT_FOOTER}-->
+<!--    {/if}-->
+<!--  {/if}</pre>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </li>-->
+<!--</ul>-->
 
 <h4>Hooks</h4>
 <p>The module has 5 hooks available by default:</p>

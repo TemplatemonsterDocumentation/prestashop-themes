@@ -6,7 +6,7 @@
     </div>
 <?php } ?>
 <h6>TM Collections module is created to give the ability to the visitors of online store to add products to collections
-    and share this collections on Facebook.</h6>
+    and share these collections on Facebook.</h6>
 <h4>Module Installation</h4>
 <p>То install the module navigate to Admin panel -> Modules -> Modules and Services, find the TM
     Collections module and press 'Install' button (1).</p>
@@ -93,7 +93,7 @@
         </figure>
     </li>
     <li>
-        <p>In a small window which is then appeared there will be some standard posting options to choose and the
+        <p>In a small window which is then appeared, there will be some standard posting options to choose and the
             ability to add some text to the post (1). After clicking 'Post to Facebook' button (2), the post will be
             published.</p>
         <figure class="img-polaroid">
