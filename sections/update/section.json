@@ -6,6 +6,7 @@
 		"es": "Actualizar",
 		"fr": "Mettre à jour",
 		"it": "Aggiornamento",
+		"pl": "Aktualizacja",
 		"ru": "Обновление"
 	},
 	"articles": {
@@ -18,6 +19,7 @@
 					"es": "Cómo actualizar Eveprest",
 					"fr": "Comment mettre à jour Eveprest",
 					"it": "Come aggiornare Eveprest",
+					"pl": "Jak zaktualizować Eveprest",
 					"ru": "Как обновить Eveprest"
 				}
 			},
@@ -29,6 +31,7 @@
 					"es": "Actualización 1.1",
 					"fr": "Mettre à jour 1.1",
 					"it": "Aggiornamento 1.1",
+					"pl": "Aktualizacja 1.1",
 					"ru": "Обновление 1.1"
 				}
 			},
@@ -40,6 +43,7 @@
 					"es": "Actualización 1.2",
 					"fr": "Mettre à jour 1.2",
 					"it": "Aggiornamento 1.2",
+					"pl": "Aktualizacja 1.2",
 					"ru": "Обновление 1.2"
 				}
 			}

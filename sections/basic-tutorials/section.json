@@ -6,6 +6,7 @@
     "es": "Tutoriales básicos",
     "fr": "Didacticiels de Base",
     "it": "Basic tutorials",
+    "pl": "Podstawowe samouczki",
     "ru": "Базовые туториалы"
   },
   "articles": {
@@ -18,6 +19,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -29,6 +31,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -40,6 +43,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -51,6 +55,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -64,6 +69,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -75,6 +81,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -86,6 +93,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -97,6 +105,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -110,6 +119,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -121,6 +131,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -132,6 +143,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -143,6 +155,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -156,6 +169,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -167,6 +181,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -178,6 +193,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -189,6 +205,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -202,6 +219,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -213,6 +231,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -224,6 +243,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -235,6 +255,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -248,6 +269,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -259,6 +281,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -270,6 +293,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -281,6 +305,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -294,6 +319,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -305,6 +331,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -316,6 +343,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -327,6 +355,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -340,6 +369,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -351,6 +381,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -362,6 +393,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -373,6 +405,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -386,6 +419,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -397,6 +431,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -408,6 +443,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -419,6 +455,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -432,6 +469,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -443,6 +481,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -454,6 +493,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -465,6 +505,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -478,6 +519,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -489,6 +531,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -500,6 +543,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -511,6 +555,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -524,6 +569,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -535,6 +581,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -546,6 +593,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -557,6 +605,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -570,6 +619,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -581,6 +631,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -592,6 +643,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -603,6 +655,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -616,6 +669,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -627,6 +681,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -638,6 +693,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -649,6 +705,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -662,6 +719,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -673,6 +731,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -684,6 +743,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -695,6 +755,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -708,6 +769,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -719,6 +781,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -730,6 +793,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -741,6 +805,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -754,6 +819,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -765,6 +831,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -776,6 +843,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -787,6 +855,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -800,6 +869,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -811,6 +881,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -822,6 +893,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -833,6 +905,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -846,6 +919,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -857,6 +931,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -868,6 +943,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -879,6 +955,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -892,6 +969,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -903,6 +981,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -914,6 +993,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -925,6 +1005,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -938,6 +1019,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -949,6 +1031,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -960,6 +1043,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -971,6 +1055,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -984,6 +1069,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -995,6 +1081,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -1006,6 +1093,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -1017,6 +1105,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -1030,6 +1119,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -1041,6 +1131,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -1052,6 +1143,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -1063,6 +1155,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -1076,6 +1169,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -1087,6 +1181,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -1098,6 +1193,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -1109,6 +1205,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -1122,6 +1219,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -1133,6 +1231,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -1144,6 +1243,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -1155,6 +1255,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -1168,6 +1269,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -1179,6 +1281,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -1190,6 +1293,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -1201,6 +1305,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
@@ -1214,6 +1319,7 @@
           "es": "Cómo cambiar la información de su tienda",
           "fr": "Comment changer d'information sur votre magasin",
           "it": "Come modificare informazioni sul tuo negozio",
+          "pl": "Jak zmienić informację o swoim sklepie",
           "ru": "Как изменить информацию о вашем магазине"
         }
       },
@@ -1225,6 +1331,7 @@
           "es": "Cómo editar el slider",
           "fr": "Comment modifier le slider",
           "it": "Come modificare il dispositivo di scorrimento",
+          "pl": "Jak edytować slajder",
           "ru": "Как внести изменения в слайдер"
         }
       },
@@ -1236,6 +1343,7 @@
           "es": "Cómo administrar el módulo Theme Configurator",
           "fr": "Comment gérer le module de Configuration de Thème",
           "it": "Come gestire il modulo Theme Configurator",
+          "pl": "Jak zarządzać modułem Konfigurator Motywów",
           "ru": "Как работать с модулем Theme Configurator"
         }
       },
@@ -1247,6 +1355,7 @@
           "es": "Cómo agregar o quitar algunos enlaces en Bloque de enlaces Permanentes",
           "fr": "Comment ajouter ou supprimer certains liens dans le bloc de Liens permanents",
           "it": "Come aggiungere o rimuovere alcuni link nel blocco Collegamenti permanenti",
+          "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
       }
