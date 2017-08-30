@@ -6,6 +6,7 @@
     "es": "Primeros pasos",
     "fr": "Démarrage",
     "it": "Iniziare",
+    "pl": "Zaczynamy",
     "ru": "Начало работы"
   },
   "articles": {
@@ -18,6 +19,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -29,6 +31,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -40,6 +43,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -51,6 +55,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -62,6 +67,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -73,6 +79,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -84,6 +91,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -95,6 +103,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -108,6 +117,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -119,6 +129,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -130,6 +141,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -141,6 +153,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -152,6 +165,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -163,6 +177,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -174,6 +189,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -185,6 +201,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -198,6 +215,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -209,6 +227,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -220,6 +239,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -231,6 +251,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -242,6 +263,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -253,6 +275,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -264,6 +287,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -275,6 +299,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -288,6 +313,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -299,6 +325,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -310,6 +337,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -321,6 +349,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -332,6 +361,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -343,6 +373,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -354,6 +385,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -365,6 +397,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -378,6 +411,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -389,10 +423,11 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
-{
+      {
         "id": "server-requirements",
         "translations": {
           "en": "Server requirements",
@@ -400,6 +435,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -411,6 +447,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -422,6 +459,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -433,6 +471,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -444,6 +483,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -455,6 +495,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -468,6 +509,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -479,10 +521,11 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
-{
+      {
         "id": "server-requirements",
         "translations": {
           "en": "Server requirements",
@@ -490,6 +533,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -501,6 +545,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -512,6 +557,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -523,6 +569,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -534,6 +581,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -545,6 +593,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -558,6 +607,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -569,6 +619,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -580,6 +631,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -591,6 +643,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -602,6 +655,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -613,6 +667,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -624,6 +679,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -635,6 +691,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -648,6 +705,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -659,6 +717,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -670,6 +729,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -681,6 +741,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -692,6 +753,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -703,6 +765,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -714,6 +777,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -725,6 +789,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -738,6 +803,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -749,6 +815,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -760,6 +827,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -771,6 +839,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -782,6 +851,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -793,6 +863,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -804,6 +875,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -815,6 +887,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -828,6 +901,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -839,6 +913,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -850,6 +925,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -861,6 +937,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -872,6 +949,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -883,6 +961,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -894,6 +973,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -905,6 +985,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -918,6 +999,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -929,6 +1011,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -940,6 +1023,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -951,6 +1035,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -962,6 +1047,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -973,6 +1059,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -984,6 +1071,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -995,6 +1083,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -1008,6 +1097,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -1019,6 +1109,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -1030,6 +1121,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -1041,6 +1133,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -1052,6 +1145,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -1063,6 +1157,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -1074,6 +1169,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -1085,6 +1181,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -1098,6 +1195,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -1109,6 +1207,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -1120,6 +1219,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -1131,6 +1231,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -1142,6 +1243,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -1153,6 +1255,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -1164,6 +1267,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -1175,6 +1279,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -1188,6 +1293,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -1199,6 +1305,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -1210,6 +1317,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -1221,6 +1329,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -1232,6 +1341,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -1243,6 +1353,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -1254,6 +1365,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -1265,6 +1377,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -1278,6 +1391,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -1289,6 +1403,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -1300,6 +1415,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -1311,6 +1427,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -1322,6 +1439,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -1333,6 +1451,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -1344,6 +1463,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -1355,6 +1475,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -1368,6 +1489,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -1379,6 +1501,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -1390,6 +1513,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -1401,6 +1525,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -1412,6 +1537,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -1423,6 +1549,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -1434,6 +1561,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -1445,6 +1573,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -1458,6 +1587,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -1469,6 +1599,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -1480,6 +1611,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -1491,6 +1623,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -1502,6 +1635,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -1513,6 +1647,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -1524,6 +1659,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -1535,6 +1671,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -1548,6 +1685,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -1559,6 +1697,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -1570,6 +1709,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -1581,6 +1721,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -1592,6 +1733,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -1603,6 +1745,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -1614,6 +1757,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -1625,6 +1769,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -1638,6 +1783,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -1649,6 +1795,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -1660,6 +1807,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -1671,6 +1819,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -1682,6 +1831,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -1693,6 +1843,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -1704,6 +1855,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -1715,6 +1867,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -1728,6 +1881,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -1739,6 +1893,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -1750,6 +1905,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -1761,6 +1917,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -1772,6 +1929,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -1783,6 +1941,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -1794,6 +1953,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -1805,6 +1965,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -1818,6 +1979,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -1829,6 +1991,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -1840,6 +2003,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -1851,6 +2015,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -1862,6 +2027,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -1873,6 +2039,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -1884,6 +2051,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -1895,6 +2063,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -1908,6 +2077,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -1919,6 +2089,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -1930,6 +2101,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -1941,6 +2113,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -1952,6 +2125,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -1963,6 +2137,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -1974,6 +2149,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -1985,6 +2161,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -1998,6 +2175,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -2009,6 +2187,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -2020,6 +2199,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -2031,6 +2211,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -2042,6 +2223,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -2053,6 +2235,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -2064,6 +2247,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -2075,6 +2259,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -2088,6 +2273,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -2099,6 +2285,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -2110,6 +2297,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -2121,6 +2309,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -2132,6 +2321,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -2143,6 +2333,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -2154,6 +2345,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -2165,6 +2357,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -2178,6 +2371,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -2189,6 +2383,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -2200,6 +2395,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -2211,6 +2407,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -2222,6 +2419,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -2233,6 +2431,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -2244,6 +2443,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -2255,6 +2455,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -2268,6 +2469,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -2279,6 +2481,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -2290,6 +2493,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -2301,6 +2505,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -2312,6 +2517,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -2323,6 +2529,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -2334,6 +2541,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -2345,6 +2553,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
@@ -2358,6 +2567,7 @@
           "es": "Preparación",
           "fr": "Préparation",
           "it": "Preparazione",
+          "pl": "Przygotowywanie",
           "ru": "Подготовка"
         }
       },
@@ -2369,6 +2579,7 @@
           "es": "Edición de software",
           "fr": "Logiciel d'édition",
           "it": "Modifica del software",
+          "pl": "Programy dla Edytowania",
           "ru": "Программное обеспечение для редактирования"
         }
       },
@@ -2380,6 +2591,7 @@
           "es": "Requisitos del servidor",
           "fr": "Configuration requise du serveur",
           "it": "Requisiti del server",
+          "pl": "Wymagania Serwera",
           "ru": "Требования сервера"
         }
       },
@@ -2391,6 +2603,7 @@
           "es": "Uso del servidor local",
           "fr": "Utilisation du serveur local",
           "it": "Utilizzo del server locale",
+          "pl": "Korzystanie z serweru lokalnego",
           "ru": "Использование локального сервера"
         }
       },
@@ -2402,6 +2615,7 @@
           "es": "Descargando",
           "fr": "Téléchargement",
           "it": "Scaricamento",
+          "pl": "Pobieranie",
           "ru": "Скачивание"
         }
       },
@@ -2413,6 +2627,7 @@
           "es": "Extrayendo archivos",
           "fr": "Extraction des fichiers",
           "it": "Estrazione dei File",
+          "pl": "Rozpakowywanie Plików",
           "ru": "Извлечение файлов"
         }
       },
@@ -2424,6 +2639,7 @@
           "es": "Cargar archivos de motor de PrestaShop",
           "fr": "Téléchargement de fichiers de moteur PrestaShop",
           "it": "Caricamento dei file di motore PrestaShop",
+          "pl": "Przesyłanie plinów silnika PrestaShop",
           "ru": "Загрузка файлов движка PrestaShop"
         }
       },
@@ -2435,6 +2651,7 @@
           "es": "Instalación del motor PrestaShop",
           "fr": "Installation du moteur PrestaShop",
           "it": "Installazione del motore PrestaShop",
+          "pl": "Instalowanie silnika PrestaShop",
           "ru": "Установка движка PrestaShop"
         }
       }
