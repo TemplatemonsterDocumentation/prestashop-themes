@@ -11,10 +11,11 @@
     on the product page.</p>
 <ul class="marked-list">
     <li>PHP 5.4+</li>
-    <li>PrestaShop 1.6+</li>
+    <li>PrestaShop 1.7</li>
 </ul>
 <h5>TM Look Book Main panel</h5>
-<p>On the main page of the module, you can delete and edit the module collections.</p>
+<p>On the main page of the module, you can delete and edit the module collections. Also, you can add, delete and edit
+    blocks, that the module will display on the Homepage.</p>
 <figure class="img-polaroid">
     <img src="img/tmlookbook-main-panel.png" alt=""/>
 </figure>
@@ -141,9 +142,49 @@
 </ul>
 <h5>Changing the hotspot position</h5>
 <p>To change the point position, drag and drop it to the needed position.</p>
-<h5>How to navigate to the collections page?</h5>
-<p>Navigate to the main module page and press the button (1), you'll see a page with all the collections. You can add
-    the links to the lookbooks to any module that supports custom content.</p>
-<figure class="img-polaroid">
-    <img src="img/tmlookbook-view-collections.png" alt=""/>
-</figure>
+<!--<h5>How to navigate to the collections page?</h5>-->
+<!--<p>Navigate to the main module page and press the button (1), you'll see a page with all the collections. You can add-->
+<!--    the links to the lookbooks to any module that supports custom content.</p>-->
+<!--<figure class="img-polaroid">-->
+<!--    <img src="img/tmlookbook-view-collections.png" alt=""/>-->
+<!--</figure>-->
+<h5>Available positions of the module</h5>
+<ul class="index-list">
+    <li>
+        <p> The module can be displayed in 4 positions:</p>
+        <ul class="marked-list">
+            <li><p><strong>Displaybeforebodyclosingtag</strong> - display module at the bottom of the page;</p></li>
+            <li><p><strong>Displayhome</strong> - display the module on the home page;</p></li>
+            <li><p><strong>Displayproductadditionalinfo</strong> - the hook adds the additional information on the product page;</p></li>
+            <li><p><strong>Displaytopcolumn</strong> - display module at the top of the page.</p></li>
+        </ul>
+        <figure class="img-polaroid">
+            <img src="img/tmlookbook-hooks.png" alt=""/>
+        </figure>
+    </li>
+</ul>
+        <h5>Adding a new block</h5>
+<ul class="index-list">
+       <li>
+        <p>To add a new block, enter the module main panel, choose the tab with the needed hook (1) and click the '+' (2).</p>
+        <figure class="img-polaroid">
+            <img src="img/tmlookbook-add-block-1.png" alt=""/>
+        </figure>
+    </li>
+    <li>
+        <p>In the appeared form, set up the following options:</p>
+        <ul class="marked-list">
+            <li><strong>Status</strong> - the block status. This setting allows to enable or disable the block display.
+            </li>
+            <li><strong>Type</strong> - allows to select the block type.</li>
+            <li><strong>Page</strong> - allows to select a previously selected page.</li>
+        </ul>
+    </li>
+    <li>
+        <p>After setting up all options, press the 'Save' (2) button.</p>
+        <figure class="img-polaroid">
+            <img src="img/tmlookbook-add-block-2.png" alt=""/>
+        </figure>
+    </li>
+</ul>
+<p>After the new block is created, it will be displayed on the Homepage.</p>
