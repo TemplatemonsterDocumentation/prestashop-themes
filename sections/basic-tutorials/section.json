@@ -36,6 +36,12 @@
 				"translations": {
 					"en": "How to edit slider"
 				}
+			},
+			{
+				"id": "unminify_css_file",
+				"translations": {
+					"en": "How to unminify .css file using the Sublime Text Editor"
+				}
 			}
 		],
 		"foodfate": [
@@ -49,6 +55,12 @@
 				"id": "edit_slider",
 				"translations": {
 					"en": "How to edit slider"
+				}
+			},
+			{
+				"id": "unminify_css_file",
+				"translations": {
+					"en": "How to unminify .css file using the Sublime Text Editor"
 				}
 			}
 		],
@@ -64,6 +76,12 @@
 				"translations": {
 					"en": "How to edit slider"
 				}
+			},
+			{
+				"id": "unminify_css_file",
+				"translations": {
+					"en": "How to unminify .css file using the Sublime Text Editor"
+				}
 			}
 		],
 		"mannerway": [
@@ -77,6 +95,12 @@
 				"id": "edit_slider",
 				"translations": {
 					"en": "How to edit slider"
+				}
+			},
+			{
+				"id": "unminify_css_file",
+				"translations": {
+					"en": "How to unminify .css file using the Sublime Text Editor"
 				}
 			}
 		],
@@ -92,6 +116,12 @@
 				"translations": {
 					"en": "How to edit slider"
 				}
+			},
+			{
+				"id": "unminify_css_file",
+				"translations": {
+					"en": "How to unminify .css file using the Sublime Text Editor"
+				}
 			}
 		]
 	,
@@ -106,6 +136,12 @@
 				"id": "edit_slider",
 				"translations": {
 					"en": "How to edit slider"
+				}
+			},
+			{
+				"id": "unminify_css_file",
+				"translations": {
+					"en": "How to unminify .css file using the Sublime Text Editor"
 				}
 			}
 		]
