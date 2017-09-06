@@ -11,6 +11,12 @@
 					"en": "Theme Import"
 				}
 			},
+			{
+				"id": "with_products_auto",
+				"translations": {
+					"en": "Automatic installation with demo data (Sample data installer)"
+				}
+			},
 		    {
 		      "id": "with_products_manual",
 		      "translations": {

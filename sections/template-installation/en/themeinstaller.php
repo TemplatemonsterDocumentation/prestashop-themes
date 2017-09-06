@@ -11,8 +11,8 @@
 <p>When the files are extracted, you can proceed to uploading the template.</p>
 <h4>Installation</h4>
 
-<p>Log into your PrestaShop admin panel and navigate to <strong>Preferences ->
-        Themes</strong>. At the top of the page click <strong>Add new theme</strong> button (1).
+<p>Log into your PrestaShop admin panel and navigate to <strong>Design ->
+        Theme & Logo</strong>. At the top of the page click <strong>Add new theme</strong> button (1).
 </p>
 <figure class="img-polaroid">
     <img src="img/theme17-import-1.png" alt=""/>
