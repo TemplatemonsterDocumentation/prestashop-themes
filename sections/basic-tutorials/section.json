@@ -58,6 +58,12 @@
           "pl": "Jak dodawać oraz usuwać niektóre linki w bloku Linki Stałe",
           "ru": "Как добавить или удалить некоторые ссылки в блоке Постоянные ссылки"
         }
+      },
+      {
+        "id": "unminify_css_file",
+        "translations": {
+          "en": "How to unminify .css file using the Sublime Text Editor"
+        }
       }
     ],
     "eveprest": [
