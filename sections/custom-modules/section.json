@@ -6,6 +6,12 @@
   "articles": {
     "default": [
       {
+        "id": "jxwishlist",
+        "translations": {
+          "en": "JX Wishlist"
+        }
+      },
+      {
         "id": "tm360view",
         "translations": {
           "en": "TM 360 View"
@@ -453,6 +459,92 @@
         "id": "tmmosaicproducts",
         "translations": {
           "en": "TM Mosaic Products"
+        }
+      },
+      {
+        "id": "tmproductlistgallery200",
+        "translations": {
+          "en": "TM Product List Gallery 2.0.0"
+        }
+      },
+      {
+        "id": "tmproductzoomer",
+        "translations": {
+          "en": "TM Product Zoomer"
+        }
+      },
+      {
+        "id": "tmproductsslider200",
+        "translations": {
+          "en": "TM Products Slider 2.0.0"
+        }
+      },
+      {
+        "id": "tmsearch110",
+        "translations": {
+          "en": "TM Search 1.1.0"
+        }
+      },
+      {
+        "id": "tmsocialfeeds",
+        "translations": {
+          "en": "TM Social Feeds"
+        }
+      }
+    ],
+    "styler2": [
+      {
+        "id": "tmcategoryproducts200",
+        "translations": {
+          "en": "TM Category Products 2.0.0"
+        }
+      },
+      {
+        "id": "tmdealday",
+        "translations": {
+          "en": "TM Deal of the Day"
+        }
+      },
+      {
+        "id": "tmheaderaccount200",
+        "translations": {
+          "en": "TM Header Account 2.0.0"
+        }
+      },
+      {
+        "id": "tmhtmlcontent",
+        "translations": {
+          "en": "TM HTML Content"
+        }
+      },
+      {
+        "id": "tmmanufacturersblock",
+        "translations": {
+          "en": "TM Manufacturers Block"
+        }
+      },
+      {
+        "id": "tmmediaparallax200",
+        "translations": {
+          "en": "TM Media Parallax 2.0.0"
+        }
+      },
+      {
+        "id": "tmmegamenu",
+        "translations": {
+          "en": "TM Mega Menu"
+        }
+      },
+      {
+        "id": "tmmosaicproducts",
+        "translations": {
+          "en": "TM Mosaic Products"
+        }
+      },
+      {
+        "id": "tmproductcustomtab",
+        "translations": {
+          "en": "TM Product Custom Tab"
         }
       },
       {

@@ -50,7 +50,7 @@
         </figure>
     </li>
     <li>
-        <p>Clicking 'View collection' button (1) will open the colection page, the 'View products' button (2) gives the
+        <p>Clicking 'View collection' button (1) will open the collection page, the 'View products' button (2) gives the
             ability to see the products list of this collection on current page. <br>
             The title of collection can de edited (3) or deleted (4). <br>
             To share the collection the visitor should press the 'Share' button (5).</p>

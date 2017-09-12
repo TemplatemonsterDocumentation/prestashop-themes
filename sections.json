@@ -61,5 +61,14 @@
 		"custom-modules",
 		"cookies-policy",
 		"addendum"
+	],
+	"styler2": [
+		"introduction",
+		"getting-started",
+		"template-installation",
+		"basic-tutorials",
+		"custom-modules",
+		"cookies-policy",
+		"addendum"
 	]
 }
