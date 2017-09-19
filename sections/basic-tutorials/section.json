@@ -164,6 +164,26 @@
 					"en": "How to unminify .css file using the Sublime Text Editor"
 				}
 			}
+		],
+		"stylefactory": [
+			{
+				"id": "changestoreinfo",
+				"translations": {
+					"en": "How to change info about your store"
+				}
+			},
+			{
+				"id": "edit_slider",
+				"translations": {
+					"en": "How to edit slider"
+				}
+			},
+			{
+				"id": "unminify_css_file",
+				"translations": {
+					"en": "How to unminify .css file using the Sublime Text Editor"
+				}
+			}
 		]
 	}
 }
