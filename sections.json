@@ -79,5 +79,14 @@
 		"custom-modules",
 		"cookies-policy",
 		"addendum"
+	],
+	"autoworld": [
+		"introduction",
+		"getting-started",
+		"template-installation",
+		"basic-tutorials",
+		"custom-modules",
+		"cookies-policy",
+		"addendum"
 	]
 }

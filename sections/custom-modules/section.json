@@ -633,6 +633,68 @@
           "en": "TM Social Feeds"
         }
       }
+    ],
+    "autoworld": [
+      {
+        "id": "tmdealday",
+        "translations": {
+          "en": "TM Deal of the Day"
+        }
+      },
+      {
+        "id": "tmgooglemap120",
+        "translations": {
+          "en": "TM Google Map 1.2.0"
+        }
+      },
+      {
+        "id": "tmheaderaccount200",
+        "translations": {
+          "en": "TM Header Account 2.0.0"
+        }
+      },
+      {
+        "id": "tmhtmlcontent",
+        "translations": {
+          "en": "TM HTML Content"
+        }
+      },
+      {
+        "id": "tmmanufacturersblock",
+        "translations": {
+          "en": "TM Manufacturers Block"
+        }
+      },
+      {
+        "id": "tmmediaparallax200",
+        "translations": {
+          "en": "TM Media Parallax 2.0.0"
+        }
+      },
+      {
+        "id": "tmmegamenu",
+        "translations": {
+          "en": "TM Mega Menu"
+        }
+      },
+      {
+        "id": "tmmosaicproducts",
+        "translations": {
+          "en": "TM Mosaic Products"
+        }
+      },
+      {
+        "id": "tmproductsslider200",
+        "translations": {
+          "en": "TM Products Slider 2.0.0"
+        }
+      },
+      {
+        "id": "tmsearch110",
+        "translations": {
+          "en": "TM Search 1.1.0"
+        }
+      }
     ]
   }
 }
