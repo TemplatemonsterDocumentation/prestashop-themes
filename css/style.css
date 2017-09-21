@@ -1429,3 +1429,7 @@ footer:after {
 .hidden {
   display: none !important;
 }
+
+body:not([data-project='default']) .panel .select .pseudo-select {
+  color: #000;
+}
