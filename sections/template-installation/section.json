@@ -2007,6 +2007,80 @@
           "ru": "Установка модулей и настройка изображений"
         }
       }
+    ],
+    "molotok": [
+      {
+        "id": "themeinstaller",
+        "translations": {
+          "en": "Theme Import",
+          "de": "Wie man eine Vorlage importiert",
+          "es": "Importar Tema",
+          "fr": "Thème d'importation",
+          "it": "Importa tema",
+          "pl": "Importowanie motywu",
+          "ru": "Импорт шаблона"
+        }
+      },
+      {
+        "id": "with_products_auto",
+        "translations": {
+          "en": "Automatic installation with demo data (Sample data installer)",
+          "de": "Automatische Installation mit dem Demo-Inhalt (Installation des Demo-Inhalts)",
+          "es": "Instalación automática con datos de demo (Instalador de datos de muestra)",
+          "fr": "Installation automatique avec données de échantillon (Sample data installer)",
+          "it": "Installazione automatica con dati demo (installatore dei dati di esempio)",
+          "pl": "Automatyczna instalacja z danymi demonstracyjnymi (Instalator Przykładowych Danych)",
+          "ru": "Автоматическая установка с Демо-контентом (Установка Демо-контента)"
+        }
+      },
+      {
+        "id": "with_products_manual",
+        "translations": {
+          "en": "Manual template installation with sample data",
+          "de": "Manuelle Installation der Vorlage mit dem Demo-Inhalt ",
+          "es": "Instalación manual de plantilla con Datos de muestra",
+          "fr": "Installation manuelle de modèle avec des exemples de données",
+          "it": "Installazione manuale del modello con dati di esempio",
+          "pl": "Ręczne instalowanie szablonu z danymi przykładowymi",
+          "ru": "Ручная установка шаблона с Демо-контентом "
+        }
+      },
+      {
+        "id": "add_lang",
+        "translations": {
+          "en": "Adding languages to online store",
+          "de": "Wie man Sprachen zum Online-Shop hinzufügt",
+          "es": "Adición de idiomas a la tienda online",
+          "fr": "Ajout de langues au magasin en ligne",
+          "it": "Aggiunta di lingue al negozio online",
+          "pl": "Dodawanie języków do sklepu internetowego",
+          "ru": "Добавление языков в интернет-магазин"
+        }
+      },
+      {
+        "id": "existing_store",
+        "translations": {
+          "en": "Installing template over existing store",
+          "de": "Installation der Vorlage auf den bestehenden Online-Shop ",
+          "es": "Instalación de la plantilla en una tienda existente",
+          "fr": "Installation du modèle sur le magasin existant",
+          "it": "Installazione del modello sopra l'archivio esistente",
+          "pl": "Instalowanie szablonu dla istnięjącego sklepu",
+          "ru": "Установка шаблона на существующий магазин "
+        }
+      },
+      {
+        "id": "modules_and_images",
+        "translations": {
+          "en": "Installing modules and configuring images",
+          "de": "Installation von Modulen und Einstellung von Bildern",
+          "es": "Instalar módulos y configurar imágenes",
+          "fr": "Installation de modules et configuration d'images",
+          "it": "Installazione moduli e la configurazione delle immagini",
+          "pl": "Instalowanie modułów",
+          "ru": "Установка модулей и настройка изображений"
+        }
+      }
     ]
   }
 }
