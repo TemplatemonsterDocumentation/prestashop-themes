@@ -10,4 +10,5 @@
     if you sell online - to power key parts of your online shopping system.</p>
 <p>26th May 2012 - The ICO released a change to the enforcement, "implied consent" is now allowed as long as you make it
     clear where your privacy/cookie policy is.</p>
-<p>If you want to comply with this policy, you can search for the corresponding modules/extensions at <a href="http://addons.prestashop.com/en/435-legal">PrestaShop Addons Marketplace</a>.</p>
+<p>If you want to comply with this policy, you can search for the corresponding modules/extensions at <a
+            href="http://addons.prestashop.com/en/435-legal">PrestaShop Addons Marketplace</a>.</p>
