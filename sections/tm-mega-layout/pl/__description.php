@@ -1,3 +1,522 @@
+<h3>TM-Mega Układ 1.1.0</h3>
+<?php if ($project == 'eveprest') { ?>
+    <!--    <div>-->
+    <!--        <p style="margin-bottom: 0;">Available in:</p>-->
+    <!--        <p style="margin-top: 0;" class="small text-secondary">Fashion, Electronics, Spare Parts, Furniture, One-->
+    <!--            Product</p>-->
+    <!--    </div>-->
+<?php } ?>
+
+<?php if ($project == 'impresta') { ?>
+    <!--    <div>-->
+    <!--        <p class="alert alert-info">If you want to switch to the layout with left column, you need to activate the left column for the main page. Navigate to Preferences -> Theme -> Advanced Settings -> Appearance of columns and enable the left column for index page.</p>-->
+    <!--    </div>-->
+<?php } ?>
+<p>Ten moduł sprojektowany jest dla stworzenia specjalnych układów (presetów) dla zaczepek i wyświetlania ich na stronie
+    zamiast w pozycjach domyślnych. Przewagą tego modułu jest to, że pozwala Ci stwarzać rozmaite markupy zaczepek oraz
+    modyfikować je zgodnie z Twoimi potrzebami.</p>
+<h4>Funkcjonalne charakterystyki oraz cechy modułu</h4>
+<ul class="index-list">
+    <li>
+        <p>Wymagania:</p>
+        <ul class="marked-list">
+            <li><p>PrestaShop 1.6+</p></li>
+            <li><p>PHP 5.4+</p></li>
+        </ul>
+    </li>
+    <li>
+        <p>Cechy:</p>
+        <ul class="marked-list">
+            <li><p>Moduł zawiera 5 zaczepek: 'Nagłówek', 'Kolumna Górna', 'Strona Domowa', 'Stopka' oraz 'Stopka
+                    Produktu'.</p></li>
+            <li><p>Jeżeli modułu nie ma w zaczepce, nie można go dodać do presetu.</p></li>
+            <li><p>Moduł można wyświetlać tylko raz, zarówno w presecie jak i w zaczepce.</p></li>
+            <li><p>Pozycja modułu w sekcji 'Moduły i Serwisy -> Pozycje' nie wpływa na preset.</p></li>
+            <li><p>Moduł nie pozwala Ci skonfigurować różniące się od siebie moduły. Nie możesz ustawić różniące się od
+                    siebie konfigurację modułów dla różnych presetów.</p></li>
+        </ul>
+    </li>
+</ul>
+<h6>Moduł daje Ci możliwość zmieniać pozycję modułu i nastawić siatkę dla 3 zaczepek: displayTopColumn, displayHome,
+    displayFooter. Zmieniając pozycję modułów w sekcji 'Moduły i Serwisy -> Pozycje' nie wpłynie na pozycję modułów w
+    presecie. Jeżeli moduł był poprzednio dodany do zaczepki, nie będzie można go dodać do presetu.</h6>
+<h4>Integrowanie modułu w motyw</h4>
+<p class="alert alert-warning"><span>Jeżeli nie dokonać tego kroku, Twoje presety nie pojawią się po stronie użytkownika.</span>
+</p>
+<ul class="index-list">
+    <li><p>Kolumna górna. Żeby dodać specjalny preset do zaczepki topColumn, będziesz musiał dokonać następujących
+            kroków:</p>
+        <ul class="marked-list">
+            <li>Otwórz plik <strong>/themes/your_theme/header.tpl</strong> w trybie edytowania.</li>
+            <li>Znajdź następujący kod
+                <pre class="codebox">{hook h="displayTopColumn"}</pre>
+            </li>
+            <li>I zamiast niego wpisz:
+                <pre class="codebox">
+{assign var='displayMegaTopColumn' value={hook h='tmMegaLayoutTopColumn'}}
+{if $displayMegaTopColumn}
+    {hook h='tmMegaLayoutTopColumn'}
+{else}
+    {capture name='displayTopColumn'}{hook h='displayTopColumn'}{/capture}
+    {if $smarty.capture.displayTopColumn}
+        &lt;div id="slider_row" class="row"&gt;
+            &lt;div id="top_column" class="center_column col-xs-12 col-sm-12">{$smarty.capture.displayTopColumn}&lt;/div&gt;
+        &lt;/div&gt;
+    {/if}
+{/if}</pre>
+            </li>
+        </ul>
+    </li>
+    <li><p>Strona Domowa. Żeby dodać specjalny preset do zaczepki Home (Strona Domowa), będziesz musiał dokonać
+            następujących kroków:</p>
+        <ul class="marked-list">
+            <li>Otwórz plik <strong>/themes/your_theme/index.tpl</strong> w trybie edytowania.</li>
+            <li>Znajdź następujący kod:
+                <pre class="codebox">
+{if isset($HOOK_HOME_TAB_CONTENT) && $HOOK_HOME_TAB_CONTENT|trim}
+  {if isset($HOOK_HOME_TAB) && $HOOK_HOME_TAB|trim}
+    &lt;ul id="home-page-tabs" class="nav nav-tabs clearfix"&gt;
+      {$HOOK_HOME_TAB}
+    &lt;/ul&gt;
+  {/if}
+  &lt;div class="tab-content"&gt;{$HOOK_HOME_TAB_CONTENT}&lt;/div&gt;
+{/if}
+{if isset($HOOK_HOME) && $HOOK_HOME|trim}
+  &lt;div class="clearfix"&gt;{$HOOK_HOME}&lt;/div&gt;
+{/if}</pre>
+            </li>
+            <li>I zamiast niego wpisz:
+                <pre class="codebox">
+{assign var='displayMegaHome' value={hook h='tmMegaLayoutHome'}}
+{if $displayMegaHome}
+  {hook h='tmMegaLayoutHome'}
+{else}
+  {if isset($HOOK_HOME_TAB_CONTENT) && $HOOK_HOME_TAB_CONTENT|trim}
+    {if isset($HOOK_HOME_TAB) && $HOOK_HOME_TAB|trim}
+      &lt;ul id="home-page-tabs" class="nav nav-tabs clearfix"&gt;
+        {$HOOK_HOME_TAB}
+      &lt;/ul&gt;
+    {/if}
+    &lt;div class="tab-content"&gt;{$HOOK_HOME_TAB_CONTENT}&lt;/div&gt;
+  {/if}
+  {if isset($HOOK_HOME) && $HOOK_HOME|trim}
+    &lt;div class="clearfix"&gt;{$HOOK_HOME}&lt;/div&gt;
+  {/if}
+{/if}</pre>
+            </li>
+        </ul>
+    </li>
+    <li><p>Stopka. Żeby dodać specjalny preset do zaczepki Footer (Stopka), będziesz musiał dokonać następujących
+            kroków:</p>
+        <ul class="marked-list">
+            <li>Otwórz plik <strong>/themes/your_theme/footer.tpl</strong> w trybie edytowania.</li>
+            <li>Znajdź następujący kod:
+                <pre class="codebox">
+{if isset($HOOK_FOOTER)}
+    &lt;div class="footer-container"&gt;
+        &lt;footer id="footer"  class="container"&gt;
+            &lt;div class="row"&gt;
+                {$HOOK_FOOTER}
+            &lt;/div&gt;
+        &lt;/footer&gt;
+    &lt;/div&gt;
+{/if}</pre>
+            </li>
+            <li>I zamiast niego wpisz:
+                <pre class="codebox">
+{assign var='displayMegaFooter' value={hook h='tmMegaLayoutFooter'}}
+{if isset($HOOK_FOOTER) || $displayMegaFooter}
+    &lt;div class="footer-container"&gt;
+    {if $displayMegaFooter}
+         &lt;div id="footer"&gt;
+              {$displayMegaFooter}
+         &lt;/div&gt;
+    {else}
+        &lt;div id="footer" class="container"&gt;
+            &lt;div class="row"&gt;{$HOOK_FOOTER}&lt;/div&gt;
+        &lt;/div&gt;
+    {/if}
+    &lt;/div&gt;
+{/if}</pre>
+            </li>
+        </ul>
+    </li>
+    <li><p>Nagłówek. Żeby dodać specjalny preset do zaczepki Header (Nagłówek), będziesz musiał dokonać następujących
+            kroków:</p>
+        <ul class="marked-list">
+            <li>Otwórz plik <strong>/themes/your_theme/header.tpl</strong> w trybie edytowania.</li>
+            <li>Znajdź następujący kod:
+                <pre class="codebox">
+{capture name='displayNav'}{hook h='displayNav'}{/capture}
+{if $smarty.capture.displayNav}
+&lt;div class="nav"&gt;
+  &lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+      &lt;nav>{$smarty.capture.displayNav}&lt;/nav&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+{/if}
+&lt;div&gt;
+  &lt;div class="container"&gt;
+   &lt;div class="row"&gt;
+    &lt;div id="header_logo"&gt;
+      &lt;a href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{$shop_name|escape:'html':'UTF-8'}"&gt;
+        &lt;img class="logo img-responsive" src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    {if isset($HOOK_TOP)}{$HOOK_TOP}{/if}
+   &lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;</pre>
+            </li>
+            <li>I zamiast niego wpisz:
+                <pre class="codebox">
+{assign var='displayMegaHeader' value={hook h='tmMegaLayoutHeader'}}
+{if isset($HOOK_TOP) || $displayMegaHeader}
+  {if $displayMegaHeader}
+    {$displayMegaHeader}
+  {else}
+    {capture name='displayNav'}{hook h='displayNav'}{/capture}
+    {if $smarty.capture.displayNav}
+    &lt;div class="nav"&gt;
+      &lt;div class="container"&gt;
+        &lt;div class="row"&gt;
+          &lt;nav>{$smarty.capture.displayNav}&lt;/nav&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    {/if}
+    &lt;div&gt;
+      &lt;div class="container"&gt;
+       &lt;div class="row"&gt;
+        &lt;div id="header_logo"&gt;
+          &lt;a href="{if isset($force_ssl) && $force_ssl}{$base_dir_ssl}{else}{$base_dir}{/if}" title="{$shop_name|escape:'html':'UTF-8'}"&gt;
+            &lt;img class="logo img-responsive" src="{$logo_url}" alt="{$shop_name|escape:'html':'UTF-8'}"{if isset($logo_image_width) && $logo_image_width} width="{$logo_image_width}"{/if}{if isset($logo_image_height) && $logo_image_height} height="{$logo_image_height}"{/if}/&gt;
+          &lt;/a&gt;
+        &lt;/div&gt;
+        {$HOOK_TOP}
+       &lt;/div&gt;
+     &lt;/div&gt;
+    &lt;/div&gt;
+  {/if}
+{/if}</pre>
+            </li>
+        </ul>
+    </li>
+    <li><p>Stopka Produktu. Żeby dodać specjalny preset do zaczepki Product Footer (Stopka Produktu), będziesz musiał
+            dokonać następujących kroków:</p>
+        <ul class="marked-list">
+            <li>Otwórz plik <strong>/themes/your_theme/product.tpl</strong> w trybie edytowania.</li>
+            <li>Znajdź następujący kod:
+                <pre class="codebox">
+{if isset($HOOK_PRODUCT_FOOTER) && $HOOK_PRODUCT_FOOTER}{$HOOK_PRODUCT_FOOTER}{/if}                                   </pre>
+            </li>
+            <li>I zamiast niego wpisz:
+                <pre class="codebox">
+{assign var='displayMegaProductFooter' value={hook h='tmMegaLayoutProductFooter'}}
+  {if isset($HOOK_PRODUCT_FOOTER) || $displayMegaFooter}
+    {if $displayMegaProductFooter}
+      {$displayMegaProductFooter product=$product category=$category}
+    {else}
+      {$HOOK_PRODUCT_FOOTER}
+    {/if}
+  {/if}</pre>
+            </li>
+        </ul>
+    </li>
+</ul>
+<h4>Zaczepki</h4>
+<p>Ten moduł ma 5 zaczepek które są dostępne według ustawień domyślnych:</p>
+<ul class="index-list">
+    <li>'Nagłówek' jest zaczepką w której skombinowane są 2 standardowe zaczepki: displayNav oraz displayTop. Ta
+        zaczepka odpowiada nagłówku witryny internetowej.
+    </li>
+    <li>'Kolumna Górna' odpowiada oryginalnej zaczepce displayTopColumn. Ta zaczepka jest usytuowana od razu po zaczepce
+        Header (Nagłówek).
+    </li>
+    <li>'Strona Domowa' odpowiada oryginalnej zaczepce displayHome. Ta zaczepka jest widoczna tylko na stronie
+        domowej.
+    </li>
+    <li>'Stopka' odpowiada oryginalnej zaczepce displayFooter.</li>
+    <li>'Stopka Produktu' odpowiada oryginalnej zaczepce displayFooterProduct, która jest pokazywana w stopce na stronie
+        produktu.
+    </li>
+</ul>
+<h4>TM-Mega Układ—Panel Główny</h4>
+<h4 class="text-secondary">Układy Główne</h4>
+<p>Panel główny konfiguracji modułu TM-Mega Układ który pozwala Ci dodawać preset do wymaganej zaczepki oraz
+    konfigurować preset.</p>
+<figure class="img-polaroid"><img src="img/tmmegalayout100-main-panel.png" alt=""/></figure>
+<h5>Dodawanie presetu</h5>
+<ul class="index-list">
+    <li>
+        <p>Wciśnij '+ Dodaj Preset' (1) w potrzebnej Ci zakładce.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-add-preset-1.png" alt=""/></figure>
+    </li>
+    <li>
+        <p>Następnie, wypełnij pole 'Wprowadź nazwę układu' w wyskakującym oknie, wprowadzając tytuł nowego presetu (2)
+            w tym miejscu i wciskając 'Zachowaj' (3).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-add-preset-2.png" alt=""/></figure>
+    </li>
+    <li>
+        <p>Preset został pomyślnie stworzony; teraz jest na liście dostępnych presetów (4). Nowo powstały preset jest
+            wybrany dla edytowania (5).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-add-preset-3.png" alt=""/></figure>
+    </li>
+</ul>
+<h5>Aktywacja Presetu</h5>
+<ul class="index-list">
+    <li>
+        <p>Przede wszystkim, wybierz potrzebny Ci preset z listy (1).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-activation-preset-1.png" alt=""/></figure>
+    </li>
+    <li>
+        <p>Wciśnij przełącznik 'Stosuj jako domyślny' (2).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-activation-preset-2.png" alt=""/></figure>
+    </li>
+    <li>
+        <p>Preset został aktywowany. Jeżeli wyświetlanie tego presetu jest potrzebne tylko na niektórych stronach,
+            otwórz listę rozwijaną (3) oraz wybierz strony które potrzebujesz. Aby zastosować zmiany, kliknij poza
+            obszarem listy. Preset pokazywany na wszystkich stronach będzie oznaczony wypełnioną gwiazdką w liście
+            presetów zaś gdy preset pokazywany tylko na niektórych stronach będzie oznaczony częściowo wypełnioną
+            gwiazdką.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-activation-preset-3.png" alt=""/></figure>
+    </li>
+</ul>
+<h5>Usuwanie presetu</h5>
+<p class="alert alert-warning"><span>Po usunięciu preseta już nie uda się go przywrócić</span></p>
+<ul class="index-list">
+    <li>
+        <p>Aby usunąć preset, wybierz potrzebny Ci preset z listy (1).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-delete-preset-1.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Następnie wciśnij na kosz (2) pod tytułem presetu. </p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-delete-preset-2.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Preset został pomyślnie usunięty.</p>
+    </li>
+</ul>
+<h5>Zmiana nazwy presetu</h5>
+<ul class="index-list">
+    <li>
+        <p>Aby zmienić nazwę presetu, wybierz potrzebny Ci preset z listy (1).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-rename-preset-1.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Nasępnie wciśnij przycisk z ikonką ołówka (2) obok tytułu presetu.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-rename-preset-2.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Ustal nowy tytuł presetu (3) w wyskakującym oknie i wciśnij 'Zmień nazwę układu' (4).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-rename-preset-3.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Preset został pomyślnie przemianowany.</p>
+    </li>
+</ul>
+<h4>Opakowanie</h4>
+<p>Opakowanie nie ma domyślnie ustalonej klasy; nie jest to artykuł obowiązkowy.</p>
+<h5>Dodawanie opakowania</h5>
+<ul class="index-list">
+    <li>
+        <p>Aby stworzyć opakowanie, wciśnij '+ Dodaj opakowanie' (1).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-add-wrapper-1.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Opakowanie zostało dodane (2).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-add-wrapper-2.png" alt=""></figure>
+    </li>
+</ul>
+<h5>Dodawanie specjalnie wybranej klasy CSS do opakowania</h5>
+<p>Dodawanie specjalnie wybranej klasy pozwoli Ci opracować specjalną stylizację dla swojego opakowania, stosując reguły
+    CSS.</p>
+<ul class="index-list">
+    <li>
+        <p>Aby dodać klasę opakowania, wciśnij przycisk (1).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-wrapper-add-class-1.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Pojawi się okno wyskakujące, w którym należy wypełnić pole 'Wprowadź klasy opakowania' (2) oraz wcisnąć
+            przycisk 'Potwierdz' (3).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-wrapper-add-class-2.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Specjalna klasa została pomyślnie dodana.</p>
+    </li>
+</ul>
+<h5>Usuwanie opakowania</h5>
+<p class="alert alert-warning"><span>Usuwanie elementu presetu również spowoduje usunięcie elementów podrzędnych oraz ich styli.</span>
+</p>
+<ul class="index-list">
+    <li>
+        <p>Aby usunąć opakowanie, wciśnij przycisk koszu (1).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-delete-wrapper-1.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Opakowanie zostało pomyślnie usunięte.</p>
+    </li>
+</ul>
+<h5>Stylizacja opakowania</h5>
+<ul class="index-list">
+    <li>
+        <p>Aby dodać specjalne style do opakowania, kliknij ikonkę 'ołówek' (1) w bloku opakowania.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-wrapper-add-styles-1.png" alt=""></figure>
+    </li>
+    <li>
+        <p>W następnym wyskakującym oknie wypełnij wszystkie wymagane pola (możesz sprawdzić sekcję 'Stylizacja' w
+            dokumentacji) i wciśnij przycisk 'Zachowaj' (2).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-wrapper-add-styles-2.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Jeżeli wszystkie pola są wypełnione poprawnie, style zostaną zachowane.</p>
+    </li>
+</ul>
+<h4>Wiersz</h4>
+<p>Element wierszu z siatki Ładowanie początkowe. Jest to element wymagany.</p>
+<h5>Dodawanie wierszu</h5>
+<ul class="index-list">
+    <li>
+        <p>Aby wstawić nowy wiersz, wciśnij '+ Dodaj wiersz' (1) w bloku opakowania lub '+ Dodaj wiersz' (2) w bloku
+            głównego presetu, albo '+ Dodaj wiersz' (3) w liście rozwijanej kolumny.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-add-row-1.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Wierz został pomyślnie dodany.</p>
+    </li>
+</ul>
+<h5>Dodawanie specjalnie wybranej klasy CSS do wierszu</h5>
+<p>Dodawanie specjalnej klasy pozwoli Ci stworzyć specjalną stylizację wierszu, stosując reguły CSS.</p>
+<ul class="index-list">
+    <li>
+        <p>Aby dodać klasę do wierszu, powinieneś wcisnąć przycisk 'wielokropek' (1).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-edit-row-1.png" alt=""></figure>
+    </li>
+    <li>
+        <p>W liście rozwijanej wybierz 'Edytuj wiersz' (2).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-edit-row-2.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Wypełnij pole 'Wprowadź klasy wierszy' (3) w oknie wyskakującym oraz wciśnij przycisk 'Potwierdz' (4).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-edit-row-3.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Specjalna klasa została pomyślnie dodana.</p>
+    </li>
+</ul>
+<h5>Usuwanie wierszu</h5>
+<p class="alert alert-warning">
+    <span> Usuwanie elementu presetu również spowoduje usunięcie elementów podrzędnych oraz ich styli.</span></p>
+<ul class="index-list">
+    <li>
+        <p>Any usunąć wiersz, otwórz menu (ikonka 'wielokropek') w bloku wierszu.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-delete-row-1.png" alt=""></figure>
+    </li>
+    <li>
+        <p>W liście rozwijanej wybierz opcję 'Usuń' (2).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-delete-row-2.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Wierz został pomyślnie usunięty.</p>
+    </li>
+</ul>
+<h5>Dodawanie styli do wierszu</h5>
+<ul class="index-list">
+    <li>
+        <p>Any dodać style wierszu, otwórz menu (ikonka 'wielokropek') (1) w bloku wierszu.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-row-add-styles-1.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Wciśnij 'Stylizuj' (2) w liście rozwijanej.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-row-add-styles-2.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Pojawi się wyskakujące okno; wypełnij w nim wszystkie wymagane pola (możesz sprawdzić sekcję 'Stylizacja' w
+            dokumentacji) i wciśnij przycisk 'Zachowaj' (3).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-row-add-styles-3.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Jeżeli wszystkie pola są wypełnione poprawnie, style zostaną zachowane.</p>
+    </li>
+</ul>
+<h4>Kolumna</h4>
+<p>Jest to element posiadający blok z szerokością która jest konfigurowana dla różnych rozmiarów, na podstawie siatki
+    Ładowanie Początkowe.</p>
+<h5>Dodawanie kolumny</h5>
+<ul class="index-list">
+    <li>
+        <p>Any wstawić kolumnę w potrzebny 'wiersz', otwórz menu (ikonka 'wielokropek') (1).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-add-col-1.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Wybierz '+ Dod Kol' (2) w liście.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-add-col-2.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Wypełnij pola (klasy ładowania początkowego col-xs*, col-sm*, col-md*, col-lg - bootstrap) w oknie
+            wyskakującym i wciśnij przycisk 'Potwierdz' (3).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-add-col-3.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Kolumna została pomyślnie dodana.</p>
+    </li>
+</ul>
+<h5>Usuwanie kolumny</h5>
+<p class="alert alert-warning">
+    <span>Usuwanie elementu presetu również spowoduje usunięcie elementów podrzędnych oraz ich styli.</span></p>
+<ul class="index-list">
+    <li>
+        <p>Any usunąć kolumnę, otwórz menu (ikonka 'wielokropek') (1) w bloku kolumny.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-detele-col-1.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Wciśnij 'Usuń' (2) w liście.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-detele-col-2.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Kolumna wraz ze wszystkimi jej elementami podrzędnymi została usunięta.</p>
+    </li>
+</ul>
+<h5>Edytowanie kolumny</h5>
+<ul class="index-list">
+    <li>
+        <p>Any edytować kolumnę, otwórz menu (ikonka 'wielokropek') (1) w bloku kolumny.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-edit-col-1.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Wciśnij 'Edytuj kolumnę' (2) w liście.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-edit-col-2.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Wypełnij pola (klasy ładowania początkowego col-xs*, col-sm*, col-md*, col-lg - bootstrap) w oknie
+            wyskakującym i wciśnij 'Potwierdz' (3).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-edit-col-3.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Kolumna została pomyślnie zedytowana.</p>
+    </li>
+</ul>
+<h5>Dodawanie styli do kolumny</h5>
+<ul class="index-list">
+    <li>
+        <p>Any dodać style kolumny, otwórz menu (ikonka 'wielokropek') (1) w bloku kolumny.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-col-add-styles-1.png" alt=""></figure>
+    </li>
+    <li>
+        <p>W liście opcji wybierz i wciśnij 'Stylizuj' (2).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-col-add-styles-2.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Pojawi się wyskakujące okno; wypełnij w nim wszystkie wymagane pola (możesz sprawdzić sekcję 'Stylizacja' w
+            dokumentacji) i wciśnij przycisk 'Zachowaj' (3).</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout100-col-add-styles-3.png" alt=""></figure>
+    </li>
+    <li>
+        <p>Jeżeli wszystkie pola są wypełnione poprawnie, style zostaną zachowane.</p>
+    </li>
+</ul>
 <h4>Moduł</h4>
 <p>Moduł wyznaczony dla tej zaczepki.</p>
 <h5>Dodawanie modułu</h5>
@@ -20,10 +539,15 @@
     <li>
         <p>Moduł został pomyślnie dodany.</p>
     </li>
+    <li>
+        <p>W niniejszej wersji TM-Mega Układy możesz dodać moduł 'Zakładki Strony Domowej' w zaczepce Strona Domowa.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout110-add-module-tabs.png" alt=""></figure>
+        <p>Można go dostosować tak samo jak każdy inny moduł w Mega Układzie.</p>
+    </li>
 </ul>
 <h5>Usunięcie modułu</h5>
-<p class="alert alert-warning"><span> Usuwanie elementu presetu również spowoduje usunięcie elementów podrzędnych oraz ich styli.</span>
-</p>
+<p class="alert alert-warning">
+    <span> Usuwanie elementu presetu również spowoduje usunięcie elementów podrzędnych oraz ich styli.</span></p>
 <ul class="index-list">
     <li>
         <p>Any usunąć moduł, otwórz menu (ikonka 'wielokropek') (1) w bloku modułu.</p>
@@ -59,6 +583,88 @@
 <h5>Logotyp, Prawo Autorskie</h5>
 <p>Bloki Logotyp oraz Prawo Autorskie są edytowane w taki sam sposób jak moduły, jedynie że blok Logotyp można umieścić
     tylko w pozycji Nagłówek albo Stopka, zaś gdy blok Prawo Autorskie można umieścić tylko w pozycji Stopka.</p>
+<h4 class="text-secondary">Strona Produktu</h4>
+<h5>Zakładka informacyjna produktu</h5>
+<h6>Za pomocą tej zakładki możesz przełączać ukłądy na stronie produktu. Pojawi się na panelu administracyjnym po
+    dokonaniu kilku prostych działań opisanych poniżej.</h6>
+<h5>Stworzenie układu</h5>
+<h6>Układy są stwarzane oraz edytowane ręcznie.</h6>
+<ul class="index-list">
+    <li><p>Stwórz folder 'product_pages' (strony produktu) w swoim folderze motywu.</p>
+        <figure class="img-polaroid"><img src="img/tmmegalayout110-product-info-3.png" alt=""></figure>
+    </li>
+    <li>W folderze motywu znajdź plik 'product.tpl', skopiuj go do stworzonego folderu 'product_pages' i zmień jego
+        nazwę na 'default.tpl'. Aby stworzyć kilka układów - stwórz duplikat tego pliku, zmień nazwy duplikatów (na
+        przykłąd 'layout_1.tpl', 'layout_2.tpl') oraz strukturę zgodnie ze swoimi potrzebami.
+    </li>
+    <li>W tym folderze stwórz plik 'config.json'. Skopiuj do niego następujący kod:
+        <pre class="codebox">
+{
+  "default": {
+    "name": "Default",
+    "preview": "default.jpg",
+    "default": 1
+  }
+}</pre>
+        <ul class="marked-list">
+            <li><strong>"default"</strong> - nazwa pliku .tpl zawierającego strukturę strony produktu.</li>
+            <li>"name": <strong>"Default"</strong> - tytuł układu strony produktu w ustawieniach modułu.</li>
+            <li>"preview": <strong>"default.jpg"</strong> - obrazek podglądu układu strony produktu w ustawieniach
+                modułu; Obrazek powinien znajdować się w folderze 'product_pages'.
+            </li>
+            <li><p>"default": <strong>1</strong> - ustaw '1' jeżeli układ należy stosować jako domyślny</p><br>
+                <p class="alert small alert-warning">Jeden z układów musi zawierać wartość '1' aby umożliwić jego
+                    ustawienie jako domyślnego.</p>
+            </li>
+        </ul>
+        <p>Należy stworzyć duplikat tego kodu dla każdego stworzonego układu; musi on również zawierać odpowiedne
+            wartości. Na przykład:</p>
+        <pre class="codebox">
+{
+  &quot;default&quot;: {
+    &quot;name&quot;: &quot;Default&quot;,
+    &quot;preview&quot;: &quot;default.jpg&quot;,
+    &quot;default&quot;: 0
+  },
+  "layout_1": {
+    &quot;name&quot;: "Layout 1",
+    "preview": "layout_1.jpg",
+    "default": 0
+  },
+  "layout_2": {
+    &quot;name&quot;: "Layout 2",
+    "preview": "layout_2.jpg",
+    "default": 1
+  }
+}</pre>
+    </li>
+    <li>Otwórz plik 'product.tpl' w folderze motywu. Usuń wszystko oraz wpisz następujący kod:
+        <pre class="codebox">
+{include file="$tpl_dir./errors.tpl"}
+{if $errors|@count == 0}
+  {if isset($megalayoutProductInfoPage) && $megalayoutProductInfoPage}
+    {assign var='path' value="./product_pages/`$megalayoutProductInfoPage`"}
+    {include file=$path}
+  {else}
+    {include file='./product_pages/default.tpl'}
+  {/if}
+{/if}</pre>
+    </li>
+    <li>Aby dodać/edytować style każdego układu strony produktu, przejdź do your_theme_folder/css/ i dodaj nowy folder
+        'product_pages'. W tym folderze stwórz plik zawierający nazwę układu oraz rozszerzenie .css (na przykład
+        'default.css', 'layout_1.css', 'layout_2.css'). Te pliki zawierają style układu odpowiedniej strony produktu.
+    </li>
+    <li>Aby dodać skrypty do jakiegokolwiek układu strony produktu, przejdź do your_theme_folder/js/ i dodaj nowy folder
+        'product_pages'. W tym folderze stwórz plik zawierający nazwę układu oraz rozszerzenie .js (na przykład
+        'default.js', 'layout_1.js', 'layout_2.js'). Te pliki zawierają skrypty układu odpowiedniej strony produktu.
+    </li>
+</ul>
+<h5>Przełączanie układów</h5>
+<p>Wybierz 'Stronę Produktu' z listy rozwijanej (1) i kliknij zakładkę 'Informacja o produkcie' (2).</p>
+<figure class="img-polaroid"><img src="img/tmmegalayout110-product-info-1.png" alt=""></figure>
+<p>Za pomocą tej zakładki możesz przełączać ukłądy na stronie produktu. Obrazek układu z szarą obwódką jest ustawiony
+    jako domyślny.</p>
+<figure class="img-polaroid"><img src="img/tmmegalayout110-product-info-2.png" alt=""></figure>
 <h5>Eksportowanie presetów</h5>
 <p>Narzędzie eksportowanie pozwoli ci wyeksportować presety dla dalszego importu w różne sklepy.</p>
 <ul class="index-list">
@@ -150,7 +756,7 @@
                 folderu ~/images/cms/ .
             </li>
             <li>background-color (kolor tła) - wartość może być ustawiona w jakimkolwiek formacie kolorów (rgb, hex
-                etc.). Możesz wybrać kolor, wykorzystując narzędzie colorpicker (wybieracz koloru).
+                etc.). Możesz wybrać kolor, wykorzystując narzędzie colorpicker.
             </li>
             <li>background-repeat (powtórzenie tła) - wszystkie dostępne opcje znajdują się wśród przycisków opcji.</li>
             <li>background-position (pozycja tła) - wszystkie dostępne opcje znajdują się w liście rozwijanej.</li>
@@ -185,7 +791,7 @@
     <li><p>Inne style.</p>
         <figure class="img-polaroid"><img src="img/tmmegalayout100-styles-3.png" alt=""/></figure>
         <ul class="marked-list">
-            <li>box-shadow (cień w polu) - na przykład: 0px 0px 0px 0px rgba(0,0,0,0.75).</li>
+            <li>box-shadow (cień w polu) - na przykład:0px 0px 0px 0px rgba(0,0,0,0.75).</li>
         </ul>
     </li>
 </ul>
