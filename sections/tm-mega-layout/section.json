@@ -1,7 +1,13 @@
 {
   "id": "tm-mega-layout",
   "translations": {
-    "en": "TM Mega Layout"
+    "en": "TM Mega Layout",
+    "de": "TM Mega Layout",
+    "es": "TM Mega Layout",
+    "fr": "TM Mega Layout",
+    "it": "TM Mega Layout",
+    "pl": "TM Mega Layout",
+    "ru": "TM Mega Layout"
   },
   "articles": {
     "eveprest": [],
