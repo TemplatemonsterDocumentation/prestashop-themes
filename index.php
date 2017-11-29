@@ -15,7 +15,7 @@ if (!isset($sections)) {
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo get_path( '/css/grid.css' ); ?>">
 
-    <link rel="stylesheet" href="<?php echo get_path( '/css/style.css' ); ?>">
+    <link rel="stylesheet" href="<?php echo get_path( '/css/style.css?v=1' ); ?>">
     <link rel="stylesheet" href="<?php echo get_path( "/projects/{$project}/project_styles.css" ); ?>">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Montserrat+Alternates:400,700' rel='stylesheet' type='text/css'>
     <!--<link href='//fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>-->
@@ -48,6 +48,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5WB7JQ');</script>
 <!-- End Google Tag Manager -->
+<div class="zemez-chat-wrap">
+	<form class="zemez-chat" id="zemez-chat" method="GET">
+		<input type="text" placeholder="Name:" name="uname" id="uname">
+		<input type="email" placeholder="Email Address:" name="umail" id="umail">
+		<span onclick="startChat()">Start chat</span>
+	</form>
+</div>
 <div class="page-wrap">
     <div class="rd-mobilemenu active">
         <div class="logo logo__<?php echo $project; ?>">
@@ -173,7 +180,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
 </script>
 
-<script src="<?php echo get_path( '/js/script.js' ); ?>"></script>
+<script src="<?php echo get_path( '/js/script.js?v=1' ); ?>"></script>
 
 </body>
 </html>
