@@ -85,7 +85,6 @@ function getSections($project, $defaultProject)
 function generateNavigation($sections, $lang, $section_param, $project, $defaultProject)
 {
 	$html = '';
-
 	foreach ($sections as $section_key => $section_dirname) {
 		$section_json_file = get_path( "/sections/{$section_dirname}/section.json", true );
 		// Check if section json file exists
@@ -93,10 +92,14 @@ function generateNavigation($sections, $lang, $section_param, $project, $default
 			$section_string 	= file_get_contents($section_json_file);
 			$current_section 	= json_decode($section_string, true);
 
+            if (!isset($current_section['translations'][$lang])) {
+                continue;
+            }
 			$proj = $defaultProject;
 			if (array_key_exists($project, $current_section['articles'])) {
 				$proj = $project;
 			}
+
 
 			if (empty($current_section)) {
 				echo "<i>Section $section_dirname JSON empty or formatted wrong</i>";
@@ -121,9 +124,11 @@ function generateNavigation($sections, $lang, $section_param, $project, $default
 				if (!empty($section_articles)) {
 					$html .= '<ul>';
 					foreach ($section_articles as $key => $article) {
+					    if (!isset($article['translations'][$lang])) {
+					        continue;
+                        }
 						$article_id 	= $article['id'];
 						$article_name 	= $article['translations'][$lang];
-
 						$article_path	= '#' . $article_id;
                         // Update article path if first in article section
                         if ($key == 0) {
