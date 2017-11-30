@@ -15,7 +15,7 @@ if (!isset($sections)) {
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo get_path('/css/grid.css'); ?>">
 
-    <link rel="stylesheet" href="<?php echo get_path('/css/style.css'); ?>">
+    <link rel="stylesheet" href="<?php echo get_path('/css/style.css?v=1'); ?>">
     <link rel="stylesheet" href="<?php echo get_path("/projects/{$project}/project_styles.css"); ?>">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Montserrat+Alternates:400,700'
           rel='stylesheet' type='text/css'>
@@ -195,7 +195,7 @@ if (!isset($sections)) {
     }
 </script>
 
-<script src="<?php echo get_path('/js/script.js'); ?>"></script>
+<script src="<?php echo get_path('/js/script.js?v=1'); ?>"></script>
 
 </body>
 </html>
