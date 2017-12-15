@@ -1,14 +1,18 @@
 <h3>Manual template installation with sample data</h3>
+<p class="alert alert-info custom">If you don't want to spend your time installing the template, don't hesitate to <span
+            class="label label-warning opener" onclick="showChat()">order</span> installation service using our
+    live-chat.</p>
 
-<p>To make your PrestaShop store appear the same as template live demo, you need to install  <strong>sample data</strong>.
-It will contain all demo products, categories, modules and store settings.</p>
+<p>To make your PrestaShop store appear the same as template live demo, you need to install <strong>sample data</strong>.
+    It will contain all demo products, categories, modules and store settings.</p>
 
 <p class="alert alert-danger">Please do not use the sample data for your running website! This will replace all your
     store products and store settings.</p>
 
 <p class="alert alert-warning">Please make sure your version of PrestaShop engine matches the specified version in
     "Technical Details" tab, mentioned as "PrestaShop Engine: 1.X.X.X".
-    <br/>Also, make sure your database tables prefix is <strong>ps_</strong>. Install sample data only if your PrestaShop engine matches
+    <br/>Also, make sure your database tables prefix is <strong>ps_</strong>. Install sample data only if your
+    PrestaShop engine matches
     the specified version. </p>
 
 <h4>Uploading template files</h4>
@@ -22,10 +26,10 @@ It will contain all demo products, categories, modules and store settings.</p>
     </li>
 </ol>
 <p class="alert alert-info">You can check the detailed video tutorial on <a target="_blank"
-                                                   href="/help/how-upload-files-server-2.html">how
+                                                                            href="/help/how-upload-files-server-2.html">how
         to upload files to server using FTP manager</a> and <a
-        href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html"
-        target="_blank">how to upload files to a server using cPanel (WebHost Manager,
+            href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html"
+            target="_blank">how to upload files to a server using cPanel (WebHost Manager,
         WHM)</a>.</p>
 
 <h4>Installing Sample data</h4>
@@ -35,13 +39,13 @@ It will contain all demo products, categories, modules and store settings.</p>
 
 <p>The dump.sql file can be installed using the phpMyAdmin tool or some other database
     management tool in your hosting control panel. This detailed tutorial on <a
-        target="_blank"
-        href="/help/phpmyadmin-how-to-import-sample-data-dump-file-phpmyadmin.html">how
+            target="_blank"
+            href="/help/phpmyadmin-how-to-import-sample-data-dump-file-phpmyadmin.html">how
         to install SQL files</a> can help you.</p>
 
 <p class="alert alert-warning">Before you proceed, please back up your database. You can check the detailed video
     tutorial on <a
-        target="_blank" href="/help/phpmyadmin-how-to-backup-a-database.html">how to
+            target="_blank" href="/help/phpmyadmin-how-to-backup-a-database.html">how to
         back up a database</a>.</p>
 
 
