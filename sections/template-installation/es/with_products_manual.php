@@ -1,4 +1,5 @@
 <h3>Instalación manual de plantilla con Datos de muestra</h3>
+<p class="alert alert-info custom">Si no quieres pasar el tiempo instalando la plantilla, no dudes en <span class="label label-warning opener" onclick="showChat()">solicitar</span> el servicio de instalación utilizando nuestro chat en vivo.</p>
 <p>Para que su tienda PrestaShop aparezca igual que en la página demo en vivo de plantilla, debe instalar  <strong>sample data</strong>. Contendrá todos los productos de demostración, categorías, módulos y configuraciones de tienda.</p>
 <p class="alert alert-danger">Por favor, no utilice los datos de muestra para su sitio web en ejecución! Esto reemplazará todos los productos de su tienda y los ajustes de la tienda.</p>
 <p class="alert alert-warning">Asegúrese de que su versión del motor de PrestaShop coincida con la versión especificada en la pestaña "Detalles técnicos", mencionada como "PrestaShop Engine: 1.X.X.X". <br/>

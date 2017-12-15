@@ -1,4 +1,6 @@
 <h3>Manuelle Installation der Vorlage mit dem Demo-Inhalt </h3>
+<p class="alert alert-info custom">Wenn Sie einiges an Zeit sparen möchten, <span class="label label-warning opener" onclick="showChat()">bestellen</span> Sie den Installationsservice für Ihr Theme in unserem Online-Chat.</p>
+
 <p>Damit Ihr PrestaShop Online-Shop wie die Demoversion Ihrer Vorlage aussieht, sollen Sie den <strong>Demo-Inhalt</strong> installieren. Er wird alle Demo-Produkte, Kategorien, Module, Einstellungen enthalten. </p>
 <p class="alert alert-danger"> Nutzen Sie bitte nicht den Demo-Inhalt für Ihren funktionierenden Online-Shop! Dadurch werden alle Ihren Produkte in Shop und Shop-Einstellungen ersetzt.</p>
 <p class="alert alert-warning"> Stellen Sie sicher, dass die Version Ihrer PrestaShop Engine der Version entspricht, die im Tab «Technische Details» wie «PrestaShop Engine: 1.X.X.X» festgelegt ist. <br/>

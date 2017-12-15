@@ -86,6 +86,15 @@ if(strpos($domain, 'templatemonster.com') !== false): ?>
 <!--        f.parentNode.insertBefore(j, f);-->
 <!--    })(window, document, 'script', 'dataLayer', 'GTM-5WB7JQ');</script>-->
 <!-- End Google Tag Manager -->
+<!-- Chat ======================================================== -->
+<div class="zemez-chat-wrap">
+    <form class="zemez-chat" id="zemez-chat" method="GET">
+        <i id="zemez-chat-close" onclick="closeChat()"></i>
+        <input type="text" placeholder="Name:" name="uname" id="uname">
+        <input type="email" placeholder="Email Address:" name="umail" id="umail">
+        <span onclick="startChat()">Start chat</span>
+    </form>
+</div>
 <div class="page-wrap">
     <div class="rd-mobilemenu active">
         <div class="logo logo__<?php echo $project; ?>">

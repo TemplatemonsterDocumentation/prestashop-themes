@@ -1,4 +1,5 @@
 <h3>Automatic installation with demo data (Sample data installer)</h3>
+<p class="alert alert-info custom">If you don't want to spend your time installing the template, don't hesitate to <span class="label label-warning opener" onclick="showChat()">order</span> installation service using our live-chat.</p>
 <p>To make your PrestaShop store appear the same as template live demo, you need to install  <strong>sample data</strong>. It will contain all demo products, categories, modules and store settings.</p>
 <p class="alert alert-danger">Please do not use the sample data for your running website! This will replace all your store products and store settings.</p>
 <p class="alert alert-warning">Please make sure your version of PrestaShop engine matches the specified version in "Technical Details" tab, mentioned as "PrestaShop Engine: 1.X.X.X".<br/>

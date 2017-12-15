@@ -1,4 +1,5 @@
 <h3>Installation automatique avec données de échantillon (Sample data installer)</h3>
+<p class="alert alert-info custom">Si vous ne voulez pas passer votre temps à installer le template, n'hésitez pas à <span class="label label-warning opener" onclick="showChat()">commander</span> le service d'installation via notre chat en direct.</p>
 <p>Pour faire apparaître votre boutique Prestashop comme sur la démonstration en direct du modèle, vous devez installer des <strong>données exemples</strong>. Cela contient  tous les produits de démonstration, catégories, modules et paramètres de magasin.</p>
 <p class="alert alert-danger">N'utilisez pas les exemples de données pour votre site Web en cours! Cela remplacera tous les produits et les paramètres de votre magasin.</p>
 <p class="alert alert-warning">Assurez-vous que votre version du moteur PrestaShop correspond à la version spécifiée dans l'onglet "Détails techniques", mentionné comme  "PrestaShop Engine: 1.X.X.X".<br/> 
