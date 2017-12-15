@@ -1,4 +1,5 @@
 <h3>Installazione automatica con dati demo (installatore dei dati di esempio)</h3>
+<p class="alert alert-info custom">Se non vuoi spendere il tempo per l'installazione del modello, non esitare a contattarci <span class="label label-warning opener" onclick="showChat()">ordina</span> servizio di installaione utilizzando il nostro live-chat.</p>
 <p>Per rendere il tuo negozio PrestaShop simile al demo live di modello, devi installare <strong>sample data</strong>. Conterrà tutti i prodotti demo, le categorie, i moduli e le impostazioni del negozio.</p>
 <p class="alert alert-danger">Non utilizzare i dati di esempio per il tuo sito web in esecuzione! Ciò sostituirà tutti i prodotti del tuo negozio e memorizza le impostazioni.</p>
 <p class="alert alert-warning">Assicurati che la tua versione del motore PrestaShop corrisponda alla versione specificata nella scheda "Dettagli tecnici", indicata come "PrestaShop Engine: 1.X.X.X".<br/>
