@@ -1,5 +1,7 @@
 <h3>Installation manuelle du template avec des données d'exemple</h3>
-
+<p class="alert alert-info custom">Si vous ne voulez pas passer votre temps à installer le template, n'hésitez pas à
+    <span class="label label-warning opener" onclick="showChat()">commander</span> le service d'installation via notre
+    chat en direct.</p>
 <p>Après l'installation des <strong>données d'exemple,</strong> vous verrez votre
     boutique PrestaShop apparaître comme dans le template de live demo. Elle contiendra
     tous les produits d'exemple, paramètres de boutique, paramètres de modules, etc.</p>
@@ -25,8 +27,8 @@
 <p class="alert alert-info">Vous pouvez consulter le tutoriel vidéo détaillé sur <a target="_blank"
                                                                                     href="/help/how-upload-files-server-2.html">comment
         uploader des fichiers sur un serveur à l'aide d'un gestionnaire FTP</a> et <a
-        href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html"
-        target="_blank">comment uploader les fichiers sur un serveur avec cPanel
+            href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html"
+            target="_blank">comment uploader les fichiers sur un serveur avec cPanel
         (WebHost Manager, WHM)</a>.</p>
 
 <h4>Installation de données d'exemple</h4>
@@ -43,7 +45,7 @@
 
 <p class="alert alert-warning">Avant de commencer, veuillez faites une sauvegarde de votre base de données. Vous
     pouvez consulter le tutoriel vidéo détaillé sur <a
-        target="_blank" href="/help/phpmyadmin-how-to-backup-a-database.html">comment
+            target="_blank" href="/help/phpmyadmin-how-to-backup-a-database.html">comment
         sauvegarder une base de données</a>.</p>
 
 

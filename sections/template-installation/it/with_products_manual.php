@@ -1,5 +1,7 @@
 <h3>Installazione manuale del template con dati campione</h3>
-
+<p class="alert alert-info custom">Se non vuoi spendere il tempo per l'installazione del modello, non esitare a
+    contattarci <span class="label label-warning opener" onclick="showChat()">ordina</span> servizio di installaione
+    utilizzando il nostro live-chat.</p>
 <p>Dopo aver installato i
     <strong>dati campione,</strong> il tuo negozio PrestaShop avrà lo stesso aspetto del demo live. Conterrà tutti i
     prodotti dimostrativi, le categorie, i moduli, le impostazioni dello store, ecc.
@@ -25,7 +27,8 @@
     <li>Vai sulla cartella <strong>/theme/manual_install/</strong>.</li>
 
     <li>Carica le cartelle <strong>/img/</strong>, <strong>/modules/</strong> e
-        <strong>/themes/</strong> sulla directory root di PrestaShop. </li>
+        <strong>/themes/</strong> sulla directory root di PrestaShop.
+    </li>
 </ol>
 <p class="alert alert-info">Qui puoi seguire delle guide video dettagliate su
     <a target="_blank" href="/help/how-upload-files-server-2.html">come caricare i file sul server usando gestori
