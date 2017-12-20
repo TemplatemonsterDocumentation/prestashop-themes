@@ -1,6 +1,8 @@
 <h3>Instalaci&oacute;n autom&aacute;tica con los datos de demostraci&oacute;n
     (instalador de datos de muestra)</h3>
-
+<p class="alert alert-info custom">Si no quieres pasar el tiempo instalando la plantilla, no dudes en <span
+            class="label label-warning opener" onclick="showChat()">solicitar</span> el servicio de instalación
+    utilizando nuestro chat en vivo.</p>l
 <p>Despu&eacute;s de instalar los <strong>datos de demostraci&oacute;n</strong>, tendr&aacute;s
     tu tienda de PrestaShop justo igual que en la plantilla de demostraci&oacute;n en l&iacute;nea.
     Contendr&aacute; todos los productos de demostraci&oacute;n, categor&iacute;as, m&oacute;dulos
@@ -17,7 +19,7 @@
 
 <p>Para instalar los datos de muestra utilizando el instalador de los datos de
     demostraci&oacute;n, por favor, siga las instrucciones del paso 1 <a
-        href="#themeinstaller">(Importaci&oacute;n del tema)</a> de este manual.
+            href="#themeinstaller">(Importaci&oacute;n del tema)</a> de este manual.
     Luego, en el panel de administraci&oacute;n de la tienda ver&aacute;s el m&oacute;dulo
     para instalar los datos de demostraci&oacute;n.</p>
 

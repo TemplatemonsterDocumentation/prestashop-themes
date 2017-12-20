@@ -1,5 +1,7 @@
 <h3>Automatic installation with demo data (Sample data installer)</h3>
-
+<p class="alert alert-info custom">If you don't want to spend your time installing the template, don't hesitate to <span
+            class="label label-warning opener" onclick="showChat()">order</span> installation service using our
+    live-chat.</p>
 <p>After installing <strong>sample data</strong>, you'll get your PrestaShop store
     appear the same as at the template live demo. It will contain all demo products,
     categories, modules and store settings.</p>

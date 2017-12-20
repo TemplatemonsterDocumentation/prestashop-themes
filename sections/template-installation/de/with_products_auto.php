@@ -1,5 +1,7 @@
 <h3>Automatische Installation mit den Demodaten (Modul Sample data installer)</h3>
-
+<p class="alert alert-info custom">Wenn Sie einiges an Zeit sparen möchten, <span class="label label-warning opener"
+                                                                                  onclick="showChat()">bestellen</span>
+    Sie den Installationsservice für Ihr Theme in unserem Online-Chat.</p>
 <p>Nachdem Sie <strong>Demodaten</strong> installiert haben, wird Ihr Online-Shop
     PrestaShop wie auf der Demoversion aussehen. Er wird alle Produkte, Kategorien und
     Einstellungen für Module und den Online-Shop enthalten.</p>
