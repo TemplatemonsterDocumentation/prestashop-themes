@@ -1,5 +1,7 @@
 <h3>Installazione automatica con dati campione (installer 'Sample data')</h3>
-
+<p class="alert alert-info custom">Se non vuoi spendere il tempo per l'installazione del modello, non esitare a
+    contattarci <span class="label label-warning opener" onclick="showChat()">ordina</span> servizio di installaione
+    utilizzando il nostro live-chat.</p>
 <p>Dopo aver installato i <strong>dati campione</strong>, il tuo negozio PrestaShop
     apparirà proprio come nella demo live del tuo template. Conterrà tutti i prodotti
     dimostrativi, le categorie, i moduli e le impostazioni dello store.</p>

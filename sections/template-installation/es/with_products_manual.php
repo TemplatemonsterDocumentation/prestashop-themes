@@ -1,4 +1,7 @@
 <h3>Instalaci&oacute;n manual de la plantilla con los datos de muestra</h3>
+<p class="alert alert-info custom">Si no quieres pasar el tiempo instalando la plantilla, no dudes en <span
+            class="label label-warning opener" onclick="showChat()">solicitar</span> el servicio de instalación
+    utilizando nuestro chat en vivo.</p>
 
 <p>Despu&eacute;s de instalar los <strong>datos de demostraci&oacute;n</strong>, tendr&aacute;s
     tu tienda de PrestaShop justo igual que en la plantilla de demostraci&oacute;n en l&iacute;nea.
@@ -28,10 +31,10 @@
     </li>
 </ol>
 <p class="alert alert-info">Puede revisar el video tutorial detallado sobre <a target="_blank"
-                                                      href="/help/how-upload-files-server-2.html">c&oacute;mo
+                                                                               href="/help/how-upload-files-server-2.html">c&oacute;mo
         subir archivos al servidor mediante el gestor de FTP</a> and <a
-        href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html"
-        target="_blank">c&oacute;mo subir archivos a un servidor utilizando cPanel
+            href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html"
+            target="_blank">c&oacute;mo subir archivos a un servidor utilizando cPanel
         (WebHost Manager, WHM)</a>.</p>
 
 <h4>Instalar los datos de ejemplo</h4>
@@ -48,7 +51,7 @@
 
 <p class="alert alert-warning">Antes de continuar, por favor haga una copia de seguridad de su base de datos. Puede
     revisar el video tutorial detallado sobre <a
-        target="_blank" href="/help/phpmyadmin-how-to-backup-a-database.html">c&oacute;mo
+            target="_blank" href="/help/phpmyadmin-how-to-backup-a-database.html">c&oacute;mo
         hacer copia de una base de datos</a>.</p>
 
 

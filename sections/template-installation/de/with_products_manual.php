@@ -1,5 +1,7 @@
 <h3>Manuelle Installation der Vorlage mit Demodaten</h3>
-
+<p class="alert alert-info custom">Wenn Sie einiges an Zeit sparen möchten, <span class="label label-warning opener"
+                                                                                  onclick="showChat()">bestellen</span>
+    Sie den Installationsservice für Ihr Theme in unserem Online-Chat.</p>
 <p>Nachdem Sie <strong>Demodaten</strong> installiert haben, wird Ihr Online-Shop von
     PrestaShop wie auf der Demoversion aussehen. Er wird alle Produkte, Kategorien,
     Einstellungen für Module und den Online-Shop enthalten.</p>
@@ -23,10 +25,10 @@
     </li>
 </ol>
 <p class="alert alert-info">Sie können auch die ausführlichen Video-Tutorials anschauen <a target="_blank"
-                                                                  href="/help/how-upload-files-server-2.html">wie
+                                                                                           href="/help/how-upload-files-server-2.html">wie
         lädt man die Dateien auf den Server per FTP-Kunde hoch</a> und <a
-        href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html"
-        target="_blank">wie lädt man die Dateien auf den Server per cPanel (WebHost
+            href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html"
+            target="_blank">wie lädt man die Dateien auf den Server per cPanel (WebHost
         Manager, WHM)</a> hoch.</p>
 
 <h4>Installation von Demodaten</h4>
@@ -42,7 +44,7 @@
 
 <p class="alert alert-warning">Bevor Sie anfangen die Dateien zu importieren, erstellen Sie die Sicherungskopie der
     Datenbank. Sie können sich das ausführliche Video-Tutorial darüber anschauen <a
-        target="_blank" href="/help/phpmyadmin-how-to-backup-a-database.html">wie
+            target="_blank" href="/help/phpmyadmin-how-to-backup-a-database.html">wie
         erstellt man die Sicherungskopie der Datenbank</a>.</p>
 
 
