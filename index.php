@@ -63,6 +63,15 @@ if (!isset($sections)) {
 <?php else: ?>
     <!-- Domain doesn't match. Google Tag Manager no added -->
 <?php endif; ?>
+<!-- Chat ======================================================== -->
+<div class="zemez-chat-wrap">
+    <form class="zemez-chat" id="zemez-chat" method="GET">
+        <i id="zemez-chat-close" onclick="closeChat()"></i>
+        <input type="text" placeholder="Name:" name="uname" id="uname">
+        <input type="email" placeholder="Email Address:" name="umail" id="umail">
+        <span onclick="startChat()">Start chat</span>
+    </form>
+</div>
     
 <div class="page-wrap">
     <div class="rd-mobilemenu active">
@@ -72,7 +81,7 @@ if (!isset($sections)) {
         <div class="panel">
             <div class="select select-version">
                 <select>
-                    <option data-href="#" selected>Version v1-3</option>
+                    <option data-href="#" selected>Version v1-4</option>
                     <option data-href="//info.template-help.com/help/quick-start-guide/prestashop-themes/v1-4/index_en.html">Version v1-4</option>
                     <option data-href="//info.template-help.com/help/quick-start-guide/prestashop-themes/v1-2/index_en.html">Version v1-2</option>
                     <option data-href="//info.template-help.com/help/quick-start-guide/prestashop-themes/v1-1/index_en.html">Version v1-1</option>
