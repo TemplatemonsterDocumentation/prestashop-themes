@@ -1,6 +1,8 @@
 <h3>Installation automatique avec des données de démo (Installeur de données
     d'exemple)</h3>
-
+<p class="alert alert-info custom">Si vous ne voulez pas passer votre temps à installer le template, n'hésitez pas à
+    <span class="label label-warning opener" onclick="showChat()">commander</span> le service d'installation via notre
+    chat en direct.</p>
 <p>Après avoir installé les <strong>données d'exemple</strong>, votre boutique
     PrestaShop aura le même aspect que la live demo du template. Elle contiendra les
     produits de démo, les catégories, les modules et les paramètres de boutique.</p>

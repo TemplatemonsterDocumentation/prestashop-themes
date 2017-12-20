@@ -1,6 +1,8 @@
 <h3>Установка шаблона вручную с использованием
     демо-данных</h3>
-
+<p class="alert alert-info custom">Если Вы не хотите тратить Ваше время на установку шаблона, вы всегда можете <span
+            class="label label-warning opener" onclick="showChat()">заказать</span> услугу установки шаблона используя
+    наш чат.</p>
 <p>После установки <strong>демо-данных</strong>, ваш магазин PrestaShop будет выглядеть
     точь-в-точь как на демо. Он будет содержать все образцы товаров, категорий,
     настройки модулей и магазина.</p>
@@ -26,8 +28,8 @@
 <p class="alert alert-info">Вы можете посмотреть детальные видео туториалы <a target="_blank"
                                                                               href="/help/how-upload-files-server-2.html">как
         загрузить файлы на сервер при помощи FTP-клиента</a> и <a
-        href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html"
-        target="_blank">как загрузить файлы на сервер через cPanel (WebHost Manager,
+            href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html"
+            target="_blank">как загрузить файлы на сервер через cPanel (WebHost Manager,
         WHM)</a>.</p>
 
 <h4>Установка демо-данных</h4>
@@ -44,7 +46,7 @@
 
 <p class="alert alert-warning">Перед началом импорта сделайте резервную копию базы данных. Вы можете посмотреть
     детальный видео туториал <a
-        target="_blank" href="/help/phpmyadmin-how-to-backup-a-database.html">как
+            target="_blank" href="/help/phpmyadmin-how-to-backup-a-database.html">как
         создать резервную копию базы данных</a>.</p>
 
 
