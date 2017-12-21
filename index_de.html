@@ -1,430 +1,619 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PrestaShop Documentation v1-2</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/bootstrap.css" media="screen">
-  <link rel="stylesheet" href="css/responsive.css" media="screen">
-  <link rel="stylesheet" href="css/style.css" media="screen">
-  <link rel="stylesheet" href="css/prettify.css"  media="screen">
-  <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/prestashop-themes/master/index_en.html"/>
-  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css"> 
-  <script src="js/jquery.js"></script>
-  <script src="js/jquery.scrollTo.js"></script>
-  <script src="js/prettify.js"></script>
-  <script src="js/jquery-migrate-1.1.0.js"></script>
-  <script src="js/bootstrap-affix.js"></script>
-  <script src="js/script.js"></script>    
+    <title>PrestaShop Documentation v1-2</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="css/responsive.css" media="screen">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    <link rel="stylesheet" href="css/prettify.css" media="screen">
+    <link rel="canonical"
+          href="http://www.templatemonster.com/help/quick-start-guide/prestashop-themes/master/index_en.html"/>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all"
+          rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/prettify.js"></script>
+    <script src="js/jquery-migrate-1.1.0.js"></script>
+    <script src="js/bootstrap-affix.js"></script>
+    <script src="js/script.js"></script>
 
     <!--[if lt IE 8]>
-  		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg"border="0"alt=""/></a></div>  
- 	  <![endif]-->
+    <div style='text-align:center'><a
+            href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img
+            src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" alt=""/></a>
+    </div>
+    <![endif]-->
     <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
+    <script src="js/html5shiv.js"></script>
     <![endif]-->
 </head>
 
-<body>  
-
+<body>
+<!-- Chat ======================================================== -->
+<div class="zemez-chat-wrap">
+    <form class="zemez-chat" id="zemez-chat" method="GET">
+        <i id="zemez-chat-close" onclick="closeChat()"></i>
+        <input type="text" placeholder="Name:" name="uname" id="uname">
+        <input type="email" placeholder="Email Address:" name="umail" id="umail">
+        <span onclick="startChat()">Start chat</span>
+    </form>
+</div>
 <!-- header
 ================================================== -->
 <header class="header">
-  <div class="container">
-  <div class="row">
-  <article class="span4"><a class="brand" href="/help/de/" target="_blank"></a></article>
- <article class="span6">
- <h1><img alt="" src="img/presta_logo.png"> &nbsp;Dokumentation</h1>
-  </article> 
-  <article class="span2">
-    <div id="languages" class="select-menu pull-right">
-		<div id="lang_icon" class="select-menu_icon"><b>De</b><i class="icon-angle-down"></i></div>
-		<ul id="lang_list" class="select-menu_list">
-			<li><a href="index_en.html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
-			<!--li><a href="index_fr.html"><span>Français </span><img src="img/flags/fr.jpg" height="14" width="22" alt="fr"></a></li-->
-			<li><a href="index_es.html"><span>Español </span><img src="img/flags/es.png" height="14" width="22" alt="es"></a></li>
-			<li class="active"><a href="index_de.html"><span>Deutsch </span><img src="img/flags/de.png" height="14" width="22" alt="de"></a></li>
-			<li><a href="index_ru.html"><span>Русский </span><img src="img/flags/ru.png" height="14" width="22" alt="ru"></a></li>
-		</ul>
+    <div class="container">
+        <div class="row">
+            <article class="span4"><a class="brand" href="/help/de/" target="_blank"></a></article>
+            <article class="span6">
+                <h1><img alt="" src="img/presta_logo.png"> &nbsp;Dokumentation</h1>
+            </article>
+            <article class="span2">
+                <div id="languages" class="select-menu pull-right">
+                    <div id="lang_icon" class="select-menu_icon"><b>De</b><i class="icon-angle-down"></i></div>
+                    <ul id="lang_list" class="select-menu_list">
+                        <li><a href="index_en.html"><span>English </span><img src="img/flags/gb.png" height="14"
+                                                                              width="22" alt="en"></a></li>
+                        <!--li><a href="index_fr.html"><span>Français </span><img src="img/flags/fr.jpg" height="14" width="22" alt="fr"></a></li-->
+                        <li><a href="index_es.html"><span>Español </span><img src="img/flags/es.png" height="14"
+                                                                              width="22" alt="es"></a></li>
+                        <li class="active"><a href="index_de.html"><span>Deutsch </span><img src="img/flags/de.png"
+                                                                                             height="14" width="22"
+                                                                                             alt="de"></a></li>
+                        <li><a href="index_ru.html"><span>Русский </span><img src="img/flags/ru.png" height="14"
+                                                                              width="22" alt="ru"></a></li>
+                    </ul>
+                </div>
+                <div id="versions" class="select-menu pull-right">
+                    <div class="select-menu_icon"><b>v1-2</b><i class="icon-angle-down"></i></div>
+                    <ul class="select-menu_list">
+                        <li class="active"><a href="/help/quick-start-guide/prestashop-themes/v1-2/index_en.html"><span>v1-2</span></a>
+                        </li>
+                        <li><a href="/help/quick-start-guide/prestashop-themes/v1-1/index_en.html"><span>v1-1</span></a>
+                        </li>
+                        <li><a href="/help/quick-start-guide/prestashop-themes/v1-0/index_en.html"><span>v1-0</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </div>
     </div>
-	<div id="versions" class="select-menu pull-right">
-		<div class="select-menu_icon"><b>v1-2</b><i class="icon-angle-down"></i></div>
-		<ul class="select-menu_list">
-			<li class="active"><a href="/help/quick-start-guide/prestashop-themes/v1-2/index_en.html"><span>v1-2</span></a></li>
-      <li><a href="/help/quick-start-guide/prestashop-themes/v1-1/index_en.html"><span>v1-1</span></a></li>
-			<li><a href="/help/quick-start-guide/prestashop-themes/v1-0/index_en.html"><span>v1-0</span></a></li>
-		</ul>
-	</div>
-  </article>  
-  </div>  	
-  </div>
 </header>
-<div id="content"> 
-<div class="bg-content-top">
-<div class="container">
+<div id="content">
+    <div class="bg-content-top">
+        <div class="container">
 
-<!-- Docs nav
-    ================================================== -->
-    <div class="row">
-      <div class="span3"> 
+            <!-- Docs nav
+                ================================================== -->
+            <div class="row">
+                <div class="span3">
 
-        <div id="nav_container">
-          <a href="javascript:;" id="affect_all">
+                    <div id="nav_container">
+                        <a href="javascript:;" id="affect_all">
             <span class="expand">
               <i class="icon-angle-down"></i>
-            </span>            
-            <span class="close">
+            </span>
+                            <span class="close">
               <i class="icon-angle-up"></i>
             </span>
-          </a>
-            <div class="clearfix"></div>    
-                <ul class="nav nav-list bs-docs-sidenav"  id="nav">
-                 
-                  <li class="nav-item item1">
-                    <dl class="slide-down">
-                       <dt><a href="#preparations" class="icon-check">Vorbereitungen</a></dt>  
-                       <dd></dd>                       
-                     </dl> 
-                  </li>           
-                  <li class="nav-item item2">
-                    <dl class="slide-down">
-                       <dt><a href="#engine_installation" class="icon-cog"><i class="icon-sample"></i>Engine installieren </a></dt>
-                         <dd>
-                           <ul class="list">          
-                            <li><a href="#server_requirements">Server Anforderungen</a></li>
-                            <li><a href="#downloading">Herunterladen</a></li>
-                            <li><a href="#extracting_files">Dateien entpacken</a></li>
-                            <li><a href="#upl_files">Dateien von der PrestaShop Engine hochladen</a></li>
-                            <li><a href="#ps_engine_install">PrestaShop Engine installieren</a></li>
-                            
-                           </ul> 
-                       </dd>
-                     </dl> 
-                  </li>
-                  <li class="nav-item item3">
-                    <dl class="slide-down">
-                       <dt><a href="#theme_installation" class="icon-cog"><i class="icon-sample"></i>Vorlage installieren </a> </dt>
-                         <dd>
-                           <ul class="list">          
-                            	<li><a href="#themeinstaller">Vorlage mit Hilfe vom 'themeinstallator' Modul installieren</a></li>
-                           		<li><a href="#without_products">Vorlage ohne  Beispieldaten installieren</a></li>
-                            	<li><a href="#with_products">Vorlage mit  Beispieldaten installieren</a></li>
-                            	<li><a href="#overdata">Vorlage über einen existierenden Shop installieren</a></li>
-                           </ul> 
-                       </dd>
-                     </dl> 
-                  </li> 
-                  <li class="nav-item item3">
-                    <dl class="slide-down">
-                       <dt><a href="#basictutorials" class="icon-cogs"><i class="icon-sample"></i>Basic-Tutorials </a></dt>
-                         <dd>
-                           <ul class="list">          
-                            	<li><a href="#changename">Wie man den Namen des Shops ändert</a></li>
-                                <!--li><a href="#header_links">Wie man Links vom Header bearbeitet</a></li-->
-                                <li><a href="#eddit_slider">Wie man einen Slider bearbeitet</a></li>
-                                <!--li><a href="#edditbanner">Wie man Banners bearbeitet</a></li-->
-                           </ul> 
-                       </dd>
-                     </dl> 
-                  </li>
-				  <li class="nav-item item3">
-                    <dl class="slide-down">
-                       <dt><a href="#cookiepolicy" class="icon-exclamation-sign">Cookies-Politik</a></dt>
-                         <dd></dd>
-                     </dl> 
-                  </li>
-                  <li class="nav-item item3">
-                    <dl class="slide-down">
-                       <dt><a href="#conclusion" class="icon-question-sign">Fazit </a></dt>
-                         <dd></dd>
-                     </dl> 
-                  </li>
-                </ul>
+                        </a>
+                        <div class="clearfix"></div>
+                        <ul class="nav nav-list bs-docs-sidenav" id="nav">
+
+                            <li class="nav-item item1">
+                                <dl class="slide-down">
+                                    <dt><a href="#preparations" class="icon-check">Vorbereitungen</a></dt>
+                                    <dd></dd>
+                                </dl>
+                            </li>
+                            <li class="nav-item item2">
+                                <dl class="slide-down">
+                                    <dt><a href="#engine_installation" class="icon-cog"><i class="icon-sample"></i>Engine
+                                        installieren </a></dt>
+                                    <dd>
+                                        <ul class="list">
+                                            <li><a href="#server_requirements">Server Anforderungen</a></li>
+                                            <li><a href="#downloading">Herunterladen</a></li>
+                                            <li><a href="#extracting_files">Dateien entpacken</a></li>
+                                            <li><a href="#upl_files">Dateien von der PrestaShop Engine hochladen</a>
+                                            </li>
+                                            <li><a href="#ps_engine_install">PrestaShop Engine installieren</a></li>
+
+                                        </ul>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li class="nav-item item3">
+                                <dl class="slide-down">
+                                    <dt><a href="#theme_installation" class="icon-cog"><i class="icon-sample"></i>Vorlage
+                                        installieren </a></dt>
+                                    <dd>
+                                        <ul class="list">
+                                            <li><a href="#themeinstaller">Vorlage mit Hilfe vom 'themeinstallator' Modul
+                                                installieren</a></li>
+                                            <li><a href="#without_products">Vorlage ohne Beispieldaten installieren</a>
+                                            </li>
+                                            <li><a href="#with_products">Vorlage mit Beispieldaten installieren</a></li>
+                                            <li><a href="#overdata">Vorlage über einen existierenden Shop
+                                                installieren</a></li>
+                                        </ul>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li class="nav-item item3">
+                                <dl class="slide-down">
+                                    <dt><a href="#basictutorials" class="icon-cogs"><i class="icon-sample"></i>Basic-Tutorials
+                                    </a></dt>
+                                    <dd>
+                                        <ul class="list">
+                                            <li><a href="#changename">Wie man den Namen des Shops ändert</a></li>
+                                            <!--li><a href="#header_links">Wie man Links vom Header bearbeitet</a></li-->
+                                            <li><a href="#eddit_slider">Wie man einen Slider bearbeitet</a></li>
+                                            <!--li><a href="#edditbanner">Wie man Banners bearbeitet</a></li-->
+                                        </ul>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li class="nav-item item3">
+                                <dl class="slide-down">
+                                    <dt><a href="#cookiepolicy" class="icon-exclamation-sign">Cookies-Politik</a></dt>
+                                    <dd></dd>
+                                </dl>
+                            </li>
+                            <li class="nav-item item3">
+                                <dl class="slide-down">
+                                    <dt><a href="#conclusion" class="icon-question-sign">Fazit </a></dt>
+                                    <dd></dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="span9">
+
+                    <!-- box-content
+                    ================================================== -->
+                    <div class="box-content">
+                        <!-- block-started
+                        ================================================== -->
+                        <section class="block-templates" id="preparations">
+                            <h2><i class="icon-check"></i>Vorbereitungen</h2>
+                            <p>Die PrestaShop E-Commerce Engine benötigt eine MySQL Datenbank, um die Daten zu
+                                speichern. Bevor Sie mit der Prestashop-Installation loslegen, stellen Sie sicher, dass
+                                Sie schon die MySQL Datenbank erstellt haben. Das erreichen Sie mit Ihrem
+                                Hosting-Control-Panel oder phpMyAdmin.</p>
+                            <p> Lesen Sie bitte das ausführliche Tutorial <a target="_blank"
+                                                                             href="/help/de/how-create-database.html">Wie
+                                man eine MySQL Datenbank erstellt </a>. Falls Sie Probleme haben, kontaktieren Sie Ihren
+                                Hosting-Provider für Hilfe. </p>
+                            <p> Während der Erstellung der MySQL Datenbank erhalten Sie die Datenbank-Details:
+                                Datenbank-Name, Benutzername, Passwort und Datenbank-Server. Speichern Sie diese
+                                Details, weil sie für die PrestaShop-Installation sehr benötig sind. </p>
+                        </section>
+
+                        <section class="block-templates" id="engine_installation">
+                            <h2><i class="icon-cog"></i> PrestaShop Engine installieren</h2>
+
+
+                            <article id="server_requirements">
+                                <h3>1. Server Anforderungen </h3>
+                                <p> Beachten Sie bitte, dass Ihr Hosting-Server die PrestaShop Anforderungen
+                                    entspricht:</p>
+                                <ol>
+                                    <li><b>System: </b> Unix, Linux oder Windows. Unix wird empfohlen.</li>
+                                    <li><b>Web Server: </b> Apache Web server 1.3 oder höher, Microsoft's IIS Web server
+                                        6.0 oder höher, und nginx 1.0 oder höher.
+                                    </li>
+                                    <li><b>PHP 5.2<b style="color:#ff0000">*</b></b> oder höher.</li>
+                                    <li><b>MySQL 5.0</b> oder höher.</li>
+                                    <li>Mindestens 32GB RAM auf Ihrem Server (64 Mb ist bequemer, je mehr desto
+                                        besser).
+                                    </li>
+                                </ol>
+                                <div class="box-info"><span> PrestaShop kann mit PHP 5.1 oder höher arbeiten, alle Versionen unter 5.2 sind mit Fehlern behaftet und schränken einige Funktionalitäten ein (z.B. ungültige Zeitzonen).</span>
+                                </div>
+                            </article>
+
+
+                            <article id="downloading">
+                                <h3>2. Herunterladen</h3>
+                                <p>Um Prestashop zu installieren, laden Sie das PrestaShop Engine Paket von offiziellen
+                                    Webseite <a target="_blank" href="http://www.prestashop.com/en/downloads">www.prestashop.com/en/downloads</a>
+                                    herunter</p>
+                                <p> Füllen Sie die Felder mit Ihrem Name und Ihrer E-Mail Adresse aus und klicken Sie
+                                    auf den Button <b>'Download' (Herunterladen) </b>. </p>
+                                <div class="box-notification"><span>Beachten Sie bitte, dass Ihre Version der PrestaShop Engine zu Template-Anforderungen passt.  Alle Versionen der Prestashop befinden sich hier: <a
+                                        class="spec_link" target="_blank"
+                                        href="http://sourceforge.net/projects/prestashop/files/prestashop%20v1/">SourceForge</a></span>.
+                                </div>
+
+                            </article>
+
+
+                            <article id="extracting_files">
+                                <h3>3. Dateien entpacken </h3>
+                                <p> Wenn Sie mit dem Download fertig sind, entpacken Sie die Dateien vom Prestashop
+                                    Engine Paket.</p>
+                                <p> Das erreichen Sie über einen Archiv Manager wie <b>WinZip(PC) </b>, <b>StuffitExpander(MAC) </b>
+                                    usw.</p>
+                                <p>Lesen Sie bitte das folgende Tutorial über wie man Dateien Archive via <a
+                                        target="_blank" href="/help/de/extract-archived-files-windows-os.html">WinZip(PC)</a>
+                                    und <a target="_blank" href="/help/de/extract-archived-files-mac-os.html">StuffitExpander(MAC)</a>
+                                    entpackt. </p>
+                                <div class="box-info"><span>Beachten Sie bitte: wenn Ihr Hosting-Control-Panel  die  Option <b>Entpacken von Dateien</b> hat, können Sie dank ihr die Dateien nach der Hochladen direkt auf den Server entpacken. </span>
+                                </div>
+                            </article>
+                            <article id="upl_files">
+                                <h3>4. Dateien von der PrestaShop Engine hochladen</h3>
+                                <p>Falls Sie die Dateien auf Ihrem Computer entpackt haben, sollen Sie die auf dem
+                                    Hosting-Server hochladen. </p>
+                                <p> Das erreichen Sie mit dem DateiManager vom Hosting-Control-Panel oder mit den FTP-
+                                    Manager-Applikationen von Drittanbietern so wie FileZilla, TotalCommander, CureFTP
+                                    usw.</p>
+                                <p> Sehen Sie jetzt das ausführliche Video-Tutorial an: <a target="_blank"
+                                                                                           href="/help/de/how-upload-files-server-2.html">Wie
+                                    man Dateien auf den Server mit Hilfe vom FTP Manager hochladet </a>und <a
+                                        target="_blank"
+                                        href="/help/de/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html">Wie
+                                    man Dateien auf den Server mit Hilfe vom cPanel hochladet (WebHost Manager, WHM)</a>.
+                                </p>
+                            </article>
+                            <article id="ps_engine_install">
+                                <h3>5. PrestaShop Engine installieren</h3>
+                                <p> Wenn Sie mit dem Datei-Upload fertig sind, fangen Sie mit der Installation von
+                                    Prestashop Engine an. Öffnen Sie Ihren Browser und tippen Sie in der Adressleiste '
+                                    Domainnamen /Pfad zu Ihrem PrestaShop Verzeichnis. Es erscheint sich ein
+                                    Begrüßungsfenster. Führen Sie bitte die folgenden Schritte aus, um PrestaShop zu
+                                    installieren. </p>
+
+                                <h4>Schritt 1: Installationsassistent (Wählen Sie Ihre Sprache aus)</h4>
+                                <p> Wählen Sie bitte die Sprache der Installation aus. </p>
+                                <div class="box-info"><span>Beachten Sie bitte: die Installation der Sprachoption betrifft die Sprache Ihres Shops nicht. Standardmäßig wird PrestaShop auf Englisch angeboten. Installieren Sie zusätzliche lokalisierte Pakete, um die Sprache des Shops zu ändern. </span>
+                                </div>
+                                <img class="presta_scr1" src="img/01-install.png" alt=""/>
+
+                                <p>Wenn Sie fertig sind, drücken Sie auf den Schalter 'Next/Weiter'.</p>
+                                <h4>Schritt 2: Installationsassistent (Nutzungsbedingungen)</h4>
+                                <p>Lesen Sie bitte die Nutzungsbedingungen.</p>
+                                <img class="presta_scr1" src="img/01-install-1.png" alt=""/>
+                                <p>Danach drücken Sie auf den Schalter 'Next/Weiter'.</p>
+
+
+                                <h4>Schritt 3: Systemkompatibilität </h4>
+                                <p>Prüfen Sie die PHP-Einstellungen und die Verzeichnis Berechtigungen. Falls Sie
+                                    Probleme haben, kontaktieren Sie Ihren Hosting-Provider für Hilfe </p>
+                                <img class="presta_scr1" src="img/02-install.png" alt=""/>
+                                <p>Wenn alles richtig ist, drücken Sie auf 'Next/Weiter'.</p>
+
+                                <h4>Schritt 4: Shop Konfiguration</h4>
+                                <p>Hier geben Sie die Shop-Einstellungen so wie: Shopname, Tätigkeit, Land, Zeitzone ein
+                                    und laden Sie Ihr Logo hoch. </p>
+                                <p> Später können Sie im PrestaShop Adminbereich alle diese Einstellungen ändern. </p>
+                                <img class="presta_scr1" src="img/04-install.png" alt=""/>
+                                <h4>Schritt 5: System Einstellungen</h4>
+                                <p>Wenn Sie schon eine MySQL Datenbank erstellt haben, füllen Sie bitte die folgende
+                                    Felder mit den passenden Datenbank-Informationen aus. </p>
+                                <p> In jedem Fall können Sie die benötige Datenbank-Informationen in Ihrem
+                                    Hosting-Control-Panel finden oder kontaktieren Sie einfach Ihren
+                                    Hosting-Provider.</p>
+                                <img class="presta_scr1" src="img/03-install.png" alt=""/>
+
+                                <p>Wenn Sie fertig sind, drücken Sie auf den Schalter 'Next/Weiter'.</p>
+                                <h4>Schritt 6: Installation wird abgeschlossen </h4>
+                                <p> Das ist der letzte Schritt der PrestaShop-Installation. </p>
+
+                                <img class="presta_scr1" src="img/05-install.png" alt=""/>
+                                <h3></h3>
+                                <div class="box-notification"><span>Aus Sicherheitsgründen löschen Sie bitte das <b>/install/</b> Verzeichnis auf Ihrem Hosting Server.</span>
+                                </div>
+                                <div class="box-info"><span>Ab Version 1.5.4 benennt PrestaShop den Administration Ordner selbst um: bekommt er das Word "admin" mit 4 Zehlen, z.B.    "admin8814". Er wird umbenennt sobald erreichen Sie erstmals den "admin" Ordner: PrestaShop benennt ihn um, und ruft den umbenennten Ordner. <br/><br/> Loggen Sie sich im PrestaShop Back-Office ein (dafür gehen Sie zum neu-umbenennten "admin" Ordner, und füllen Sie den Katalog mit Ihren Daten aus</span>
+                                </div>
+                                <p> Bei Schwierigkeiten lesen Sie die <a target="_blank"
+                                                                         href="http://doc.prestashop.com/display/PS16/Getting+Started">offizielle
+                                    PrestaShop Installation Anleitung</a>.</p>
+                            </article>
+
+                        </section>
+                        <section class="block-templates" id="theme_installation">
+                            <h2><i class="icon-cog"></i> PrestaShop Vorlage installieren</h2>
+                            <p class="alert alert-info custom">Wenn Sie einiges an Zeit sparen möchten, <span
+                                    class="label label-warning opener" onclick="showChat()">bestellen</span> Sie den
+                                Installationsservice für Ihr Theme in unserem Online-Chat.</p>
+                            <article id="themeinstaller">
+                                <h3>1. Vorlage mit Hilfe vom 'themeinstallator' Modul installieren</h3>
+                                <div class="box-info">
+                                    <span>Für diese  Methode braucht man keine Installation von Beispieldaten.</span>
+                                </div>
+                                <h4 id="template_installation_themeinstallator1">1. Template-Vorbereitung.</h4>
+                                <p>Bevor Sie losgehen, beachten Sie, dass Sie die Vorlage heruntergeladen haben und die
+                                    Dateien aus Vorlage-Paket mit Hilfe von <a target="_blank"
+                                                                               href="/help/de/unzipping-your-template.html">WinZip</a>
+                                    und <a target="_blank"
+                                           href="/help/de/how-unzip-template-mac.html">StuffitExpander</a> entpackt
+                                    haben.</p>
+                                <p>Nach dem Entpacken von Dateien können Sie anfangen die Vorlage hochzuladen.</p>
+                                <h4 id="template_installation_themeinstallator2">2. Installation.</h4>
+                                <p>Öffnen das PrestaShop Admin Panel, gehen Sie auf <b>Modules->Modules menu</b> (Module
+                                    -> Module Menü). Auf dieser Seite öffnen Sie den <b>Administration</b> Bereich. Hier
+                                    gibt es die Liste von verfügbaren Modulen. Finden den '<b>Import/export a theme</b>
+                                    v1.4' und klicken Sie auf <b>Configure</b>(Konfigurieren).</p>
+
+                                <img class="presta_scr2" src="img/05-install-2.png" alt=""/>
+                                <p></p>
+                                <p>Drücken den Schalter <b>Browse</b>(Durchsuchen) und suchen Sie nach den <b>"themeinstallator"</b>
+                                    Ordner innerhalb des Vorlage-Paketes, um den Archiv mit der Vorlage zu finden:</p>
+                                <p></p>
+                                <img class="presta_scr2" src="img/05-install-3.png" alt=""/>
+
+                                <p>Auf der nächsten Seite finden Sie die Information die Information über die
+                                    installierte Vorlage. Klicken auf <b>Next</b>(weiter).</p>
+
+                                <img class="presta_scr2" src="img/05-install-4.png" alt=""/>
+
+                                <p>Nach diesen Schritten erscheint sich die Meldung über die erfolgreiche Installation
+                                    Ihrer Vorlage und erscheint sich auch ein Menü mit den Module Einstellungen. Klicken
+                                    Sie auf <b>Next</b>(weiter).</p>
+
+                                <img class="presta_scr2" src="img/05-install-5.png" alt=""/>
+
+                                <p>Auf dem letzten Schritt finden Sie die Info über die Änderungen, die der Module
+                                    während der Installation erfüllt hat. Klicken auf <b>Finish</b>.</p>
+                                <p style="text-align:center;">
+                                    <img class="presta_scr2" src="img/05-install-6.png" alt=""/>
+                                </p>
+                            </article>
+                            <article id="without_products">
+                                <h3>2. Template ohne Beispieldaten installieren </h3>
+                                <p class="alert alert-info custom">Wenn Sie einiges an Zeit sparen möchten, <span
+                                        class="label label-warning opener" onclick="showChat()">bestellen</span> Sie den
+                                    Installationsservice für Ihr Theme in unserem Online-Chat.</p>
+
+                                <div class="box-info"><span>Diese Installationsmethode passt Ihnen, wenn Sie das Shop-Theme verändern möchten. Diese Methode schadet Ihre existierende Dateien oder Produkt-Datenbank nicht. </span>
+                                </div>
+                                <h4 id="template_installation_clear1">1. Dateien hochladen und Theme aktivieren </h4>
+                                <p>Bevor loslegen, beachten Sie bitte, dass Sie das Template schon heruntergeladen haben
+                                    und die Dateien vom Vorlage-Paket entpackt haben. Lesen Sie bitte das ausführliche
+                                    Tutorial über wie man Dateien vom Vorlage Paket mit Hilfe von <a target="_blank"
+                                                                                                     href="/help/de/unzipping-your-template.html">WinZip</a>
+                                    und <a target="_blank"
+                                           href="/help/de/how-unzip-template-mac.html">StuffitExpander</a> entpackt.
+                                </p>
+                                <p> Nachdem die Dateien extrahiert wurden, laden Sie die Vorlage hoch. </p>
+                                <p>Schauen Sie bitte das ausführliche Video-Tutorial an: <a target="_blank"
+                                                                                            href="/help/de/how-upload-files-server-2.html">Wie
+                                    man Dateien auf den Server mit Hilfe vom FTP Manager hochladet </a> und <a
+                                        target="_blank"
+                                        href="/help/de/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html">Wie
+                                    man Dateien auf dem Server via cPanel (WebHost Manager, WHM) hochladet</a>.</p>
+                                <ol>
+                                    <li> Öffnen den Ordner der Vorlage.</li>
+                                    <li>Dann gehen Sie zum <b>/theme/</b> Ordner.</li>
+                                    <li>Laden Sie die Ordners <b>/img/ </b>, <b> /modules/</b> und <b>/themes/</b> im
+                                        PrestaShop Root-Verzeichnis hoch.
+                                    </li>
+                                    <li> Nach dem Hochladen öffnen Sie den PrestaShop Adminbereich.</li>
+                                    <li>Im Hauptmenü gehen Sie auf <b>Preferences/ Einstellungen > Appearance/
+                                        Aussehen </b>.
+                                    </li>
+                                    <li> Im <b>Themes</b> Bereich wählen Sie Ihre Vorlage aus und drücken Sie auf dem
+                                        Button <b>Save/Speichern</b>.
+                                    </li>
+                                </ol>
+                                <p> Ihr neues Theme soll aktiv sein. Jetzt konfigurieren wir die Module. </p>
+
+                                <h4 id="template_installation_clear2">2. Module installieren und konfigurieren </h4>
+                                <p> Jede Vorlage hat einige spezifische Einstellungen von Module. Konfigurieren Sie die
+                                    Module, damit sie gleich wie in der Demo aussehen. Alle Module können im PrestaShop
+                                    AdminBereich konfiguriert werden. </p>
+                                <p><b>1. Im PrestaShop Admin-Bereich wählen Sie aus dem Hauptmenü Modules > Modules
+                                    (Module >Module)aus. </b></p>
+                                <p>Auf der Modules Seite gibt es die Liste von verfügbaren PrestaShop Module.
+                                    Möglicherweise müssen Sie einige von Ihnen installieren. </p>
+                                <p>Um den Modul zu installieren, finden Sie ihn in der Liste und drücken Sie auf den
+                                    Button <b>'Install/installieren'</b>:</p>
+
+                                <img class="presta_scr2" src="img/06-modules.png" alt=""/>
+                                <p></p>
+                                <p>Nach der korrekten Installation bekommen Sie die folgende Nachricht:</p>
+                                <img class="presta_scr2" src="img/07-modules.png" alt=""/>
+                                <p></p>
+                                <p> Mit den Modul Links können Sie Module aktivieren (<b>Enable/Aktivieren</b>|<b>Disable/
+                                    Deaktivieren</b> Links), Einstellungen auf die Standardwerte zurücksetzen (<b>Reset/Zurücksetzen</b>
+                                    Link), Modul löschen (<b>Delete/Löschen</b> Link) oder sie konfigurieren (<b>Configure/
+                                        Konfiguration </b> Link).</p>
+                                <img class="presta_scr2" src="img/08-modules.png" alt=""/>
+                                <p></p>
+                                <p><b>2. Nach der Aktivierung von alle benötige Module weisen Sie ihnen korrekten
+                                    Positionen zu. </b></p>
+                                <p> Im PrestaShop AdminBereich fahren Sie mit ihrer Maus über den Punkt <b>
+                                    Modules/Module</b> und klicken anschließend im Untermenü auf
+                                    <b>Positions/Positionen </b>. Um den Modul im benötigen Position sitzen zu lassen,
+                                    ziehen Sie ihn einfach zum Position-Bereich der Modul-Liste.</p>
+                                <img class="presta_scr2" src="img/09-modules.png" alt=""/>
+                                <p></p>
+                                <div class="box-info" style="margin-bottom:0;"><span>Nach den Änderungen müssen Sie manchmal die Bilder neu generieren. Das erreichen Sie im Bereich <b>Regenerate thumbnails/ Artikelbilder neu generieren</b>. </span>
+                                </div>
+                            </article>
+                            <article id="with_products">
+                                <h3>3. Template mit Beispieldaten installieren</h3>
+                                <p class="alert alert-info custom">Wenn Sie einiges an Zeit sparen möchten, <span
+                                        class="label label-warning opener" onclick="showChat()">bestellen</span> Sie den
+                                    Installationsservice für Ihr Theme in unserem Online-Chat.</p>
+                                <p>Nach der Installation von <b>Beispieldateien</b> wird Ihr PrestaShop ähnlich wie auf
+                                    der Vorschauseite aussehen. Dort gibt es alle Beispielprodukte, Einstellungen vom
+                                    Shop und von Module usw. </p>
+                                <div class="box-error"><span>Verwenden Sie keine Beispieldateien, wenn Sie eine aktive Webseite haben! Dies überschreibt alle Artikel und Einstellungen Ihres Shops.</span>
+                                </div>
+
+                                <h4 id="template_installation_sample1">1. Dateien der Vorlage hochladen</h4>
+                                <p>Damit Sie eine Vorlage auf den Server hochladen</p>
+                                <ol class="list">
+                                    <li> Öffnen Sie das Vorlage-Paket</li>
+                                    <li> Dann gehen Sie zum <b>/theme/</b> Ordner</li>
+                                    <li> Im Presta Shop Root-Verzeichnis laden Sie die Ordner <b>/img/</b>,
+                                        <b>/modules/</b> und <b>/themes/</b></li>
+                                </ol>
+                                <p>Schauen Sie die ausführliche Video-Tutorials an: <a target="_blank"
+                                                                                       href="/help/de/how-upload-files-server-2.html">Wie
+                                    man Dateien auf den Server mit Hilfe vom FTP Manager hochladet </a> und <a
+                                        href="/help/de/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html"
+                                        target="_blank">Wie man Deteien via cPanel hochladet (WebHost Manager, WHM)</a>.
+                                </p>
+                                <h4 id="template_installation_sample2">2.
+                                    Beispieldateien installieren</h4>
+                                <p> Beispieldateien werden wie eine .SQL Datei geliefert. Die befindet sich im <b>/sources/</b>
+                                    Ordner vom Vorlage-Paket und hat normalerweise den Namen <b>dump.sql</b></p>
+                                <p>Die dump.sql Datei können Sie mit phpMyAdmin oder mit dem
+                                    Datenbank-Managementinstrument von Ihrem Hosting-Control-Panel. Das ausführliche
+                                    Tutorial <a target="_blank"
+                                                href="/help/de/phpmyadmin-how-to-import-sample-data-dump-file-phpmyadmin.html">Wie
+                                        man SQL Dateien installiert </a> kann Ihnen dabei helfen. </p>
+                                <div class="box-notification"><span>Bevor Sie loslegen, erstellen Sie die Sicherungskopie Ihrer Datenbank. Schauen Sie das ausführliche Video-Tutorial an<a
+                                        target="_blank" href="/help/de/phpmyadmin-how-to-backup-a-database.html">Wie man ein Backup von Datenbank macht</a>.</span>
+                                </div>
+                                <p></p>
+
+                                <div class="box-notification"><span>Beachten Sie bitte, dass Ihre Version der PrestaShop Engine alle Vorlage-Anforderungen entspricht. Sonst könnte die Datenbank beschädigt werden.</span>
+                                </div>
+                                <p>Nach der Installation der dump.sql Datei, aktivieren Sie das Template.</p>
+                                <p>Im PrestaShop Adminbereich gehen Sie auf <b>Preferences/Einstellungen > Appearance/
+                                    Design</b>, wählen Sie im <b>Themes</b> Bereich Ihre Vorlage aus und drücken Sie auf
+                                    <b>Save/Speichern</b>.</p>
+
+                                <h4 id="template_installation_sample2">Sprachen zum Online-Shop hinzufügen. </h4>
+                                <p>Nach der Installation die mehrsprachige Vorlage sollen Sie alle Sprachen, die Ihre
+                                    Vorlage hat (English, Französisch, Spanish, Deutsch, Russisch), in der OnlineShop-
+                                    Plattform einbauen. So erreichen Sie das: </p>
+                                <p>Im Admin Panel gehen Sie auf <b>'Localization > Translations'</b> ('Localization >
+                                    Übersetzungen). Dort finden Sie <b>'Translation exchange'</b>, und wählen Sie per
+                                    DropDown-Menü Sprachen aus, um sie hinzuzufügen und drücken Sie den Button <b>'Add
+                                        or update a language'</b>(eine Sprache hinzufügen oder aktualisieren). </p>
+                                <img class="presta_scr2" alt="" src="img/01-language-update.png"/>
+                                <p>Falls Sie einige Sprache nicht hinzufügen möchten, löschen Sie die im Menü <b>'Localization
+                                    > Languages'</b>(Localization > Sprachen) oder schalten Sie die aus. </p>
+                                <img class="presta_scr2" alt="" src="img/02-language-update.png"/>
+                            </article>
+                            <article id="overdata">
+                                <h3>4. Template über einen existierenden Shop installieren </h3>
+                                <div class="box-info"><span>Diese Installationsmethode passt Ihnen, wenn Sie die aktive PrestaShop Webseite haben und nun eine neue Vorlage installieren möchten. </span>
+                                </div>
+
+                                <h4 id="template_installation_over1">1. Dateien hochladen und Theme aktivieren </h4>
+                                <ol>
+                                    <li>Öffnen Sie den Ordner der Vorlage.</li>
+                                    <li>Danach gehen Sie zum <b>/theme/</b> Ordner.</li>
+                                    <li> Im PrestaShop Root-Verzeichnis laden Sie die Ordner <b>/modules/</b> und <b>/themes/</b>
+                                    </li>
+                                    <li> Im Vorlage-Paket öffnen Sie den <b>/img/</b> Ordner und laden Sie dann Die
+                                        Dateien <b>logo.jpg</b>, <b>favicon.ico</b> im <b>/img/</b> Ordner Ihrer
+                                        PrestaShop Installation
+                                    </li>
+                                    <li>Im PrestaShop AdminBereich gehen auf <b>Preferences > Themes</b>, wählen Sie
+                                        Ihre Vorlage im <b>Themes</b> Bereich aus und drücken Sie schließend auf <b>Save/Speichern</b>.
+                                    </li>
+                                </ol>
+                                <p>Schauen Sie die ausführliche Video-Tutorials an: <a target="_blank"
+                                                                                       href="/help/de/how-upload-files-server-2.html">Wie
+                                    man Dateien auf den Server mit Hilfe vom FTP Manager hochladet </a> und <a
+                                        href="/help/de/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html"
+                                        target="_blank">Wie man Deteien via cPanel hochladet (WebHost Manager, WHM)</a>.
+                                </p>
+                                <h4 id="template_installation_over2">2. Module installieren</h4>
+                                <p>Im PrestaShop AdminBereich konfigurieren Sie Module wie es im Bereich <b>Vorlage ohne
+                                    Beispieldaten installieren ->Module installieren und konfigurieren</b> dieser
+                                    Anleitung beschreiben wird. </p>
+                                <div class="box-error"><span>Verwenden Sie keine Beispieldateien, wenn Sie eine aktive Webseite haben, weil alle Artikel und Einstellungen Ihres Shops überschreiben werden. .</span>
+                                </div>
+                                <h4 id="template_installation_clear">3. Bilder konfigurieren</h4>
+                                <div class="box-notification"><span>Öffnen Sie Ihr PrestaShop Admin Panel und konfigurieren Sie die Bilder wie es im Bereich <b>Vorlage ohne Beispieldaten installieren ->Bilder konfigurieren</b> dieser Anleitung beschreiben wird.</span>
+                                </div>
+                            </article>
+                        </section>
+                        <section class="block-templates" id="basictutorials">
+                            <h2><i class="icon-cogs"></i>Basic-Tutorials</h2>
+                            <article id="changename">
+                                <h3>1. Wie ändert man den Namen des Shops </h3>
+
+                                <p>Um den Titel des Shops zu verändern, gehen Sie bitte im PrestaShop AdminBereich auf
+                                    <strong>Preferences/Einstellungen > Contact Information/ Kontakt Info</strong>.</p>
+
+                                <p>Im Feld <strong>Shop Name</strong> geben Sie den Namen Ihres Shops ein und drücken
+                                    Sie dann auf den Button <strong>Save/Speichern</strong>.</p>
+                                <img class="presta_scr2" src="img/10-shop_name.png" alt=""/>
+                            </article>
+                            <!--article id="header_links">
+                                <h3 id="basic_tutorials2">2. Wie bearbeitet man Links vom Header und vom Footer</h3>
+                            <p> Lesen Sie bitte das ausführliche Tutorial: <a target="_blank" href="/help/de/prestashop-1-5-x-how-to-manage-footer-and-header-links.html">Wie man Links bearbeitet </a>.</p>
+                            </article-->
+                            <article id="eddit_slider">
+                                <h3 id="basic_tutorials4">2. Wie man einen Slider bearbeitet </h3>
+                                <p>Um die Slider-Bilder zu bearbeiten, finden Sie den <b>Image slider for your
+                                    homepage</b> Modul auf der <strong>Modules</strong> Site von PrestaShop. Er befindet
+                                    sich im Modul-Bereich <b>Front Office Features </b> (Werbung u. Marketing). Drücken
+                                    Sie auf den <strong>Configure/Konfigurieren</strong> Button, um den Modul zu
+                                    bearbeiten. </p>
+                                <img class="presta_scr2" src="img/12-slider-1.png" alt=""/>
+                                <p>Auf der Einstellungsseite des Modules ändern Sie die Optionen des Sliders (wie die
+                                    Breite, Geschwindigkeit, usw.) und bearbeiten Sie Folien (Bilder für Folioen, URLs,
+                                    Beschreibungen, usw.).</p>
+                                <img class="presta_scr2" src="img/12-slider-2.png" alt=""/>
+                            </article>
+                        </section>
+                        <section class="block-templates" id="cookiepolicy">
+                            <h2><i class="icon-exclamation-sign"></i> Cookies-Politik</h2>
+                            <p>Nach der Cookie-Richtlinie müssen Sie entsprechende Modulen auf Ihre Website hinzufügen,
+                                die benachrichtigen, sobald Cookies verwendet werden. Wir empfehlen folgendes:</p>
+                            <ul>
+                                <li><a target="_blank"
+                                       href="http://addons.prestashop.com/en/front-office-features-prestashop-modules/8704-eu-cookie-law.html">Module
+                                    EU Cookie Law</a></li>
+                                <li><a target="_blank"
+                                       href="http://addons.prestashop.com/en/administration-tools-prestashop-modules/10376-alert-for-eu-cookie-law.html">Module
+                                    Alert for EU Cookie Law</a></li>
+                            </ul>
+                        </section>
+                        <section class="block-templates" id="conclusion">
+                            <h2><i class="icon-question-sign"></i> Conclusion</h2>
+                            <h4 id="useful_resources">Nützliche Quellen</h4>
+                            <ul>
+                                <li><a target="_blank" href="http://www.prestashop.com/">Offizielle Seite von
+                                    PrestaShop </a></li>
+                                <!--li><a target="_blank" href="/help/de/ecommerce/prestashop/prestashop-tutorials/">PrestaShop Tutorials</a></li-->
+                                <li><a target="_blank" href="http://www.prestashop.com/en/downloads/">Downloads</a></li>
+                                <li><a target="_blank" href="http://addons.prestashop.com/en/"> Add-ons: Module, Themes,
+                                    usw.</a></li>
+                                <li><a target="_blank"
+                                       href="http://doc.prestashop.com/display/PS16/English+documentation">Dokumentation
+                                    auf Englisch</a></li>
+                                <li><a target="_blank" href="http://www.prestashop.com/forums/">Forum</a></li>
+                                <li><a target="_blank" href="http://www.prestashop.com/wiki/">Wiki</a></li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
             </div>
-    </div> 
 
-      
-<div class="span9">
-
-<!-- box-content
-================================================== -->
-<div class="box-content">
-<!-- block-started
-================================================== -->
-<section class="block-templates" id="preparations">  
-  <h2><i class="icon-check"></i>Vorbereitungen</h2>
-  <p>Die PrestaShop E-Commerce Engine benötigt eine MySQL Datenbank, um die Daten zu speichern. Bevor Sie mit der Prestashop-Installation loslegen, stellen Sie sicher, dass Sie schon die MySQL Datenbank erstellt haben. Das erreichen Sie mit Ihrem Hosting-Control-Panel oder phpMyAdmin.</p>
-<p> Lesen Sie bitte das ausführliche Tutorial <a target="_blank" href="/help/de/how-create-database.html">Wie man eine MySQL Datenbank erstellt </a>. Falls Sie Probleme haben, kontaktieren Sie Ihren Hosting-Provider für Hilfe. </p>
-	<p> Während der Erstellung der MySQL Datenbank erhalten Sie die Datenbank-Details: Datenbank-Name, Benutzername, Passwort und Datenbank-Server. Speichern Sie diese Details, weil  sie für die PrestaShop-Installation sehr benötig sind. </p>
-</section>
-
-<section class="block-templates" id="engine_installation">  
-  <h2><i class="icon-cog"></i> PrestaShop Engine installieren</h2>
-
-  
-  <article id="server_requirements">
-  <h3>1. Server Anforderungen </h3>
-	<p> Beachten Sie bitte, dass Ihr Hosting-Server die PrestaShop Anforderungen entspricht:</p>
-	<ol>
-		<li><b>System: </b> Unix, Linux oder Windows. Unix wird empfohlen.</li>
-		<li><b>Web Server: </b> Apache Web server 1.3 oder höher, Microsoft's IIS Web server 6.0 oder höher, und nginx 1.0 oder höher.</li>
-		<li><b>PHP 5.2<b style="color:#ff0000">*</b></b> oder höher.</li>
-		<li><b>MySQL 5.0</b>  oder höher.</li>
-		<li>Mindestens 32GB RAM auf Ihrem Server (64 Mb ist bequemer, je mehr desto besser). </li>
-	</ol>
-	<div class="box-info"><span> PrestaShop kann mit PHP 5.1 oder höher arbeiten, alle Versionen unter 5.2 sind mit Fehlern behaftet und schränken einige Funktionalitäten ein (z.B. ungültige Zeitzonen).</span></div> 
-	</article>
-    
-
-  <article id="downloading">
-    <h3>2. Herunterladen</h3>
-	<p>Um Prestashop zu installieren, laden Sie das PrestaShop Engine Paket von offiziellen Webseite <a target="_blank" href="http://www.prestashop.com/en/downloads">www.prestashop.com/en/downloads</a> herunter</p>
-<p> Füllen Sie die Felder mit Ihrem Name und Ihrer E-Mail Adresse aus und klicken Sie auf den Button <b>'Download' (Herunterladen) </b>. </p> 
- 	<div class="box-notification"><span>Beachten Sie bitte, dass Ihre Version der PrestaShop Engine zu Template-Anforderungen passt.  Alle Versionen der Prestashop befinden sich hier: <a class="spec_link" target="_blank" href="http://sourceforge.net/projects/prestashop/files/prestashop%20v1/">SourceForge</a></span>.</div>
-
-  </article>
-
-  
-  <article id="extracting_files">
-    <h3>3. Dateien entpacken </h3>
-	<p> Wenn Sie mit dem Download fertig sind, entpacken Sie die Dateien vom Prestashop Engine Paket.</p>
-	<p> Das erreichen Sie über einen Archiv Manager wie  <b>WinZip(PC) </b>, <b>StuffitExpander(MAC) </b>  usw.</p> 
-	<p>Lesen Sie bitte das folgende Tutorial über wie man Dateien Archive via <a target="_blank" href="/help/de/extract-archived-files-windows-os.html">WinZip(PC)</a> und <a target="_blank" href="/help/de/extract-archived-files-mac-os.html">StuffitExpander(MAC)</a> entpackt. </p>
-	<div class="box-info"><span>Beachten Sie bitte: wenn Ihr Hosting-Control-Panel  die  Option <b>Entpacken von Dateien</b> hat, können Sie dank ihr die Dateien nach der Hochladen direkt auf den Server entpacken. </span></div>
-  </article>
-  <article id="upl_files">
-    <h3>4. Dateien von der PrestaShop Engine hochladen</h3> 
-	<p>Falls Sie die Dateien auf Ihrem Computer entpackt haben, sollen Sie die auf dem Hosting-Server hochladen.  </p>
-	<p> Das erreichen Sie mit dem DateiManager vom Hosting-Control-Panel oder mit den FTP- Manager-Applikationen von Drittanbietern so wie FileZilla, TotalCommander, CureFTP usw.</p>
-	<p> Sehen Sie jetzt das ausführliche Video-Tutorial an: <a target="_blank" href="/help/de/how-upload-files-server-2.html">Wie man Dateien auf den Server mit Hilfe vom FTP Manager hochladet </a>und <a target="_blank" href="/help/de/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html">Wie man Dateien auf den Server mit Hilfe vom cPanel hochladet (WebHost Manager, WHM)</a>.</p>
-  </article>
-  <article id="ps_engine_install">
-    <h3>5. PrestaShop Engine installieren</h3>
-<p> Wenn Sie mit dem Datei-Upload fertig sind, fangen Sie mit der Installation von Prestashop Engine an. Öffnen Sie Ihren Browser und tippen Sie in der Adressleiste  ' Domainnamen /Pfad zu Ihrem PrestaShop Verzeichnis.  Es erscheint sich ein Begrüßungsfenster. Führen Sie bitte die folgenden Schritte aus, um PrestaShop zu installieren. </p>
-
-	<h4>Schritt 1: Installationsassistent  (Wählen Sie Ihre Sprache aus)</h4>
-		<p> Wählen Sie bitte  die Sprache der Installation  aus. </p>
-	 	<div class="box-info"><span>Beachten Sie bitte: die Installation der Sprachoption betrifft die Sprache Ihres Shops nicht. Standardmäßig wird PrestaShop auf Englisch angeboten. Installieren Sie zusätzliche lokalisierte Pakete, um die Sprache des Shops zu ändern. </span></div>
-    	<img class="presta_scr1" src="img/01-install.png" alt="" />
-
-		<p>Wenn Sie fertig sind, drücken Sie auf den Schalter 'Next/Weiter'.</p>
-    <h4>Schritt 2: Installationsassistent  (Nutzungsbedingungen)</h4>
-    	<p>Lesen Sie bitte die Nutzungsbedingungen.</p>
-    	<img class="presta_scr1" src="img/01-install-1.png" alt="" />
-    	<p>Danach drücken Sie auf den Schalter 'Next/Weiter'.</p>
- 
-
-	<h4>Schritt 3: Systemkompatibilität </h4>
-  <p>Prüfen Sie die PHP-Einstellungen und die Verzeichnis Berechtigungen.  Falls Sie Probleme haben, kontaktieren Sie Ihren Hosting-Provider für Hilfe </p>
-<img class="presta_scr1" src="img/02-install.png" alt="" />
-		<p>Wenn alles richtig ist, drücken Sie auf 'Next/Weiter'.</p>
-
-<h4>Schritt 4: Shop Konfiguration</h4>
-		<p>Hier geben Sie die Shop-Einstellungen so wie: Shopname, Tätigkeit, Land, Zeitzone ein und laden Sie Ihr Logo hoch. </p>
-		<p> Später können Sie im PrestaShop Adminbereich  alle diese Einstellungen ändern. </p>
-<img class="presta_scr1" src="img/04-install.png" alt="" />
-	<h4>Schritt 5: System Einstellungen</h4>
-<p>Wenn Sie schon eine MySQL Datenbank erstellt haben, füllen Sie bitte die folgende Felder mit den passenden Datenbank-Informationen aus. </p>		
-<p> In jedem Fall können Sie die benötige Datenbank-Informationen in Ihrem Hosting-Control-Panel finden oder kontaktieren Sie einfach Ihren Hosting-Provider.</p>
-		<img class="presta_scr1" src="img/03-install.png" alt="" />
-
-		<p>Wenn Sie fertig sind, drücken Sie auf den Schalter 'Next/Weiter'.</p>
-	<h4>Schritt 6: Installation wird abgeschlossen </h4>
-		<p> Das ist der letzte Schritt der PrestaShop-Installation. </p>
-
-<img class="presta_scr1" src="img/05-install.png" alt="" />
-<h3></h3>
-	<div class="box-notification"><span>Aus Sicherheitsgründen löschen Sie bitte das <b>/install/</b> Verzeichnis auf Ihrem Hosting Server.</span></div>
-	<div class="box-info"><span>Ab Version 1.5.4 benennt PrestaShop den Administration Ordner selbst um: bekommt er das Word "admin" mit 4 Zehlen, z.B.    "admin8814". Er wird umbenennt sobald erreichen Sie erstmals den "admin" Ordner: PrestaShop benennt ihn um, und ruft den umbenennten Ordner. <br /><br /> Loggen Sie sich im PrestaShop Back-Office ein (dafür gehen Sie zum neu-umbenennten "admin" Ordner, und füllen Sie den Katalog mit Ihren Daten aus</span></div>
-	<p> Bei Schwierigkeiten lesen Sie die <a target="_blank" href="http://doc.prestashop.com/display/PS16/Getting+Started">offizielle PrestaShop Installation Anleitung</a>.</p>
-  </article>
-
-</section>
-<section class="block-templates" id="theme_installation">
-	<h2><i class="icon-cog"></i> PrestaShop Vorlage installieren</h2>
-    <article id="themeinstaller">
-    	<h3>1. Vorlage mit Hilfe vom 'themeinstallator' Modul installieren</h3>
-        <div class="box-info">
-			<span>Für diese  Methode braucht man keine Installation von Beispieldaten.</span>
         </div>
-        <h4 id="template_installation_themeinstallator1">1. Template-Vorbereitung.</h4>
-		<p>Bevor Sie losgehen, beachten Sie, dass Sie die Vorlage heruntergeladen haben und die Dateien aus Vorlage-Paket mit Hilfe von <a target="_blank" href="/help/de/unzipping-your-template.html">WinZip</a> und <a target="_blank" href="/help/de/how-unzip-template-mac.html">StuffitExpander</a> entpackt haben.</p>
-		<p>Nach dem Entpacken von Dateien können Sie anfangen die Vorlage hochzuladen.</p>
-		<h4 id="template_installation_themeinstallator2">2. Installation.</h4>
-		<p>Öffnen das PrestaShop Admin Panel, gehen Sie auf <b>Modules->Modules menu</b> (Module -> Module Menü). Auf dieser Seite öffnen Sie den <b>Administration</b> Bereich. Hier gibt es die Liste von verfügbaren Modulen. Finden den '<b>Import/export a theme</b> v1.4' und klicken Sie auf <b>Configure</b>(Konfigurieren).</p>
-
-		<img class="presta_scr2" src="img/05-install-2.png" alt="" />
-		<p></p>
-		<p>Drücken den Schalter <b>Browse</b>(Durchsuchen) und suchen Sie nach den <b>"themeinstallator"</b> Ordner innerhalb des Vorlage-Paketes, um den Archiv mit der Vorlage zu finden:</p>
-		<p></p>
-		<img class="presta_scr2" src="img/05-install-3.png" alt="" />
-
-		<p>Auf der nächsten Seite finden Sie die Information die Information über die installierte Vorlage. Klicken auf <b>Next</b>(weiter).</p>
-
-		<img class="presta_scr2" src="img/05-install-4.png" alt="" />
-
-		<p>Nach diesen Schritten erscheint sich die Meldung über die erfolgreiche Installation Ihrer Vorlage und erscheint sich auch ein Menü mit den Module Einstellungen. Klicken Sie auf <b>Next</b>(weiter).</p>
-
-		<img class="presta_scr2" src="img/05-install-5.png" alt="" />
-
-		<p>Auf dem letzten Schritt finden Sie die Info über die Änderungen, die der Module während der Installation erfüllt hat. Klicken auf  <b>Finish</b>.</p>
-	<p style="text-align:center;">
-	  <img class="presta_scr2" src="img/05-install-6.png" alt="" />
-	  </p>    
-    </article>
-    <article id="without_products">
-    	<h3>2. Template  ohne Beispieldaten installieren </h3>
-	        <div class="box-info"><span>Diese Installationsmethode passt Ihnen, wenn Sie das Shop-Theme verändern möchten. Diese Methode schadet Ihre existierende Dateien oder Produkt-Datenbank nicht. </span></div>
-        <h4 id="template_installation_clear1">1. Dateien hochladen und Theme aktivieren </h4>
-		<p>Bevor loslegen, beachten Sie bitte, dass Sie das Template schon heruntergeladen haben und die Dateien vom Vorlage-Paket entpackt haben. Lesen Sie bitte das ausführliche Tutorial über wie man Dateien vom Vorlage Paket mit Hilfe von <a target="_blank" href="/help/de/unzipping-your-template.html">WinZip</a> und <a target="_blank" href="/help/de/how-unzip-template-mac.html">StuffitExpander</a> entpackt. </p> 
-<p> Nachdem die Dateien extrahiert wurden, laden Sie die Vorlage hoch. </p>
-        <p>Schauen Sie bitte das ausführliche Video-Tutorial an: <a target="_blank" href="/help/de/how-upload-files-server-2.html">Wie man Dateien auf den Server mit Hilfe vom FTP Manager hochladet </a> und <a target="_blank" href="/help/de/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html" >Wie man Dateien auf dem Server via cPanel (WebHost Manager, WHM) hochladet</a>.</p>
-		<ol>
-			<li> Öffnen den Ordner der Vorlage.</li>
-			<li>Dann gehen Sie zum <b>/theme/</b> Ordner.</li>
-			<li>Laden Sie die Ordners <b>/img/ </b>, <b> /modules/</b> und <b>/themes/</b> im PrestaShop Root-Verzeichnis hoch. </li>
-			<li> Nach dem Hochladen öffnen Sie den PrestaShop Adminbereich. </li>
-			<li>Im Hauptmenü gehen Sie auf <b>Preferences/ Einstellungen > Appearance/ Aussehen </b>.</li>
-			<li> Im <b>Themes</b> Bereich wählen Sie Ihre Vorlage aus und drücken Sie auf dem Button <b>Save/Speichern</b>.</li>
-		</ol>
-		<p> Ihr neues Theme soll aktiv sein. Jetzt konfigurieren wir die Module. </p>
-
-	        <h4 id="template_installation_clear2">2. Module installieren und konfigurieren </h4>
-<p> Jede Vorlage hat einige spezifische Einstellungen von Module. Konfigurieren Sie die Module, damit sie gleich wie in der Demo aussehen. Alle Module können im PrestaShop AdminBereich konfiguriert werden. </p>
-		<p><b>1. Im PrestaShop Admin-Bereich wählen Sie aus dem Hauptmenü Modules > Modules (Module  >Module)aus. </b></p>
-		<p>Auf der Modules Seite gibt es die Liste von verfügbaren PrestaShop Module. Möglicherweise müssen Sie einige von Ihnen installieren. </p>
-		<p>Um den Modul zu installieren, finden Sie ihn in der Liste und drücken Sie auf den Button <b>'Install/installieren'</b>:</p>
-
-<img class="presta_scr2" src="img/06-modules.png" alt="" />
-        <p></p>
-		<p>Nach der korrekten Installation bekommen Sie die folgende Nachricht:</p>
-<img class="presta_scr2" src="img/07-modules.png" alt="" />
-        <p></p>
-		<p> Mit den Modul Links können Sie Module aktivieren (<b>Enable/Aktivieren</b>|<b>Disable/ Deaktivieren</b> Links), Einstellungen auf die Standardwerte zurücksetzen (<b>Reset/Zurücksetzen</b> Link), Modul löschen (<b>Delete/Löschen</b> Link) oder sie konfigurieren (<b>Configure/ Konfiguration </b> Link).</p>
-<img class="presta_scr2" src="img/08-modules.png" alt="" />
-<p></p>
-		<p><b>2. Nach der Aktivierung von  alle benötige Module weisen Sie ihnen korrekten Positionen zu. </b></p>
-		<p> Im PrestaShop AdminBereich fahren Sie mit ihrer Maus über den Punkt <b> Modules/Module</b> und klicken anschließend im Untermenü auf <b>Positions/Positionen </b>. Um den Modul im benötigen Position sitzen zu lassen, ziehen Sie ihn einfach zum Position-Bereich der Modul-Liste.</p>
-<img class="presta_scr2" src="img/09-modules.png" alt="" />
-		<p></p>
-<div class="box-info" style="margin-bottom:0;"><span>Nach den Änderungen müssen Sie manchmal die Bilder neu generieren. Das erreichen Sie im Bereich <b>Regenerate thumbnails/ Artikelbilder neu generieren</b>. </span></div>
-    </article>
-    <article id="with_products">
-    	<h3>3. Template mit Beispieldaten installieren</h3>
-	<p>Nach der Installation von <b>Beispieldateien</b> wird  Ihr PrestaShop ähnlich wie auf der Vorschauseite aussehen. Dort gibt es alle Beispielprodukte, Einstellungen vom Shop und von Module usw.  </p>
-	<div class="box-error"><span>Verwenden Sie keine Beispieldateien, wenn Sie eine aktive Webseite haben! Dies überschreibt alle Artikel und Einstellungen Ihres Shops.</span></div>
-
-		<h4 id="template_installation_sample1">1. Dateien der Vorlage hochladen</h4>
-<p>Damit Sie eine Vorlage auf den Server hochladen</p>
-		<ol class="list">
-			<li> Öffnen Sie das Vorlage-Paket</li>
-			<li> Dann gehen Sie zum <b>/theme/</b> Ordner</li>
-			<li> Im Presta Shop Root-Verzeichnis laden Sie die Ordner <b>/img/</b>, <b>/modules/</b> und <b>/themes/</b> </li>
-		</ol>
-        <p>Schauen Sie die ausführliche Video-Tutorials an:  <a target="_blank" href="/help/de/how-upload-files-server-2.html">Wie man Dateien auf den Server mit Hilfe vom FTP Manager hochladet </a> und <a href="/help/de/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html" target="_blank">Wie man Deteien via cPanel hochladet (WebHost Manager, WHM)</a>.</p>
-        <h4 id="template_installation_sample2">2. 
-Beispieldateien installieren</h4>
-		<p> Beispieldateien werden wie eine .SQL Datei geliefert. Die befindet sich im <b>/sources/</b> Ordner vom Vorlage-Paket und hat normalerweise den Namen <b>dump.sql</b></p>
-		<p>Die dump.sql Datei können Sie mit phpMyAdmin oder mit dem Datenbank-Managementinstrument von Ihrem Hosting-Control-Panel. Das ausführliche Tutorial <a target="_blank" href="/help/de/phpmyadmin-how-to-import-sample-data-dump-file-phpmyadmin.html">Wie man SQL Dateien installiert </a> kann Ihnen dabei helfen. </p>
-		<div class="box-notification"><span>Bevor Sie loslegen, erstellen Sie die Sicherungskopie Ihrer Datenbank. Schauen Sie das ausführliche Video-Tutorial an<a target="_blank" href="/help/de/phpmyadmin-how-to-backup-a-database.html">Wie man ein Backup von Datenbank macht</a>.</span></div>
-        <p></p>
- 
-<div class="box-notification"><span>Beachten Sie bitte, dass Ihre Version der PrestaShop Engine alle Vorlage-Anforderungen entspricht. Sonst könnte die Datenbank beschädigt werden.</span></div>
-		<p>Nach der Installation der dump.sql Datei, aktivieren Sie das Template.</p>
-<p>Im PrestaShop Adminbereich gehen Sie auf <b>Preferences/Einstellungen > Appearance/ Design</b>, wählen Sie im <b>Themes</b> Bereich Ihre Vorlage aus und drücken Sie auf <b>Save/Speichern</b>.</p>
-
-        <h4 id="template_installation_sample2">Sprachen zum Online-Shop hinzufügen. </h4>
-        <p>Nach der Installation die mehrsprachige Vorlage sollen Sie alle Sprachen, die Ihre Vorlage hat (English, Französisch, Spanish, Deutsch, Russisch), in der OnlineShop- Plattform einbauen. So erreichen Sie das: </p>
-        <p>Im Admin Panel gehen Sie auf <b>'Localization > Translations'</b> ('Localization > Übersetzungen). Dort finden Sie  <b>'Translation exchange'</b>, und wählen Sie per DropDown-Menü Sprachen aus, um sie hinzuzufügen und drücken Sie den Button  <b>'Add or update a language'</b>(eine Sprache hinzufügen oder aktualisieren). </p>
-        <img class="presta_scr2" alt="" src="img/01-language-update.png" />
-        <p>Falls Sie einige Sprache nicht hinzufügen möchten, löschen Sie die im Menü <b>'Localization > Languages'</b>(Localization > Sprachen) oder schalten Sie die aus. </p>
-        <img class="presta_scr2" alt="" src="img/02-language-update.png" />
-    </article>
-    <article id="overdata">
-    	<h3>4. Template über einen existierenden Shop installieren </h3>
-	        <div class="box-info"><span>Diese Installationsmethode passt Ihnen, wenn Sie die aktive PrestaShop Webseite haben und nun eine neue Vorlage installieren möchten. </span></div>
-
-	<h4 id="template_installation_over1">1.  Dateien hochladen und Theme aktivieren </h4>
-		<ol>
-			<li>Öffnen Sie den Ordner der Vorlage.</li>
-			<li>Danach gehen Sie zum <b>/theme/</b> Ordner.</li>
-			<li> Im PrestaShop Root-Verzeichnis laden Sie die Ordner <b>/modules/</b> und <b>/themes/</b> </li>
-			<li> Im Vorlage-Paket öffnen Sie den <b>/img/</b> Ordner und laden Sie dann Die Dateien <b>logo.jpg</b>, <b>favicon.ico</b> im <b>/img/</b> Ordner Ihrer PrestaShop Installation</li>
-			<li>Im PrestaShop AdminBereich gehen auf <b>Preferences > Themes</b>, wählen Sie Ihre Vorlage im <b>Themes</b> Bereich aus und drücken Sie schließend auf <b>Save/Speichern</b>.</li>
-		</ol>
-<p>Schauen Sie die ausführliche Video-Tutorials an:  <a target="_blank" href="/help/de/how-upload-files-server-2.html">Wie man Dateien auf den Server mit Hilfe vom FTP Manager hochladet </a> und <a href="/help/de/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html" target="_blank">Wie man Deteien via cPanel hochladet (WebHost Manager, WHM)</a>.</p>
-	<h4 id="template_installation_over2">2. Module installieren</h4>
-		<p>Im PrestaShop AdminBereich konfigurieren Sie Module wie es im Bereich <b>Vorlage ohne Beispieldaten installieren ->Module installieren und konfigurieren</b> dieser Anleitung beschreiben wird. </p>
-	 	            <div class="box-error"><span>Verwenden Sie keine Beispieldateien, wenn Sie eine aktive Webseite haben, weil alle Artikel und Einstellungen Ihres Shops überschreiben werden. .</span></div>
-        <h4 id="template_installation_clear">3. Bilder konfigurieren</h4>
-        <div class="box-notification"><span>Öffnen Sie Ihr PrestaShop Admin Panel und konfigurieren Sie die Bilder wie es im Bereich <b>Vorlage ohne Beispieldaten installieren ->Bilder konfigurieren</b> dieser Anleitung beschreiben wird.</span></div>
-    </article>
-</section>
-<section class="block-templates" id="basictutorials">
-	<h2><i class="icon-cogs"></i>Basic-Tutorials</h2>
-    <article id="changename">
-    	<h3>1. Wie ändert man den Namen des Shops </h3>
-
-<p>Um den Titel des Shops zu verändern, gehen Sie bitte im PrestaShop AdminBereich   auf <strong>Preferences/Einstellungen > Contact Information/ Kontakt Info</strong>.</p>
-
-<p>Im Feld <strong>Shop Name</strong> geben Sie den Namen Ihres Shops ein und drücken Sie dann auf den Button <strong>Save/Speichern</strong>.</p>
-<img class="presta_scr2" src="img/10-shop_name.png" alt="" />
-    </article>
-    <!--article id="header_links">
-    	<h3 id="basic_tutorials2">2. Wie bearbeitet man Links vom Header und vom Footer</h3>
-	<p> Lesen Sie bitte das ausführliche Tutorial: <a target="_blank" href="/help/de/prestashop-1-5-x-how-to-manage-footer-and-header-links.html">Wie man Links bearbeitet </a>.</p>
-    </article-->
-    <article id="eddit_slider">
-    	<h3 id="basic_tutorials4">2. Wie man einen Slider bearbeitet </h3> 
-	<p>Um die Slider-Bilder zu bearbeiten, finden Sie den <b>Image slider for your homepage</b> Modul auf der  <strong>Modules</strong>  Site von PrestaShop.  Er befindet sich im Modul-Bereich <b>Front Office Features </b> (Werbung u. Marketing). Drücken Sie auf den <strong>Configure/Konfigurieren</strong> Button, um den Modul zu bearbeiten. </p>
-        <img class="presta_scr2" src="img/12-slider-1.png" alt="" />
-	<p>Auf der Einstellungsseite des Modules ändern Sie die Optionen des Sliders (wie die Breite, Geschwindigkeit, usw.) und bearbeiten Sie Folien (Bilder für Folioen, URLs, Beschreibungen, usw.).</p>
-        <img class="presta_scr2" src="img/12-slider-2.png" alt="" />
-    </article>
-</section>
-<section class="block-templates" id="cookiepolicy">
-	<h2><i class="icon-exclamation-sign"></i> Cookies-Politik</h2>
-	<p>Nach der Cookie-Richtlinie müssen Sie entsprechende Modulen auf Ihre Website hinzufügen, die benachrichtigen, sobald Cookies verwendet werden. Wir empfehlen folgendes:</p>
-	<ul>
-		<li><a target="_blank" href="http://addons.prestashop.com/en/front-office-features-prestashop-modules/8704-eu-cookie-law.html">Module EU Cookie Law</a></li>
-		<li><a target="_blank" href="http://addons.prestashop.com/en/administration-tools-prestashop-modules/10376-alert-for-eu-cookie-law.html">Module Alert for EU Cookie Law</a></li>
-	</ul>
-</section>
-<section class="block-templates" id="conclusion">
-	<h2><i class="icon-question-sign"></i> Conclusion</h2>
-    <h4 id="useful_resources">Nützliche Quellen</h4>
-    <ul>
-        <li><a target="_blank" href="http://www.prestashop.com/">Offizielle Seite von PrestaShop </a></li>
-        <!--li><a target="_blank" href="/help/de/ecommerce/prestashop/prestashop-tutorials/">PrestaShop Tutorials</a></li-->
-        <li><a target="_blank" href="http://www.prestashop.com/en/downloads/">Downloads</a></li>
-        <li><a target="_blank" href="http://addons.prestashop.com/en/"> Add-ons: Module, Themes, usw.</a></li>
-        <li><a target="_blank" href="http://doc.prestashop.com/display/PS16/English+documentation">Dokumentation auf Englisch</a></li>
-        <li><a target="_blank" href="http://www.prestashop.com/forums/">Forum</a></li>
-        <li><a target="_blank" href="http://www.prestashop.com/wiki/">Wiki</a></li>
-    </ul>
-</section>
+    </div>
 </div>
+<!-- Footer
+ ================================================== -->
+<footer>
+    <div class="container">
+        <div class="span12">
+            <span>PrestaShop Documentation</span><br/>
+            &copy; <span id="date"></span> <span id="copyright">Template Monster</span>
+        </div>
+    </div>
+</footer>
+<div id="back-top">
+    <a href="#"><i class="icon-double-angle-up"></i></a>
 </div>
-</div>
-
-  </div>
-  </div>
-  </div>
-   <!-- Footer
-    ================================================== -->
-	<footer>
-		  <div class="container">        
-		   <div class="span12">
-			<span>PrestaShop Documentation</span><br />
-			&copy; <span id="date"></span> <span id="copyright">Template Monster</span>
-		   </div>
-		  </div>
-	</footer>
-    <div id="back-top">
-        <a href="#"><i class="icon-double-angle-up"></i></a>
-      </div>
 <!-- <script src="js/bootstrap-scrollspy.js"></script>  -->
 
-    
-</body> 
+
+</body>
 
 </html>
