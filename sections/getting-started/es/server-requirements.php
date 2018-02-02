@@ -13,12 +13,3 @@
 <p class="alert alert-info">PrestaShop funcionará con PHP 5.1 o posterior, pero las versiones inferiores a 5.4 tienen
     errores que pueden impedir que algunas funciones, no funcionen como se esperaba (como la zona horaria de fecha no
     válida).</p>
-<h4>¿Necesitas un proveedor de hosting sólido? ¡Recomendamos SiteGround!</h4>
-<p style="text-align:center;">
-    <a target="_blank" href="https://goo.gl/VyS3yQ"><img
-                src="https://www.templatemonster.com/help/wp-content/uploads/2018/01/SG_banner.png"
-                alt="SiteGround Hosting">
-    </a>
-</p>
-<h5 style="text-align:center;"><strong>Plataforma de alto rendimiento adecuada para proyectos de todos los
-        tamaños</strong></h5>
