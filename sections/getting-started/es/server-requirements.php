@@ -18,9 +18,9 @@
 <p class="alert alert-info"> PrestaShop funcionar&aacute; con PHP 5.1 o superior, pero las versiones anteriores a la
     5.2 tienen errores que podr&iacute;an hacer que algunas caracter&iacute;sitcas no funcionen correctamente (como
     la validaci&oacute;n de fechas).</p>
-<h4>¿Necesitas un proveedor de hosting sólido? ¡Recomendamos SiteGround!</h4>
-<p style="text-align:center;">
-    <a target="_blank" href="https://goo.gl/VyS3yQ"><img src="https://www.templatemonster.com/help/wp-content/uploads/2018/01/SG_banner.png" alt="SiteGround Hosting">
-    </a>
-</p>
-<h5 style="text-align:center;"><strong>Plataforma de alto rendimiento adecuada para proyectos de todos los tamaños</strong></h5>
+<!--<h4>¿Necesitas un proveedor de hosting sólido? ¡Recomendamos SiteGround!</h4>-->
+<!--<p style="text-align:center;">-->
+<!--    <a target="_blank" href="https://goo.gl/VyS3yQ"><img src="https://www.templatemonster.com/help/wp-content/uploads/2018/01/SG_banner.png" alt="SiteGround Hosting">-->
+<!--    </a>-->
+<!--</p>-->
+<!--<h5 style="text-align:center;"><strong>Plataforma de alto rendimiento adecuada para proyectos de todos los tamaños</strong></h5>-->
