@@ -20,11 +20,11 @@
 <p class="alert alert-info"> PrestaShop funktioniert mit PHP 5.1 oder höher, weil die Versionen vor 5.2 Fehler
     enthalten. Aus diesem Grund funktionieren einige Funktionen nicht korrekt (zum Beispiel, falsches Datum der
     Zeitzonen).</p>
-<h4>Brauchen Sie einen vertrauenswürdigen Hosting-Anbieter? Wir empfehlen Ihnen SiteGround!</h4>
-<p style="text-align:center;">
-    <a target="_blank" href="https://goo.gl/VyS3yQ"><img
-                src="https://www.templatemonster.com/help/wp-content/uploads/2018/01/SG_banner.png"
-                alt="SiteGround Hosting">
-    </a>
-</p>
-<h5 style="text-align:center;"><strong>Es ist eine Hochleistungs-Plattform für Projekte aller Größen</strong></h5>
+<!----><h4>Brauchen Sie einen vertrauenswürdigen Hosting-Anbieter? Wir empfehlen Ihnen SiteGround!</h4>-->
+<!--<p style="text-align:center;">-->
+<!--    <a target="_blank" href="https://goo.gl/VyS3yQ"><img-->
+<!--                src="https://www.templatemonster.com/help/wp-content/uploads/2018/01/SG_banner.png"-->
+<!--                alt="SiteGround Hosting">-->
+<!--    </a>-->
+<!--</p>-->
+<!--<h5 style="text-align:center;"><strong>Es ist eine Hochleistungs-Plattform für Projekte aller Größen</strong></h5>
